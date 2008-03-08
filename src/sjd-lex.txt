@@ -18,6 +18,7 @@ Multichar_Symbols
 +Qst
 +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
 
+%^WG %^DI
 
 ! Key lexicon
 
@@ -45,17 +46,17 @@ Particle ;
 ! ===============
 
 
-LEXICON KALL
+LEXICON KULL
 
 +N+Sg+Nom: K ;
-+N+Sg+Acc:X3 K ;
-+N+Sg+Gen:X3 K ;
++N+Sg+Acc:%^WG K ;
++N+Sg+Gen:%^WG K ;
 +N+Sg+Ill:%>а K ;
-+N+Sg+Ine:%>эсьт K ;
++N+Sg+Ine:%^WG%>эсьт K ;
 +N+Sg+Ela:%>ха K ;
 +N+Sg+Com:%>энѣ K ;
-+N+Sg+Ess:%>энѣ K ;
-+N+Sg+Par:%>ко K ;
++N+Ess:%>энѣ K ;
++N+Par:%>ко K ;
 
 
 LEXICON K
