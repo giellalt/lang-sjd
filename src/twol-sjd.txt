@@ -14,17 +14,16 @@ Alphabet
   ӓ Ӓ
   %´:0 %,:%´ %>:0
   %^1VOW:0 %^2VOW:0 %^3VOW:0 %^4VOW:0 %^5VOW:0 %^VOWSH:0
-  X3:0 ;
+  %^WG:0 ;
 
 Sets
- C		= б Б в В г Г д Д ж Ж з З й Й к К л Л м М н Н п П р Р 
+ C	= б Б в В г Г д Д ж Ж з З й Й к К л Л м М н Н п П р Р 
           с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ ъ Ъ ь Ь э Э ј Ј ҋ Ҋ 
           ҍ Ҍ ҏ Ҏ қ Қ ң Ң ӆ Ӆ ӊ Ӊ ӎ Ӎ ;
- V		= а А е Е и И о О у У ы Ы ю Ю я Я ё Ё ӓ Ӓ ;
+ V	= а А е Е и И о О у У ы Ы ю Ю я Я ё Ё ӓ Ӓ ;
  PALVOW = е Е и И ю Ю я Я ё Ё ;
  NPLVOW = а А о О у У ы Ы э Э ;
- WeG    = X3 ;
-
+ Dummy  = %^WG %^DI;
 
 
 !Definitions
@@ -34,43 +33,43 @@ Rules
 
 
 "Quantitative CG"
- Cx:0 <=> V: Cx _ V* X3:0 ;
- where Cx in ( л ) ; 
+ Cx:0 <=> Cx _ (ь:) %^WG: ;
+ where Cx in ( в л с з ) ; 
 
 "Palatal Suffix Vowel"
- Vx:Vy <=> ь: %>: _ ;
-       where Vx in ( я Я е Е и И ё Ё ю Ю )
-       	     Vy in ( a A э Э ы Ы o O у У )
+ Vx:Vy <=> ь: (Dummy:) %>:0 _ ;
+       where Vx in ( а А э Э ы Ы o O у У )
+       	     Vy in ( я Я е Е и И ё Ё ю Ю )
 	     matched ;
 
 "Palatal Mark Deletion"
- ь:0 <=> C: _ %> [ я | Я | е | Е | и | И | ё | Ё | ю | Ю ] ;
+ ь:0 <=> C: _ (Dummy:) %>:0 [ :я | :Я | :е | :Е | :и | :И | :ё | :Ё | :ю | :Ю ] ;
 
 ! These are just the sms rules
 
 !! !"´:0 rule"
-!! ! %´:0 <=> V: _ C:+ (X3:) [ %^VOWSH: | %^1VOW: | %^2VOW: ] ;
+!! ! %´:0 <=> V: _ C:+ (%^WG:) [ %^VOWSH: | %^1VOW: | %^2VOW: ] ;
 !! 
 !! "Even syllabic verbs I, ´:0 blocking"
-!!  %´:0 /<= V: _ C:+ (X3:) [ %^3VOW: | %^4VOW: | %^5VOW: ] ;
+!!  %´:0 /<= V: _ C:+ (%^WG:) [ %^3VOW: | %^4VOW: | %^5VOW: ] ;
 !! 
 !! 
 !! "Even syllabic verbs I, vowel shortening"
-!!  Vx:0 <=> Vy: _ (´) C:+ (X3:) [ %^VOWSH: | %^2VOW: | %^3VOW: | %^4VOW: ] ;
+!!  Vx:0 <=> Vy: _ (´) C:+ (%^WG:) [ %^VOWSH: | %^2VOW: | %^3VOW: | %^4VOW: ] ;
 !!  		where Vx in (â e å õ u i o a)
 !!  			  Vy in (â e å õ u i o a)
 !!  		matched ;
 !! 
 !! 
 !! "Even syllabic verbs I, vowel position I > II-III"
-!!  Vx:Vy <=> (C:+) _ V: (´:) C:+ (X3:) [ %^2VOW: | %^3VOW: ] ;
+!!  Vx:Vy <=> (C:+) _ V: (´:) C:+ (%^WG:) [ %^2VOW: | %^3VOW: ] ;
 !!  		where Vx in (â o e å ä)
 !!  			  Vy in (õ u i o a)
 !!  		matched ;
 !! 
 !! "Even syllabic verbs I, vowel position II > I"
-!!  Vx:Vy <=> (C:+) _ V: ´:0 C:+ (X3:) %^1VOW: ;
-!!  		   (C:+) V: _ ´:0 C:+ (X3:) %^1VOW: ;
+!!  Vx:Vy <=> (C:+) _ V: ´:0 C:+ (%^WG:) %^1VOW: ;
+!!  		   (C:+) V: _ ´:0 C:+ (%^WG:) %^1VOW: ;
 !!  		   (C:+) _ ´:0 C:+ %^1VOW: ;
 !!  		where Vx in (õ u i o a)
 !!  			  Vy in (â o e å ä)
@@ -84,50 +83,50 @@ Rules
 !!  		matched ;
 !! 
 !! "Even syllabic verbs I, diftong position I > II â:õ"
-!!  â:õ <=> (C:+) [ e: | u: ] _ (´:) C:+ (X3:) [ %^2VOW: | %^3VOW: ] ;
+!!  â:õ <=> (C:+) [ e: | u: ] _ (´:) C:+ (%^WG:) [ %^2VOW: | %^3VOW: ] ;
 !! 
 !! "Even syllabic verbs I, diftong position I > II ä:a"
-!!  ä:a <=> (C:+) [ e: | u: ] _ (´:) C:+ (X3:) %^2VOW: ;
+!!  ä:a <=> (C:+) [ e: | u: ] _ (´:) C:+ (%^WG:) %^2VOW: ;
 !! 
 !! "Even syllabic verbs I, diftong position I > II ä:e"
-!!  ä:e <=> (C:+) [ e: | u: ] _ (´:) C:+ (X3:) %^3VOW: ;
+!!  ä:e <=> (C:+) [ e: | u: ] _ (´:) C:+ (%^WG:) %^3VOW: ;
 !! 
 !! 
 !! "Even syllabic verbs I, diftong position II > I & IV i:e"
-!!  i:e <=> (C:+) _ [ õ:â | a:ä ] (´) C:+ (X3:) [ %^1VOW: | %^4VOW: ] ;
+!!  i:e <=> (C:+) _ [ õ:â | a:ä ] (´) C:+ (%^WG:) [ %^1VOW: | %^4VOW: ] ;
 !! 
 !! "Even syllabic verbs I, diftong position II > I & IV õ:â"
-!!  Vx:Vy <=> (C:+) [ i:e | u: ] _ (´) C:+ (X3:) [ %^1VOW: | %^4VOW: ] ;
+!!  Vx:Vy <=> (C:+) [ i:e | u: ] _ (´) C:+ (%^WG:) [ %^1VOW: | %^4VOW: ] ;
 !!  		where Vx in (õ a)
 !!  			  Vy in (â ä)
 !!  		matched ;
 !! 
 !! "Even syllabic verbs I, diftong position II > III a:e"
-!!  a:e <=> (C:+) [ i: | u: ] _ (´) C:+ (X3:) [ %^3VOW: ] ;
+!!  a:e <=> (C:+) [ i: | u: ] _ (´) C:+ (%^WG:) [ %^3VOW: ] ;
 !! 
 !! 
 !! !e:â e:õ
 !! "Even syllabic verbs I, diftong position V > I & IV i:e"
-!!  i:e <=> (C:+) _ [e: | â:] ´: C:+ (X3:) [ %^1VOW: | %^4VOW: ] ;
+!!  i:e <=> (C:+) _ [e: | â:] ´: C:+ (%^WG:) [ %^1VOW: | %^4VOW: ] ;
 !! 
 !! "Even syllabic verbs I, diftong position V > I & IV e:â"
-!!  e:â <=> (C:+) [i: | u:] _ ´: C:+ (X3:) [ %^1VOW: | %^4VOW: ] ;
+!!  e:â <=> (C:+) [i: | u:] _ ´: C:+ (%^WG:) [ %^1VOW: | %^4VOW: ] ;
 !! 
 !! "Even syllabic verbs I, diftong position V > I & IV â:ä"
-!!  â:ä <=> (C:+) [i: | u:] _ ´: C:+ (X3:) [ %^1VOW: | %^4VOW: ] ;
+!!  â:ä <=> (C:+) [i: | u:] _ ´: C:+ (%^WG:) [ %^1VOW: | %^4VOW: ] ;
 !! 
 !! "Even syllabic verbs I, diftong position V > II & III e:õ"
-!!  e:õ <=> (C:+) [i: | u:] _ ´: C:+ (X3:) [ %^2VOW: | %^3VOW: ] ;
+!!  e:õ <=> (C:+) [i: | u:] _ ´: C:+ (%^WG:) [ %^2VOW: | %^3VOW: ] ;
 !! 
 !! "Even syllabic verbs I, diftong position V > II & III â:a"
-!!  â:a <=> (C:+) [ i: | u: ] _ ´: C:+ (X3:) %^2VOW: ;
+!!  â:a <=> (C:+) [ i: | u: ] _ ´: C:+ (%^WG:) %^2VOW: ;
 !! 
 !! "Even syllabic verbs I, diftong position V > II & III â:e"
-!!  â:e <=> (C:+) [ i: | u: ] _ ´ C:+ (X3:) %^3VOW: ;
+!!  â:e <=> (C:+) [ i: | u: ] _ ´ C:+ (%^WG:) %^3VOW: ;
 !! 
 !! 
 !! 
 !! 
 !! "Even syllabic verbs I, cg"
-!!  Cx:0 <=> C:+ _ X3: ;
+!!  Cx:0 <=> C:+ _ %^WG: ;
 !!  		where Cx in (đ l r) ;
