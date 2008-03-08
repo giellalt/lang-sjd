@@ -1,0 +1,10 @@
+! Numerals
+
+LEXICON Numeral
+окта num ;
+
+LEXICON num
++Num: # ;
+
+
+
