@@ -13,11 +13,7 @@ Multichar_Symbols
 
 ! Nominal MSP
 +Sg +Pl
-+Nom +Acc +Gen +Abl +Dat +Abe 
-+Adc 
-+Ins +Apr +Ine +Ill +Ela +Egr
-+Prl +Apr
-+Com +Cns +Tra +Ter
++Nom +Acc +Gen +Ill +Ine +Ela +Com +Ess +Par
 +Ord
 +Qst
 +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
@@ -28,6 +24,7 @@ Multichar_Symbols
 LEXICON Root
 
 Noun ;
+Propernoun ;
 Verb ;
 Adjective ;
 Adverb ;
@@ -38,12 +35,27 @@ Numeral ;
 Pronoun ;
 Postposition ;
 Punctuation ;
+Particle ;
+
+
+! =========
+! Inflection !
+
+! Noun inflection
+! ===============
 
 
 LEXICON KALL
-+N+Nom: K ;
-+N+Gen:X3 K ;
 
++N+Sg+Nom: K ;
++N+Sg+Acc:X3 K ;
++N+Sg+Gen:X3 K ;
++N+Sg+Ill:%>а K ;
++N+Sg+Ine:%>эсьт K ;
++N+Sg+Ela:%>ха K ;
++N+Sg+Com:%>энѣ K ;
++N+Sg+Ess:%>энѣ K ;
++N+Sg+Par:%>ко K ;
 
 
 LEXICON K
