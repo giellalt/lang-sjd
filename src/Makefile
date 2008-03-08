@@ -51,17 +51,17 @@ caseconv.fst: ../bin/caseconv.fst
 
 
 sjd.save: ../bin/sjd.save
-../bin/sjd.save: ../bin/twol-sjd.bin sjd-lex.txt adj-sjd-lex.txt \
-adv-sjd-lex.txt conjunction-sjd-lex.txt interjection-sjd-lex.txt \
-noun-sjd-lex.txt numeral-sjd-lex.txt pp-sjd-lex.txt \
+../bin/sjd.save: ../bin/twol-sjd.bin sjd-lex.txt adj-sjd-lex.txt propernoun-sjd-lex.txt \
+adv-sjd-lex.txt conjunction-sjd-lex.txt subjunction-sjd-lex.txt interjection-sjd-lex.txt \
+noun-sjd-lex.txt numeral-sjd-lex.txt pp-sjd-lex.txt particle-sjd-lex.txt \
 pronoun-sjd-lex.txt punct-sjd-lex.txt verb-sjd-lex.txt 
 	@echo
 	@echo "*** Building sjd.save ***" ;
 	@echo
-	printf "compile-source sjd-lex.txt adj-sjd-lex.txt \
-	adv-sjd-lex.txt conjunction-sjd-lex.txt interjection-sjd-lex.txt \
-	noun-sjd-lex.txt numeral-sjd-lex.txt pp-sjd-lex.txt \
-	pronoun-sjd-lex.txt punct-sjd-lex.txt verb-sjd-lex.txt  \n\
+	printf "compile-source sjd-lex.txt adj-sjd-lex.txt propernoun-sjd-lex.txt \
+	adv-sjd-lex.txt conjunction-sjd-lex.txt subjunction-sjd-lex.txt \
+	interjection-sjd-lex.txt noun-sjd-lex.txt numeral-sjd-lex.txt pp-sjd-lex.txt \
+	particle-sjd-lex.txt pronoun-sjd-lex.txt punct-sjd-lex.txt verb-sjd-lex.txt  \n\
 	read-rules ../bin/twol-sjd.bin \n\
 	compose-result \n\
 	save-result ../bin/sjd.save \n\

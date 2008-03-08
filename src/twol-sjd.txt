@@ -21,6 +21,8 @@ Sets
           с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ ъ Ъ ь Ь э Э ј Ј ҋ Ҋ 
           ҍ Ҍ ҏ Ҏ қ Қ ң Ң ӆ Ӆ ӊ Ӊ ӎ Ӎ ;
  V		= а А е Е и И о О у У ы Ы ю Ю я Я ё Ё ӓ Ӓ ;
+ PALVOW = е Е и И ю Ю я Я ё Ё ;
+ NPLVOW = а А о О у У ы Ы э Э ;
  WeG    = X3 ;
 
 
@@ -34,6 +36,15 @@ Rules
 "Quantitative CG"
  Cx:0 <=> V: Cx _ V* X3:0 ;
  where Cx in ( л ) ; 
+
+"Palatal Suffix Vowel"
+ Vx:Vy <=> ь: %>: _ ;
+       where Vx in ( я Я е Е и И ё Ё ю Ю )
+       	     Vy in ( a A э Э ы Ы o O у У )
+	     matched ;
+
+"Palatal Mark Deletion"
+ ь:0 <=> C: _ %> [ я | Я | е | Е | и | И | ё | Ё | ю | Ю ] ;
 
 ! These are just the sms rules
 

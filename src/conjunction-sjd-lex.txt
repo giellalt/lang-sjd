@@ -4,8 +4,3 @@ LEXICON CC
 LEXICON Conjunction
 я CC ;
 
-LEXICON CS 
-+CS: # ;
-
-LEXICON Subjunction
-что CS ;
