@@ -1,2 +1,3 @@
 LEXICON Noun 
-калль KALL ;
+кулль KULL "рыба" ;
+кусс  KULL "ель" ;
