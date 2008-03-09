@@ -46,19 +46,32 @@ Particle ;
 ! ===============
 
 
-LEXICON KULL
+LEXICON 1D
 
-+N+Sg+Nom: K ;
-+N+Sg+Acc:%^WG K ;
-+N+Sg+Gen:%^WG K ;
-+N+Sg+Ill:%>а K ;
-+N+Sg+Ine:%^WG%>эсьт K ;
-+N+Sg+Ela:%>ха K ;
-+N+Sg+Com:%>энѣ K ;
-+N+Ess:%>энѣ K ;
-+N+Par:%>ко K ;
++N+Sg+Nom: K ;			 ! Им.
++N+Sg+Acc:%^WG K ;		 ! Вин.
++N+Sg+Gen:%^WG K ;		 ! Род.
++N+Sg+Ill:%>а K ;		 ! Дат.-напр
++N+Sg+Ine:%^WG%>эсьт K ; ! Местн.
++N+Sg+Ela:%>ха K ;		 ! Лишит.
++N+Sg+Com:%>энѣ K ;		 ! Совм.
++N+Ess:%>энѣ K ;		 ! Превр.
++N+Par:%>ко K ;			 ! 
+
+
+LEXICON 2D
+# ;
+LEXICON 3D
+# ;
+LEXICON 4D
+# ;
+LEXICON 5D
+# ;
+
+
+
 
 
 LEXICON K
 # ;
-+Qst:го # ;
++Qst:го # ; ! Dummy clitic only!
