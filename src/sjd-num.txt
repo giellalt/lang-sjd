@@ -6,12 +6,12 @@
 
 LEXICON Root
 HUNDREDSM ;		! 200M
-чӯдть:1 HUNDREDM ;	! 100M
+чӯдтҍ:1 HUNDREDM ;	! 100M
 TENSM ;			! 20-99M
 TEENSM ;		! 10-19M
 ONESM ;			! 1-9M
 HUNDREDST ;		! 200000-999999
-чӯдть:1 HUNDREDT ;	! 100000-100999
+чӯдтҍ:1 HUNDREDT ;	! 100000-100999 чӯдтҍ
 TENST ;			! 20000-99999,10000-10999
 TEENST ;		! 11000-19999
 ONEST ;			! 2000-9999
@@ -32,7 +32,7 @@ LEXICON HUNDREDSM
 аххц:9 CUODIM ;
 
 LEXICON CUODIM
-чӯдть: HUNDREDM ;
+чӯдтҍ: HUNDREDM ;
 
 LEXICON HUNDREDM
 TENSM ;
@@ -55,10 +55,10 @@ LEXICON TEENM
 аххц:9 LOHKAIM ;
 
 LEXICON LOHKAIM
-лоагкь: MILJON ;
+лаогкь: MILJON ;
 
 LEXICON TENSM
-лоагкь:1%0 MILJON ;
+лаогкь:1%0 MILJON ;
 кӯһт:2 LOGIM ;
 ко̄ллм:3 LOGIM ;
 не̄лльй:4 LOGIM ;
@@ -69,8 +69,8 @@ LEXICON TENSM
 аххц:9 LOGIM ;
 
 LEXICON LOGIM
-лоагкь:%0 MILJON ;
-лоагкь: ONESM ;
+лаогкь:%0 MILJON ;
+лаогкь: ONESM ;
 
 LEXICON ONESM
 миллион% :1 OVERTHOUSANDS ;
@@ -92,7 +92,7 @@ LEXICON MILJON
 
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		! x00.000.000
-чӯдть:1 HUNDREDT ;	! 100.000.000
+чӯдтҍ:1 HUNDREDT ;	! 100.000.000
 :%0 TENST ;		!  20.000.000
 :%0 TEENST ;		!  10.000.000
 :%0%0 ONEST ;		!   2.000.000
@@ -114,7 +114,7 @@ LEXICON HUNDREDST
 аххц:9 CUODIT ;	! 900000-999999
 
 LEXICON CUODIT
-чӯдть: HUNDREDT ;	! 100000-199999
+чӯдтҍ: HUNDREDT ;	! 100000-199999
 
 LEXICON HUNDREDT	! X = 1-9, Y = 0-9
 TENST ;			! X2XYYY, X10YYY
@@ -127,11 +127,11 @@ LEXICON TEENST
 :1 TEENT ;
 
 LEXICON TEENT
-лоагкь:%0 THOUSANDS ;
+лаогкь:%0 THOUSANDS ;
 э̄ххт:1 LOHKAITE ;
 кӯһт:2 LOHKAITE ;
 ко̄ллм:3 LOHKAITE ;
-не̄лльемплоагкь:4 THOUSANDS ;
+не̄лльемплаогкь:4 THOUSANDS ;
 выдт:5 LOHKAITE ;
 кудт:6 LOHKAITE ;
 кыджемь:7 LOHKAITJE ;
@@ -139,20 +139,20 @@ LEXICON TEENT
 аххц:9 LOHKAITE ;
 
 LEXICON LOHKAITE
-эмплоагкь: THOUSANDS ;
+эмплаогкь: THOUSANDS ;
 
 LEXICON LOHKAITJE
-емплоагкь: THOUSANDS ;
+емплаогкь: THOUSANDS ;
 
 LEXICON TENST
-кӯһтлоагкь:2 LOGIT ;
-ко̄ллмлоагкь:3 LOGIT ;
-не̄лльйлоагкь:4 LOGIT ;
-выдтлоагкь:5 LOGIT ;
-кудтлоагкь:6 LOGIT ;
-кыджемьлоагкь:7 LOGIT ;
-ка̄ххцлоагкь:8 LOGIT ;
-аххцлоагкь:9 LOGIT ;
+кӯһтлаогкь:2 LOGIT ;
+ко̄ллмлаогкь:3 LOGIT ;
+не̄лльйлаогкь:4 LOGIT ;
+выдтлаогкь:5 LOGIT ;
+кудтлаогкь:6 LOGIT ;
+кыджемьлаогкь:7 LOGIT ;
+ка̄ххцлаогкь:8 LOGIT ;
+аххцлаогкь:9 LOGIT ;
 
 LEXICON LOGIT
 :%0 THOUSANDS ;
@@ -185,7 +185,7 @@ UNDERTHOUSAND ;	   ! 1100-1999
 
 LEXICON UNDERTHOUSAND
 HUNDREDS ;
-чӯдть:1 HUNDRED ;
+чӯдтҍ:1 HUNDRED ;
 
 LEXICON HUNDREDS
 кӯһт:2  CUODI ;
@@ -198,7 +198,7 @@ LEXICON HUNDREDS
 аххц:9 CUODI ;
 
 LEXICON CUODI
-чӯдть: HUNDRED ;
+чӯдтҍ: HUNDRED ;
 
 LEXICON HUNDRED
 TENS ;
@@ -213,7 +213,7 @@ LEXICON TEEN
 э̄ххт:1 LOHKAIE ;
 кӯһт:2 LOHKAIE ;
 ко̄ллм:3 LOHKAIE ;
-не̄лльемплоагкь:4 # ;
+не̄лльемплаогкь:4 # ;
 выдт:5 LOHKAIE ;
 кудт:6 LOHKAIE ;
 кыджемь:7 LOHKAIJE ;
@@ -221,13 +221,13 @@ LEXICON TEEN
 аххц:9 LOHKAIE ;
 
 LEXICON LOHKAIE
-эмплоагкь: # ;
+эмплаогкь: # ;
 
 LEXICON LOHKAIJE
-емплоагкь: # ;
+емплаогкь: # ;
 
 LEXICON TENS
-лоагкь:1%0 # ;
+лаогкь:1%0 # ;
 кӯһт:2 LOGI ;
 ко̄ллм:3 LOGI ;
 не̄лльй:4 LOGI ;
@@ -238,8 +238,8 @@ LEXICON TENS
 аххц:9 LOGI ;
 
 LEXICON LOGI
-лоагкь:%0 # ;
-лоагкь: ONES ;
+лаогкь:%0 # ;
+лаогкь: ONES ;
 
 LEXICON ONES
 э̄ххт:1 # ;
