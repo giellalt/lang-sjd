@@ -1,8 +1,9 @@
 !Distributed under the terms of the GNU General Public License version 2 
 ! or any later version.
 
-! This file is copied, brute-force, from sme. It now contains sme
-! number words. It should be translated into sjd.
+! Converting sjd number words into arabic numerals
+! and vice versa.
+
 
 LEXICON Root
 HUNDREDSM ;		! 200M
@@ -55,10 +56,10 @@ LEXICON TEENM
 аххц% :9 LOHKAIM ;
 
 LEXICON LOHKAIM
-лаогкь% : MILJON ;
+лоагкь% : MILJON ;
 
 LEXICON TENSM
-лаогкь% :1%0 MILJON ;
+лоагкь% :1%0 MILJON ;
 кӯһт% :2 LOGIM ;
 ко̄ллм% :3 LOGIM ;
 не̄лльй% :4 LOGIM ;
@@ -69,11 +70,11 @@ LEXICON TENSM
 аххц% :9 LOGIM ;
 
 LEXICON LOGIM
-лаогкь% :%0 MILJON ;
-лаогкь% : ONESM ;
+лоагкь% :%0 MILJON ;
+лоагкь% : ONESM ;
 
 LEXICON ONESM
-миллион% % :1 OVERTHOUSANDS ;
+миллион% :1 OVERTHOUSANDS ;
 кӯһт% :2 MILJON ;
 ко̄ллм% :3 MILJON ;
 не̄лльй% :4 MILJON ;
@@ -84,7 +85,7 @@ LEXICON ONESM
 аххц% :9 MILJON ; 
 
 LEXICON MILJON
-% миллион% % : OVERTHOUSANDS ;
+миллион% : OVERTHOUSANDS ;
 
 ! =================
 ! Under the million
@@ -93,15 +94,15 @@ LEXICON MILJON
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		! x00.000.000
 чӯдтҍ% :1 HUNDREDT ;	! 100.000.000
-% :%0 TENST ;		!  20.000.000
-% :%0 TEENST ;		!  10.000.000
-% :%0%0 ONEST ;		!   2.000.000
+:%0 TENST ;		!  20.000.000
+:%0 TEENST ;		!  10.000.000
+:%0%0 ONEST ;		!   2.000.000
 тоафант% :%0%01 THOUSAND ;	!   1.000.000
-% :%0%0%0 UNDERTHOUSAND ;	
-% :%0%0%0%0 TENS ;
-% :%0%0%0%0 TEENS ;
-% :%0%0%0%0%0 ONES ;
-% :%0%0%0%0%0%0 # ;	!  x000000
+:%0%0%0 UNDERTHOUSAND ;	
+:%0%0%0%0 TENS ;
+:%0%0%0%0 TEENS ;
+:%0%0%0%0%0 ONES ;
+:%0%0%0%0%0%0 # ;	!  x000000
 
 LEXICON HUNDREDST
 кӯһт% :2  CUODIT ;	! 200000-299999
@@ -227,7 +228,7 @@ LEXICON LOHKAIJE
 емплаогкь% : # ;
 
 LEXICON TENS
-лаогкь:1%0 # ;
+лоагкь:1%0 # ;
 кӯһт% :2 LOGI ;
 ко̄ллм% :3 LOGI ;
 не̄лльй% :4 LOGI ;
@@ -238,8 +239,8 @@ LEXICON TENS
 аххц% :9 LOGI ;
 
 LEXICON LOGI
-лаогкь:%0 # ;
-лаогкь% : ONES ;
+лоагкь:%0 # ;
+лоагкь% : ONES ;
 
 LEXICON ONES
 э̄ххт:1 # ;
