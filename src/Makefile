@@ -66,7 +66,7 @@ pronoun-sjd-lex.txt punct-sjd-lex.txt verb-sjd-lex.txt
 	compose-result \n\
 	save-result ../bin/sjd.save \n\
 	quit \n" > ../../tmp/sjd-save-script
-	@lexc -utf8 < ../../tmp/sjd-save-script
+	@lexc < ../../tmp/sjd-save-script
 	rm -f ../../tmp/sjd-save-script
 
 twol-sjd.bin: ../bin/twol-sjd.bin
@@ -83,7 +83,7 @@ twol-sjd.bin: ../bin/twol-sjd.bin
 	compile \n\
 	save-binary ../bin/twol-sjd.bin \n\
 	quit \n" > ../../tmp/twol-sjd-script
-	@twolc -utf8 < ../../tmp/twol-sjd-script
+	@twolc < ../../tmp/twol-sjd-script
 	@rm -f ../../tmp/twol-sjd-script
 
 clean:
