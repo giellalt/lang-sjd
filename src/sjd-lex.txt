@@ -16,7 +16,7 @@
 +Nom +Acc +Gen +Ill +Ine +Ela +Com +Ess +Par
 +Ord
 +Qst
-+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
+!+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
 
 %^WG %^DI
 
