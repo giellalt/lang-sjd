@@ -77,35 +77,71 @@ LEXICON V1D_EPH
 :%^EPHV    V1D ;
 
 LEXICON V1D
-+V+Inf:%>э  K ; 
++V+Inf:%>э  # ; 
 +V+Ind:  V_IND ;
-+V+Cond: #;
-+V+Imp: #;
++V+Cond: V_COND ;
++V+Pot:  V_POT ; 
++V+Imp: V_IMP ;
++V+Ind+Prs+Impers:>%этҍ   # ; !weak grade
++V+Ind+Prt+Impers:%>эшь   # ; 
++V+ConNeg+Prs:%>   # ; !Ø-suffix, weak grade
++V+ConNeg+Prt:%>ма   # ;
++V+PrfPrc:%>ма   # ;
++V+PrfPrc+Attr:%>ма%>сь   # ; !?
++V+Ger:%>мэнҍ   # ;
++V+VAbess:%>ханна   # ; !weak grade
++V+VAbess+Attr:%>ханна%>сь   # ; !?
+
+
+LEXICON V_IMP
++Sg:%>  # ; !Ø-suffix, weak grade
++Pl:%>э  # ;
+
 
 LEXICON V_IND
 +Prs+Sg1:%>а              # ;   ! шоабш>а
 +Prs+Sg2:%>акь              # ;   ! шоабш>акь
-+Prs+Sg3:%>т              # ;   !шoabаш>т
++Prs+Sg3:%>              # ;   !Ø-suffix Umlautvariant -оа- шoabаш>т
 +Prs+Pl1:%>эпь              # ;   ! шоабш>эпь
-+Prs+Pl2:%>эбпе              # ;   ! шоабш>эбпе
-+Prs+Pl3:%>ев              # ;   ! шоабш>эв
-+Prs+Sg4:%>этҍ			# ; !	шоабшэтҍ
-+Prt+Sg1:%>э       # ; ! 		шоабш>э
-+Prt+Sg2:%>экь       # ; !		шоабш>экь
-+Prt+Sg3:%>эшт       # ; !		шoab>эшт
-+Prt+Pl1:%>эмь       # ; !		шоабш>эмь
-+Prt+Pl2:%>этҍ       # ; !		шоабш>этҍ
-+Prt+Pl3:%>энҍ       # ; !		шоабш>энҍ
-+Prt+Sg4:%>энҍ	     # ; !		шоабш>энҍ
++Prs+Pl2:%>бэдтӭ              # ;   ! шоабш>эбпе
++Prs+Pl3:%>эв              # ;   ! шоабш>эв
++Prt+Sg1:%>е       # ; ! palatalized		шоабш>э
++Prt+Sg2:%>екь       # ; ! palatalized		шоабш>экь
++Prt+Sg3:%>э       # ; ! weak grade		шoab>эшт
++Prt+Pl1:%>эмь       # ; ! weak grade		шоабш>эмь
++Prt+Pl2:%>этҍ       # ; ! weak grade	шоабш>этҍ
++Prt+Pl3:%>енҍ       # ; ! palatalized	шоабш>энҍ
 
 
+LEXICON V_COND
++Sg1:%>че   # ; !weak
++Sg2:%>чекь   # ; !weak
++Sg3:%>аһч   # ; ! weak
++Pl1:%>   # ;
++Pl2:%>   # ;
++Pl3:%>   # ;
++Sg1:%>   # ;
++Sg2:%>   # ;
++Sg3:%>   # ;
++Pl1:%>   # ;
++Pl2:%>   # ;
++Pl3:%>   # ;
 
 
+LEXICON V_POT 
++Sg1:%>   # ;
++Sg2:%>   # ;
++Sg3:%>   # ;
++Pl1:%>   # ;
++Pl2:%>   # ;
++Pl3:%>   # ;
++Sg1:%>   # ;
++Sg2:%>   # ;
++Sg3:%>   # ;
++Pl1:%>   # ;
++Pl2:%>   # ;
++Pl3:%>   # ;
 
-
-!LEXICON V1D_EPH
-!+V:%^EPHV 
-! inf			шоабшэ
 
 
 ! conneg.prs	шоабэшт
@@ -116,14 +152,6 @@ LEXICON V_IND
 ! verbessive	шоабш-эмэнҍ
 
 !  verbabessive		шоабш-эханна
-
-
-
-
-
-
-
-
 
 
 
