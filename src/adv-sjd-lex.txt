@@ -4,6 +4,15 @@
 LEXICON adv
 +Adv: # ;
 
-LEXICON Adverb 
-шигтэннӭ adv "well" ;
+LEXICON Adverb
+нюэзельт adv "badly" ;
+чофта adv "много / much" ;
+четк adv "насмерть / deadly" ;
+! derived adverbs  
+шигктэнне adv "хорошо / well" ;
+вэххтэнне adv "быстро / fast" ;
+иннҍенне adv "громко / loud" ;
+роаммҍенне adv "радостно / gladly" ;
+
+
 
