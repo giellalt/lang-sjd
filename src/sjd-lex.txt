@@ -70,8 +70,65 @@ LEXICON 5D
 
 
 
+! Verb inflection
+! ===============
+
+LEXICON V1D_EPH
+:%^EPHV    V1D ;
+
+LEXICON V1D
++V+Inf:%>э  K ; 
++V+Ind:  V_IND ;
++V+Cond: #;
++V+Imp: #;
+
+LEXICON V_IND
++Prs+Sg1:%>а              # ;   ! шоабш>а
++Prs+Sg2:%>акь              # ;   ! шоабш>акь
++Prs+Sg3:%>т              # ;   !шoabаш>т
++Prs+Pl1:%>эпь              # ;   ! шоабш>эпь
++Prs+Pl2:%>эбпе              # ;   ! шоабш>эбпе
++Prs+Pl3:%>ев              # ;   ! шоабш>эв
++Prs+Sg4:%>этҍ			# ; !	шоабшэтҍ
++Prt+Sg1:%>э       # ; ! 		шоабш>э
++Prt+Sg2:%>экь       # ; !		шоабш>экь
++Prt+Sg3:%>эшт       # ; !		шoab>эшт
++Prt+Pl1:%>эмь       # ; !		шоабш>эмь
++Prt+Pl2:%>этҍ       # ; !		шоабш>этҍ
++Prt+Pl3:%>энҍ       # ; !		шоабш>энҍ
++Prt+Sg4:%>энҍ	     # ; !		шоабш>энҍ
+
+
+
+
+
+
+!LEXICON V1D_EPH
+!+V:%^EPHV 
+! inf			шоабшэ
+
+
+! conneg.prs	шоабэшт
+! conneg.pst	шоабш>а
+
+! imp			шоабш-э
+
+! verbessive	шоабш-эмэнҍ
+
+!  verbabessive		шоабш-эханна
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 LEXICON K
 # ;
-+Qst:го # ; ! Dummy clitic only!
