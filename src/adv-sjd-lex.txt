@@ -1,2 +1,9 @@
+! Adverbs
+
+
+LEXICON adv
++Adv: # ;
+
 LEXICON Adverb 
-#;
+шигтэннӭ adv "well" ;
+
