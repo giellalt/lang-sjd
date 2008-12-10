@@ -1,2 +1,4 @@
 LEXICON Verb
-# ;
+шоабш:шоабаш V1D_EPH "love" ;
+asdf V1D ;
+
