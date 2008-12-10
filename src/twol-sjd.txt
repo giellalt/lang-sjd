@@ -36,7 +36,7 @@ Rules
  Cx:0 <=> Cx _ (ь:) %^WG: ;
  where Cx in ( в л с з ) ; 
 
-"Palatal Suffix Vowel"
+"Palatalised Suffix Vowel"
  Vx:Vy <=> ь: (Dummy:) %>:0 _ ;
        where Vx in ( а А э Э ы Ы o O у У )
        	     Vy in ( я Я е Е и И ё Ё ю Ю )
@@ -44,6 +44,22 @@ Rules
 
 "Palatal Mark Deletion"
  ь:0 <=> C: _ (Dummy:) %>:0 [ :я | :Я | :е | :Е | :и | :И | :ё | :Ё | :ю | :Ю ] ;
+ 
+ 
+"Epenthetic vowel deletion"
+Vx:0 <=> _ Cns+ %^EPHV: %>: Vow ;
+	for Vx in ( а я ) ; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 ! These are just the sms rules
 
