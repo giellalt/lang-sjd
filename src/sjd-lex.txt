@@ -82,7 +82,7 @@ LEXICON V1D
 +V+Cond: V_COND ;
 +V+Pot:  V_POT ; 
 +V+Imp: V_IMP ;
-+V+Ind+Prs+Impers:>%этҍ   # ; !weak grade
++V+Ind+Prs+Impers:%>этҍ   # ; !weak grade
 +V+Ind+Prt+Impers:%>эшь   # ; 
 +V+ConNeg+Prs:%>   # ; !Ø-suffix, weak grade
 +V+ConNeg+Prt:%>ма   # ;
