@@ -14,7 +14,7 @@ Alphabet
   ӓ Ӓ
   %´:0 %,:%´ %>:0
   %^1VOW:0 %^2VOW:0 %^3VOW:0 %^4VOW:0 %^5VOW:0 %^VOWSH:0
-  %^WG:0 ;
+  %^WG:0 %^EPHV:0 %^DI:0 ;
 
 Sets
  C	= б Б в В г Г д Д ж Ж з З й Й к К л Л м М н Н п П р Р 
@@ -48,7 +48,7 @@ Rules
  
 "Epenthetic vowel deletion"
 Vx:0 <=> _ Cns+ %^EPHV: %>: Vow ;
-	for Vx in ( а я ) ; 
+	where Vx in ( а я ) ; 
  
  
  
