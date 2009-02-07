@@ -128,11 +128,11 @@ LEXICON TEENST
 % :1 TEENT ;
 
 LEXICON TEENT
-лаогкь% :%0 THOUSANDS ;
+лоагкь% :%0 THOUSANDS ;
 э̄ххт% :1 LOHKAITE ;
 кӯһт% :2 LOHKAITE ;
 ко̄ллм% :3 LOHKAITE ;
-не̄лльемплаогкь% :4 THOUSANDS ;
+не̄лльемплоагкь% :4 THOUSANDS ;
 выдт% :5 LOHKAITE ;
 кудт% :6 LOHKAITE ;
 кыджемь% :7 LOHKAITJE ;
@@ -140,20 +140,20 @@ LEXICON TEENT
 аххц% :9 LOHKAITE ;
 
 LEXICON LOHKAITE
-эмплаогкь% : THOUSANDS ;
+эмплоагкь% : THOUSANDS ;
 
 LEXICON LOHKAITJE
-емплаогкь% : THOUSANDS ;
+емплоагкь% : THOUSANDS ;
 
 LEXICON TENST
-кӯһтлаогкь% :2 LOGIT ;
-ко̄ллмлаогкь% :3 LOGIT ;
-не̄лльйлаогкь% :4 LOGIT ;
-выдтлаогкь% :5 LOGIT ;
-кудтлаогкь% :6 LOGIT ;
-кыджемьлаогкь% :7 LOGIT ;
-ка̄ххцлаогкь% :8 LOGIT ;
-аххцлаогкь% :9 LOGIT ;
+кӯһтлоагкь% :2 LOGIT ;
+ко̄ллмлоагкь% :3 LOGIT ;
+не̄лльйлоагкь% :4 LOGIT ;
+выдтлоагкь% :5 LOGIT ;
+кудтлоагкь% :6 LOGIT ;
+кыджемьлоагкь% :7 LOGIT ;
+ка̄ххцлоагкь% :8 LOGIT ;
+аххцлоагкь% :9 LOGIT ;
 
 LEXICON LOGIT
 % :%0 THOUSANDS ;
@@ -214,7 +214,7 @@ LEXICON TEEN
 э̄ххт:1 LOHKAIE ;
 кӯһт:2 LOHKAIE ;
 ко̄ллм:3 LOHKAIE ;
-не̄лльемплаогкь:4 # ;
+не̄лльемплоагкь:4 # ;
 выдт:5 LOHKAIE ;
 кудт:6 LOHKAIE ;
 кыджемь:7 LOHKAIJE ;
@@ -222,10 +222,10 @@ LEXICON TEEN
 аххц:9 LOHKAIE ;
 
 LEXICON LOHKAIE
-эмплаогкь% : # ;
+эмплоагкь% : # ;
 
 LEXICON LOHKAIJE
-емплаогкь% : # ;
+емплоагкь% : # ;
 
 LEXICON TENS
 лоагкь:1%0 # ;
