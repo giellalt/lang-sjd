@@ -3,7 +3,7 @@ LEXICON Noun
 ! Classes according to Kuruč 1985
 
 ! 1. declension (classes 1, 8)
-кулль        1D "рыба" ;
+кӯлль        1D "рыба" ;  lang u
 кусс         1D "ель"              ; ! сс > з
 мерр         1D "море"			   ;
 аджь         1D "отец"			   ;
