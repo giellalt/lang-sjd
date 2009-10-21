@@ -3,49 +3,49 @@ LEXICON Noun
 ! Classes according to Kuruč 1985
 
 ! 1. declension (classes 1, 8)
-кӯлль        1D "рыба" ; ! lang u
-кусс         1D "ель"              ; ! сс > з
-мерр         1D "море"			   ;
-аджь         1D "отец"			   ;
-наһпь        1D "чашка"			   ;
-пуадтмушш    1D "приход"		   ;
-пяйвнэгк     1D "солнечная погода" ;
-каннѣцвудт   1D "дружба"           ;
+кӯлль        1D "рыба / fish" ; ! lang u
+кӯсс         1D "ель / fir | spruce"       ; ! сс > з
+ме̄рр         1D "море / sea | ocean"			   ;
+аджь         1D "отец / father"			   ;
+на̄һпь        1D "чашка / cup"			   ; ! spelling variant на̄ххьпь (in the антонова system)
+пуадтмушш    1D "приход / arrival"		   ;
+пя̄йвнэгк     1D "солнечная погода / sunny weather" ;
+ка̄ннѣцвудт   1D "дружба / friendship"           ;
 
 ! 2. declension (class 2)
-наввьт       2D "зверь" ;
-ляммт        2D "лес" ;
-куэсськ      2D "тётя" ;
-кушшк        2D "порог на реке" ;
+на̄ввьт       2D "зверь / wild animal | (wild) beast" ;
+ля̄ммт        2D "лес / forrest | wood(s)" ;
+куэсськ      2D "тётя / aunt" ;
+кӯшшк        2D "порог на реке / rapids" ;
 
 ! 3. declension (class 7)
-куссь         3D "гость"   ;
-пысс          3D "ружьё"   ;
-палл          3D "мяч"	   ;
-ашшь          3D "просьба" ;
+кӯссь         3D "гость / guest"   ;
+пысс          3D "ружьё / gun"   ;
+па̄лл          3D "мяч / ball"	   ;
+а̄шшь          3D "просьба / request | application" ;
 
 
 ! 4. declension (classes 3, 5)
-пуаз:пудзэ    4D "олень"  ;
-цыза          4D "птичка" ; 
-оаб           4D "усы"	  ;
-оаз           4D "паук"	  ;
-оаккшэ        4D "топор"  ;
-ылльтэ        4D "полка"  ;
-книга         4D "книга"  ;
+пуаз:пӯдзэ    4D "олень / reindeer"  ;
+цыза          4D "птичка / little bird" ; 
+оаб           4D "усы / moustache"	  ;
+оа̄з           4D "паук / spider"	  ; ! can mean also clothes, but with different paradigm
+оаккшэ        4D "топор / axe"  ;
+ылльтэ        4D "полка / shelf"  ;
+кнӣга         4D "книга / book"  ; ! also кыррьй (buch, brief, aufzeichnung, zeichnung, gemaltes bild)
 
 
 ! 5. declension (classes 4, 6, 9)
-чигар:чигкар       5D "стадо"   ;
-коабас:коббас      5D "кубакса" ;
-ванѣтэсь:баннтас   5D "обруг"   ;
-вэнс:вэннас        5D "лодка"   ;
-нызан              5D "женщина" ;
-карънэль           5D "локоть"  ;
-кересь             5D "керёжа"  ;
-чуййкэй            5D "лыжник"  ;
-куаррэй            5D "швея"    ;
-кэрхаллей          5D "гонщик"  ;
+чӣгар:чӣгкар       5D "стадо / herd | flock"   ;
+коавас:ко̄ввас      5D "кувакса / Saami tent" ;
+ва̄нѣтэсь:ва̄ннтас   5D "обруг / (barrel) hoop"   ;
+вэнс:вэ̄ннас        5D "лодка / boat"   ;
+нызан              5D "женщина / woman" ;
+карънэль           5D "локоть / elbow"  ;
+ке̄ресь             5D "керёжа /  (reindeer) sleigh | pulka / sme: geres / nob: pulk"  ;
+чӯййкэй            5D "лыжник / skier"  ;
+куаррэй            5D "швея / seamstress"    ;
+кэ̄рхаллей          5D "гонщик / racer | rafter"  ;
 
 
 

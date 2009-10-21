@@ -2,5 +2,5 @@ LEXICON CC
 +CC: # ;
 
 LEXICON Conjunction
-я CC ;
+я CC "и";
 
