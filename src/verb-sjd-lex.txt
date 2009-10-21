@@ -1,4 +1,4 @@
 LEXICON Verb
-шоабш:шоабаш V1D_EPH "love" ;
+шоабш:шоабаш V1D_EPH "любить / love" ;
 asdf V1D ;
 

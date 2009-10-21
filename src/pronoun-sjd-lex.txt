@@ -9,24 +9,24 @@ Reflexive ;
 ! Personal pronouns
 ! =================
 
-! a = stem му-, то-, со-
-! b = stem мы-, то-, со-
+! a = stem му-, то̄-, со̄-
+! b = stem мы-, то̄-, со̄-
 ! c = stem мы-, ты-, сы-
-! d = stem ми-, ти-, си-
+! d = stem мӣ-, тӣ -, сӣ -
 
 LEXICON Personal
 мунн:му  pers_a ;
 мунн:мы  pers_b ;
 мунн:мы  pers_c ;
-мунн:ми  pers_d ;
-тонн:то  pers_a ;
-тонн:то  pers_b ;
-тонн:ты  pers_c ;
-тонн:ти  pers_d ;
-сонн:со  pers_a ;
-сонн:со  pers_b ;
-сонн:сы  pers_c ;
-сонн:си  pers_d ;
+мунн:мӣ  pers_d ;
+то̄нн:то̄  pers_a ;
+то̄нн:то̄  pers_b ;
+то̄нн:ты  pers_c ;
+то̄нн:тӣ  pers_d ;
+со̄нн:со̄  pers_a ;
+со̄нн:со̄  pers_b ;
+со̄нн:сы  pers_c ;
+со̄нн:сӣ  pers_d ;
 
 
 LEXICON pers_a

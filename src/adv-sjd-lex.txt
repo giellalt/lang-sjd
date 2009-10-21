@@ -5,13 +5,13 @@ LEXICON adv
 +Adv: # ;
 
 LEXICON Adverb
-нюэзельт adv "badly" ;
-чофта adv "много / much" ;
+нюэзельт adv "плохо / badly" ;
+чофта adv "много | очень / much" ;
 четк adv "насмерть / deadly" ;
 ! derived adverbs  
-шигктэнне adv "хорошо / well" ;
+шӣгктэнне adv "хорошо / well" ;
 вэххтэнне adv "быстро / fast" ;
-иннҍенне adv "громко / loud" ;
+ӣннҍенне adv "громко / loud" ;
 роаммҍенне adv "радостно / gladly" ;
 
 
