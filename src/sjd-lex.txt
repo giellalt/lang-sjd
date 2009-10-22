@@ -102,18 +102,24 @@ LEXICON V_IMP
 
 
 LEXICON V_IND
-+Prs+Sg1:%>а              # ;   ! шоабш>а
-+Prs+Sg2:%>акь              # ;   ! шоабш>акь
-+Prs+Sg3:%>              # ;   !Ø-suffix Umlautvariant -оа- шoabаш>т
-+Prs+Pl1:%>эпь              # ;   ! шоабш>эпь
-+Prs+Pl2:%>бэдтӭ              # ;   ! шоабш>эбпе
-+Prs+Pl3:%>эв              # ;   ! шоабш>эв
-+Prt+Sg1:%>е       # ; ! palatalized		шоабш>э
-+Prt+Sg2:%>екь       # ; ! palatalized		шоабш>экь
-+Prt+Sg3:%>э       # ; ! weak grade		шoab>эшт
-+Prt+Pl1:%>эмь       # ; ! weak grade		шоабш>эмь
-+Prt+Pl2:%>этҍ       # ; ! weak grade	шоабш>этҍ
-+Prt+Pl3:%>енҍ       # ; ! palatalized	шоабш>энҍ
++Prs: PRSSUF ;
++Prt: PRTSUF ;
+
+LEXICON PRSSUF
++Sg1:%>а              # ;   ! шоабш>а
++Sg2:%>акь              # ;   ! шоабш>акь
++Sg3:%>              # ;   !Ø-suffix Umlautvariant -оа- шoabаш>т
++Pl1:%>эпь              # ;   ! шоабш>эпь
++Pl2:%>бэдтӭ              # ;   ! шоабш>эбпе
++Pl3:%>эв              # ;   ! шоабш>эв
+
+LEXICON PRSSUF
++Sg1:%>е       # ; ! palatalized		шоабш>э
++Sg2:%>екь       # ; ! palatalized		шоабш>экь
++Sg3:%>э       # ; ! weak grade		шoab>эшт
++Pl1:%>эмь       # ; ! weak grade		шоабш>эмь
++Pl2:%>этҍ       # ; ! weak grade	шоабш>этҍ
++Pl3:%>енҍ       # ; ! palatalized	шоабш>энҍ
 
 
 LEXICON V_COND
