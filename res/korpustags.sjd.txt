@@ -1,6 +1,6 @@
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
 %                                                                              %
-%    List of morphological and syntactic tags used in the North Sámi corpus    %
+%   List of morphological and syntactic tags used in the Kildin Sámi corpus    %
 %                                                                              %
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
 
@@ -158,19 +158,8 @@ Ord	Ordinal
 Pl=Sg
 Sg	Singular
 Pl	Plural
-Du	Dual
 #Number
 
-Acc=Gen
-Acc=Nom
-Acc=Loc
-Acc=Ess
-Com=Loc
-Loc=Nom
-Ess=Gen
-Gen=Nom
-Gen=Loc
-Ill=Nom
 Nom	Nominative
 Gen	Genitive
 Acc	Accusative
@@ -178,6 +167,7 @@ Ill	Illative
 Loc	Locative
 Com	Comitative
 Ess	Essive
+Par	Partitive
 #Case
 
 Attr	Attribute
@@ -198,12 +188,6 @@ PxPl2	Possessive Plural 2nd Person
 PxPl3	Possessive Plural 3rd Person
 #Possessive
 
-SgCmp
-SgNomCmp
-SgGenCmp
-PlGenCmp
-#Compound
-
 Prs=Prt
 Prs	Present Tense
 Prt	Preterite Tense
@@ -216,18 +200,9 @@ ImprtII	Imperative II
 Pot	Potential
 #Mood
 
-Du1=Pl3
-Du3=Sg3
-Pl1=Sg2
-Pl2=Pl3
-Pl3=Sg2
-Sg2=Sg3
 Sg1	1. Person Singular
 Sg2	2. Person Singular
 Sg3	3. Person Singular
-Du1	1. Person Dual
-Du2	2. Person Dual
-Du3	3. Person Dual
 Pl1	1. Person Plural
 Pl2	2. Person Plural
 Pl3	3. Person Plural
@@ -275,257 +250,4 @@ LEFT	Left
 RIGHT	Right
 #Punctuation
 
-Obj=Org
-Fem=Mal
-Fem=Sur
-Fem=Org
-Fem=Plc
-Mal=Obj
-Mal=Org
-Mal=Plc
-Mal=Sur
-Plc=Sur
-Ani	Animal
-Fem	Female
-Mal	Male
-Obj	Object
-Org	Organisation
-Plc	Place
-Sur	Surname
-Tit	Title
-#Nametype
 
-Date  Date
-Range Range
-#Numeraltype
-
-@+FMAINV=@-FAUXV
-@+FMAINV=@-FMAINV
-@+FMAINV=@-FSUBJ
-@+FMAINV=@ADVL
-@+FMAINV=@ActioN>
-@+FMAINV=@GN>
-@+FMAINV=@NQ<
-@+FMAINV=@OBJ
-@+FMAINV=@PrcN>
-@+FMAINV=@SUBJ
-@+FMAINV=@VOC
-@-FAUXV=@GN>
-@-FAUXV=@PrcN>
-@-FMAINV=@-FSUBJ
-@-FMAINV=@ADVL
-@-FMAINV=@AN>
-@-FMAINV=@ActioN>
-@-FMAINV=@GA>
-@-FMAINV=@GN>
-@-FMAINV=@GP>
-@-FMAINV=@NQ<
-@-FMAINV=@OBJ
-@-FMAINV=@SUBJ
-@-FSUBJ=@ADVL
-@-FSUBJ=@CMPND
-@-FSUBJ=@DN>
-@-FSUBJ=@NumN<
-@-FSUBJ=@OBJ
-@-FSUBJ=@SUBJ
-@ADV-A=@AN>
-@ADV-A=@OBJ
-@ADV-A=@PronN>
-@ADV-A=@SUBJ
-@ADVL=@AN>
-@ADVL=@CMPND
-@ADVL=@CS
-@ADVL=@DN>
-@ADVL=@GA>
-@ADVL=@GN>
-@ADVL=@GP>
-@ADVL=@HNOUN
-@ADVL=@INTERJ
-@ADVL=@NQ<
-@ADVL=@NumN<
-@ADVL=@OBJ
-@ADVL=@PCLE
-@ADVL=@CS-COMPL
-@ADVL=@PrcN>
-@ADVL=@PronN>
-@ADVL=@SUBJ
-@ADVL=@TITLE
-@ADVL=@VOC
-@AN>=@CMPND
-@AN>=@CS
-@AN>=@GN>
-@AN>=@GP>
-@AN>=@NumN<
-@AN>=@OBJ
-@AN>=@PronN>
-@AN>=@SUBJ
-@AN>=@SUBJ-QH
-@ActioN>=@GN>
-@ActioN>=@NQ<
-@ActioN>=@OBJ
-@ActioN>=@PrcN>
-@CMPND=@HNOUN
-@CMPND=@OBJ
-@CMPND=@SUBJ
-@CMPND=@SUBJ-QH
-@CS=@SUBJ
-@DN>=@GN>
-@DN>=@GP>
-@DN>=@NQ<
-@DN>=@OBJ
-@DN>=@PCLE
-@DN>=@PronN>
-@DN>=@PronN>@DN>@GN>
-@DN>=@SUBJ
-@GA>=@OBJ
-@GA>=@CS-COMPL
-@GA>=@SUBJ
-@GN>=@HNOUN
-@GN>=@NQ<
-@GN>=@NumN<
-@GN>=@OBJ
-@GN>=@CS-COMPL
-@GN>=@PROP>
-@GN>=@PrcN>
-@GN>=@PronN>
-@GN>=@QN>
-@GN>=@S
-@GN>=@SUBJ
-@GP<=@OBJ
-@GP<=@PronN>
-@GP<=@SUBJ
-@GP>=@OBJ
-@GP>=@PronN>
-@GP>=@SUBJ
-@Gen=@OBJ
-@Gen=@SUBJ
-@HNOUN=@NQ<
-@HNOUN=@OBJ
-@HNOUN=@SUBJ
-@NPron<=@OBJ
-@NQ<=@+FMAINV
-@NQ<=@OBJ
-@NQ<=@PrcN>
-@NQ<=@SUBJ
-@NQ<=@TITLE
-@NumN<=@OBJ
-@NumN<=@QN>
-@NumN<=@SUBJ
-@NumN<=@SUBJ-QH
-@OBJ=@CS-COMPL
-@OBJ=@PronN>
-@OBJ=@QN>
-@OBJ=@SUBJ
-@OBJ=@TITLE
-@OBJ=@VOC
-@CS-COMPL=@SUBJ
-@PCLE=@SUBJ
-@PROP>=@SUBJ
-@PrcN>=@SUBJ
-@PronN<=@SUBJ
-@PronN>=@PronN>
-@PronN>=@SUBJ
-@QN>=@SUBJ-QH
-@SUBJ=@PrcN>
-@SUBJ=@SUBJ-QH
-@SUBJ=@TITLE
-@+FAUXV	Finite auxiliary verb
-@+FMAINV	Finite main verb
-@-FAUXV	Infinite auxiliary verb
-@-FMAINV	Infinite main verb
-@-FSUBJ	Subject of finite verb
-@ADV-A	Adverb modifying an adjective
-@ADV-ADV	Adverb modifying an adverb
-@ADVL	Adverbial
-@AN>	Prenominal adjective modifier
-@APP	Postnominal apposition
-@ActioN>	Actio Nominative
-@CC-NP	Phrase conjuction
-@CC-VP	Sentential conjuction
-@CMPND	Syntactic parallel of morfoloCompound
-@CS-COMPL	Complement of subjunction
-@CS-NP	Phrase subjuction
-@CS-VP	Sentential subjunction
-@DN>	Prenominal determiner
-@GA>	Preadijectival genitive modifier
-@GN>	Prenominal genitive modifier
-@GP<	Genitive complement of postposition
-@GP>	Genitive complement of preposition
-@HNOUN	Stray noun in sentence fragments
-@INTERJ	Interjection
-@MEASURE	Measure Phrase
-@NNum>	Nominal attributes of numerals
-@NPron<	Noun modifying pronouns to the left
-@NQ<	Noun modifying quantifier to the left
-@NUM-PRON	Numerals modifying pronouns to the left
-@NumN<	Nominal attributes of numerals
-@NumQ<	Nominal attributes of quantifiers
-@OBJ	Direct object
-@OPRED	Object predicative
-@PCLE	Particle
-@PROP>	Proper noun attributes
-@PrcN>	Present participle modifying noun to the right
-@PronN<	Pronoun modifying a noun to the left
-@PronN>Pronoun modifying a noun to the right
-@QN<	Postnominal quantifier
-@QN>	Quantifier modifying noun to the right
-@SPRED	Subject predicative
-@SUBJ	Subject
-@SUBJ-QH	Subject with a quantifier head
-@TITLE	Title in front of surname or proper name
-@VOC	Vocative
-@X	No tag
-#Syntax
-
-Der/Dimin	Der/Dimin
-Der/NuA	Der/NuA
-Der/adda	Der/adda
-Der/ahtti	Der/ahtti
-Der/alla	Der/alla
-Der/amoš	Der/amoš
-Der/asti	Der/asti
-Der/d	Der/d
-Der/duohkai	Der/duohkai
-Der/duohke	Der/duohke
-Der/eaddji	Der/eaddji
-Der/eamoš	Der/eamoš
-Der/eapmi	Der/eapmi
-Der/easti	Der/easti
-Der/geahtes	Der/geahtes
-Der/gielat	Der/gielat
-Der/goahti	Der/goahti
-Der/h	Der/h
-Der/halla	Der/halla
-Der/hat	Der/hat
-Der/heapmi	Der/heapmi
-Der/hudda	Der/hudda
-Der/huhtti	Der/huhtti
-Der/huvva	Der/huvva
-Der/j	Der/j
-Der/jagáš	Der/jagáš
-Der/l	Der/l
-Der/las	Der/las
-Der/laš	Der/laš
-Der/lágan	Der/lágan
-Der/lágaš	Der/lágaš
-Der/lágán	Der/lágán
-Der/meahttun	Der/meahttun
-Der/muš	Der/muš
-Der/st	Der/st
-Der/stuvva	Der/stuvva
-Der/supmi	Der/supmi
-Der/upmi	Der/upmi
-Der/veara	Der/veara
-Der/viđi	Der/viđi
-Der/viđá	Der/viđá
-Der/vuohta	Der/vuohta
-Der/vuolde	Der/vuolde
-Der/vuollai	Der/vuollai
-Der/vuolle	Der/vuolle
-#Derivation
-
-
-V*	Verb stem
-N*	Noun stem
-A*	Adjective stem
-#DerivedRoot

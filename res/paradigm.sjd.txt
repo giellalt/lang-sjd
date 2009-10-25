@@ -14,8 +14,10 @@
 	
 N+Number+Case+Possessive?
 N+Ess+Possessive?
+N+Par+Possessive?
 N+ACR+Number+Case
 N+ACR+Ess
+N+ACR+Par
 N+ACR+Cmpnd
 A+Grade+Number+Case+Possessive?
 A+Grade+Ess+Possessive?
@@ -23,6 +25,7 @@ A+Grade+Attr
 A+Grade+Adv
 A+Number+Case+Possessive?
 A+Ess+Possessive?
+A+Par+Possessive?
 A+Attr
 A+Adv
 A+Ord+Number+Case+Possessive?
