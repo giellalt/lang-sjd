@@ -113,7 +113,7 @@ LEXICON PRSSUF
 +Pl2:%>бэдтӭ              # ;   ! шоабш>эбпе
 +Pl3:%>эв              # ;   ! шоабш>эв
 
-LEXICON PRSSUF
+LEXICON PRTSUF
 +Sg1:%>е       # ; ! palatalized		шоабш>э
 +Sg2:%>екь       # ; ! palatalized		шоабш>экь
 +Sg3:%>э       # ; ! weak grade		шoab>эшт
@@ -129,21 +129,9 @@ LEXICON V_COND
 +Pl1:%>   # ;
 +Pl2:%>   # ;
 +Pl3:%>   # ;
-+Sg1:%>   # ;
-+Sg2:%>   # ;
-+Sg3:%>   # ;
-+Pl1:%>   # ;
-+Pl2:%>   # ;
-+Pl3:%>   # ;
 
 
 LEXICON V_POT 
-+Sg1:%>   # ;
-+Sg2:%>   # ;
-+Sg3:%>   # ;
-+Pl1:%>   # ;
-+Pl2:%>   # ;
-+Pl3:%>   # ;
 +Sg1:%>   # ;
 +Sg2:%>   # ;
 +Sg3:%>   # ;
