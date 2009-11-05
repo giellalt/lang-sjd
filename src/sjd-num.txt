@@ -140,7 +140,7 @@ LEXICON TEENT
 лоагкь% :%0 THOUSANDS ;
 э̄ххт% :1 LOHKAITE ;
 кӯһт% :2 LOHKAITE ;
-кӯһт% :2 LOHKAITE ;
+кӯһт% :2 LOHKAITE ;
 ко̄ллм% :3 LOHKAITE ;
 не̄лльемплоагкь% :4 THOUSANDS ;
 выдт% :5 LOHKAITE ;
@@ -157,7 +157,7 @@ LEXICON LOHKAITJE
 
 LEXICON TENST
 кӯһтлоагкь% :2 LOGIT ;
-кӯһтлоагкь% :2 LOGIT ;
+кӯһтлоагкь% :2 LOGIT ;
 ко̄ллмлоагкь% :3 LOGIT ;
 не̄лльйлоагкь% :4 LOGIT ;
 выдтлоагкь% :5 LOGIT ;
@@ -173,7 +173,7 @@ ONEST ;
 
 LEXICON ONEST
 кӯһт% :2 THOUSANDS ;
-кӯһт% :2 THOUSANDS ;
+кӯһт% :2 THOUSANDS ;
 ко̄ллм% :3 THOUSANDS ;
 не̄лльй% :4 THOUSANDS ;
 выдт% :5 THOUSANDS ;
@@ -203,7 +203,7 @@ HUNDREDS ;
 
 LEXICON HUNDREDS
 кӯһт% :2  CUODI ;
-кӯһт% :2  CUODI ;
+кӯһт% :2  CUODI ;
 ко̄ллм% :3 CUODI ;
 не̄лльй% :4 CUODI ;
 выдт% :5 CUODI ;
@@ -214,6 +214,7 @@ LEXICON HUNDREDS
 
 LEXICON CUODI
 чӯдтҍ% : HUNDRED ;
+чӯдтҍ% : HUNDRED ;
 
 LEXICON HUNDRED
 TENS ;
@@ -227,7 +228,7 @@ LEXICON TEENS
 LEXICON TEEN
 э̄ххт:1 LOHKAIE ;
 кӯһт:2 LOHKAIE ;
-кӯһт:2 LOHKAIE ;
+кӯһт:2 LOHKAIE ;
 ко̄ллм:3 LOHKAIE ;
 не̄лльемплоагкь:4 # ;
 выдт:5 LOHKAIE ;
@@ -245,7 +246,7 @@ LEXICON LOHKAIJE
 LEXICON TENS
 лоагкь:1%0 # ;
 кӯһт% :2 LOGI ;
-кӯһт% :2 LOGI ;
+кӯһт% :2 LOGI ;
 ко̄ллм% :3 LOGI ;
 не̄лльй% :4 LOGI ;
 выдт% :5 LOGI ;
@@ -261,7 +262,7 @@ LEXICON LOGI
 LEXICON ONES
 э̄ххт:1 # ;
 кӯһт:2 # ;
-кӯһт:2 # ;
+кӯһт:2 # ;
 ко̄ллм:3 # ;
 не̄лльй:4 # ;
 выдт:5 # ;
