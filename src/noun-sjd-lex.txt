@@ -3,6 +3,8 @@ LEXICON Noun
 ! Classes according to Kuruč 1985
 
 ! 1. declension (classes 1, 8)
+кӣдт         1D "рука" ;
+мӯрр         1D "дерево" ;
 кӯлль        1D "рыба / fish" ; ! lang u
 кӯсс         1D "ель / fir | spruce"       ; ! сс > з
 ме̄рр         1D "море / sea | ocean"			   ;
@@ -26,8 +28,8 @@ LEXICON Noun
 
 
 ! 4. declension (classes 3, 5)
-пуаз:пӯдзэ    4D "олень / reindeer"  ;
-цыза          4D "птичка / little bird" ; 
+пуаз:пуадз    4D "олень / reindeer"  ;
+цыза          4DА "птичка / little bird" ; 
 оаб           4D "усы / moustache"	  ;
 оа̄з           4D "паук / spider"	  ; ! can mean also clothes, but with different paradigm
 оаккшэ        4D "топор / axe"  ;
