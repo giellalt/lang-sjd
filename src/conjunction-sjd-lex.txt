@@ -3,4 +3,7 @@ LEXICON CC
 
 LEXICON Conjunction
 я CC "и";
+штэ CC "что";
+гу CC "как";
+куэссь CC "когда";
 
