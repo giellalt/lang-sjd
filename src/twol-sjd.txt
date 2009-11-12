@@ -20,9 +20,10 @@ Sets
  C	= б Б в В г Г д Д ж Ж з З й Й к К л Л м М н Н п П р Р 
           с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ ъ Ъ ь Ь э Э ј Ј ҋ Ҋ 
           ҍ Ҍ ҏ Ҏ қ Қ ң Ң ӆ Ӆ ӊ Ӊ ӎ Ӎ ;
- V	= а А е Е и И о О у У ы Ы ю Ю я Я ё Ё ӓ Ӓ ;
- PALVOW = е Е и И ю Ю я Я ё Ё ;
- NPLVOW = а А о О у У ы Ы э Э ;
+ V	= а А е Е и И о О у У ы Ы ю Ю я Я ё Ё ӓ Ӓ 
+      а̄ А̄ е̄ Е̄ ӣ Ӣ о̄ О̄ ӯ Ӯ ы̄ Ы̄ ю̄ Ю̄ э̄ ¯Э я̄ Я̄ ;
+ PALVOW = е Е и И ю Ю я Я ё Ё е̄ Е̄ ӣ Ӣ ю̄ Ю̄ я̄ Я̄ ;
+ NPLVOW = а А о О у У ы Ы э Э а̄ А̄ о̄ О̄ ӯ Ӯ ы̄ Ы̄ э̄ ¯Э ;
  Dummy  = %^WG %^DI;
 
 
@@ -33,13 +34,20 @@ Rules
 
 
 "Quantitative CG"
- Cx:0 <=> Cx _ (ь:) %^WG: ;
+ Cx:0 <=> Cx _ (ь:) (C) %^WG: ;
  where Cx in ( в л с з ) ; 
+
+"Quantitative CG Cluster"
+ Cx:0 <=> Cx _ Cy (ь:) %^WG: ;
+ where Cx in ( р )  
+       Cy in ( н )
+	     matched ;
+
 
 "Palatalised Suffix Vowel"
  Vx:Vy <=> ь: (Dummy:) %>:0 _ ;
        where Vx in ( а А э Э ы Ы o O у У )
-       	     Vy in ( я Я е Е и И ё Ё ю Ю )
+       	     Vy in ( я Я е Е и И ё Ё ю Ю ) 
 	     matched ;
 
 "Palatal Mark Deletion"
@@ -52,7 +60,8 @@ Vx:0 <=> _ Cns+ %^EPHV: %>: Vow ;
  
  
  
- 
+"ue Diphtongisation"
+э:а <=> у _ C*: %^DI: ;
  
  
  
