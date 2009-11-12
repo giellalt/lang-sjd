@@ -3,6 +3,7 @@ Multichar_Symbols
 ! POS
 +N +V +A 
 +Adv +CC +CS +Interj +Pron +Num
++Pers +Rel +Refl
 
 ! Verbal MSP
 +Prs +Fut +Prt +Prf 
@@ -51,35 +52,121 @@ Particle ;
 
 LEXICON 1D
 
-+N+Sg+Nom: K ;			 ! Им.
-+N+Sg+Acc:%^WG K ;		 ! Вин.
-+N+Sg+Gen:%^WG K ;		 ! Род.
-+N+Sg+Ill:%>а K ;		 ! Дат.-напр
-+N+Sg+Ine:%^WG%>эсьт K ; ! Местн.
-+N+Sg+Ela:%>ха K ;		 ! Лишит.
-+N+Sg+Com:%>энѣ K ;		 ! Совм.
-+N+Ess:%>энѣ K ;		 ! Превр.
-+N+Par:%>ко K ;			 ! 
++N: SgNomSuf ;			 ! Им.
++N+Sg+Gen:%^WG SgGenAccSuf ;		 ! Род., Вин.
++N+Ess:%>э EssSuf ;		 ! Превр.
++N+Sg+Ill:%^DI SgIllSufA ;		 ! Дат.-напр
++N+Sg+Ine:%^WG%>э SgIneSuf ; ! Местн.
++N+Sg+Ela:%^WG SgElaSuf ;		 ! Лишит.
++N+Sg+Com:%^WG%>э SgComSuf ;		 ! Совм.
+
++N+Pl+Nom:%^WG PlNomSuf ;			 ! Им.
++N+Pl+Acc:%^WG%>э PlAccSuf ;		 ! Вин.
++N+Pl+Ine:%^WG%>э PlIneSuf ; ! Местн.
++N+Pl+Ela:%^WG%>э PlElaSuf ;		 ! Лишит.
++N+Pl+Com:%^WG%>э PlComSuf ;		 ! Совм.
 
 
+! these are just dummy for the moment
 LEXICON 2D
-# ;
+1D ;
 LEXICON 3D
-# ;
+1D ;
 LEXICON 4D
-# ;
++N+Sg+Nom:%^WG SgNomSuf ;			 ! Им.
++N+Sg+Gen:%^MON%>э SgGenAccSuf ;		 ! Род.
++N+Ess:%^MON%>э EssSuf ;		 ! Превр.
++N+Sg+Ine:%^MON%>э SgIneSuf ; ! Местн.
++N+Sg+Ill:%^MON%>ъ SgIllSufJE ;		 ! Дат.-напр
++N+Sg+Ela:%^WG%>ха K ;		 ! Лишит.
++N+Sg+Com:%^WG%>энѣ K ;		 ! Совм.
+%+N+Par:%>ко K ;			 ! Not in Kuruch
+
++N+Pl+Nom:%^WG K ;			 ! Им.
++N+Pl+Acc:%^WG%>этѣ K ;		 ! Вин.
++N+Pl+Ine:%^WG%>энѣ K ; ! Местн.
++N+Pl+Ela:%^WG%>эха K ;		 ! Лишит.
++N+Pl+Com:%^WG%>эгуэйм K ;		 ! Совм.
+
+LEXICON 4DА
++N+Sg+Nom:%^WG K ;			 ! Им.
++N+Sg+Gen:%^DI%>э K ;		 ! Род.
++N+Sg+Acc:%^WG K ;		 ! Вин.
++N+Ess:%>энѣ K ;		 ! Превр.
++N+Sg+Ine:%^WG%>эсьт K ; ! Местн.
++N+Sg+Ill:%^DI%>а K ;		 ! Дат.-напр
++N+Sg+Ela:%^WG%>ха K ;		 ! Лишит.
++N+Sg+Com:%^WG%>энѣ K ;		 ! Совм.
+%+N+Par:%>ко K ;			 ! Not in Kuruch
+
++N+Pl+Nom:%^WG K ;			 ! Им.
++N+Pl+Acc:%^WG%>этѣ K ;		 ! Вин.
++N+Pl+Ine:%^WG%>энѣ K ; ! Местн.
++N+Pl+Ela:%^WG%>эха K ;		 ! Лишит.
++N+Pl+Com:%^WG%>эгуэйм K ;		 ! Совм.
+
 LEXICON 5D
-# ;
+1D ;
+
+
+! Case affixes
+
+LEXICON SgNomSuf
++Sg+Nom: K ;			 ! Им.
+
+LEXICON SgGenAccSuf
++Sg+Gen: K ;		 ! Род.
++Sg+Acc: K ;		 ! Вин.
+
+LEXICON EssSuf
++Ess:%>нѣ K ;		 ! Превр.
+
+LEXICON SgIneSuf
++Sg+Ine:%>сьт K ; ! Местн.
+
+LEXICON SgIllSufA
++Sg+Ill:%>а K ;		 ! Дат.-напр
+
+LEXICON SgIllSufE
++Sg+Ill:%>э K ;		 ! Дат.-напр
+
+LEXICON SgIllSufJE
++Sg+Ill:%>e K ;		 ! Дат.-напр
+
+LEXICON SgElaSuf
++Sg+Ela:%>ха K ;		 ! Лишит.
+
+LEXICON SgComSuf
++Sg+Com:%>энѣ K ;		 ! Совм.
+
+
+LEXICON PlNomSuf
++Pl+Nom: K ;			 ! Им.
+
+LEXICON PlAccSuf
++Pl+Acc:%>этѣ K ;		 ! Вин.
+
+LEXICON PlIneSuf
++Pl+Ine:%>энѣ K ; ! Местн.
+
+LEXICON PlElaSuf
++Pl+Ela:%>эха K ;		 ! Лишит.
+
+LEXICON PlComSuf
++Pl+Com:%>эгуэйм K ;		 ! Совм.
 
 
 
-! Verb inflection
-! ===============
 
-LEXICON V1D_EPH
-:%^EPHV    V1D ;
+! =============== !
+! Verb inflection !
+! =============== !
 
-LEXICON V1D
+ 
+LEXICON 1_EPH
+:%^EPHV    1 ;
+
+LEXICON 1
 +V+Inf:%>э  # ; 
 +V+Ind:  V_IND ;
 +V+Cond: V_COND ;
@@ -87,13 +174,27 @@ LEXICON V1D
 +V+Imp: V_IMP ;
 +V+Ind+Prs+Impers:%>этҍ   # ; !weak grade
 +V+Ind+Prt+Impers:%>эшь   # ; 
-+V+ConNeg+Prs:%>   # ; !Ø-suffix, weak grade
++V+ConNeg+Prs:%^WG   # ; !Ø-suffix, weak grade
 +V+ConNeg+Prt:%>ма   # ;
 +V+PrfPrc:%>ма   # ;
 +V+PrfPrc+Attr:%>ма%>сь   # ; !?
 +V+Ger:%>мэнҍ   # ;
 +V+VAbess:%>ханна   # ; !weak grade
 +V+VAbess+Attr:%>ханна%>сь   # ; !?
+
+LEXICON 2 
+1 ;
+LEXICON 3 
+1 ;
+LEXICON 4 
+1 ;
+LEXICON 5 
+1 ;
+LEXICON 6
+1 ;
+LEXICON 7
+1 ;
+
 
 
 LEXICON V_IMP
@@ -106,8 +207,9 @@ LEXICON V_IND
 +Prt: PRTSUF ;
 
 LEXICON PRSSUF
-+Sg1:%>а              # ;   ! шоабш>а
-+Sg2:%>акь              # ;   ! шоабш>акь
++Sg1:%^WG%>а              # ;   ! шоабш>а
++Sg2:%^WG%>ак              # ;   ! шоабш>акь
++Sg2:%^WG%>ах              # ;   ! шоабш>акь
 +Sg3:%>              # ;   !Ø-suffix Umlautvariant -оа- шoabаш>т
 +Pl1:%>эпь              # ;   ! шоабш>эпь
 +Pl2:%>бэдтӭ              # ;   ! шоабш>эбпе
