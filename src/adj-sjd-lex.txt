@@ -1,3 +1,13 @@
-LEXICON Adjective
-#;
-!leere Datei
+LEXICON adj
++Adj: # ;
+
+LEXICON Adjectiv
+шӯрр  adj "большой / big" ;
+нӯрр adj "молодой / young" ;
+э̄лл adj "высокый / high" ;
+
+! attributive adjectives (-es' productive? with certain [lexically defined] subclasses of adjectives)
+!э̄ллесь 
+
+! predicative adjectives (-e productive? with certain [lexically defined] subclasses of adjectives)
+э̄ллэ adj "высок / high" ;
