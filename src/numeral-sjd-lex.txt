@@ -1,10 +1,10 @@
-! Numerals
-
-LEXICON Numeral
-окта num ;
-
 LEXICON num
 +Num: # ;
 
+LEXICON Numeral
+э̄һт num "one" ;
+куһт num "two" ; 
 
-
+! derived numerals
+! окта 
+! о̄ххтэ

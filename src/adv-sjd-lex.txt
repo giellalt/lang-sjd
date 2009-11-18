@@ -1,14 +1,12 @@
-! Adverbs
-
-
 LEXICON adv
 +Adv: # ;
 
 LEXICON Adverb
 нюэзельт adv "плохо / badly" ;
-чофта adv "много | очень / much" ;
+чофта adv "много / очень / much" ;
 четк adv "насмерть / deadly" ;
-! derived adverbs  
+
+! derived adverbs (-jenn'e seems to be a productive derivational suffix)
 шӣгктэнне adv "хорошо / well" ;
 вэххтэнне adv "быстро / fast" ;
 ӣннҍенне adv "громко / loud" ;
