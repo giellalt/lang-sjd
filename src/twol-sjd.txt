@@ -47,7 +47,7 @@ Rules
 
 "Palatalised Suffix Vowel"
  Vx:Vy <=> ь: (Dummy:) %>:0 _ ;
-       where Vx in ( а А э Э ы Ы o O у У )
+       where Vx in ( а А э Э ы Ы о О у У )
        	     Vy in ( я Я е Е и И ё Ё ю Ю ) 
 	     matched ;
 
