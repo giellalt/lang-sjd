@@ -35,18 +35,21 @@ Rules
 
 
 "Quantitative CG"
- Cx:0 <=> Cx _ (ь:) (C) %^WG: ;
+ Cx:0 <=> Cx _ (ь:) (C) %^WG:0 ;
  where Cx in ( в л с з ) ; 
 
 "Quantitative CG Cluster"
- Cx:0 <=> Cx _ Cy (ь:) %^WG: ;
+ Cx:0 <=> Cx _ Cy (ь:) %^WG:0 ;
  where Cx in ( р )  
        Cy in ( н )
 	     matched ;
 
+"Epenthetic vowel deletion"
+Vx:0  <=> _ C+ %^EPHV:0 %>: V ;
+	where Vx in ( а я ) ; 
 
 "Palatalised Suffix Vowel"
- Vx:Vy <=> ь: (Dummy:) %>:0 _ ;
+Vx:Vy <=> ь: ( Dummy:0 ) %>:0 _ ;
        where Vx in ( а А э Э ы Ы о О у У )
        	     Vy in ( я Я е Е и И ё Ё ю Ю ) 
 	     matched ;
@@ -55,13 +58,9 @@ Rules
  ь:0 <=> C: _ (Dummy:) %>:0 [ :я | :Я | :е | :Е | :и | :И | :ё | :Ё | :ю | :Ю ] ;
  
  
-"Epenthetic vowel deletion"
-Vx:0 <=> _ C+ %^EPHV:0 %>: V ;
-	where Vx in ( а я ) ; 
- 
  
  
 "ue Diphtongisation"
-э:а <=> у _ C:+  %^DI:0  ;
+э:а <=> у _ C:*  %^DI:0  ;
  
  
