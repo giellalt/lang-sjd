@@ -35,7 +35,7 @@ LEXICON pers_a
 +Pron+Pers+Sg+Acc:н K ;
 +Pron+Pers+Sg+Ess:энѣ K ;
 +Pron+Pers+Sg+Ine:есьт K ;
-+Pron+Pers+Sg+Ela:нха K ;
++Pron+Pers+Sg+Abe:нха K ; !MR changed Ela->Abe
 +Pron+Pers+Sg+Com:нэнѣ K ;
 
 LEXICON pers_b
@@ -49,14 +49,31 @@ LEXICON pers_d
 +Pron+Pers+Pl+Gen:н K ;
 +Pron+Pers+Pl+Acc:нэтѣ K ;
 +Pron+Pers+Pl+Ess:ннэнѣ K ;
-+Pron+Pers+Pl+Ine:нэнѣ K ;
-+Pron+Pers+Pl+Ela:нэха K ;
++Pron+Pers+Pl+Loc:нэнѣ K ;
++Pron+Pers+Pl+Abe:нэха K ; 
 +Pron+Pers+Pl+Com:нэгуэйм K ;
 
-
+!? should we use "Inessive" or rather "Locative" (inessive+elative)
 
 LEXICON Demonstrative
-# ;
+тэнн+Pron:тэ dem ; 
+
+LEXICON dem
++Dem+Sg+Nom:дта # ;
++Dem+Sg+Gen:нн # ;
++Dem+Sg+Acc:нн # ;
++Dem+Sg+Ill:з # ;
++Dem+Sg+Com:йн # ;
++Dem+Sg+Loc:сьт # ;
++Dem+Sg+Abe:ннха # ;
++Dem+Pl+Nom:гка # ;
++Dem+Pl+Gen:йт # ;
++Dem+Pl+Acc:йт # ;
++Dem+Pl+Ill:йт # ;
++Dem+Pl+Loc:йнэнҍ # ;
++Dem+Pl+Acc:йт # ;
++Dem+Pl+Acc:йт # ;
+
 
 LEXICON Reflexive
 
