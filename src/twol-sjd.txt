@@ -62,6 +62,6 @@ Vx:0 <=> _ C+ %^EPHV:0 %>: V ;
  
  
 "ue Diphtongisation"
-э:а <=> у _ C*:  %^DI:0  ;
+э:а <=> у _ C:+  %^DI:0  ;
  
  
