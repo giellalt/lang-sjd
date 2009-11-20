@@ -1,7 +1,7 @@
 LEXICON adj
 +Adj: # ;
 
-LEXICON Adjectiv
+LEXICON Adjective
 шӯрр  adj "большой / big" ;
 нӯрр adj "молодой / young" ;
 э̄лл adj "высокый / high" ;
