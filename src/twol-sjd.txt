@@ -56,12 +56,12 @@ Rules
  
  
 "Epenthetic vowel deletion"
-Vx:0 <=> _ C+ %^EPHV: %>: V ;
+Vx:0 <=> _ C+ %^EPHV:0 %>: V ;
 	where Vx in ( а я ) ; 
  
  
  
 "ue Diphtongisation"
-э:а <=> у _ C*:  %^DI:  ;
+э:а <=> у _ C*:  %^DI:0  ;
  
  
