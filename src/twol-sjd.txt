@@ -45,7 +45,7 @@ Rules
 	     matched ;
 
 "Epenthetic vowel deletion"
-Vx:0  <=> _ C+ %^EPHV:0 %>: V ;
+Vx:0  <=> C _ C+ %^EPHV:0 %>: V ;
 	where Vx in ( а я ) ; 
 
 "Palatalised Suffix Vowel"
