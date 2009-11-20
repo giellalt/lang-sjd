@@ -30,27 +30,27 @@ LEXICON Personal
 
 
 LEXICON pers_a
-+Pron+Pers+Sg+Nom:нн      K ;
-+Pron+Pers+Sg+Gen:н	      K ;
-+Pron+Pers+Sg+Acc:н	      K ;
-+Pron+Pers+Sg+Ess:энѣ     K ;
-+Pron+Pers+Sg+Ine:есьт    K ;
-+Pron+Pers+Sg+Ela:нха     K ;
-+Pron+Pers+Sg+Com:нэнѣ    K ;
++Pron+Pers+Sg+Nom:нн K ;
++Pron+Pers+Sg+Gen:н K ;
++Pron+Pers+Sg+Acc:н K ;
++Pron+Pers+Sg+Ess:энѣ K ;
++Pron+Pers+Sg+Ine:есьт K ;
++Pron+Pers+Sg+Ela:нха K ;
++Pron+Pers+Sg+Com:нэнѣ K ;
 
 LEXICON pers_b
-+Pron+Pers+Sg+Ill:ннӭ     K ;
++Pron+Pers+Sg+Ill:ннӭ K ;
 
 LEXICON pers_c
-+Pron+Pers+Pl+Nom:йй      K ;
-+Pron+Pers+Pl+Ill:йе      K ;
++Pron+Pers+Pl+Nom:йй K ;
++Pron+Pers+Pl+Ill:йе K ;
 
 LEXICON pers_d
-+Pron+Pers+Pl+Gen:н		  K ;
-+Pron+Pers+Pl+Acc:нэтѣ	  K ;
-+Pron+Pers+Pl+Ess:ннэнѣ	  K ;
-+Pron+Pers+Pl+Ine:нэнѣ	  K ;
-+Pron+Pers+Pl+Ela:нэха	  K ;
++Pron+Pers+Pl+Gen:н K ;
++Pron+Pers+Pl+Acc:нэтѣ K ;
++Pron+Pers+Pl+Ess:ннэнѣ K ;
++Pron+Pers+Pl+Ine:нэнѣ K ;
++Pron+Pers+Pl+Ela:нэха K ;
 +Pron+Pers+Pl+Com:нэгуэйм K ;
 
 
@@ -59,4 +59,62 @@ LEXICON Demonstrative
 # ;
 
 LEXICON Reflexive
-# ;
+
+ӣджь+Pron+Refl:ӣджь STRONGREFL ;
+ӣджь+Pron+Refl:ӣжь WEAKREFL ;
+
+LEXICON STRONGREFL
++Sg+Nom: # ;
++Ess:%>на PERSREFLSG ;
++Ess:%>ена PERSREFLPL ;  
++Ill:%>с PERSREFLSG ;
+ 
+LEXICON WEAKREFL 
++Pl+Nom:%>а # ;
++Gen: PERSREFLSG ;
++Acc: PERSREFLSG ;
++Loc:%>с PERSREFLSG ;
++Com:%>ен PERSREFLSG ;
++Abe: PERSREFLSGABE ;
+
++Gen:%>ед PERSREFLPL ;
++Acc:%>ед PERSREFLPL ;
++Loc:%>ес PERSREFLPL ;
++Com:%>ед PERSREFLPLCOM ;
++Abe:%>ед PERSREFLPLABE ;
+
+LEXICON PERSREFLSG
++Sg1:%>aн # ;
++Sg2:%>aнт # ;
++Sg3:%>есь # ;
+
+LEXICON PERSREFLPL
++Pl1:%>ан # ;
++Pl2:%>ант # ;
++Pl3:%>есь # ;
+
+LEXICON PERSREFLSGABE
++Sg1:%>aнха # ;
++Sg2:%>aнтха # ;
++Sg3:%>есьха # ;
+
+LEXICON PERSREFLPLABE
++Pl1:%>анха # ;
++Pl2:%>антха # ;
++Pl3:%>есьха # ;
+
+LEXICON PERSREFLPLCOM
++Pl1:%>ангуэйм # ;
++Pl2:%>антгуэйм # ;
++Pl3:%>есьгуэйм # ;
+
+
+
+
+
+
+
+
+
+
+
