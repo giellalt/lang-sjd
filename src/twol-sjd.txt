@@ -56,7 +56,7 @@ Rules
  
  
 "Epenthetic vowel deletion"
-Vx:0 <=> _ Cns+ %^EPHV: %>: Vow ;
+Vx:0 <=> _ C+ %^EPHV: %>: Vow ;
 	where Vx in ( а я ) ; 
  
  
