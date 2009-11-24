@@ -1,0 +1,6 @@
+00_readme_sjdrus_rdk_unicode
+
+Micha wrote:
+
+this is the complete textbase of the Kildin-Russian dictionary with different formatting tags still included in the "translation" element.
+
