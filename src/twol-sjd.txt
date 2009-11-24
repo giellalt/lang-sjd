@@ -12,19 +12,19 @@ Alphabet
   ь Ь э Э ю Ю я Я ё Ё ј Ј ҋ Ҋ 
   ҍ Ҍ ҏ Ҏ қ Қ ң Ң ӆ Ӆ ӊ Ӊ ӎ Ӎ 
   ӓ Ӓ
-  а̄ А̄ е̄ Е̄ ӣ Ӣ о̄ О̄ ӯ Ӯ ы̄ Ы̄ э̄ ¯Э ю̄ Ю̄ я̄ Я̄
+  а̄ А̄ е̄ Е̄ ӣ Ӣ о̄ О̄ ӯ Ӯ ы̄ Ы̄ э̄ Э̄ ю̄ Ю̄ я̄ Я̄
   %´:0 %,:%´ %>:0
   %^1VOW:0 %^2VOW:0 %^3VOW:0 %^4VOW:0 %^5VOW:0 %^VOWSH:0
   %^WG:0 %^EPHV:0 %^DI:0 ;
 
 Sets
- C	= б Б в В г Г д Д ж Ж з З й Й к К л Л м М н Н п П р Р 
+ C  = б Б в В г Г д Д ж Ж з З й Й к К л Л м М н Н п П р Р 
           с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ ъ Ъ ь Ь э Э ј Ј ҋ Ҋ 
           ҍ Ҍ ҏ Ҏ қ Қ ң Ң ӆ Ӆ ӊ Ӊ ӎ Ӎ ;
- V	= а А е Е и И о О у У ы Ы ю Ю я Я ё Ё ӓ Ӓ 
-      а̄ А̄ е̄ Е̄ ӣ Ӣ о̄ О̄ ӯ Ӯ ы̄ Ы̄ ю̄ Ю̄ э̄ ¯Э я̄ Я̄ ;
+ V  = а А е Е и И о О у У ы Ы ю Ю я Я ё Ё ӓ Ӓ 
+      а̄ А̄ е̄ Е̄ ӣ Ӣ о̄ О̄ ӯ Ӯ ы̄ Ы̄ ю̄ Ю̄ э̄ Э̄ я̄ Я̄ ;
  PALVOW = е Е и И ю Ю я Я ё Ё е̄ Е̄ ӣ Ӣ ю̄ Ю̄ я̄ Я̄ ;
- NPLVOW = а А о О у У ы Ы э Э а̄ А̄ о̄ О̄ ӯ Ӯ ы̄ Ы̄ э̄ ¯Э ;
+ NPLVOW = а А о О у У ы Ы э Э а̄ А̄ о̄ О̄ ӯ Ӯ ы̄ Ы̄ э̄ Э̄ ;
  Dummy  = %^WG %^DI %> ;
 
 
@@ -33,34 +33,29 @@ Sets
 
 Rules
 
-
 "Quantitative CG"
  Cx:0 <=> Cx _ (ь:) (C) %^WG:0 ;
- where Cx in ( в л с з ) ; 
+      where Cx in ( в л с з ) ; 
 
 "Quantitative CG Cluster"
  Cx:0 <=> Cx _ Cy (ь:) %^WG:0 ;
- where Cx in ( р )  
-       Cy in ( н )
-	     matched ;
+      where Cx in ( р )  
+            Cy in ( н )
+      matched ;
 
 "Epenthetic vowel deletion"
 Vx:0  <=> C _ C+ %^EPHV:0 %>: V ;
-	where Vx in ( а я ) ; 
+      where Vx in ( а я ) ; 
 
 "Palatalised Suffix Vowel"
 Vx:Vy <=> ь: ( Dummy:0 ) %>:0 _ ;
-       where Vx in ( а А э Э ы Ы о О у У )
-       	     Vy in ( я Я е Е и И ё Ё ю Ю ) 
-	     matched ;
+      where Vx in ( а А э Э ы Ы о О у У )
+            Vy in ( я Я е Е и И ё Ё ю Ю ) 
+      matched ;
 
 "Palatal Mark Deletion"
  ь:0 <=> C: _ (Dummy:) %>:0 [ :я | :Я | :е | :Е | :и | :И | :ё | :Ё | :ю | :Ю ] ;
- 
- 
- 
- 
+
+
 "ue Diphtongisation"
 э:а <=> у _ C:*  %^DI:0  ;
- 
- 
