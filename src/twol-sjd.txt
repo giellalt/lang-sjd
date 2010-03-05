@@ -40,7 +40,14 @@ Rules
  Cx:0 <=> Cx _ (ь:) (C) %^WG:0 ;
       where Cx in ( в л с з ) ; 
 
-"Quantitative CG Cluster"
+"Quantitative CG 2-Cns Cluster"
+ Cy:0 <=> Cx _  (ь:) %^WG:0 ;
+      where Cx in ( д р )  
+            Cy in ( т р )
+      matched ;
+
+
+"Quantitative CG 3-Cns Cluster"
  Cx:0 <=> Cx _ Cy (ь:) %^WG:0 ;
       where Cx in ( р )  
             Cy in ( н )
