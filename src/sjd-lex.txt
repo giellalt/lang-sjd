@@ -56,18 +56,19 @@ Particle ;
 LEXICON 1D
 
 +N: SgNomSuf ;			 ! Им.
-+N+Sg+Gen:%^WG SgGenAccSuf ;		 ! Род., Вин.
-+N+Ess:%>э EssSuf ;		 ! Превр.
-+N+Sg+Ill:%^DI SgIllSufA ;		 ! Дат.-напр
-+N+Sg+Ine:%^WG%>э SgIneSuf ; ! Местн.
-+N+Sg+Ela:%^WG SgElaSuf ;		 ! Лишит.
-+N+Sg+Com:%^WG%>э SgComSuf ;		 ! Совм.
-
-+N+Pl+Nom:%^WG PlNomSuf ;			 ! Им.
-+N+Pl+Acc:%^WG%>э PlAccSuf ;		 ! Вин.
-+N+Pl+Ine:%^WG%>э PlIneSuf ; ! Местн.
-+N+Pl+Ela:%^WG%>э PlElaSuf ;		 ! Лишит.
-+N+Pl+Com:%^WG%>э PlComSuf ;		 ! Совм.
++N:%^WG SgGenAccSuf ;		 ! Род., Вин.
++N:%> EssSuf ;		 ! Превр.
++N:%^DI SgIllSufA ;		 ! Дат.-напр
++N:%^WG%> SgIneSuf ; ! Местн.
++N:%^WG SgElaSuf ;		 ! Лишит.
++N:%^WG%> SgComSuf ;		 ! Совм.
+  
++N:%^WG PlNomSuf ;			 ! Им.
++N:%^WG%> PlAccSuf ;		 ! Вин.
++N:%^WG%> PlIllSuf ; ! Местн.
++N:%^WG%> PlIneSuf ; ! Местн.
++N:%^WG%> PlElaSuf ;		 ! Лишит.
++N:%^WG%> PlComSuf ;		 ! Совм.
 
 
 ! these are just dummy for the moment
@@ -148,6 +149,9 @@ LEXICON PlNomSuf
 
 LEXICON PlAccSuf
 +Pl+Acc:%>этѣ K ;		 ! Вин.
+
+LEXICON PlIllSuf
++Pl+Ill:%>эдXXX K ; ! Местн.
 
 LEXICON PlIneSuf
 +Pl+Ine:%>энѣ K ; ! Местн.
