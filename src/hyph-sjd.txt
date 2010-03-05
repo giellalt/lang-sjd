@@ -1,9 +1,9 @@
 !Distributed under the terms of the GNU General Public License version 2
 ! or any later version.
 
-! ========================= !
-! Hyphenator for North Sámi !
-! ========================= !
+! ========================== !
+! Hyphenator for Kildin Sámi !
+! ========================== !
 
 echo <<defining Cns and Vow...>>
 
