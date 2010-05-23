@@ -8,3 +8,4 @@ LEXICON Conjunction
 я CC "и" ;
 э CC "или / or" ;
 а CC "a / but" ;
+или CC "или / or" ;
