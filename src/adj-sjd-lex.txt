@@ -10,7 +10,10 @@ LEXICON Adjective
 э̄лл adj "высокый / high" ;
 
 ! attributive adjectives (-es' productive? with certain [lexically defined] subclasses of adjectives)
-!э̄ллесь 
+!э̄ллесь attr "высокий / high"
 
 ! predicative adjectives (-e productive? with certain [lexically defined] subclasses of adjectives)
-э̄ллэ adj "высок / high" ;
+э̄ллэ pred "высок / high" ;
+
+! predicative adjectives (-ed productive? with certain [lexically defined] subclasses of adjectives)
+э̄ллэd pred "высок / high" ;
