@@ -17,11 +17,11 @@ A. MPI-tools:
 5. ELAN: elaborate searching, including using regular expressions, within a single ELAN file or across several files, including multiple layer search (same software/GUI as with ANNEX/TROVA); search results can be saved.
 
 
-B. ELAR/HRELP:
+B. ELAR/HRELP: very basic character-string search (not even as advanced as a google search!) of a single project's depost only. I assume more will be possible in the future?
 
 
 
 
 
 
-version: 2010.08.06_17.57JW
+version: 2010.08.06_18.05JW
