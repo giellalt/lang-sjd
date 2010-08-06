@@ -1,0 +1,14 @@
+Suchmöglichkeiten von
+- ELAN,DoBeS verstehen 
+- ELAR
+
+
+Annex/Trova: "the Annotation Exploration tool in the MPI web-based framework for archive exploration and enrichement"
+
+Arbil: "IMDI Metadata Editor, Browser & Organizer Tool"
+
+
+
+
+
+version: 2010.08.06_15.15JW
