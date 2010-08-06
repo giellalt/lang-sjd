@@ -2,13 +2,26 @@ Suchmöglichkeiten von
 - ELAN,DoBeS verstehen 
 - ELAR
 
+A. MPI-tools:
 
-Annex/Trova: "the Annotation Exploration tool in the MPI web-based framework for archive exploration and enrichement"
+1. Annex/Trova: "the Annotation Exploration tool in the MPI web-based framework for archive exploration and enrichement" - see IMDI-Browser!!
 
-Arbil: "IMDI Metadata Editor, Browser & Organizer Tool"
+2. Arbil: "IMDI Metadata Editor, Browser & Organizer Tool" only offline, thus only for locally-stored data; search function not yet integrated
+
+3. IMDI-Browser: search entire MPI corpus collection (DoBeS + many more):
+	* in "metadata" fields (in the DoBeS sense of cataloging metadata)
+	* in "annotation" fields, including display of all hits within context and links to web-based display of ELAN file in ANNEX, inludes list of 8 words on either side of hit, very complex context search using web-based TROVA annotation search; search results can be downloaded/saved
+
+4. Lexus - can be searched (for lexical items, dictionaries) - only available online
+
+5. ELAN: elaborate searching, including using regular expressions, within a single ELAN file or across several files, including multiple layer search (same software/GUI as with ANNEX/TROVA); search results can be saved.
+
+
+B. ELAR/HRELP:
 
 
 
 
 
-version: 2010.08.06_15.15JW
+
+version: 2010.08.06_17.57JW
