@@ -239,6 +239,8 @@ The project aims at creating a state-of-the-art corpus infrastructure and langua
 
 Content: Documentation, Archiving, Automatic annotation, Computer-aided tools for language teaching
 
+Hauptziel des Projektes ist es also sprachtechnologische Werkzeuge (Automaten) zu nutzen um die digitalisierten, transliterierten und übersetzten Texte automatisch annotieren zu können und mit Hilfe des annotierten Korpus schließlich praktische Anwendungen, wie Paradigmen- und Wortformengenerator, interaktive Lehrmaterialien oder elektronische Lexika, zu erstellen.
+
 Sprachen im Fokus sind:
 
 -Kildin (highly endangered, with orthography, with some description and documentation)
@@ -267,6 +269,8 @@ The goals of the project concern … as well as work with the language communiti
 Ultimately, the project should result in the creating and … The survival of the very object of such research, the language itself, is of course crucially dependent on an active community of speakers. In order to support these individuals and their community as well as to promote active use of the endangered Saamic languages, the project will actively contribute its energies and resources to the language communities …
 
 The team consists of experienced documentary and computer linguists and programmers familiar with Saamic languages. Team members have excellent knowledge in the Saami languages in questions, in corpus- and computer linguistics, and in practical revitalization issues. The project will also profit from the symbioses between researches familiar with the Giellatekno infrastructure (including tools for Northern languages) and researchers with the DOBES/ELAR infrastructure (Documentary linguistics of spoken language, archiving of annotated multimedia)
+
+Das beantragte Projekt kann auf die Erfahrungen des {Giellatakno-Projektes} (Tromsø, http://giellatekno.uit.no/) zurückgreifen, mit dem M.\,Rießler und J.\,Wilbur bereits zum Pite- und KolaSaamischen zusammen arbeiten. 
 
 \section{Detailed project description}%approx 15 pages
 \subsection{Introduction}
@@ -326,6 +330,10 @@ JOSH/MICHA
 \item ELAN: elaborate searching, including using regular expressions, within a single ELAN file or across several files, including multiple layer search (same software/GUI as with ANNEX/TROVA); search results can be saved.	
 \end{itemize}
 
+%KWIC-Suche (key word(s) in context)
+%ich glaube diese kexwords kann man über imdi eingeben
+%KWIC ist aber für  linguistische und anthropologische Forschung (sowie für Revitalizierung) nur sehr beschränkt nützlich
+
 \subsubsection{The ELAR deposit for Pite Saami}
 JOSH
 
@@ -346,12 +354,36 @@ TROND … write specifically, what is preliminary already there or in the works 
 
 … A FEW MORE SPECIFIC THINGS, LIKE:
 \paragraph{Two-Level-Morphology}
+Zur computerlinguistischen Verarbeitung der sprachlichen Daten wird vorerst die s.g. Zwei-Ebenen-Morphologie (TWOL) angewendet. In TWOL wird die Zuordnung von Morphemen auf zwei Ebenen beschrieben:
+\begin{enumerate}
+\item morphologische/lexikalische Ebene: Struktur eines Lexems, Morphe, Morphemgrenzen
+\item morphographischen Ebene: Oberflächenrealisierung des Lexems
+\end{enumerate}
+Die erlaubten bzw. verbotenen Zuordnungen von Morphemen auf beiden Ebenen erfolgt mittels (sprachspezifischer) Regeln. Jede Regel wird von einem Transducer in die Realisierung auf der jeweils anderen morphologischen Ebene übersetzt. Somit können morphologische Formen nicht nur analysiert (Übersetzungsrichtung morphographemische Ebene $\rightarrow$ morphologische/lexikalische Ebene), sondern auch generiert werden (Übersetzungsrichtung morphologische/lexikalische Ebene (Stamm+Affixe) $\rightarrow$ morphographemische Ebene (Oberflächenrealisierung)).
 
-\paragraph{the syntax-automator-thing}
+Der TWOL-Ansatz eignet sich besonders zur Beschreibung von Sprachen mit einem komplexen und sich durch Irregularitäten und Stammallomorphie auszeichnenden Formensystem – wie z.B. Saamisch. 
 
-\paragraph{the automatic-dictionary-thing}
+\paragraph{Zwei-Ebenen-Morphologie} (two-level morphology, TWOL) ist ein theoretischer Ansatz, in dem die Struktur eines Lexems auf der morphologisch-lexikalischen Ebene in Relation zu dessen Oberflächenrealisierung, d.h. der Kodierung des Lexems auf der morphographischen Ebene, gesetzt wird. Erlaubte bzw. verbotene Korrespondenzen zwischen Zeichen auf den zwei Ebenen werden durch abstrakte Regeln erfasst.
 
-\paragraph{automatic translation}
+Um Übergeneralisierung bei der durch einen Automaten (Transduktor) angefertigten Übersetzung zu vermeiden, müssen die Regeln durch die Anbindung eines (Morphem-)Lexikons sowie durch Angaben über Morphemkombinatorik auf der morpho-lexikalischen Ebene eingeschränkt werden.
+
+Das Lexikon stellt eine Liste aller gebundenen und ungebundenen Morpheme dar. Ein vorläufiges Morpheminventar wird aus den bereits vorhandenen Toolboxprojekten von KSDP und PSDP importiert. Hauptziel nach abgeschlossener Arbeit mit Toolbox ist es aber weitere Texte mit Hilfe der Automatoren zu parsen und das Morpheminventar damit automatisch zu erweitern.
+
+Die Listen mit Stämmen und der ihnen zugeordneten morphologischen Markierungen werden in TWOL mittels eines mit Indizes versehener Listenverkettungsmodells (indexed concatenation model) miteinander verbunden. Dies bedeutet, dass phonologische oder graphemische Morphemvarianten eines Stamms mit unterschiedlichen Indizes versehen werden, die der Art der zugelassenen Folgekategorien (d.h. möglichen Suffixen für einen gegebenen Stamm) entsprechen. So erhält ein Stamm, dem ein bestimmte Gruppe Suffixe folgen kann, eine andere Indizierung als ein Stamm, dem eine andere Gruppe Suffixe folgen kann. Auch die Suffixe im Lexikon erhalten Indizes, die angeben, mit welcher Art indizierter Stämmen sie kombiniert werden dürfen. Die Aufgabe des Listenverkettungsmodells ist es, die Liste der Wortstämme mit der möglicher Suffixe entsprechend der Indizes einzelner Elemente in diesen Listen miteinander zu verketten.
+
+\textit{Giellatekno} wendet TWOL bei der Erstellung von sprachtechnologischen Anwendungen wie interaktive pädagogische Programme oder Rechtschreibprüfprogramme für morphologisch komplexe Sprachen mit Stamm- und Flexionsvariation an, darunter v.\,a. Nordsaamisch, aber auch andere saamische Sprachen sowie auch Grönländisch, Kveeni, Komi
+
+\paragraph{Syntaktische disambiguierung}
+
+\paragraph{automatic translation} 
+
+\paragraph{the automatic-dictionary-thing} Mit Hilfe des Lexikons und der zu programmierenden morphologischen und später auch auch syntaktischen automaten können am Ende neu eingegebene bzw. importierte Texte automatisch analysiert sowie Paradigmen einzelner Lexeme generieren werden.
+
+\paragraph{Wortformgenerator} Die bereits im Laufe des Pilotprojektes zu erstellenden \textbf{Paradigmen-} und \textbf{Wortformengeneratoren} können eine praktische Funktion im Sprachunterricht übernehmen. In Korpora lassen sich i.d.R. nicht alle Formen eines Paradigmas finden. Mithilfe von TWOL (aber im Unterschied zu Programmen wie Toolbox) können Wortformen jedoch nicht nur analysiert, sondern auch generiert werden. Komplette Paradigmen lassen sich somit für jeden Eintrag in der Datenbank in Echtzeit generieren oder z.B. in das geplante interaktive Lexikon einbinden.
+
+Dementsprechend gibt der Wortformengenerator bei vorgegebener Grundform eines Lexems und der gewünschten morphologischen Markierungen die entsprechende grammatische Form aus (z.B. input: hestur+ACC $\rightarrow$ output: hest).%besser saamisches Beispiel\\
+
+Sobald in einer späteren Projektphase auch ein syntaktischer Automat programmiert worden ist, könnte zusätzlich sogar ein \textbf{Interaktives Syntax-Lernprogramm} erstellt werden. Dabei liefert zuerst die morphologische Analyse auf Wortebene die jeweilige Form. Ein syntaktischer Disambiguator eliminiert daraufhin auf Satzebene die inkorrekten Analysen und versieht die korrekten Analysen mit entsprechenden syntaktischen Funktionen (Subjekt, Objekt usw.). Schließlich könnte eine Phrasenstrukturgrammatik der linearen Darstellung eine hierarchische Struktur zuordnen.
 
 \paragraph{spell checker} use Divvun experience with Northern Saami
 
