@@ -29,7 +29,7 @@
 \bibpunct[: ]{(}{)}{;}{a}{}{;}
 
 \begin{document}
-
+\urlstyle{same} %%JW added this because the url-package was changing the url-font to something totally illegible. "same" gives the url the same font as the surrounding text
 \newfontinstance\scshape[Letters=SmallCaps,Numbers=Uppercase]{Hoefler Text}
 
 \begin{flushleft}
@@ -209,7 +209,7 @@ Phone No & {+49-30-2093-4850}\\
 \hline
 Fax No & {+49-30-2093-9626}\\
 \hline
-E-Mail Address & {\url{mailto:wilburjk@staff.hu-berlin.de}}\\
+E-Mail Address & {\url{mailto:wilburjk@staff.hu-berlin.de}}\\ %%in the typeset pdf, this is displayed as a url with the phrase "mailto:" - looks stupid on paper - can this be changed?
 \hline
 Homepage & {\url{http://www.ni.hu-berlin.de/personal/jwil/jwil_html}}\\
 \hline
@@ -235,7 +235,7 @@ Project period: \>\textbf{October 2011 – September 2014}\\
 
 \section{Abstract}%1–2 pages
 
-The project aims at creating a state-of-the-art corpus infrastructure and language technological tools for Ume, Pite, Kildin and Ter Saami.
+The project aims at creating a state-of-the-art corpus infrastructure and language technology tools for Ume, Pite, Kildin and Ter Saami.
 
 Content: Documentation, Archiving, Automatic annotation, Computer-aided tools for language teaching
 
@@ -249,9 +249,9 @@ Sprachen im Fokus sind:
 
 -Ume (practically extinct, without [established] orthography, with very little description and documentation)
 
-Community driven revitalization efforts are done (to different extent) for all four languages
+Community driven revitalization efforts are done (to different extents) for all four languages
 
-Für alle diese Sprachen gibt es schon multimedial annotierte Korpora, die Josh in seinem Projekt zu Pite und wir in unserem Projekt zu Kolasaami hergestellt haben. Man kann die Annotationen synchron zum Audio/Video anhören/ansehen (mit dem Programm ELAN). Man kann auch etwas in den Annotationen suchen, aber nur sehr limitiert.
+Für alle diese Sprachen gibt es schon multimedial annotierte Korpora, die Josh in seinem Projekt zu Pite und wir in unserem Projekt zu Kolasaami hergestellt haben. Man kann die Annotationen synchron zum Audio/Video anhören/ansehen (mit dem Programm ELAN). Man kann auch etwas in den Annotationen suchen with the help of ELAN locally or, for the DoBeS materials, online with the help of ANNEX/TROVA. %, aber nur sehr limitiert.
 
 Ziel des Projektes soll sein:
 -ein suchbares, für linguistische Forschung nützliches und mit Multimedia verlinktes Korpus gesprochener Sprache herzustellen (wie Giellatekno für Nordsaamisch, aber mit Multimedia)
