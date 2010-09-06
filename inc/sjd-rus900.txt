@@ -1,0 +1,1536 @@
+\textbf{аббьр} \hspace{0.2cm} дождь \smallskip\\
+\textbf{аввта, авта} \hspace{0.2cm} опять, снова \smallskip\\
+\textbf{а̄ввьдэ} \hspace{0.2cm} открывать \smallskip\\
+\textbf{аввь-сайй} \hspace{0.2cm} шрам, рубец \smallskip\\
+\textbf{авьтмусс} \hspace{0.2cm} первый \smallskip\\
+\textbf{агас} \hspace{0.2cm} навсегда \smallskip\\
+\textbf{агкь} \hspace{0.2cm} возраст, век, эпоха \smallskip\\
+\textbf{аджь} \hspace{0.2cm} отец \smallskip\\
+\textbf{а̄джь-пе̄лль} \hspace{0.2cm} отчим \smallskip\\
+\textbf{аджя} \hspace{0.2cm} папа \smallskip\\
+\textbf{адзь} \hspace{0.2cm} прилив (морской) \smallskip\\
+\textbf{ажь-нэ̄мм} \hspace{0.2cm} очество \smallskip\\
+\textbf{ажь-я̄нна} \hspace{0.2cm} родители \smallskip\\
+\textbf{а̄йев} \hspace{0.2cm} внук, внучка (по отношению к дедушке) \smallskip\\
+\textbf{а̄йй} \hspace{0.2cm} дед, дедушка (по отношению к внукам) \smallskip\\
+\textbf{а̄ййк} \hspace{0.2cm} время \smallskip\\
+\textbf{а̄ййт} \hspace{0.2cm} забор \smallskip\\
+\textbf{а̄йкалт} \hspace{0.2cm} рано \smallskip\\
+\textbf{а̄йнханна} \hspace{0.2cm} вдруг \smallskip\\
+\textbf{а̄ка} \hspace{0.2cm} старуха \smallskip\\
+\textbf{а̄ка, а̄кэнч} \hspace{0.2cm} бабушка (старая женщина) \smallskip\\
+\textbf{алех} \hspace{0.2cm} голубой, синий \smallskip\\
+\textbf{алльк} \hspace{0.2cm} сын \smallskip\\
+\textbf{алльк-пе̄лль} \hspace{0.2cm} пасынок \smallskip\\
+\textbf{аллькэ} \hspace{0.2cm} начинать \smallskip\\
+\textbf{алльм} \hspace{0.2cm} небо \smallskip\\
+\textbf{алльт, алльтьенне} \hspace{0.2cm} близко \smallskip\\
+\textbf{альн} \hspace{0.2cm} над \smallskip\\
+\textbf{альн} \hspace{0.2cm} около, возле \smallskip\\
+\textbf{а̄льп, а̄̄лльп} \hspace{0.2cm} бабочка \smallskip\\
+\textbf{а̄ммьсэ} \hspace{0.2cm} зевать \smallskip\\
+\textbf{а̄һклиӈк} \hspace{0.2cm} акула \smallskip\\
+\textbf{а̄һкь} \hspace{0.2cm} жена \smallskip\\
+\textbf{а̄һкь} \hspace{0.2cm} женщина \smallskip\\
+\textbf{а̄һкь} \hspace{0.2cm} старуха \smallskip\\
+\textbf{а̄һкэв} \hspace{0.2cm} внук, внучка (по отношению к бабушке) \smallskip\\
+\textbf{аннтмушш} \hspace{0.2cm} задание \smallskip\\
+\textbf{аннҍтэ} \hspace{0.2cm} давать \smallskip\\
+\textbf{а̄ннэ} \hspace{0.2cm} просить \smallskip\\
+\textbf{аппьсэ} \hspace{0.2cm} пахнуть \smallskip\\
+\textbf{аппьсэ} \hspace{0.2cm} чувствовать запах, нюхать \smallskip\\
+\textbf{аппьсэ} \hspace{0.2cm} шмыгать,  нюхать, сопеть \smallskip\\
+\textbf{апс} \hspace{0.2cm} вонючий, вонь \smallskip\\
+\textbf{а̄ррв} \hspace{0.2cm} цена \smallskip\\
+\textbf{а̄ррьвдэ} \hspace{0.2cm} думать, мыслить, размышлять о чём; полагать, считать \smallskip\\
+\textbf{а̄ррьй} \hspace{0.2cm} весло \smallskip\\
+\textbf{а̄ррьп} \hspace{0.2cm} шрам, рубец \smallskip\\
+\textbf{ассктэ} \hspace{0.2cm} обнимать, обнять \smallskip\\
+\textbf{аххц} \hspace{0.2cm} девять \smallskip\\
+\textbf{аххцлоагкь} \hspace{0.2cm} девяносто \smallskip\\
+\textbf{аххцэмплоагкь} \hspace{0.2cm} девятнадцать \smallskip\\
+\textbf{а̄ххьтэ} \hspace{0.2cm} бить (оления животного) \smallskip\\
+\textbf{а̄шшь-тӯйй} \hspace{0.2cm} необходимость \smallskip\\
+\textbf{ба̄ҋҋк} \hspace{0.2cm} сказка \smallskip\\
+\textbf{ба̄рбан, бӯбен} \hspace{0.2cm} барабан \smallskip\\
+\textbf{благаслуввэ} \hspace{0.2cm} благословлять \smallskip\\
+\textbf{бугор} \hspace{0.2cm} гора (небольшая) \smallskip\\
+\textbf{ва̄дт} \hspace{0.2cm} леса \smallskip\\
+\textbf{вай} \hspace{0.2cm} или \smallskip\\
+\textbf{ва̄йваш} \hspace{0.2cm} попрошайка, нищий, бедный \smallskip\\
+\textbf{ва̄ййвшэнне} \hspace{0.2cm} бедно \smallskip\\
+\textbf{ваййдэ} \hspace{0.2cm} ненавидеть \smallskip\\
+\textbf{ваййшэнне} \hspace{0.2cm} быстро \smallskip\\
+\textbf{ваййшэсь} \hspace{0.2cm} быстрый \smallskip\\
+\textbf{валас} \hspace{0.2cm} нижний (по течению) \smallskip\\
+\textbf{ва̄лесь} \hspace{0.2cm} кит \smallskip\\
+\textbf{ва̄лль} \hspace{0.2cm} ястреб, сокол \smallskip\\
+\textbf{ва̄лльтэ} \hspace{0.2cm} брать \smallskip\\
+\textbf{ва̄ллэ} \hspace{0.2cm} лить, наливать \smallskip\\
+\textbf{ва̄ллэ} \hspace{0.2cm} отливать в форму (металлы) \smallskip\\
+\textbf{ва̄нас} \hspace{0.2cm} мало \smallskip\\
+\textbf{ва̄ннҍ-сӯлль} \hspace{0.2cm} солоноватый \smallskip\\
+\textbf{ва̄ннҍцэ} \hspace{0.2cm} идти (пешком) \smallskip\\
+\textbf{ва̄ннҍцэ} \hspace{0.2cm} ходить \smallskip\\
+\textbf{ва̄ннцэнҍ} \hspace{0.2cm} обувь \smallskip\\
+\textbf{ваӈӈьк} \hspace{0.2cm} крюк \smallskip\\
+\textbf{ва̄птэгк} \hspace{0.2cm} богатый \smallskip\\
+\textbf{ва̄ррь} \hspace{0.2cm} лес \smallskip\\
+\textbf{ва̄рэнь} \hspace{0.2cm} гость \smallskip\\
+\textbf{ва̄сст} \hspace{0.2cm} метла, веник \smallskip\\
+\textbf{васстэ} \hspace{0.2cm} бить, избивать \smallskip\\
+\textbf{ва̄та} \hspace{0.2cm} хлопок (хлопчатобумажная ткань), вата \smallskip\\
+\textbf{ва̄ххта} \hspace{0.2cm} стража \smallskip\\
+\textbf{ва̄ххтъе} \hspace{0.2cm} сторожить \smallskip\\
+\textbf{ва̄ххтъей} \hspace{0.2cm} сторож \smallskip\\
+\textbf{ва̄шенҍ} \hspace{0.2cm} тесто \smallskip\\
+\textbf{ве̄жяр} \hspace{0.2cm} молоток \smallskip\\
+\textbf{ве̄кьхэ} \hspace{0.2cm} помочь, помогать \smallskip\\
+\textbf{ве̄кьхэмушш, ве̄һкьвудт} \hspace{0.2cm} помощь \smallskip\\
+\textbf{ве̄лльк} \hspace{0.2cm} долг \smallskip\\
+\textbf{ве̄һкь} \hspace{0.2cm} помощь \smallskip\\
+\textbf{ве̄ппьс} \hspace{0.2cm} плавник \smallskip\\
+\textbf{ве̄ррь} \hspace{0.2cm} вина, проступок \smallskip\\
+\textbf{ве̄ррь} \hspace{0.2cm} виновный \smallskip\\
+\textbf{ве̄ррь} \hspace{0.2cm} неправильный \smallskip\\
+\textbf{ве̄ррь-тӯйй} \hspace{0.2cm} преступление \smallskip\\
+\textbf{веррэ} \hspace{0.2cm} тесать (тесло) \smallskip\\
+\textbf{ве̄ррэ} \hspace{0.2cm} формовать \smallskip\\
+\textbf{ве̄рхуввэй} \hspace{0.2cm} ответчик, подсудимый, бвиняемый \smallskip\\
+\textbf{ве̄рхэ} \hspace{0.2cm} обвинять \smallskip\\
+\textbf{ве̄рхэ} \hspace{0.2cm} подозревать \smallskip\\
+\textbf{ве̄рхэвудт} \hspace{0.2cm} порицание, осуждение, вина \smallskip\\
+\textbf{ве̄рьха} \hspace{0.2cm} невиновный \smallskip\\
+\textbf{ве̄ссьлэсь} \hspace{0.2cm} веселый \smallskip\\
+\textbf{ве̄шшь} \hspace{0.2cm} вещь \smallskip\\
+\textbf{ве̄шшьк} \hspace{0.2cm} медь, бронза \smallskip\\
+\textbf{вӯзьхуввэ} \hspace{0.2cm} казаться \smallskip\\
+\textbf{вӣдже} \hspace{0.2cm} бежать (человек) \smallskip\\
+\textbf{виллк} \hspace{0.2cm} вилка \smallskip\\
+\textbf{вӣллкэ, вӣллькэсь} \hspace{0.2cm} белый \smallskip\\
+\textbf{вӣлльй} \hspace{0.2cm} брат \smallskip\\
+\textbf{вилльй-пе̄лль} \hspace{0.2cm} двоюродный (-ая) брат (сестра), кузен/кузина \smallskip\\
+\textbf{вилы} \hspace{0.2cm} вилка, вилы \smallskip\\
+\textbf{вӣрр} \hspace{0.2cm} гора (круча) \smallskip\\
+\textbf{вӣррэ} \hspace{0.2cm} верить (доверять) \smallskip\\
+\textbf{вӣршэ} \hspace{0.2cm} мешать, помешивать, смешивать \smallskip\\
+\textbf{вӣссма} \hspace{0.2cm} усталый, утомленный \smallskip\\
+\textbf{виссьтэ} \hspace{0.2cm} взвешивать, весить \smallskip\\
+\textbf{вȳйй} \hspace{0.2cm} жир \smallskip\\
+\textbf{вȳйй} \hspace{0.2cm} масло \smallskip\\
+\textbf{вȳййксэнне, вȳййкэсьт} \hspace{0.2cm} прямо \smallskip\\
+\textbf{вȳйӈас} \hspace{0.2cm} дыхание (воздух) \smallskip\\
+\textbf{владье} \hspace{0.2cm} владеть \smallskip\\
+\textbf{вӯлльгесь} \hspace{0.2cm} низко \smallskip\\
+\textbf{вӯнн} \hspace{0.2cm} залив, бухта, (морские) \smallskip\\
+\textbf{вȳнтас} \hspace{0.2cm} коса (полоса земли) \smallskip\\
+\textbf{воайхэ, воайхэ} \hspace{0.2cm} менять \smallskip\\
+\textbf{воалмаш} \hspace{0.2cm} готовый \smallskip\\
+\textbf{воалмшэгк} \hspace{0.2cm} запас \smallskip\\
+\textbf{воалшэ} \hspace{0.2cm} выбирать \smallskip\\
+\textbf{воаһц} \hspace{0.2cm} варежка, рукавица \smallskip\\
+\textbf{воаһц} \hspace{0.2cm} рукавица \smallskip\\
+\textbf{воафсхэсс} \hspace{0.2cm} северное сияние \smallskip\\
+\textbf{во̄дтэ} \hspace{0.2cm} вести \smallskip\\
+\textbf{возвэ-соанн} \hspace{0.2cm} экипаж, телега \smallskip\\
+\textbf{волтар} \hspace{0.2cm} алтарь \smallskip\\
+\textbf{вȳрэч} \hspace{0.2cm} ворона \smallskip\\
+\textbf{вуагкэ} \hspace{0.2cm} бежать (рысцой) \smallskip\\
+\textbf{вуайва} \hspace{0.2cm} сосок \smallskip\\
+\textbf{вуаййлаһтӭ} \hspace{0.2cm} забывать \smallskip\\
+\textbf{вуаллнешш} \hspace{0.2cm} челюсть \smallskip\\
+\textbf{вуаһкэ} \hspace{0.2cm} стонать \smallskip\\
+\textbf{вуаннче} \hspace{0.2cm} вылечивать, вылечить \smallskip\\
+\textbf{вуаннче} \hspace{0.2cm} зарабатывать \smallskip\\
+\textbf{вуаннче} \hspace{0.2cm} получать \smallskip\\
+\textbf{вуаннче} \hspace{0.2cm} спасать \smallskip\\
+\textbf{вӯгаc} \hspace{0.2cm} дешевый \smallskip\\
+\textbf{вӯзьхэ} \hspace{0.2cm} показывать \smallskip\\
+\textbf{вӯйвас} \hspace{0.2cm} печень \smallskip\\
+\textbf{вӯйе} \hspace{0.2cm} плавать, плыть \smallskip\\
+\textbf{вӯйе} \hspace{0.2cm} плыть по поверхности воды \smallskip\\
+\textbf{вуйй} \hspace{0.2cm} растительное масло \smallskip\\
+\textbf{вӯййк} \hspace{0.2cm} правильный \smallskip\\
+\textbf{вӯййк} \hspace{0.2cm} уверенный, точный, наверное \smallskip\\
+\textbf{ву̅ййк} \hspace{0.2cm} преданный, верный \smallskip\\
+\textbf{вӯййнэ} \hspace{0.2cm} дыхание, дышать \smallskip\\
+\textbf{вӯйнас} \hspace{0.2cm} воздух \smallskip\\
+\textbf{ву̅йнэдтэ} \hspace{0.2cm} купаться \smallskip\\
+\textbf{ву̅йхэллэ} \hspace{0.2cm} обманывать \smallskip\\
+\textbf{вуккьсэ} \hspace{0.2cm} страдать рвотой \smallskip\\
+\textbf{вӯлкхэ} \hspace{0.2cm} посылать \smallskip\\
+\textbf{вульма} \hspace{0.2cm} нижний \smallskip\\
+\textbf{вульн} \hspace{0.2cm} под \smallskip\\
+\textbf{вӯммь} \hspace{0.2cm} долина \smallskip\\
+\textbf{вӯннҍ} \hspace{0.2cm} свекровь \smallskip\\
+\textbf{вӯннҍ} \hspace{0.2cm} теща \smallskip\\
+\textbf{вӯӈӈк} \hspace{0.2cm} рыболовный крючок \smallskip\\
+\textbf{вӯһп} \hspace{0.2cm} тесть \smallskip\\
+\textbf{вӯһпь} \hspace{0.2cm} руль \smallskip\\
+\textbf{вӯнтас} \hspace{0.2cm} песок \smallskip\\
+\textbf{вӯппт} \hspace{0.2cm} волос (на голове) \smallskip\\
+\textbf{вӯрас} \hspace{0.2cm} старый, ветхий  \smallskip\\
+\textbf{вӯсоаррк, вȳссарк} \hspace{0.2cm} понедельник \smallskip\\
+\textbf{вӯссь-ма̄нн} \hspace{0.2cm} май \smallskip\\
+\textbf{вӯффп} \hspace{0.2cm} свекор \smallskip\\
+\textbf{вуэдтӭ} \hspace{0.2cm} спать \smallskip\\
+\textbf{вуэзьхэмэсь} \hspace{0.2cm} бедный, несчастный \smallskip\\
+\textbf{вуэйй} \hspace{0.2cm} канава, ров \smallskip\\
+\textbf{вуэйй} \hspace{0.2cm} ручей \smallskip\\
+\textbf{вуэййв} \hspace{0.2cm} голова \smallskip\\
+\textbf{вуэййв-ка̄бпь} \hspace{0.2cm} череп \smallskip\\
+\textbf{вуэййв-нӣввьл} \hspace{0.2cm} булавка \smallskip\\
+\textbf{вуэййв-пилас} \hspace{0.2cm} подушка \smallskip\\
+\textbf{вуэӆӆкэ} \hspace{0.2cm} блестеть (сиять) \smallskip\\
+\textbf{вуэккьс, вуэккьсук} \hspace{0.2cm} ветвь,  ветка \smallskip\\
+\textbf{вуэллнэ} \hspace{0.2cm} сдаваться \smallskip\\
+\textbf{вуэллнэ} \hspace{0.2cm} спускаться, идти вниз \smallskip\\
+\textbf{вуэлльк} \hspace{0.2cm} плечо \smallskip\\
+\textbf{вуэлльк-таххьт} \hspace{0.2cm} ключица \smallskip\\
+\textbf{вуэлльктэ} \hspace{0.2cm} бросить \smallskip\\
+\textbf{вуэлькесь} \hspace{0.2cm} правая (сторона) \smallskip\\
+\textbf{вуэлькэсь-пя̄лла} \hspace{0.2cm} вправо \smallskip\\
+\textbf{вуэммь} \hspace{0.2cm} старый (о предметах) \smallskip\\
+\textbf{вуэӈӈк} \hspace{0.2cm} нора \smallskip\\
+\textbf{вуэӈӈк} \hspace{0.2cm} пещера \smallskip\\
+\textbf{вуэӈӈмушш} \hspace{0.2cm} отдых \smallskip\\
+\textbf{вуэннч} \hspace{0.2cm} мясо \smallskip\\
+\textbf{вуэннч} \hspace{0.2cm} тело, плоть \smallskip\\
+\textbf{вуэннь} \hspace{0.2cm} тетя (жена брата) \smallskip\\
+\textbf{вуэӈӈэ} \hspace{0.2cm} отдыхать \smallskip\\
+\textbf{вуэнҍтэсь} \hspace{0.2cm} корень \smallskip\\
+\textbf{вуэһць} \hspace{0.2cm} лоб \smallskip\\
+\textbf{вуэпьсэмушш} \hspace{0.2cm} воспитание \smallskip\\
+\textbf{вуэррев} \hspace{0.2cm} белка \smallskip\\
+\textbf{вуэррь} \hspace{0.2cm} шило \smallskip\\
+\textbf{вуэррь-пе̄лль} \hspace{0.2cm} двоюродный (-ая) брат (сестра), кузен/кузина \smallskip\\
+\textbf{вуэррьпэнҍ} \hspace{0.2cm} сестра \smallskip\\
+\textbf{вуэрьял} \hspace{0.2cm} запад \smallskip\\
+\textbf{вуэсстлэ} \hspace{0.2cm} встречать(ся) \smallskip\\
+\textbf{вуэсстлэ} \hspace{0.2cm} отвечать \smallskip\\
+\textbf{вуэссь} \hspace{0.2cm} удача, счастье \smallskip\\
+\textbf{вуэссьтэ} \hspace{0.2cm} купить, покупать \smallskip\\
+\textbf{вуэҋтхуввэ} \hspace{0.2cm} поражение \smallskip\\
+\textbf{вуэҋҋтэмушш, вуэҋҋтмушш} \hspace{0.2cm} победа \smallskip\\
+\textbf{вывв} \hspace{0.2cm} зять \smallskip\\
+\textbf{выгкэ} \hspace{0.2cm} вести \smallskip\\
+\textbf{выгкэй} \hspace{0.2cm} вождь (чуэррьв) \smallskip\\
+\textbf{выдантпе̄ййв} \hspace{0.2cm} пятница \smallskip\\
+\textbf{выдт} \hspace{0.2cm} пять \smallskip\\
+\textbf{выдтэмплоагкь} \hspace{0.2cm} пятнадцать \smallskip\\
+\textbf{выйе} \hspace{0.2cm} ехать (ехать на машине, водить машину) \smallskip\\
+\textbf{выйе е̄бшанҍ} \hspace{0.2cm} ехать верхом, ехать на лошади \smallskip\\
+\textbf{выййтэ} \hspace{0.2cm} выходить \smallskip\\
+\textbf{выййтэ кӯйе} \hspace{0.2cm} жениться, выйти замуж \smallskip\\
+\textbf{выннҍ} \hspace{0.2cm} вино \smallskip\\
+\textbf{выннҍ-мӯрр} \hspace{0.2cm} виноградная лоза, ползучее растение \smallskip\\
+\textbf{вынньц} \hspace{0.2cm} свинец \smallskip\\
+\textbf{"вырр
+"} \hspace{0.2cm} водоворот \smallskip\\
+\textbf{выррьк} \hspace{0.2cm} привычка \smallskip\\
+\textbf{выррьк} \hspace{0.2cm} способ \smallskip\\
+\textbf{выррьтъесь} \hspace{0.2cm} быстрый (о реке, ручье) \smallskip\\
+\textbf{выӊӊт} \hspace{0.2cm} винт \smallskip\\
+\textbf{выххчтэ} \hspace{0.2cm} преследовать \smallskip\\
+\textbf{вэвтнэ} \hspace{0.2cm} заикаться, запинаться \smallskip\\
+\textbf{вэ̄дз} \hspace{0.2cm} снег \smallskip\\
+\textbf{вэ̄йе} \hspace{0.2cm} резать (zuscһneiden) \smallskip\\
+\textbf{вэлас} \hspace{0.2cm} вниз/внизу, ниже, по направления вниз \smallskip\\
+\textbf{вэ̄ннъе} \hspace{0.2cm} лежать (вытянувшись) \smallskip\\
+\textbf{вэ̄ннэ} \hspace{0.2cm} тянуть, натягивать \smallskip\\
+\textbf{вэнс} \hspace{0.2cm} лодка \smallskip\\
+\textbf{вэ̄рр} \hspace{0.2cm} кровь \smallskip\\
+\textbf{вэ̄рр-сӯнн, сӯнн} \hspace{0.2cm} вена, артерия \smallskip\\
+\textbf{вэхтэнне, вэххтэнне} \hspace{0.2cm} скоро, быстро \smallskip\\
+\textbf{вэ̄ццкэ} \hspace{0.2cm} тереть \smallskip\\
+\textbf{вязвушк-пе̄ссь} \hspace{0.2cm} улей \smallskip\\
+\textbf{вязвушк-та̄ррьв} \hspace{0.2cm} воск \smallskip\\
+\textbf{вязвэш} \hspace{0.2cm} оса \smallskip\\
+\textbf{вя̄л} \hspace{0.2cm} еще \smallskip\\
+\textbf{вя̄ллктуввэ} \hspace{0.2cm} быть должным \smallskip\\
+\textbf{вя̄рр} \hspace{0.2cm} суп \smallskip\\
+\textbf{грабля} \hspace{0.2cm} грабли \smallskip\\
+\textbf{гуэйкэ} \hspace{0.2cm} потому что \smallskip\\
+\textbf{ёадтӭ} \hspace{0.2cm} ехать \smallskip\\
+\textbf{ёадтӭ} \hspace{0.2cm} ходить \smallskip\\
+\textbf{ёадҍхэ} \hspace{0.2cm} вести (автомобиль) \smallskip\\
+\textbf{ёакар} \hspace{0.2cm} якорь \smallskip\\
+\textbf{ёамме} \hspace{0.2cm} умереть, скончаться, мертвый \smallskip\\
+\textbf{ёамм-олма} \hspace{0.2cm} труп \smallskip\\
+\textbf{ёафф} \hspace{0.2cm} звук, шум \smallskip\\
+\textbf{е̄башь, е̄бешь} \hspace{0.2cm} лошадь, конь \smallskip\\
+\textbf{е̄бешь-алка} \hspace{0.2cm} жеребенок \smallskip\\
+\textbf{ё̄ввмушш} \hspace{0.2cm} ссора \smallskip\\
+\textbf{е̄внэш} \hspace{0.2cm} паук \smallskip\\
+\textbf{е̄гель} \hspace{0.2cm} ягель \smallskip\\
+\textbf{ё̄гк} \hspace{0.2cm} река, поток, ручей \smallskip\\
+\textbf{е̄гкь} \hspace{0.2cm} дядя (брат отца) \smallskip\\
+\textbf{е̄дтэ} \hspace{0.2cm} резать, вырезать \smallskip\\
+\textbf{е̄кесь-пе̄ррк} \hspace{0.2cm} ужин (холодный) \smallskip\\
+\textbf{е̄кхэллэ} \hspace{0.2cm} мешать, препятствовать \smallskip\\
+\textbf{е̄кьна, е̄кьнэнч} \hspace{0.2cm} вечер (вечером) \smallskip\\
+\textbf{е̄лле} \hspace{0.2cm} жить \smallskip\\
+\textbf{е̄лле} \hspace{0.2cm} проживать, жить \smallskip\\
+\textbf{е̄ллей} \hspace{0.2cm} гражданин \smallskip\\
+\textbf{е̄ллем-налль} \hspace{0.2cm} обычай \smallskip\\
+\textbf{е̄ллем-на̄лль} \hspace{0.2cm} жизнь (образ жизни) \smallskip\\
+\textbf{е̄ммьне} \hspace{0.2cm} земля, страна, суша \smallskip\\
+\textbf{е̄ммьне-пушштнэһкь} \hspace{0.2cm} землятресение \smallskip\\
+\textbf{е̄ммьнэ} \hspace{0.2cm} земля (сторона) \smallskip\\
+\textbf{е̄мьпэрь} \hspace{0.2cm} ведро \smallskip\\
+\textbf{е̄на} \hspace{0.2cm} больше \smallskip\\
+\textbf{е̄һк} \hspace{0.2cm} незнакомец \smallskip\\
+\textbf{е̄ннҍ} \hspace{0.2cm} мать \smallskip\\
+\textbf{е̄ннҍ-пе̄лль} \hspace{0.2cm} мачеха \smallskip\\
+\textbf{е̄ннҍ-шагкь} \hspace{0.2cm} свинья, свиноматка \smallskip\\
+\textbf{е̄ннэ} \hspace{0.2cm} много \smallskip\\
+\textbf{ента, янта} \hspace{0.2cm} завтра \smallskip\\
+\textbf{е̄ресь} \hspace{0.2cm} другой \smallskip\\
+\textbf{ёрнэ} \hspace{0.2cm} падать \smallskip\\
+\textbf{е̄ррк} \hspace{0.2cm} погода \smallskip\\
+\textbf{е̄ррка} \hspace{0.2cm} древний \smallskip\\
+\textbf{е̄рркъя, е̄рркъенч} \hspace{0.2cm} старый, древний (прежний) \smallskip\\
+\textbf{ёррьпесь} \hspace{0.2cm} круглый \smallskip\\
+\textbf{е̄ррэ} \hspace{0.2cm} стереть \smallskip\\
+\textbf{ё̄ррэ} \hspace{0.2cm} упасть \smallskip\\
+\textbf{еськ, есськ} \hspace{0.2cm} сейчас (только что, только тогда) \smallskip\\
+\textbf{е̄ткас} \hspace{0.2cm} улица \smallskip\\
+\textbf{ёҏтътэ} \hspace{0.2cm} катать, вращать \smallskip\\
+\textbf{ёҏтътэллэ} \hspace{0.2cm} переворачивать(ся) \smallskip\\
+\textbf{ёҏтэ} \hspace{0.2cm} уронить \smallskip\\
+\textbf{еххта} \hspace{0.2cm} вчера \smallskip\\
+\textbf{е̄ҏҏьт} \hspace{0.2cm} бок, сторона \smallskip\\
+\textbf{е̄ҏҏьт-та̄ххьт} \hspace{0.2cm} ребро \smallskip\\
+\textbf{жоарр} \hspace{0.2cm} жар, лихорадить \smallskip\\
+\textbf{жыва, жэва} \hspace{0.2cm} животное \smallskip\\
+\textbf{жыва, жэва} \hspace{0.2cm} насекомое (мухи, жукы, пчели...)   \smallskip\\
+\textbf{зе̄ркал} \hspace{0.2cm} зеркало \smallskip\\
+\textbf{зя̄һтҍ} \hspace{0.2cm} зять \smallskip\\
+\textbf{ибэ} \hspace{0.2cm} нельзя \smallskip\\
+\textbf{ӣввьй} \hspace{0.2cm} белый \smallskip\\
+\textbf{иммель} \hspace{0.2cm} Бог \smallskip\\
+\textbf{иммель-са̄ннҍ} \hspace{0.2cm} клятва \smallskip\\
+\textbf{ӣнн} \hspace{0.2cm} дядя (брат отца) \smallskip\\
+\textbf{ӣнн} \hspace{0.2cm} звук, голос \smallskip\\
+\textbf{ӣӈӈ} \hspace{0.2cm} лед, гололед \smallskip\\
+\textbf{иннҍесь} \hspace{0.2cm} громкий \smallskip\\
+\textbf{ӣӈӈк} \hspace{0.2cm} душа, дух \smallskip\\
+\textbf{ӣннхэм} \hspace{0.2cm} глухой \smallskip\\
+\textbf{ӣнцкэнч} \hspace{0.2cm} утро \smallskip\\
+\textbf{ӣнцэсь-пе̄ррк} \hspace{0.2cm} завтрак \smallskip\\
+\textbf{кȳ} \hspace{0.2cm} который \smallskip\\
+\textbf{кабперь} \hspace{0.2cm} шляпа, шапка \smallskip\\
+\textbf{ка̄дхэ} \hspace{0.2cm} терять \smallskip\\
+\textbf{ка̄дэ} \hspace{0.2cm} изчезать \smallskip\\
+\textbf{ка̄йе} \hspace{0.2cm} чайка \smallskip\\
+\textbf{ка̄ййв} \hspace{0.2cm} родник, источник, колодец \smallskip\\
+\textbf{ка̄ййп} \hspace{0.2cm} подбородок \smallskip\\
+\textbf{кайнал, кайнвуэла} \hspace{0.2cm} подмышка \smallskip\\
+\textbf{ка̄ӆӆт} \hspace{0.2cm} карман \smallskip\\
+\textbf{ка̄ӆӆьч} \hspace{0.2cm} ракушка \smallskip\\
+\textbf{какьсэ} \hspace{0.2cm} душить, вызывать удушье \smallskip\\
+\textbf{ка̄ллесь} \hspace{0.2cm} мужчина, муж, старик \smallskip\\
+\textbf{ка̄ллк} \hspace{0.2cm} лыжи (подбитые камысом) \smallskip\\
+\textbf{ка̄ллса, ка̄ллсэнч} \hspace{0.2cm} дед, дедушка (о старом мужчине) \smallskip\\
+\textbf{ка̄лльм} \hspace{0.2cm} могила \smallskip\\
+\textbf{калльмлуввэ, калльмэ} \hspace{0.2cm} замерзнуть \smallskip\\
+\textbf{калпас} \hspace{0.2cm} колбаса, сосиска \smallskip\\
+\textbf{ка̄ннҍ} \hspace{0.2cm} курица \smallskip\\
+\textbf{ка̄ннҍ-пура} \hspace{0.2cm} цыпленок \smallskip\\
+\textbf{ка̄ннҍт} \hspace{0.2cm} берег, побережье \smallskip\\
+\textbf{ка̄ннт} \hspace{0.2cm} пятка \smallskip\\
+\textbf{ка̄ннт} \hspace{0.2cm} пятка \smallskip\\
+\textbf{ка̄ннҍт} \hspace{0.2cm} холм \smallskip\\
+\textbf{ка̄ннҍц} \hspace{0.2cm} друг, товарищ \smallskip\\
+\textbf{ка̄һтӭ} \hspace{0.2cm} закрывать, покрывать \smallskip\\
+\textbf{каһце} \hspace{0.2cm} хватать, схватить \smallskip\\
+\textbf{каһцэ} \hspace{0.2cm} рвать, срывать \smallskip\\
+\textbf{каралль} \hspace{0.2cm} пастбище, выгон \smallskip\\
+\textbf{карвуллэ} \hspace{0.2cm} сторожить \smallskip\\
+\textbf{карвуллэй} \hspace{0.2cm} сторож \smallskip\\
+\textbf{карндашш} \hspace{0.2cm} ручка \smallskip\\
+\textbf{ка̄ррв} \hspace{0.2cm} большой баклан \smallskip\\
+\textbf{ка̄ррь} \hspace{0.2cm} желоб для стока воды \smallskip\\
+\textbf{ка̄ррь} \hspace{0.2cm} миска, таз \smallskip\\
+\textbf{ка̄ррьт} \hspace{0.2cm} жесть (белая) \smallskip\\
+\textbf{каррэ} \hspace{0.2cm} бежать (животное) \smallskip\\
+\textbf{картошкэ} \hspace{0.2cm} картофель \smallskip\\
+\textbf{ка̄рхэ} \hspace{0.2cm} ехать \smallskip\\
+\textbf{карьнэль} \hspace{0.2cm} локоть \smallskip\\
+\textbf{ка̄рьнэсь} \hspace{0.2cm} ворона \smallskip\\
+\textbf{кас} \hspace{0.2cm} слуга \smallskip\\
+\textbf{ка̄ссв} \hspace{0.2cm} лицо \smallskip\\
+\textbf{ка̄ссь} \hspace{0.2cm} ушная сера \smallskip\\
+\textbf{касьт} \hspace{0.2cm} где? откуда? \smallskip\\
+\textbf{каура} \hspace{0.2cm} овес \smallskip\\
+\textbf{ка̄ххц} \hspace{0.2cm} восемь \smallskip\\
+\textbf{ка̄ххцэмплоагкь} \hspace{0.2cm} восемнадцать \smallskip\\
+\textbf{ка̄ццькэ} \hspace{0.2cm} кусать \smallskip\\
+\textbf{кашшьнэ} \hspace{0.2cm} чихать \smallskip\\
+\textbf{ке̄} \hspace{0.2cm} кто? ед.ч. \smallskip\\
+\textbf{ке̄бпэль} \hspace{0.2cm} лапа \smallskip\\
+\textbf{ке̄ввлаһтӭ} \hspace{0.2cm} пугать \smallskip\\
+\textbf{кегк} \hspace{0.2cm} кто? мн.ч. \smallskip\\
+\textbf{ке̄ддҍк} \hspace{0.2cm} камень, скала \smallskip\\
+\textbf{ке̄джь} \hspace{0.2cm} конец \smallskip\\
+\textbf{ке̄лсэллэ} \hspace{0.2cm} лгать \smallskip\\
+\textbf{ке̄лсэллэмушш} \hspace{0.2cm} лжесвидетельство \smallskip\\
+\textbf{ке̄һпесь} \hspace{0.2cm} легкий, простой \smallskip\\
+\textbf{ке̄нҍцесь} \hspace{0.2cm} узкий \smallskip\\
+\textbf{ке̄ресь} \hspace{0.2cm} кережа \smallskip\\
+\textbf{ке̄ссе} \hspace{0.2cm} тащить \smallskip\\
+\textbf{ке̄ссе} \hspace{0.2cm} тянуть \smallskip\\
+\textbf{ке̄ссь} \hspace{0.2cm} лето \smallskip\\
+\textbf{ке̄ссьма̄нн} \hspace{0.2cm} июнь \smallskip\\
+\textbf{кӯесь} \hspace{0.2cm} замужняя \smallskip\\
+\textbf{кӣввт} \hspace{0.2cm} веревка (из кореньев) \smallskip\\
+\textbf{кӣдт} \hspace{0.2cm} рука, кисть \smallskip\\
+\textbf{кӣдтла̄бпь} \hspace{0.2cm} запястье \smallskip\\
+\textbf{кӣлл} \hspace{0.2cm} язык \smallskip\\
+\textbf{кӣлльтэ} \hspace{0.2cm} отказывать, запрещать \smallskip\\
+\textbf{кӣммьн} \hspace{0.2cm} котелок, кастрюля, горшок, котелок, чайник \smallskip\\
+\textbf{кӣннт} \hspace{0.2cm} двор, кинтище \smallskip\\
+\textbf{кӣһче} \hspace{0.2cm} наблюдать, смотреть \smallskip\\
+\textbf{кӣрре} \hspace{0.2cm} карликовая береза \smallskip\\
+\textbf{кӣрркнэ} \hspace{0.2cm} прекращать \smallskip\\
+\textbf{кӣссэ} \hspace{0.2cm} обертывать \smallskip\\
+\textbf{кнӣга} \hspace{0.2cm} книга \smallskip\\
+\textbf{коаб} \hspace{0.2cm} жена (молодая) \smallskip\\
+\textbf{коабпь} \hspace{0.2cm} пашня, борозда, яма \smallskip\\
+\textbf{коавас} \hspace{0.2cm} палатка \smallskip\\
+\textbf{коаввк} \hspace{0.2cm} эхо \smallskip\\
+\textbf{коаввнэ, коаввнэ} \hspace{0.2cm} находить, найти \smallskip\\
+\textbf{коавлас} \hspace{0.2cm} воротник \smallskip\\
+\textbf{коадзъе} \hspace{0.2cm} встать (проснувшись) \smallskip\\
+\textbf{коадзэ, коазсэ} \hspace{0.2cm} повесить \smallskip\\
+\textbf{коадтӭ} \hspace{0.2cm} брюки \smallskip\\
+\textbf{коаза} \hspace{0.2cm} коза \smallskip\\
+\textbf{коаза-алка} \hspace{0.2cm} козленок \smallskip\\
+\textbf{коаӆпхэсс, коаӆпэх} \hspace{0.2cm} шишка, ушыб \smallskip\\
+\textbf{коалдэгк, кӣдт-коаллдэгк} \hspace{0.2cm} ладонь \smallskip\\
+\textbf{коалес} \hspace{0.2cm} колесо \smallskip\\
+\textbf{коаллас} \hspace{0.2cm} лыжи (широкие) \smallskip\\
+\textbf{коалле} \hspace{0.2cm} скала \smallskip\\
+\textbf{коалль} \hspace{0.2cm} золото \smallskip\\
+\textbf{коаллэш} \hspace{0.2cm} дорогой \smallskip\\
+\textbf{коалэ} \hspace{0.2cm} если \smallskip\\
+\textbf{коамма̄нн} \hspace{0.2cm} ноябрь \smallskip\\
+\textbf{коаммрэллэ} \hspace{0.2cm} поклоняться \smallskip\\
+\textbf{коаммэ} \hspace{0.2cm} туфель,  ботинок, башмак \smallskip\\
+\textbf{коампэ} \hspace{0.2cm} который \smallskip\\
+\textbf{коамэн} \hspace{0.2cm} куропатка (самка) \smallskip\\
+\textbf{коаннҍтэ} \hspace{0.2cm} убивать, убить, бить \smallskip\\
+\textbf{коанҍт, коаннҍт} \hspace{0.2cm} дикий олень, лань \smallskip\\
+\textbf{коаһче} \hspace{0.2cm} вызывать,  звать (приглашать) \smallskip\\
+\textbf{коаһче} \hspace{0.2cm} приглашать, пригласить \smallskip\\
+\textbf{коаһчэ} \hspace{0.2cm} приказывать \smallskip\\
+\textbf{коасс} \hspace{0.2cm} кот \smallskip\\
+\textbf{коассь} \hspace{0.2cm} коса (заплетённые волосы) \smallskip\\
+\textbf{коашшьк-кӯлль} \hspace{0.2cm} юкола (вяленая рыба) \smallskip\\
+\textbf{коашькхэсь} \hspace{0.2cm} худой (тощий) \smallskip\\
+\textbf{коашькэсь} \hspace{0.2cm} сухой \smallskip\\
+\textbf{кодтҍ} \hspace{0.2cm} мех \smallskip\\
+\textbf{ко̄ллкэ} \hspace{0.2cm} бежать, течь, литься потоком (вода) \smallskip\\
+\textbf{ко̄ллм} \hspace{0.2cm} три \smallskip\\
+\textbf{ко̄ллмэмплоагкь} \hspace{0.2cm} тринадцать \smallskip\\
+\textbf{ко̄лм вуэр} \hspace{0.2cm} три раза \smallskip\\
+\textbf{ко̄ммьтэсь} \hspace{0.2cm} широкий \smallskip\\
+\textbf{ко̄ннче} \hspace{0.2cm} мочиться \smallskip\\
+\textbf{ко̄ппче} \hspace{0.2cm} собирать \smallskip\\
+\textbf{корбэнч} \hspace{0.2cm} банка, коробка \smallskip\\
+\textbf{ко̄ррэ} \hspace{0.2cm} завязать \smallskip\\
+\textbf{ко̄ррэ} \hspace{0.2cm} связывать \smallskip\\
+\textbf{ко̄ррэб} \hspace{0.2cm} корзина, короб \smallskip\\
+\textbf{корсэ} \hspace{0.2cm} храпеть \smallskip\\
+\textbf{ко̄сс} \hspace{0.2cm} коса (сельскохозяйственное орудие) \smallskip\\
+\textbf{ко̄сс} \hspace{0.2cm} серп, коса \smallskip\\
+\textbf{коссэ} \hspace{0.2cm} кашлять \smallskip\\
+\textbf{коссэ} \hspace{0.2cm} косить \smallskip\\
+\textbf{ко̄ттк} \hspace{0.2cm} муравей \smallskip\\
+\textbf{ко̄ффкэ} \hspace{0.2cm} пинать \smallskip\\
+\textbf{ко̄ххт} \hspace{0.2cm} как? \smallskip\\
+\textbf{коччех} \hspace{0.2cm} шлюпка с выносными уключинами \smallskip\\
+\textbf{ко̄шшкэ} \hspace{0.2cm} жажда \smallskip\\
+\textbf{кроаваһт} \hspace{0.2cm} кровать \smallskip\\
+\textbf{кȳррдэ} \hspace{0.2cm} нюхать (брать след) \smallskip\\
+\textbf{кȳсс} \hspace{0.2cm} елка \smallskip\\
+\textbf{кȳттҍкэш} \hspace{0.2cm} горячий (о живых существах) \smallskip\\
+\textbf{куаййв} \hspace{0.2cm} лопата, совок \smallskip\\
+\textbf{куаййвэ} \hspace{0.2cm} кoпать \smallskip\\
+\textbf{куаллмант} \hspace{0.2cm} третий \smallskip\\
+\textbf{кӯа̄лмантпе̄ййв, куалмант-пе̄ййв} \hspace{0.2cm} среда \smallskip\\
+\textbf{куаррк} \hspace{0.2cm} хвастаться \smallskip\\
+\textbf{куаррэ} \hspace{0.2cm} шить \smallskip\\
+\textbf{куаррэй} \hspace{0.2cm} портной \smallskip\\
+\textbf{куашшкэ, куашшкхэ} \hspace{0.2cm} капать, лить по каплям \smallskip\\
+\textbf{кӯввесь} \hspace{0.2cm} серый \smallskip\\
+\textbf{кӯввьт} \hspace{0.2cm} змея \smallskip\\
+\textbf{кугкхэллэ} \hspace{0.2cm} кричать \smallskip\\
+\textbf{кугкь-вуэр} \hspace{0.2cm} долгосрочный \smallskip\\
+\textbf{кудт} \hspace{0.2cm} шесть \smallskip\\
+\textbf{кӯдтсэллэ} \hspace{0.2cm} оставаться \smallskip\\
+\textbf{кудтъеш} \hspace{0.2cm} остатки \smallskip\\
+\textbf{кудтэмплоагкь} \hspace{0.2cm} шестнадцать \smallskip\\
+\textbf{кӯдц} \hspace{0.2cm} гнилой \smallskip\\
+\textbf{кузвӯйй, куз-вȳйй} \hspace{0.2cm} сливочное масло \smallskip\\
+\textbf{кӯим} \hspace{0.2cm} сноха \smallskip\\
+\textbf{кӯйй} \hspace{0.2cm} муж \smallskip\\
+\textbf{кукесь, кугкесь} \hspace{0.2cm} длинный \smallskip\\
+\textbf{кӯлл} \hspace{0.2cm} тестикул, яйца \smallskip\\
+\textbf{куллтэллэ} \hspace{0.2cm} повиноваться \smallskip\\
+\textbf{кӯлль} \hspace{0.2cm} рыба \smallskip\\
+\textbf{кулльм} \hspace{0.2cm} бровь \smallskip\\
+\textbf{кӯлль-са̄һпь} \hspace{0.2cm} рыбий яд (корень) \smallskip\\
+\textbf{кӯлль-шыллей} \hspace{0.2cm} рыбак \smallskip\\
+\textbf{куллэ} \hspace{0.2cm} слушать \smallskip\\
+\textbf{куллэ} \hspace{0.2cm} слышать \smallskip\\
+\textbf{куллэ} \hspace{0.2cm} чувствовать \smallskip\\
+\textbf{кулхэмэсь} \hspace{0.2cm} глухой (лишëнный слуха) \smallskip\\
+\textbf{кӯмпар} \hspace{0.2cm} гриб \smallskip\\
+\textbf{куһкенҍ} \hspace{0.2cm} далеко \smallskip\\
+\textbf{куннҍ} \hspace{0.2cm} вулва \smallskip\\
+\textbf{кунн} \hspace{0.2cm} пепел, зола \smallskip\\
+\textbf{кунн-лоаннҍт} \hspace{0.2cm} сова \smallskip\\
+\textbf{кӯннҍтэ} \hspace{0.2cm} нести \smallskip\\
+\textbf{куһпесь} \hspace{0.2cm} скупой, жадный \smallskip\\
+\textbf{кӯһт} \hspace{0.2cm} два \smallskip\\
+\textbf{кӯһт вуэр} \hspace{0.2cm} два раза \smallskip\\
+\textbf{куһць, кудца} \hspace{0.2cm} щенок \smallskip\\
+\textbf{курас} \hspace{0.2cm} пустой \smallskip\\
+\textbf{курр} \hspace{0.2cm} пашня, борозда \smallskip\\
+\textbf{кӯррэ} \hspace{0.2cm} курить \smallskip\\
+\textbf{кӯсс} \hspace{0.2cm} ель, пихта \smallskip\\
+\textbf{кӯссь} \hspace{0.2cm} гость \smallskip\\
+\textbf{кусськ} \hspace{0.2cm} часть, кусок \smallskip\\
+\textbf{кутӓс} \hspace{0.2cm} пара \smallskip\\
+\textbf{кӯттьк} \hspace{0.2cm} сердце \smallskip\\
+\textbf{кухня} \hspace{0.2cm} кухня (помещение) \smallskip\\
+\textbf{куххтлоагкь, кȳһтлоагкь} \hspace{0.2cm} двадцать \smallskip\\
+\textbf{куххтэмплоагкь, кӯһтэмплоагкь} \hspace{0.2cm} двенадцать \smallskip\\
+\textbf{кӯцц} \hspace{0.2cm} кислый \smallskip\\
+\textbf{кӯшшк} \hspace{0.2cm} водопад \smallskip\\
+\textbf{кӯшшь} \hspace{0.2cm} корзина \smallskip\\
+\textbf{куэдтҍ} \hspace{0.2cm} хижина (землянка) \smallskip\\
+\textbf{куэдтҍ-жыва} \hspace{0.2cm} скот (домашний) \smallskip\\
+\textbf{куэдтҍ-лоаннҍт} \hspace{0.2cm} домашняя птица \smallskip\\
+\textbf{куэӆӆьк} \hspace{0.2cm} тишина, спокойный (о море) \smallskip\\
+\textbf{куэллт} \hspace{0.2cm} снег \smallskip\\
+\textbf{куэммерь} \hspace{0.2cm} ладонь, горсть \smallskip\\
+\textbf{куэммерь} \hspace{0.2cm} лодыжка \smallskip\\
+\textbf{куэһцев} \hspace{0.2cm} ветвь, хвоя \smallskip\\
+\textbf{куэһцэмь} \hspace{0.2cm} хвоя (игулка на дерева) \smallskip\\
+\textbf{куэррк} \hspace{0.2cm} коса (отмель) \smallskip\\
+\textbf{куэррк} \hspace{0.2cm} риф \smallskip\\
+\textbf{куэррьтэ} \hspace{0.2cm} жарить \smallskip\\
+\textbf{куэссь} \hspace{0.2cm} когда? \smallskip\\
+\textbf{куэсськ} \hspace{0.2cm} тетя, сестра матери \smallskip\\
+\textbf{куэссьтэ} \hspace{0.2cm} дубить \smallskip\\
+\textbf{куэтткай} \hspace{0.2cm} злой (сердитый) \smallskip\\
+\textbf{куэфс} \hspace{0.2cm} рассвет, заря \smallskip\\
+\textbf{куэцькэмь} \hspace{0.2cm} орел \smallskip\\
+\textbf{кыввкан} \hspace{0.2cm} печь \smallskip\\
+\textbf{кыввьн} \hspace{0.2cm} тень (от человека, предмета) \smallskip\\
+\textbf{кыджемплоагкь} \hspace{0.2cm} семнадцать \smallskip\\
+\textbf{кыджемь} \hspace{0.2cm} семь \smallskip\\
+\textbf{кыдт} \hspace{0.2cm} весна \smallskip\\
+\textbf{кыҋҋм} \hspace{0.2cm} зеркало \smallskip\\
+\textbf{кыппьтэ} \hspace{0.2cm} варить \smallskip\\
+\textbf{кыппьтэй} \hspace{0.2cm} повар \smallskip\\
+\textbf{кыррьй} \hspace{0.2cm} орнамент, украшение, узор; книга; письмо \smallskip\\
+\textbf{кыррьтэ} \hspace{0.2cm} дрожать \smallskip\\
+\textbf{кыррьтэ} \hspace{0.2cm} летать, лететь \smallskip\\
+\textbf{кыррьтэй са̄һплиӈӈк} \hspace{0.2cm} летучая мышь \smallskip\\
+\textbf{кырьйхэ} \hspace{0.2cm} писать, написать \smallskip\\
+\textbf{кырьйхэй} \hspace{0.2cm} автор (писатель) \smallskip\\
+\textbf{кыҏҏтхэ, кыҏтэ} \hspace{0.2cm} спешить, торопить(ся) \smallskip\\
+\textbf{кыҋҋтэ} \hspace{0.2cm} хвалить \smallskip\\
+\textbf{кыффкэм-ка̄ррь} \hspace{0.2cm} зеркало \smallskip\\
+\textbf{кышшкэ} \hspace{0.2cm} рвать, разрывать на части \smallskip\\
+\textbf{кышшкэ} \hspace{0.2cm} царапать \smallskip\\
+\textbf{кэ̄бп} \hspace{0.2cm} болезнь \smallskip\\
+\textbf{кэ̄бп} \hspace{0.2cm} простуда \smallskip\\
+\textbf{кэ̄бпшэ} \hspace{0.2cm} болеть (быть больным) \smallskip\\
+\textbf{кэ̄дже} \hspace{0.2cm} спрашивать, спросить \smallskip\\
+\textbf{кэ̄ллт} \hspace{0.2cm} дубина \smallskip\\
+\textbf{кэлмас, кэ̄лмас} \hspace{0.2cm} холодный, холод, стужа \smallskip\\
+\textbf{кэ̄нн} \hspace{0.2cm} перхоть \smallskip\\
+\textbf{кэ̄ннц} \hspace{0.2cm} ноготь \smallskip\\
+\textbf{кэ̄һче, кэ̄ррктэ} \hspace{0.2cm} упасть (с чего-либо) \smallskip\\
+\textbf{кэ̄һче, кэ̄ррктэллэ, кэ̄чнэ} \hspace{0.2cm} падать \smallskip\\
+\textbf{кэ̄нял} \hspace{0.2cm} слеза \smallskip\\
+\textbf{кэппс} \hspace{0.2cm} тень (место, не осбещённое солнцем) \smallskip\\
+\textbf{кэ̄рр} \hspace{0.2cm} жесткий \smallskip\\
+\textbf{кэ̄рр} \hspace{0.2cm} змея (жестокий) \smallskip\\
+\textbf{кэ̄рр} \hspace{0.2cm} кора \smallskip\\
+\textbf{кэ̄рр} \hspace{0.2cm} шереховатый, неровный, грубый \smallskip\\
+\textbf{кэ̄ҏс} \hspace{0.2cm} горло (дыхательное) \smallskip\\
+\textbf{кэ̄сс} \hspace{0.2cm} толстый \smallskip\\
+\textbf{кэ̄сск} \hspace{0.2cm} середина, центр \smallskip\\
+\textbf{кэ̄ццкэ} \hspace{0.2cm} погружаться в воду, тонуть \smallskip\\
+\textbf{кя̄ййн} \hspace{0.2cm} дорога \smallskip\\
+\textbf{ла̄ҋҋ} \hspace{0.2cm} подарок \smallskip\\
+\textbf{ла̄бпь} \hspace{0.2cm} лапа (стопа) \smallskip\\
+\textbf{ла̄ввл} \hspace{0.2cm} песня \smallskip\\
+\textbf{ла̄ввлэ} \hspace{0.2cm} петь \smallskip\\
+\textbf{лаввьн} \hspace{0.2cm} земля, почва \smallskip\\
+\textbf{ладдҍв} \hspace{0.2cm} вершина, макушка \smallskip\\
+\textbf{ла̄ййнэ} \hspace{0.2cm} занимать \smallskip\\
+\textbf{ла̄йнсэ} \hspace{0.2cm} дать взаймы, одолжать, давать в долг \smallskip\\
+\textbf{ла̄ллмушш} \hspace{0.2cm} ласка (проявление нежности) \smallskip\\
+\textbf{ламмп} \hspace{0.2cm} лампа, фонарь \smallskip\\
+\textbf{ла̄ммч} \hspace{0.2cm} веревка (в упряжи) \smallskip\\
+\textbf{ла̄ммьп} \hspace{0.2cm} болото \smallskip\\
+\textbf{ла̄мьпесь-алка} \hspace{0.2cm} ягненок \smallskip\\
+\textbf{ла̄мьпэсь} \hspace{0.2cm} овца, баран \smallskip\\
+\textbf{ланнҍ} \hspace{0.2cm} страна, город \smallskip\\
+\textbf{ла̄ннҍт} \hspace{0.2cm} толпа \smallskip\\
+\textbf{лаппьс} \hspace{0.2cm} роса \smallskip\\
+\textbf{лаппьсэ} \hspace{0.2cm} доить \smallskip\\
+\textbf{ла̄ттҍк} \hspace{0.2cm} сковородка \smallskip\\
+\textbf{ла̄ффьк} \hspace{0.2cm} магазин \smallskip\\
+\textbf{ла̄шшьк} \hspace{0.2cm} лентяй \smallskip\\
+\textbf{ла̄шькэсь} \hspace{0.2cm} ленивый \smallskip\\
+\textbf{ле̄вве} \hspace{0.2cm} разложить, расстилать, распростроняться \smallskip\\
+\textbf{ле̄вхэ} \hspace{0.2cm} переворачивать(ся), обернуться, развернуть(ся) \smallskip\\
+\textbf{ле̄гкь, ле̄кьш} \hspace{0.2cm} долина \smallskip\\
+\textbf{ле̄ййп} \hspace{0.2cm} хлеб \smallskip\\
+\textbf{ле̄ййп сӯййн} \hspace{0.2cm} зерно (ячмень, овес и др.) \smallskip\\
+\textbf{ле̄сск} \hspace{0.2cm} вдова \smallskip\\
+\textbf{ле̄сск-а̄һкь} \hspace{0.2cm} вдова \smallskip\\
+\textbf{ле̄сск-ка̄ллесь} \hspace{0.2cm} вдовец \smallskip\\
+\textbf{лествец} \hspace{0.2cm} лестница (приставная) \smallskip\\
+\textbf{ле̅фф} \hspace{0.2cm} конюшня, стойло,  хлев \smallskip\\
+\textbf{ле̄шшэ} \hspace{0.2cm} лежать \smallskip\\
+\textbf{лӣйе} \hspace{0.2cm} есть, быть \smallskip\\
+\textbf{лимм, лӣмм} \hspace{0.2cm} бульон (только с рыбой или мясом) \smallskip\\
+\textbf{лӣхемь} \hspace{0.2cm} корова \smallskip\\
+\textbf{лӣхемь-алка} \hspace{0.2cm} теленок \smallskip\\
+\textbf{лӣхемь-пынней} \hspace{0.2cm} фермер \smallskip\\
+\textbf{лӣшш} \hspace{0.2cm} лысый, плешь \smallskip\\
+\textbf{лоагк} \hspace{0.2cm} счет \smallskip\\
+\textbf{лоагкь} \hspace{0.2cm} десять \smallskip\\
+\textbf{лоаддв} \hspace{0.2cm} лекарство, средство \smallskip\\
+\textbf{лоаййтҍе} \hspace{0.2cm} вести, привести (оленя, корову) \smallskip\\
+\textbf{лоаннҍт} \hspace{0.2cm} птица \smallskip\\
+\textbf{лоаннтэ} \hspace{0.2cm} зрелый, спелый \smallskip\\
+\textbf{лоасст} \hspace{0.2cm} щепка \smallskip\\
+\textbf{ло̄гкэ} \hspace{0.2cm} читать \smallskip\\
+\textbf{ло̄гкэ, лоагкэ} \hspace{0.2cm} считать \smallskip\\
+\textbf{лоллэ} \hspace{0.2cm} зависть, ревность \smallskip\\
+\textbf{ло̄һк} \hspace{0.2cm} замок, запор, засов \smallskip\\
+\textbf{ло̄һк-чуэввт} \hspace{0.2cm} ключ \smallskip\\
+\textbf{ло̄ссесь} \hspace{0.2cm} тяжелый \smallskip\\
+\textbf{ло̄ссэ} \hspace{0.2cm} тяжело \smallskip\\
+\textbf{лӯбпь} \hspace{0.2cm} лопатка \smallskip\\
+\textbf{лӯввьт} \hspace{0.2cm} доска \smallskip\\
+\textbf{луввэ} \hspace{0.2cm} ложиться \smallskip\\
+\textbf{лӯгке} \hspace{0.2cm} бить (наказывать) \smallskip\\
+\textbf{лӯҋҋкэ} \hspace{0.2cm} плакать, всхлипывать \smallskip\\
+\textbf{луннҍ} \hspace{0.2cm} рядом, у \smallskip\\
+\textbf{лӯпстэ} \hspace{0.2cm} освобождать \smallskip\\
+\textbf{лӯххт} \hspace{0.2cm} залив, бухта, (озеро) \smallskip\\
+\textbf{лӯшшьтэ} \hspace{0.2cm} освободить, отпустить \smallskip\\
+\textbf{лӯшшьтэ} \hspace{0.2cm} разрешать \smallskip\\
+\textbf{луэммь} \hspace{0.2cm} трещина \smallskip\\
+\textbf{луэһк} \hspace{0.2cm} гора \smallskip\\
+\textbf{луэнн} \hspace{0.2cm} мусор \smallskip\\
+\textbf{луэнне} \hspace{0.2cm} смеяться (насмехаться) \smallskip\\
+\textbf{луэннҍтэ} \hspace{0.2cm} расколоть \smallskip\\
+\textbf{луэппьтэ} \hspace{0.2cm} заканчивать \smallskip\\
+\textbf{лыввьт} \hspace{0.2cm} песня (саамская) \smallskip\\
+\textbf{лыгкнэ} \hspace{0.2cm} двигаться \smallskip\\
+\textbf{лыгкхэллэ} \hspace{0.2cm} трогать \smallskip\\
+\textbf{лыййн} \hspace{0.2cm} лен (льняная ткань) \smallskip\\
+\textbf{лыкхэллэ} \hspace{0.2cm} трогать \smallskip\\
+\textbf{лыһк} \hspace{0.2cm} работа \smallskip\\
+\textbf{лыһклэ, лэхклэ} \hspace{0.2cm} хромать \smallskip\\
+\textbf{лыһкь-ма̄ккс} \hspace{0.2cm} заработная плата \smallskip\\
+\textbf{лыһкэ} \hspace{0.2cm} работать, делать, сделать \smallskip\\
+\textbf{лыһцей, лыһцэй} \hspace{0.2cm} врач, доктор \smallskip\\
+\textbf{лыһцэ} \hspace{0.2cm} вылечивать, лечить, исцелять, вылечить \smallskip\\
+\textbf{лыһцэм-пэ̄ҏҏт} \hspace{0.2cm} больница \smallskip\\
+\textbf{лышшьк} \hspace{0.2cm} тело \smallskip\\
+\textbf{лэ̄гк} \hspace{0.2cm} запах \smallskip\\
+\textbf{лэһкэ} \hspace{0.2cm} порождать, рождать (об отце) \smallskip\\
+\textbf{лэ̄ӈӈкэ} \hspace{0.2cm} звать (окликать) \smallskip\\
+\textbf{лэ̄сст} \hspace{0.2cm} лист (растения) \smallskip\\
+\textbf{ля̄ксэгк} \hspace{0.2cm} куропатка (лесная (самец)) \smallskip\\
+\textbf{ля̄ммт} \hspace{0.2cm} лес (большой) \smallskip\\
+\textbf{ля̄шшкэм-нуррь} \hspace{0.2cm} аркан \smallskip\\
+\textbf{ма̄дт} \hspace{0.2cm} червяк, червь \smallskip\\
+\textbf{ма̄дтэр} \hspace{0.2cm} предки \smallskip\\
+\textbf{ма̄йек} \hspace{0.2cm} бобр \smallskip\\
+\textbf{ма̄ййт} \hspace{0.2cm} молоко \smallskip\\
+\textbf{ма̄ккс} \hspace{0.2cm} заработная плата \smallskip\\
+\textbf{маӆӆьк} \hspace{0.2cm} кривой (о дереве) \smallskip\\
+\textbf{ма̄кьсэ} \hspace{0.2cm} платить \smallskip\\
+\textbf{ма̄кьсэмуж} \hspace{0.2cm} налог \smallskip\\
+\textbf{манӭмь-чалльм} \hspace{0.2cm} почка \smallskip\\
+\textbf{маннҍ} \hspace{0.2cm} яйцо \smallskip\\
+\textbf{ма̄нн} \hspace{0.2cm} луна \smallskip\\
+\textbf{ма̄нн} \hspace{0.2cm} месяц \smallskip\\
+\textbf{маӈӈа} \hspace{0.2cm} после, вслед за \smallskip\\
+\textbf{маӈӈа ента} \hspace{0.2cm} послезавтра \smallskip\\
+\textbf{маӈӈа пе̄ййвкэсск} \hspace{0.2cm} после полудня \smallskip\\
+\textbf{маӈӈедҍ} \hspace{0.2cm} поздно \smallskip\\
+\textbf{маӈӈнэ} \hspace{0.2cm} замедлять, задерживать \smallskip\\
+\textbf{маннь} \hspace{0.2cm} невестка \smallskip\\
+\textbf{маӈӈь, маӈьмусс} \hspace{0.2cm} задний \smallskip\\
+\textbf{манҍтэ} \hspace{0.2cm} какой? \smallskip\\
+\textbf{ма̄һце} \hspace{0.2cm} возвращаться \smallskip\\
+\textbf{ма̄ӈьесь} \hspace{0.2cm} последний \smallskip\\
+\textbf{ма̄тҍхэ} \hspace{0.2cm} учить, преподавать, объснять \smallskip\\
+\textbf{ма̄цьхэ} \hspace{0.2cm} возвращать \smallskip\\
+\textbf{ма̄цэх} \hspace{0.2cm} женское платье \smallskip\\
+\textbf{ме̄герь} \hspace{0.2cm} мошкар, мошкара \smallskip\\
+\textbf{ме̄даш} \hspace{0.2cm} пчела \smallskip\\
+\textbf{ме̄ййн} \hspace{0.2cm} икра (рыбья) \smallskip\\
+\textbf{ме̄лл} \hspace{0.2cm} мельница \smallskip\\
+\textbf{меллъюввма} \hspace{0.2cm} мятый, сморщенный \smallskip\\
+\textbf{ме̄лль} \hspace{0.2cm} весло (кормовое) \smallskip\\
+\textbf{ме̄ллэ} \hspace{0.2cm} давить, дробить \smallskip\\
+\textbf{ме̄һць, ме̄һцьтэ} \hspace{0.2cm} охотиться \smallskip\\
+\textbf{мережь} \hspace{0.2cm} верша, ловушка для рыбы \smallskip\\
+\textbf{ме̄ресь} \hspace{0.2cm} тупой \smallskip\\
+\textbf{ме̄рр} \hspace{0.2cm} море \smallskip\\
+\textbf{мӣ} \hspace{0.2cm} что? ед.ч. \smallskip\\
+\textbf{мӣгкэ} \hspace{0.2cm} продавать \smallskip\\
+\textbf{мӣгкэй} \hspace{0.2cm} купец, торговец \smallskip\\
+\textbf{мӣдт} \hspace{0.2cm} мед \smallskip\\
+\textbf{мӣлл} \hspace{0.2cm} разум, ум \smallskip\\
+\textbf{мӣллвэсь} \hspace{0.2cm} умный, мудрый \smallskip\\
+\textbf{мӣллк} \hspace{0.2cm} грудная клетка \smallskip\\
+\textbf{мӣлльтэ} \hspace{0.2cm} с, вместе с \smallskip\\
+\textbf{мӣлхэмесь} \hspace{0.2cm} глупый \smallskip\\
+\textbf{моадзтэ} \hspace{0.2cm} сворачивать, складывать \smallskip\\
+\textbf{моажант} \hspace{0.2cm} мазь \smallskip\\
+\textbf{моазэ, моаст} \hspace{0.2cm} назад \smallskip\\
+\textbf{моайнас} \hspace{0.2cm} беседа, рассказ, сказка \smallskip\\
+\textbf{моайнсэ} \hspace{0.2cm} рассказывать историю  \smallskip\\
+\textbf{моант-паннь} \hspace{0.2cm} коренной зуб \smallskip\\
+\textbf{мо̄джесь} \hspace{0.2cm} красивый \smallskip\\
+\textbf{мо̄джесьвудт} \hspace{0.2cm} красота \smallskip\\
+\textbf{моллдэдтэ} \hspace{0.2cm} молить(ся) \smallskip\\
+\textbf{мо̄ллэ} \hspace{0.2cm} молить(ся) \smallskip\\
+\textbf{мо̄нтэр, ма̄ннтэр} \hspace{0.2cm} континент, суша \smallskip\\
+\textbf{мо̄сст} \hspace{0.2cm} мост \smallskip\\
+\textbf{мугка-ве̄рьт} \hspace{0.2cm} несколько \smallskip\\
+\textbf{мӯдт, мӯдтҍ} \hspace{0.2cm} тетя, младшая сестра матери \smallskip\\
+\textbf{мудта} \hspace{0.2cm} другой \smallskip\\
+\textbf{мудта-вуэр} \hspace{0.2cm} иногда \smallskip\\
+\textbf{муӆӆьт} \hspace{0.2cm} мыло \smallskip\\
+\textbf{мулльй} \hspace{0.2cm} немой \smallskip\\
+\textbf{мунн} \hspace{0.2cm} я \smallskip\\
+\textbf{мӯрр} \hspace{0.2cm} дерево \smallskip\\
+\textbf{мӯрр} \hspace{0.2cm} дерево (материал), древесина \smallskip\\
+\textbf{мӯрр} \hspace{0.2cm} дрова \smallskip\\
+\textbf{мӯрр-мӯррьй, выннҍ-мӯррьй} \hspace{0.2cm} виноград \smallskip\\
+\textbf{мурртма} \hspace{0.2cm} сломанный, разбитый \smallskip\\
+\textbf{мӯрр-ылл, ылл} \hspace{0.2cm} уголь (древесный)  \smallskip\\
+\textbf{мӯррьй} \hspace{0.2cm} ягода \smallskip\\
+\textbf{муррьтэ} \hspace{0.2cm} бить, разбить, разбивать, сломать, разрушать \smallskip\\
+\textbf{мушшьтэ} \hspace{0.2cm} помнить \smallskip\\
+\textbf{муэййнэмушш} \hspace{0.2cm} улыбка \smallskip\\
+\textbf{муэййнэннтэ} \hspace{0.2cm} улыбаться \smallskip\\
+\textbf{мыйй} \hspace{0.2cm} мы \smallskip\\
+\textbf{мэгк} \hspace{0.2cm} что? мн.ч. \smallskip\\
+\textbf{мэйт?} \hspace{0.2cm} почему? \smallskip\\
+\textbf{мэ̄нн} \hspace{0.2cm} что (им.пад.) \smallskip\\
+\textbf{мэ̄нн-ве̄рьт} \hspace{0.2cm} сколько? \smallskip\\
+\textbf{мэ̄ннэ} \hspace{0.2cm} идти, продолжаться, длиться \smallskip\\
+\textbf{мя̄лкас} \hspace{0.2cm} медленный \smallskip\\
+\textbf{на̄бпь} \hspace{0.2cm} пуп \smallskip\\
+\textbf{на̄ввьл} \hspace{0.2cm} гвоздь \smallskip\\
+\textbf{на̄ввьт} \hspace{0.2cm} зверь \smallskip\\
+\textbf{на̄ввьт} \hspace{0.2cm} мех \smallskip\\
+\textbf{нагерь} \hspace{0.2cm} видеть сон, мечтать \smallskip\\
+\textbf{нагерь} \hspace{0.2cm} сон \smallskip\\
+\textbf{на̄дҍедтэ} \hspace{0.2cm} надеяться \smallskip\\
+\textbf{на̄им} \hspace{0.2cm} свадьба \smallskip\\
+\textbf{на̄лль} \hspace{0.2cm} способ \smallskip\\
+\textbf{на̄льхуввэ} \hspace{0.2cm} неудача \smallskip\\
+\textbf{на̄һпь} \hspace{0.2cm} чашка, кубок \smallskip\\
+\textbf{наррькэ} \hspace{0.2cm} вступать в половой контакт \smallskip\\
+\textbf{нарэдт} \hspace{0.2cm} народ \smallskip\\
+\textbf{нёаррк} \hspace{0.2cm} мыс \smallskip\\
+\textbf{не̄дтӭль} \hspace{0.2cm} неделя \smallskip\\
+\textbf{нёллкэ} \hspace{0.2cm} прямой \smallskip\\
+\textbf{не̄лльемплоагкь} \hspace{0.2cm} четырнадцать \smallskip\\
+\textbf{не̄лльй} \hspace{0.2cm} четыре \smallskip\\
+\textbf{не̄лльйлоагкь} \hspace{0.2cm} сорок \smallskip\\
+\textbf{не̄лльй-чӣгк} \hspace{0.2cm} квадрат \smallskip\\
+\textbf{не̄лльк} \hspace{0.2cm} голод, голодание \smallskip\\
+\textbf{нёллькэсь} \hspace{0.2cm} плоский, гладкий \smallskip\\
+\textbf{не̄шшь} \hspace{0.2cm} грязь (на улице) \smallskip\\
+\textbf{ниввьл} \hspace{0.2cm} грязь, тина \smallskip\\
+\textbf{нӣввьл} \hspace{0.2cm} игла \smallskip\\
+\textbf{нӣййт} \hspace{0.2cm} дочь, девушка \smallskip\\
+\textbf{нӣййт-пе̄лль} \hspace{0.2cm} падчерица \smallskip\\
+\textbf{нӣйта} \hspace{0.2cm} девочка \smallskip\\
+\textbf{никуэссь} \hspace{0.2cm} никогда \smallskip\\
+\textbf{нӣллэ} \hspace{0.2cm} глотать \smallskip\\
+\textbf{ниммэ} \hspace{0.2cm} сосать \smallskip\\
+\textbf{нимэ̄нн} \hspace{0.2cm} ничего \smallskip\\
+\textbf{ниӈӈлэсс е̄бешь} \hspace{0.2cm} кобыла \smallskip\\
+\textbf{ниӈӈлэсс, нызан-} \hspace{0.2cm} женский, самка \smallskip\\
+\textbf{ниннч} \hspace{0.2cm} вымя \smallskip\\
+\textbf{ниннч} \hspace{0.2cm} грудь (женская) \smallskip\\
+\textbf{нӣрр} \hspace{0.2cm} щека \smallskip\\
+\textbf{нӣссэ} \hspace{0.2cm} целовать \smallskip\\
+\textbf{ноалльтэ} \hspace{0.2cm} веретено \smallskip\\
+\textbf{ноаҏҏт} \hspace{0.2cm} кережа \smallskip\\
+\textbf{ноаҋҋтма} \hspace{0.2cm} женатый \smallskip\\
+\textbf{нолл} \hspace{0.2cm} ноль \smallskip\\
+\textbf{носо-рыбпехь} \hspace{0.2cm} носовой платок \smallskip\\
+\textbf{нȳраш} \hspace{0.2cm} молодежь \smallskip\\
+\textbf{нȳрмусс} \hspace{0.2cm} младший \smallskip\\
+\textbf{нӯра вуэррьпэнҍ} \hspace{0.2cm} младшая сестра \smallskip\\
+\textbf{нӯрр} \hspace{0.2cm} молодой \smallskip\\
+\textbf{нӯррь} \hspace{0.2cm} веревка \smallskip\\
+\textbf{нуҏҏьт} \hspace{0.2cm} восток \smallskip\\
+\textbf{нуэйд} \hspace{0.2cm} волшебство, колдовство \smallskip\\
+\textbf{нуэйдт} \hspace{0.2cm} колдун, колдунья, ведьма \smallskip\\
+\textbf{ныгкешь} \hspace{0.2cm} щука \smallskip\\
+\textbf{ныдтҍ} \hspace{0.2cm} да \smallskip\\
+\textbf{нызан} \hspace{0.2cm} женщина \smallskip\\
+\textbf{ныййп} \hspace{0.2cm} нож \smallskip\\
+\textbf{ныммьп} \hspace{0.2cm} следующий/ая/ое, другой, второй \smallskip\\
+\textbf{ныммьпоарк, ныммьпоаррк} \hspace{0.2cm} вторник \smallskip\\
+\textbf{нышш} \hspace{0.2cm} морская свинья, дельфин \smallskip\\
+\textbf{нышшьк, нышшьк-моаннт} \hspace{0.2cm} затылок \smallskip\\
+\textbf{нэ̄мм} \hspace{0.2cm} название, имя \smallskip\\
+\textbf{нэммдэ, нэ̄ммдэ} \hspace{0.2cm} называть,  звать (именовать) \smallskip\\
+\textbf{нэ̄ммп} \hspace{0.2cm} волна \smallskip\\
+\textbf{нюаллэ} \hspace{0.2cm} лизать \smallskip\\
+\textbf{ню̄ввэ} \hspace{0.2cm} сдирать кожу \smallskip\\
+\textbf{ню̄лл} \hspace{0.2cm} стрела \smallskip\\
+\textbf{нюммэ} \hspace{0.2cm} сосать, впитывать   \smallskip\\
+\textbf{нюннҍ} \hspace{0.2cm} нос, клюв \smallskip\\
+\textbf{нюрркэ} \hspace{0.2cm} свистеть \smallskip\\
+\textbf{нюххч} \hspace{0.2cm} лебедь \smallskip\\
+\textbf{нюххчма̄нн} \hspace{0.2cm} март \smallskip\\
+\textbf{нюххъе} \hspace{0.2cm} нюхать \smallskip\\
+\textbf{нюхчемь, ню̄ххчемь} \hspace{0.2cm} язык (орган в полости рта) \smallskip\\
+\textbf{ню̄цкас} \hspace{0.2cm} мокрый \smallskip\\
+\textbf{ню̄ццк} \hspace{0.2cm} сырой \smallskip\\
+\textbf{нюччкэ} \hspace{0.2cm} прыгать, танцевать \smallskip\\
+\textbf{нюэзельт} \hspace{0.2cm} плохо \smallskip\\
+\textbf{нюэзесь, нюэссь} \hspace{0.2cm} худой \smallskip\\
+\textbf{нюэммель} \hspace{0.2cm} кролик, заяц \smallskip\\
+\textbf{ня̄ввэ} \hspace{0.2cm} звать (приглашать) \smallskip\\
+\textbf{ня̄ллкас} \hspace{0.2cm} кофета, слодости \smallskip\\
+\textbf{ня̄ллктэллэ} \hspace{0.2cm} голодать \smallskip\\
+\textbf{ня̄лльк} \hspace{0.2cm} различать вкус, попробовать \smallskip\\
+\textbf{ня̄лльм} \hspace{0.2cm} рот \smallskip\\
+\textbf{ня̄лькесь} \hspace{0.2cm} сладкий \smallskip\\
+\textbf{ня̄льянтпе̄ййв} \hspace{0.2cm} четверг \smallskip\\
+\textbf{нямм, няммь} \hspace{0.2cm} клей \smallskip\\
+\textbf{няпай} \hspace{0.2cm} племянник \smallskip\\
+\textbf{няффькэ} \hspace{0.2cm} скользить \smallskip\\
+\textbf{оабпан} \hspace{0.2cm} усы \smallskip\\
+\textbf{оадзэ са̄ййм} \hspace{0.2cm} паутина \smallskip\\
+\textbf{оаз} \hspace{0.2cm} одежда \smallskip\\
+\textbf{оаз} \hspace{0.2cm} паук \smallskip\\
+\textbf{оаккшэ} \hspace{0.2cm} топор \smallskip\\
+\textbf{оалкхэшш} \hspace{0.2cm} начало \smallskip\\
+\textbf{оаллвэ} \hspace{0.2cm} выть \smallskip\\
+\textbf{оаллкэнҍ} \hspace{0.2cm} снаружи \smallskip\\
+\textbf{оалмолма-} \hspace{0.2cm} мужской, самец \smallskip\\
+\textbf{оалмолма, оалм-олма} \hspace{0.2cm} мужчина \smallskip\\
+\textbf{оаһка} \hspace{0.2cm} бабушка (мать отца или матери) \smallskip\\
+\textbf{оаӈӈк} \hspace{0.2cm} огромный \smallskip\\
+\textbf{оаннӭ} \hspace{0.2cm} держать \smallskip\\
+\textbf{оантшэ} \hspace{0.2cm} понимать \smallskip\\
+\textbf{оаньхесь} \hspace{0.2cm} короткий \smallskip\\
+\textbf{оаресь} \hspace{0.2cm} мужской, самец \smallskip\\
+\textbf{оаресь-е̄бешь} \hspace{0.2cm} жеребец \smallskip\\
+\textbf{оаресь-коаза} \hspace{0.2cm} козел \smallskip\\
+\textbf{оаресь-ла̄мьпесь} \hspace{0.2cm} баран \smallskip\\
+\textbf{оаресь-лӣхемь} \hspace{0.2cm} бык \smallskip\\
+\textbf{оасскэ} \hspace{0.2cm} верить \smallskip\\
+\textbf{оассьтэ} \hspace{0.2cm} блюдо, тарелка \smallskip\\
+\textbf{оаҏтьемушш, оаҏҏтэдтмушш} \hspace{0.2cm} спор \smallskip\\
+\textbf{оаҏҏтэ} \hspace{0.2cm} ругать, упрекать, отчитывать, проклинать \smallskip\\
+\textbf{оаффкэ} \hspace{0.2cm} ругать \smallskip\\
+\textbf{оввесь} \hspace{0.2cm} овес \smallskip\\
+\textbf{о̄дзэ} \hspace{0.2cm} искать \smallskip\\
+\textbf{о̄дт} \hspace{0.2cm} новый \smallskip\\
+\textbf{оййкъе} \hspace{0.2cm} толкать \smallskip\\
+\textbf{о̄йяр} \hspace{0.2cm} круг (на воде) \smallskip\\
+\textbf{оккнэ} \hspace{0.2cm} стыд \smallskip\\
+\textbf{о̄ллк} \hspace{0.2cm} балка, перекладина \smallskip\\
+\textbf{о̄ллмэ} \hspace{0.2cm} люди \smallskip\\
+\textbf{олма, олмэнч} \hspace{0.2cm} человек, личность \smallskip\\
+\textbf{о̄һпнуввмушш} \hspace{0.2cm} учеба \smallskip\\
+\textbf{о̄һпнуввэ} \hspace{0.2cm} узнавать, учить(ся), изучать \smallskip\\
+\textbf{о̄һпнуввэй} \hspace{0.2cm} ученик \smallskip\\
+\textbf{отеральнэһк} \hspace{0.2cm} полотенце \smallskip\\
+\textbf{о̄ххтэ} \hspace{0.2cm} один, единственный, только \smallskip\\
+\textbf{очкэ} \hspace{0.2cm} очки \smallskip\\
+\textbf{ошшьтъе} \hspace{0.2cm} обещать \smallskip\\
+\textbf{падже} \hspace{0.2cm} нажимать, выжимать, давить \smallskip\\
+\textbf{па̄зьхэ} \hspace{0.2cm} поститься \smallskip\\
+\textbf{пай} \hspace{0.2cm} всегда \smallskip\\
+\textbf{пайенҍ} \hspace{0.2cm} сверху \smallskip\\
+\textbf{паййла} \hspace{0.2cm} выше \smallskip\\
+\textbf{паййнэ} \hspace{0.2cm} подниматься, взбираться \smallskip\\
+\textbf{па̄ййт} \hspace{0.2cm} рубашка (нижня) \smallskip\\
+\textbf{пайнэ, пайнэллэ} \hspace{0.2cm} подбирать, поднимать \smallskip\\
+\textbf{пайнэдтэ, пэ̄ййнэ} \hspace{0.2cm} подниматься, восходить \smallskip\\
+\textbf{па̄ҏҏк} \hspace{0.2cm} кора \smallskip\\
+\textbf{па̄ҋҋк} \hspace{0.2cm} место (местность, край) \smallskip\\
+\textbf{па̄лвэс} \hspace{0.2cm} жертвоприношение, жертва, пожертвование \smallskip\\
+\textbf{па̄лл} \hspace{0.2cm} сфера, шар, мяч \smallskip\\
+\textbf{па̄лл} \hspace{0.2cm} шишка, ушыб \smallskip\\
+\textbf{палле} \hspace{0.2cm} бить (колоть) \smallskip\\
+\textbf{пальтхэ} \hspace{0.2cm} угрожать \smallskip\\
+\textbf{пальтэсь} \hspace{0.2cm} волк \smallskip\\
+\textbf{па̄льяс} \hspace{0.2cm} голый, обнаженный \smallskip\\
+\textbf{па̄һкь} \hspace{0.2cm} гора, холм \smallskip\\
+\textbf{па̄ннҍ} \hspace{0.2cm} зуб \smallskip\\
+\textbf{па̄рнэнч} \hspace{0.2cm} младенец, ребенок, ребенок, дитя \smallskip\\
+\textbf{па̄ррнэ} \hspace{0.2cm} дети, потомство, парна \smallskip\\
+\textbf{паррьктэ} \hspace{0.2cm} плести, ткать \smallskip\\
+\textbf{па̄ррьн} \hspace{0.2cm} мальчик, парень \smallskip\\
+\textbf{па̄ррьша, па̄ррьшэнч} \hspace{0.2cm} ребенок, мальчик, юноша, молодой человек \smallskip\\
+\textbf{парходт} \hspace{0.2cm} корабль, судно \smallskip\\
+\textbf{па̄ссь} \hspace{0.2cm} священный \smallskip\\
+\textbf{па̄ссь-пе̄ййв} \hspace{0.2cm} воскресенье \smallskip\\
+\textbf{па̄ссьпушшэ} \hspace{0.2cm} благодарить \smallskip\\
+\textbf{пассьтлэсь} \hspace{0.2cm} острый \smallskip\\
+\textbf{пастэх} \hspace{0.2cm} пастух \smallskip\\
+\textbf{пасьтэмь} \hspace{0.2cm} ложка \smallskip\\
+\textbf{па̄̄һть} \hspace{0.2cm} обрыв (скала) \smallskip\\
+\textbf{па̄ццк} \hspace{0.2cm} шишка (хвойного дерева) \smallskip\\
+\textbf{па̄шшькэ} \hspace{0.2cm} испражняться \smallskip\\
+\textbf{па̄шшьтэ} \hspace{0.2cm} светить; печь \smallskip\\
+\textbf{паяс} \hspace{0.2cm} над, наверху, вверх, наверх \smallskip\\
+\textbf{пе̄гке} \hspace{0.2cm} ползти \smallskip\\
+\textbf{пе̄дзь} \hspace{0.2cm} сосна \smallskip\\
+\textbf{пе̄ййв} \hspace{0.2cm} солнце, день \smallskip\\
+\textbf{пе̄ййва} \hspace{0.2cm} днем \smallskip\\
+\textbf{пе̄ййв-вя̄рр} \hspace{0.2cm} обед/ужин \smallskip\\
+\textbf{пе̄ййв-кэ̄сск} \hspace{0.2cm} полдень \smallskip\\
+\textbf{пе̄ййв-луэштлэгк} \hspace{0.2cm} закат \smallskip\\
+\textbf{пе̄ййв-пе̄ррк} \hspace{0.2cm} обед \smallskip\\
+\textbf{пе̄ккарак, пе̄карак} \hspace{0.2cm} тарелка \smallskip\\
+\textbf{пе̄лль} \hspace{0.2cm} половина \smallskip\\
+\textbf{пе̄лльй} \hspace{0.2cm} ухо \smallskip\\
+\textbf{пе̄лльй-ке̄дтҍк} \hspace{0.2cm} мочка уха \smallskip\\
+\textbf{пе̄лльйхэм, пе̄лльйхэмесь} \hspace{0.2cm} глухой (лишëнный слуха) \smallskip\\
+\textbf{пе̄лльк} \hspace{0.2cm} большой палец \smallskip\\
+\textbf{пе̄ннэ} \hspace{0.2cm} собака, пес \smallskip\\
+\textbf{пе̄ннэ-тыһкь} \hspace{0.2cm} блоха \smallskip\\
+\textbf{пе̄һц} \hspace{0.2cm} печь \smallskip\\
+\textbf{пера} \hspace{0.2cm} ручка \smallskip\\
+\textbf{пе̄рвэ} \hspace{0.2cm} первый \smallskip\\
+\textbf{пе̄ррк} \hspace{0.2cm} еда, пища \smallskip\\
+\textbf{пе̄ссь} \hspace{0.2cm} гнездо (птичье) \smallskip\\
+\textbf{пе̄ссь} \hspace{0.2cm} кора (берёста) \smallskip\\
+\textbf{пе̄ссь-мӯрр} \hspace{0.2cm} береза \smallskip\\
+\textbf{пе̄ссьтэ} \hspace{0.2cm} развязывать \smallskip\\
+\textbf{пе̄тнэһц} \hspace{0.2cm} пятница \smallskip\\
+\textbf{петтэх} \hspace{0.2cm} петух \smallskip\\
+\textbf{пефта} \hspace{0.2cm} голый \smallskip\\
+\textbf{пе̄цехь} \hspace{0.2cm} хвост (у рыбы) \smallskip\\
+\textbf{пе̄ццк} \hspace{0.2cm} икра ноги \smallskip\\
+\textbf{пӣва} \hspace{0.2cm} пиво \smallskip\\
+\textbf{пӣввсэ} \hspace{0.2cm} потеть \smallskip\\
+\textbf{пӣдтҍ} \hspace{0.2cm} горе \smallskip\\
+\textbf{пӣдтэ} \hspace{0.2cm} разорять \smallskip\\
+\textbf{пӣжь} \hspace{0.2cm} хвост (короткий, напр. у оленя, лося, барана) \smallskip\\
+\textbf{пӣлл} \hspace{0.2cm} мачта \smallskip\\
+\textbf{пӣӈӈк} \hspace{0.2cm} ветер \smallskip\\
+\textbf{пӣрас} \hspace{0.2cm} семья \smallskip\\
+\textbf{племянник} \hspace{0.2cm} племянник, племянница \smallskip\\
+\textbf{пȳлле, пӯллэ} \hspace{0.2cm} горячий (о предметах) \smallskip\\
+\textbf{плуһт} \hspace{0.2cm} предавать \smallskip\\
+\textbf{плясснэгк, пляссъемушш} \hspace{0.2cm} танец (пляска) \smallskip\\
+\textbf{пляссъе} \hspace{0.2cm} танцевать (плясать) \smallskip\\
+\textbf{поаз} \hspace{0.2cm} опухоль \smallskip\\
+\textbf{поайймушш} \hspace{0.2cm} привычка \smallskip\\
+\textbf{поаййн} \hspace{0.2cm} краска \smallskip\\
+\textbf{поаййнэ} \hspace{0.2cm} красить, рисовать (краской) \smallskip\\
+\textbf{поакас} \hspace{0.2cm} тепло \smallskip\\
+\textbf{поалкас} \hspace{0.2cm} дорожка, тропинка, тропа \smallskip\\
+\textbf{поаллтъ-е̄ллей} \hspace{0.2cm} сосед \smallskip\\
+\textbf{поаля} \hspace{0.2cm} поле (для обработки) \smallskip\\
+\textbf{поаһк} \hspace{0.2cm} теплый \smallskip\\
+\textbf{поаннҍ} \hspace{0.2cm} дно, низ \smallskip\\
+\textbf{поаннь} \hspace{0.2cm} кривой \smallskip\\
+\textbf{поаннэ} \hspace{0.2cm} прясть, скручивать \smallskip\\
+\textbf{поаһп} \hspace{0.2cm} священник \smallskip\\
+\textbf{поарр} \hspace{0.2cm} пар (водяной) \smallskip\\
+\textbf{поаррьтэ} \hspace{0.2cm} свалить в кучу, накоплять, нагромождать \smallskip\\
+\textbf{поасс} \hspace{0.2cm} злой (лютый) \smallskip\\
+\textbf{поассэ} \hspace{0.2cm} дуть \smallskip\\
+\textbf{поафчас} \hspace{0.2cm} боль \smallskip\\
+\textbf{поашшэ} \hspace{0.2cm} мести \smallskip\\
+\textbf{по̄гкэ} \hspace{0.2cm} сверлить, дыра, отверстие \smallskip\\
+\textbf{по̄дэшк} \hspace{0.2cm} подушка \smallskip\\
+\textbf{помм} \hspace{0.2cm} бомба \smallskip\\
+\textbf{по̄нне} \hspace{0.2cm} ткать \smallskip\\
+\textbf{по̄ннц} \hspace{0.2cm} перо \smallskip\\
+\textbf{по̄ррк} \hspace{0.2cm} буря, шторм, пурга \smallskip\\
+\textbf{по̄ррмушш } \hspace{0.2cm} еда, принятие пищи \smallskip\\
+\textbf{по̄ррэ} \hspace{0.2cm} есть, кушать \smallskip\\
+\textbf{по̄рьйсэ} \hspace{0.2cm} плыть под парусом \smallskip\\
+\textbf{порьяс} \hspace{0.2cm} парус \smallskip\\
+\textbf{по̄снэ-вȳйй} \hspace{0.2cm} масло (растительное) \smallskip\\
+\textbf{поҏтэ} \hspace{0.2cm} кормить \smallskip\\
+\textbf{приченҍ} \hspace{0.2cm} причина \smallskip\\
+\textbf{проашшъе} \hspace{0.2cm} прощать \smallskip\\
+\textbf{пȳррь} \hspace{0.2cm} добрый \smallskip\\
+\textbf{пуаз} \hspace{0.2cm} олень (северный) \smallskip\\
+\textbf{пуалл} \hspace{0.2cm} пуговица \smallskip\\
+\textbf{пуатткэ} \hspace{0.2cm} разбить, сломать, разрывать \smallskip\\
+\textbf{пӯввл} \hspace{0.2cm} колено \smallskip\\
+\textbf{пугк} \hspace{0.2cm} все, каждый \smallskip\\
+\textbf{пӯдц} \hspace{0.2cm} пенис \smallskip\\
+\textbf{пӯййт} \hspace{0.2cm} жир, сало \smallskip\\
+\textbf{пуҋҋк} \hspace{0.2cm} гвоздь (деревянный) \smallskip\\
+\textbf{пӯлле} \hspace{0.2cm} блестеть (гореть) \smallskip\\
+\textbf{пӯӈӈ} \hspace{0.2cm} матка, лоно \smallskip\\
+\textbf{пӯӈӈлуввэ} \hspace{0.2cm} зачать, забеременнеть \smallskip\\
+\textbf{пӯнншэсь} \hspace{0.2cm} аккуратный \smallskip\\
+\textbf{пӯннэшвудт} \hspace{0.2cm} чистота \smallskip\\
+\textbf{пӯррь} \hspace{0.2cm} хороший,  добрый \smallskip\\
+\textbf{пуссьт} \hspace{0.2cm} глупый \smallskip\\
+\textbf{пуффс} \hspace{0.2cm} штаны, брюки \smallskip\\
+\textbf{пӯцкэ} \hspace{0.2cm} освободиться от газов \smallskip\\
+\textbf{пушшьтэ} \hspace{0.2cm} трясти \smallskip\\
+\textbf{пуэгенҍ} \hspace{0.2cm} ремень \smallskip\\
+\textbf{пуэдтӭ} \hspace{0.2cm} приходить \smallskip\\
+\textbf{пуэдтӭй} \hspace{0.2cm} будущий \smallskip\\
+\textbf{пуэллмушш, пȳлльмушш} \hspace{0.2cm} пожар \smallskip\\
+\textbf{пуэлльтэ} \hspace{0.2cm} зажигать, воспламенять, жечь \smallskip\\
+\textbf{пуэнн} \hspace{0.2cm} пыль \smallskip\\
+\textbf{пуэраст} \hspace{0.2cm} хорошо \smallskip\\
+\textbf{пуэресь} \hspace{0.2cm} старый (о жибых существах) \smallskip\\
+\textbf{пуэррев} \hspace{0.2cm} плот \smallskip\\
+\textbf{пуэшенҍ} \hspace{0.2cm} равнина, поле \smallskip\\
+\textbf{пыйе} \hspace{0.2cm} положить \smallskip\\
+\textbf{пыйюввэ} \hspace{0.2cm} стоять (быть расположенным где-либо) \smallskip\\
+\textbf{пыӆӆькэ} \hspace{0.2cm} блестеть (мерцать) \smallskip\\
+\textbf{пыла} \hspace{0.2cm} пила \smallskip\\
+\textbf{пымме} \hspace{0.2cm} бумага \smallskip\\
+\textbf{пынне} \hspace{0.2cm} пасти \smallskip\\
+\textbf{пынне} \hspace{0.2cm} сохранять \smallskip\\
+\textbf{пынней} \hspace{0.2cm} пастух \smallskip\\
+\textbf{пыһтӭ} \hspace{0.2cm} приносить, привозить, привести \smallskip\\
+\textbf{пырр-ёррьпесь} \hspace{0.2cm} круг, окружность \smallskip\\
+\textbf{пысс} \hspace{0.2cm} ружье, пушка \smallskip\\
+\textbf{пыссяр} \hspace{0.2cm} бисер \smallskip\\
+\textbf{пыччкар} \hspace{0.2cm} горький \smallskip\\
+\textbf{пыччке} \hspace{0.2cm} визжать \smallskip\\
+\textbf{пыччкэр, пыччкрэсь} \hspace{0.2cm} горький \smallskip\\
+\textbf{пэ̄ввл} \hspace{0.2cm} облако, туча \smallskip\\
+\textbf{пэдтш} \hspace{0.2cm} хвост (у птицы) \smallskip\\
+\textbf{пэӆтэ} \hspace{0.2cm} пугать \smallskip\\
+\textbf{пэӆтэсс} \hspace{0.2cm} опасность \smallskip\\
+\textbf{пэ̄ӆч} \hspace{0.2cm} труслив \smallskip\\
+\textbf{пэ̄ӆчесь} \hspace{0.2cm} трусливый \smallskip\\
+\textbf{пэ̄ллэ} \hspace{0.2cm} страх, испуг \smallskip\\
+\textbf{пэ̄һч} \hspace{0.2cm} грусть \smallskip\\
+\textbf{пэре} \hspace{0.2cm} очень (весь) \smallskip\\
+\textbf{пэ̄рр} \hspace{0.2cm} гнездо (беличье) \smallskip\\
+\textbf{пэ̄сслэ} \hspace{0.2cm} стирать (мыть) \smallskip\\
+\textbf{пэ̄ссэ} \hspace{0.2cm} мыть \smallskip\\
+\textbf{пэ̄ҏҏт} \hspace{0.2cm} дом \smallskip\\
+\textbf{пэ̄ҏҏт-э̄лля, пэ̄ҏҏт-э̄ля} \hspace{0.2cm} крыша \smallskip\\
+\textbf{пэ̄фс} \hspace{0.2cm} губа \smallskip\\
+\textbf{пя̄дцлушшэ} \hspace{0.2cm} думать (заботиться) \smallskip\\
+\textbf{пя̄дцэль} \hspace{0.2cm} тревога \smallskip\\
+\textbf{пя̄ӆӆьк} \hspace{0.2cm} белый (масть животного) \smallskip\\
+\textbf{пя̄ҋҋт} \hspace{0.2cm} секрет, тайна \smallskip\\
+\textbf{ра̄бпэ} \hspace{0.2cm} копать \smallskip\\
+\textbf{ра̄ввьт} \hspace{0.2cm} кузнец \smallskip\\
+\textbf{ра̄зь-ака} \hspace{0.2cm} фея, эльф \smallskip\\
+\textbf{ра̄ййк} \hspace{0.2cm} дыра \smallskip\\
+\textbf{ра̄нн} \hspace{0.2cm} одеяло (связанное из толстой шерсти) \smallskip\\
+\textbf{раннҍт} \hspace{0.2cm} грудь (женская) \smallskip\\
+\textbf{ра̄ппче} \hspace{0.2cm} щипать, жать \smallskip\\
+\textbf{ра̄ссь} \hspace{0.2cm} овощи \smallskip\\
+\textbf{ра̄ссь} \hspace{0.2cm} растение, цветок, трава \smallskip\\
+\textbf{раст} \hspace{0.2cm} через, про \smallskip\\
+\textbf{ра̄ттҍкэ} \hspace{0.2cm} отделять \smallskip\\
+\textbf{ра̄ӊӊь} \hspace{0.2cm} рана, язва \smallskip\\
+\textbf{рашь} \hspace{0.2cm} слабый, хилый \smallskip\\
+\textbf{ре̄ввьн, рȳммт} \hspace{0.2cm} край, граница \smallskip\\
+\textbf{ре̄гкшэ, ря̄гкэ} \hspace{0.2cm} кричать \smallskip\\
+\textbf{ре̄гкь} \hspace{0.2cm} слизь, сопля \smallskip\\
+\textbf{ре̄менҍ} \hspace{0.2cm} ремень \smallskip\\
+\textbf{ре̄ммас} \hspace{0.2cm} ресница \smallskip\\
+\textbf{ре̄һкь} \hspace{0.2cm} враг \smallskip\\
+\textbf{ре̄ӈӈкмушш} \hspace{0.2cm} наказание \smallskip\\
+\textbf{ре̄һпенҍ} \hspace{0.2cm} дымоход \smallskip\\
+\textbf{ре̄ӊӊьк} \hspace{0.2cm} сережка \smallskip\\
+\textbf{рӣммьн} \hspace{0.2cm} лиса, лисица \smallskip\\
+\textbf{рӣсс} \hspace{0.2cm} рис \smallskip\\
+\textbf{роабпь} \hspace{0.2cm} тело (туша) \smallskip\\
+\textbf{роавас} \hspace{0.2cm} сильный, могущественный \smallskip\\
+\textbf{роаввк} \hspace{0.2cm} призрак \smallskip\\
+\textbf{роаввсэнне} \hspace{0.2cm} сильно \smallskip\\
+\textbf{роадтҍ} \hspace{0.2cm} уродливый, некрасивый \smallskip\\
+\textbf{роаммесь} \hspace{0.2cm} счастливый, радостный \smallskip\\
+\textbf{роаммлаһтӭ} \hspace{0.2cm} обрадовать \smallskip\\
+\textbf{роаӈӈҍк} \hspace{0.2cm} тело, талия \smallskip\\
+\textbf{роаннтӭй, роантҍнэй} \hspace{0.2cm} трусливый \smallskip\\
+\textbf{роатткъе} \hspace{0.2cm} развод \smallskip\\
+\textbf{ро̄бхушшэ} \hspace{0.2cm} работать \smallskip\\
+\textbf{ро̄бэһт} \hspace{0.2cm} работа \smallskip\\
+\textbf{ро̄дт} \hspace{0.2cm} родственники \smallskip\\
+\textbf{ро̄дҍхель, ро̄дҍхэль} \hspace{0.2cm} родители \smallskip\\
+\textbf{роһцмушш} \hspace{0.2cm} ласка (проявление нежности) \smallskip\\
+\textbf{ро̄ссь} \hspace{0.2cm} лошадь \smallskip\\
+\textbf{ро̄шшкэсь} \hspace{0.2cm} красный (тёмно-красный) \smallskip\\
+\textbf{ро̄шшь} \hspace{0.2cm} рожь \smallskip\\
+\textbf{рȳппьсэсь} \hspace{0.2cm} красный \smallskip\\
+\textbf{рӯввьт} \hspace{0.2cm} ножницы, железо, ловушка \smallskip\\
+\textbf{руввьт-кабперь} \hspace{0.2cm} шлем \smallskip\\
+\textbf{ругкъедтмушш} \hspace{0.2cm} спор \smallskip\\
+\textbf{рӯдтӭ-пе̄лль} \hspace{0.2cm} висок \smallskip\\
+\textbf{рӯкнэ} \hspace{0.2cm} хранить \smallskip\\
+\textbf{рӯммьп} \hspace{0.2cm} нарыв, фурункул \smallskip\\
+\textbf{рӯһке} \hspace{0.2cm} хоронить \smallskip\\
+\textbf{рӯппсэ} \hspace{0.2cm} красный \smallskip\\
+\textbf{руххк} \hspace{0.2cm} желток \smallskip\\
+\textbf{рӯц} \hspace{0.2cm} финский \smallskip\\
+\textbf{рӯц-кӣлл} \hspace{0.2cm} финский (язык) \smallskip\\
+\textbf{рӯц-олма} \hspace{0.2cm} финский (человек) \smallskip\\
+\textbf{руччкесь} \hspace{0.2cm} желтый \smallskip\\
+\textbf{рӯшас} \hspace{0.2cm} по-русски \smallskip\\
+\textbf{рӯшш} \hspace{0.2cm} русский \smallskip\\
+\textbf{рӯшш кӣлл} \hspace{0.2cm} русский язык \smallskip\\
+\textbf{рӯшшла, рӯшшлэнч} \hspace{0.2cm} русский (человек) \smallskip\\
+\textbf{руэкхэ} \hspace{0.2cm} просыпаться \smallskip\\
+\textbf{руэһк} \hspace{0.2cm} запас \smallskip\\
+\textbf{руэнн} \hspace{0.2cm} зеленый, неспелый, незрелый \smallskip\\
+\textbf{руэняс} \hspace{0.2cm} веселый \smallskip\\
+\textbf{рыбпехь} \hspace{0.2cm} ткань, сукно, платок \smallskip\\
+\textbf{рыдтҍ} \hspace{0.2cm} дорога (в распутицу) \smallskip\\
+\textbf{рыннт} \hspace{0.2cm} берег, побережье \smallskip\\
+\textbf{рыһп} \hspace{0.2cm} куропатка \smallskip\\
+\textbf{рысст} \hspace{0.2cm} крест \smallskip\\
+\textbf{рыҋҋфэ} \hspace{0.2cm} рвать, срывать \smallskip\\
+\textbf{рэ̄ссесь} \hspace{0.2cm} трудный \smallskip\\
+\textbf{ряд} \hspace{0.2cm} сад \smallskip\\
+\textbf{ря̄кгкмушш, ря̄кгнэгк} \hspace{0.2cm} крик \smallskip\\
+\textbf{ря̄һкхэмушш} \hspace{0.2cm} вред \smallskip\\
+\textbf{ряшкхэ} \hspace{0.2cm} стрелять \smallskip\\
+\textbf{савехь} \hspace{0.2cm} "лыжа (ед.ч.), лыжи (мн.ч.)
+снегоступы
+" \smallskip\\
+\textbf{са̄гк} \hspace{0.2cm} пила \smallskip\\
+\textbf{сада мадта, садга} \hspace{0.2cm} немного (совсем мало) \smallskip\\
+\textbf{сайй} \hspace{0.2cm} место (достижение, стоянка) \smallskip\\
+\textbf{са̄ййм} \hspace{0.2cm} рыбацкая сеть \smallskip\\
+\textbf{са̄ккьс} \hspace{0.2cm} грязь (в доме, на руках, одежде и. т. д.) \smallskip\\
+\textbf{са̄мас} \hspace{0.2cm} по-саамски \smallskip\\
+\textbf{саммлёһт} \hspace{0.2cm} самолет \smallskip\\
+\textbf{са̄ммля, са̄ммленч} \hspace{0.2cm} саамский (человек) \smallskip\\
+\textbf{са̄мь} \hspace{0.2cm} саамский \smallskip\\
+\textbf{са̄мь кӣлл} \hspace{0.2cm} саамский язык \smallskip\\
+\textbf{са̄ннҍ} \hspace{0.2cm} слово, заговор \smallskip\\
+\textbf{саӈӈк} \hspace{0.2cm} булавка \smallskip\\
+\textbf{са̄һпе} \hspace{0.2cm} сапог \smallskip\\
+\textbf{са̄һплиӈӈк} \hspace{0.2cm} мышь, крыса \smallskip\\
+\textbf{са̄һпь} \hspace{0.2cm} сок растений \smallskip\\
+\textbf{са̄рнэм-лоаннҍт} \hspace{0.2cm} попугай \smallskip\\
+\textbf{са̄ррнэ} \hspace{0.2cm} говорить, разговаривать \smallskip\\
+\textbf{са̄ррнэ иммель-са̄нӭгуэйм} \hspace{0.2cm} клясться \smallskip\\
+\textbf{са̄ррьк} \hspace{0.2cm} фетр, войлок \smallskip\\
+\textbf{са̄ррьт} \hspace{0.2cm} сердце \smallskip\\
+\textbf{са̄рфанн} \hspace{0.2cm} юбка \smallskip\\
+\textbf{са̄ттк} \hspace{0.2cm} гавань, пристань, порт \smallskip\\
+\textbf{сафьксэ} \hspace{0.2cm} шептать \smallskip\\
+\textbf{са̄хар} \hspace{0.2cm} сахар \smallskip\\
+\textbf{све̄тел} \hspace{0.2cm} свидетель \smallskip\\
+\textbf{сȳгкесь} \hspace{0.2cm} густой (о лесе) \smallskip\\
+\textbf{се̄ввьн} \hspace{0.2cm} темнота, тьма, мрак \smallskip\\
+\textbf{се̄вьнесь} \hspace{0.2cm} темный \smallskip\\
+\textbf{сейе} \hspace{0.2cm} просеивать, процеживать, сеять, засевать \smallskip\\
+\textbf{се̄ййп} \hspace{0.2cm} хвост \smallskip\\
+\textbf{се̄ййт} \hspace{0.2cm} идол \smallskip\\
+\textbf{се̄лльк} \hspace{0.2cm} спина \smallskip\\
+\textbf{се̄м} \hspace{0.2cm} семя \smallskip\\
+\textbf{се̄ннтмушш, се̄нтнэмушш} \hspace{0.2cm} гнев, злость, зло \smallskip\\
+\textbf{се̄нтнэй} \hspace{0.2cm} злой (сердитый) \smallskip\\
+\textbf{се̄ӈькесь} \hspace{0.2cm} тонкий \smallskip\\
+\textbf{се̄ппьт} \hspace{0.2cm} насадка, наживка \smallskip\\
+\textbf{се̄ррэм} \hspace{0.2cm} ноздря \smallskip\\
+\textbf{се̄фьтэрь} \hspace{0.2cm} мох \smallskip\\
+\textbf{сӣббл} \hspace{0.2cm} снег (мокрый) \smallskip\\
+\textbf{сӣйй} \hspace{0.2cm} гной \smallskip\\
+\textbf{сӣййнмушш} \hspace{0.2cm} улыбка \smallskip\\
+\textbf{сӣййнэ, сӣйнънэ} \hspace{0.2cm} смеяться \smallskip\\
+\textbf{сипп} \hspace{0.2cm} волос (лобковый) \smallskip\\
+\textbf{сӣрр, сӣра, сӣрэнч} \hspace{0.2cm} игра, игрушка \smallskip\\
+\textbf{сӣррэ} \hspace{0.2cm} играть \smallskip\\
+\textbf{сӣссь} \hspace{0.2cm} тетя \smallskip\\
+\textbf{скуммьп} \hspace{0.2cm} волк \smallskip\\
+\textbf{сȳһпъе} \hspace{0.2cm} бросить \smallskip\\
+\textbf{соагк} \hspace{0.2cm} проповедовать \smallskip\\
+\textbf{соагнэ} \hspace{0.2cm} ловить (добывать) \smallskip\\
+\textbf{соаййв} \hspace{0.2cm} юг \smallskip\\
+\textbf{соалтэх} \hspace{0.2cm} солдат \smallskip\\
+\textbf{соан} \hspace{0.2cm} ярмо \smallskip\\
+\textbf{соанн, соанн} \hspace{0.2cm} сани \smallskip\\
+\textbf{соаррьм} \hspace{0.2cm} мертвый, смерть \smallskip\\
+\textbf{сойлэсь} \hspace{0.2cm} кривой, изогнутый \smallskip\\
+\textbf{со̄нн} \hspace{0.2cm} он/она/оно \smallskip\\
+\textbf{со̄ппт} \hspace{0.2cm} пена \smallskip\\
+\textbf{соҋтэ} \hspace{0.2cm} сгибать \smallskip\\
+\textbf{со̄фс} \hspace{0.2cm} лыжи (узкие) \smallskip\\
+\textbf{спичка} \hspace{0.2cm} спичка \smallskip\\
+\textbf{сȳрвас, сȳррвэсь} \hspace{0.2cm} быстрый, шустрый \smallskip\\
+\textbf{сте̄клэ} \hspace{0.2cm} стекло \smallskip\\
+\textbf{сте̄нн} \hspace{0.2cm} стена \smallskip\\
+\textbf{стӯла} \hspace{0.2cm} стул \smallskip\\
+\textbf{стуэлльп} \hspace{0.2cm} дверной косяк, столп на двере, столб \smallskip\\
+\textbf{суаӈӈэ} \hspace{0.2cm} входить \smallskip\\
+\textbf{сӯбпесь} \hspace{0.2cm} мягкий \smallskip\\
+\textbf{сӯвв} \hspace{0.2cm} дым \smallskip\\
+\textbf{сӯвведҍ, сӯввед} \hspace{0.2cm} суббота \smallskip\\
+\textbf{суввьт} \hspace{0.2cm} жабры \smallskip\\
+\textbf{сугкэ} \hspace{0.2cm} грести \smallskip\\
+\textbf{сӯййн} \hspace{0.2cm} сено, трава \smallskip\\
+\textbf{сӯййн нюччкэй} \hspace{0.2cm} кузнечик \smallskip\\
+\textbf{сӯййн-ма̄нн} \hspace{0.2cm} июль \smallskip\\
+\textbf{сӯлл} \hspace{0.2cm} вор \smallskip\\
+\textbf{суллем} \hspace{0.2cm} яд \smallskip\\
+\textbf{сӯлль} \hspace{0.2cm} соль \smallskip\\
+\textbf{суля} \hspace{0.2cm} бутылка \smallskip\\
+\textbf{суһк} \hspace{0.2cm} чулок, носок \smallskip\\
+\textbf{сӯнн} \hspace{0.2cm} нитка \smallskip\\
+\textbf{сӯнн} \hspace{0.2cm} "сухoжилие
+нитка" \smallskip\\
+\textbf{суннтэ} \hspace{0.2cm} таять \smallskip\\
+\textbf{сӯрмас} \hspace{0.2cm} кольцо \smallskip\\
+\textbf{сӯррь} \hspace{0.2cm} ветвь,  ветка \smallskip\\
+\textbf{сурькхэллэ} \hspace{0.2cm} пугать \smallskip\\
+\textbf{сӯсскэ} \hspace{0.2cm} жевать \smallskip\\
+\textbf{суэгкь} \hspace{0.2cm} береза (большая) \smallskip\\
+\textbf{суэгкь} \hspace{0.2cm} ствол дерева \smallskip\\
+\textbf{суэйй} \hspace{0.2cm} крыло \smallskip\\
+\textbf{суэл} \hspace{0.2cm} остров \smallskip\\
+\textbf{суэлнэ} \hspace{0.2cm} воровать, украсть \smallskip\\
+\textbf{суэммьп} \hspace{0.2cm} посох \smallskip\\
+\textbf{суэһпэ} \hspace{0.2cm} кидать \smallskip\\
+\textbf{суэнӭсь} \hspace{0.2cm} тишина, спокойный, тихий \smallskip\\
+\textbf{сыз} \hspace{0.2cm} "в
+внутри" \smallskip\\
+\textbf{сызьн} \hspace{0.2cm} в, внутри \smallskip\\
+\textbf{сыйй} \hspace{0.2cm} они \smallskip\\
+\textbf{сыййт} \hspace{0.2cm} деревня, поселок \smallskip\\
+\textbf{сыййт} \hspace{0.2cm} лагерь, стойбище \smallskip\\
+\textbf{сыййт} \hspace{0.2cm} племя, род \smallskip\\
+\textbf{сыллп} \hspace{0.2cm} серебро \smallskip\\
+\textbf{сыннҍ} \hspace{0.2cm} жадный \smallskip\\
+\textbf{сыннҍ} \hspace{0.2cm} иней \smallskip\\
+\textbf{сырр} \hspace{0.2cm} сыр \smallskip\\
+\textbf{сэ̄лл} \hspace{0.2cm} сажень \smallskip\\
+\textbf{сэ̄ллдэ} \hspace{0.2cm} мерить, измерять \smallskip\\
+\textbf{сэ̄ррв} \hspace{0.2cm} лось \smallskip\\
+\textbf{сэфс} \hspace{0.2cm} волос (на теле), мех \smallskip\\
+\textbf{ся̄гкнэһк} \hspace{0.2cm} ошибка \smallskip\\
+\textbf{ся̄ййвэ} \hspace{0.2cm} причаливать, приземляться \smallskip\\
+\textbf{ся̄м} \hspace{0.2cm} борода \smallskip\\
+\textbf{ся̄рэдт} \hspace{0.2cm} среда \smallskip\\
+\textbf{тuррьмшэһк} \hspace{0.2cm} пленник, заключенный \smallskip\\
+\textbf{та̄бпэ} \hspace{0.2cm} ловить (хватать) \smallskip\\
+\textbf{та̄бэх} \hspace{0.2cm} табак \smallskip\\
+\textbf{таввял} \hspace{0.2cm} север \smallskip\\
+\textbf{тавель-са̄мас} \hspace{0.2cm} по-северо-саамски \smallskip\\
+\textbf{тавель-са̄мь} \hspace{0.2cm} северо-саамский \smallskip\\
+\textbf{та̄гклэ} \hspace{0.2cm} ударить \smallskip\\
+\textbf{та̄гкь} \hspace{0.2cm} камин \smallskip\\
+\textbf{та̄гкэ} \hspace{0.2cm} молотить, ковать, колотить кулуком \smallskip\\
+\textbf{та̄гкэм-са̄йй} \hspace{0.2cm} наковальня \smallskip\\
+\textbf{тадт} \hspace{0.2cm} этот, это(т), эта \smallskip\\
+\textbf{тала-тала} \hspace{0.2cm} немедленно \smallskip\\
+\textbf{та̄лл} \hspace{0.2cm} медведь \smallskip\\
+\textbf{та̄лльв} \hspace{0.2cm} зима \smallskip\\
+\textbf{та̄ммьп} \hspace{0.2cm} селезенка \smallskip\\
+\textbf{тамьпэ} \hspace{0.2cm} там \smallskip\\
+\textbf{та̄һтэ} \hspace{0.2cm} желать \smallskip\\
+\textbf{та̄р} \hspace{0.2cm} норвешкий \smallskip\\
+\textbf{та̄р кӣлл} \hspace{0.2cm} норвешкий (язык) \smallskip\\
+\textbf{та̄рельк} \hspace{0.2cm} тарелка \smallskip\\
+\textbf{та̄рр-олма} \hspace{0.2cm} норвешкий (человек) \smallskip\\
+\textbf{та̄ррьм} \hspace{0.2cm} сегодня \smallskip\\
+\textbf{та̄ррьмя, та̄ррьменч} \hspace{0.2cm} настоящий \smallskip\\
+\textbf{та̄ссьт} \hspace{0.2cm} звезда \smallskip\\
+\textbf{та̄ссэм} \hspace{0.2cm} ремень (широкий-кожаный с ножнами) \smallskip\\
+\textbf{та̄ххьт} \hspace{0.2cm} кость \smallskip\\
+\textbf{таяш} \hspace{0.2cm} безумный \smallskip\\
+\textbf{те̄ввт} \hspace{0.2cm} достаточно, полный \smallskip\\
+\textbf{те̄йнчлиӈк} \hspace{0.2cm} ящерица \smallskip\\
+\textbf{те̄ӈӈьк} \hspace{0.2cm} деньги, монета \smallskip\\
+\textbf{те̄ҏҏпэ} \hspace{0.2cm} рубить \smallskip\\
+\textbf{те̄ррьм} \hspace{0.2cm} гора (холм) \smallskip\\
+\textbf{тӣдтэ} \hspace{0.2cm} знать, узнать \smallskip\\
+\textbf{тӣн} \hspace{0.2cm} ваш \smallskip\\
+\textbf{тӣрвас} \hspace{0.2cm} здоровый, здоровье \smallskip\\
+\textbf{тӣрвасвудт} \hspace{0.2cm} здоровье \smallskip\\
+\textbf{тӣрвхэ} \hspace{0.2cm} поздравить \smallskip\\
+\textbf{тӣррв} \hspace{0.2cm} здравствуй \smallskip\\
+\textbf{тӣрьмесь-нюлл} \hspace{0.2cm} молния \smallskip\\
+\textbf{тӣрьмесь-ю̄ккс} \hspace{0.2cm} радуга \smallskip\\
+\textbf{тӣрьмэсь} \hspace{0.2cm} гром \smallskip\\
+\textbf{тӣшш} \hspace{0.2cm} смех \smallskip\\
+\textbf{тȳллье} \hspace{0.2cm} держать \smallskip\\
+\textbf{тȳмаш} \hspace{0.2cm} подарок (гостинец) \smallskip\\
+\textbf{тоавас-олма} \hspace{0.2cm} богатырь \smallskip\\
+\textbf{тоавврэшш} \hspace{0.2cm} друг, товарищ \smallskip\\
+\textbf{тоаввсэнне} \hspace{0.2cm} сильно \smallskip\\
+\textbf{тоаййв} \hspace{0.2cm} часто \smallskip\\
+\textbf{тоамчас} \hspace{0.2cm} точильный камень, точилька \smallskip\\
+\textbf{тоаӈӈьк} \hspace{0.2cm} желудок (животного) \smallskip\\
+\textbf{тоаркан} \hspace{0.2cm} таракан \smallskip\\
+\textbf{тоассктэ} \hspace{0.2cm} грустить \smallskip\\
+\textbf{тоасськ} \hspace{0.2cm} печаль, скорбь, грусть \smallskip\\
+\textbf{тоафант} \hspace{0.2cm} тысяча \smallskip\\
+\textbf{то̄ҏҏк} \hspace{0.2cm} шуба \smallskip\\
+\textbf{тоӆӆк} \hspace{0.2cm} умный, ум \smallskip\\
+\textbf{то̄ӆӆьке} \hspace{0.2cm} понимать \smallskip\\
+\textbf{то̄ӆӆькъенаһтем} \hspace{0.2cm} непонятный \smallskip\\
+\textbf{то̄лл} \hspace{0.2cm} огонь, костер \smallskip\\
+\textbf{то̄ллкасск} \hspace{0.2cm} молния \smallskip\\
+\textbf{то̄лню̄ххчемь} \hspace{0.2cm} пламя \smallskip\\
+\textbf{томмтэ} \hspace{0.2cm} знать, узнать \smallskip\\
+\textbf{то̄н} \hspace{0.2cm} твой \smallskip\\
+\textbf{то̄нн} \hspace{0.2cm} ты \smallskip\\
+\textbf{трепець} \hspace{0.2cm} тряпка \smallskip\\
+\textbf{трубп} \hspace{0.2cm} труба \smallskip\\
+\textbf{трупкэ} \hspace{0.2cm} трубка \smallskip\\
+\textbf{туалеһт} \hspace{0.2cm} туалет \smallskip\\
+\textbf{туарр} \hspace{0.2cm} война, битва, ссора \smallskip\\
+\textbf{туарр-ве̄шш} \hspace{0.2cm} оружие \smallskip\\
+\textbf{туарръе} \hspace{0.2cm} обороняться, защищать \smallskip\\
+\textbf{туаррэ} \hspace{0.2cm} драться, сражаться \smallskip\\
+\textbf{туаррэм-вӣг} \hspace{0.2cm} армия, военные силы \smallskip\\
+\textbf{тӯвас} \hspace{0.2cm} свеча \smallskip\\
+\textbf{тудт} \hspace{0.2cm} то(т), та \smallskip\\
+\textbf{тудт-ла̄ннҍт} \hspace{0.2cm} ад \smallskip\\
+\textbf{туйй} \hspace{0.2cm} работа \smallskip\\
+\textbf{тӯййшэ} \hspace{0.2cm} строить, сделать \smallskip\\
+\textbf{тӯйхэм, тӯйхэмэсь} \hspace{0.2cm} безработный, бездельние \smallskip\\
+\textbf{тула} \hspace{0.2cm} давно \smallskip\\
+\textbf{тӯллтэ} \hspace{0.2cm} кипятить, кипеть \smallskip\\
+\textbf{туллъя} \hspace{0.2cm} старый, древний, давнишний \smallskip\\
+\textbf{тӯлльй} \hspace{0.2cm} кожа, шкура \smallskip\\
+\textbf{тӯлльй} \hspace{0.2cm} шкура \smallskip\\
+\textbf{туммпла} \hspace{0.2cm} дальше \smallskip\\
+\textbf{туһк} \hspace{0.2cm} толпа \smallskip\\
+\textbf{тунн-алльм} \hspace{0.2cm} небеса, рай \smallskip\\
+\textbf{тунн-пе̄йвэсьт} \hspace{0.2cm} позавчера \smallskip\\
+\textbf{туррьм} \hspace{0.2cm} тюрма \smallskip\\
+\textbf{тӯсстлэсь} \hspace{0.2cm} смелый, храбрый \smallskip\\
+\textbf{тӯсстэ} \hspace{0.2cm} осмелиться, отважиться \smallskip\\
+\textbf{тӯссэ} \hspace{0.2cm} светить \smallskip\\
+\textbf{туэлль} \hspace{0.2cm} стол \smallskip\\
+\textbf{туэррпэ} \hspace{0.2cm} плескаться \smallskip\\
+\textbf{тыгквэннҍ} \hspace{0.2cm} удивленный \smallskip\\
+\textbf{тыйй} \hspace{0.2cm} вы \smallskip\\
+\textbf{тыһкь} \hspace{0.2cm} вошь \smallskip\\
+\textbf{тэдт, тэдта} \hspace{0.2cm} это \smallskip\\
+\textbf{тэсьт, тэста} \hspace{0.2cm} здесь \smallskip\\
+\textbf{угкэ} \hspace{0.2cm} лаять \smallskip\\
+\textbf{удлэнне} \hspace{0.2cm} быстро \smallskip\\
+\textbf{удлэсь, ӯдлэсь} \hspace{0.2cm} быстрый \smallskip\\
+\textbf{удць} \hspace{0.2cm} маленький \smallskip\\
+\textbf{уййв} \hspace{0.2cm} пух \smallskip\\
+\textbf{уййнэ} \hspace{0.2cm} видеть \smallskip\\
+\textbf{уййтэ} \hspace{0.2cm} уходить \smallskip\\
+\textbf{уккс} \hspace{0.2cm} дверь, ворота \smallskip\\
+\textbf{улл} \hspace{0.2cm} шерсть (шерстяная ткань) \smallskip\\
+\textbf{уммель} \hspace{0.2cm} почка (на дереве) \smallskip\\
+\textbf{уррьт} \hspace{0.2cm} скала, утес, обрыв, круча, скалистая гора \smallskip\\
+\textbf{уссэ} \hspace{0.2cm} собирать \smallskip\\
+\textbf{уцьнэ} \hspace{0.2cm} сокращать \smallskip\\
+\textbf{учтэлль} \hspace{0.2cm} учитель \smallskip\\
+\textbf{хозьенҍ, хо̄зенҍ} \hspace{0.2cm} хозяин \smallskip\\
+\textbf{ца̄гке} \hspace{0.2cm} одевать, одеть \smallskip\\
+\textbf{цеассан} \hspace{0.2cm} церковь, часовня \smallskip\\
+\textbf{цеввнэ} \hspace{0.2cm} выдалбливать \smallskip\\
+\textbf{це̄ӆӆькэ} \hspace{0.2cm} сказать \smallskip\\
+\textbf{ценн} \hspace{0.2cm} вулва \smallskip\\
+\textbf{ценнра̄ййк} \hspace{0.2cm} вагина \smallskip\\
+\textbf{це̄һп} \hspace{0.2cm} палец (рука) \smallskip\\
+\textbf{це̄һп-воаһц} \hspace{0.2cm} перчатки \smallskip\\
+\textbf{цӣгк} \hspace{0.2cm} туман \smallskip\\
+\textbf{цӣп} \hspace{0.2cm} цепь \smallskip\\
+\textbf{цоарр} \hspace{0.2cm} царь, король, правитель \smallskip\\
+\textbf{цуӆӆк} \hspace{0.2cm} шелк \smallskip\\
+\textbf{цуэгесь} \hspace{0.2cm} мелкий \smallskip\\
+\textbf{цуэгкь} \hspace{0.2cm} отлив (морской) \smallskip\\
+\textbf{цуэмп} \hspace{0.2cm} лягушка \smallskip\\
+\textbf{цуэттҍк} \hspace{0.2cm} ожерелье, бусы \smallskip\\
+\textbf{цыдз} \hspace{0.2cm} краска (коричневая краска  из коры для сетей) \smallskip\\
+\textbf{цыппьц} \hspace{0.2cm} щипцы \smallskip\\
+\textbf{цырмшуввэ} \hspace{0.2cm} мигать, щуриться \smallskip\\
+\textbf{цэ̄ркав} \hspace{0.2cm} церковь \smallskip\\
+\textbf{цякас} \hspace{0.2cm} линия \smallskip\\
+\textbf{ча̄бар} \hspace{0.2cm} чайка (морская) \smallskip\\
+\textbf{ча̄дзь} \hspace{0.2cm} вода \smallskip\\
+\textbf{ча̄дзь-ка̄ррь} \hspace{0.2cm} кувшин \smallskip\\
+\textbf{ча̄дзь-коплэгк} \hspace{0.2cm} волдырь, водяной пузырь \smallskip\\
+\textbf{ча̄дзь-лоаннҍт} \hspace{0.2cm} утка (дикая утка) \smallskip\\
+\textbf{ча̄дзь-чуллм} \hspace{0.2cm} водоворот \smallskip\\
+\textbf{чайй} \hspace{0.2cm} чай \smallskip\\
+\textbf{чалльм, ча̄лльм} \hspace{0.2cm} бусина \smallskip\\
+\textbf{чалльм, ча̄лльм} \hspace{0.2cm} глаз \smallskip\\
+\textbf{чалльм-рӯмтас} \hspace{0.2cm} веко \smallskip\\
+\textbf{чалльм-сӯрмас} \hspace{0.2cm} драгоценный камень, ювелирное изделие \smallskip\\
+\textbf{чалльмхэм, ча̄льмхэм} \hspace{0.2cm} слепой \smallskip\\
+\textbf{ча̄һкраһтӭ} \hspace{0.2cm} рвать (делать дырявым) \smallskip\\
+\textbf{чанн} \hspace{0.2cm} демон, злой дух, черт \smallskip\\
+\textbf{ча̄пэх (ча̄пат)} \hspace{0.2cm} шея \smallskip\\
+\textbf{ча̄ркнэгк} \hspace{0.2cm} гром \smallskip\\
+\textbf{ча̄рр} \hspace{0.2cm} тундра \smallskip\\
+\textbf{ча̄ррв} \hspace{0.2cm} копье \smallskip\\
+\textbf{ча̄сс} \hspace{0.2cm} час \smallskip\\
+\textbf{ча̄сс} \hspace{0.2cm} часы \smallskip\\
+\textbf{чаццькэ} \hspace{0.2cm} бросать \smallskip\\
+\textbf{че̄дзь} \hspace{0.2cm} дядя (брат матери) \smallskip\\
+\textbf{че̄ррь-мӯрр} \hspace{0.2cm} дуб \smallskip\\
+\textbf{че̄ххч} \hspace{0.2cm} осень \smallskip\\
+\textbf{че̄ццклэ} \hspace{0.2cm} кидать \smallskip\\
+\textbf{чивврас} \hspace{0.2cm} гнида \smallskip\\
+\textbf{чӣгар} \hspace{0.2cm} стадо (небольшое) \smallskip\\
+\textbf{чӣгк} \hspace{0.2cm} угол (мешка, наволочки) \smallskip\\
+\textbf{чӣгкэ} \hspace{0.2cm} прятать, скрывать \smallskip\\
+\textbf{чийкнэгк} \hspace{0.2cm} звук \smallskip\\
+\textbf{чӣллк} \hspace{0.2cm} чистый \smallskip\\
+\textbf{чӣӈӈлэ} \hspace{0.2cm} глубокий \smallskip\\
+\textbf{чинч, чинч-пе̄лль} \hspace{0.2cm} левая (сторна), левый \smallskip\\
+\textbf{чиррм} \hspace{0.2cm} волк \smallskip\\
+\textbf{чисствудт} \hspace{0.2cm} чистота \smallskip\\
+\textbf{чисстэ} \hspace{0.2cm} чистить, отчищать (овощи, фрукты) \smallskip\\
+\textbf{чȳййкэ} \hspace{0.2cm} идти на лыжах \smallskip\\
+\textbf{чоагкь} \hspace{0.2cm} гребень, щетка, расческа \smallskip\\
+\textbf{чоагкэ} \hspace{0.2cm} расчесать \smallskip\\
+\textbf{чоаййдэ} \hspace{0.2cm} заблудиться \smallskip\\
+\textbf{чоаӈӈэ} \hspace{0.2cm} нырять \smallskip\\
+\textbf{чоаһпэ, чоаһпесь} \hspace{0.2cm} черный \smallskip\\
+\textbf{чоафэн} \hspace{0.2cm} сова, филин \smallskip\\
+\textbf{чо̄гк} \hspace{0.2cm} остроконечный \smallskip\\
+\textbf{чо̄ла} \hspace{0.2cm} спинной хребет, позвоночник \smallskip\\
+\textbf{чо̄ллкэ} \hspace{0.2cm} плевать(ся), плевок \smallskip\\
+\textbf{чо̄һкэ} \hspace{0.2cm} заколоть \smallskip\\
+\textbf{чо̄ннэ} \hspace{0.2cm} упасть (с чего-либо) \smallskip\\
+\textbf{чонт} \hspace{0.2cm} горло, глотка \smallskip\\
+\textbf{чофта} \hspace{0.2cm} очень \smallskip\\
+\textbf{чуарр-пе̄лль} \hspace{0.2cm} бедро, ляжка, ягодицы \smallskip\\
+\textbf{чуаццктэ} \hspace{0.2cm} гасить, тушить \smallskip\\
+\textbf{чӯвв} \hspace{0.2cm} свет (осбещение) \smallskip\\
+\textbf{чӯввесь} \hspace{0.2cm} светлый, яркий, ясный \smallskip\\
+\textbf{чуввэ, чӯввнэ, чӯввнэннтэ} \hspace{0.2cm} светать, светить \smallskip\\
+\textbf{чудть} \hspace{0.2cm} враг \smallskip\\
+\textbf{чӯдть} \hspace{0.2cm} сто \smallskip\\
+\textbf{чӯллм} \hspace{0.2cm} узел \smallskip\\
+\textbf{чӯллт} \hspace{0.2cm} пень \smallskip\\
+\textbf{чум} \hspace{0.2cm} палатка \smallskip\\
+\textbf{чӯмм} \hspace{0.2cm} чешуя \smallskip\\
+\textbf{чуһкь} \hspace{0.2cm} ящик \smallskip\\
+\textbf{чӯһпэ} \hspace{0.2cm} резать \smallskip\\
+\textbf{чӯһпэм} \hspace{0.2cm} урожай \smallskip\\
+\textbf{чуххч} \hspace{0.2cm} глухарь \smallskip\\
+\textbf{чӯшшк} \hspace{0.2cm} комар, москит \smallskip\\
+\textbf{чӯҏҏьш} \hspace{0.2cm} утка (дикая утка) \smallskip\\
+\textbf{чуэввмушш} \hspace{0.2cm} грусть \smallskip\\
+\textbf{чуэз} \hspace{0.2cm} стадо (большое) \smallskip\\
+\textbf{чуэз-е̄ллемсайй} \hspace{0.2cm} пастбище \smallskip\\
+\textbf{чуэййв} \hspace{0.2cm} глина \smallskip\\
+\textbf{чуэййв} \hspace{0.2cm} желудок, живот \smallskip\\
+\textbf{чуэкас} \hspace{0.2cm} дорога \smallskip\\
+\textbf{чуэлль } \hspace{0.2cm} кишечник, кишка \smallskip\\
+\textbf{чуэннче} \hspace{0.2cm} стоять (находиться в вертикальном положении) \smallskip\\
+\textbf{чуэннчлэ} \hspace{0.2cm} встать (подняться на ноги) \smallskip\\
+\textbf{чуэнь} \hspace{0.2cm} гусь \smallskip\\
+\textbf{чуэраш, чӯраш} \hspace{0.2cm} муха \smallskip\\
+\textbf{чуэррьв} \hspace{0.2cm} рог \smallskip\\
+\textbf{шагкь} \hspace{0.2cm} свинья \smallskip\\
+\textbf{шалльт} \hspace{0.2cm} мост \smallskip\\
+\textbf{шалльт} \hspace{0.2cm} пол \smallskip\\
+\textbf{шаннт} \hspace{0.2cm} фрукт \smallskip\\
+\textbf{шаррьй} \hspace{0.2cm} гора (небольшая), холм \smallskip\\
+\textbf{шведскэ} \hspace{0.2cm} шведский \smallskip\\
+\textbf{шведскэ-кӣлл} \hspace{0.2cm} шведский (язык) \smallskip\\
+\textbf{шведскэ-олма} \hspace{0.2cm} шведский (человек) \smallskip\\
+\textbf{ше̄ннҍ} \hspace{0.2cm} пшеница, просо, сорго, пшено \smallskip\\
+\textbf{шӣг} \hspace{0.2cm} хороший,  добрый \smallskip\\
+\textbf{шкоаһп} \hspace{0.2cm} шкаф \smallskip\\
+\textbf{шко̄ла} \hspace{0.2cm} школа \smallskip\\
+\textbf{шлэ̄һклэ} \hspace{0.2cm} икать \smallskip\\
+\textbf{шоабпшэ} \hspace{0.2cm} любить \smallskip\\
+\textbf{шоайвал} \hspace{0.2cm} пускать слюну \smallskip\\
+\textbf{шоалшэ, шоаллшэ} \hspace{0.2cm} сожалеть, жалеть \smallskip\\
+\textbf{шо̄тткэ} \hspace{0.2cm} месить (тесто) \smallskip\\
+\textbf{шȳрр} \hspace{0.2cm} большой \smallskip\\
+\textbf{шӯрр на̄ввьт} \hspace{0.2cm} скот (крупный рогатый) \smallskip\\
+\textbf{шȳррьмусс} \hspace{0.2cm} великий \smallskip\\
+\textbf{шӯвв олма} \hspace{0.2cm} дворянский, дворянин \smallskip\\
+\textbf{шӯрр пэ̄ҏҏт олма} \hspace{0.2cm} господин, хозяин \smallskip\\
+\textbf{шӯрр сыййт} \hspace{0.2cm} рынок, базар \smallskip\\
+\textbf{шуррнэ} \hspace{0.2cm} расти (увеличиваться) \smallskip\\
+\textbf{шыл} \hspace{0.2cm} наргабленное добро, добыча \smallskip\\
+\textbf{шылле} \hspace{0.2cm} ловить (мяч), ловить (ловушкой) \smallskip\\
+\textbf{шышшенҍ} \hspace{0.2cm} кожа \smallskip\\
+\textbf{шэ̄ҏҏ} \hspace{0.2cm} погремушка \smallskip\\
+\textbf{шэ̄ӈӈ} \hspace{0.2cm} бурный (о море), буря \smallskip\\
+\textbf{шэ̄ннтэ} \hspace{0.2cm} родиться, расти \smallskip\\
+\textbf{шэнтнэгк} \hspace{0.2cm} урожай \smallskip\\
+\textbf{ыввьн} \hspace{0.2cm} цвет \smallskip\\
+\textbf{ыгкь} \hspace{0.2cm} год \smallskip\\
+\textbf{ыгкь-па̄лль} \hspace{0.2cm} время года \smallskip\\
+\textbf{ыйй} \hspace{0.2cm} ночь \smallskip\\
+\textbf{ылас} \hspace{0.2cm} раскаленные угли, жар, горячие угли, раскаленные угли \smallskip\\
+\textbf{ыллпэ} \hspace{0.2cm} гордый \smallskip\\
+\textbf{ылльтэ} \hspace{0.2cm} полка \smallskip\\
+\textbf{ышштнэ} \hspace{0.2cm} приседать \smallskip\\
+\textbf{ышштэ} \hspace{0.2cm} садиться, сидеть \smallskip\\
+\textbf{ышьтэ} \hspace{0.2cm} ящик \smallskip\\
+\textbf{э̄ввтэль} \hspace{0.2cm} перед, до \smallskip\\
+\textbf{э̄д} \hspace{0.2cm} мозг(и) \smallskip\\
+\textbf{э̄лл, э̄ллесь} \hspace{0.2cm} высокий \smallskip\\
+\textbf{э̄ллм} \hspace{0.2cm} настоящий \smallskip\\
+\textbf{э̄ллманнт, э̄ллмант} \hspace{0.2cm} мир, свет \smallskip\\
+\textbf{э̄ллнэ} \hspace{0.2cm} подниматься, идти вверх \smallskip\\
+\textbf{э̄ллтнэ} \hspace{0.2cm} приближаться \smallskip\\
+\textbf{э̄ллхэ} \hspace{0.2cm} объявлять \smallskip\\
+\textbf{эллэн} \hspace{0.2cm} десны \smallskip\\
+\textbf{элэ} \hspace{0.2cm} или \smallskip\\
+\textbf{эһкан} \hspace{0.2cm} окно \smallskip\\
+\textbf{э̄ннтлэ} \hspace{0.2cm} давать \smallskip\\
+\textbf{эппс} \hspace{0.2cm} запах \smallskip\\
+\textbf{эфтналшэм} \hspace{0.2cm} похожий, подобный \smallskip\\
+\textbf{э̄ххт} \hspace{0.2cm} один \smallskip\\
+\textbf{э̄ххтэ} \hspace{0.2cm} соединять, объединять \smallskip\\
+\textbf{э̄ххтэмплоагкь} \hspace{0.2cm} одиннадцать \smallskip\\
+\textbf{ю̄ввтэ} \hspace{0.2cm} достигать, прибывать \smallskip\\
+\textbf{ю̄гке} \hspace{0.2cm} распределять, разделить, делиться, делить \smallskip\\
+\textbf{югкма} \hspace{0.2cm} пьяный \smallskip\\
+\textbf{югкмушш} \hspace{0.2cm} напиток \smallskip\\
+\textbf{югкэ} \hspace{0.2cm} пить \smallskip\\
+\textbf{ю̄дтҍ} \hspace{0.2cm} блюдце \smallskip\\
+\textbf{ю̄ккс} \hspace{0.2cm} лук \smallskip\\
+\textbf{ю̄лльк} \hspace{0.2cm} нога, ступня \smallskip\\
+\textbf{ю̄лльк-кӣй} \hspace{0.2cm} след (ноги) \smallskip\\
+\textbf{ю̄лльк-це̄һп} \hspace{0.2cm} палец (ноги) \smallskip\\
+\textbf{ю̄меһк} \hspace{0.2cm} близнецы \smallskip\\
+\textbf{ю̄нн} \hspace{0.2cm} дорожка, тропинка \smallskip\\
+\textbf{ю̄ӈӈк} \hspace{0.2cm} нож (большой) \smallskip\\
+\textbf{юпа} \hspace{0.2cm} женское платье \smallskip\\
+\textbf{юррт} \hspace{0.2cm} мысль \smallskip\\
+\textbf{юрртэс} \hspace{0.2cm} сомнение \smallskip\\
+\textbf{юррьтэ} \hspace{0.2cm} думать, размышлять, считать \smallskip\\
+\textbf{юрт} \hspace{0.2cm} идея, понятие \smallskip\\
+\textbf{я} \hspace{0.2cm} и \smallskip\\
+\textbf{я̄вв} \hspace{0.2cm} мука, брага \smallskip\\
+\textbf{я̄ввьр} \hspace{0.2cm} озеро \smallskip\\
+\textbf{я̄л, я̄лл, я̄ллмушш} \hspace{0.2cm} жизнь \smallskip\\
+\textbf{я̄нна} \hspace{0.2cm} мама \smallskip\\
+\textbf{я̄рас} \hspace{0.2cm} беременная \smallskip\\
+\textbf{яххта} \hspace{0.2cm} вчера \smallskip\\
