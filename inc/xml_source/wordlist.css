@@ -1,0 +1,39 @@
+body{ background-color: white;} 
+
+tr.rand{ 
+    color: black;
+    align: left;
+    width: 500;
+    font-size: 30px; 
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+} 
+
+tr{ 
+    color: black;
+    align: left;
+    width: 500;
+    font-size: 30px; 
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+} 
+
+td{ 
+    border-top: solid 1px #ccc
+} 
+ 
+
+
+
