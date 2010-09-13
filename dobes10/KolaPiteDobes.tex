@@ -1,9 +1,9 @@
 \documentclass[a4paper,12pt]{article}
-%
-%\usepackage{fontspec} %note for JW: uncomment for XeLaTeX
-%\usepackage{xunicode} %note for JW: uncomment for XeLaTeX
-%\usepackage{textcomp} %note for JW: uncomment for XeLaTeX
-%\usepackage{graphicx} %note for JW: uncomment for XeLaTeX
+
+\usepackage{fontspec} %note for JW: uncomment for XeLaTeX
+\usepackage{xunicode} %note for JW: uncomment for XeLaTeX
+\usepackage{textcomp} %note for JW: uncomment for XeLaTeX
+\usepackage{graphicx} %note for JW: uncomment for XeLaTeX
 
 \usepackage[english]{babel}
 
@@ -15,13 +15,15 @@
 
 \usepackage{linguex}
 
+\usepackage{qtree}
+
 \usepackage{lscape}
 
 \usepackage{longtable}
 
 \usepackage{tabularx}
 
-%\setromanfont{Arial} %note for JW: uncomment for XeLaTeX
+\setromanfont{Arial} %note for JW: uncomment for XeLaTeX
 
 \usepackage{natbib}
 \bibpunct[: ]{(}{)}{;}{a}{}{;}
@@ -280,6 +282,12 @@ ts of the individual languages, which allows for complex and rewarding corpora c
 \subsection{Urgency of documentation}%the Kola Saami part (MR) ist still missing
 The Saami languages (Uralic) form a dialect continuum across an area extending from central Scandinavia to the Kola Peninsula in the Russian Federation. Traditionally, the Saami were half-nomadic peoples who migrated annually between summer and winter settlements and survived on hunting and fishing. Herding reindeer was not a typical occupation until relatively recent times, but has become so at least in the central mountainous areas of Sápmi; nowadays most Saami live modern lives and blend in with the rest of the predominantly non-Saami population. Due to the influence of North Germanic, Finnic and Russian languages and cultures, all ethnic Saami are fluent in their respective contact languages, while younger generations are typically monolingual in these. As a result, the Saami languages are today either extinct, moribund or endangered. The least endangered Saami language is North Saami with not more than 17,000 speakers in Norway, Sweden and Finland \citep[1]{sammallahti1998b}.
 
+\begin{figure}
+\caption{Saami language tree} \label{saami tree}
+\qtreecenterfalse
+\Tree [.Saami [.{West Saami} [.South South Ume ] [.Central Pite Lule North ] ] [.{East Saami} [.Mainland Inari Skolt ✝Akkala ] [.Peninsula Kildin Ter ] ] ]
+\end{figure}
+
 The proposed project will focus on four particularly endangered Saami languages, as summarized here:
 \begin{itemize}
 \item Kildin (highly endangered, with an orthography, with some description and documentation)
@@ -298,11 +306,12 @@ While knowledge of Pite lexical items is common particularly among reindeer herd
 
 Ter and Kildin Saami spoken in Russia together form the Peninsula branch of East-Saami. Ter Saami is nearly extinct and spoken by no more than 30 speakers or semi- speakers living in different locations within and outside of the Murmansk region, such as in Murmansk, Lovozero, Gremicha, Revda, Krasnoščel'e, Umba, and also in Saint Petersburg. The mean age of the youngest speakers of Ter is over 50.%MR: I'll write more here soon
 
-In addition to the fact that Ume and Pite are in desperate need of documentation (revitalization seems unlikely at present despite an increase in interest among younger ethnic Saami), from a purely linguistic point of view, they prove to be interesting both cross-linguistically and within Saami studies. Unlike the other Indo-European languages in the area, Saami languages are almost exclusively suffixing and mostly have postpositions. Phrases are generally head-final, although SVO has become grammatical as well, just as postponed relative constructions are acceptable (most likely a result of language contact). Saami case systems consist of between seven and nine cases. Verbs and pronouns are inflected for singular, dual and plural number categories. In Pite and Ume, all inflectional case suffixes have been retained, and accusative and genitive cases are still differentiated morphologically; they are thus considered more archaic than other Saami languages to the north and east that have lost some case endings and have come to lack an accusative-genitive distinction. Phonological and phonetic studies of Pite and Ume from the project's data should reveal more detailed information about another Saami characteristic: preaspiration (a rarity in the world's languages).
+In addition to the fact that Ume, Pite and Ter are in desperate need of documentation (revitalization seems unlikely at present despite an increase in interest among younger ethnic Saami), from a purely linguistic point of view, they prove to be interesting both cross-linguistically and within Saami studies. Unlike the other Indo-European languages in the area, Saami languages are almost exclusively suffixing and predominantly have postpositions. Phrases are generally head-final, although SVO has become grammatical as well, just as postponed relative constructions occur. Saami case systems consist of between seven and nine cases. Verbs and pronouns are inflected for singular, dual and plural number categories (not in Kildin and Ter). In all four investigated languages, all inflectional case suffixes have been retained, and accusative and genitive cases are still differentiated morphologically; they are thus considered more archaic than other Saami languages to the north and east that have lost some case endings and have come to lack an accusative-genitive distinction. %MR: wir nehmen das hier weg, weil wir keine Phonologie machen werden
+%Phonological and phonetic studies of Pite and Ume from the project's data should reveal more detailed information about another Saami characteristic: preaspiration (a rarity in the world's languages).
 
-Additionally, Saami languages are known for their complicated non-linear morphology realized as umlaut, consonant gradation (phonological alternations in a stem's consonants triggered by the morphological environment) and/or palatalization of noun and verb stems. In general, regressive vowel harmony in Saami languages is found in the initial stressed syllable of a stem with its allophone being adjusted to the vowel in the second and unstressed syllable. Pite is especially interesting in this respect because it has progressive vowel harmony concerning lip rounding in the same environment \cite[272]{korhonen2005a}. Ume is interesting because it has a large variety of umlauts and the least amount of consonant gradation, with the exception of neighboring South Saami, the only Saami language lacking consonant gradation. Whether proto-Saami also had consonant gradation is a controversial issue \cite[cf.][154–55]{svonni2006}, and further information about this phenomenon in Ume and Pite could help inform this debate. Furthermore, Ume is unique among Saami languages in having trisyllabic stems in the nominative case \cite[421]{korhonen2005b}; the role nonlinear morphology plays in words of this length is unclear. Moreover, the linguistic topics of information structure, focus ETC ETC ETC ETC ETC ETC ETC ETC have been completely neglected in Saami linguistics in the past.
-The resulting corpus from the proposed project could help Saami linguistics to come to a more detailed understanding of %the complicated nonlinear morphological processes in Ume and Pite, these processes' history
-these topics and these specific Saami languages' places in Saami studies and linguistics in general. Finally, completion of such elaborately detailed corpora will be an asset for corpus linguistics and provide more date for future research by both Saami and general linguists on these and other topics.
+Additionally, Saami languages are known for their complicated non-linear morphology realized as umlaut, consonant gradation (phonological alternations in a stem's consonants triggered by the morphological environment) and/or palatalization of noun and verb stems (only in Skolt, Kildin and Ter). In general, regressive vowel harmony in Saami languages is found in the initial stressed syllable of a stem with its allophone being adjusted to the vowel in the second and unstressed syllable. Pite is especially interesting in this respect because it has progressive vowel harmony concerning lip rounding in the same environment \cite[272]{korhonen2005a}. Ume is interesting because it has a large variety of umlauts and the least amount of consonant gradation, with the exception of neighboring South Saami, the only Saami language lacking consonant gradation. Whether proto-Saami also had consonant gradation is a controversial issue \cite[cf.][154–55]{svonni2006}, and further information about this phenomenon in Ume and Pite could help inform this debate. Furthermore, Ume is unique among Saami languages in having trisyllabic stems in the nominative case \cite[421]{korhonen2005b}; the role nonlinear morphology plays in words of this length is unclear. Moreover, the linguistic topics of information structure and focus have been completely neglected in Saami linguistics in the past.
+
+The resulting corpus from the proposed project could help Saami linguistics to come to a more detailed understanding of these topics and these specific Saami languages' places in Saami studies and linguistics in general. Finally, completion of such elaborately detailed corpora will be an asset for corpus linguistics and provide more date for future research in morphology, syntax and lexicology by both Saami and general linguists on these and other topics.
 
 \subsection{State of research}%to be finished by JW, MR
 \subsubsection{Language documentation}
