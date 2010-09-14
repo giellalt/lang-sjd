@@ -419,57 +419,35 @@ Finally, Ume currently has no orthography, practically no documentation, and is 
 
 \subsubsection{Language technology} %to be finished by Trond, Ciprian
 
-Currently, the dominating paradigm within language technology is based upon statistical methods, upon teaching the computer the behavior of natural language by means of presenting it for vast amount of either un-analyzed or manually analyzed data. This approach achieves results superior to the most common grammar-based approaches. For the majority of the world's languages, and especially for the Saami languages treated here, this approach is not a viable option. The amounts of text needed – analyzed or not – is simply not available. The competing paradigm is grammar-based analysis: The researcher writes a machine-readable version of the grammar, and compiles into a program capable of analysing and eventually also generating text. Several grammatical schools work withing the grammar-based paradigm, the approached chosen by Giellatekno, and also by the present project, is a combination of using finite-state transducers for the morphological analysis and generation, and constraint grammar for disambiuguation and syntactic analysis. This approach routinously gives better results than all competing paradigms, and it is therefore chosen here. % öh.
-%been applied successfully by Giellatekno for (written) North Saami and which will also by applied by this project for (spoken) Kildin usw.
+Currently, the dominating paradigm within language technology is based upon statistical methods, upon teaching the computer the behavior of natural language by means of presenting it for vast amount of either un-analyzed or manually analyzed data. This approach achieves results superior to the most common grammar-based approaches. For the majority of the world's languages, and especially for the Saami languages treated here, this approach is not a viable option. The amounts of text needed – analyzed or not – is simply not available. The competing paradigm is grammar-based analysis: The researcher writes a machine-readable version of the grammar, and compiles into a program capable of analyzing and eventually also generating text. Several grammatical schools work within the grammar-based paradigm, the approached chosen by Giellatekno, and also by the present project, is a combination of using finite-state transducers for the morphological analysis and generation, and constraint grammar for disambiguation and syntactic analysis. This approach routinously gives better results than all competing paradigms, has been applied successfully by Giellatekno for (written) North Saami and which is therefore also chosen here.
+
+Giellatekno's approach (finite-state transducers and constraint grammar) differs from most grammar-based systems in that it gives robust analyses for unconstrained text input. This is especially important for languages with complex morphology, and for spoken language, often consisting of long and repetitive sentences with opaque syntactic structures.
 
 \paragraph{Segmental morphology}
+For the morphology Giellatekno uses a compiler for modeling stems, segmental affixes and their grammatical analyses into a finite state transducer. The grammars are written within the $lexc$ formalism, and compiled with either the \texttt{lexc} or the open source \texttt{hlexc} compilers. 
 
-For the morphology Giellatekno uses a compiler for modelling stems, segmental affixes and their grammatical analyses into a finite state transducer. The grammars are written within the $lexc$ formalism, and compiled with either the \texttt{lexc} or the open source \texttt{hlexc} compilers. The upper side of the resulting transducer consists, for each wordform, of a lemma and a string of grammatical tags, and the lower side is the concatenation of stem, affixes and markers signalling suprasemgmental rules.
-
-The lower side of the lexc transducer is fed to the Two-Level Morphology component.
-
+The upper side of the resulting transducer consists, for each wordform, of a lemma and a string of grammatical tags, and the lower side is the concatenation of stem, affixes and markers signaling suprasegmental rules. The lower side of the $lexc$ transducer is fed to the Two-Level-Morphology component.
 
 \paragraph{Two-Level-Morphology}
-
 The suprasegmental morphology of Saami will be handled by the so-called Two-Level Morphology (TWOL). In TWOL, suprasegmental processes are handled not as serial rules, but as a transition between two levels:
 \begin{description}
 \item[on the upper side, the morphological/lexical level] root, affixes, affix borders, markers indicating suprasegmental processes (this corresponds to the lower side of the segmental transducer
-\item[on the lower side, the morphographic level] the surface realisation of the wordform
+\item[on the lower side, the morphographic level] the surface realization of the wordform
 \end{description}
 
 The two-way mapping between the two levels is mediated through a set of language-specific two-level rule. The compilation process results in a morphophonological TWOL parser.
 
-For the Saami languages in question, important TWOL rule sets include the ones needed to model processe such as consonant gradation, vowel harmony and diphthong simplification. The segmental transducer and the TWOL transducer are composed into one transducers, with lemma + grammatical tags on the upper side, and the corresponding wordform on the lower. The transducer may be inverted, and it can both analyse and generate wordforms.
+For the Saami languages in question, important TWOL rule sets include the ones needed to model process such as consonant gradation, vowel harmony and diphthong simplification. The segmental transducer and the TWOL transducer are composed into one transducers, with lemma + grammatical tags on the upper side, and the corresponding wordform on the lower. The transducer may be inverted, and it can both analyze and generate wordforms.
 
 The composition of these two different transducers makes it possible to handle languages with rich morphological systems as complex as the Saami ones. 
 
-% Die erlaubten bzw. verbotenen Zuordnungen von Morphemen auf beiden Ebenen erfolgt mittels (sprachspezifischer) Regeln. Jede Regel wird von einem Transducer in die Realisierung auf der jeweils anderen morphologischen Ebene übersetzt. Somit können morphologische Formen nicht nur analysiert (Übersetzungsrichtung morphographemische Ebene $\rightarrow$ morphologische/lexikalische Ebene), sondern auch generiert werden (Übersetzungsrichtung morphologische/lexikalische Ebene (Stamm+Affixe) $\rightarrow$ morphographemische Ebene (Oberflächenrealisierung)).
+\textit{Giellatekno} uses transducers made by TWOL and $lexc$ in order to make language technology applications such as pedagogical programs, spell checkers, and programs for analysis. The programs are available for several Saami languages, and even for Greenlandic, Faroese, Komi and other languages.
 
-% Der TWOL-Ansatz eignet sich besonders zur Beschreibung von Sprachen mit einem komplexen und sich durch Irregularitäten und Stammallomorphie auszeichnenden Formensystem – wie z.B. Saamisch. 
-
-%\paragraph{Zwei-Ebenen-Morphologie} (two-level morphology, TWOL) ist ein theoretischer Ansatz, in dem die Struktur eines Lexems auf der morphologisch-lexikalischen Ebene in Relation zu dessen Oberflächenrealisierung, d.h. der Kodierung des Lexems auf der morphographischen Ebene, gesetzt wird. Erlaubte bzw. verbotene Korrespondenzen zwischen Zeichen auf den zwei Ebenen werden durch abstrakte Regeln erfasst.
-
-%Um Übergeneralisierung bei der durch einen Automaten (Transduktor) angefertigten Übersetzung zu vermeiden, müssen die Regeln durch die Anbindung eines (Morphem-)Lexikons sowie durch Angaben über Morphemkombinatorik auf der morpho-lexikalischen Ebene eingeschränkt werden.
-
-%Das Lexikon stellt eine Liste aller gebundenen und ungebundenen Morpheme dar. Ein vorläufiges Morpheminventar wird aus den bereits vorhandenen Toolboxprojekten von Kola Saami Documentation Project und Pite Saami Documentation Project importiert. Hauptziel nach abgeschlossener Arbeit mit Toolbox ist es aber weitere Texte mit Hilfe der Automatoren zu parsen und das Morpheminventar damit automatisch zu erweitern.
-
-%Die Listen mit Stämmen und der ihnen zugeordneten morphologischen Markierungen werden in TWOL mittels eines mit Indizes versehener Listenverkettungsmodells (indexed concatenation model) miteinander verbunden. Dies bedeutet, dass phonologische oder graphemische Morphemvarianten eines Stamms mit unterschiedlichen Indizes versehen werden, die der Art der zugelassenen Folgekategorien (d.h. möglichen Suffixen für einen gegebenen Stamm) entsprechen. So erhält ein Stamm, dem ein bestimmte Gruppe Suffixe folgen kann, eine andere Indizierung als ein Stamm, dem eine andere Gruppe Suffixe folgen kann. Auch die Suffixe im Lexikon erhalten Indizes, die angeben, mit welcher Art indizierter Stämmen sie kombiniert werden dürfen. Die Aufgabe des Listenverkettungsmodells ist es, die Liste der Wortstämme mit der möglicher Suffixe entsprechend der Indizes einzelner Elemente in diesen Listen miteinander zu verketten.
-
-\textit{Giellatekno} uses transducers made by TWOL and lexc in order to make language technology applications such as pedagogical programs, spell checkers, and programs for analysis. The programs are available for several Saami languages, annd for Greenlandic, Faroese, Komi and other languages.
-
-
-\paragraph{Constraint grammar for cyntactic analysis}
-%TROND, CIPRIAN
-
-For disambiguation and syntactic analysis, Giellatekno uses \textit{Constraint Grammar} (CG). CG takes morphologically analysed text as input, and returns only the appropriate readings, enriched with grammatical functions and dependency relations. The output may also be converted to phrase structure representation.
-
-Giellatekno's approach (finite-state transducers and constraint grammar) differs from most grammar-based systems in that it gives robust analyses for unconstrained text input. This is especially important for languages with complex morphology, and for spoken language, often consisting of long and repetitive sentences with opaque syntactic structures.
-
+\paragraph{Constraint grammar for syntactic analysis}
+For disambiguation and syntactic analysis, Giellatekno uses \textit{Constraint Grammar} (CG). CG takes morphologically analyzed text as input, and returns only the appropriate readings, enriched with grammatical functions and dependency relations. The output may also be converted to phrase structure representation.
 
 \paragraph{Parallel corpora}
-Our Pite and Kola Elan files include in fact parallel corpora because the Saami texts are translated consequently with two languages: Pite-Shwedish-English resp. Kildin/Ter-Russian-English.%; can we do more out of this for the present project? what exactly? and how can we put it into this application?
-
-Parallel corpora are important for sevaral purposes:
+Our Pite and Kola Elan files include in fact parallel corpora because the Saami texts are translated consequently with two languages: Pite-Swedish-English and Kildin/Ter-Russian-English resp. Parallel corpora are important for several purposes:
 
 \begin{itemize}
 \item Word-aligned corpora serve as input to multi-lingual dictionaries and term collections
@@ -477,17 +455,6 @@ Parallel corpora are important for sevaral purposes:
 Computer-Aided Translation (CAT) tools 
 \item To the extent that the corpora are big enough, they might also reveal statistical tendencies
 \end{itemize}
-
-
-
-\paragraph{Practical applications}
-%TROND, CIPRIAN – only mention perhaps, we have to list and explain them under results anyway
-
-%\paragraph{Wortformgenerator} Die bereits im Laufe des Pilotprojektes zu erstellenden \textbf{Paradigmen-} und \textbf{Wortformengeneratoren} können eine praktische Funktion im Sprachunterricht übernehmen. In Korpora lassen sich i.d.R. nicht alle Formen eines Paradigmas finden. Mithilfe von TWOL (aber im Unterschied zu Programmen wie Toolbox) können Wortformen jedoch nicht nur analysiert, sondern auch generiert werden. Komplette Paradigmen lassen sich somit für jeden Eintrag in der Datenbank in Echtzeit generieren oder z.B. in das geplante interaktive Lexikon einbinden.
-
-%Dementsprechend gibt der Wortformengenerator bei vorgegebener Grundform eines Lexems und der gewünschten morphologischen Markierungen die entsprechende grammatische Form aus (z.B. input: hestur+ACC $\rightarrow$ output: hest).%besser saamisches Beispiel\\
-
-%Sobald in einer späteren Projektphase auch ein syntaktischer Automat programmiert worden ist, könnte zusätzlich sogar ein \textbf{Interaktives Syntax-Lernprogramm} erstellt werden. Dabei liefert zuerst die morphologische Analyse auf Wortebene die jeweilige Form. Ein syntaktischer Disambiguator eliminiert daraufhin auf Satzebene die inkorrekten Analysen und versieht die korrekten Analysen mit entsprechenden syntaktischen Funktionen (Subjekt, Objekt usw.). Schließlich könnte eine Phrasenstrukturgrammatik der linearen Darstellung eine hierarchische Struktur zuordnen.
 
 \paragraph{LEXUS} as interface for multimedia annotation (done by assistants) and web-based presentation, export to off-line dictionary applications, export to wikipedia
 %MR: I had some ideas, unfortunately they are not written down yet
