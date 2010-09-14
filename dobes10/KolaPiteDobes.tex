@@ -223,10 +223,6 @@ Homepage & {\url{http://www.ni.hu-berlin.de/personal/jwil/jwil_html}}\\
 \begin{tabbing}
 LLLLLLLLinks \= Mitte \= Rechts \kill
 Project title: \>\textbf{Language Technology for Small Saami Languages}\\
-%alternative titles:
-%Multimedia corpora and language technology for highly endangered Saami languages
-%Computer-aided analyses of Saami language corpora
-%Spoken corpora and computational linguistics for small Saami languages
 Total budget: \>\textbf{€ 298,822}\\
 Project period: \>\textbf{August 2011 – July 2014}\\
 \end{tabbing}
@@ -251,13 +247,13 @@ The team shall consist of experienced documentary and computational linguists as
 
 The two leaders of the project are documentary linguist Michael Rießler (Freiburg) and computational linguist Trond Trosterud (Tromsø), both of whom are specialized in Saami linguistics. The first applicant is a junior researcher who also led a DoBeS project on the Kola Saami languages. The other two applicants are Joshua Wilbur, currently coordinator/researcher for the Pite Saami Documentation Project (ELDP), and Giellatekno's programmer Ciprian Gerstenberger. Funding for the proposed project would go towards a full principle researcher position for M.\,Rießler and a half-time principle researcher position for J.\,Wilbur at the University of Freiburg, two student research assistants as well as material support and travel expenditures.
 
-%\begin{figure}[h]
-%\begin{center}
-%\caption{S\'{a}pmi and the Saami languages. The languages of the project are ??} 
-%\label{SaamiLgs}
-%\includegraphics[width=0.9\textwidth]{SaamiLgs.jpeg}
-%\end{center}
-%\end{figure}
+\begin{figure}[h]
+\begin{center}
+\caption{S\'{a}pmi and the Saami languages. The languages of the project are shaded.} 
+\label{SaamiLgs}
+\includegraphics[width=0.9\textwidth]{SaamiLgs.jpeg}
+\end{center}
+\end{figure}
 
 \section{Detailed project description}%up to 25 pages %JW: Dienstag 17h: 27pages!
 \subsection{Introduction}
@@ -276,14 +272,9 @@ For languages with good access to informants and even native linguists, there is
 
 \paragraph{What is corpus linguistics?} Corpus linguistics refers to the study of linguistic phenomena as expressed in real world texts such as in the printed text representations mentioned above, or in machine-readable corpora, which allows for much more efficient corpus research. One significant problem when trying to create a “quality” machine-readable corpus is keeping annotation standards consistent; this includes reserving one type of information for each annotation tier (e.g. part-of-speech in one tier, glosses in another tier), consistent use of certain tags or symbols for similar phenomena (e.g. sticking to a set list of morphological glosses, to a set method of morpheme boundaries, defined marking of non-linguistic phenomena, etc.). As opposed to pure manual annotations, which are mistake-prone, semi-automatic annotation methods using software such as Toolbox allow for more consistent tagging, at least in theory. However, in practice, some corpora stemming from Toolbox projects are only really searchable using a full text search due to inconsistent tagging and including several different kinds of information (e.g. phonological, morphological and morpho-phonological) into one and the same annotation tier. As a result, searching the content of such corpora is relatively limited.
 
-A further problem with annotating and tagging transcriptions manually is the simple fact that this is exceptionally time consuming, as is evidenced by the fairly small amount of detailed annotation relative to the total number of transcriptions for archived language materials. %JW: I actually have no idea if this is true, it's only an assumption, can anyone help here?
-Computer-aided annotation, on the other hand, provides a significantly faster and more efficient way to provide detailed annotations to a transcription.
+A further problem with annotating and tagging transcriptions manually is the simple fact that this is exceptionally time consuming, as is evidenced by the fairly small amount of detailed annotation relative to the total number of transcriptions for archived language materials. Computer-aided annotation, on the other hand, provides a significantly faster and more efficient way to provide detailed annotations to a transcription.
 
-To allow for multi-layered, consistent annotation of linguistic data, the use of off-the-shelf and open-source annotation tools (e.g., NITE XML, MMAX, UAM CorpusTool, %MATE Annotation Workbench %JW: removed after chat with Cip
-etc.) is indispensable. However, the idiosyncratic socio-cultural development of each Saami language poses challenges for building language corpora and making them work with annotation and searching tools. To choose and adapt such annotation tools for languages with peculiar writing systems, e.g. Kildin, is a non-trivial task. The present project aims at choosing and adapting such tools for the appropriate language representation for the languages under discussion. All tools developed by the project will be open-source and freely available for adaptation by other language technology projects. % a bit short, hmm
-% yes, manual anotation may be inconsistent, but usually it is seen as gold standard
-% thus, a more serious (?) problem is the workload involved in tagging large corpora, 
-% compared to doing it automatically. %JW: added this aspect in a paragraph above
+To allow for multi-layered, consistent annotation of linguistic data, the use of off-the-shelf and open-source annotation tools (e.g., NITE XML, MMAX, UAM CorpusTool, etc.) is indispensable. However, the idiosyncratic socio-cultural development of each Saami language poses challenges for building language corpora and making them work with annotation and searching tools. To choose and adapt such annotation tools for languages with peculiar writing systems, e.g. Kildin, is a non-trivial task. The present project aims at choosing and adapting such tools for the appropriate language representation for the languages under discussion. All tools developed by the project will be open-source and freely available for adaptation by other language technology projects. 
 
 \paragraph{What are computational linguistics and language technology?} Computational linguistics refers to machine-based processing of natural language. This normally includes, among other things, the development of processes for the analysis and generation of natural language texts, programs to collect and statistically evaluate large amounts of language data (such as lemmatizing software, frequency wordlists, concordances). Computational linguistics also eases the process of building corpora mostly by using automated processes (typically morphological and syntactic disambiguation). A further goal for computational linguists is to build models of natural language grammars. When tested against actual language data, the models function as hypotheses for the form of the grammars in question. 
 
@@ -363,7 +354,6 @@ All tools are available free of charge and with an open-source license, and the 
 \item ELAN (EUDICO Linguistic Annotator) allows audio and video recordings to be time aligned with detailed transcriptions, translations and further annotations. Because ELAN permits one to link digital text-based annotations with the actual recordings of linguistic events themselves, it is the platform on which the project's corpora will be based. ELAN files are simple text files written in XML, a current archiving standard because it is an open format which is machine and (somewhat) human readable. Elaborate searching, including use of regular expressions, is possible within a single ELAN file or across several files, all stored on a local computer or network; search results can be shown in a \textit{key-words in context (KWIC)} format, in other words, a context of up to eight words on either side of the search term are visible; and a complex multiple-layer search limiting the context of neighboring tiers can also be performed (same software/GUI as with ANNEX/TROVA); finally, search results can be saved.
 \item IMDI-Browser (ISLE Metadata Initiative Browser) is a web-based interface which allows one to search throughout the MPI corpora, including the DoBeS resources. With this browser, cataloging metadata as well as transcriptions, translations and other annotations can be searched in. Using the same software and graphic user interface as in ELAN, a multiple layer search can also be performed and results can also be organized in a KWIC format; finally, search results can be downloaded and saved.
 \item ANNEX/TROVA is the software and graphic user interface behind the search engines mentioned above for ELAN and the IMDI-browser. However, a complex linguistic search across archived materials using the IMDI-Browser is unfortunately not very feasible because most of the data is only translated and lacking grammatical or more detailed linguistic analysis, and even the detailed linguistic data present in the various annotations has used a variety of different annotation conventions. Partially in an attempt to increase inter-searchability between the proposed project's annotations and other annotations in the MPI corpora, but also in following good documentation practices, the project will create and document transparent glossing practices based on accepted conventions, such as those described in the Leipzig glossing rules\footnote{\url{www.eva.mpg.de/lingua/resources/glossing-rules.php}}. Due to the very nature of automatic annotation, all project transcriptions are guaranteed to be glossed consistently.
-%\item ARBIL fulfills a variety of functions concerning the organization of cataloging metadata for the MPI corpora when working offline, and is thus only useful for locally-stored data; once an internet connection is available, data can then be transferred to the remote servers via LAMUS. The search function not yet integrated. %JW: vielleicht brauchen wir ARBIL gar nicht erwähnen - ist höchstens nützlich wenn man off-line ist, sonst nur am rande relevant als “search tool”, oder?
 \end{itemize}
 
 \subsubsection{Corpus search tools at ELAR}\label{elarTools}
@@ -441,10 +431,7 @@ Computer-Aided Translation (CAT) tools
 \item To the extent that the corpora are big enough, they might also reveal statistical tendencies
 \end{itemize}
 
-\paragraph{LEXUS} as interface for multimedia annotation (done by assistants) and web-based presentation, export to off-line dictionary applications, export to wikipedia
-%MR: I had some ideas, unfortunately they are not written down yet
-
-\subsubsection{Methodological challenges}%needs to be finished
+\subsubsection{Methodological challenges}
 On the one hand, the project will use annotation and presentation tools (ELAN and LEXUS) as well as corpus tools (like ANNEX/TROVA) created by the Language Archiving Technology team. These tools have been created specifically to meet the needs of quite divergent linguistic and anthropological documentation projects. In this, it is crucial, and in accordance with current methods in Documentary Linguistics, that annotations are linked to multimedia, discoverable via rich metadata and accessible via user-friendly interfaces.
 
 On the other hand, the project will benefit from methodologies and language technology created by Giellatekno specifically for written Saami languages (though they have also been successfully applied to other (written) languages). The existing Giellatekno written corpora are thus of a very different character, particularly because they are not linked to multimedia and do not necessarily represent spoken language.
@@ -457,59 +444,15 @@ To tackle this situation, our project intends to combine corpus linguistics and 
 
 The solution to these questions will thus not only be crucial to our project, but will also be relevant for other linguistic undertakings, particularly for documentary linguists interested in improving their documentation for use in corpus linguistics, and for corpus linguists involved in collecting data from spoken and/or endangered languages.
 
-%als beispiel G.Haighs Projekt [das aber nicht expliziet hier benennen!] (siehe seine Dokumente und DoBeS-Workshopvorträge zu referential density): er bittet möglichst viele dobeslinguisten auf seine art zusätzlich zu annotieren, was die meisten nicht machen, weil es zeit kostet und sie vielleicht nicht interessiert; wenn er aber schon merhrere automatisch gut vorannotierte korpora hätte, könnte er wahrscheinlich selber mit seinen handannotationen zu seinem spezifischen korpuslinguistischen projekt weitermachen und erfolgreich sein
-
 \paragraph{Corpora of standard written languages vs. corpora of spoken endangered languages} 
 Very large corpora of written languages are available. Corpora of spoken languages (e.g., dialects or sociolects of written languages) are also commonly used in linguistic research, but such corpora are normally much smaller. The formal difference between corpora for written and spoken languages is mostly an issue regarding conventions on how spoken text is represented in written form. Spoken language is normally characterized by phenomena such as hesitations, false starts and self-corrections, which have to be dealt with in the annotations. Furthermore, the linguistic units are different: spoken language cannot be divided into sentences. Annotators of corpora of endangered spoken languages, finally, have additional problems caused mostly by the typically high linguistic variation due to language attrition and language loss as well as code-switchings to contact languages.
 
-Lists of annotation conventions already exist, such as those from projects which attempt to include as much information as possible; see for instance the conventions suggested by \citealt{schulze-bernd2006} specifically for documentary linguistics. For the proposed project however, it is more prudent to develop more of a “minimalist” catalogue of sensible annotation conventions with our project in mind. Anyone interested in studying spoken language will of course be able to use our ELAN files and add to these whatever information and annotations they desire.%JW: wollen wir nicht die Leipzig Glossing rules erwähnen?
-%JW: widerspricht dieses nicht unserem ganzen Ansatz? dass wir auf sehr effizienter Weise einen annotierten Korpus schaffen wollen, der für andere Forscher gleich nützlich ist, ohne dass sie die einzelnen Dateien selber aufarbeiten müssen? Ich verstehe nicht genau, was dieser Absatz dem Antrag bringt.
+Lists of spoken language annotation conventions already exist, such as those from projects which attempt to include as much information as possible; see for instance the conventions suggested by \citealt{schulze-bernd2006} specifically for documentary linguistics. For the proposed project however, it is more prudent to develop more of a “minimalist” catalogue of sensible annotation conventions with our project in mind. Anyone interested in studying spoken language will of course be able to use our ELAN files and add to these whatever information and annotations they desire.
 
 \paragraph{Orthography issues}
 Because we will be working with the orthographic representation of spoken language data and we are producing practical tools for language users, we will have to deal with orthography issues in the course of the project. As it is now, Kildin has an established orthography, but this has several variants. A first Pite orthography is currently under development by community members in collaboration with J.\,Wilbur; a working version is already being used in the Pite Saami Documentation Project. Ter Saami is lacking an orthography, but could use the Kildin orthography fairly easily; however, community members must decide to do so first. For Ume, the situation is still unclear. We will also be faced with orthography issues such as how to deal with variants and possible changes originating from inside the communities.
 
-In solving these issues, we will work closely with the respective language communities while remaining objective and scientific, particularly since orthography matters can be the subject of much political controversy. Fortunately, the Giellatekno approach is able to deal with variations without forcing standardization, as evidenced by the way that the two main North Saami orthographies are both recognized by Giellatekno tools.%JW: please anyone verify the validity of this last sentence
-
-\paragraph{Interfaces}%MR: I have to formulate these thinks (Dinge?Gedanken?) a little more
-Different kind of users:
-\begin{itemize}
-\item speaker community
-\item documentary linguist, incl. anthropological linguist
-\item general and corpus
-\item other interested users
-\end{itemize}
-
-different kind of portals to our created infrastructure and tools is needed!
-
-%\subsection{Work flow}%perhaps, we don't need this here
-%svn/ichat/subethaedit/etc. (see below) mention in brief again
-
-%manually annotated texts linked to audio and video (ELAN) already available at DoBeS and ELAR, these texts have (at least) some sort of orthographic transcription and (at least) one translation (Swedish, Russian, English)
-%several texts have additional grammatical annotations (done manually or semi-manually with Toolbox): parts-of-speech, morpheme break-up, glossing
-
-%Workflow (corpus)
-
-%\begin{enumerate}
-%\item create consistent transcription in standard orthography (+using conventions for features characteristic of spoken language) – manually in ELAN (wilbur, rießler, karvovskaya)
-%\item create morphological parser (wilbur, riessler, trosterud)
-%\item create syntactic parser (wilbur, riessler, trosterud)
-%\item automatic corpus annotation (wilbur, riessler, trosterud, gerstenberger)
-%\item re-import of automatic annotation into ELAN and archiving at DoBeS/ELAR (wilbur, rießler, karvovskaya)
-%\end{enumerate}
-
-%
-%Workflow (tools)
-%?? (gerstenberger)
-
-%Workflow (dictionaries)
-
-%\begin{enumerate}
-%\item lemmatization of automatically annotated corpus (wilbur, rießler, gerstenberger)
-%\item dictionary programming (wilbur, rießler, gerstenberger)
-%\item xml converting between different formats (oahpa, gt, lexus, etc.) (riessler, trosterud, gerstenberger)
-%\end{enumerate}
-
-%%create a monolingual multimedia dictionary after automatic lemmatization]
+In solving these issues, we will work closely with the respective language communities while remaining objective and scientific, particularly since orthography matters can be the subject of much political controversy. Fortunately, the Giellatekno approach is able to deal with variations without forcing standardization, as evidenced by the way that the two main North Saami orthographies are both recognized by Giellatekno tools.
 
 \subsection{Expected outcome of the proposed project}
 In summary, the project shall result in the following general outcomes:
@@ -550,15 +493,12 @@ All lexical resources will be created automatically and will include a variety o
 The project will use the experience and know-how of Divvun (one of our cooperation partners, see below Section \ref{coop}) to create correction tools to be used in all common office applications on Windows, Mac and Linux platforms. This will be done at least for Kildin Saami, as it already has a standard orthography. For the other languages, the development of these tools will depend on how the respective orthography issues turn out.
 
 \paragraph{Online Lexica – LEXUS}%to be finished by Micha
+ as interface for multimedia annotation (done by assistants) and web-based presentation, export to off-line dictionary applications, export to wikipedia %MR: I had some ideas, unfortunately they are not written down yet
 
 \paragraph{Saami Wikipedias}%to be finished by Micha
 
-\subsubsection{Project results: User access}\label{projectResult3}%to be finished by Micha
-Considering three potential Access to the data/tools as well as information about the project, project documentation from three different portals:
--Giellatekno in multilingual (Norwegian/Swedish, Russian, English, other) localizations is already existent
--Project portal, under creation \url{www2.hu-berlin.de/saami/} (would move to Freiburg's server) community friendly multilingual portal to ELAR and DoBeS archives, to Pite Saami Documentation Project, Kola Saami Documentation Project, Tools, etc. 
--ELAR: general project info (Pite Saami Documentation Project) links
--DoBeS: general project info (Kola Saami Documentation Project) links
+\subsubsection{Project results: User access}\label{projectResult3}
+Considering two potential main groups of users: Saami community members and corpus linguists, access to the data/tools as well as information about the project will be provided from different portals. 1) Access to the Kola Saami and Pite Saami multimedia archives is already provided through the portals of the ELAR and DoBeS archives respectively. These archives host also websites with general information about the projects. 2) The multilingual (Norwegian/Swedish, Russian, English, other) Giellatekno portal is also already existent and will include links or direct access to all of our tools. 3) The single websites of the Pite Saami Documentation Project and the  Kola Saami Documentation Project are planned to be merged into one community friendly multilingual portal which will include, among other things, information on the projects, links to the ELAR and DoBeS archives as well as direct access to all of our tools. This last portal is already under creation under http:\\www2.hu-berlin.de/saami/ (but it would probably move to Freiburg's server if the current application is successful).
 
 \subsection{Cooperation partners}\label{coop}
 The project will be an active group member of \textit{\textbf{SaamiDocNet}} (\url{http://saamidocnet.uit.no/}), just as Giellatekno and the current {\it Pite Saami Documentation Project} and {\it Kola Saami Documentation Project} already are. SaamiDocNet is a research network for Saami documentation and revitalization funded by the Nordic NordForsk\footnote{\url{http://www.nordforsk.org/index.cfm}}, initially until 2012. Its aim is to enhance Saami language research, documentation, maintenance and (re)vitalization by connecting these fields directly to one another in two ways. First, it is developing a web-based, open-access, information portal to ensure that Saami language resources are easily found and accessible. Second, it funds membership travel and accommodations for workshops, conferences, training courses and other relevant activities intended to improve the knowledge-base of young researchers and to give them unique opportunities to build collaborative networks of their own. SaamiDocNet is coordinated by Bruce Morén-Duolljá at Tromsø University.
