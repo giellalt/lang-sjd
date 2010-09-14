@@ -32,10 +32,10 @@
 \urlstyle{same}
 %\newfontinstance\scshape[Letters=SmallCaps,Numbers=Uppercase]{Hoefler Text}
 
-%just temporary, for easier browsing the PDF
-\tableofcontents
-\newpage
-%just temporary, for easier browsing the PDF
+%%just temporary, for easier browsing the PDF
+%\tableofcontents
+%\newpage
+%%just temporary, for easier browsing the PDF
 
 \begin{flushleft}
 \begin{Large}
@@ -411,7 +411,7 @@ As with Pite, there is no established orthography for Ter Saami, but the amount 
 %Josh/Trond-check this section 
 Finally, Ume currently has no orthography, practically no documentation, and is linguistically relatively distant to Pite (and the other Saami languages). We are thus only planning to create a rather small corpus of transcribed and translated text and write a morphological parser. We will use a small corpus of non-annotated recordings done by Tryggve Sköld. These recordings are available to us from DAUM. However, for Ume we will first use another corpus without recordings: the corpus of Wolfgang Schlachter for which transcriptions and translations are already available in digital form\footnote{Cf.~\url{http://www.ling.helsinki.fi/uhlcs/readme-all/README-uralic-lgs.html#C32}. The Schlachter corpus includes 109,572 words, 561,654 characters (including tags), character encoding is ISO 8859-1 (Latin-1).} Starting analyzing this written corpus will help processing the exclusively spoken data at DAUM which has first to be transcribed and aligned in ELAN.
 
-\subsubsection{Language technology} %to be finished by Trond, Ciprian
+\subsubsection{Language technology}
 
 Currently, the dominating paradigm within language technology is based upon statistical methods, upon teaching the computer the behavior of natural language by means of presenting it for vast amount of either un-analyzed or manually analyzed data. This approach achieves results superior to the most common grammar-based approaches. For the majority of the world's languages, and especially for the Saami languages treated here, this approach is not a viable option. The amounts of text needed – analyzed or not – is simply not available. The competing paradigm is grammar-based analysis: The researcher writes a machine-readable version of the grammar, and compiles into a program capable of analyzing and eventually also generating text. Several grammatical schools work within the grammar-based paradigm, the approached chosen by Giellatekno, and also by the present project, is a combination of using finite-state transducers for the morphological analysis and generation, and constraint grammar for disambiguation and syntactic analysis. This approach routinously gives better results than all competing paradigms, has been applied successfully by Giellatekno for (written) North Saami and which is therefore also chosen here.
 
@@ -442,7 +442,6 @@ For disambiguation and syntactic analysis, Giellatekno uses \textit{Constraint G
 
 \paragraph{Parallel corpora}
 Our Pite and Kola Elan files include in fact parallel corpora because the Saami texts are translated consequently with two languages: Pite-Swedish-English and Kildin/Ter-Russian-English resp. Parallel corpora are important for several purposes:
-
 \begin{itemize}
 \item Word-aligned corpora serve as input to multi-lingual dictionaries and term collections
 \item Sentence-aligned text is a good starting point for writing contrastive grammars or as resource for
@@ -454,20 +453,17 @@ Computer-Aided Translation (CAT) tools
 %MR: I had some ideas, unfortunately they are not written down yet
 
 \subsubsection{Methodological challenges}%needs to be finished
-The project will use annotation and presentation tools (ELAN and LEXUS) as well as corpus tools (??) created by DoBeS. These tools are created specifically to meets the needs of quite divergent linguistic and anthropological documentation projects. Crucial – in accordance with current methods in Documentary Linguistics – is that annotations are linked to multimedia, are accessible with rich metada and through user-friendly interfaces.
+The project will use annotation and presentation tools (ELAN and LEXUS) as well as corpus tools (like ANNEX/TROVA) created by DoBeS. These tools are created specifically to meets the needs of quite divergent linguistic and anthropological documentation projects. Crucial – in accordance with current methods in Documentary Linguistics – is that annotations are linked to multimedia, are accessible with rich metadata and through user-friendly interfaces.
 
 On the other hand, we will use methodologies and language technology created by Giellatekno specifically for written Saami languages (though they have also been successfully applied to other (written) languages). The existing Giellatekno written corpora are thus of very different character … mostly because not linked to multimedia.
 
+%Josh-kannst du aus dem Folgenden was machen? Gern viel kürzer
 Die Kombination zwischen dem dokumentationslinguistischen Ansatz (DOBES) und dem Korpus- und Computerlinguistischen Ansatz (Giellatekno) macht einige methodologische Überlegungen notwendig. Die Lösung dieser Fragen ist dabei nicht nur für unser Projekt von Bedeutung sondern auch im Generellen für Dokumentationslinguistik die bessere Korpuslinguistik sein will bzw. für Korpuslinguistik die sich mit gesprochenen, bedrohten Sprachen beschäftigen will.
-
-%Ich weiß noch nicht wo das hin muss
 %Korpus ist eine Sache, das Interface zum Präsentieren und Suchen ist eine andere Sache
 %Im Prinzip kann man mit Unix oder irgendwelchen Programmen in Quelltexten mehr oder weniger komplizierte Suchalgorythmen laufen lassen
 %ELAN ist ein Programm zum Präsentieren, es hat auch sehr gute Suchfunktionen (lokal)
 %TRO???oder wie das heißt hat die entsprechenden Funktionen webbasiert/cross-corpus search blabla
-
 %Lena: should we mention somewhere the differences between documentation and  a corpus? Thus what DoBeS now has is not a corpus. However this data could be organized and made search-able (this makes a corpus). However some work is required to do it. The methodology is extremely important. Not every corpus is search-able, even if it is called “corpus”. We have a good example - giellatekno, we can use the methodology which already exists.  
-
 %DoBeS Spracharchive sind eigentlich im strengeren Sinne meist gar keine Korpora (im Sinne von Korpuslinguistik), sondern sie sind entstanden als Multi-Tier-Annotationen, die möglichst viel linguistische und nicht-linguistische Information enthalten sollen, aber die man in der Regel erst korpuslinguistisch aufarbeiten muss, um tatsächlich ein bestimmtes Phänomen untersuchen zu können. Dazu kommt, dass in der Praxis nur ein Teil der Aufnahmen tatscächlich mehr als nur ein Übersetzungs- oder Transkriptionstier bekommt, weil einfach die Zeit und manpower nicht ausreicht alles manuaell zu annotieren.
 %als beispiel G.Haighs Projekt [das aber nicht expliziet hier benennen!] (siehe seine Dokumente und DoBeS-Workshopvorträge zu referential density): er bittet möglichst viele dobeslinguisten auf seine art zusätzlich zu annotieren, was die meisten nicht machen, weil es zeit kostet und sie vielleicht nicht interessiert; wenn er aber schon merhrere automatisch gut vorannotierte korpora hätte, könnte er wahrscheinlich selber mit seinen handannotationen zu seinem spezifischen korpuslinguistischen projekt weitermachen und erfolgreich sein
 %unser projekt will also dokumentationslinguistik und korpuslinguistik sinnvoll verbinden:
@@ -479,10 +475,17 @@ Die Kombination zwischen dem dokumentationslinguistischen Ansatz (DOBES) und dem
 \paragraph{Corpora of standard written languages vs. corpora of spoken endangered languages} 
 There are very large corpora of written languages available. Corpora of spoken languages (e.g., dialects or sociolects of written languages) are also commonly used in linguistic investigations, but such corpora are normally much smaller. The formal difference between corpora for written and spoken languages is mostly an issue regarding conventions how spoken text is represented in written form. Spoken language is normally characterized by phenomena like, e.g., hesitations, false starts and self-corrections, which has to be dealt with in the annotations. Furthermore, the linguistic units are different: spoken language cannot be divided into sentences. The annotator of corpora of endangered spoken languages, finally, have additional problems caused mostly by the typically high linguistic variation due to language attrition and language loss as well as code-switchings to contact languages.
 
-\paragraph{Orthographies}
-… since we are working with the orthographic representation of our texts and we are producing practical tools for language users … we have to discuss in some detail for what languages orthographies are already established (Kildin is established but in several variants; Pite is under development by community members in collaboration with Josh; Ter could use the Kildin orthography but community members have to decide on this; Ume is unclear) … and how we deal with orthography issues like variants and possible later changes originating from inside the communities … I know that this is all no big deal from the Giellatekno perspective, but we have to address this for our referees 
+%Josh-DE->EN
+Es gibt solche Listen mit Annotationskonventionen schon, z.B. "Maximallisten" für Projekte die spezifisch gesprochene Sprachen untersuchen. Vgl. auch die von \citealt{schulze-bernd2006} vorgeschlagenen Konventionen speziell für dokumentationslinguisten. Aber wir müssen eher eine "MinimalListe" von sinnvollen Annotationskonventionen speziell für unser Projekt erarbeiten und konsequent anwenden. Wer speziell gesprochene Sprache untersuchen möchte, kann ja wieder zurück in unsere ELANDateien gehen und die gewünschten Infos selber dazufügen
 
-\paragraph{Interfaces}
+\paragraph{Orthographies}
+… since we are working with the orthographic representation of our texts and we are producing practical tools for language users … we have to discuss in some detail for what languages orthographies are already established (Kildin is established but in several variants; Pite is under development by community members in collaboration with Josh; Ter could use the Kildin orthography but community members have to decide on this; Ume is unclear) … and how we deal with orthography issues like variants and possible later changes originating from inside the communities … 
+
+%Josh-DE->EN
+Wir werden eng mit Sprechergemeinschaften zusammenarbeiten in diesen Fragen
+prinzipiell ist mit dem Giellatekno-Ansatz ganz einfach mit Variation umzugehen und mehrere Varianten zuzulassen ohne dass wir normieren; (für Nordsaamisch machen sie es schon: zwei Hauptdialekte wir könnten es so ähnlich lösen)
+
+\paragraph{Interfaces}%MR: I have to formulate these thinks a little more
 Different kind of users:
 \begin{itemize}
 \item speaker community
@@ -493,59 +496,61 @@ Different kind of users:
 
 different kind of portals to our created infrastructure and tools is needed!
 
-%!!IMPORTANT: somewhere to mention: interoperability, open source, open access, etc. is no question for us 
+%\subsection{Work flow}%perhaps, we don't need this here
+%svn/ichat/subethaedit/etc. (see below) mention in brief again
 
-\subsection{Work flow}%I need input from all of you
-svn/ichat/subethaedit/etc. (see below) mention in brief again
+%manually annotated texts linked to audio and video (ELAN) already available at DoBeS and ELAR, these texts have (at least) some sort of orthographic transcription and (at least) one translation (Swedish, Russian, English)
+%several texts have additional grammatical annotations (done manually or semi-manually with Toolbox): parts-of-speech, morpheme break-up, glossing
 
-manually annotated texts linked to audio and video (ELAN) already available at DoBeS and ELAR, these texts have (at least) some sort of orthographic transcription and (at least) one translation (Swedish, Russian, English)
-several texts have additional grammatical annotations (done manually or semi-manually with Toolbox): parts-of-speech, morpheme break-up, glossing
+%Workflow (corpus)
 
-Workflow (corpus)
+%\begin{enumerate}
+%\item create consistent transcription in standard orthography (+using conventions for features characteristic of spoken language) – manually in ELAN (wilbur, rießler, karvovskaya)
+%\item create morphological parser (wilbur, riessler, trosterud)
+%\item create syntactic parser (wilbur, riessler, trosterud)
+%\item automatic corpus annotation (wilbur, riessler, trosterud, gerstenberger)
+%\item re-import of automatic annotation into ELAN and archiving at DoBeS/ELAR (wilbur, rießler, karvovskaya)
+%\end{enumerate}
 
-\begin{enumerate}
-\item create consistent transcription in standard orthography (+using conventions for features characteristic of spoken language) – manually in ELAN (wilbur, rießler, karvovskaya)
-\item create morphological parser (wilbur, riessler, trosterud)
-\item create syntactic parser (wilbur, riessler, trosterud)
-\item automatic corpus annotation (wilbur, riessler, trosterud, gerstenberger)
-\item re-import of automatic annotation into ELAN and archiving at DoBeS/ELAR (wilbur, rießler, karvovskaya)
-\end{enumerate}
+%
+%Workflow (tools)
+%?? (gerstenberger)
 
+%Workflow (dictionaries)
 
-Workflow (tools)
-?? (gerstenberger)
+%\begin{enumerate}
+%\item lemmatization of automatically annotated corpus (wilbur, rießler, gerstenberger)
+%\item dictionary programming (wilbur, rießler, gerstenberger)
+%\item xml converting between different formats (oahpa, gt, lexus, etc.) (riessler, trosterud, gerstenberger)
+%\end{enumerate}
 
-Workflow (dictionaries)
-
-\begin{enumerate}
-\item lemmatization of automatically annotated corpus (wilbur, rießler, gerstenberger)
-\item dictionary programming (wilbur, rießler, gerstenberger)
-\item xml converting between different formats (oahpa, gt, lexus, etc.) (riessler, trosterud, gerstenberger)
-\end{enumerate}
-
-%create a monolingual multimedia dictionary after automatic lemmatization]
+%%create a monolingual multimedia dictionary after automatic lemmatization]
 
 \subsection{Expected outcome of the proposed project}%needs to be finished
 Generally, the project shall result in the following outcomes:
 \begin{itemize}
-\item a searchable corpus of spoken language for these four endangered Saami languages which shall be linked to multimedia files and intended not only %particularly 
-for use in linguistic research (similar to the Giellatekno corpus for North Saami in Tromsø, but with the addition of multimedia), but also as a gateway to the corpus for the language communities;
+\item a searchable corpus of spoken language for these four endangered Saami languages which shall be linked to multimedia files and intended not only particularly for use in linguistic research (similar to the Giellatekno corpus for North Saami in Tromsø, but with the addition of multimedia), but also as a gateway to the corpus for the language communities;
 \item semi-automatic annotation of the corpus (pos, morphology, syntax – as currently possible for North Saami in the Giellatekno infrastructure);
-\item creation of language technology tools for both linguists and revitalization activists such as lemmatizers%is this the english word?
-, intelligent dictionaries, translation tools, educational materials, etc. (again based on tools currently used by Giellatekno for North Saami); 
+\item creation of language technology tools for both linguists and revitalization activists such as lemmatizers, intelligent dictionaries, translation tools, educational materials, etc. (again based on tools currently used by Giellatekno for North Saami); 
 \item development of methods, workflows, conventions and best-practice guidelines for such projects;
 \item dissemination of these outcomes to be utilized in the future as at least a template or source of inspiration for other DoBeS, ELAR and other endangered language projects for developing corpus linguistics and language technologies.
 \end{itemize}
+%Josh-wie können wir das schreiben?
+%interoperability, open source, open access, etc. is selbstverständlich no question for us 
+The following specific language technological outcomes are planned to be %???
 
 \subsubsection{Corpus linguistics}
 \paragraph{Searchable, consequently, completely annotated multimedia Saami corpora at DoBeS/ELAR}
-%nochmal expliziet aufschreiben, dass wir komplett die gesamten Kildin, Ter, Pitetexte die es jetzt schon Bei DOBES/ELAR gibt parsen werden und sie in ELAN zurückexportieren; damit sind die jetzt schon existierenden Dokumentationen korpuslinguistisch ebesser (einheitlich/konsequent) annotiert und können für linguitische Untersuchungen (auch vergleichend über diese saamische Sprachen hinweg, sowie mit einschluss des bereits existierenden nordsaamischen, lulesaamischen Materials bei Giellatekno) viel besser verwendet werden.
-...will be available and searchable using DoBeS tools
-\paragraph{Searchable, consequently, completely annotated plain text Saami corpora at DoBeS/ELAR}
+%Josh-nochmal explizit aufschreiben, dass wir komplett die gesamten Kildin, Ter, Pitetexte die es jetzt schon Bei DOBES/ELAR gibt parsen werden und sie in ELAN zurückexportieren; damit sind die jetzt schon existierenden Dokumentationen korpuslinguistisch ebesser (einheitlich/konsequent) annotiert und können für linguitische Untersuchungen (auch vergleichend über diese saamische Sprachen hinweg, sowie mit einschluss des bereits existierenden nordsaamischen, lulesaamischen Materials bei Giellatekno) viel besser verwendet werden.
+...will be available and searchable using DoBeS tools described above… data can be downloaded (because it is XML) and used by other corpus projects
+\paragraph{Searchable, consequently, completely annotated plain text Saami corpora at Giellatekno}
+%Josh-das irgendwie formulieren
 ...will be available and searchable using the Giellatekno search interface, similar to the North Saami interactive text corpus available from \url{http://giellatekno.uit.no/text.en.html}.
+…will be completely parallel (mit den Übersetzungen die wir haben)
+…will be additionally tagged for the time alignments included in our current ELAN files in order to make linking to DOBES/ELAR recordings also possible
 
 \subsubsection{Language technology}
-The following specific language technological outcomes are planned to be %???
+
 \paragraph{Tools for grammar and analysis}
 These tools will include 1) a text analysis tool (which analyzes, disambiguates and hyphenates text, and gives dependency analysis; it also converts text into IPA), 2) a paradigm generator (which generates paradigms of different sizes for any word), 3) a word generator, and 4) a number word generator (both generate wordforms using lemma and grammatical tags). The interface for these tools will be available (in different language localizations) from the Giellatekno website, similar the the already existent North Saami tools at \url{http://giellatekno.uit.no/cgi/index.sme.eng.html}. It will also be linked from the other project portals at DoBeS and ELAR.
 
@@ -555,40 +560,47 @@ Oahpa! (North Saami for ‘learn!’) is a collection of interactive games that 
 \paragraph{Integrated electronic dictionaries}
 We will create integrated dictionaries which may be used for offline use in traditional dictionary applications, such as “Dictionary” (Mac) or StarDict (Windows, Linux). Some applications, like Safari or several text editors, even allow lookup in locally running programs by using the right-mouse click. The dictionaries even contains all basic inflected forms of each lemma (and these inflected forms are automatically generated by use of the ??) similar to the already existing and running dictionary for North and South Saami (cf.~\url{http://giellatekno.uit.no/words/dicts/index.eng.html}.)
 
-\paragraph{Machine translation}%to be finished by Trond or Ciprian
-… cf. Preliminary machine translation programs for several language pairs \url{http://victorio.uit.no/cgi-bin/francis/index.php?lang=eng}
-
-\paragraph{Online Lexica – LEXUS}%to be finished by Micha
+\paragraph{Machine translation}
+Preliminary machine translation programs from Giellatekno for several language pairs are already available at \url{http://victorio.uit.no/cgi-bin/francis/index.php?lang=eng}. We will add machine translation from/to Kildin Saami (and Russian).
 
 \paragraph{Lexical resources} are created automatically and will include, e.g., wordform frequency lists (most and less frequent words, hapaxes, tergo lists), letter frequency lists, and parts-of-speech frequency lists. The interface for these lexical resources will be available (in different language localizations) from the Giellatekno website, similar to the already existent site at \url{http://giellatekno.uit.no/lex.en.html}. It will also be linked from the other project portals at DoBeS and ELAR.
 
-\paragraph{Spell checker and hyphenation}%has to be finished
-… use Divvun experience with North Saami
+\paragraph{Spell checker and hyphenation} 
+%Josh-DE->EN
+The project will use the experience and know-how from Divvun (one of our cooperation partners, see below Section \ref{coop}) and create correction tools to be used in all common office applications on Windows, Mac, Linux platforms. … mindestens für KIldin Saami (wo es schon Orthographie gibt). Bei den anderen Sprachen müssen wir die Entwicklung der Orthographiefrage abwarten.
 
-\subsubsection{User portals}
+\paragraph{Online Lexica – LEXUS}%to be finished by Micha
+%Wikipedia
+
+\subsubsection{User portals}%to be finished by Micha
 Access to the data/tools as well as information about the project, project documentation from three different partals:
 -Giellatekno in multilingual (Norwegian/Swedish, Russian, English, other) localizations is already existent
 -Project portal, under creation \url{www2.hu-berlin.de/saami/} (would move to Freiburg's server) community friendly multilingual portal to ELAR and DoBeS archives, to Pite Saami Documentation Project, Kola Saami Documentation Project, Tools, etc. 
 -ELAR: general project info (Pite Saami Documentation Project) links
 -DoBeS: general project info (Kola Saami Documentation Project) links
 
-\subsection{Cooperation partners}
-%Reihenfolge der Kooperationspartner vielleicht ändern?
-
-{\bf Kola Saami Language Center in Lovozero} … former Saami project assistants and main consultants: Sharshina, Danilova, Antonova, Vinogradova … coordinated by former Kola Saami Documentation Project researcher Scheller
-
-Kola Saami Youth organisation \textit{\textbf{Sām' nūraš}}  led by Anna Afanasyeva. A.\,Afanasyeva … formerly Saami student assistant in {\it Kola Saami Documentation Project} … currently enrolled as M.A. student in Native Studies at Tromsø University. … native Kildin Saami and Kildin Saami speaker and political and language activist … {\it Sām' nūraš} works among other things with language revitalization of Kildin, Ter and Skolt in Russia … especially modernization of the language, das prestige der Sprache erhöhen und sie z.B. im Internet sichtbar und nutzbar zu machen … {\it Sām' nūraš} plant unter anderem ein Kildinsaamisches Wikipedia  zu gründen. Sie wollen auf die Expertise unseres Projekts zurückgreifen.
+\subsection{Cooperation partners}\label{coop}%Josh-edition and proofreading needed
+The project will be an active group member of \textit{\textbf{SaamiDocNet}} (\url{http://saamidocnet.uit.no/}), just as Giellatekno and the current {\it Pite Saami Documentation Project} and {\it Kola Saami Documentation Project} already are. {\it SaamiDocNet} is a research network for Saami documentation and revitalization funded by the Nordic NordForsk (initially until 2012). Its aim is to enhance Saami language research, documentation, maintenance and (re)vitalization by connecting these fields directly to one another in two ways. First, it is developing a web-based, open-access, information portal to ensure that Saami language resources are easily found and accessible. Second, it funds membership travel and accommodations for workshops, conferences, training courses and other relevant activities intended to improve the knowledge-base of young researchers and to give them unique opportunities to build collaborative networks of their own. {\it SaamiDocNet} is coordinated by Bruce Morén-Duolljá at Tromsø University.
 
 Giellatekno already collaborates closely with \textit{\textbf{Divvun}} (\url{http://www.divvun.no/}), led by the computational linguist Sjur Nøstebø Moshagen. {\textit{Divvun} is a language technological project administered by the Norwegian Saami Parliament. The aim of {\textit{Divvun} is to create spell checkers and hyphenation programs for the Norwegian Saami language (North, Lule and South Saami). The tools for North and Lule Saami already run on Linux, MacOS X and Windows for the most common office applications. The tools for South Saami are in the works. Since the same language technological infrastructure is shared by {\textit{Divvun} and {\textit{Giellatekno}, our project can refer to already existent know-how when working with spell checkers and hyphenation programs for KIldin and Pite Saami.
 
-The project will be an active group member of \textit{\textbf{SaamiDocNet}} (\url{http://saamidocnet.uit.no/}), just as Giellatekno and the current {\it Pite Saami Documentation Project} and {\it Kola Saami Documentation Project} already are. {\it SaamiDocNet} is a research network for Saami documentation and revitalization funded by the Nordic NordForsk (initially until 2012). Its aim is to enhance Saami language research, documentation, maintenance and (re)vitalization by connecting these fields directly to one another in two ways. First, it is developing a web-based, open-access, information portal to ensure that Saami language resources are easily found and accessible. Second, it funds membership travel and accommodations for workshops, conferences, training courses and other relevant activities intended to improve the knowledge-base of young researchers and to give them unique opportunities to build collaborative networks of their own. {\it SaamiDocNet} is coordinated by Bruce Morén-Duolljá at Tromsø University.
- 
-The project will cooperate with \textbf{Peter Steggo} who agreed to be an external specialist for Ume and Pite Saami. Being a native Pite Saami from Arjeplog, P.\,Steggo has studied Saami linguistics at Umeå university and is now employed by Arvidsjaur municipality as a language consultant for Saami in Arvidsjaur. Till arbetsuppgifterna hör bland annat att utbilda personal i samiska samt jobba med språkutvecklande aktiviteter gentemot förskola, skola och barnomsorg.%SW->EN  
+%Josh-DE->EN
+A {\bf Kola Saami Language Center in Lovozero} is currently establishing under participation of former Saami project assistants and main consultants at the Kola Saami Documentation Project (Nina Sharshina, Svetlana Danilova, Aleksandra Antonova, Ganna Vinogradova) and the former project researcher Elisabeth Scheller. This working group aims at establishing a language center in the village Lovozero. Currently, the language center’s work focuses on the creation and spreading of teaching materials, the organization of language courses, language camps, language circles, seminars and other practical measures aiming at the revitalization, maintenance and development of Kildin and Ter Saami. The project will collaborate with the language center ... das daran interessiert ist elekronische ein- und zweisprachige kildinsaamiche Wörterbucher herzustellen. Wir werden die Leute in LEXUS und Lexikographie trainieren.
 
+%Josh-DE->EN
+{\bf Elisabeth Scheller}, a Ph.D. student in Saami linguistics at Tromsø University, will consult our project in issues related to collaborative work with the Kola Saami communities. She has a background in both the academic and practical issues involved in Saami languages and cultures - particularly with respect to Kola Saami language revitalization. E.\,Scheller is a former Kola Saami Documentation Project researcher … has completed a large scale sociological survey of language use und language loss among Kola Saami. In cooperation with the {\it Kola Saami Documentation Project}, she has been instrumental in establishing the Kola Saami language center in Lovozero and has is active and central in current Kildin Saami revitalization and maintenance initiatives. She has organized and administrate activities, such as language courses, language circles, language camps and other practical measures.
+
+%Josh-DE->EN
+Kola Saami Youth organisation \textit{\textbf{Sām' nūraš}}  led by Anna Afanasyeva. A.\,Afanasyeva … formerly Saami student assistant in {\it Kola Saami Documentation Project} … currently enrolled as M.A. student in Native Studies at Tromsø University. … native Kildin Saami and Kildin Saami speaker and political and language activist … {\it Sām' nūraš} works among other things with language revitalization of Kildin, Ter and Skolt in Russia … especially modernization of the language, das prestige der Sprache erhöhen und sie z.B. im Internet sichtbar und nutzbar zu machen … {\it Sām' nūraš} plant unter anderem ein Kildinsaamisches Wikipedia  zu gründen. Sie wollen auf die Expertise unseres Projekts zurückgreifen.
+
+%Josh-DE->EN
+The project will cooperate with \textbf{Peter Steggo} who agreed to be an external specialist for Ume and Pite Saami. Being a native Pite Saami from Arjeplog, P.\,Steggo has studied Saami linguistics at Umeå university and is now employed by Arvidsjaur municipality as a language consultant for Saami in Arvidsjaur. Till arbetsuppgifterna hör bland annat att utbilda personal i samiska samt jobba med språkutvecklande aktiviteter gentemot förskola, skola och barnomsorg.
+
+%Josh-DE->EN
 Another Saami cooperation partner from the Swedish side is ...?Arjeplog project/?... lead by Nisse Bengtsson. Both N.\,Bengtsson and P.\,Steggo are familiar with ...?documentary linguistics in particular with Giellatekno's practical approach to Saami language technology and creation of teaching programms etc.?... They have both participated at training provided by the DoBeS Winter School in Saami Language Documentation and Revitalization (Bodø 2010) and ...?work together/consults?... with {\it Pite Saami Documentation Project}. 
 
-… {\bf Elisabeth Scheller} is a Ph.D. student in Saami linguistics at Tromsø University. She has a background in both the academic and practical issues involved in Saami languages and cultures - particularly with respect to Kola Saami language revitalization. E.\,Scheller is a former Kola Saami Documentation Project researcher … has completed a large scale sociological survey of language use und languege loss among Kola Saami. In cooperation with the {\it Kola Saami Documentation Project}, she has been instrumental in establishing a Kola Saami language center in Lovozero and has is active and central in current Kildin Saami revitalization and maintenance initiatives. She has organized and administrate activities, such as language courses, language circles, language camps and other practical measures. She will consult our project in issues related to collaborative work with the Kola Saami communities
- 
+Wenn Interesse besteht, Wir werden die Leute in Sweden auch in LEXUS und Lexikographie trainieren.
+
 \bibliographystyle{linquiry2.bst}
 \bibliography{KolaPiteDobes}
 
