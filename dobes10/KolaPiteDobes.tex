@@ -256,9 +256,11 @@ The team shall consist of experienced documentary and computational linguists as
 The two leaders of the project are documentary linguist Michael Rießler (Freiburg) and computational linguist Trond Trosterud (Tromsø), both of whom are specialized in Saami linguistics. The first applicant is a junior researcher who also led a DoBeS project on the Kola Saami languages. The other two applicants are Joshua Wilbur, currently coordinator/researcher for the Pite Saami Documentation Project (ELDP), and Giellatekno's programmer Ciprian Gerstenberger. Funding for the proposed project would go towards a full principle researcher position for M.\,Rießler and a half-time principle researcher position for J.\,Wilbur at the University of Freiburg, two student research assistants as well as material support and travel expenditures.
 
 %\begin{figure}[h]
-%\caption{S\'{a}pmi and the Saami languages} 
+%\begin{center}
+%\caption{S\'{a}pmi and the Saami languages. The languages of the project are ??} 
 %\label{SaamiLgs}
-%\includegraphics[width=0.7\textwidth]{SaamiLgs}
+%\includegraphics[width=0.9\textwidth]{SaamiLgs.jpeg}
+%\end{center}
 %\end{figure}
 
 \section{Detailed project description}%up to 25 pages
@@ -387,7 +389,8 @@ The language technology project Giellatekno already has an infrastructure setup 
 
 For South, Lule and North Saami a wide range of analyzers and applications are available. The best investigated language is North Saami, for which there are a morphological analyzer/generator, a syntactic analyzer, including grammatical functions and dependency; morphologically enriched dictionary, machine translation systems, a system for automatic phonetic transcription, and an interactive language learning program suite (\url{http://oahpa.uit.no}) including processing and feedback on free user input. With the relevant basic grammatical resources in place, similar programs may also be developed for the other Saami languages, including the languages of the present application (cf.~the following Section \ref{aimsmethod}).
 
-\subsection{Research aims and methodologies}\label{aimsmethod}%rather finished, last paragraph on Ume needs a check
+\subsection{Research aims and methodologies}\label{aimsmethod}
+\subsubsection{General}%rather finished, last paragraph on Ume needs a check
 
 In addition to its general aim of contributing to the documentation and revitalization of endangered languages, the project will work within the framework of the following three main areas: 1) formal linguistic description (morphology and syntax as basis for parser creation), 2) computational linguistics (creation of parsers), and 3) programming (creation of lexica and other tools). The main goal of the project is twofold: 1) to apply language technology tools (more precisely: finite-state transducers and constraint grammar) to efficiently supplement DoBeS and ELAR multimedia corpora of digitized, transliterated and translated texts with consistent annotations, and 2) using the resulting annotated corpora, to then create practical applications such as paradigm and word-form generators, interactive teaching materials and electronic lexica. 
 
@@ -415,8 +418,7 @@ As with Pite, there is no established orthography for Ter Saami, but the amount 
 Finally, Ume currently has no orthography, practically no documentation, and is linguistically relatively distant to Pite (and the other Saami languages). We are thus only planning to create a rather small corpus of transcribed and translated text and write a morphological parser. We will use a small corpus of non-annotated recordings done by Tryggve Sköld. These recordings are available to us from DAUM. However, for Ume we will first use another corpus without recordings: the corpus of Wolfgang Schlachter for which transcriptions and translations are already available in digital form\footnote{Cf.~\url{http://www.ling.helsinki.fi/uhlcs/readme-all/README-uralic-lgs.html#C32}. The Schlachter corpus includes 109,572 words, 561,654 characters (including tags), character encoding is ISO 8859-1 (Latin-1).} Starting analyzing this written corpus will help processing the exclusively spoken data at DAUM which has first to be transcribed and aligned in ELAN.
 
 \subsubsection{Language technology} %to be finished by Trond, Ciprian
-%HERE WE SHOULD MENTION GIELLATEKNO'S GENERAL RESEARCH AIMS AND METHODOLOGIES
-%TROND, CIPRIAN – Could you please complete missing and/or wrong things 
+
 Currently, the dominating paradigm within language technology is based upon statistical methods, upon teaching the computer the behavior of natural language by means of presenting it for vast amount of either un-analyzed or manually analyzed data. This approach achieves results superior to the most common grammar-based approaches. For the majority of the world's languages, and especially for the Saami languages treated here, this approach is not a viable option. The amounts of text needed – analyzed or not – is simply not available. The competing paradigm is grammar-based analysis: The researcher writes a machine-readable version of the grammar, and compiles into a program capable of analysing and eventually also generating text. Several grammatical schools work withing the grammar-based paradigm, the approached chosen by Giellatekno, and also by the present project, is a combination of using finite-state transducers for the morphological analysis and generation, and constraint grammar for disambiuguation and syntactic analysis. This approach routinously gives better results than all competing paradigms, and it is therefore chosen here. % öh.
 %been applied successfully by Giellatekno for (written) North Saami and which will also by applied by this project for (spoken) Kildin usw.
 
