@@ -407,11 +407,12 @@ The suprasegmental morphology of Saami will be handled by the so-called Two-Leve
 \end{description}
 The two-way mapping between the two levels is mediated through a set of language-specific two-level rule. The compilation process results in a morphophonological TWOL parser.
 
-For the Saami languages in question, important TWOL rule sets include the ones needed to model process such as consonant gradation, vowel harmony and diphthong simplification. The segmental transducer and the TWOL transducer are composed into one transducers, with lemma + grammatical tags on the upper side, and the corresponding wordform on the lower. The transducer may be inverted, and it can both analyze and generate wordforms.
+For the Saami languages in question, important TWOL rule sets include the ones needed to model process such as consonant gradation, vowel harmony and diphthong simplification. The segmental transducer and the TWOL transducer are composed into one transducers, with lemma and grammatical tags on the upper side, and the corresponding wordform on the lower side. The transducer may be inverted, and it can both analyze and generate wordforms.
 
 The composition of these two different transducers makes it possible to handle languages with rich morphological systems as complex as the Saami ones. 
 
-\textit{Giellatekno} uses transducers made by TWOL and $lexc$ in order to make language technology applications such as pedagogical programs, spell checkers, and programs for analysis. The programs are available for several Saami languages, and even for Greenlandic, Faroese, Komi and other languages.
+\textit{Giellatekno} uses transducers made by TWOL and $lexc$ %JW: $lexc$ doesn't show up in my pdf!
+in order to make language technology applications such as pedagogical programs, spell checkers, and programs for linguistic analyses. The programs are available for several Saami languages, and even for Greenlandic, Faroese, Komi and other languages.
 
 \paragraph{Constraint grammar for syntactic analysis}
 For disambiguation and syntactic analysis, Giellatekno uses \textit{Constraint Grammar} (CG). CG takes morphologically analyzed text as input, and returns only the appropriate readings, enriched with grammatical functions and dependency relations. The output may also be converted to phrase structure representation.
@@ -439,7 +440,7 @@ To tackle this situation, our project intends to combine corpus linguistics and 
 The solution to these questions will thus not only be crucial to our project, but will also be relevant for other linguistic undertakings, particularly for documentary linguists interested in improving their documentation for use in corpus linguistics, and for corpus linguists involved in collecting data from spoken and/or endangered languages.
 
 \paragraph{Corpora of standard written languages vs. corpora of spoken endangered languages} 
-Very large corpora of written languages are available. Corpora of spoken languages (e.g., dialects or sociolects of written languages) are also commonly used in linguistic research, but such corpora are normally much smaller. The formal difference between corpora for written and spoken languages is mostly an issue regarding conventions on how spoken text is represented in written form. Spoken language is normally characterized by phenomena such as hesitations, false starts and self-corrections, which have to be dealt with in the annotations. Furthermore, the linguistic units are different: spoken language cannot be divided into sentences. Annotators of corpora of endangered spoken languages, finally, have additional problems caused mostly by the typically high linguistic variation due to language attrition and language loss as well as code-switchings to contact languages.
+Very large corpora of written languages are available. Corpora of spoken languages (e.g., dialects or sociolects of written languages) are also commonly used in linguistic research, but such corpora are normally much smaller. The formal difference between corpora for written and spoken languages is mostly an issue regarding conventions on how spoken text is represented in written form. Spoken language is normally characterized by phenomena such as hesitations, false starts and self-corrections, which have to be dealt with in the annotations. Furthermore, the linguistic units are different, as spoken language cannot be divided into sentences. Annotators of corpora of endangered spoken languages, finally, have additional problems caused mostly by the typically high linguistic variation due to language attrition and language loss as well as code-switchings to contact languages.
 
 Lists of spoken language annotation conventions already exist, such as those from projects which attempt to include as much information as possible; see for instance the conventions suggested by \citealt{schulze-bernd2006} specifically for documentary linguistics. For the proposed project however, it is more prudent to develop more of a “minimalist” catalogue of sensible annotation conventions with our project in mind. Anyone interested in studying spoken language will of course be able to use our ELAN files and add to these whatever information and annotations they desire.
 
@@ -491,14 +492,9 @@ The project will use the experience and know-how of Divvun (one of our cooperati
 
 \paragraph{Saami Wikipedias}%to be finished by Micha
 
-\subsubsection{Project results: User access}\label{projectResult3}%JOSH:check this!
-Considering two potential main groups of users: Saami community members and corpus linguists, access to the data/tools as well as information about the project will be provided from different portals. 1) Access to the Kola Saami and Pite Saami multimedia archives is already provided through the portals of the ELAR and DoBeS archives respectively. These archives host also websites with general information about the projects. 2) The multilingual (Norwegian/Swedish, Russian, English, other) Giellatekno portal is also already existent and will include links or direct access to all of our tools. 3) The single websites of the Pite Saami Documentation Project and the Kola Saami Documentation Project are planned to be merged into one community friendly multilingual portal which will include, among other things, information on the projects, links to the ELAR and DoBeS archives as well as direct access to all of our tools. This last portal is already under creation.\footnote{under http://www2.hu-berlin.de/saami/, but it would probably move to Freiburg's server if the current application is successful.}
-%\subsubsection{Project results: User access}\label{projectResult3}%to be finished by Micha
-%Considering three potential Access to the data/tools as well as information about the project, project documentation from three different portals:
-%-Giellatekno in multilingual (Norwegian/Swedish, Russian, English, other) localizations is already existent
-%-Project portal, under creation \url{www2.hu-berlin.de/saami/} (would move to Freiburg's server) community friendly multilingual portal to ELAR and DoBeS archives, to Pite Saami Documentation Project, Kola Saami Documentation Project, Tools, etc. 
-%-ELAR: general project info (Pite Saami Documentation Project) links
-%-DoBeS: general project info (Kola Saami Documentation Project) links
+\subsubsection{Project results: User access}\label{projectResult3}
+Considering the two potential main groups of users (Saami community members and corpus linguists), access to the data and tools as well as to information about the project will be provided via different portals. 1) Access to the Kola Saami and Pite Saami multimedia archives is already provided through the portals of the ELAR and DoBeS archives, respectively. These archives also host websites with general information about the projects. 2) The multilingual (Norwegian/Swedish, Russian, English, other) Giellatekno portal is also already in existence and will be supplemented to include links or direct access to all of the project's tools. 3) The individual websites of the Pite Saami Documentation Project and the Kola Saami Documentation Project are planned to be merged into one community-friendly multilingual portal which will include, among other things, information on the project, links to the ELAR and DoBeS archives as well as direct access to all of our tools. This last portal is already under creation.\footnote{Currently at http://www2.hu-berlin.de/saami/%JW: der LInk führt zu "file not found"!
+, but it would probably move to the University of Freiburg's server if the current application is successful.}
 
 \subsection{Cooperation partners}\label{coop}
 The project will be an active group member of \textit{\textbf{SaamiDocNet}},\footnote{http://saamidocnet.uit.no/} just as Giellatekno and the current {\it Pite Saami Documentation Project} and {\it Kola Saami Documentation Project} already are. SaamiDocNet is a research network for Saami documentation and revitalization funded by the Nordic NordForsk\footnote{\url{http://www.nordforsk.org/}}, initially until 2012. Its aim is to enhance Saami language research, documentation, maintenance and (re)vitalization by connecting these fields directly to one another in two ways. First, it is developing a web-based, open-access, information portal to ensure that Saami language resources are easily found and accessible. Second, it funds membership travel and accommodations for workshops, conferences, training courses and other relevant activities intended to improve the knowledge-base of young researchers and to give them unique opportunities to build collaborative networks of their own. SaamiDocNet is coordinated by Bruce Morén-Duolljá at the University of Tromsø.
@@ -525,20 +521,20 @@ Both M.\,Rießler (with the Kola Saami Documentation Project) and J.\,Wilbur (wi
 
 \section{Binding indication}
 
-The applicants declare that all data will be recorded and processed in accordance with the linguistic, technical and juridical framework of the program group “Documentation of Endangered Languages (DoBeS)” and the outcoming language documentation and source code will be transferred to the archives of the central data bank project.
+The applicants declare that all data will be recorded and processed in accordance with the linguistic, technical and juridical framework of the program group “Documentation of Endangered Languages” and the outcoming language documentation and source code will be transferred to the archives of the central data bank project.
 
 \section{Key project participants, their responsibilities in the project and previous work on the subject}
 
 \subsection{Project participants' previous work on the subject}
 The team consists of experienced documentary and computational linguists and programmers well familiar with Saami languages.
 
-\paragraph{Michael Rießler} completed a \textit{Magister} degree in Scandinavian Linguistics at Humboldt-Universität in Berlin. His research has focused on both historical and synchronic-typological issues, and has covered a variety of topics including (but not limited to) areal linguistics in northern Europe, Saami linguistics, and Documentary linguistics. He submitted his doctoral dissertation in General Linguistics in July 2010, and his defense at the Universität Leipzig is expected in winter 2010.
+\paragraph{Michael Rießler} completed a \textit{Magister} degree in Scandinavian Linguistics at Humboldt-Universität in Berlin. His research has focused on both historical and synchronic-typological issues, and has covered a variety of topics including (but not limited to) areal linguistics in northern Europe, Saami linguistics, and Documentary linguistics. He submitted his doctoral dissertation in General Linguistics in July 2010, and his defense at the Universität Leipzig is expected in early winter 2010.
 
-During the last six years, Michael Rießler has conducted extensive fieldwork on Kola Saami languages. Due to his work as principle investigator and coordinator of the “Kola Saami Documentation Project”, a DoBeS project, he is familiar with the objectives and methods of contemporary documentary linguistics in general and with the framework of the DoBeS program group in particular. He has also organized a DoBeS Winter School on “Saami Language Documentation and Revitalization” (together with Ulrike Mosel, Jurij Kusmenko, Bruce Morén-Duolljá, and Ida Toivonen) which took place in 2010 in Bodø/Norway.
+During the last six years, Michael Rießler has conducted extensive fieldwork on Kola Saami languages. Due to his work as principle investigator and coordinator of the “Kola Saami Documentation Project”, a DoBeS project, he is familiar with the objectives and methods of contemporary documentary linguistics in general and with the framework of the DoBeS program group in particular. He also organized the DoBeS Winter School on “Saami Language Documentation and Revitalization” (together with Ulrike Mosel, Jurij Kusmenko, Bruce Morén-Duolljá, and Ida Toivonen) which took place in 2010 in Bodø, Norway.
 
-In connection with the documentation of Kola Saami M.\,Rießler has extensively collaborated with the Saami language technology group (Giellatekno) at the University of Tromsø and has helped creating Web-based teaching tools for Kildin and Skolt Saami. He is thus well familiar with practical computational linguistics applications and the methods and workflows applied at Giellatekno.
+In connection with the documentation of Kola Saami, M.\,Rießler has collaborated extensively with the Saami language technology group (Giellatekno) at the University of Tromsø and has helped create web-based pedagogical tools for Kildin and Skolt Saami. He is thus very familiar with practical applications of computational linguistics and the methods and workflows in place at Giellatekno.
 
-\paragraph{Trond Trosterud} is the head of the Giellatekno research centre at the University of Tromsø. He defended his \textit{Ph.D.} in Uralic linguistics at the University of Tromsø in 2004, and his M.A. in General Linguistics at the University of Trondheim in 1989. His main areas of research are inflectional morphology of the Uralic languages, and computational linguistics, with a focus upon grammatical modeling of morphologically complex languages, but he has also published on lexicography and language revitalization. 
+\paragraph{Trond Trosterud} is the head of the Giellatekno research centre at the University of Tromsø. He defended his \textit{Ph.D.} in Uralic linguistics at the University of Tromsø in 2004, and his M.A. in General Linguistics at the University of Trondheim in 1989. While his main areas of research are the inflectional morphology of the Uralic languages and computational linguistics, with a focus on grammatical modeling of morphologically complex languages, he has also published on lexicography and language revitalization.
 
 \paragraph{Joshua Wilbur} completed a \textit{Magister} degree in General Linguistics and American Studies at the Universität Leipzig in March 2008. Since April 2008, he has been a doctoral student, initially at the General Linguistics department at Humboldt-Universtität in Berlin under the supervision of Manfred Krifka, but has now transferred to Christian-Albrechts-Universtität in Kiel to complete his Ph.D. in Documentary Linguistics under the supervision of Ulrike Mosel. His initial contact with endangered languages took place as a student assistant in the Chintang and Puma Documentation Project (DoBeS), as well as during an internship fieldwork trip to collect an initial wordlist for the Gurung dialect (Tibeto-Burman) spoken in the Manang District of Nepal. J.\,Wilbur's first contact with Saami languages came as a student research assistant in the Kola Saami Documentation Project (DoBeS) and included two field trips to the Russian Federation to work on Kildin and Ter Saami; as a result of these trips and his work on the project, he completed his M.A. thesis on syllable structures and stress patterns in Kildin Saami. He has also written an article (together with M.\,Rießler) on “Documenting the endangered {K}ola {S}aami languages” (2007).
 
@@ -546,35 +542,35 @@ Since June 2008, he has been coordinator of the Pite Saami Documentation Project
 
 As part of the Pite Saami Documentation Project and his own Ph.D. project, he has compiled an extensive database for his recordings and results from elicitation sessions, and has developed Kildin and Pite keyboards and maintains a webpage on the project website concerning useful project resources for documentary linguists. He has taught a university class on documentary linguistics in the northern European area, and led a fieldwork course and a Toolbox tutorial at the DoBeS Winter School on “Saami Language Documentation and Revitalization”.
 
-\paragraph{Ciprian Gerstenberger} has a \textit{Diploma} degree in Computational Linguistics as well as an additional  \textit{European Masters Certificate in Language and Speech} from the Institute for Natural Language Processing, University of Stuttgart, Germany. Since his student time, he worked in various projects on Natural Language Processing involving almost any level of linguistic description: semi-manual part-of-speech tagging, parsing, treebank building and searching, text generation, dialogue systems, etc.  In his current position at Giellatekno, he focusses on developing language tools and linguistic resources for all Saami languages.  Moreover, he offers both technical and linguistic support for any kind of user of Giellatekno's resources and tools. He participates regularly at events aimed at documenting and revitalizing Saami languages such as the DoBeS Winter School on “Saami Language Documentation and Revitalization” or the newly held workshop on South Saami language technology in Trondheim.
+\paragraph{Ciprian Gerstenberger} has a \textit{Diploma} degree in Computational Linguistics as well as an additional  \textit{European Masters Certificate in Language and Speech} from the Institute for Natural Language Processing, University of Stuttgart, Germany. Since his time as student, he has worked in various projects concerning Natural Language Processing and involving almost every level of linguistic description: semi-manual part-of-speech tagging, parsing, treebank building and searching, text generation, dialogue systems, etc.  In his current position at Giellatekno, he focusses on developing language tools and linguistic resources for all Saami languages.  Moreover, he offers both technical and linguistic support for any users of Giellatekno's resources and tools. He regularly participates in events aimed at documenting and revitalizing Saami languages such as the DoBeS Winter School on “Saami Language Documentation and Revitalization” or the recently held workshop on South Saami language technology in Trondheim.
 
-\paragraph{Elena Karvovskaya} is a student of General linguistics at Potsdam university. In 2010 she finished her B.Sc. thesis in Kola Saami semantics which was based on fieldwork and corpus research. She has also co-authored conference presentations and a paper on Kola Saami semantics.
+\paragraph{Elena Karvovskaya} is a student of General linguistics at Potsdam university. In 2010 she finished her B.Sc. thesis in Kola Saami semantics which was based on data gathered through fieldwork and corpus research. She has also co-authored conference presentations and a paper on Kola Saami semantics.
 
-Beside her extensive field work on Kildin and Ter Saami (with M.\,Rießler) and Iźva-Komi (with R.\,Blokland and M.\,Rießler) on the Kola Peninsula she has done field work on Pite Saami (with J.\,Wilbur) and earlier also participated at several other field expeditions in the Caucasus (with Yakov Testelets) and Siberia (both with Olga Kazakevich). As the result of her internships and student assistantship for the Kola Saami Documentation Project and the Languages of West Ambrym, her participation at DoBeS training courses and a DoBeS Winter School in Saami Language Documentation she is familiar with the Documentary linguistics framework in general and with the DoBeS workflows in particular.
+Besides her extensive field work on Kildin and Ter Saami (with M.\,Rießler) and Iźva-Komi (with R.\,Blokland and M.\,Rießler) on the Kola Peninsula, she has done field work on Pite Saami (with J.\,Wilbur) and has also participated at several other field expeditions in the Caucasus (with Yakov Testelets) and Siberia (both with Olga Kazakevich) in the past. As the result of her internships and student assistantship for the Kola Saami Documentation Project and the Languages of West Ambrym, her participation at DoBeS training courses and a DoBeS Winter School in Saami Language Documentation, she has become very familiar with the Documentary linguistics framework in general and with the DoBeS workflows in particular.
 
-Due to her studies and her research E.\,Karvovskaya has acquainted herself with general corpus linguistic methods and tools and programming skills. She has also participated at a computer lexicography workshop organized by Giellatekno in Tromsø and has been working with the creation of Web-based teaching tools for Kildin and Skolt Saami. He is thus also well familiar with practical computational linguistics applications and the methods and workflows applied at Giellatekno.
+Due to her studies and her research, E.\,Karvovskaya has acquainted herself with general corpus linguistic methods and tools and programming skills. She has also participated in a computer lexicography workshop organized by Giellatekno in Tromsø and has been working with the creation of Web-based pedagogical tools for Kildin and Skolt Saami. She is thus also very familiar with practical applications of computational linguistics and the methods and workflows applied at Giellatekno.
 
-\paragraph{Andrey Dubovcev} is a Saami student from Lovozero. He holds a B.A. in English and plans to continuing his studies towards a Master degree in Linguistics (which he would confer through distance learning at the Modern university for Humanities, Moscow). A.\,Dubovcev has earlier been participating in the Kola Saami Documentation Project as a student assistant. Recently he has also successfully finished an internship (under the supervision of co-applicant M.\,Rießler) as part of his B.A. studies. Beside working with native speakers A.\,Dubovcev gained skills in lexicography and XML programming during this internship where he created a small Kildin Saami-English dictionary database. Because of his personal interest in applying modern technology for the revitalizing of Kildin Saami and as a preparation for his future studies A.\,Dubovcev also plans to complete a two week internship at Giellatekno in Spring 2011. This internship (financed with funds from the University of Tromsø) will even better prepare him for his collaboration at the present  project.
+\paragraph{Andrey Dubovcev} is a Saami student from Lovozero. He holds a B.A. in English and plans to continuing his studies towards a Master degree in Linguistics (which he would confer through distance learning at the Modern University for Humanities, Moscow). A.\,Dubovcev has previously participated in the Kola Saami Documentation Project as a student assistant. Recently he has also successfully finished an internship (under the supervision of co-applicant M.\,Rießler) as part of his B.A. studies. Besides working with native speakers, A.\,Dubovcev has gained skills in lexicography and XML programming during this internship, for which he created a small Kildin Saami-English dictionary database. Because of his personal interest in applying modern technology in revitalizing Kildin Saami and in preparation for his future studies, A.\,Dubovcev also plans to complete a two week internship at Giellatekno in Spring 2011. This internship (financed with funds from the University of Tromsø) will prepare him even more for collaboration with the present project.
 
 \subsection{Project participants' responsibilities}
 
-\paragraph{Michael Rießler} will administer the project and coordinate the project work together with T.\,Trosterud. He will be working as {\bf principal researcher} with a full-time position. His contribution will focus on the Kildin and Ter Saami data and tools, but he will also be responsible for the project's archiving infrastructure at DoBeS in Nijmegen.
+\paragraph{Michael Rießler} will administer the project and coordinate the project's work together with T.\,Trosterud. He will be working as {\bf principal researcher} with a full-time position. His contribution will focus on the Kildin and Ter Saami data and tools, but he will also be responsible for the project's archiving infrastructure at DoBeS in Nijmegen.
 
-\paragraph{Trond Trosterud} will work as {\bf computational linguist} and coordinate the project work together with M.\,Rießler. He will be responsible for the setting up and maintenance of the project's computational linguistics infrastructure at Giellatekno in Tromsø. Together with other team members he will also work on the core components of the grammatical analyzers (the morphophonological and morphological transducers).
+\paragraph{Trond Trosterud} will work as {\bf computational linguist} and coordinate the project's work together with M.\,Rießler. He will be responsible for setting up and maintaining the project's computational linguistics infrastructure at Giellatekno in Tromsø. Together with other team members, he will also work on the core components of the grammatical analyzers (the morphophonological and morphological transducers).
 
-\paragraph{Joshua Wilbur} will work as second {\bf principal researcher} with a half-time position. His contribution will focus on the Ume and Pite Saami data and tools. In addition to his collaboration on the project, he will complete the Pite Saami multimedia archive at ELAR and his doctoral dissertation (planed for 2012).
+\paragraph{Joshua Wilbur} will work as a second {\bf principal researcher} with a half-time position. His contribution will focus on the Ume and Pite Saami data and tools. In addition to his collaboration on the project, he will complete the Pite Saami multimedia archive at ELAR and his doctoral dissertation (planed for 2012).
 
 \paragraph{Ciprian Gerstenberger} will work as {\bf computational linguist and programmer} for the project. He will provide user instruction and technical support for any software tools that will be used for building and annotating language data. 
 
-\paragraph{Elena Karvovskaya} will be employed as a \textbf{student research assistant} with 10 hours of work per week for 3 years. She will be helping with data preparation and programming. In addition to her collaboration on the project, she will complete her M.A. thesis in Saami corpus linguistics.
+\paragraph{Elena Karvovskaya} will be employed as a \textbf{student research assistant} with 10 hours of work per week for 3 years. She will help with data preparation and programming. In addition to her collaboration on the project, she will complete her M.A. thesis in Saami corpus linguistics.
 
-\paragraph{Andrey Dubovcev} will be employed as a \textbf{student research assistant} with 10 hours of work per week for 3 years. He will be helping with data preparation and will coordinate the collaboration with external Saami consultants in Russia. In addition to his collaboration on the project, he will complete his M.A. thesis in linguistics.\\
+\paragraph{Andrey Dubovcev} will be employed as a \textbf{student research assistant} with 10 hours of work per week for 3 years. He will help with data preparation and will coordinate the collaboration with external Saami consultants in Russia. In addition to his collaboration on the project, he will complete his M.A. thesis in linguistics.\\
 
-For assistance with collecting and understanding the linguistic data, the project will get help from  members of the Saami communities in Sweden and Russia through the contacts we already have or through our Saami cooperation partners and external specialists. 
-Ideally, at least one regular assistant for Kildin and one for Pite will be found who are already working with the revitalization of their respective language, like in the Language center in Lovozero or in the Pite Saami dictionary project in Arjeplog. By working closely with speakers, the project hopes to stimulate interest and value in the languages in question, and thus encourage the passing on of linguistic knowledge and language within the respective Saami communities.
+For assistance with collecting and understanding the linguistic data, the project will receive assistance from numerous members of the Saami communities in Sweden and Russia through the contacts we already have or through our Saami cooperation partners and external specialists. 
+Ideally, at least one regular assistant for Kildin and one for Pite will be found who are already working with the revitalization of their respective languages, e.g.. in the Language center in Lovozero or in the Pite Saami wordlist project in Arjeplog. By working closely with speakers, the project hopes to stimulate interest and value in the languages in question, and thus encourage the passing on of linguistic knowledge and language within the respective Saami communities.
 
 \subsection{Infrastructure and project intercommunication}
-On a daily basis, members of the project will communicate with one another on site and in person, whenever possible. M.\,Rießler and J.\,Wilbur will both work from offices at the Department of Scandinavian Studies in Freiburg; T.\,Trosterud and C.\,Gerstenberger will work from the Giellatekno offices in Tromsø; E.\,Karvovskaya will be based at the Linguistics Department at the University of Potsdam. A.\,Dubovcev will work closely with the project from is home in Lovozero.
+On a daily basis, members of the project will communicate with one another on site and in person, whenever possible. M.\,Rießler and J.\,Wilbur will both work from offices at the Department of Scandinavian Studies in Freiburg; T.\,Trosterud and C.\,Gerstenberger will work from the Giellatekno offices in Tromsø; E.\,Karvovskaya will be based at the Linguistics Department at the University of Potsdam. A.\,Dubovcev will work closely with the project from his home in Lovozero.
 
 For long distance communication between project members in completing everyday project business, the communication opportunities offered by the internet will be taken full advantage of; not only email, but also video/audio chat programs (specifically \textit{iChat}), collaborative text editing software (specifically \textit{SubEthaEdit}) and a revision control system (specifically \textit{Apache Subversion (svn)}) will be used, and indeed already are the means of working communication in Giellatekno and are also frequently used today for communication between the other project applicants. Native speaker consultants will be invited and instructed on how to participate in the same ways, but it is likely that long-distance communication concerning consultants will take place via email and on the telephone.
 
@@ -724,9 +720,9 @@ Equipment & 7,800\\
 \textbf{Total A+B+C} & \textbf{298,822}\\
 \hline
 \multicolumn{2}{| l |}{\textbf{Please note:}}\\
-\multicolumn{2}{| l |}{\textbf{Administration overheads and valuable added tax for personnel}}\\
+\multicolumn{2}{| l |}{\textbf{Administration overheads and value added tax for personnel}}\\
 \multicolumn{2}{| l |}{\textbf{costs are not covered by the Volkswagen Foundation.}}\\
-\multicolumn{2}{| l |}{\textbf{Personnel funds for foreign partner should be estimated at the}}\\
+\multicolumn{2}{| l |}{\textbf{Personnel funds for foreign partners should be estimated at the}}\\
 \multicolumn{2}{| l |}{\textbf{standard rates of the relevant country}}\\
 \hline
 \end{longtable}
@@ -735,33 +731,33 @@ Equipment & 7,800\\
 \section{Budget details and justification}
 \subsection*{A Personnel expenditure}
 \noindent \textbf{Salaries}\\
-T.\,Trosterud and C.\,Gersten\-berger will be continuing in their current permanent positions at the University of Tromsø, but are allowed to work on the project as part of their job responsibilities. M.\,Rießler will work full-time on the project. Until September 2011 he will be continuing his current position at the University of Freiburg, but he will be allowed to work full-time on the project after his teaching duties are finished in July 2011. Therefor he will be payed only 10 month during the first project year. J.\,Wilbur will spend his payed 50\% working time for the project and the other 50\% working on his dissertation. Both student research assistants will be appointed at the University of Freiburg: E.\,Karvovskaya on bases of a regular contract as {\it Studentische Hilfskraft}, A.\,Dubovcev on bases of a {\it Werkvertrag}.
+T.\,Trosterud and C.\,Gersten\-berger will be continuing in their current permanent positions at the University of Tromsø, but will be allowed to work on the project as part of their job responsibilities. M.\,Rießler will work full-time on the project. Until September 2011 he will be continuing his current position at the University of Freiburg, but he will be allowed to work full-time on the project after his teaching duties are finished in July 2011. As a result, he will only receive 10 months' salary during the first project year. J.\,Wilbur will be paid for a half-time position, and will thus spend 50\% of his work for the project and the other 50\% working on his dissertation. Both student research assistants will be employed by the University of Freiburg: E.\,Karvovskaya on the basis of a regular contract as {\it Studentische Hilfskraft} and A.\,Dubovcev on the basis of a {\it Werkvertrag}.
 \begin{longtable}{| l | l | r |}
 \hline
 M.\,Rießler&total costs as&\\
 13 TV-L&projected by the&\\
-34 month&university's administration&166,600\\
+34 months&university's administration&166,600\\
 \hline
 J.\,Wilbur&total costs as&\\
 13 TV-L&projected by the&\\
-36 month (50\%)&university's administration&88,200\\
+36 months (50\%)&university's administration&88,200\\
 \hline
 E.\,Karvovskaya&total costs as&\\
 40 working hours/month& projected by the&\\
-36 month&university's administration&16,497\\
+36 months&university's administration&16,497\\
 \hline
 A.\,Dobovcev	&Werkvertrag with	&\\
 (Lovozero)	&Freiburg university	&\\
-			&200 €/month		&7,200\\
+36 months		&(200 €/month)		&7,200\\
 \hline
 \end{longtable}
 
 \subsection*{B Running non-personnel costs}
 \noindent \textbf{Travel and accommodation}
 
-\noindent The regular per diem remunerations based on \textit{Auslandstagegeld} and \textit{Auslandsübernachtungsgeld}\footnote{Based on “Auslandsreisekostenverordnung des Landes Baden-Würtemberg”.} come to € 62 for The Netherlands. \textit{Inlandstagegeld} for the stay in Germany comes to € 24; we need additionally € 45 for the guests' accommodation in Freiburg.
+\noindent The regular per diem remunerations based on \textit{Auslandstagegeld} and \textit{Auslandsübernachtungsgeld}\footnote{Based on “Auslandsreisekostenverordnung des Landes Baden-Würtemberg”.} come to € 62 for the Netherlands. \textit{Inlandstagegeld} for staying in Germany comes to € 24; we will also need an additional € 45 for guests' accommodations in Freiburg.
  
-We estimate the following average travel costs to the meetings in Nijmegen and Freiburg. In addition to the 6 team members the participation of two Saami community members from Sweden and one Saami community member from Russia will be funded by the project.
+We estimate the following average travel costs to the meetings in Nijmegen and Freiburg. In addition to the 6 team members, the participation of two Saami community members from Sweden and one Saami community member from Russia will be funded by the project.
  
 \begin{longtable}{| l | l | r |}
 \hline
@@ -794,14 +790,14 @@ for assistant in Russia&&&\\
 \hline
 \end{longtable}
 
-\subsection*{C Non-recurring expenses}
-The budget includes expenses for two desktop computer for principal investigators and two notebooks for the student research assistants. Since we are almost exclusively using open source applications and software included into the UNIX/Mac OSX platforms we do not need special software, except for education versions of a few editors such as SubEthaEdit and Oxygene.
+\subsection*{C Non-recurring expenses (Equipment)}
+The budget includes expenses for two desktop computer for principal investigators and two notebooks for the student research assistants. Since we almost exclusively use open source applications and software included in the UNIX/Mac OSX platforms, the only extra software we will need will be educational versions of a few editors such as SubEthaEdit and Oxygene.
 \begin{longtable}{| l | l | r | r | r |}
 \hline
 Item&Model&Price&Qty.&Total\\
 	&&per unit&&price\\
 \hline
-multimedia&iMac 27”&2,000&2&4,000\\
+multimedia&iMac 27”&2,000&2&4,000\\%JW: 27", 3,2GHz reicht dicke, kostet "nur" 1600EUR (mit bildungsrabatt), spart insgesamt EUR800
 desktop computer&&&&\\
 \hline
 all-in-one&MacBook Pro&2,000&1&2,000\\
