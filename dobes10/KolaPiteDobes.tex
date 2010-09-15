@@ -30,8 +30,8 @@
 
 \begin{document}
 
-\tableofcontents
-\newpage
+%\tableofcontents
+%\newpage
 
 \urlstyle{same}
 
@@ -223,6 +223,14 @@ Period: \>\textbf{August 2011 – July 2014}\\
 Keywords: {\it Documentary Linguistics, Saami Linguistics, Computational Linguistics, Applied Linguistics, Corpus Linguistics, Revitalization; Kildin Saami, Ter Saami, Pite Saami, Ume Saami, ISO 639-3: sjd, sjt, sje, sju}
 \end{flushleft}
 
+\begin{figure}[h]
+\begin{center}
+\caption{S\'{a}pmi and the Saami languages. The languages of the project are shaded.} 
+\label{SaamiLgs}
+\includegraphics[width=0.9\textwidth]{SaamiLgs.jpeg}
+\end{center}
+\end{figure}
+
 \section{Abstract} %JW: 2,5 Seiten
 The proposed project will use existing DoBeS and ELAR archives to create a state-of-the-art corpus infrastructure as well as language technology tools for four endangered Saami languages: Ume, Pite, Kildin and Ter Saami. This shall involve a variety of aspects relevant to the field of modern documentary linguistics: endangered language documentation and archiving practices, automatic annotation, and computer-aided tools for creating lexica and pedagogical materials. Ultimately, the project intends to develop new methods for processing already extant archived linguistic data from endangered Saami languages in order to improve subsequent and future corpus linguistic research and to support language revitalization efforts with language technology.
 
@@ -240,14 +248,6 @@ The project will be carried out within the framework of contemporary documentary
 The team shall consist of experienced documentary and computational linguists as well as programmers, all of whom are familiar with Saami languages in general and have excellent working knowledge of the Saami languages in question and the relevant \textit{lingua franca}. Team members are also well versed in corpus- and computational linguistics, in carrying out documentation fieldwork, and in practical revitalization issues. The project will also profit from the symbioses already in place between researchers familiar with the Giellatekno infrastructure (including tools for other northern languages) and researchers acquainted with the DoBeS and ELAR infrastructures (documentary linguistics of spoken language, archiving of annotated multimedia).
 
 The two leaders of the project are documentary linguist Michael Rießler (Freiburg) and computational linguist Trond Trosterud (Tromsø), both of whom are specialized in Saami linguistics. The first applicant is a junior researcher who also led a DoBeS project on the Kola Saami languages. The other two applicants are Joshua Wilbur, currently coordinator/researcher for the Pite Saami Documentation Project (ELDP), and Giellatekno's programmer Ciprian Gerstenberger. Funding for the proposed project would go towards a full principle researcher position for M.\,Rießler and a half-time principle researcher position for J.\,Wilbur, both at the University of Freiburg, a student research assistant in Germany, a Saami assistant in Russia as well as material support and travel expenditures.
-
-\begin{figure}[h]
-\begin{center}
-\caption{S\'{a}pmi and the Saami languages. The languages of the project are shaded.} 
-\label{SaamiLgs}
-%\includegraphics[width=0.9\textwidth]{SaamiLgs.jpeg} %JW: das Bild bringt TexShop jedes mal zum Stoppen, das nervt, musste ich für mich rausnehmen.
-\end{center}
-\end{figure}
 
 \section{Detailed project description}
 \subsection{Introduction}
@@ -384,7 +384,7 @@ At the same time, we will continue to work on Kildin Saami and begin testing syn
 
 As with Pite, there is no established orthography for Ter Saami, but the amount of available transcribed texts is even smaller than for Pite.  On the other hand, Ter Saami is very closely related to Kildin and the Kildin morphological and syntactic parsers can probably be easily adapted for use with Ter.
 
-Finally, Ume currently has no orthography, practically no documentation, and is linguistically relatively distant to Pite (and the other Saami languages). As a result, we are only planning 1) to create a rather small corpus of transcribed, translated and annotated text, and 2) to write a morphological parser. The transcription and annotation data we will create will supplement the Schlachter corpus of Ume Saami text, for which transcriptions and translations are already available in digital form\footnote{The Schlachter corpus consists of 109,572 words and is stored on the University of Helsinki Language Corpus Server, cf. \url{http://www.ling.helsinki.fi/uhlcs/readme-all/README-uralic-lgs.html#C32}. The texts were collected, transcribed, and published by Wolfgang Schlachter, and later digitalized and morphologically annotated by Olavi Korhonen.}. This corpus will aid in processing Ume recordings archived at DAUM (\url{http://www.sofi.se/}), and the resulting matierials will provide a significant digital collection of lexical items and grammatical information. These recordings first have to be aligned in ELAN before further annotations can be done. 
+Finally, Ume currently has no orthography, practically no documentation, and is linguistically relatively distant to Pite (and the other Saami languages). As a result, we are only planning 1) to create a rather small corpus of transcribed, translated and annotated text, and 2) to write a morphological parser. The transcription and annotation data we will create will supplement the Schlachter corpus of Ume Saami text, for which transcriptions and translations are already available in digital form\footnote{The Schlachter corpus consists of 109,572 words and is stored on the University of Helsinki Language Corpus Server, cf. \url{http://www.ling.helsinki.fi/uhlcs/readme-all/README-uralic-lgs.html#C32}. The texts were collected, transcribed, and published by Wolfgang Schlachter, and later digitalized and morphologically annotated by Olavi Korhonen.}. This corpus will aid in processing Ume recordings archived at DAUM (\url{http://www.sofi.se/}), and the resulting materials will provide a significant digital collection of lexical items and grammatical information. These recordings first have to be aligned in ELAN before further annotations can be done. 
 % the thing is that the corpus unfortunately is presented in UHLCS as follows: "The morphologically analyzed and tagged Ume Saami corpus is a preliminary version of the Ume Saami text corpus compiled and encoded by Olavi Korhonen. The texts, which are told by Lars Sjulsson, Malå, Sweden, are based on the data recorded by Olavi Korhonen". But upon closer inspection of the data, the person Lars Sjulsson told his stories to, was Schlachter, and the man who wrote them down and published them, was again Schlachter (in Waldlappos. Upon closer inspection of the UHLCS presentation (cited above), one finds that it, very strictly speaking, does not contradict the textual findings. 
 
 \subsubsection{Language technology}
@@ -492,22 +492,12 @@ We plan to construct a pipeline which will enable the community-based LEXUS proj
 linguistic data can be shared among many different applications.
 
 \paragraph{Saami Wikipedias}
-Together with the Kola Saami Youth organization \textit{\textbf{Sām' nūraš}} (one of our cooperation partners) we will attempt to start up a Kildin Saami Wikipedia, as members of \textit{\textbf{Sām' nūraš}} have expressed interest in this. In doing so will use T.\,Trosterud's experiences working with the Nynorsk and North Saami Wikipedias to our advantage. %Sollen wir hier auch schreiben, dass Trond aktiver Wikipedianer für die bedrohte Sprache Nynorsk ist?
-% nja, vielleicht das Apertium gut für nb > nn funktioniert
-% aber wie früher gesagt:
-% nordsaamisch wp ist echt schlecht, und eigentlich nur ein nfrastruktur für nächste generation saamen
-%aber vielleicht müssen wir das hier im antrag nicht so genau schreiben, die gutachter werden das nicht wissen
-% nein, natürlich, ich will nicht spoil a nice text, nur aber sagen, es kann dort probleme sein
-% wp auf Komi geht doch ganz gut
-Similar projects (such as the Komi Wikipedia) have shown that having a Wikipedia version in an endangered language can be an important factor in revitalization efforts because this can be a large part of modernizing languages, along with other computer- or internet-based applications. 
+Together with the Kola Saami Youth organization (one of our cooperation partners) we will attempt to start up a Kildin Saami Wikipedia, as members of the organisation have expressed interest in this. In doing so will use T.\,Trosterud's experiences working with the Nynorsk and North Saami Wikipedias to our advantage. Similar projects (such as the Komi-Zyrian Wikipedia) have shown that having a Wikipedia version in an endangered language can be an important factor in revitalization efforts because this can be a large part of modernizing languages, along with other computer- or internet-based applications. 
 
 As a start, we can export the Kildin-only multimedia database from the LEXUS project into Wikipedia format and in doing so create content as an inspiration for additional work, which of course would have to come from members of the language community themselves. In addition, we can attempt to use the Kildin-Wikipedia for a sort of testing-grounds for the machine-aided translation tools we will create by translating parts of the North Saami or even the Russian Wikipedia into Kildin for use on the Kildin Wiki.
 
-% Wir können die einsprachige multimedia Datenbank aus dem LEXUS-Projekt ins Wikipdiaformat exportieren und haben damit schon einen guten Start für die Wikipedia. Die muss danach natürlich von Sprechern weiter gepflegt werden. Aber wir können außerdem versuchen mit der machine-translation Seiten aus der nordsaamischen und vielleicht sogar russischen Wikipedia ins Kildin zu übersetzen%Das habt ihr doch für Nynorsk auch mal so gemacht oder?
-%Damit bietet die neue Kildin-Wikipedia auch einen hervorragenden testing ground für die machine-translation
-
 \subsubsection{Project results: User access}\label{projectResult3}
-Considering the two potential main groups of users (Saami community members and corpus linguists), access to the data and tools as well as to information about the project will be provided via different portals. 1) Access to the Kola Saami and Pite Saami multimedia archives is already provided through the portals of the ELAR and DoBeS archives, respectively. These archives also host websites with general information about the projects. 2) The multilingual (Norwegian/Swedish, Russian, English, other) Giellatekno portal is also already in existence and will be supplemented to include links or direct access to all of the project's tools. 3) The individual websites of the Pite Saami Documentation Project and the Kola Saami Documentation Project are planned to be merged into one community-friendly multilingual portal which will include, among other things, information on the project, links to the ELAR and DoBeS archives as well as direct access to all of our tools. This last portal is already under creation.\footnote{Currently at http://www2.hu-berlin.de/psdp/portal/portalHome.html, but we have applied for a more convenient url at http://www2.hu-berlin.de/saami/.}
+Considering the two potential main groups of users (Saami community members and corpus linguists), access to the data and tools as well as to information about the project will be provided via different portals. 1) Access to the Kola Saami and Pite Saami multimedia archives is already provided through the portals of the ELAR and DoBeS archives, respectively. These archives also host websites with general information about the projects. 2) The multilingual (Norwegian/Swedish, Russian, English, other) Giellatekno portal is also already in existence and will be supplemented to include links or direct access to all of the project's tools. 3) The individual websites of the Pite Saami Documentation Project and the Kola Saami Documentation Project are planned to be merged into one community-friendly and multilingual portal which will include, among other things, information on the project, links to the ELAR and DoBeS archives as well as direct access to all of our tools. This last portal is already under creation.\footnote{Currently at http://www2.hu-berlin.de/psdp/portal/portalHome.html, but we have applied for a more convenient url at http://www2.hu-berlin.de/saami/.}
 
 \subsection{Cooperation partners}\label{coop}
 The project will be an active group member of \textit{\textbf{SaamiDocNet}},\footnote{http://saamidocnet.uit.no/} just as Giellatekno and the current {\it Pite Saami Documentation Project} and {\it Kola Saami Documentation Project} already are. SaamiDocNet is a research network for Saami documentation and revitalization funded by the Nordic NordForsk\footnote{\url{http://www.nordforsk.org/}}, initially until 2012. Its aim is to enhance Saami language research, documentation, maintenance and (re)vitalization by connecting these fields directly to one another in two ways. First, it is developing a web-based, open-access, information portal to ensure that Saami language resources are easily found and accessible. Second, it funds membership travel and accommodations for workshops, conferences, training courses and other relevant activities intended to improve the knowledge-base of young researchers and to give them unique opportunities to build collaborative networks of their own. SaamiDocNet is coordinated by Bruce Morén-Duolljá at the University of Tromsø.
@@ -559,7 +549,7 @@ As part of the Pite Saami Documentation Project and his own Ph.D. project, he ha
 
 \paragraph{Elena Karvovskaya} is a student of General linguistics at Potsdam university. In 2010 she finished her B.Sc. thesis in Kola Saami semantics which was based on data gathered through fieldwork and corpus research. She has also co-authored conference presentations and a paper on Kola Saami semantics.
 
-Besides her extensive field work on Kildin and Ter Saami (with M.\,Rießler) and Iźva-Komi (with R.\,Blokland and M.\,Rießler) on the Kola Peninsula, she has done field work on Pite Saami (with J.\,Wilbur) and has also participated at several other field expeditions in the Caucasus (with Yakov Testelets) and Siberia (both with Olga Kazakevich) in the past. As the result of her internships and student assistantship for the Kola Saami Documentation Project and the Languages of West Ambrym, her participation at DoBeS training courses and a DoBeS Winter School in Saami Language Documentation, she has become very familiar with the Documentary linguistics framework in general and with the DoBeS workflows in particular.
+Besides her extensive field work on Kildin and Ter Saami (with M.\,Rieß\-ler) and Iźva-Komi (with R.\,Blokland and M.\,Rießler) on the Kola Peninsula, she has done field work on Pite Saami (with J.\,Wilbur) and has also participated at several other field expeditions in the Caucasus (with Yakov Testelets) and Siberia (both with Olga Kazakevich) in the past. As the result of her internships and student assistantship for the Kola Saami Documentation Project and the Languages of West Ambrym, her participation at DoBeS training courses and a DoBeS Winter School in Saami Language Documentation, she has become very familiar with the Documentary linguistics framework in general and with the DoBeS workflows in particular.
 
 Due to her studies and her research, E.\,Karvovskaya has acquainted herself with general corpus linguistic methods and tools and programming skills. She has also participated in a computer lexicography workshop organized by Giellatekno in Tromsø and has been working with the creation of Web-based pedagogical tools for Kildin and Skolt Saami. She is thus also very familiar with practical applications of computational linguistics and the methods and workflows applied at Giellatekno.
 
@@ -575,9 +565,9 @@ Due to her studies and her research, E.\,Karvovskaya has acquainted herself with
 
 \paragraph{Ciprian Gerstenberger} will work as {\bf computational linguist and programmer} for the project. He will provide user instruction and technical support for any software tools that will be used for building and annotating language data. 
 
-\paragraph{Elena Karvovskaya} will be employed as a \textbf{student research assistant} with 10 hours of work per week for 3 years. She will help with data preparation and programming. In addition to her collaboration on the project, she will complete her M.A. thesis in Saami corpus linguistics.
+\paragraph{Elena Karvovskaya} will be employed as a \textbf{student research assistant} with 10 hours of work per week for 3 years. She will help with data preparation, annotation and programming. In addition to her collaboration on the project, she will complete her M.A. thesis in Saami corpus linguistics.
 
-\paragraph{Andrey Dubovcev} will be employed as a \textbf{student research assistant} with 10 hours of work per week for 3 years. He will help with data preparation and will coordinate the collaboration with external Saami consultants in Russia. In addition to his collaboration on the project, he will complete his M.A. thesis in linguistics.\\
+\paragraph{Andrey Dubovcev} will be employed as a \textbf{student research assistant} with 10 hours of work per week for 3 years. He will help with data preparation and will coordinate the LEXUS project in collaboration with external Saami consultants in Russia. In addition to his collaboration on the project, he will complete his M.A. thesis in linguistics.\\
 
 For assistance with collecting and understanding the linguistic data, the project will receive assistance from numerous members of the Saami communities in Sweden and Russia through the contacts we already have or through our Saami cooperation partners and external specialists. 
 Ideally, at least one regular assistant for Kildin and one for Pite will be found who are already working with the revitalization of their respective languages, e.g.. in the Language center in Lovozero or in the Pite Saami wordlist project in Arjeplog. By working closely with speakers, the project hopes to stimulate interest and value in the languages in question, and thus encourage the passing on of linguistic knowledge and language within the respective Saami communities.
@@ -612,14 +602,14 @@ The final meeting shall take place in Freiburg at the end of the project to pres
 Together, daily communication and the project meetings will fit together in order to meet the project goals in a timely and efficient way, as outlined/described in the following section.
 
 \subsection{Time schedule}
-
+\begin{flushleft}
 \noindent \textbf{December 2010}
 
 Initial pre-project meeting in Murmansk; in connection with the “Language Technology for East Saami” workshop and funded by SaamiDocNet (all team members including assistants and external consultants from all four Saami communities).\\
 
 \noindent \textbf{Spring 2011}
 
-Pre-project meeting in Arjeplog/Arvidsjaur; in connection with the “Language Technology for Southwestern Saami” workshop and funded by SaamiDocNet (all team members including assistants and external consultants from all four Saami communities).\\
+Pre-project meeting in Arjeplog/Arvidsjaur; in connection with the “Language Technology for Southwestern Saami” workshop and funded by Saa\-miDocNet (all team members including assistants and external consultants from all four Saami communities).\\
 
 \noindent \textbf{Summer-Fall 2011}
 
@@ -627,7 +617,7 @@ i) official start of the project in August
 
 ii) checking/completing/unifying existent Kildin Saami orthographic transcriptions and Russian/English translations at DoBeS archive (M.\,Rießler, with help of E.\,Karvovskaya and A.\,Dubovcev)
 
-iii) checking/completing/unifying existent Pite Saami orthographic transcriptions and Swedish/English translations (J.\,Wilbur, with help of E.\,Karvovskaya)
+iii) checking/completing/unifying existent Pite Saami orthographic transcriptions and Swedish/English translations (J.\,Wilbur, with help of E.\,Kar\-vovs\-kaya)
 
 iv) agree on special conventions for spoken texts (all team members)
 
@@ -635,9 +625,7 @@ v) processing Kildin and Pite multi-tier annotations and transferring to Giellat
 
 \noindent \textbf{Fall-Winter 2011}
 
-i) start programming and testing morphological parsers for Kildin (M.\,Rießler) and Pite (J.\,Wilbur) with help of (T.\,Trosterud)
-
-%ii) continue programming and testing morphological parsers for Kildin (M.\,Rießler) and Pite (J.\,Wilbur), placing initial automators for Kildin and Pite online (T.\,Trosterud, C.\,Gerstenberger, M.\,Rießler, J.\,Wilbur)
+i) start programming and testing morphological parsers for Kildin and Pite (M.\,Rieß\-ler, J.\,Wilbur, with help of T.\,Trosterud)
 
 ii) begin annotating and archiving Ume Saami recordings from DAUM (E.\,Karvovskaya, A.\,Dubovcev, whith help of J.\,Wilbur)\\
 
@@ -645,11 +633,11 @@ ii) begin annotating and archiving Ume Saami recordings from DAUM (E.\,Karvovska
 
 i) check, complete and unify existent Ter Saami orthographic transcriptions and Russian/English translations form DoBeS archive (M.\,Rießler, with help of E.\,Karvovskaya and A.\,Dubovcev)
 
-ii) start programming and testing syntactic parsers for Kildin Saami (M.\,Rießler, T.\,Trosterud)
+ii) start programming and testing syntactic parsers for Kildin Saami (M. Rießler, T.\,Trosterud)
 
 iii) continue programming and testing morphological parsers for Kildin (M.\,Rießler) and Pite (J.\,Wilbur), placing initial automators for Kildin and Pite online (T.\,Trosterud, C.\,Gerstenberger, M.\,Rießler, J.\,Wilbur)
 
-iv) complete annotating and archiving Ume Saami recordings from DAUM (E.\,Karvovskaya, A.\,Dubovcev, whit help of J.\,Wilbur)\\
+iv) complete annotating and archiving DAUM recordings from Ume Saa\-mi (E.\,Karvovskaya, A.\,Dubovcev, whit help of J.\,Wilbur)\\
 
 \noindent \textbf{Spring–Summer 2012}
 
@@ -693,12 +681,12 @@ Project meeting in Nijmegen, alternatively in Freiburg (all team members includi
 
 \noindent \textbf{Spring–Summer 2013} 
 
-i) start programming correction tools for Kildin (M.\,Rießler, C.\,Gerstenberger, in cooperation with the Norwegian Saami parliament workgroup \url{http://divvun.no})\\
+i) start programming correction tools for Kildin (M.\,Rießler, C.\,Gerstenberger, in cooperation with the Norwegian Saami parliament workgroup Divvun)\\
 
 \noindent \textbf{Summer–Fall 2013}
 
-i) start programming correction tools for Pite (J.\,Wilbur, C.\,Gerstenberger, in cooperation with the Norwegian Saami parliament workgroup \url{http://divvun.no})\\ %JW: geht das?, %TT: der speller wird ebensogut als der transducer, kein problem
-%i) Complete lexical coverage of the analyzers, working on corpus interface (all team members).\\
+i) start programming correction tools for Pite (J.\,Wilbur, C.\,Gerstenberger, in cooperation with the Norwegian Saami parliament workgroup Divvun)\\
+
 ii) Initiate work on corpus interface (all team members).\\
 
 \noindent \textbf{Fall–Winter 2013}
@@ -718,7 +706,9 @@ i) Finalize the project (all team members)\\
 \noindent \textbf{Summer 2014} 
 
 Project meeting in Freiburg; in connection with the “Language documentation and language technology” conference (all team members including assistants and external consultants from all four Saami communities).
+\end{flushleft}
 
+\newpage
 \section{Budget summary}
 
 \begin{longtable}{| l | r |}
@@ -752,11 +742,11 @@ Equipment & 7,800\\
 \hline
 \end{longtable}
 
-\newpage
 \section{Budget details and justification}
 \subsection*{A Personnel expenditure}
 \noindent \textbf{Salaries}\\
 T.\,Trosterud and C.\,Gersten\-berger will be continuing in their current permanent positions at the University of Tromsø, but will be allowed to work on the project as part of their job responsibilities. M.\,Rießler will work full-time on the project. Until September 2011 he will be continuing his current position at the University of Freiburg, but he will be allowed to work full-time on the project after his teaching duties are finished in July 2011. As a result, he will only receive 10 months' salary during the first project year. J.\,Wilbur will be paid for a half-time position, and will thus spend 50\% of his work for the project and the other 50\% working on his dissertation. Both student research assistants will be employed by the University of Freiburg: E.\,Karvovskaya on the basis of a regular contract as {\it Studentische Hilfskraft} and A.\,Dubovcev on the basis of a {\it Werkvertrag}.
+\newpage
 \begin{longtable}{| l | l | r |}
 \hline
 M.\,Rießler&total costs as&\\
@@ -835,7 +825,6 @@ software&	  &	&4&800\\
 \hline
 \end{longtable}
 
-\newpage
 \section*{Appendix}
 \subsection*{Curriculum vitae and list of publications for the key participants}
 
