@@ -26,11 +26,130 @@ LEXICON Verb
 
 Neg ;
 
-! Epenthetic verbs
-шоабшэ:шоабаш 1_EPH "любить / love" ;
+! the simplest verb class (without any paradigmatic stem alternations)
+! comprises most verbs from Kurutch's classes II, III, and IV
+! in MR's analysis, this is "class II" (out of three classes) 
+! [not important here, but these are derived verbs with three-syllabic stems historically; the vocalism of the second syllable is syncopated; that's why the consonantism looks odd (-бш- -рьйх- …) and doosn' undergo stem gradation]
+
+! (phonologically) the rules are the following:
+! 1. replace the infinitive suffix /-e/ with the respective inflectional suffix, except in:
+! --> +V+Prs+Sg3
+! --> +V+Pst+Sg3
+! --> +V+Imp+Sg
+! 2. replace the infinitive suffix /-e/ with the suffix /-t/ in:
+! --> +V+Prs+Sg3
+! --> +V+Pst+Sg3
+! --> +V+Imp+Sg
+! 3. insert the infix /-a-/ before the last consonant in:
+! --> +V+Prs+Sg3
+! 4. insert the infix /-e-/ before the last consonant in:
+! --> +V+Pst+Sg3
+! --> +V+Imp+Sg
+! unfortunately, these rules become much more complicated in the cyrillic orthography…
+
+!шоабшэ:шоабаш:шоабэш 1_EPH "любить / love" ;
+
+! Indicative non-past
++V+Prs+Sg1:шоабша K ;
++V+Prs+Sg2:шоабшак K ;
++V+Prs+Sg3:шоабашт K ;
++V+Prs+Pl1:шоабшэпь K ;
++V+Prs+Pl2:шоабшэбпе K ;
++V+Prs+Pl3:шоабшэв K ;
+
++V+IMPERS+Prs:шоабшэтҍ K ; ! I don't know how to gloss "impersonal" [MR]
+
+! Indicative past
++V+Pst+Sg1:шоабшэ K ;
++V+Pst+Sg2:шоабшэк K ;
++V+Pst+Sg3:шоабэшт K ;
++V+Pst+Pl1:шоабшэмь K ;
++V+Pst+Pl2:шоабшэтҍ K ;
++V+Pst+Pl3:шоабшэнҍ K ;
+
++V+IMPERS+Pst:шоабшэнҍ K ;
+
+! Imperative singular
++V+Imp+Sg:шоабэшт K ; ! formally similar to 3sg.pst
+
+! Imperative plural
++V+Imp+Sg:шоабшэгкэ K ;
+
+! Connegative non-past ! I don't know how to gloss "connegative" [MR]
++V+ConnegPrs:шоабэшт K ; ! formally similar to 3sg.pst
+
+! Connegative past 
++V+ConnegPst:шоабшма K ; ! formally similar to perfect perticiple
+
+!кырьйхэ:кырьяһ:кырьеһ "писать / write" ; !kyr'jhe:kyr'jah:kyr'jeh
+
+! Indicative non-past
++V+Prs+Sg1:кырьйха K ;
++V+Prs+Sg2:кырьйхак K ;
++V+Prs+Sg3:кырьяһт K ;
++V+Prs+Pl1:кырьйхэпь K ;
++V+Prs+Pl2:кырьйхэбпе K ;
++V+Prs+Pl3:кырьйхэв K ;
+
++V+IMPERS+Prs:кырьйхэтҍ K ; ! I don't know how to gloss "impersonal" [MR]
+
+! Indicative past
++V+Pst+Sg1:кырьйхэ K ;
++V+Pst+Sg2:кырьйхэк K ;
++V+Pst+Sg3:кырьеһт K ;
++V+Pst+Pl1:кырьйхэмь K ;
++V+Pst+Pl2:кырьйхэтҍ K ;
++V+Pst+Pl3:кырьйхэнҍ K ;
+
++V+IMPERS+Pst:кырьйхэнҍ K ;
+
+! Imperative singular
++V+Imp+Sg:кырьеһт K ; ! formally similar to 3sg.pst
+
+! Imperative plural
++V+Imp+Sg:кырьйхэгкэ K ;
+
+! Connegative non-past ! I don't know how to gloss "connegative" [MR]
++V+ConnegPrs:кырьеһт K ; ! formally similar to 3sg.pst
+
+! Connegative past 
++V+ConnegPst:кырьйхма K ; ! formally similar to perfect perticiple
+
+!вāннҍцлэ:вāннҍцалт:вāннҍцэлт "пойти / go (a little bit) / vázzilit" ; 
+
+! Indicative non-past
++V+Prs+Sg1:вāннҍцла K ;
++V+Prs+Sg2:вāннҍцлак K ;
++V+Prs+Sg3:вāннҍцалт K ;
++V+Prs+Pl1:вāннҍцлэпь K ;
++V+Prs+Pl2:вāннҍцлэбпе K ;
++V+Prs+Pl3:вāннҍцлэв K ;
+
++V+IMPERS+Prs:вāннҍцлэтҍ K ; ! I don't know how to gloss "impersonal" [MR]
+
+! Indicative past
++V+Pst+Sg1:вāннҍцлэ K ;
++V+Pst+Sg2:вāннҍцлэк K ;
++V+Pst+Sg3:вāннҍцэлт K ;
++V+Pst+Pl1:вāннҍцлэмь K ;
++V+Pst+Pl2:вāннҍцлэтҍ K ;
++V+Pst+Pl3:вāннҍцлэнҍ K ;
+
++V+IMPERS+Pst:вāннҍцлэнҍ K ;
+
+! Imperative singular
++V+Imp+Sg:вāннҍцэлт K ; ! formally similar to 3sg.pst
+
+! Imperative plural
++V+Imp+Sg:вāннҍцлэгкэ K ;
+
+! Connegative non-past ! I don't know how to gloss "connegative" [MR]
++V+ConnegPrs:вāннҍцэлт K ; ! formally similar to 3sg.pst
+
+! Connegative past 
++V+ConnegPst:вāннҍцла K ; ! formally similar to perfect perticiple, but note the alternative suffix ~/-a/ (not /-ma/)
 
 ! Verb classes according to Kuruch p. 551
-
 ! 1. class (ending in long consonant)
 по̄ррэ:по̄рр 1 "ест, кушать";
 е̄лле:е̄лл 1 "жить" ;
