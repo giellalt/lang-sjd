@@ -16,32 +16,31 @@ LEXICON Noun
 
 ! Classes according to Kuruč 1985
 
-! 1. declension (classes 1, 8)
+! 1. declension (classes 1, 8) !like 2. decl., but with geminates
 кӣдт         1D "рука" ;
 мӯрр         1D "дерево" ;
 кӯлль        1D "рыба / fish" ; ! lang u
 кӯсс         1D "ель / fir | spruce"       ; ! сс > з
 ме̄рр         1D "море / sea | ocean"			   ;
 аджь         1D "отец / father"			   ;
-на̄һпь        1D "чашка / cup"			   ; ! spelling variant на̄ххьпь (in the антонова system)
+на̄һпь        1D "чашка / cup"			   ; ! spelling variant на̄ххьп (in Kert 1986 [and the Aнтонова system])
 пуадтмушш    1D "приход / arrival"		   ;
 пя̄йвнэгк     1D "солнечная погода / sunny weather" ;
 ка̄ннѣцвудт   1D "дружба / friendship"           ;
 
-! 2. declension (class 2)
+! 2. declension (class 2) ! like 1. decl., but with C-clusters
 на̄ввьт       2D "зверь / wild animal | (wild) beast" ;
 ля̄ммт        2D "лес / forrest | wood(s)" ;
 куэсськ      2D "тётя / aunt" ;
 кӯшшк        2D "порог на реке / rapids" ;
 
-! 3. declension (class 7)
+! 3. declension (class 7) ! no stem gradation
 кӯссь         3D "гость / guest"   ;
 пысс          3D "ружьё / gun"   ;
 па̄лл          3D "мяч / ball"	   ;
 а̄шшь          3D "просьба / request | application" ;
 
-
-! 4. declension (classes 3, 5)
+! 4. declension (classes 3, 5) !these are two different declesions: the "puaz-class" and the "cyza-class"
 пуаз:пуадз    4D "олень / reindeer"  ;
 цыза          4DА "птичка / little bird" ; 
 оаб           4D "усы / moustache"	  ;
