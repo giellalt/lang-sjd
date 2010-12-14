@@ -18,7 +18,6 @@ Parliament
 ! ========================== !
 
 ! standardized hyphenation for Kildin is desribed in
-
 ! @book{kuruc-etal1995,
 !	Address = {Murmansk-Moskva},
 !	Author = {Kuru\v{c}, Rimma Dmitrievna AND Nina Eliseevna Afanas'eva AND Iraida V. Vinogradova},
@@ -29,6 +28,15 @@ Parliament
 !	Publisher = {{Murmanskij sektor lingvisti\v{c}eskich problem finno-ugorskich narodnostej Krajnego Severa Instituta Jazykoznanija Rossijsskoj Akademii nauk}},
 !	Title = {Pravila orfografii i punktuacii saamskogo jazyka},
 !	Year = 1995}
+! as this book is roughly translated as "Kildin Saami orthographic rules" it  seems highly relevant to our work
+! it describes Kurutch's reformed orthography (with һ --> ' (apostrophе) and ј --> ҋ)
+! this reformed orthography has never been used in print, except in Kurutch's own teaching materials and Sammallahti's/Chvorostuchina's dictionary
+! the two orthographic variants used in print are that of Kuruch's dictionary (1985, using һ and ј) and that of Kert's dictionary (1986, using хх and йх)
+! since the differences between the three orthographic variants do not touch general orthographic principles, but concern almost exclusively the exchange of letters for two special sounds:
+! Kert --> KurutchI --> KurutchII
+! xx --> һ --> '
+! йх --> ј --> ҋ
+! we should use the forementioned "Kildin Saami orthographic rules" as a reference for our work on hyphenation (and even spell checkers)
 
 
 echo <<defining Cns and Vow...>>
