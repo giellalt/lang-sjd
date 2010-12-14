@@ -21,6 +21,10 @@ LEXICON Adverb
 чофта adv "много / очень / much" ;
 четк adv "насмерть / deadly" ;
 
+! ?derived adverbs from adjectives; suffix /-as/; weak grade, depalatalization
+маӈас adv "назад / back (direction)" ; !derived from маӈӈь 'задний'
+ва̄нас adv "мало / some" ; !derived from ва̄ннҍ 'мало / some (adj)'
+
 ! ?derived adverbs from nouns; suffix /-el't/; weak grade
 нюэзельт adv "плохо / badly" ; !derived from нюэссь '(что-то) плохое'
 ла̄шькэльт adv "лениво / laizy" ; !derived from ла̄шьк 'лень'
