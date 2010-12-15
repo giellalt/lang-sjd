@@ -21,13 +21,17 @@ LEXICON Adverb
 чофта adv "много / очень / much" ;
 четк adv "насмерть / deadly" ;
 
-! ?derived adverbs from adjectives; suffix /-as/; weak grade, depalatalization
+! ?derived adverbs from adjectives; suffix /-as/ <-ас>; weak grade, depalatalization (incl. velar umlaut)
 маӈас adv "назад / back (direction)" ; !derived from маӈӈь 'задний'
-ва̄нас adv "мало / some" ; !derived from ва̄ннҍ 'мало / some (adj)'
+ва̄нас adv "мало / slightly" ; !derived from ва̄ннҍ 'мало / some (adj)'
+ме̄дас adv "по направлению ветра" ; !derived from мӣдтҍ 'попутный'
 
-! ?derived adverbs from nouns; suffix /-el't/; weak grade
+! ?derived adverbs from nouns; suffix /-el't/ <-ельт> <-эльт> <-ӭльт>; weak grade
 нюэзельт adv "плохо / badly" ; !derived from нюэссь '(что-то) плохое'
 ла̄шькэльт adv "лениво / laizy" ; !derived from ла̄шьк 'лень'
+
+! ?derived adverbs from adjectives; suffix ?/-nes't/ (looks like a poss3sg.loc)
+мӣлкнесьт adv "тихонечко / медленно / slowly" ; !derived from мя̄лк
 
 ! ?derived adverbs from adjectives; suffix /-tenn'e/; strong grade
 ! historically, the /-t-/ must have been a coaffix (probably deriving a verb), that's why the strong grade appears 
