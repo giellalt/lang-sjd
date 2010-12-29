@@ -1,3 +1,105 @@
 !!!Kildin Saami tags
 
-This is a list over grammatical tags used in the description.
+This is a list over grammatical tags used in the morphological description.
+
+Each word form is analysed with the dictionary form + grammatical tag(s).         Each tag is introduced with a "+" sign, e.g.:
+
+та̄лесьт та̄лл+N+Sg+Loc
+
+ӯйна ӯййнэ+V+Ind+Prs+Sg1
+
+!!Tags for parts-of-speech (POS) and sub-POS
+* +N noun
+** +Prop proper noun
+* +Pron pronoun
+** +Pers personal pronoun
+** +Dem demonstrative pronoun
+** +Interr interrogative pronoun
+** +Refl reflexive pronoun
+** +Recipr reciprocal pronoun
+** +Rel relative pronoun
+** +Indef indefinite pronoun
+* +A adjective
+* +V verb
+** +Neg negation verb
+* +Adv adverb
+* +Num numeral
+* +Po postposition
+* +Pr preposition
+* +Interj interjection
+* +Pcle particle
+* +CS 
+* +CC
+
+!!Tags for values of inflectional categories
+!!!Case
+* +Nom nominative
+* +Gen genitive
+* +Acc accusative
+* +Ill illative
+* +Loc locative
+* +Com comitative
+* +Abe abessive <!-- or does GT use another tag already? -->
+* +Ess essive
+* +Par partitive <!-- or does GT use another tag already? -->
+
+!!!Number
+* +Sg singular
+* +Pl plural
+<!-- there is no +Du in Kildin --> 
+
+!!!Possession
+<!-- possessive suffixes occur only rarely, in archic texts and with very few nouns -->
+* +PxSg1
+* +PxSg2
+* +PxSg3
+* +PxPl1
+* +PxPl2
+* +PxPl3
+
+!!!Person/Number
+* +Sg1
+* +Sg2
+* +Sg3
+* +Pl1
+* +Pl2
+* +Pl3
+
+!!!Mood
+* +Ind
+* +Pot
+* +Cond
+* +Imprt
+
+!!!Tense
+* +Prs
+* +Prt
+
+!!!Infinitives (verbs)
+* +Inf
+* +ConNeg
+* +PrsPrc 
+* +PrfPrc
+* +VGen
+* +VAbess
+
+!!Tags for values of derivational processes
+!!!Compounds
+* +SgCmp
+* +SgNomCmp
+* +SgGenCmp
+* +PlGenCmp
+* +Cmpnd
+* +Cmpnd+ 
+
+!!!Comparation (adjectives and adverbs)
+* +Comp
+* +Superl
+
+!!!Adjectival state
+* +Attr
+* +Pred <!-- or does GT use another tag already? -->
+
+!!!Numeral derivation
+* +Card
+* +Ord 
