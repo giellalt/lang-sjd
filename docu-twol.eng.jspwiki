@@ -1,5 +1,29 @@
 !!!Morphophonology for the Kildin analyser
 
-We use the twol technology.
+For the morphophonological processes (consonant gradation, vowel alternations), we use [the twol technology|http://www.cis.upenn.edu/~cis639/docs/twolc.html]. Here is [the Kildin twol file|https://victorio.uit.no/langtech/trunk/gt/sjd/src/twol-sjd.txt]. 
 
-Text to come.
+The file contains the following rules
+
+* Consonant gradation rules:
+** "Quantitative CG"
+** "Quantitative CG 2-Cns Cluster"
+** "Quantitative CG 3-Cns Cluster"
+* Vowel rules:
+** "Epenthetic vowel deletion"
+** "ue Diphtongisation"
+* Palatalisation rules:
+** "Palatalised Suffix Vowel"
+** "Palatal Mark Deletion"
+
+The rules are not finished. 
+
+The consonant gradation rules cover only some cases: 
+
+* вв:в, лл:л, сс:с, зз:з
+* дт:т, рр:р
+* ррн:рн
+
+The palatalisation rules governs the alternation between word-final ''consonant + ь'' and ''consonant + palatal vowel''.
+
+
+
