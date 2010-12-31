@@ -1,8 +1,19 @@
 !!!Morphophonology for the Kildin analyser
 
-For the morphophonological processes (consonant gradation, vowel alternations), we use [the twol technology|http://www.cis.upenn.edu/~cis639/docs/twolc.html]. Here is [the Kildin twol file|https://victorio.uit.no/langtech/trunk/gt/sjd/src/twol-sjd.txt]. 
+For the (paradigmatic and regular) morphophonological processes we use [the twol technology|http://www.cis.upenn.edu/~cis639/docs/twolc.html]. Here is [the Kildin twol file|https://victorio.uit.no/langtech/trunk/gt/sjd/src/twol-sjd.txt].
 
-The file contains the following rules
+Paradigmatic morphophonological processes concern:
+* stem consonants
+** consonant gradation
+** (de-)palatalization
+* stem vowels (i.e. ablaut).
+
+Regular (phonological) processes concern:
+* stem vowels (i.e. umlaut)
+* second syllable vowels (deletion)
+* suffixes (vowel deletion or consonant insertion) 
+
+The TWOLC file contains the following rules
 
 * Consonant gradation rules:
 ** "Quantitative CG"
@@ -15,7 +26,7 @@ The file contains the following rules
 ** "Palatalised Suffix Vowel"
 ** "Palatal Mark Deletion"
 
-The rules are not finished. 
+Note that these rules are not at all finished. 
 
 The consonant gradation rules cover only some cases: 
 
