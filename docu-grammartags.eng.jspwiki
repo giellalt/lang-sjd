@@ -1,4 +1,4 @@
-!!!Kildin Saami tags
+!!!Kildin Saami grammar tags
 
 This is a list over grammatical tags used in the morphological description.
 
@@ -27,8 +27,9 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 * +Adv (=adverb)
 * +Num (=numeral)
 ** +Card (=cardinal numeral)
-* +Po (=postposition)
-* +Pr (=preposition)
+* +PP (=Adposition)
+** +Po (=postposition)
+** +Pr (=preposition)
 * +Interj (=interjection)
 * +Pcle (=particle)
 * +CS (=subordinator) 
@@ -44,21 +45,21 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 * +Com (=comitative)
 * +Abess (=abessive)
 * +Ess (=essive)
-* +Par (=partitive) <!-- or does GT use another tag already? -->
+* +Par (=partitive)
 
 !!!Number
 * +Sg (=singular)
 * +Pl (=plural)
-<!-- there is no +Du in Kildin --> 
+(Obs! there is no dual in Kildin, unlike in most other Sámi languages.) 
 
 !!!Possession
-<!-- possessive suffixes occur only rarely, in archic texts and with very few nouns -->
 * +PxSg1 (=possessive 1st singular)
 * +PxSg2 (=possessive 2nd singular)
 * +PxSg3 (=possessive 3rd singular)
 * +PxPl1 (=possessive 1st plural)
 * +PxPl2 (=possessive 2nd plural)
 * +PxPl3 (=possessive 3rd plural)
+(Obs! possessive suffixes occur only rarely, in archic texts and with very few nouns.)
 
 !!!Person/Number
 * +Sg1 (=1st singular)
@@ -67,13 +68,14 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 * +Pl1 (=1st plural)
 * +Pl2 (=2nd plural)
 * +Pl3 (=3rd plural)
-* +Imprs (=impersonal) <!-- or does GT use another tag already? -->
+* +Imprs (=impersonal)
 
 !!!Mood
 * +Ind (=Indicative)
-* +Pot (=Potential)
-* +Cond (=Coditional)
 * +Imprt (=Imperative)
+* +Cond (=Coditional)
+* +Pot (=Potential)
+(Obs! potential mood occurs very rarely in Kildin.)
 
 !!!Tense
 * +Prs (=non-past)
@@ -87,6 +89,10 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 * +VGen (=verb genitive)
 * +VAbess (=verb abessive)
 
+!!!Adjectival state
+* +Attr
+* +Pred
+
 !!Tags for values of derivational processes
 !!!Compounds
 * +SgCmp
@@ -96,16 +102,13 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 * +Cmpnd
 * +Cmpnd+ 
 
-!!!Comparation (adjectives and adverbs)
+!!!Comparation (of adjectives and adverbs)
 * +Comp
 * +Superl
-
-!!!Adjectival state
-* +Attr
-* +Pred <!-- or does GT use another tag already? -->
 
 !!!Numeral derivation
 * +Ord
 
 !!!Adverb derivation
 * +Adv
+
