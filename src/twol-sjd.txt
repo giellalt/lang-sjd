@@ -34,10 +34,13 @@ Alphabet
 Sets
  C  = б Б в В г Г д Д ж Ж з З һ Һ й Й ј Ј к К л Л ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ п П р Р ҏ Ҏ с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ ;
  V  = а А ӓ Ӓ а̄ А̄ е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э ӭ Ӭ э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;
+ 
+Subsets
  Marks = ъ Ъ ь Ь ҍ Ҍ ;
  PALCON = й Й ј Ј ч Ч ; ! can only by followed by NPLVOW
  PALVOW = ӓ Ӓ е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ ӭ Ӭ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;
  NPLVOW = а А а̄ А̄ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э э̄ Э̄ ;
+ 
  Dummy  = %^WG %^DI %> ;
 
 
@@ -48,14 +51,13 @@ Rules
 
 "Quantitative CG"
  Cx:0 <=> Cx _ (ь:) (C) %^WG:0 ;
-      where Cx in ( в л с з ) ; 
+      where Cx in ( в ж з й л м н ӈ р с ф х ш ) ; 
 
 "Quantitative CG 2-Cns Cluster"
  Cy:0 <=> Cx _  (ь:) %^WG:0 ;
-      where Cx in ( д р )  
-            Cy in ( т р )
+      where Cx in ( б г д )  
+            Cy in ( п к т )
       matched ;
-
 
 "Quantitative CG 3-Cns Cluster"
  Cx:0 <=> Cx _ Cy (ь:) %^WG:0 ;
