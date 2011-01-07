@@ -79,23 +79,24 @@ LEXICON pers_f
 +Pron+Pers+Pl+Ess:ннэнѣ K ;
 
 LEXICON Demonstrative
-тэнн+Pron+Dem:тэ dem ; 
+!тэдта:тэ dem ;
+тэнн+Pron+Dem:тэ dem ;
 
 LEXICON dem
-+Pron+Dem+Sg+Nom:дта # ;
-+Pron+Dem+Sg+Gen:нн # ;
++Pron+Dem+Sg+Nom:дта К ;
++Pron+Dem+Sg+Gen:нн К ;
 +Pron+Dem+Sg+Acc:нн # ;
 +Pron+Dem+Sg+Ill:з # ;
-+Pron+Dem+Sg+Com:йн # ;
 +Pron+Dem+Sg+Loc:сьт # ;
++Pron+Dem+Sg+Com:йн # ;
 +Pron+Dem+Sg+Abe:ннха # ;
 +Pron+Dem+Pl+Nom:гка # ;
 +Pron+Dem+Pl+Gen:йт # ;
 +Pron+Dem+Pl+Acc:йт # ;
 +Pron+Dem+Pl+Ill:йт # ;
 +Pron+Dem+Pl+Loc:йнэнҍ # ;
-+Pron+Dem+Pl+Acc:йт # ;
-+Pron+Dem+Pl+Acc:йт # ;
++Pron+Dem+Pl+Com:йтгуэйм # ;
++Pron+Dem+Pl+Abe:йтха # ;
 
 LEXICON Reflexive
 ӣджь+Pron+Refl:ӣджь STRONGREFL ;
