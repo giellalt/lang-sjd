@@ -22,7 +22,6 @@ Reflexive ;
 
 ! Personal pronouns
 ! =================
-
 ! a = stem му-
 ! b = stem      то̄-, со̄-
 ! c = stem      тo-, сo-
@@ -33,20 +32,20 @@ LEXICON Personal
 мунн:му  pers_a ;
 то̄нн:то̄  pers_b ;
 со̄нн:со̄  pers_b ;
-то̄нн:то  pers_c ;
-со̄нн:со  pers_c ;
-мунн:мы  pers_d ;
-то̄нн:ты  pers_d ;
-со̄нн:сы  pers_d ;
-мунн:мӣ  pers_e ;
-то̄нн:тӣ  pers_e ;
-со̄нн:сӣ  pers_e ;
+мунн:мы  pers_c ;
+то̄нн:то  pers_d ;
+со̄нн:со  pers_d ;
+мунн:мы  pers_e ;
+то̄нн:ты  pers_e ;
+со̄нн:сы  pers_e ;
+мунн:мӣ  pers_f ;
+то̄нн:тӣ  pers_f ;
+со̄нн:сӣ  pers_f ;
 
 LEXICON pers_a
 +Pron+Pers+Sg+Nom:нн K ;
 +Pron+Pers+Sg+Gen:н K ;
 +Pron+Pers+Sg+Acc:н K ;
-+Pron+Pers+Sg+Ill:ннӭ K ;
 +Pron+Pers+Sg+Loc:нэсьт K ;
 +Pron+Pers+Sg+Com:нэнѣ K ;
 +Pron+Pers+Sg+Abe:нха K ;
@@ -65,10 +64,13 @@ LEXICON pers_c
 +Pron+Pers+Sg+Ill:ннӭ K ;
 
 LEXICON pers_d
++Pron+Pers+Sg+Ill:ннӭ K ;
+
+LEXICON pers_e
 +Pron+Pers+Pl+Nom:йй K ;
 +Pron+Pers+Pl+Ill:йе K ;
 
-LEXICON pers_e
+LEXICON pers_f
 +Pron+Pers+Pl+Gen:н K ;
 +Pron+Pers+Pl+Acc:нэтѣ K ;
 +Pron+Pers+Pl+Loc:нэнѣ K ;
