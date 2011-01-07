@@ -23,121 +23,126 @@ Reflexive ;
 ! Personal pronouns
 ! =================
 
-! a = stem му-, то̄-, со̄-
-! b = stem мы-, то̄-, со̄-
-! c = stem мы-, ты-, сы-
-! d = stem мӣ-, тӣ -, сӣ -
+! a = stem му-
+! b = stem      то̄-, со̄-
+! c = stem      тo-, сo-
+! d = stem мы-, ты-, сы-
+! e = stem мӣ-, тӣ-, сӣ-
 
 LEXICON Personal
 мунн:му  pers_a ;
-мунн:мы  pers_b ;
-мунн:мы  pers_c ;
-мунн:мӣ  pers_d ;
-то̄нн:то̄  pers_a ;
 то̄нн:то̄  pers_b ;
-то̄нн:ты  pers_c ;
-то̄нн:тӣ  pers_d ;
-со̄нн:со̄  pers_a ;
 со̄нн:со̄  pers_b ;
-со̄нн:сы  pers_c ;
-со̄нн:сӣ  pers_d ;
-
+то̄нн:то  pers_c ;
+со̄нн:со  pers_c ;
+мунн:мы  pers_d ;
+то̄нн:ты  pers_d ;
+со̄нн:сы  pers_d ;
+мунн:мӣ  pers_e ;
+то̄нн:тӣ  pers_e ;
+со̄нн:сӣ  pers_e ;
 
 LEXICON pers_a
 +Pron+Pers+Sg+Nom:нн K ;
 +Pron+Pers+Sg+Gen:н K ;
 +Pron+Pers+Sg+Acc:н K ;
-+Pron+Pers+Sg+Ess:энѣ K ;
-+Pron+Pers+Sg+Ine:есьт K ;
-+Pron+Pers+Sg+Abe:нха K ; !MR changed Ela->Abe
++Pron+Pers+Sg+Ill:ннӭ K ;
++Pron+Pers+Sg+Loc:нэсьт K ;
 +Pron+Pers+Sg+Com:нэнѣ K ;
++Pron+Pers+Sg+Abe:нха K ;
++Pron+Pers+Sg+Ess:ннэнѣ K ;
 
 LEXICON pers_b
-+Pron+Pers+Sg+Ill:ннӭ K ;
++Pron+Pers+Sg+Nom:нн K ;
++Pron+Pers+Sg+Gen:н K ;
++Pron+Pers+Sg+Acc:н K ;
++Pron+Pers+Sg+Loc:нэсьт K ;
++Pron+Pers+Sg+Com:нэнѣ K ;
++Pron+Pers+Sg+Abe:нха K ;
++Pron+Pers+Sg+Ess:ннэнѣ K ;
 
 LEXICON pers_c
++Pron+Pers+Sg+Ill:ннӭ K ;
+
+LEXICON pers_d
 +Pron+Pers+Pl+Nom:йй K ;
 +Pron+Pers+Pl+Ill:йе K ;
 
-LEXICON pers_d
+LEXICON pers_e
 +Pron+Pers+Pl+Gen:н K ;
 +Pron+Pers+Pl+Acc:нэтѣ K ;
-+Pron+Pers+Pl+Ess:ннэнѣ K ;
 +Pron+Pers+Pl+Loc:нэнѣ K ;
-+Pron+Pers+Pl+Abe:нэха K ; 
 +Pron+Pers+Pl+Com:нэгуэйм K ;
-
-!? should we use "Inessive" or rather "Locative" (inessive+elative)
++Pron+Pers+Pl+Abe:нэха K ; 
++Pron+Pers+Pl+Ess:ннэнѣ K ;
 
 LEXICON Demonstrative
-тэнн+Pron:тэ dem ; 
+тэнн+Pron+Dem:тэ dem ; 
 
 LEXICON dem
-+Dem+Sg+Nom:дта # ;
-+Dem+Sg+Gen:нн # ;
-+Dem+Sg+Acc:нн # ;
-+Dem+Sg+Ill:з # ;
-+Dem+Sg+Com:йн # ;
-+Dem+Sg+Loc:сьт # ;
-+Dem+Sg+Abe:ннха # ;
-+Dem+Pl+Nom:гка # ;
-+Dem+Pl+Gen:йт # ;
-+Dem+Pl+Acc:йт # ;
-+Dem+Pl+Ill:йт # ;
-+Dem+Pl+Loc:йнэнҍ # ;
-+Dem+Pl+Acc:йт # ;
-+Dem+Pl+Acc:йт # ;
-
++Pron+Dem+Sg+Nom:дта # ;
++Pron+Dem+Sg+Gen:нн # ;
++Pron+Dem+Sg+Acc:нн # ;
++Pron+Dem+Sg+Ill:з # ;
++Pron+Dem+Sg+Com:йн # ;
++Pron+Dem+Sg+Loc:сьт # ;
++Pron+Dem+Sg+Abe:ннха # ;
++Pron+Dem+Pl+Nom:гка # ;
++Pron+Dem+Pl+Gen:йт # ;
++Pron+Dem+Pl+Acc:йт # ;
++Pron+Dem+Pl+Ill:йт # ;
++Pron+Dem+Pl+Loc:йнэнҍ # ;
++Pron+Dem+Pl+Acc:йт # ;
++Pron+Dem+Pl+Acc:йт # ;
 
 LEXICON Reflexive
-
 ӣджь+Pron+Refl:ӣджь STRONGREFL ;
 ӣджь+Pron+Refl:ӣжь WEAKREFL ;
 
 LEXICON STRONGREFL
-+Sg+Nom: # ;
-+Ess:%>на PERSREFLSG ;
-+Ess:%>ена PERSREFLPL ;  
-+Ill:%>с PERSREFLSG ;
++Pron+Refl+Sg+Nom: # ;
++Pron+Refl+Ess:%>на PERSREFLSG ;
++Pron+Refl+Ess:%>ена PERSREFLPL ;  
++Pron+Refl+Ill:%>с PERSREFLSG ;
  
 LEXICON WEAKREFL 
-+Pl+Nom:%>а # ;
-+Gen: PERSREFLSG ;
-+Acc: PERSREFLSG ;
-+Loc:%>с PERSREFLSG ;
-+Com:%>ен PERSREFLSG ;
-+Abe: PERSREFLSGABE ;
++Pron+Refl+Pl+Nom:%>а # ;
++Pron+Refl+Gen: PERSREFLSG ;
++Pron+Refl+Acc: PERSREFLSG ;
++Pron+Refl+Loc:%>с PERSREFLSG ;
++Pron+Refl+Com:%>ен PERSREFLSG ;
++Pron+Refl+Abe: PERSREFLSGABE ;
 
-+Gen:%>ед PERSREFLPL ;
-+Acc:%>ед PERSREFLPL ;
-+Loc:%>ес PERSREFLPL ;
-+Com:%>ед PERSREFLPLCOM ;
-+Abe:%>ед PERSREFLPLABE ;
++Pron+Refl+Gen:%>ед PERSREFLPL ;
++Pron+Refl+Acc:%>ед PERSREFLPL ;
++Pron+Refl+Loc:%>ес PERSREFLPL ;
++Pron+Refl+Com:%>ед PERSREFLPLCOM ;
++Pron+Refl+Abe:%>ед PERSREFLPLABE ;
 
 LEXICON PERSREFLSG
-+Sg1:%>aн # ;
-+Sg2:%>aнт # ;
-+Sg3:%>есь # ;
++Pron+Refl+Sg1:%>aн # ;
++Pron+Refl+Sg2:%>aнт # ;
++Pron+Refl+Sg3:%>есь # ;
 
 LEXICON PERSREFLPL
-+Pl1:%>ан # ;
-+Pl2:%>ант # ;
-+Pl3:%>есь # ;
++Pron+Refl+Pl1:%>ан # ;
++Pron+Refl+Pl2:%>ант # ;
++Pron+Refl+Pl3:%>есь # ;
 
 LEXICON PERSREFLSGABE
-+Sg1:%>aнха # ;
-+Sg2:%>aнтха # ;
-+Sg3:%>есьха # ;
++Pron+Refl+Sg1:%>aнха # ;
++Pron+Refl+Sg2:%>aнтха # ;
++Pron+Refl+Sg3:%>есьха # ;
 
 LEXICON PERSREFLPLABE
-+Pl1:%>анха # ;
-+Pl2:%>антха # ;
-+Pl3:%>есьха # ;
++Pron+Refl+Pl1:%>анха # ;
++Pron+Refl+Pl2:%>антха # ;
++Pron+Refl+Pl3:%>есьха # ;
 
 LEXICON PERSREFLPLCOM
-+Pl1:%>ангуэйм # ;
-+Pl2:%>антгуэйм # ;
-+Pl3:%>есьгуэйм # ;
++Pron+Refl+Pl1:%>ангуэйм # ;
++Pron+Refl+Pl2:%>антгуэйм # ;
++Pron+Refl+Pl3:%>есьгуэйм # ;
 
 
 
