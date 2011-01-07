@@ -64,7 +64,9 @@ all: n-g.summary \
 	 v-g.summary \
 	 v-a.summary \
 	 num-a.summary \
-	 num-g.summary
+	 num-g.summary \
+	 pron-a.summary \
+	 pron-g.summary
 #	 a-g.summary \
 #	 a-a.summary
 
@@ -83,6 +85,10 @@ all-a: a-g.summary a-a.summary
 # If you only want to test numerals:
 .PHONY: all-num
 all-num: num-g.summary num-a.summary
+
+# If you only want to test pronouns:
+.PHONY: all-pron
+all-pron: pron-g.summary pron-a.summary
 
 # If you only want to test verbal generation, use v-g.summary
 # as target. Etc. for the other cases. And do you only want to
@@ -362,6 +368,73 @@ num-paradigm: num-para.ptest savefile
 	@rm -f $(TEMP)/$@-gtest-script
 	@rm -f $<
 	@less $(WORD).paradigm
+
+
+
+#####################
+
+
+# NUMERALS
+# ========
+
+# Create all the pronoun test file bases:
+pron-%.testbase: pron-%.txt pron-codes.txt
+	@echo
+	@echo "*** Creating the test base for pron-$*.txt ***"
+	@echo
+	@rm -f $@
+	$(UMASK) && \
+	$(BINDIR)/merge-codesNforms.pl pron-codes.txt $< > $@
+	@chmod 660 $@
+
+# Finally, we concatenate all *.greports
+pron-g.summary: $(NGenFiles)
+	@cat $^ > $@
+	@echo
+	@echo "*** All pronoun word form generation testing is done.      ***"
+	@echo "*** The concatenated reports are stored in $@. ***"
+	@echo
+#	@less $@
+
+# Finally, we concatenate all *.areports:
+pron-a.summary: $(NAnaFiles)
+	@cat $^ > $@
+	@echo
+	@echo "*** All pronoun word form analysis testing is done.        ***"
+	@echo "*** The concatenated reports are stored in $@. ***"
+	@echo
+#	@less $@
+
+# Create pronoun paradigm generation input file:
+pron-para.ptest: pron-codes.txt
+	@echo
+	@echo "*** Creating the pronoun paradigm input file for '$(WORD)' ***"
+	@echo
+	@rm -f $@
+	$(UMASK) && \
+	$(BINDIR)/merge-codesNword.pl $< $(WORD) > $@
+	@chmod 660 $@
+
+# Paradigm generation:
+.PHONY: pron-paradigm
+pron-paradigm: pron-para.ptest savefile
+	@echo
+	@echo "*** Running the paradigm generator for '$(WORD)' ***"
+	@echo
+	@printf "load $(SAVEFILE) \n\
+	apply up < $< \n\
+	quit \n" > $(TEMP)/$@-gtest-script
+	$(XFST) < $(TEMP)/$@-gtest-script > $(WORD).paradigm
+	@rm -f $(TEMP)/$@-gtest-script
+	@rm -f $<
+	@less $(WORD).paradigm
+
+
+
+
+
+
+
 
 
 # PROPER NOUNS

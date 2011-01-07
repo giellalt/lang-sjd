@@ -1,0 +1,14 @@
++Pron+Pers+Sg+Nom
++Pron+Pers+Sg+Gen
++Pron+Pers+Sg+Acc
++Pron+Pers+Ess
++Pron+Pers+Sg+Ine
++Pron+Pers+Sg+Ill
++Pron+Pers+Sg+Ela
++Pron+Pers+Sg+Com
++Pron+Pers+Pl+Nom
++Pron+Pers+Pl+Acc
++Pron+Pers+Pl+Ine
++Pron+Pers+Pl+Ill
++Pron+Pers+Pl+Ela
++Pron+Pers+Pl+Com
