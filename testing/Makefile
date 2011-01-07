@@ -371,10 +371,8 @@ num-paradigm: num-para.ptest savefile
 
 
 
-#####################
 
-
-# NUMERALS
+# PRONOUNS
 # ========
 
 # Create all the pronoun test file bases:
