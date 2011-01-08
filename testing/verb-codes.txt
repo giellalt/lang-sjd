@@ -12,7 +12,7 @@
 +V+Ind+Prt+Pl1
 +V+Ind+Prt+Pl2
 +V+Ind+Prt+Pl3
-+V+Ind+Prs+Impers
++V+Ind+Prt+Impers
 +V+Imp+Sg
 +V+Imp+Pl
 +V+ConNeg+Prs
