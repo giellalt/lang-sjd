@@ -101,18 +101,19 @@ LEXICON dem
 
 ! Interrogative pronouns
 ! ======================
-! a	= stem ке̄-
-! b = stem мӣ-
-! c = stem ма̄-
+! a	= stem ке̄- 
+! b = stem мӣ- 
+! c = stem мӣ- -> мэ̄-
+! d = stem мӣ- -> ма̄-
 
 LEXICON Interrogative
-ке̄+Pron+Interr+Sg+Nom:ке̄ # ;
-мӣ+Pron+Interr+Sg+Nom:мӣ # ;
 ке̄:ке̄ interr_a ;
-мӣ:мэ̄ interr_b ;
-мӣ:ма̄ interr_c ;
+мӣ:мӣ interr_b ;
+мӣ:мэ̄ interr_c ;
+мӣ:ма̄ interr_d ;
 
 LEXICON interr_a
++Pron+Interr+Sg+Nom: # ;
 +Pron+Interr+Sg+Gen:нн # ;
 +Pron+Interr+Sg+Acc:нн # ;
 +Pron+Interr+Sg+Ill:з # ;
@@ -128,6 +129,9 @@ LEXICON interr_a
 +Pron+Interr+Pl+Abe:йтха # ;
 
 LEXICON interr_b
++Pron+Interr+Sg+Nom: # ;
+
+LEXICON interr_c
 +Pron+Interr+Sg+Gen:нн # ;
 +Pron+Interr+Sg+Acc:нн # ;
 +Pron+Interr+Sg+Ill:з # ;
@@ -141,17 +145,20 @@ LEXICON interr_b
 +Pron+Interr+Pl+Com:йтгуэйм # ;
 +Pron+Interr+Pl+Abe:йтха # ;
 
-LEXICON interr_c
+LEXICON interr_d
 +Pron+Interr+Sg+Loc:сьт # ;
 
 ! Relative pronoun
 ! =================
-!   = stem кӯ-
-! b = stem ко̄-
+! a = stem кӯ-
+! b = stem кӯ- -> ко̄-
 
 LEXICON Relative
-кӯ+Pron+Rel+Sg+Nom:кӯ # ;
+кӯ:кӯ rel_a ;
 кӯ:ко̄  rel_b ;
+
+LEXICON rel_a
++Pron+Rel+Sg+Nom: # ;
 
 LEXICON rel_b
 +Pron+Rel+Sg+Gen:нн # ;
