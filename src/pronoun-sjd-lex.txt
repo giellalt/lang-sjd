@@ -50,7 +50,7 @@ LEXICON pers_a
 +Pron+Pers+Sg+Acc:н K ;
 +Pron+Pers+Sg+Loc:нэсьт K ;
 +Pron+Pers+Sg+Com:нэнѣ K ;
-+Pron+Pers+Sg+Abe:нха K ;
++Pron+Pers+Sg+Abess:нха K ;
 +Pron+Pers+Sg+Ess:ннэнѣ K ;
 
 LEXICON pers_b
@@ -59,7 +59,7 @@ LEXICON pers_b
 +Pron+Pers+Sg+Acc:н K ;
 +Pron+Pers+Sg+Loc:нэсьт K ;
 +Pron+Pers+Sg+Com:нэнѣ K ;
-+Pron+Pers+Sg+Abe:нха K ;
++Pron+Pers+Sg+Abess:нха K ;
 +Pron+Pers+Sg+Ess:ннэнѣ K ;
 
 LEXICON pers_c
@@ -77,7 +77,7 @@ LEXICON pers_f
 +Pron+Pers+Pl+Acc:нэтѣ K ;
 +Pron+Pers+Pl+Loc:нэнѣ K ;
 +Pron+Pers+Pl+Com:нэгуэйм K ;
-+Pron+Pers+Pl+Abe:нэха K ; 
++Pron+Pers+Pl+Abess:нэха K ; 
 +Pron+Pers+Pl+Ess:ннэнѣ K ;
 
 LEXICON Demonstrative
@@ -90,14 +90,14 @@ LEXICON dem
 +Pron+Dem+Sg+Ill:з # ;
 +Pron+Dem+Sg+Loc:сьт # ;
 +Pron+Dem+Sg+Com:йн # ;
-+Pron+Dem+Sg+Abe:ннха # ;
++Pron+Dem+Sg+Abess:ннха # ;
 +Pron+Dem+Pl+Nom:гка # ;
 +Pron+Dem+Pl+Gen:йт # ;
 +Pron+Dem+Pl+Acc:йт # ;
 +Pron+Dem+Pl+Ill:йт # ;
 +Pron+Dem+Pl+Loc:йнэнҍ # ;
 +Pron+Dem+Pl+Com:йтгуэйм # ;
-+Pron+Dem+Pl+Abe:йтха # ;
++Pron+Dem+Pl+Abess:йтха # ;
 
 ! Interrogative pronouns
 ! ======================
@@ -119,14 +119,14 @@ LEXICON interr_a
 +Pron+Interr+Sg+Ill:з # ;
 +Pron+Interr+Sg+Loc:сьт # ;
 +Pron+Interr+Sg+Com:йн # ;
-+Pron+Interr+Sg+Abe:ннха # ;
++Pron+Interr+Sg+Abess:ннха # ;
 +Pron+Interr+Pl+Nom:гк # ;
 +Pron+Interr+Pl+Gen:йт # ;
 +Pron+Interr+Pl+Acc:йт # ;
 +Pron+Interr+Pl+Ill:йт # ;
 +Pron+Interr+Pl+Loc:йн # ;
 +Pron+Interr+Pl+Com:йтгуэйм # ;
-+Pron+Interr+Pl+Abe:йтха # ;
++Pron+Interr+Pl+Abess:йтха # ;
 
 LEXICON interr_b
 +Pron+Interr+Sg+Nom: # ;
@@ -136,14 +136,14 @@ LEXICON interr_c
 +Pron+Interr+Sg+Acc:нн # ;
 +Pron+Interr+Sg+Ill:з # ;
 +Pron+Interr+Sg+Com:йн # ;
-+Pron+Interr+Sg+Abe:ннха # ;
++Pron+Interr+Sg+Abess:ннха # ;
 +Pron+Interr+Pl+Nom:гк # ;
 +Pron+Interr+Pl+Gen:йт # ;
 +Pron+Interr+Pl+Acc:йт # ;
 +Pron+Interr+Pl+Ill:йт # ;
 +Pron+Interr+Pl+Loc:йн # ;
 +Pron+Interr+Pl+Com:йтгуэйм # ;
-+Pron+Interr+Pl+Abe:йтха # ;
++Pron+Interr+Pl+Abess:йтха # ;
 
 LEXICON interr_d
 +Pron+Interr+Sg+Loc:сьт # ;
@@ -166,14 +166,14 @@ LEXICON rel_b
 +Pron+Rel+Sg+Ill:з # ;
 +Pron+Rel+Sg+Loc:ннэсьт # ;
 +Pron+Rel+Sg+Com:йн # ;
-+Pron+Rel+Sg+Abe:ннха # ;
++Pron+Rel+Sg+Abess:ннха # ;
 +Pron+Rel+Pl+Nom:гк # ;
 +Pron+Rel+Pl+Gen:йт # ;
 +Pron+Rel+Pl+Acc:йт # ;
 +Pron+Rel+Pl+Ill:йт # ;
 +Pron+Rel+Pl+Loc:йн # ;
 +Pron+Rel+Pl+Com:йтгуэйм # ;
-+Pron+Rel+Pl+Abe:йтха # ;
++Pron+Rel+Pl+Abess:йтха # ;
 
 LEXICON Reflexive
 ӣджь+Pron+Refl:ӣджь STRONGREFL ;
@@ -191,13 +191,13 @@ LEXICON WEAKREFL
 +Pron+Refl+Acc: PERSREFLSG ;
 +Pron+Refl+Loc:%>с PERSREFLSG ;
 +Pron+Refl+Com:%>ен PERSREFLSG ;
-+Pron+Refl+Abe: PERSREFLSGABE ;
++Pron+Refl+Abess: PERSREFLSGABESS ;
 
 +Pron+Refl+Gen:%>ед PERSREFLPL ;
 +Pron+Refl+Acc:%>ед PERSREFLPL ;
 +Pron+Refl+Loc:%>ес PERSREFLPL ;
 +Pron+Refl+Com:%>ед PERSREFLPLCOM ;
-+Pron+Refl+Abe:%>ед PERSREFLPLABE ;
++Pron+Refl+Abess:%>ед PERSREFLPLABESS ;
 
 LEXICON PERSREFLSG
 +Pron+Refl+Sg1:%>aн # ;
@@ -209,12 +209,12 @@ LEXICON PERSREFLPL
 +Pron+Refl+Pl2:%>ант # ;
 +Pron+Refl+Pl3:%>есь # ;
 
-LEXICON PERSREFLSGABE
+LEXICON PERSREFLSGABESS
 +Pron+Refl+Sg1:%>aнха # ;
 +Pron+Refl+Sg2:%>aнтха # ;
 +Pron+Refl+Sg3:%>есьха # ;
 
-LEXICON PERSREFLPLABE
+LEXICON PERSREFLPLABESS
 +Pron+Refl+Pl1:%>анха # ;
 +Pron+Refl+Pl2:%>антха # ;
 +Pron+Refl+Pl3:%>есьха # ;
