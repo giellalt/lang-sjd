@@ -17,6 +17,7 @@ LEXICON Pronoun
 
 Personal ;
 Demonstrative ;
+Relative ;
 Reflexive ;
 
 
@@ -79,8 +80,7 @@ LEXICON pers_f
 +Pron+Pers+Pl+Ess:ннэнѣ K ;
 
 LEXICON Demonstrative
-!тэдта:тэ dem ;
-тэнн+Pron+Dem:тэ dem ;
+тэдта:тэ dem ;
 
 LEXICON dem
 +Pron+Dem+Sg+Nom:дта # ;
@@ -97,6 +97,30 @@ LEXICON dem
 +Pron+Dem+Pl+Loc:йнэнҍ # ;
 +Pron+Dem+Pl+Com:йтгуэйм # ;
 +Pron+Dem+Pl+Abe:йтха # ;
+
+! Relative pronoun
+! =================
+! a = stem кӯ-
+! b = stem ко̄-
+
+LEXICON Relative
+кӯ+Pron+Rel+Sg+Nom:кӯ # ;
+кӯ:ко̄  rel_b ;
+
+LEXICON rel_b
++Pron+Rel+Sg+Gen:нн # ;
++Pron+Rel+Sg+Acc:нн # ;
++Pron+Rel+Sg+Ill:з # ;
++Pron+Rel+Sg+Loc:ннэсьт # ;
++Pron+Rel+Sg+Com:йн # ;
++Pron+Rel+Sg+Abe:ннха # ;
++Pron+Rel+Pl+Nom:гк # ;
++Pron+Rel+Pl+Gen:йт # ;
++Pron+Rel+Pl+Acc:йт # ;
++Pron+Rel+Pl+Ill:йт # ;
++Pron+Rel+Pl+Loc:йн # ;
++Pron+Rel+Pl+Com:йтгуэйм # ;
++Pron+Rel+Pl+Abe:йтха # ;
 
 LEXICON Reflexive
 ӣджь+Pron+Refl:ӣджь STRONGREFL ;
