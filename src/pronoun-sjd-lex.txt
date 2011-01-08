@@ -83,8 +83,8 @@ LEXICON Demonstrative
 тэнн+Pron+Dem:тэ dem ;
 
 LEXICON dem
-+Pron+Dem+Sg+Nom:дта К ;
-+Pron+Dem+Sg+Gen:нн К ;
++Pron+Dem+Sg+Nom:дта # ;
++Pron+Dem+Sg+Gen:нн # ;
 +Pron+Dem+Sg+Acc:нн # ;
 +Pron+Dem+Sg+Ill:з # ;
 +Pron+Dem+Sg+Loc:сьт # ;
