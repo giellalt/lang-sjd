@@ -28,3 +28,17 @@
 +Pron+Dem+Pl+Com
 +Pron+Dem+Pl+Abe
 +Pron+Dem+Pl+Ess
++Pron+Rel+Sg+Nom
++Pron+Rel+Sg+Gen
++Pron+Rel+Sg+Acc
++Pron+Rel+Sg+Ill
++Pron+Rel+Sg+Loc
++Pron+Rel+Sg+Com
++Pron+Rel+Sg+Abe
++Pron+Rel+Pl+Nom
++Pron+Rel+Pl+Gen
++Pron+Rel+Pl+Acc
++Pron+Rel+Pl+Ill
++Pron+Rel+Pl+Loc
++Pron+Rel+Pl+Com
++Pron+Rel+Pl+Abe
