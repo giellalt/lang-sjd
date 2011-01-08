@@ -99,15 +99,54 @@ LEXICON dem
 +Pron+Dem+Pl+Com:йтгуэйм # ;
 +Pron+Dem+Pl+Abe:йтха # ;
 
-! Interrogative pronoun
-! =================
+! Interrogative pronouns
+! ======================
+! a	= stem ке̄-
+! b = stem мӣ-
+! c = stem ма̄-
 
 LEXICON Interrogative
 ке̄+Pron+Interr+Sg+Nom:ке̄ # ;
+мӣ+Pron+Interr+Sg+Nom:мӣ # ;
+ке̄:ке̄ interr_a ;
+мӣ:мэ̄ interr_b ;
+мӣ:ма̄ interr_c ;
+
+LEXICON interr_a
++Pron+Interr+Sg+Gen:нн # ;
++Pron+Interr+Sg+Acc:нн # ;
++Pron+Interr+Sg+Ill:з # ;
++Pron+Interr+Sg+Loc:сьт # ;
++Pron+Interr+Sg+Com:йн # ;
++Pron+Interr+Sg+Abe:ннха # ;
++Pron+Interr+Pl+Nom:гк # ;
++Pron+Interr+Pl+Gen:йт # ;
++Pron+Interr+Pl+Acc:йт # ;
++Pron+Interr+Pl+Ill:йт # ;
++Pron+Interr+Pl+Loc:йн # ;
++Pron+Interr+Pl+Com:йтгуэйм # ;
++Pron+Interr+Pl+Abe:йтха # ;
+
+LEXICON interr_b
++Pron+Interr+Sg+Gen:нн # ;
++Pron+Interr+Sg+Acc:нн # ;
++Pron+Interr+Sg+Ill:з # ;
++Pron+Interr+Sg+Com:йн # ;
++Pron+Interr+Sg+Abe:ннха # ;
++Pron+Interr+Pl+Nom:гк # ;
++Pron+Interr+Pl+Gen:йт # ;
++Pron+Interr+Pl+Acc:йт # ;
++Pron+Interr+Pl+Ill:йт # ;
++Pron+Interr+Pl+Loc:йн # ;
++Pron+Interr+Pl+Com:йтгуэйм # ;
++Pron+Interr+Pl+Abe:йтха # ;
+
+LEXICON interr_c
++Pron+Interr+Sg+Loc:сьт # ;
 
 ! Relative pronoun
 ! =================
-! a = stem кӯ-
+!   = stem кӯ-
 ! b = stem ко̄-
 
 LEXICON Relative
