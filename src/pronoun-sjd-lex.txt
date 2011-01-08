@@ -17,6 +17,7 @@ LEXICON Pronoun
 
 Personal ;
 Demonstrative ;
+Interrogative ;
 Relative ;
 Reflexive ;
 
