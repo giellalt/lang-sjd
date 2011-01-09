@@ -35,9 +35,10 @@ Sets
  C  = б Б в В г Г д Д ж Ж з З һ Һ й Й ј Ј к К л Л ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ п П р Р ҏ Ҏ с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ ;
  V  = а А ӓ Ӓ а̄ А̄ е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э ӭ Ӭ э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;
  Marks = ъ Ъ ь Ь ҍ Ҍ ;
- PALCON = й Й ј Ј ч Ч ; ! can only by followed by NPLVOW
- PALVOW = ӓ Ӓ е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ ӭ Ӭ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;
- NPLVOW = а А а̄ А̄ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э э̄ Э̄ ;
+ PALCON = й Й ј Ј ч Ч ; ! can only by followed by PALVOW !so-called "palatalized C"
+ PALVOW = е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ; !so-called "palatalized V"
+ HPLVOW = ӓ Ӓ ӭ Ӭ ; !so-called "half-palatalized V"
+ NPLVOW = а А а̄ А̄ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э э̄ Э̄ ; !so-called "non-palatalized V"
  
  Dummy  = %^WG %^DI %> ;
 
