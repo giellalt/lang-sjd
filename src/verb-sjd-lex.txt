@@ -21,6 +21,9 @@ LEXICON Neg
 +V+Neg+Prs+Pl1:ебпь K ;
 +V+Neg+Prs+Pl2:ебпе K ;
 +V+Neg+Prs+Pl3:ев K ;
++V+Neg+Prs+Impers:едтҍ K ;
++V+Neg+Imp+Sg:е̄ль K ;
++V+Neg+Imp+Pl:е̄лле K ;
 
 LEXICON Verb
 
