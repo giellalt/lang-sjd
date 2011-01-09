@@ -20,11 +20,17 @@ LEXICON Punctuation
 +CLB:%!	  # ;
 +CLB:%?	  # ;
 +PUNCT:%-  # ;
++PUNCT:%–  # ;
++PUNCT:%—  # ;
++HYPH:%' # ;
++HYPH:%‘ # ;
++HYPH:%’ # ; 
 +HYPH:%" # ;
++HYPH:%“ # ;
++HYPH:%” # ;
 +HYPH:%« # ;
 +HYPH:%» # ;
 +PAR:%[ # ;
 +PAR:%] # ;
 +PAR:%( # ;
 +PAR:%) # ;
-
