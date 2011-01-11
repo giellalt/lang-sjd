@@ -2,4 +2,117 @@
 
 Готовится к публикации.
 
+This is a list over grammatical tags used in the morphological description.
 
+Each word form is analysed with the dictionary form + grammatical tag(s).         Each tag is introduced with a "+" sign, e.g.:
+
+та̄лесьт та̄лл+N+Sg+Loc
+
+мунн мунн+Pron+Pers+Sg+Nom 
+
+ӯйна ӯййнэ+V+Ind+Prs+Sg1
+
+!!Tags for parts-of-speech (POS) and sub-POS
+* +N (=имя существительное)
+** +Prop (=умя собственное)
+* +Pron (=местоумение)
+** +Pers (=личное местоумение)
+** +Dem (=указательное местоимение)
+** +Interr (=вопросительное местоимение)
+** +Refl (=возвратное местоимение)
+** +Rel (=относительные местоимение)
+** +Indef (=неопределённое местоимение)
+* +A (=имя прилагательное)
+** +Attr (=attributive)
+** +Pred (=predicative)
+* +Num (=имя числительное)
+** +Card (=количественное числительное)
+** +Ord (=порядковое числительное)
+** +Coll (=собирательное числительное)
+* +V (=глагол)
+** +Neg (=отрицательный глагол)
+* +Adv (=наречие)
+* +PP (=Adposition)
+** +Po (=послелог)
+** +Pr (=предлог)
+* +Interj (=междометие)
+* +Pcle (=частица)
+* +CS (=subordinator) 
+* +CC (=coordinator)
+
+!!Tags for values of inflectional categories
+!!!Case
+* +Nom (=nominative)
+* +Gen (=genitive)
+* +Acc (=accusative)
+* +Ill (=illative)
+* +Loc (=locative)
+* +Com (=comitative)
+* +Abess (=abessive)
+* +Ess (=essive)
+* +Par (=partitive)
+
+!!!Number
+* +Sg (=singular)
+* +Pl (=plural)
+(Obs! there is no dual in Kildin, unlike in most other Sámi languages.) 
+
+!!!Possession
+* +PxSg1 (=possessive 1st singular)
+* +PxSg2 (=possessive 2nd singular)
+* +PxSg3 (=possessive 3rd singular)
+* +PxPl1 (=possessive 1st plural)
+* +PxPl2 (=possessive 2nd plural)
+* +PxPl3 (=possessive 3rd plural)
+(Obs! possessive suffixes occur only rarely, in archic texts and with very few nouns.)
+
+!!!Person/Number
+* +Sg1 (=1st singular)
+* +Sg2 (=2nd singular)
+* +Sg3 (=3rd singular)
+* +Pl1 (=1st plural)
+* +Pl2 (=2nd plural)
+* +Pl3 (=3rd plural)
+* +Imprs (=impersonal)
+
+!!!Mood
+* +Ind (=Indicative)
+* +Imprt (=Imperative)
+* +Cond (=Coditional)
+* +Pot (=Potential)
+(Obs! potential mood occurs very rarely in Kildin.)
+
+!!!Tense
+* +Prs (=non-past)
+* +Prt (=past)
+
+!!!Infinitives (verbs)
+* +Inf (=infinitive)
+* +ConNeg (=connegative)
+* +PrsPrc (=present perfect)
+* +PrfPrc (=past perfect)
+* +VGen (=verb genitive)
+* +VAbess (=verb abessive)
+
+!!!Adjectival state
+* +Attr
+* +Pred
+
+!!Tags for values of derivational processes
+!!!Compounds
+* +SgCmp
+* +SgNomCmp
+* +SgGenCmp
+* +PlGenCmp
+* +Cmpnd
+* +Cmpnd+ 
+
+!!!Comparation (of adjectives and adverbs)
+* +Comp
+* +Superl
+
+!!!Numeral derivation
+* +Ord
+
+!!!Adverb derivation
+* +Adv
