@@ -1,8 +1,9 @@
 !!!грамматических теги проекта килдинского языка
 
-Готовится к публикации.
+(Полный перевод готовится к публикации.)
 
-This is a list over grammatical tags used in the morphological description.
+Это алфавитный список морфологических тегов
+в [анализатора кильдинсаамского языка |http://giellatekno.uit.no/cgi/index.sjd.rus.html].
 
 Each word form is analysed with the dictionary form + grammatical tag(s).         Each tag is introduced with a "+" sign, e.g.:
 
@@ -12,23 +13,20 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 
 ӯйна ӯййнэ+V+Ind+Prs+Sg1
 
-!!Tags for parts-of-speech (POS) and sub-POS
+[The tags are explained in English as well|docu-grammartags.eng.html]
+
+!!Tеги для частей речи (POS и sub-POS)
 * +N (=имя существительное)
 ** +Prop (=умя собственное)
 * +Pron (=местоумение)
 ** +Pers (=личное местоумение)
 ** +Dem (=указательное местоимение)
 ** +Interr (=вопросительное местоимение)
-** +Refl (=возвратное местоимение)
+** +Refl (=рефлексивное [возвратное] местоимение)
 ** +Rel (=относительные местоимение)
-** +Indef (=неопределённое местоимение)
 * +A (=имя прилагательное)
-** +Attr (=attributive)
-** +Pred (=predicative)
 * +Num (=имя числительное)
 ** +Card (=количественное числительное)
-** +Ord (=порядковое числительное)
-** +Coll (=собирательное числительное)
 * +V (=глагол)
 ** +Neg (=отрицательный глагол)
 * +Adv (=наречие)
@@ -40,63 +38,61 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 * +CS (=subordinator) 
 * +CC (=coordinator)
 
-!!Tags for values of inflectional categories
-!!!Case
-* +Nom (=nominative)
-* +Gen (=genitive)
-* +Acc (=accusative)
-* +Ill (=illative)
-* +Loc (=locative)
-* +Com (=comitative)
-* +Abess (=abessive)
-* +Ess (=essive)
-* +Par (=partitive)
+!!Tags for values of nominal inflectional categories
+!!!Падеж
+* +Nom (=номинатив [именительный])
+* +Gen (=генитив [родительный])
+* +Acc (=акузатив [винительный])
+* +Ill (=иллатив [дательно-направительный])
+* +Loc (=локатив [местны])
+* +Com (=комитатив [совместный])
+* +Abe (=абессив [лишительный])
+* +Ess (=эсив [преватительный])
+* +Par (=партитив)
 
-!!!Number
-* +Sg (=singular)
-* +Pl (=plural)
-(Obs! there is no dual in Kildin, unlike in most other Sámi languages.) 
+!!!Число
+* +Sg (=единственное)
+* +Pl (=множественное) 
 
 !!!Possession
-* +PxSg1 (=possessive 1st singular)
-* +PxSg2 (=possessive 2nd singular)
-* +PxSg3 (=possessive 3rd singular)
-* +PxPl1 (=possessive 1st plural)
-* +PxPl2 (=possessive 2nd plural)
-* +PxPl3 (=possessive 3rd plural)
-(Obs! possessive suffixes occur only rarely, in archic texts and with very few nouns.)
+* +PxSg1 (=первый притяжательный суффикс единственного)
+* +PxSg2 (=второй притяжательный суффикс единственного)
+* +PxSg3 (=третий притяжательный суффикс единственного)
+* +PxPl1 (=первый притяжательный суффикс множественного)
+* +PxPl2 (=второй притяжательный суффикс множественного)
+* +PxPl3 (=третий притяжательный суффикс множественного)
 
-!!!Person/Number
-* +Sg1 (=1st singular)
-* +Sg2 (=2nd singular)
-* +Sg3 (=3rd singular)
-* +Pl1 (=1st plural)
-* +Pl2 (=2nd plural)
-* +Pl3 (=3rd plural)
-* +Imprs (=impersonal)
+!!!Adjectival state
+** +Attr (=attributive)
+** +Pred (=predicative)
 
-!!!Mood
-* +Ind (=Indicative)
-* +Imprt (=Imperative)
-* +Cond (=Coditional)
+!!Tags for values of verbal inflectional categories
+!!!Наклонение
+* +Ind (=указывающее)
+* +Imprt (=повелительное)
+* +Cond (=условное)
 * +Pot (=Potential)
-(Obs! potential mood occurs very rarely in Kildin.)
 
-!!!Tense
-* +Prs (=non-past)
+!!!Время
+* +Prs (=настоящее)
 * +Prt (=past)
 
+!!!Person/Number
+* +Sg1 (=первый единственном)
+* +Sg2 (=второй единственном)
+* +Sg3 (=третий единственном)
+* +Pl1 (=первый множественном)
+* +Pl2 (=второй множественном)
+* +Pl3 (=третий множественном)
+* +Imprs (=impersonal)
+
 !!!Infinitives (verbs)
-* +Inf (=infinitive)
-* +ConNeg (=connegative)
+* +Inf (=инфинитив)
+* +ConNeg (=отрицательная форма глагола)
 * +PrsPrc (=present perfect)
 * +PrfPrc (=past perfect)
 * +VGen (=verb genitive)
 * +VAbess (=verb abessive)
-
-!!!Adjectival state
-* +Attr
-* +Pred
 
 !!Tags for values of derivational processes
 !!!Compounds
@@ -108,11 +104,22 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 * +Cmpnd+ 
 
 !!!Comparation (of adjectives and adverbs)
-* +Comp
-* +Superl
+* +Comp (=сравнительная)
+* +Superl (=превосходная)
 
 !!!Numeral derivation
-* +Ord
+** +Ord (=порядковое числительное)
+** +Coll (=собирательное числительное)
 
-!!!Adverb derivation
-* +Adv
+!!!Derivation of pronouns
+** +Indef (=неопределённое местоимение)
+
+!!!Derivation of adverbs
+* +Adv (=наречие)
+
+!!Другие
+* +ABBR (=сокращение)
+* +ACR (=акроним)
+* +CLB (=положение границы)
+* +PUNCT (=пунктуация)
+
