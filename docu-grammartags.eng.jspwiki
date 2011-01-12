@@ -1,6 +1,6 @@
 !!!Kildin Saami grammar tags
 
-This is a list over grammatical tags used in the morphological description.
+This is a list over grammatical tags used in [the Kildin analyser|http://giellatekno.uit.no/cgi/index.sjd.eng.html].
 
 Each word form is analysed with the dictionary form + grammatical tag(s).         Each tag is introduced with a "+" sign, e.g.:
 
@@ -10,23 +10,20 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 
 ӯйна ӯййнэ+V+Ind+Prs+Sg1
 
-!!Tags for parts-of-speech (POS) and sub-POS
+[Здесь вы можете увидеть, что грамматические метки означают на русском языке|docu-grammartags.rus.html]
+
+!!Tags for parts-of-speech (POS and sub-POS)
 * +N (=noun)
-** +Prop (=proper noun)
+** +Prop (=proper)
 * +Pron (=pronoun)
-** +Pers (=personal pronoun)
-** +Dem (=demonstrative pronoun)
-** +Interr (=interrogative pronoun)
-** +Refl (=reflexive pronoun)
-** +Rel (=relative pronoun)
-** +Indef (=indefinite pronoun)
+** +Pers (=personal)
+** +Dem (=demonstrative)
+** +Interr (=interrogative)
+** +Refl (=reflexive)
+** +Rel (=relative)
 * +A (=adjective)
-** +Attr (=attributive adjective)
-** +Pred (=predicative adjective)
 * +Num (=numeral)
 ** +Card (=cardinal numeral)
-** +Ord (=ordinal numeral)
-** +Coll (=collective numeral)
 * +V (=verb)
 ** +Neg (=negation verb)
 * +Adv (=adverb)
@@ -38,7 +35,7 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 * +CS (=subordinator) 
 * +CC (=coordinator)
 
-!!Tags for values of inflectional categories
+!!Tags for values of nominal inflectional categories
 !!!Case
 * +Nom (=nominative)
 * +Gen (=genitive)
@@ -46,14 +43,13 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 * +Ill (=illative)
 * +Loc (=locative)
 * +Com (=comitative)
-* +Abess (=abessive)
+* +Abe (=abessive)
 * +Ess (=essive)
 * +Par (=partitive)
 
 !!!Number
 * +Sg (=singular)
 * +Pl (=plural)
-(Obs! there is no dual in Kildin, unlike in most other Sámi languages.) 
 
 !!!Possession
 * +PxSg1 (=possessive 1st singular)
@@ -62,7 +58,21 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 * +PxPl1 (=possessive 1st plural)
 * +PxPl2 (=possessive 2nd plural)
 * +PxPl3 (=possessive 3rd plural)
-(Obs! possessive suffixes occur only rarely, in archic texts and with very few nouns.)
+
+!!!Adjectival state
+** +Attr (=attributive)
+** +Pred (=predicative)
+
+!!Tags for values of verbal inflectional categories
+!!!Mood
+* +Ind (=Indicative)
+* +Imprt (=Imperative)
+* +Cond (=Coditional)
+* +Pot (=Potential)
+
+!!!Tense
+* +Prs (=non-past)
+* +Prt (=past)
 
 !!!Person/Number
 * +Sg1 (=1st singular)
@@ -73,17 +83,6 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 * +Pl3 (=3rd plural)
 * +Imprs (=impersonal)
 
-!!!Mood
-* +Ind (=Indicative)
-* +Imprt (=Imperative)
-* +Cond (=Coditional)
-* +Pot (=Potential)
-(Obs! potential mood occurs very rarely in Kildin.)
-
-!!!Tense
-* +Prs (=non-past)
-* +Prt (=past)
-
 !!!Infinitives (verbs)
 * +Inf (=infinitive)
 * +ConNeg (=connegative)
@@ -91,10 +90,6 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 * +PrfPrc (=past perfect)
 * +VGen (=verb genitive)
 * +VAbess (=verb abessive)
-
-!!!Adjectival state
-* +Attr
-* +Pred
 
 !!Tags for values of derivational processes
 !!!Compounds
@@ -106,12 +101,21 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 * +Cmpnd+ 
 
 !!!Comparation (of adjectives and adverbs)
-* +Comp
-* +Superl
+* +Comp (=comparative)
+* +Superl (=superlative)
 
 !!!Numeral derivation
-* +Ord
+** +Ord (=ordinal)
+** +Coll (=collective)
 
-!!!Adverb derivation
-* +Adv
+!!!Derivation of pronouns
+** +Indef (=indefinite)
 
+!!!Derivation of adverbs
+* +Adv (=adverb)
+
+!!Other
+* +ABBR (=abbreviation)
+* +ACR (=acronym)
+* +CLB (=clause boundary)
+* +PUNCT (=punctuation)
