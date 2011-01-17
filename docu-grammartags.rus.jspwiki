@@ -5,7 +5,7 @@
 Это алфавитный список морфологических тегов
 в [анализатора кильдинсаамского языка |http://giellatekno.uit.no/cgi/index.sjd.rus.html].
 
-Each word form is analysed with the dictionary form + grammatical tag(s).         Each tag is introduced with a "+" sign, e.g.:
+Each word form is analysed with the dictionary form + grammatical tag(s). Each tag is introduced with a "+" sign, e.g.:
 
 та̄лесьт та̄лл+N+Sg+Loc
 
@@ -22,7 +22,7 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 ** +Pers (=личное местоумение)
 ** +Dem (=указательное местоимение)
 ** +Interr (=вопросительное местоимение)
-** +Refl (=рефлексивное [возвратное] местоимение)
+** +Refl (=рефлексивное (возвратное) местоимение)
 ** +Rel (=относительные местоимение)
 * +A (=имя прилагательное)
 * +Num (=имя числительное)
@@ -40,14 +40,14 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 
 !!Tags for values of nominal inflectional categories
 !!!Падеж
-* +Nom (=номинатив [именительный])
-* +Gen (=генитив [родительный])
-* +Acc (=акузатив [винительный])
-* +Ill (=иллатив [дательно-направительный])
-* +Loc (=локатив [местны])
-* +Com (=комитатив [совместный])
-* +Abe (=абессив [лишительный])
-* +Ess (=эсив [преватительный])
+* +Nom (=номинатив / именительный)
+* +Gen (=генитив / родительный)
+* +Acc (=акузатив / винительный)
+* +Ill (=иллатив / дательно-направительный)
+* +Loc (=локатив / местны)
+* +Com (=комитатив / совместный)
+* +Abe (=абессив / лишительный)
+* +Ess (=эсив / преватительный)
 * +Par (=партитив)
 
 !!!Число
