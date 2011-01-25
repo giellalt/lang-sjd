@@ -17,9 +17,9 @@ Each word form is analysed with the dictionary form + grammatical tag(s). Each t
 
 !!Tеги для частей речи (POS и sub-POS)
 * +N (=имя существительное)
-** +Prop (=умя собственное)
-* +Pron (=местоумение)
-** +Pers (=личное местоумение)
+** +Prop (= имя собственное)
+* +Pron (=местоимение)
+** +Pers (=личное местоимение)
 ** +Dem (=указательное местоимение)
 ** +Interr (=вопросительное местоимение)
 ** +Refl (=рефлексивное (возвратное) местоимение)
@@ -30,13 +30,14 @@ Each word form is analysed with the dictionary form + grammatical tag(s). Each t
 * +V (=глагол)
 ** +Neg (=отрицательный глагол)
 * +Adv (=наречие)
-* +PP (=Adposition)
+* +PP (=Adposition "предлог и послелог")
 ** +Po (=послелог)
 ** +Pr (=предлог)
 * +Interj (=междометие)
 * +Pcle (=частица)
-* +CS (=subordinator) 
-* +CC (=coordinator)
+* +C (=союз)
+** +CS (=подчинительный союз) 
+** +CC (=сочинительный союз)
 
 !!Tags for values of nominal inflectional categories
 !!!Падеж
@@ -63,8 +64,8 @@ Each word form is analysed with the dictionary form + grammatical tag(s). Each t
 * +PxPl3 (=третий притяжательный суффикс множественного)
 
 !!!Adjectival state
-** +Attr (=attributive)
-** +Pred (=predicative)
+** +Attr (=атрибутивная форма)
+** +Pred (=предикативная форма)
 
 !!Tags for values of verbal inflectional categories
 !!!Наклонение
