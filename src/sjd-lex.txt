@@ -20,17 +20,16 @@ Multichar_Symbols
 +Pers +Rel +Refl
 
 ! Verbal MSP
-+Prs +Fut +Prt +Prf 
-+Ind +Imp +Cond +Opt
-+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
++Prs +Prt +Prf 
++Ind +Imp +Cond +Pot
++Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3 +Impers
 +Inf
 +Pos +Neg +ConNeg
 
 ! Nominal MSP
 +Sg +Pl
-+Nom +Acc +Gen +Ill +Ine +Ela +Com +Ess +Par +Abe
++Nom +Acc +Gen +Ill +Loc +Com +Ess +Par +Abe
 +Ord
-+Qst
 !+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
   %>
   %^DI 
@@ -66,20 +65,22 @@ Particle ;
 
 LEXICON 1D
 
-+N: SgNomSuf ;			 ! Им.
-+N:%^WG SgGenAccSuf ;		 ! Род., Вин.
-+N:%> EssSuf ;		 ! Превр.
-+N:%^DI SgIllSufA ;		 ! Дат.-напр
-+N:%^WG%> SgIneSuf ; ! Местн.
-+N:%^WG SgElaSuf ;		 ! Лишит.
-+N:%^WG%> SgComSuf ;		 ! Совм.
++N:       SgNomSuf ;	! Им.
++N:%^WG   SgGenAccSuf ;	! Род., Вин.
++N:%^DI   SgIllSufA ;	! Дат.-напр
++N:%^WG%> SgLocSuf ;    ! Местн.
++N:%^WG   SgAbeSuf ;	! Лишит.
++N:%^WG%> SgComSuf ;	! Совм.
++N:%>     EssSuf ;		! Превр.
++N:%>     ParSuf ;		! Парт.
   
-+N:%^WG PlNomSuf ;			 ! Им.
-+N:%^WG%> PlAccSuf ;		 ! Вин.
-+N:%^WG%> PlIllSuf ; ! Местн.
-+N:%^WG%> PlIneSuf ; ! Местн.
-+N:%^WG%> PlElaSuf ;		 ! Лишит.
-+N:%^WG%> PlComSuf ;		 ! Совм.
++N:%^WG   PlNomSuf ;    ! Им.
++N:%^WG%> PlGenSuf ;	! Вин.
++N:%^WG%> PlAccSuf ;	! Вин.
++N:%^WG%> PlIllSuf ;    ! Местн.
++N:%^WG%> PlLocSuf ;    ! Местн.
++N:%^WG%> PlAbeSuf ;	! Лишит.
++N:%^WG%> PlComSuf ;	! Совм.
 
 
 ! these are just dummy for the moment
@@ -91,7 +92,7 @@ LEXICON 4D
 +N+Sg+Nom:%^WG SgNomSuf ;			 ! Им.
 +N+Sg+Gen:%^MON%>э SgGenAccSuf ;		 ! Род.
 +N+Ess:%^MON%>э EssSuf ;		 ! Превр.
-+N+Sg+Ine:%^MON%>э SgIneSuf ; ! Местн.
++N+Sg+Ine:%^MON%>э SgLocSuf ; ! Местн.
 +N+Sg+Ill:%^MON%>ъ SgIllSufJE ;		 ! Дат.-напр
 +N+Sg+Ela:%^WG%>ха K ;		 ! Лишит.
 +N+Sg+Com:%^WG%>энѣ K ;		 ! Совм.
@@ -134,10 +135,13 @@ LEXICON SgGenAccSuf
 +Sg+Acc: K ;		 ! Вин.
 
 LEXICON EssSuf
-+Ess:%>нѣ K ;		 ! Превр.
++Ess:%>энѣ K ;		 ! Превр.
 
-LEXICON SgIneSuf
-+Sg+Ine:%>сьт K ; ! Местн.
+LEXICON ParSuf
++Par:%>э K ;		 ! Парт.
+
+LEXICON SgLocSuf
++Sg+Loc:%>эсьт K ; ! Местн.
 
 LEXICON SgIllSufA
 +Sg+Ill:%>а K ;		 ! Дат.-напр
@@ -148,27 +152,29 @@ LEXICON SgIllSufE
 LEXICON SgIllSufJE
 +Sg+Ill:%>e K ;		 ! Дат.-напр
 
-LEXICON SgElaSuf
-+Sg+Ela:%>ха K ;		 ! Лишит.
+LEXICON SgAbeSuf
++Sg+Abe:%>ха K ;		 ! Лишит.
 
 LEXICON SgComSuf
 +Sg+Com:%>энѣ K ;		 ! Совм.
 
-
 LEXICON PlNomSuf
 +Pl+Nom: K ;			 ! Им.
+
+LEXICON PlGenSuf
++Pl+Gen:%>э K ;		 ! Род.
 
 LEXICON PlAccSuf
 +Pl+Acc:%>этѣ K ;		 ! Вин.
 
 LEXICON PlIllSuf
-+Pl+Ill:%>эдXXX K ; ! Местн.
++Pl+Ill:%>этҍ K ; ! Местн.
 
-LEXICON PlIneSuf
-+Pl+Ine:%>энѣ K ; ! Местн.
+LEXICON PlLocSuf
++Pl+Loc:%>энѣ K ; ! Местн.
 
-LEXICON PlElaSuf
-+Pl+Ela:%>эха K ;		 ! Лишит.
+LEXICON PlAbeSuf
++Pl+Abe:%>эха K ;		 ! Лишит.
 
 LEXICON PlComSuf
 +Pl+Com:%>эгуэйм K ;		 ! Совм.
