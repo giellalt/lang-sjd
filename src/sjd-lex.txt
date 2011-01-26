@@ -63,11 +63,11 @@ Particle ;
 ! ===============
 
 
-LEXICON 1D
+LEXICON 1DA !"1st class", non-palatalized geminate, no ablaut/umlaut, palatalization in Ill.Sg
 
 +N:       SgNomSuf ;	! Им.
 +N:%^WG   SgGenAccSuf ;	! Род., Вин.
-+N:%^DI   SgIllSufA ;	! Дат.-напр
++N:%^DI   SgIllSufJE ;	! Дат.-напр
 +N:%^WG%> SgLocSuf ;    ! Местн.
 +N:%^WG   SgAbeSuf ;	! Лишит.
 +N:%^WG%> SgComSuf ;	! Совм.
@@ -82,12 +82,31 @@ LEXICON 1D
 +N:%^WG%> PlAbeSuf ;	! Лишит.
 +N:%^WG%> PlComSuf ;	! Совм.
 
+LEXICON 1DB !"1st class", non-palatalized geminate, no ablaut/umlaut, "half-palatalization" in Ill.Sg
+!!OBS!! SgIllSufJE vs. SgIllSufHalfE / ParSuf vs. ParSufHalfE do not mark true subclasses, but for е vs. ӭ I'll later write a rule.
+
++N:       SgNomSuf ; 
++N:%^WG   SgGenAccSuf ;	
++N:%^DI   SgIllSufHalfE ; 
++N:%^WG%> SgLocSuf ; 
++N:%^WG   SgAbeSuf ; 
++N:%^WG%> SgComSuf ; 
++N:%>     EssSuf ; 
++N:%>     ParSufHalfE ; 
+  
++N:%^WG   PlNomSuf ; 
++N:%^WG%> PlGenSuf ; 
++N:%^WG%> PlAccSuf ; 
++N:%^WG%> PlIllSuf ; 
++N:%^WG%> PlLocSuf ; 
++N:%^WG%> PlAbeSuf ; 
++N:%^WG%> PlComSuf ; 
 
 ! these are just dummy for the moment
 LEXICON 2D
-1D ;
+1DA ;
 LEXICON 3D
-1D ;
+1DA ;
 LEXICON 4D
 +N+Sg+Nom:%^WG SgNomSuf ;			 ! Им.
 +N+Sg+Gen:%^MON%>э SgGenAccSuf ;		 ! Род.
@@ -122,7 +141,7 @@ LEXICON 4DА
 +N+Pl+Com:%^WG%>эгуэйм K ;		 ! Совм.
 
 LEXICON 5D
-1D ;
+1DA ;
 
 
 ! Case affixes
@@ -140,6 +159,9 @@ LEXICON EssSuf
 LEXICON ParSuf
 +Par:%>э K ;		 ! Парт.
 
+LEXICON ParSufHalfE
++Par:%>ӭ K ; 
+
 LEXICON SgLocSuf
 +Sg+Loc:%>эсьт K ; ! Местн.
 
@@ -151,6 +173,9 @@ LEXICON SgIllSufE
 
 LEXICON SgIllSufJE
 +Sg+Ill:%>e K ;		 ! Дат.-напр
+
+LEXICON SgIllSufHalfE
++Sg+Ill:%>ӭ K ;		 ! Дат.-напр
 
 LEXICON SgAbeSuf
 +Sg+Abe:%>ха K ;		 ! Лишит.
