@@ -48,10 +48,16 @@ Sets
 
 Rules
 
-"Quantitative CG"
- Cx:0 <=> Cx _ (ь:) (C) %^WG:0 ;
-      where Cx in ( в ж з й л м н ӈ р с ф х ш ) ; 
+!"Quantitative CG"
+! Cx:0 <=> Cx _ (ь:) (C) %^WG:0 ;
+!      where Cx in ( в ж з й л м н ӈ р с ф х ш ) ; 
 
+"Quantitative CG"
+ Cy:0 <=> Cx _ (ь:) %^WG:0 ;
+      where Cx in ( в ж з й л м н ӈ р с ф х ш )
+            Cy in ( в ж з й л м н ӈ р с ф х ш ) 
+      matched ; 
+      
 "Quantitative CG 2-Cns Cluster"
  Cy:0 <=> Cx _  (ь:) %^WG:0 ;
       where Cx in ( б г д )  
