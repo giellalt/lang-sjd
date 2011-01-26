@@ -14,19 +14,19 @@
 
 LEXICON Noun 
 
-! Classes according to Kuruč 1985
+! Re-grouping Kuruč's 1985 classes into an easier system
 
 ! 1. declension (classes 1, 8) !like 2. decl., but with geminates
-кӣдт         1D "рука" ;
-мӯрр         1D "дерево" ;
-кӯлль        1D "рыба / fish" ; ! lang u
-кӯсс         1D "ель / fir | spruce"       ; ! сс > з
-ме̄рр         1D "море / sea | ocean"			   ;
-аджь         1D "отец / father"			   ;
-на̄һпь        1D "чашка / cup"			   ; ! spelling variant на̄ххьп (in Kert 1986 [and the Aнтонова system])
-пуадтмушш    1D "приход / arrival"		   ;
-пя̄йвнэгк     1D "солнечная погода / sunny weather" ;
-ка̄ннѣцвудт   1D "дружба / friendship"           ;
+мӯрр         1DA "дерево" ; 
+кӣдт         1DB "рука" ; 
+!кӯлль        1DA "рыба / fish" ; ! lang u
+!кӯсс         1DA "ель / fir | spruce"       ; ! сс > з
+!ме̄рр         1DA "море / sea | ocean"			   ;
+!аджь         1DA "отец / father"			   ;
+!на̄һпь        1DA "чашка / cup"			   ; ! spelling variant на̄ххьп (in Kert 1986 [and the Aнтонова system])
+!пуадтмушш    1DA "приход / arrival"		   ;
+!пя̄йвнэгк     1DA "солнечная погода / sunny weather" ;
+!ка̄ннѣцвудт   1DA "дружба / friendship"           ;
 
 ! 2. declension (class 2) ! like 1. decl., but with C-clusters
 на̄ввьт       2D "зверь / wild animal | (wild) beast" ;
