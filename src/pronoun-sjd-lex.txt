@@ -49,6 +49,7 @@ LEXICON pers_a
 +Pron+Pers+Sg+Gen:н K ;
 +Pron+Pers+Sg+Acc:н K ;
 +Pron+Pers+Sg+Loc:нэсьт K ;
++Pron+Pers+Sg+Loc:ст K ;
 +Pron+Pers+Sg+Com:нэнѣ K ;
 +Pron+Pers+Sg+Abe:нха K ;
 +Pron+Pers+Sg+Ess:ннэнѣ K ;
@@ -58,6 +59,7 @@ LEXICON pers_b
 +Pron+Pers+Sg+Gen:н K ;
 +Pron+Pers+Sg+Acc:н K ;
 +Pron+Pers+Sg+Loc:нэсьт K ;
++Pron+Pers+Sg+Loc:ст K ;
 +Pron+Pers+Sg+Com:нэнѣ K ;
 +Pron+Pers+Sg+Abe:нха K ;
 +Pron+Pers+Sg+Ess:ннэнѣ K ;
