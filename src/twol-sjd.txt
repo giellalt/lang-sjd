@@ -26,7 +26,8 @@ Alphabet
   п П р Р ҏ Ҏ с С т Т у У ӯ Ӯ 
   ф Ф х Х ц Ц ч Ч ш Ш щ Щ ъ Ъ 
   ы Ы ь Ь ҍ Ҍ э Э ӭ Ӭ э̄ Э̄ ю Ю 
-  ю̄ Ю̄ я Я я̄ Я̄
+  ю̄ Ю̄ я Я я̄ Я̄ 
+!  сс:з сс
   %´:0 %,:%´ %>:0
   %^1VOW:0 %^2VOW:0 %^3VOW:0 %^4VOW:0 %^5VOW:0 %^VOWSH:0
   %^WG:0 %^EPHV:0 %^DI:0 ;
@@ -52,10 +53,20 @@ Rules
 ! Cx:0 <=> Cx _ (ь:) (C) %^WG:0 ;
 !      where Cx in ( в ж з й л м н ӈ р с ф х ш ) ; 
 
+"Qualitative CG1a" !this rule doesn't work yet
+Cx:0 <=> _ Cx: (ь:) %^WG:0 ;
+      where Cx in ( с ) ;
+
+"Qualitative CG1b" !this rule doesn't work yet
+Cx:Cy <=> Cx: _ (ь:) %^WG:0 ;
+      where Cx in ( с )
+            Cy in ( з ) 
+      matched ;
+
 "Quantitative CG"
  Cy:0 <=> Cx _ (ь:) %^WG:0 ;
-      where Cx in ( в ж з й л м н ӈ р с ф х ш )
-            Cy in ( в ж з й л м н ӈ р с ф х ш ) 
+      where Cx in ( в ж з й л м н ӈ р ф х ш )
+            Cy in ( в ж з й л м н ӈ р ф х ш ) 
       matched ; 
       
 "Quantitative CG 2-Cns Cluster"
@@ -76,8 +87,8 @@ Vx:0  <=> C _ C+ %^EPHV:0 %>: V ;
 
 "Palatalised Suffix Vowel"
 Vx:Vy <=> ь: ( Dummy:0 ) %>:0 _ ;
-      where Vx in ( а А э Э ы Ы о О у У )
-            Vy in ( я Я е Е и И ё Ё ю Ю ) 
+      where Vx in ( а А э Э у У )
+            Vy in ( я Я е Е ю Ю ) 
       matched ;
 
 "Palatal Mark Deletion"
