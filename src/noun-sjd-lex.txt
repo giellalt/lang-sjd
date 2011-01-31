@@ -18,11 +18,11 @@ LEXICON Noun
 
 ! 1. declension (classes 1, 8) !like 2. decl., but with geminates
 мӯрр         1DA "дерево" ; 
-кӣдт         1DB "рука" ; 
+ме̄рр         1DA "море / sea | ocean"			   ;
 пя̄йвнэгк     1DA "солнечная погода / sunny weather" ;
+кӣдт         1DB "рука" ; 
+кӯсс         1DA "ель / fir | spruce"       ; ! сс > з
 !кӯлль        1DA "рыба / fish" ; ! lang u
-!кӯсс         1DA "ель / fir | spruce"       ; ! сс > з
-!ме̄рр         1DA "море / sea | ocean"			   ;
 !аджь         1DA "отец / father"			   ;
 !на̄һпь        1DA "чашка / cup"			   ; ! spelling variant на̄ххьп (in Kert 1986 [and the Aнтонова system])
 !пуадтмушш    1DA "приход / arrival"		   ; !only the productive DerSx -мушш should be listed
