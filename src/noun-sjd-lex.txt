@@ -16,6 +16,17 @@ LEXICON Noun
 
 ! Re-grouping Kuruč's 1985 classes into an easier system
 
+
+! класс Нина
+
+слов 1DA ;
+шэ̄ӇӇ        1DA "шторн,буря,ураган" ;
+ыйй         1DA   "ночь" ;
+ыгкь        1DA   "год" ;
+ылл         1DA    "уголь" ;
+
+
+
 ! 1. declension (classes 1, 8) !like 2. decl., but with geminates
 мӯрр         1DA "дерево" ; 
 ме̄рр         1DA "море / sea | ocean"			   ;
@@ -27,45 +38,54 @@ LEXICON Noun
 !на̄һпь        1DA "чашка / cup"			   ; ! spelling variant на̄ххьп (in Kert 1986 [and the Aнтонова system])
 !пуадтмушш    1DA "приход / arrival"		   ; !only the productive DerSx -мушш should be listed
 !ка̄ннѣцвудт   1DA "дружба / friendship"           ; !only the productive DerSx -вудт should be listed
+ка̄ррь         1DA "посуда" ;
+кēджь          1DA "конец"  ;
+
+
 
 ! 2. declension (class 2) ! like 1. decl., but with C-clusters
 на̄ввьт       2D "зверь / wild animal | (wild) beast" ;
 ля̄ммт        2D "лес / forrest | wood(s)" ;
 куэсськ      2D "тётя / aunt" ;
-кӯшшк        2D "порог на реке / rapids" ;
+кӯшшк        2D "порог на реке / rapids" ;
+мāййт        2D "молоко"  ;
+аббьр        2D "дождь" ;
+āввьл        2D "крючок на перекладине в куваксе" ;
+āййк         2D "срок, пора"  ;
+кēддҍк       2D "камень" ;
+ 
 
 ! 3. declension (class 7) ! no stem gradation
-кӯссь         3D "гость / guest"   ;
+кӯссь         3D "гость / guest"   ;
 пысс          3D "ружьё / gun"   ;
-па̄лл          3D "мяч / ball"	   ;
+па̄лл          3D "мяч / ball"     ;
 а̄шшь          3D "просьба / request | application" ;
 
 ! 4. declension (classes 3, 5) !these are two different declesions: the "puaz-class" and the "cyza-class"
 пуаз:пуадз    4D "олень / reindeer"  ;
 цыза          4DА "птичка / little bird" ; 
-оаб           4D "усы / moustache"	  ;
-оа̄з           4D "паук / spider"	  ; ! can mean also clothes, but with different paradigm
+оаб           4D "усы / moustache"    ;
+оа̄з           4D "паук / spider"     ; ! can mean also clothes, but with different paradigm
 оаккшэ        4D "топор / axe"  ;
 ылльтэ        4D "полка / shelf"  ;
-кнӣга         4D "книга / book"  ; ! also кыррьй (buch, brief, aufzeichnung, zeichnung, gemaltes bild)
+кнӣга         4D "книга / book"  ; ! also кыррьй (buch, brief, aufzeichnung, zeichnung, gemaltes bild)
+кēлл 4D ;
 
 
 ! 5. declension (classes 4, 6, 9)
-чӣгар:чӣгкар       5D "стадо / herd | flock"   ;
+чӣгар:чӣгкар       5D "стадо / herd | flock"   ;
 коавас:ко̄ввас      5D "кувакса / Saami tent" ;
 ва̄нѣтэсь:ва̄ннтас   5D "обруг / (barrel) hoop"   ;
 вэнс:вэ̄ннас        5D "лодка / boat"   ;
 нызан              5D "женщина / woman" ;
 карънэль           5D "локоть / elbow"  ;
 ке̄ресь             5D "керёжа /  (reindeer) sleigh | pulka / sme: geres / nob: pulk"  ;
-чӯййкэй            5D "лыжник / skier"  ;
+чӯййкэй            5D "лыжник / skier"  ;
 куаррэй            5D "швея / seamstress"    ;
 кэ̄рхаллей          5D "гонщик / racer | rafter"  ;
 
 
 
 ! 6. declension (classes )
-
-
 
 
