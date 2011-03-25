@@ -30,6 +30,8 @@ Multichar_Symbols
 +Sg +Pl
 +Nom +Acc +Gen +Ill +Loc +Com +Ess +Par +Abe
 +Ord
++Prop +Ani +Mal +Fem +Sur +Plc +Org +Obj ! Semantic properties of names
+
 !+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
   %>
   %^DI 
