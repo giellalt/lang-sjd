@@ -17,5 +17,5 @@ LEXICON Propernoun
 Tронд # ; !1А economy class
 Мэ̄һкал # ; !2A tourist class
 Мышшьк # ;
-Во̄леньк "Лена, Елена" ;
+Во̄леньк # "Лена, Елена" ;
 О̄леньк # ;
