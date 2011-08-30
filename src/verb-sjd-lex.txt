@@ -13,6 +13,11 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 
+LEXICON Verb
+
+Neg ;
+Aux	;
+
 LEXICON Neg
 
 +V+Neg+Prs+Sg1:эмм K ;
@@ -24,10 +29,6 @@ LEXICON Neg
 +V+Neg+Prs+Impers:едтҍ K ;
 +V+Neg+Imp+Sg:е̄ль K ;
 +V+Neg+Imp+Pl:е̄лле K ;
-
-LEXICON Verb
-
-Neg ;
 
 ! the simplest verb class (without any paradigmatic stem alternations)
 ! comprises most verbs from Kurutch's classes II, III, and IV
