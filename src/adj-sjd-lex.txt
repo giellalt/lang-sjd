@@ -12,22 +12,29 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-LEXICON adj
-+A: # ;
-
-LEXICON pred
-+A+Sg+Nom: # ;
 
 LEXICON Adjective
-шӯрр  adj "большой / big" ;
-нӯрр adj "молодой / young" ;
-э̄лл adj "высокый / high" ;
 
-! attributive adjectives (-es' productive? with certain [lexically defined] subclasses of adjectives)
-!э̄ллесь attr "высокий / high"
+A1  ; !similar forms for pred (number infl, except loan adj on -e) and attr
+A2  ; !"2nd ADJ class" with (?DEPAL)-e for PRED (no number infl) and PAL-es' for ATTR; the stem, which is also the base form for several verbal derivations, is given here due to morphological consistency, although this is not consistent with the lexical dict entries of these adjectives
+A3  ; !"3rd ADJ class" with -Ø for PRED (number infl) and PAL-es' for ATTR
 
-! predicative adjectives (-e productive? with certain [lexically defined] subclasses of adjectives)
-э̄ллэ pred "высок / high" ;
+нӯрр 	A1  "молодой / young" ;
+шӯрр    A1  "большой / big" ;
+э̄лл    A1  "высокий / high" ; !this adj varies as to its class membership
+ӣййв    A1 ;
+!ӣввьй   A1 ; gradation rule has to be written in twol
 
-! predicative adjectives (-ed productive? with certain [lexically defined] subclasses of adjectives)
-э̄ллэd pred "высок / high" ;
+!loan adjectives of A1 class
+!активнэ A1 "акивный / active" ;
+!безударнэ A1 "безударный" ;
+
+вӣлльк A2 "белый / white" ;
+э̄лл A2  "высокий / high" ; !this adj varies as to its class membership
+чувв A2 "светлый / light" ;
+руччк A2 "жёлтый / yellow" ;
+!мо̄джь A2 "красивый / beautiful" ; ?мо̄дже
+!ко̄ммьтесь A2 "широкый / broad" ; ко̄ммтэ sg : ?коамьт pl?
+
+куһкь A3 "long" ;
+луэммч A3 "слабый / weak" ;
