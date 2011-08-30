@@ -19,6 +19,9 @@ Multichar_Symbols
 +Adv +CC +CS +Interj +Pron +Num
 +Pers +Rel +Refl
 
+! Adjectival MSP
++Attr +Pred
+
 ! Verbal MSP
 +Prs +Prt +Prf 
 +Ind +Imp +Cond +Pot
@@ -33,37 +36,77 @@ Multichar_Symbols
 +Prop +Ani +Mal +Fem +Sur +Plc +Org +Obj ! Semantic properties of names
 
 !+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
-  %>
-  %^DI 
+  %^WG	!weak grade
+  %>	!palatal mark deletion
+  %^CLDPAL !cluster depalatalization
+  
+  %^DI	!?palatalization
   %^1VOW %^2VOW %^3VOW %^4VOW %^5VOW %^VOWSH
-  %^WG %^EPHV 
+  %^EPHV 
 
 
 ! Key lexicon
 
 LEXICON Root
 
-Noun ;
-Propernoun ;
-Verb ;
 Adjective ;
 Adverb ;
 Conjunction ;
-Subjunction ;
 Interjection ;
+Noun ;
 Numeral ;
-Pronoun ;
-Postposition ;
-Punctuation ;
 Particle ;
+Postposition ;
+Pronoun ;
+Propernoun ;
+Punctuation ;
+Subjunction ;
+Verb ;
 
 
 ! =========
-! Inflection !
+! Inflection
+! =========
 
+! ---------
+! Adjective inflection
+!----------
+
+LEXICON A1
++A:	#		;
++A:	PredPl ;
+
+LEXICON A2
++A: Attr ;
++A: PredSg ; 
+
+LEXICON A3
++A:%^WG Attr ;
++A+Pred: # ;
++A: PredPl ;
+
+LEXICON Attr
++Attr:%>есь K ;
+
+LEXICON PredSg
++Pred:%^CLDPALэ K ; !I have to check if PRED is always depalatalized
+
+LEXICON PredPl
++Pred+Pl:%^WG K ;
+
+! ---------
+! Verb inflection
+! ---------
+
+LEXICON Aux !this is later to be resolved as one V-class
+
++V+Aux+Prs+Sg1:ля̄ K ;
++V+Aux+Prs+Sg2:ля̄к K ;
++V+Aux+Prs+Sg3:лӣ K ;
+
+! ---------
 ! Noun inflection
-! ===============
-
+! ---------
 
 LEXICON 1DA !"1st class", non-palatalized geminate, no ablaut/umlaut, palatalization in Ill.Sg
 
@@ -134,7 +177,7 @@ LEXICON 4DА
 +N+Sg+Ill:%^DI%>а K ;		 ! Дат.-напр
 +N+Sg+Ela:%^WG%>ха K ;		 ! Лишит.
 +N+Sg+Com:%^WG%>энѣ K ;		 ! Совм.
-%+N+Par:%>ко K ;			 ! Not in Kuruch
++N+Par:%>ко K ;			 ! Not in Kuruch
 
 +N+Pl+Nom:%^WG K ;			 ! Им.
 +N+Pl+Acc:%^WG%>этѣ K ;		 ! Вин.
@@ -156,7 +199,7 @@ LEXICON SgGenAccSuf
 +Sg+Acc: K ;		 ! Вин.
 
 LEXICON EssSuf
-+Ess:%>энѣ K ;		 ! Превр.
++Ess:%>энѣ K ;		 ! Превр. !check here and elsewhere whether the palatal-mark-deletion-rule is really needed here (it's already included above)
 
 LEXICON ParSuf
 +Par:%>э K ;		 ! Парт.
