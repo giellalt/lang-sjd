@@ -20,22 +20,35 @@
 
 Alphabet
   а А ӓ Ӓ а̄ А̄ б Б в В г Г д Д 
-  е Е ё Ё е̄ Е̄ ё̄ Ё̄ ж Ж з З һ Һ 
+  е Е ё Ё е̄ Е̄ ё̄ Ё̄ ж Ж з З һ Һ
+  !һк ҺК гк ГК !test
   и И ӣ Ӣ й Й ј Ј к К л Л ӆ Ӆ 
   м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ о О о̄ О̄ 
   п П р Р ҏ Ҏ с С т Т у У ӯ Ӯ 
   ф Ф х Х ц Ц ч Ч ш Ш щ Щ ъ Ъ 
   ы Ы ь Ь ҍ Ҍ э Э ӭ Ӭ э̄ Э̄ ю Ю 
   ю̄ Ю̄ я Я я̄ Я̄ 
-!  сс:з сс
-  %´:0 %,:%´ %>:0
-  %^1VOW:0 %^2VOW:0 %^3VOW:0 %^4VOW:0 %^5VOW:0 %^VOWSH:0
-  %^WG:0 %^EPHV:0 %^DI:0 ;
+! сс:с vs. сс:з (last one is already defined as a rule below)
+  %´:0 
+  %,:%´ 
+  %>:0
+  %^1VOW:0 
+  %^2VOW:0 
+  %^3VOW:0 
+  %^4VOW:0 
+  %^5VOW:0 
+  %^VOWSH:0
+  %^WG:0 
+  %^EPHV:0 
+  %^DI:0
+  %^CLDPAL:0 ;
 
 Sets
  C  = б Б в В г Г д Д ж Ж з З һ Һ й Й ј Ј к К л Л ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ п П р Р ҏ Ҏ с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ ;
  V  = а А ӓ Ӓ а̄ А̄ е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э ӭ Ӭ э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;
- Marks = ъ Ъ ь Ь ҍ Ҍ ;
+ PALMARK = ь Ь ҍ Ҍ ;
+ VPLOS = г Г ;
+ VLPLOS = к К ;
  PALCON = й Й ј Ј ч Ч ; ! can only by followed by PALVOW !so-called "palatalized C"
  PALVOW = е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ; !so-called "palatalized V"
  HPLVOW = ӓ Ӓ ӭ Ӭ ; !so-called "half-palatalized V"
@@ -45,40 +58,46 @@ Sets
 
 
 !Definitions
-!;
+!,
 
 Rules
-
-!"Quantitative CG"
-! Cx:0 <=> Cx _ (ь:) (C) %^WG:0 ;
-!      where Cx in ( в ж з й л м н ӈ р с ф х ш ) ; 
 
 "Qualitative CG1a" !this rule doesn't work yet
 Cx:0 <=> _ Cx: (ь:) %^WG:0 ;
       where Cx in ( с ) ;
 
-"Qualitative CG1b" !this rule doesn't work yet
+"Qualitative CG1b xx:y" !сс : з
 Cx:Cy <=> Cx: _ (ь:) %^WG:0 ;
       where Cx in ( с )
             Cy in ( з ) 
       matched ;
 
+"Preaspiration" !һк : гк
+һ:Cy <=> _ Cx: (PALMARK:) %^WG:0 ;
+      where Cx in ( к )
+            Cy in ( г ) 
+      matched ;
+
+"Palatalization: Clusters ллк : лльк, etc."
+  PALMARK:0 <=> [ л ] _ Cx %^CLDPAL:0 ;
+			where Cx in ( к ) ;
+
 "Quantitative CG"
- Cy:0 <=> Cx _ (ь:) %^WG:0 ;
+ Cy:0 <=> Cx _ (PALMARK:) %^WG:0 ;
       where Cx in ( в ж з й л м н ӈ р ф х ш )
             Cy in ( в ж з й л м н ӈ р ф х ш ) 
       matched ; 
       
-"Quantitative CG 2-Cns Cluster"
- Cy:0 <=> Cx _  (ь:) %^WG:0 ;
+"Quantitative CG 2-Cns Cluster" !e.g. ?ма̄дт : ма̄д, ?ма̄дтҍ : ма̄дҍ
+ Cy:0 <=> Cx _  (PALMARK:) %^WG:0 ;
       where Cx in ( б г д )  
             Cy in ( п к т )
       matched ;
 
-"Quantitative CG 3-Cns Cluster"
- Cx:0 <=> Cx _ Cy (ь:) %^WG:0 ;
-      where Cx in ( р )  
-            Cy in ( н )
+"Quantitative CG hard 3-Cns Cluster" !e.g. са̄ррн : са̄рн 
+ Cx:0 <=> Cx _ Cy (PALMARK:) %^WG:0 ;
+      where Cx in ( л й м р )  
+            Cy in ( к в ч н )
       matched ;
 
 "Epenthetic vowel deletion"
@@ -93,7 +112,6 @@ Vx:Vy <=> ь: ( Dummy:0 ) %>:0 _ ;
 
 "Palatal Mark Deletion"
  ь:0 <=> C: _ (Dummy:) %>:0 [ :я | :Я | :е | :Е | :и | :И | :ё | :Ё | :ю | :Ю ] ;
-
-
+ 
 "ue Diphtongisation"
 э:а <=> у _ C:*  %^DI:0  ;
