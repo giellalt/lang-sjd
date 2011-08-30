@@ -16,18 +16,16 @@ LEXICON Noun !ЛЕКСИКОН существительное
 
 ! класса I
 
-шэ̄ӈӈ        1DA "шторм, буря, ураган" ;
+шэ̄ӈӈ        1DA "шторм | буря | ураган" ;
 ыйй         1DA   "ночь" ;
 ылл         1DA    "уголь" ;
 мӯрр         1DA "дерево" ;
 ме̄рр         1DA "море / sea | ocean"               ;
 пя̄йвнэгк     1DA "солнечная погода / sunny weather" ;
 кӯсс         1DA "ель / fir | spruce"       ;
-
-кӣдт         1DB "рука" ;
-
+чувв	1DA "svet / light" ;
 ыгкь        1DA   "год" ;
-!кӯлль        1DA "рыба / fish" ; ! lang u
+!кӯлль        1DA "рыба / fish" ; ! lang u->ue
 !аджь         1DA "отец / father"			   ;
 !на̄һпь        1DA "чашка / cup"			   ; ! spelling variant на̄ххьп (in Kert 1986 [and the Aнтонова system])
 !пуадтмушш    1DA "приход / arrival"		   ; !only the productive DerSx -мушш should be listed
@@ -35,7 +33,7 @@ LEXICON Noun !ЛЕКСИКОН существительное
 ка̄ррь         1DA "посуда" ;
 кēджь          1DA "конец"  ;
 
-
+кӣдт         1DB "рука" ;
 
 ! 2. declension (class 2) ! like 1. decl., but with C-clusters
 на̄ввьт       2D "зверь / wild animal | (wild) beast" ;
