@@ -109,8 +109,17 @@ Vx:Vy <=> ь: ( Dummy:0 ) %>:0 _ ;
             Vy in ( я Я е Е ю Ю ) 
       matched ;
 
+!===
+!WiP
 "Palatal Mark Deletion"
- ь:0 <=> C: _ (Dummy:) %>:0 [ :я | :Я | :е | :Е | :и | :И | :ё | :Ё | :ю | :Ю ] ;
+ PALMARK:0 <=> C: _ (Dummy:) %>:0 [ :я | :Я | :е | :Е | :и | :И | :ё | :Ё | :ю | :Ю ] ;
+!===
+
+!===
+!old rule written by Trond to be replaced with a rule for both ь+ҍ
+!"Palatal Mark Deletion"
+! ь:0 <=> C: _ (Dummy:) %>:0 [ :я | :Я | :е | :Е | :и | :И | :ё | :Ё | :ю | :Ю ] ;
+!===
  
 "ue Diphtongisation"
 э:а <=> у _ C:*  %^DI:0  ;
