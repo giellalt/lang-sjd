@@ -85,6 +85,10 @@ LEXICON A3
 +A+Pred: # ;
 +A: PredPl ;
 
+LEXICON A4
++A:%^WGас K ;
++A+Pred+Pl:ас K ;
+
 LEXICON Attr
 +Attr:%>есь K ;
 
@@ -98,11 +102,7 @@ LEXICON PredPl
 ! Verb inflection
 ! ---------
 
-LEXICON Aux !this is later to be resolved as one V-class
-
-+V+Aux+Prs+Sg1:ля̄ K ;
-+V+Aux+Prs+Sg2:ля̄к K ;
-+V+Aux+Prs+Sg3:лӣ K ;
+!
 
 ! ---------
 ! Noun inflection
