@@ -16,25 +16,42 @@
 LEXICON Adjective
 
 A1  ; !similar forms for pred (number infl, except loan adj on -e) and attr
+!A1b ; COMPARATIVE -я(мп)
 A2  ; !"2nd ADJ class" with (?DEPAL)-e for PRED (no number infl) and PAL-es' for ATTR; the stem, which is also the base form for several verbal derivations, is given here due to morphological consistency, although this is not consistent with the lexical dict entries of these adjectives
-A3  ; !"3rd ADJ class" with -Ø for PRED (number infl) and PAL-es' for ATTR
+A3  ; !"3rd ADJ class" with STR-Ø for PRED (number infl) and WK/PAL-es' for ATTR
+A4 ; !"4th ADJ class" with WK-as for PRED (number infl) and WK-as for ATTR
 
 нӯрр 	A1  "молодой / young" ;
 шӯрр    A1  "большой / big" ;
 э̄лл    A1  "высокий / high" ; !this adj varies as to its class membership
 ӣййв    A1 ;
-!ӣввьй   A1 ; gradation rule has to be written in twol
+о̄дт A1 "new" ;
+!-мусс A1 "SUPERL" ;
+!ӣввьй   A1 ; !gradation rule has to be written in twol
 
-!loan adjectives of A1 class
-!активнэ A1 "акивный / active" ;
-!безударнэ A1 "безударный" ;
+!-а(мп) COMPARATIVE1
+
+!поасс A1b "злой" поассъя(мп)
+!-я(мп) COMPARATIVE2 
 
 вӣлльк A2 "белый / white" ;
 э̄лл A2  "высокий / high" ; !this adj varies as to its class membership
 чувв A2 "светлый / light" ;
 руччк A2 "жёлтый / yellow" ;
+!сӯбпь A2 "мягкий" ; !сӯбпэ
+!рӯппьсесь "красный" ;
 !мо̄джь A2 "красивый / beautiful" ; ?мо̄дже
 !ко̄ммьтесь A2 "широкый / broad" ; ко̄ммтэ sg : ?коамьт pl?
+!вӯгк A2 "густый" ; !-есь -э
+!-та(мп) COMPARATIVE
 
 куһкь A3 "long" ;
 луэммч A3 "слабый / weak" ;
+роадтҍ A3 "некрасивый" ;!роадӭсь
+
+вӯгк A4 "дешёвый" ; !predsg вӯгас : predpl вӯгкас
+роавв A4 "крепкий";
+
+!loan adjectives (like A1 class except missing number inflection in PRED)
+!активнэ A5 "акивный / active" ;
+!безударнэ A1 "безударный" ;
