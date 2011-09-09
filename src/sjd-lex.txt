@@ -257,8 +257,8 @@ LEXICON PlComSuf
 ! =============== !
 
  
-LEXICON 1_EPH
-:%^EPHV    1 ;
+!LEXICON 1_EPH
+!:%^EPHV    1 ;
 
 LEXICON 1
 +V+Inf:%>э  # ; 
