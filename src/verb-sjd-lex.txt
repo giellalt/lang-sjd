@@ -16,7 +16,7 @@
 LEXICON Verb
 
 Neg ;
-Aux	;
+!Aux	;
 
 LEXICON Neg
 
