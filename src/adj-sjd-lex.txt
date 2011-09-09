@@ -44,6 +44,8 @@ A4 ; !"4th ADJ class" with WK-as for PRED (number infl) and WK-as for ATTR
 !ко̄ммьтесь A2 "широкый / broad" ; ко̄ммтэ sg : ?коамьт pl?
 !вӯгк A2 "густый" ; !-есь -э
 !-та(мп) COMPARATIVE
+чуввь A2 ;
+чуввҍ A2 ;
 
 куһкь A3 "long" ;
 луэммч A3 "слабый / weak" ;
