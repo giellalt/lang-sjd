@@ -35,6 +35,8 @@ LEXICON Noun !ЛЕКСИКОН существительное
 
 кӣдт         1DB "рука" ;
 
+
+
 ! 2. declension (class 2) ! like 1. decl., but with C-clusters
 на̄ввьт       2D "зверь / wild animal | (wild) beast" ;
 ля̄ммт        2D "лес / forrest | wood(s)" ;
