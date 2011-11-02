@@ -1,4 +1,4 @@
-! Divvun & Giellatekno - open source grammars for Sámi and other languages
+!! Divvun & Giellatekno - open source grammars for Sámi and other languages
 ! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
@@ -15,6 +15,9 @@
 ! Converting sjd number words into arabic numerals
 ! and vice versa.
 
+Multichar_Symbols
+
+  +Use/NG 
 
 LEXICON Root
 HUNDREDSM ;		! 200M
@@ -33,11 +36,14 @@ ONEST ;			! 2000-9999
 UNDERTHOUSAND ;		! 100-999
 TENS ;			! 20-99
 TEENS ;			! 10-19
-ONES ;			! 1-9
+CARDINAL ;		  ! 1-9
+OTHERORDINALS ;   ! 2.-9.
+AVTMUSS ;         ! 1. the isolated first.
 
 LEXICON HUNDREDSM
-кӯһт% :2  CUODIM ; ! combined u + macron
-кӯһт% :2  CUODIM ; ! precomposed
+кӯххт% :2  CUODIM ;
+кӯһт% +Use/NG:2  CUODIM ; ! combined u + macron
+кӯһт% +Use/NG:2  CUODIM ; ! precomposed
 ко̄ллм% :3 CUODIM ;
 не̄лльй% :4 CUODIM ;
 выдт% :5 CUODIM ;
@@ -135,7 +141,7 @@ LEXICON HUNDREDST
 аххц% :9 CUODIT ;	! 900000-999999
 
 LEXICON CUODIT
-чӯдтҍ% : HUNDREDT ;	! 100000-199999
+чӯдҍ% : HUNDREDT ;	! 100000-199999
 
 LEXICON HUNDREDT	! X = 1-9, Y = 0-9
 TENST ;			! X2XYYY, X10YYY
@@ -208,9 +214,9 @@ UNDERTHOUSAND ;	   ! 1100-1999
 !===========================
 
 LEXICON UNDERTHOUSAND
-HUNDREDS ;
 чӯдтҍ% :1 HUNDRED ;
 чӯдтҍ% :1 HUNDRED ;
+HUNDREDS ;
 
 LEXICON HUNDREDS
 кӯһт% :2  CUODI ;
@@ -224,8 +230,8 @@ LEXICON HUNDREDS
 аххц% :9 CUODI ;
 
 LEXICON CUODI
-чӯдтҍ% : HUNDRED ;
-чӯдтҍ% : HUNDRED ;
+чӯдҍ% : HUNDRED ;
+чӯдҍ% : HUNDRED ;
 
 LEXICON HUNDRED
 TENS ;
@@ -256,24 +262,31 @@ LEXICON LOHKAIJE
 
 LEXICON TENS
 лоагкь:1%0 # ;
-кӯһт% :2 LOGI ;
-кӯһт% :2 LOGI ;
-ко̄ллм% :3 LOGI ;
-не̄лльй% :4 LOGI ;
-выдт% :5 LOGI ;
-кудт% :6 LOGI ;
-кыджемь% :7 LOGI ;
-ка̄ххц% :8 LOGI ;
-аххц% :9 LOGI ;
+лоагант:1%0%. # ; 
+кӯһт:2 LOGI ;
+кӯһт:2 LOGI ;
+ко̄ллм:3 LOGI ;
+не̄лльй:4 LOGI ;
+выдт:5 LOGI ;
+кудт:6 LOGI ;
+кыджемь:7 LOGI ;
+ка̄ххц:8 LOGI ;
+аххц:9 LOGI ;
 
 LEXICON LOGI
 лоагкь:%0 # ;
 лоагкь% : ONES ;
 
+
 LEXICON ONES
+CARDINAL ;
+ORDINAL ;
+
+LEXICON CARDINAL
 э̄ххт:1 # ;
-кӯһт:2 # ;
-кӯһт:2 # ;
+кӯххт:2 # ;
+кӯһт+Use/NG:2 # ;
+кӯһт+Use/NG:2 # ;
 ко̄ллм:3 # ;
 не̄лльй:4 # ;
 выдт:5 # ;
@@ -281,4 +294,34 @@ LEXICON ONES
 кыджемь:7 # ;
 ка̄ххц:8 # ;
 аххц:9 # ;
+
+
+LEXICON ORDINAL		   ! sme, fix
+авьтма:1%.     # ;   ! sme, fix
+OTHERORDINALS ;
+
+LEXICON OTHERORDINALS
+ныммьп:2%.   # ;	   ! sme, fix
+куалмант:3%.   # ;	   ! sme, fix
+ня̄льянт:4%. # ;	       ! sme, fix
+выдант:5%.   # ;	   ! sme, fix
+кудант:6%.   # ;	   ! sme, fix
+кыджянт:7%.    # ;	   ! sme, fix
+ка̄хцант:8%.   # ;	   ! sme, fix
+ахцант:9%.    # ;	   ! sme, fix
+
+LEXICON AVTMUSS
+авьтмусс:1%.     # ;   ! sme, fix
+
+! LEXICON ONES
+! э̄ххт:1 # ;
+! кӯһт:2 # ;
+! кӯһт:2 # ;
+! ко̄ллм:3 # ;
+! не̄лльй:4 # ;
+! выдт:5 # ;
+! кудт:6 # ;
+! кыджемь:7 # ;
+! ка̄ххц:8 # ;
+! аххц:9 # ;
 
