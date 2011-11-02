@@ -12,13 +12,13 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-! ==================== !
-! The North Sámi dates !
-! ==================== !
+! ===================== !
+! The Kildin Sámi dates !
+! ===================== !
 
 
 ! 12.8.
-! Borgemánu guoktenuppelot beaivi
+! поаррькманн кӯххтэмплоагант пе̄ййв
 
 Multichar_Symbols
 
@@ -38,62 +38,63 @@ Multichar_Symbols
 
 LEXICON Root
 
- @U.MONTH.1@:uđđâivemáánu% @U.MONTH.1@   31DAYS ;
- @U.MONTH.2@:kuovâmáánu% @U.MONTH.2@     29DAYS ;
- @U.MONTH.3@:njuhčâmáánu% @U.MONTH.3@     31DAYS ;
- @U.MONTH.4@:cuáŋuimáánu% @U.MONTH.4@      30DAYS ;
- @U.MONTH.5@:vyesimáánu% @U.MONTH.5@     31DAYS ;
- @U.MONTH.6@:kesimáánu% @U.MONTH.6@     30DAYS ;
- @U.MONTH.7@:syeinimáánu% @U.MONTH.7@    31DAYS ;
- @U.MONTH.8@:porgemáánu% @U.MONTH.8@      31DAYS ;
-@U.MONTH.9@:čohčâmáánu% @U.MONTH.9@     30DAYS ;
- @U.MONTH.10@:roovvâdmáánu% @U.MONTH.10@    31DAYS ;
-@U.MONTH.11@:skammâmáánu% @U.MONTH.11@    30DAYS ;
-@U.MONTH.12@:juovlâmáánu% @U.MONTH.12@    31DAYS ;
+ @U.MONTH.1@:о̄дтыгьманн% @U.MONTH.1@      31DAYS ;
+ @U.MONTH.2@:по̄рркманн% @U.MONTH.2@       29DAYS ;
+ @U.MONTH.3@:нюххчманн% @U.MONTH.3@       31DAYS ;
+ @U.MONTH.4@:кӯньтхемьманн% @U.MONTH.4@   30DAYS ;
+ @U.MONTH.5@:кыдтманн% @U.MONTH.5@        31DAYS ;
+ @U.MONTH.6@:ке̄ссьманн% @U.MONTH.6@       30DAYS ;
+ @U.MONTH.7@:сӯйнкоссэманн% @U.MONTH.7@   31DAYS ;
+ @U.MONTH.7@:сӯйнманн+Use/NG% @U.MONTH.7@ 31DAYS ;
+ @U.MONTH.8@:поаррькманн% @U.MONTH.8@     31DAYS ;
+ @U.MONTH.9@:че̄ххчманн% @U.MONTH.9@        30DAYS ;
+ @U.MONTH.10@:рэ̄гкэмманн% @U.MONTH.10@    31DAYS ;
+ @U.MONTH.11@:ӣӈӈманн% @U.MONTH.11@        30DAYS ;
+ @U.MONTH.12@:та̄лльвманн% @U.MONTH.12@     31DAYS ;
 
 
 LEXICON 29DAYS
-1:vuosttaš% 		     B ;
-2:nubbi% 			     B ;
-3:goalmmát% 		     B ;
-4:njealját% 		     B ;
-5:viđát% 			     B ;
-6:guđát% 			     B ;
-7:čihččet% 			     B ;
-8:gávccát% 			     B ;
-9:ovccát% 			     B ;
-1%0:logát% 			     B ;
-11:oktanuppelogát% 	     B ;
-12:guoktenuppelogát%     B ;
-13:golbmanuppelogát%     B ;
-14:njealljenuppelogát%   B ;
-15:vihttanuppelogát%     B ;
-16:guhttanuppelogát%     B ;
-17:čiežanuppelogát%      B ;
-18:gávccinuppelogát%     B ;
-19:ovccinuppelogát%      B ;
-2%0:guoktelogát% 	     B ;
-21:guoktelogivuosttaš%   B ;
-22:guokteloginubbi%      B ;
-23:guoktelogigoalmmát%   B ;
-24:guokteloginjealját%   B ;
-25:guoktelogiviđát%      B ;
-26:guoktelogiguđát%      B ;
-27:guoktelogičihččet%    B ;
-28:guoktelogigávccát%    B ;
-29:guoktelogiovccát%     B ;
+1:авьтмусс% 		     B ;
+2:ныммьп% 			     B ;
+3:куалмант% 		     B ;
+4:ня̄льянт% 		         B ;
+5:выдант% 			     B ;
+6:кудант% 			     B ;
+7:кыджянт% 			     B ;
+8:ка̄хцант% 			     B ;
+9:ахцант% 			     B ;
+1%0:лоагант% 		     B ;
+11:э̄ххтэмплоагант% 	     B ;
+12:кӯххтэмплоагант%      B ;
+13:ко̄ллмэмплоагант%      B ;
+14:не̄лльемплоагант%      B ;
+15:выдтэмплоагант%       B ;
+16:кудтэмплоагант%       B ;
+17:кыджемплоагант%       B ;
+18:ка̄ххцэмплоагант%      B ;
+19:аххцэмплоагант%       B ;
+2%0:кӯххтлоагант% 	     B ;
+21:кӯххтлоагкьа̄вьтма%   B ;
+22:кӯххтлоагкьныммьп%   B ;
+23:кӯххтлоагкькуалмант% B ;
+24:кӯххтлоагкьня̄льянт%  B ;
+25:кӯххтлоагкьвыдант%   B ;
+26:кӯххтлоагкькудант%   B ;
+27:кӯххтлоагкькыджянт%  B ;
+28:кӯххтлоагкька̄хцант%  B ;
+29:кӯххтлоагкьахцант%   B ;
 
 LEXICON 30DAYS
-3%0:golbmalogát% 	     B ;
+3%0:ко̄ллмлоагант% 	     B ;
 29DAYS ;
 
 LEXICON 31DAYS
-31:golbmalogivuosttaš%   B ;
+31:ко̄ллмлоагкь а̄вьтма%   B ;
 30DAYS ;
 
 
 LEXICON B
-%.:peeivvi%  MONTH ;
+%.:пе̄ййв%  MONTH ;
 
 LEXICON MONTH
    1@U.MONTH.1@:@U.MONTH.1@   X ;
