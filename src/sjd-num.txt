@@ -21,12 +21,12 @@ Multichar_Symbols
 
 LEXICON Root
 HUNDREDSM ;		! 200M
-чӯдтҍ% :1 HUNDREDM ;	! 100M
+чӯдтҍ% :1 HUNDREDM ;	! 100M
 TENSM ;			! 20-99M
 TEENSM ;		! 10-19M
 ONESM ;			! 1-9M
 HUNDREDST ;		! 200000-999999
-чӯдтҍ% :1 HUNDREDT ;	! 100000-100999 чӯдтҍ
+чӯдтҍ% :1 HUNDREDT ;	! 100000-100999 чӯдтҍ
 TENST ;			! 20000-99999,10000-10999
 TEENST ;		! 11000-19999
 ONEST ;			! 2000-9999
@@ -40,7 +40,7 @@ AVTMUSS ;         ! 1. the isolated first.
 
 LEXICON HUNDREDSM
 кӯххт% :2  CUODIM ;
-кӯһт% +Use/NG:2  CUODIM ; ! combined u + macron
+кӯһт% +Use/NG:2  CUODIM ;
 ко̄ллм% :3 CUODIM ;
 не̄лльй% :4 CUODIM ;
 выдт% :5 CUODIM ;
@@ -50,7 +50,7 @@ LEXICON HUNDREDSM
 аххц% :9 CUODIM ;
 
 LEXICON CUODIM
-чӯдтҍ% : HUNDREDM ;
+чӯдтҍ% : HUNDREDM ;
 
 LEXICON HUNDREDM
 TENSM ;
@@ -63,8 +63,8 @@ LEXICON TEENSM
 
 LEXICON TEENM
 э̄ххт% :1 LOHKAIM ;
-кӯххт% +Use/NG:2 LOHKAIM ; ! combined u + macron
-кӯһт% :2 LOHKAIM ; ! combined u + macron
+кӯххт% +Use/NG:2 LOHKAIM ;
+кӯһт% :2 LOHKAIM ;
 ко̄ллм% :3 LOHKAIM ;
 не̄лльй% :4 LOHKAIM ;
 выдт% :5 LOHKAIM ;
@@ -78,8 +78,8 @@ LEXICON LOHKAIM
 
 LEXICON TENSM
 лоагкь% :1%0 MILJON ;
-кӯххт% :2 LOGIM ;
-кӯһт% +Use/NG:2 LOGIM ;
+кӯххт% :2 LOGIM ;
+кӯһт% +Use/NG:2 LOGIM ;
 ко̄ллм% :3 LOGIM ;
 не̄лльй% :4 LOGIM ;
 выдт% :5 LOGIM ;
@@ -94,8 +94,8 @@ LEXICON LOGIM
 
 LEXICON ONESM
 миллион% :1 OVERTHOUSANDS ;
-кӯххт% :2 MILJON ;
-кӯһт% +Use/NG:2 MILJON ;
+кӯххт% :2 MILJON ;
+кӯһт% +Use/NG:2 MILJON ;
 ко̄ллм% :3 MILJON ;
 не̄лльй% :4 MILJON ;
 выдт% :5 MILJON ;
@@ -113,7 +113,7 @@ LEXICON MILJON
 
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		! x00.000.000
-чӯдтҍ% :1 HUNDREDT ;	! 100.000.000
+чӯдтҍ% :1 HUNDREDT ;	! 100.000.000
 :%0 TENST ;		!  20.000.000
 :%0 TEENST ;		!  10.000.000
 :%0%0 ONEST ;		!   2.000.000
@@ -125,8 +125,8 @@ HUNDREDST ;		! x00.000.000
 :%0%0%0%0%0%0 # ;	!  x000000
 
 LEXICON HUNDREDST
-кӯххт% :2  CUODIT ;	! 200000-299999
-кӯһт% +Use/NG:2  CUODIT ;	! 200000-299999
+кӯххт% :2  CUODIT ;	! 200000-299999
+кӯһт% +Use/NG:2  CUODIT ;	! 200000-299999
 ко̄ллм% :3 CUODIT ;	! 300000-399999
 не̄лльй% :4 CUODIT ;	! 400000-499999
 выдт% :5 CUODIT ;	! 500000-599999
@@ -151,8 +151,8 @@ LEXICON TEENST
 LEXICON TEENT
 лоагкь% :%0 THOUSANDS ;
 э̄ххт% :1 LOHKAITE ;
-кӯххт% :2 LOHKAITE ;
-кӯһт% +Use/NG:2 LOHKAITE ;
+кӯххт% :2 LOHKAITE ;
+кӯһт% +Use/NG:2 LOHKAITE ;
 ко̄ллм% :3 LOHKAITE ;
 не̄лльемплоагкь% :4 THOUSANDS ;
 выдт% :5 LOHKAITE ;
@@ -168,8 +168,8 @@ LEXICON LOHKAITJE
 емплоагкь% : THOUSANDS ;
 
 LEXICON TENST
-кӯххтлоагкь% :2 LOGIT ;
-кӯһтлоагкь% +Use/NG:2 LOGIT ;
+кӯххтлоагкь% :2 LOGIT ;
+кӯһтлоагкь% +Use/NG:2 LOGIT ;
 ко̄ллмлоагкь% :3 LOGIT ;
 не̄лльйлоагкь% :4 LOGIT ;
 выдтлоагкь% :5 LOGIT ;
@@ -184,8 +184,8 @@ LEXICON LOGIT
 ONEST ;
 
 LEXICON ONEST
-кӯххт% :2 THOUSANDS ;
-кӯһт% +Use/NG:2 THOUSANDS ;
+кӯххт% :2 THOUSANDS ;
+кӯһт% +Use/NG:2 THOUSANDS ;
 ко̄ллм% :3 THOUSANDS ;
 не̄лльй% :4 THOUSANDS ;
 выдт% :5 THOUSANDS ;
@@ -209,12 +209,12 @@ UNDERTHOUSAND ;	   ! 1100-1999
 !===========================
 
 LEXICON UNDERTHOUSAND
-чӯдтҍ% :1 HUNDRED ;
+чӯдтҍ% :1 HUNDRED ;
 HUNDREDS ;
 
 LEXICON HUNDREDS
-кӯххт% :2  CUODI ;
-кӯһт% +Use/NG:2  CUODI ;
+кӯххт% :2  CUODI ;
+кӯһт% +Use/NG:2  CUODI ;
 ко̄ллм% :3 CUODI ;
 не̄лльй% :4 CUODI ;
 выдт% :5 CUODI ;
@@ -224,7 +224,7 @@ LEXICON HUNDREDS
 аххц% :9 CUODI ;
 
 LEXICON CUODI
-чӯдҍ% : HUNDRED ;
+чӯдҍ% : HUNDRED ;
 
 LEXICON HUNDRED
 TENS ;
@@ -237,8 +237,8 @@ LEXICON TEENS
 
 LEXICON TEEN
 э̄ххт:1 LOHKAIE ;
-кӯххт:2 LOHKAIE ;
-кӯһт+Use/NG:2 LOHKAIE ;
+кӯххт:2 LOHKAIE ;
+кӯһт+Use/NG:2 LOHKAIE ;
 ко̄ллм:3 LOHKAIE ;
 не̄лльемплоагкь:4 # ;
 выдт:5 LOHKAIE ;
@@ -256,8 +256,8 @@ LEXICON LOHKAIJE
 LEXICON TENS
 лоагкь:1%0 # ;
 лоагант:1%0%. # ; 
-кӯххт:2 LOGI ;
-кӯһт+Use/NG:2 LOGI ;
+кӯххт:2 LOGI ;
+кӯһт+Use/NG:2 LOGI ;
 ко̄ллм:3 LOGI ;
 не̄лльй:4 LOGI ;
 выдт:5 LOGI ;
@@ -277,8 +277,8 @@ ORDINAL ;
 
 LEXICON CARDINAL
 э̄ххт:1 # ;
-кӯххт:2 # ;
-кӯһт+Use/NG:2 # ;
+кӯххт:2 # ;
+кӯһт+Use/NG:2 # ;
 ко̄ллм:3 # ;
 не̄лльй:4 # ;
 выдт:5 # ;
@@ -307,7 +307,7 @@ LEXICON AVTMUSS
 
 ! LEXICON ONES
 ! э̄ххт:1 # ;
-! кӯһт:2 # ;
+! кӯһт:2 # ;
 ! кӯһт:2 # ;
 ! ко̄ллм:3 # ;
 ! не̄лльй:4 # ;
