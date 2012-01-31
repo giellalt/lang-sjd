@@ -1,528 +1,119 @@
 Config:
   hfst:
-    Gen: smn/bin/ismn.hfst
-    Morph: smn/bin/smn.hfst
+    Gen: sjd/bin/isjd.hfst
+    Morph: sjd/bin/sjd.hfst
   xerox:
-    Gen: smn/bin/ismn.fst
-    Morph: smn/bin/smn.fst
+    Gen: sjd/bin/isjd.fst
+    Morph: sjd/bin/sjd.fst
     App: lookup
 
-Tests
-  Noun - шэ̄ӈӈ: 
-    sollâ+N+Sg+Nom: 
-    sollâ+N+Sg+Gen: 
-    sollâ+N+Sg+Ill: 
-    sollâ+N+Sg+Loc: 
-    sollâ+N+Sg+Com: 
-    sollâ+N+Ess: 
-    sollâ+N+Pl+Abe: 
-    
 
-  Noun - ыйй: 
-    kielâ+N+Sg+Nom: 
-    kielâ+N+Sg+Gen: 
-    kielâ+N+Sg+Ill: 
-    kielâ+N+Sg+Loc: 
-    kielâ+N+Sg+Com: 
-    kielâ+N+Ess: 
-    kielâ+N+Pl+Abe: 
- 
-  Noun - ылл: 
-    vuoli+N+Sg+Nom: 
-    vuoli+N+Sg+Gen: 
-    vuoli+N+Sg+Ill: 
-    vuoli+N+Sg+Loc: 
-    vuoli+N+Sg+Com: 
-    vuoli+N+Ess: 
-    vuoli+N+Pl+Abe: 
- 
-  Noun - мӯрр: 
-    šaalu+N+Sg+Nom: 
-    šaalu+N+Sg+Gen: 
-    šaalu+N+Sg+Ill: 
-    šaalu+N+Sg+Loc: 
-    šaalu+N+Sg+Com: 
-    šaalu+N+Ess: 
-    šaalu+N+Pl+Abe: 
- 
+Tests:
+  Noun - кӯлль: # I
+    кӯлль+N+Sg+Nom: кӯлль
+    кӯлль+N+Sg+Acc: кӯль
+    кӯлль+N+Sg+Gen: кӯль
+    кӯлль+N+Sg+Ill: куэлла
+    кӯлль+N+Sg+Loc: кӯлесьт
+    кӯлль+N+Sg+Com: кӯленѣ
+    кӯлль+N+Sg+Ess: кӯлленѣ
+    кӯлль+N+Sg+Abe: кӯльха
+    кӯлль+N+Pl+Nom: кӯль
+    кӯлль+N+Pl+Acc: кӯлетѣ
+    кӯлль+N+Pl+Gen: кӯлетѣ
+    кӯлль+N+Pl+Ill: кӯлетѣ
+    кӯлль+N+Pl+Loc: кӯлетѣ
+    кӯлль+N+Pl+Com: кӯлегуэйм
+    кӯлль+N+Pl+Ess: кӯлегуэйм
+    кӯлль+N+Pl+Abe: кӯлеха
+
   Noun - ме̄рр: 
-    mielgâ+N+Sg+Nom: 
-    mielgâ+N+Sg+Gen: 
-    mielgâ+N+Sg+Ill: 
-    mielgâ+N+Sg+Loc: 
-    mielgâ+N+Sg+Com: 
-    mielgâ+N+Ess: 
-    mielgâ+N+Pl+Abe: 
+    ме̄рр+N+Sg+Nom: ме̄рр
+    ме̄рр+N+Sg+Acc: ме̄р
+    ме̄рр+N+Sg+Gen: ме̄р
+    ме̄рр+N+Sg+Ill: ме̄рре
+    ме̄рр+N+Sg+Loc: ме̄рэсьт
+    ме̄рр+N+Sg+Com: ме̄рэнѣ
+    ме̄рр+N+Sg+Ess: ме̄рэнѣ
+    ме̄рр+N+Sg+Abe: ме̄рха
+    ме̄рр+N+Pl+Nom: ме̄р
+    ме̄рр+N+Pl+Acc: ме̄рэтѣ
+    ме̄рр+N+Pl+Gen: ме̄рэтѣ
+    ме̄рр+N+Pl+Ill: ме̄рэтѣ
+    ме̄рр+N+Pl+Loc: ме̄рэтѣ
+    ме̄рр+N+Pl+Com: ме̄рэгуэйм
+    ме̄рр+N+Pl+Ess: ме̄рэгуэйм
+    ме̄рр+N+Pl+Abe: ме̄рэха
+
+  Noun - кӯсс: 
+    кӯсс+N+Sg+Nom: кӯсс
+    кӯсс+N+Sg+Acc: кӯз
+    кӯсс+N+Sg+Gen: кӯз
+    кӯсс+N+Sg+Ill: кӯссе
+    кӯсс+N+Sg+Loc: кӯзэсьт
+    кӯсс+N+Sg+Com: кӯзэнѣ
+    кӯсс+N+Sg+Ess: кӯссэнѣ
+    кӯсс+N+Sg+Abe: кӯзха
+    кӯсс+N+Pl+Nom: кӯз
+    кӯсс+N+Pl+Acc: кӯзэтѣ
+    кӯсс+N+Pl+Gen: кӯзэтѣ
+    кӯсс+N+Pl+Ill: кӯзэтѣ
+    кӯсс+N+Pl+Loc: кӯзэтѣ
+    кӯсс+N+Pl+Com: кӯзэгуэйм
+    кӯсс+N+Pl+Ess: кӯзэгуэйм
+    кӯсс+N+Pl+Abe: кӯзэха
+
+  Noun - на̄ххьпь: 
+    на̄ххьпь+N+Sg+Nom: на̄ххьпь
+    на̄ххьпь+N+Sg+Acc: на̄пь
+    на̄ххьпь+N+Sg+Gen: на̄пь
+    на̄ххьпь+N+Sg+Ill: на̄ххпа
+    на̄ххьпь+N+Sg+Loc: на̄песьт
+    на̄ххьпь+N+Sg+Com: ноа̄пенѣ
+    на̄ххьпь+N+Sg:Ess: на̄ххьпенѣ
+    на̄ххьпь+N+Sg+Abe: на̄пьха
+    на̄ххьпь+N+Pl+Nom: ноа̄пь
+    на̄ххьпь+N+Pl+Acc: ноа̄петѣ
+    на̄ххьпь+N+Pl+Gen: ноа̄петѣ
+    на̄ххьпь+N+Pl+Ill: ноа̄петѣ
+    на̄ххьпь+N+Pl+Loc: ноа̄петѣ
+    на̄ххьпь+N+Pl+Com: ноа̄пегуэйм
+    на̄ххьпь+N+Pl+Ess: ноа̄пегуэйм
+    на̄ххьпь+N+Pl+Abe: ноа̄пеха
  
-  Noun - пя̄йвнэгк: 
-    tullâ+N+Sg+Nom: 
-    tullâ+N+Sg+Gen: 
-    tullâ+N+Sg+Ill: 
-    tullâ+N+Sg+Loc: 
-    tullâ+N+Sg+Com: 
-    tullâ+N+Ess: 
-    tullâ+N+Pl+Abe: 
- 
-  Noun - кӯсс: 
-    tuppâ+N+Sg+Nom: 
-    tuppâ+N+Sg+Gen: 
-    tuppâ+N+Sg+Ill: 
-    tuppâ+N+Sg+Loc: 
-    tuppâ+N+Sg+Com: 
-    tuppâ+N+Ess: 
-    tuppâ+N+Pl+Abe: 
- 
-  Noun - чувв: 
-    luččâ+N+Sg+Nom: 
-    luččâ+N+Sg+Gen: 
-    luččâ+N+Sg+Ill: 
-    luččâ+N+Sg+Loc: 
-    luččâ+N+Sg+Com: 
-    luččâ+N+Ess: 
-    luččâ+N+Pl+Abe: 
- 
-  Noun - ыгкь: 
-    ruttâ+N+Sg+Nom: 
-    ruttâ+N+Sg+Gen: 
-    ruttâ+N+Sg+Ill: 
-    ruttâ+N+Sg+Loc: 
-    ruttâ+N+Sg+Com: 
-    ruttâ+N+Ess: 
-    ruttâ+N+Pl+Abe: 
- 
-  Noun - ка̄ррь: 
-    hattâ+N+Sg+Nom: 
-    hattâ+N+Sg+Gen: 
-    hattâ+N+Sg+Ill: 
-    hattâ+N+Sg+Loc: 
-    hattâ+N+Sg+Com: 
-    hattâ+N+Ess: 
-    hattâ+N+Pl+Abe: 
- 
-  Noun - кēджь: 
-    kietâ+N+Sg+Nom: 
-    kietâ+N+Sg+Gen: 
-    kietâ+N+Sg+Ill: 
-    kietâ+N+Sg+Loc: 
-    kietâ+N+Sg+Com: 
-    kietâ+N+Ess: 
-    kietâ+N+Pl+Abe: 
- 
-  Noun - кӣдт: 
-    paavuotâ+N+Sg+Nom: 
-    paavuotâ+N+Sg+Gen: 
-    paavuotâ+N+Sg+Ill: 
-    paavuotâ+N+Sg+Loc: 
-    paavuotâ+N+Sg+Com: 
-    paavuotâ+N+Ess: 
-    paavuotâ+N+Pl+Abe: 
- 
-  Noun - кӯссь: 
-    kussâ+N+Sg+Nom: 
-    kussâ+N+Sg+Gen: 
-    kussâ+N+Sg+Ill: 
-    kussâ+N+Sg+Loc: 
-    kussâ+N+Sg+Com: 
-    kussâ+N+Ess: 
-    kussâ+N+Pl+Abe: 
- 
-  Noun - пысс: 
-    kuosâ+N+Sg+Nom: 
-    kuosâ+N+Sg+Gen: 
-    kuosâ+N+Sg+Ill: 
-    kuosâ+N+Sg+Loc: 
-    kuosâ+N+Sg+Com: 
-    kuosâ+N+Ess: 
-    kuosâ+N+Pl+Abe: 
- 
-  Noun - па̄лл: 
-    pino+N+Sg+Nom: 
-    pino+N+Sg+Gen: 
-    pino+N+Sg+Ill: 
-    pino+N+Sg+Loc: 
-    pino+N+Sg+Com: 
-    pino+N+Ess: 
-    pino+N+Pl+Abe: 
- 
-  Noun - а̄шшь: 
-    ritá+N+Sg+Nom: 
-    ritá+N+Sg+Gen: 
-    ritá+N+Sg+Ill: 
-    ritá+N+Sg+Loc: 
-    ritá+N+Sg+Com: 
-    ritá+N+Ess: 
-    ritá+N+Pl+Abe: 
- 
-  Noun - пуаз: 
-    ito+N+Sg+Nom: 
-    ito+N+Sg+Gen: 
-    ito+N+Sg+Ill: 
-    ito+N+Sg+Loc: 
-    ito+N+Sg+Com: 
-    ito+N+Ess: 
-    ito+N+Pl+Abe: 
- 
-  Noun - цыза: 
-    lasa+N+Sg+Nom: 
-    lasa+N+Sg+Gen: 
-    lasa+N+Sg+Ill: 
-    lasa+N+Sg+Loc: 
-    lasa+N+Sg+Com: 
-    lasa+N+Ess: 
-    lasa+N+Pl+Abe: 
- 
-  Noun - оаб: 
-    vašo+N+Sg+Nom: 
-    vašo+N+Sg+Gen: 
-    vašo+N+Sg+Ill: 
-    vašo+N+Sg+Loc: 
-    vašo+N+Sg+Com: 
-    vašo+N+Ess: 
-    vašo+N+Pl+Abe: 
- 
-  Noun - оа̄з: 
-    spaha+N+Sg+Nom: 
-    spaha+N+Sg+Gen: 
-    spaha+N+Sg+Ill: 
-    spaha+N+Sg+Loc: 
-    spaha+N+Sg+Com: 
-    spaha+N+Ess: 
-    spaha+N+Pl+Abe: 
- 
-  Noun - оаккшэ: 
-    stihá+N+Sg+Nom: 
-    stihá+N+Sg+Gen: 
-    stihá+N+Sg+Ill: 
-    stihá+N+Sg+Loc: 
-    stihá+N+Sg+Com: 
-    stihá+N+Ess: 
-    stihá+N+Pl+Abe: 
- 
-  Noun - ылльтэ: 
-    taho+N+Sg+Nom: 
-    taho+N+Sg+Gen: 
-    taho+N+Sg+Ill: 
-    taho+N+Sg+Loc: 
-    taho+N+Sg+Com: 
-    taho+N+Ess: 
-    taho+N+Pl+Abe: 
- 
-  Noun - кнӣга: 
-    kámppá+N+Sg+Nom: 
-    kámppá+N+Sg+Gen: 
-    kámppá+N+Sg+Ill: 
-    kámppá+N+Sg+Loc: 
-    kámppá+N+Sg+Com: 
-    kámppá+N+Ess: 
-    kámppá+N+Pl+Abe: 
- 
-  Noun - чӣгар: 
-    juŋkká+N+Sg+Nom: 
-    juŋkká+N+Sg+Gen: 
-    juŋkká+N+Sg+Ill: 
-    juŋkká+N+Sg+Loc: 
-    juŋkká+N+Sg+Com: 
-    juŋkká+N+Ess: 
-    juŋkká+N+Pl+Abe: 
- 
-  Noun - коавас: 
-    teltta+N+Sg+Nom: 
-    teltta+N+Sg+Gen: 
-    teltta+N+Sg+Ill: 
-    teltta+N+Sg+Loc: 
-    teltta+N+Sg+Com: 
-    teltta+N+Ess: 
-    teltta+N+Pl+Abe: 
- 
-  Noun - ва̄нѣтэсь: 
-    asto+N+Sg+Nom: 
-    asto+N+Sg+Gen: 
-    asto+N+Sg+Ill: 
-    asto+N+Sg+Loc: 
-    asto+N+Sg+Com: 
-    asto+N+Ess: 
-    asto+N+Pl+Abe: 
- 
-  Noun - вэнс: 
-    čuhčá+N+Sg+Nom: 
-    čuhčá+N+Sg+Gen: 
-    čuhčá+N+Sg+Ill: 
-    čuhčá+N+Sg+Loc: 
-    čuhčá+N+Sg+Com: 
-    čuhčá+N+Ess: 
-    čuhčá+N+Pl+Abe: 
- 
-  Noun - нызан: 
-    sivlá+N+Sg+Nom: 
-    sivlá+N+Sg+Gen: 
-    sivlá+N+Sg+Ill: 
-    sivlá+N+Sg+Loc: 
-    sivlá+N+Sg+Com: 
-    sivlá+N+Ess: 
-    sivlá+N+Pl+Abe: 
- 
-  Noun - карънэль: 
-    cijkko+N+Sg+Nom: 
-    cijkko+N+Sg+Gen: 
-    cijkko+N+Sg+Ill: 
-    cijkko+N+Sg+Loc: 
-    cijkko+N+Sg+Com: 
-    cijkko+N+Ess: 
-    cijkko+N+Pl+Abe: 
- 
-  Noun - ке̄ресь: 
-    njamma+N+Sg+Nom: 
-    njamma+N+Sg+Gen: 
-    njamma+N+Sg+Ill: 
-    njamma+N+Sg+Loc: 
-    njamma+N+Sg+Com: 
-    njamma+N+Ess: 
-    njamma+N+Pl+Abe: 
- 
-  Noun - чӯййкэй: 
-    hellá+N+Sg+Nom: 
-    hellá+N+Sg+Gen: 
-    hellá+N+Sg+Ill: 
-    hellá+N+Sg+Loc: 
-    hellá+N+Sg+Com: 
-    hellá+N+Ess: 
-    hellá+N+Pl+Abe: 
- 
-  Noun - куаррэй: 
-    pirrá+N+Sg+Nom: 
-    pirrá+N+Sg+Gen: 
-    pirrá+N+Sg+Ill: 
-    pirrá+N+Sg+Loc: 
-    pirrá+N+Sg+Com: 
-    pirrá+N+Ess: 
-    pirrá+N+Pl+Abe: 
- 
-  Noun - кэ̄рхаллей: 
-    millo+N+Sg+Nom: 
-    millo+N+Sg+Gen: 
-    millo+N+Sg+Ill: 
-    millo+N+Sg+Loc: 
-    millo+N+Sg+Com: 
-    millo+N+Ess: 
-    millo+N+Pl+Abe: 
- 
-  Noun - sukká: 
-    sukká+N+Sg+Nom: 
-    sukká+N+Sg+Gen: 
-    sukká+N+Sg+Ill: 
-    sukká+N+Sg+Loc: 
-    sukká+N+Sg+Com: 
-    sukká+N+Ess: 
-    sukká+N+Pl+Abe: 
- 
-  Noun - mitto: 
-    mitto+N+Sg+Nom: 
-    mitto+N+Sg+Gen: 
-    mitto+N+Sg+Ill: 
-    mitto+N+Sg+Loc: 
-    mitto+N+Sg+Com: 
-    mitto+N+Ess: 
-    mitto+N+Pl+Abe: 
- 
-  Noun - čuájá: 
-    čuájá+N+Sg+Nom: 
-    čuájá+N+Sg+Gen: 
-    čuájá+N+Sg+Ill: 
-    čuájá+N+Sg+Loc: 
-    čuájá+N+Sg+Com: 
-    čuájá+N+Ess: 
-    čuájá+N+Pl+Abe: 
- 
-  Noun - čááná: 
-    čááná+N+Sg+Nom: 
-    čááná+N+Sg+Gen: 
-    čááná+N+Sg+Ill: 
-    čááná+N+Sg+Loc: 
-    čááná+N+Sg+Com: 
-    čááná+N+Ess: 
-    čááná+N+Pl+Abe: 
- 
-  Noun - ráátá: 
-    ráátá+N+Sg+Nom: 
-    ráátá+N+Sg+Gen: 
-    ráátá+N+Sg+Ill: 
-    ráátá+N+Sg+Loc: 
-    ráátá+N+Sg+Com: 
-    ráátá+N+Ess: 
-    ráátá+N+Pl+Abe: 
- 
-  Noun - siäsá: 
-    siäsá+N+Sg+Nom: 
-    siäsá+N+Sg+Gen: 
-    siäsá+N+Sg+Ill: 
-    siäsá+N+Sg+Loc: 
-    siäsá+N+Sg+Com: 
-    siäsá+N+Ess: 
-    siäsá+N+Pl+Abe: 
- 
-  Noun - riäčá: 
-    riäčá+N+Sg+Nom: 
-    riäčá+N+Sg+Gen: 
-    riäčá+N+Sg+Ill: 
-    riäčá+N+Sg+Loc: 
-    riäčá+N+Sg+Com: 
-    riäčá+N+Ess: 
-    riäčá+N+Pl+Abe: 
- 
-  Noun - čiähá: 
-    čiähá+N+Sg+Nom: 
-    čiähá+N+Sg+Gen: 
-    čiähá+N+Sg+Ill: 
-    čiähá+N+Sg+Loc: 
-    čiähá+N+Sg+Com: 
-    čiähá+N+Ess: 
-    čiähá+N+Pl+Abe: 
- 
-  Noun - hiävlá: 
-    hiävlá+N+Sg+Nom: 
-    hiävlá+N+Sg+Gen: 
-    hiävlá+N+Sg+Ill: 
-    hiävlá+N+Sg+Loc: 
-    hiävlá+N+Sg+Com: 
-    hiävlá+N+Ess: 
-    hiävlá+N+Pl+Abe: 
- 
-  Noun - lášká: 
-    lášká+N+Sg+Nom: 
-    lášká+N+Sg+Gen: 
-    lášká+N+Sg+Ill: 
-    lášká+N+Sg+Loc: 
-    lášká+N+Sg+Com: 
-    lášká+N+Ess: 
-    lášká+N+Pl+Abe: 
- 
-  Noun - hiärrä: 
-    hiärrä+N+Sg+Nom: 
-    hiärrä+N+Sg+Gen: 
-    hiärrä+N+Sg+Ill: 
-    hiärrä+N+Sg+Loc: 
-    hiärrä+N+Sg+Com: 
-    hiärrä+N+Ess: 
-    hiärrä+N+Pl+Abe: 
- 
-  Noun - kuáddá: 
-    kuáddá+N+Sg+Nom: 
-    kuáddá+N+Sg+Gen: 
-    kuáddá+N+Sg+Ill: 
-    kuáddá+N+Sg+Loc: 
-    kuáddá+N+Sg+Com: 
-    kuáddá+N+Ess: 
-    kuáddá+N+Pl+Abe: 
- 
-  Noun - kákká: 
-    kákká+N+Sg+Nom: 
-    kákká+N+Sg+Gen: 
-    kákká+N+Sg+Ill: 
-    kákká+N+Sg+Loc: 
-    kákká+N+Sg+Com: 
-    kákká+N+Ess: 
-    kákká+N+Pl+Abe: 
- 
-#  Noun - njune: 
-#    njune+N+Sg+Nom: 
-#    njune+N+Sg+Gen: 
-#    njune+N+Sg+Ill: 
-#    njune+N+Sg+Loc: 
-#    njune+N+Sg+Com: 
-#    njune+N+Ess: 
-#    njune+N+Pl+Abe: 
-#: 
-#  Noun - vahe: 
-#    vahe+N+Sg+Nom: 
-#    vahe+N+Sg+Gen: 
-#    vahe+N+Sg+Ill: 
-#    vahe+N+Sg+Loc: 
-#    vahe+N+Sg+Com: 
-#    vahe+N+Ess: 
-#    vahe+N+Pl+Abe: 
-#: 
-#  Noun - tupe: 
-#    tupe+N+Sg+Nom: 
-#    tupe+N+Sg+Gen: 
-#    tupe+N+Sg+Ill: 
-#    tupe+N+Sg+Loc: 
-#    tupe+N+Sg+Com: 
-#    tupe+N+Ess: 
-#    tupe+N+Pl+Abe: 
-#: 
-#  Noun - čuđe: 
-#    čuđe+N+Sg+Nom: 
-#    čuđe+N+Sg+Gen: 
-#    čuđe+N+Sg+Ill: 
-#    čuđe+N+Sg+Loc: 
-#    čuđe+N+Sg+Com: 
-#    čuđe+N+Ess: 
-#    čuđe+N+Pl+Abe: 
-#: 
-#  Noun - mane: 
-#    mane+N+Sg+Nom: 
-#    mane+N+Sg+Gen: 
-#    mane+N+Sg+Ill: 
-#    mane+N+Sg+Loc: 
-#    mane+N+Sg+Com: 
-#    mane+N+Ess: 
-#    mane+N+Pl+Abe: 
-#: 
-#  Noun - kope: 
-#    kope+N+Sg+Nom: 
-#    kope+N+Sg+Gen: 
-#    kope+N+Sg+Ill: 
-#    kope+N+Sg+Loc: 
-#    kope+N+Sg+Com: 
-#    kope+N+Ess: 
-#    kope+N+Pl+Abe: 
-#: 
-#  Noun - iše: 
-#    iše+N+Sg+Nom: 
-#    iše+N+Sg+Gen: 
-#    iše+N+Sg+Ill: 
-#    iše+N+Sg+Loc: 
-#    iše+N+Sg+Com: 
-#    iše+N+Ess: 
-#    iše+N+Pl+Abe: 
-#: 
-#  Noun - ase: 
-#    ase+N+Sg+Nom: 
-#    ase+N+Sg+Gen: 
-#    ase+N+Sg+Ill: 
-#    ase+N+Sg+Loc: 
-#    ase+N+Sg+Com: 
-#    ase+N+Ess: 
-#    ase+N+Pl+Abe: 
-#: 
-#  Noun - skoče: 
-#    skoče+N+Sg+Nom: 
-#    skoče+N+Sg+Gen: 
-#    skoče+N+Sg+Ill: 
-#    skoče+N+Sg+Loc: 
-#    skoče+N+Sg+Com: 
-#    skoče+N+Ess: 
-#    skoče+N+Pl+Abe: 
-#: 
-#  Noun - ahe: 
-#    ahe+N+Sg+Nom: 
-#    ahe+N+Sg+Gen: 
-#    ahe+N+Sg+Ill: 
-#    ahe+N+Sg+Loc: 
-#    ahe+N+Sg+Com: 
-#    ahe+N+Ess: 
-#    ahe+N+Pl+Abe: 
-#: 
-#  Noun - kurtte: 
-#    kurtte+N+Sg+Nom: 
-#    kurtte+N+Sg+Gen: 
-#    kurtte+N+Sg+Ill: 
-#    kurtte+N+Sg+Loc: 
-#    kurtte+N+Sg+Com: 
-#    kurtte+N+Ess: 
-#    kurtte+N+Pl+Abe: 
-#: 
-#  Noun - vuoli: 
+
+
+
+#  Noun - шэ̄ӈӈ: 
+#    sollâ+N+Sg+Nom: 
+#    sollâ+N+Sg+Gen: 
+#    sollâ+N+Sg+Ill: 
+#    sollâ+N+Sg+Loc: 
+#    sollâ+N+Sg+Com: 
+#    sollâ+N+Ess: 
+#    sollâ+N+Pl+Abe: 
+#
+#
+#  Noun - шэ̄ӈӈ: 
+#    sollâ+N+Sg+Nom: 
+#    sollâ+N+Sg+Gen: 
+#    sollâ+N+Sg+Ill: 
+#    sollâ+N+Sg+Loc: 
+#    sollâ+N+Sg+Com: 
+#    sollâ+N+Ess: 
+#    sollâ+N+Pl+Abe: 
+#    
+#
+#  Noun - ыйй: 
+#    kielâ+N+Sg+Nom: 
+#    kielâ+N+Sg+Gen: 
+#    kielâ+N+Sg+Ill: 
+#    kielâ+N+Sg+Loc: 
+#    kielâ+N+Sg+Com: 
+#    kielâ+N+Ess: 
+#    kielâ+N+Pl+Abe: 
+# 
+#  Noun - ылл: 
 #    vuoli+N+Sg+Nom: 
 #    vuoli+N+Sg+Gen: 
 #    vuoli+N+Sg+Ill: 
@@ -530,56 +121,268 @@ Tests
 #    vuoli+N+Sg+Com: 
 #    vuoli+N+Ess: 
 #    vuoli+N+Pl+Abe: 
-#: 
-#: 
-#: 
-#  Noun - kääri: 
-#    kääri+N+Sg+Nom: 
-#    kääri+N+Sg+Gen: 
-#    kääri+N+Sg+Ill: 
-#    kääri+N+Sg+Loc: 
-#    kääri+N+Sg+Com: 
-#    kääri+N+Ess: 
-#    kääri+N+Pl+Abe: 
-#: 
-#  Noun - pääti: 
-#    pääti+N+Sg+Nom: 
-#    pääti+N+Sg+Gen: 
-#    pääti+N+Sg+Ill: 
-#    pääti+N+Sg+Loc: 
-#    pääti+N+Sg+Com: 
-#    pääti+N+Ess: 
-#    pääti+N+Pl+Abe: 
-#: 
-#  Noun - čeeci: 
-#    čeeci+N+Sg+Nom: 
-#    čeeci+N+Sg+Gen: 
-#    čeeci+N+Sg+Ill: 
-#    čeeci+N+Sg+Loc: 
-#    čeeci+N+Sg+Com: 
-#    čeeci+N+Ess: 
-#    čeeci+N+Pl+Abe: 
- 
-#  Noun - vuoli: 
-#    vuoli+N+Sg+Nom: 
-#    vuoli+N+Sg+Gen: 
-#: 
-#  Noun - vuoli: 
-#    vuoli+N+Sg+Nom: 
-#    vuoli+N+Sg+Gen: 
-#: 
-#  Noun - vuoli: 
-#    vuoli+N+Sg+Nom: 
-#    vuoli+N+Sg+Gen: 
-#: 
-#  Noun - vuoli: 
-#    vuoli+N+Sg+Nom: 
-#    vuoli+N+Sg+Gen: 
-#: 
-#: 
-#: 
- 
- 
- 
- 
- 
+# 
+#  Noun - мӯрр: 
+#    šaalu+N+Sg+Nom: 
+#    šaalu+N+Sg+Gen: 
+#    šaalu+N+Sg+Ill: 
+#    šaalu+N+Sg+Loc: 
+#    šaalu+N+Sg+Com: 
+#    šaalu+N+Ess: 
+#    šaalu+N+Pl+Abe: 
+# 
+#  Noun - пя̄йвнэгк: 
+#    tullâ+N+Sg+Nom: 
+#    tullâ+N+Sg+Gen: 
+#    tullâ+N+Sg+Ill: 
+#    tullâ+N+Sg+Loc: 
+#    tullâ+N+Sg+Com: 
+#    tullâ+N+Ess: 
+#    tullâ+N+Pl+Abe: 
+# 
+#  Noun - кӯсс: 
+#    tuppâ+N+Sg+Nom: 
+#    tuppâ+N+Sg+Gen: 
+#    tuppâ+N+Sg+Ill: 
+#    tuppâ+N+Sg+Loc: 
+#    tuppâ+N+Sg+Com: 
+#    tuppâ+N+Ess: 
+#    tuppâ+N+Pl+Abe: 
+# 
+#  Noun - чувв: 
+#    luččâ+N+Sg+Nom: 
+#    luččâ+N+Sg+Gen: 
+#    luččâ+N+Sg+Ill: 
+#    luččâ+N+Sg+Loc: 
+#    luččâ+N+Sg+Com: 
+#    luččâ+N+Ess: 
+#    luččâ+N+Pl+Abe: 
+# 
+#  Noun - ыгкь: 
+#    ruttâ+N+Sg+Nom: 
+#    ruttâ+N+Sg+Gen: 
+#    ruttâ+N+Sg+Ill: 
+#    ruttâ+N+Sg+Loc: 
+#    ruttâ+N+Sg+Com: 
+#    ruttâ+N+Ess: 
+#    ruttâ+N+Pl+Abe: 
+# 
+#  Noun - ка̄ррь: 
+#    hattâ+N+Sg+Nom: 
+#    hattâ+N+Sg+Gen: 
+#    hattâ+N+Sg+Ill: 
+#    hattâ+N+Sg+Loc: 
+#    hattâ+N+Sg+Com: 
+#    hattâ+N+Ess: 
+#    hattâ+N+Pl+Abe: 
+# 
+#  Noun - кēджь: 
+#    kietâ+N+Sg+Nom: 
+#    kietâ+N+Sg+Gen: 
+#    kietâ+N+Sg+Ill: 
+#    kietâ+N+Sg+Loc: 
+#    kietâ+N+Sg+Com: 
+#    kietâ+N+Ess: 
+#    kietâ+N+Pl+Abe: 
+# 
+#  Noun - кӣдт: 
+#    paavuotâ+N+Sg+Nom: 
+#    paavuotâ+N+Sg+Gen: 
+#    paavuotâ+N+Sg+Ill: 
+#    paavuotâ+N+Sg+Loc: 
+#    paavuotâ+N+Sg+Com: 
+#    paavuotâ+N+Ess: 
+#    paavuotâ+N+Pl+Abe: 
+# 
+#  Noun - кӯссь: 
+#    kussâ+N+Sg+Nom: 
+#    kussâ+N+Sg+Gen: 
+#    kussâ+N+Sg+Ill: 
+#    kussâ+N+Sg+Loc: 
+#    kussâ+N+Sg+Com: 
+#    kussâ+N+Ess: 
+#    kussâ+N+Pl+Abe: 
+# 
+#  Noun - пысс: 
+#    kuosâ+N+Sg+Nom: 
+#    kuosâ+N+Sg+Gen: 
+#    kuosâ+N+Sg+Ill: 
+#    kuosâ+N+Sg+Loc: 
+#    kuosâ+N+Sg+Com: 
+#    kuosâ+N+Ess: 
+#    kuosâ+N+Pl+Abe: 
+# 
+#  Noun - па̄лл: 
+#    pino+N+Sg+Nom: 
+#    pino+N+Sg+Gen: 
+#    pino+N+Sg+Ill: 
+#    pino+N+Sg+Loc: 
+#    pino+N+Sg+Com: 
+#    pino+N+Ess: 
+#    pino+N+Pl+Abe: 
+# 
+#  Noun - а̄шшь: 
+#    ritá+N+Sg+Nom: 
+#    ritá+N+Sg+Gen: 
+#    ritá+N+Sg+Ill: 
+#    ritá+N+Sg+Loc: 
+#    ritá+N+Sg+Com: 
+#    ritá+N+Ess: 
+#    ritá+N+Pl+Abe: 
+# 
+#  Noun - пуаз: 
+#    ito+N+Sg+Nom: 
+#    ito+N+Sg+Gen: 
+#    ito+N+Sg+Ill: 
+#    ito+N+Sg+Loc: 
+#    ito+N+Sg+Com: 
+#    ito+N+Ess: 
+#    ito+N+Pl+Abe: 
+# 
+#  Noun - цыза: 
+#    lasa+N+Sg+Nom: 
+#    lasa+N+Sg+Gen: 
+#    lasa+N+Sg+Ill: 
+#    lasa+N+Sg+Loc: 
+#    lasa+N+Sg+Com: 
+#    lasa+N+Ess: 
+#    lasa+N+Pl+Abe: 
+# 
+#  Noun - оаб: 
+#    vašo+N+Sg+Nom: 
+#    vašo+N+Sg+Gen: 
+#    vašo+N+Sg+Ill: 
+#    vašo+N+Sg+Loc: 
+#    vašo+N+Sg+Com: 
+#    vašo+N+Ess: 
+#    vašo+N+Pl+Abe: 
+# 
+#  Noun - оа̄з: 
+#    spaha+N+Sg+Nom: 
+#    spaha+N+Sg+Gen: 
+#    spaha+N+Sg+Ill: 
+#    spaha+N+Sg+Loc: 
+#    spaha+N+Sg+Com: 
+#    spaha+N+Ess: 
+#    spaha+N+Pl+Abe: 
+# 
+#  Noun - оаккшэ: 
+#    stihá+N+Sg+Nom: 
+#    stihá+N+Sg+Gen: 
+#    stihá+N+Sg+Ill: 
+#    stihá+N+Sg+Loc: 
+#    stihá+N+Sg+Com: 
+#    stihá+N+Ess: 
+#    stihá+N+Pl+Abe: 
+# 
+#  Noun - ылльтэ: 
+#    taho+N+Sg+Nom: 
+#    taho+N+Sg+Gen: 
+#    taho+N+Sg+Ill: 
+#    taho+N+Sg+Loc: 
+#    taho+N+Sg+Com: 
+#    taho+N+Ess: 
+#    taho+N+Pl+Abe: 
+# 
+#  Noun - кнӣга: 
+#    kámppá+N+Sg+Nom: 
+#    kámppá+N+Sg+Gen: 
+#    kámppá+N+Sg+Ill: 
+#    kámppá+N+Sg+Loc: 
+#    kámppá+N+Sg+Com: 
+#    kámppá+N+Ess: 
+#    kámppá+N+Pl+Abe: 
+# 
+#  Noun - чӣгар: 
+#    juŋkká+N+Sg+Nom: 
+#    juŋkká+N+Sg+Gen: 
+#    juŋkká+N+Sg+Ill: 
+#    juŋkká+N+Sg+Loc: 
+#    juŋkká+N+Sg+Com: 
+#    juŋkká+N+Ess: 
+#    juŋkká+N+Pl+Abe: 
+# 
+#  Noun - коавас: 
+#    teltta+N+Sg+Nom: 
+#    teltta+N+Sg+Gen: 
+#    teltta+N+Sg+Ill: 
+#    teltta+N+Sg+Loc: 
+#    teltta+N+Sg+Com: 
+#    teltta+N+Ess: 
+#    teltta+N+Pl+Abe: 
+# 
+#  Noun - ва̄нѣтэсь: 
+#    asto+N+Sg+Nom: 
+#    asto+N+Sg+Gen: 
+#    asto+N+Sg+Ill: 
+#    asto+N+Sg+Loc: 
+#    asto+N+Sg+Com: 
+#    asto+N+Ess: 
+#    asto+N+Pl+Abe: 
+# 
+#  Noun - вэнс: 
+#    čuhčá+N+Sg+Nom: 
+#    čuhčá+N+Sg+Gen: 
+#    čuhčá+N+Sg+Ill: 
+#    čuhčá+N+Sg+Loc: 
+#    čuhčá+N+Sg+Com: 
+#    čuhčá+N+Ess: 
+#    čuhčá+N+Pl+Abe: 
+# 
+#  Noun - нызан: 
+#    sivlá+N+Sg+Nom: 
+#    sivlá+N+Sg+Gen: 
+#    sivlá+N+Sg+Ill: 
+#    sivlá+N+Sg+Loc: 
+#    sivlá+N+Sg+Com: 
+#    sivlá+N+Ess: 
+#    sivlá+N+Pl+Abe: 
+# 
+#  Noun - карънэль: 
+#    cijkko+N+Sg+Nom: 
+#    cijkko+N+Sg+Gen: 
+#    cijkko+N+Sg+Ill: 
+#    cijkko+N+Sg+Loc: 
+#    cijkko+N+Sg+Com: 
+#    cijkko+N+Ess: 
+#    cijkko+N+Pl+Abe: 
+# 
+#  Noun - ке̄ресь: 
+#    njamma+N+Sg+Nom: 
+#    njamma+N+Sg+Gen: 
+#    njamma+N+Sg+Ill: 
+#    njamma+N+Sg+Loc: 
+#    njamma+N+Sg+Com: 
+#    njamma+N+Ess: 
+#    njamma+N+Pl+Abe: 
+# 
+#  Noun - чӯййкэй: 
+#    hellá+N+Sg+Nom: 
+#    hellá+N+Sg+Gen: 
+#    hellá+N+Sg+Ill: 
+#    hellá+N+Sg+Loc: 
+#    hellá+N+Sg+Com: 
+#    hellá+N+Ess: 
+#    hellá+N+Pl+Abe: 
+# 
+#  Noun - куаррэй: 
+#    pirrá+N+Sg+Nom: 
+#    pirrá+N+Sg+Gen: 
+#    pirrá+N+Sg+Ill: 
+#    pirrá+N+Sg+Loc: 
+#    pirrá+N+Sg+Com: 
+#    pirrá+N+Ess: 
+#    pirrá+N+Pl+Abe: 
+# 
+#  Noun - кэ̄рхаллей: 
+#    millo+N+Sg+Nom: 
+#    millo+N+Sg+Gen: 
+#    millo+N+Sg+Ill: 
+#    millo+N+Sg+Loc: 
+#    millo+N+Sg+Com: 
+#    millo+N+Ess: 
+#    millo+N+Pl+Abe: 
+# 
+# 
+# 
+# 
