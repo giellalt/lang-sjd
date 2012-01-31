@@ -113,19 +113,19 @@ LEXICON 1DA !"1st class", non-palatalized geminate, no ablaut/umlaut, palataliza
 +N:       SgNomSuf ;	! Им.
 +N:%^WG   SgGenAccSuf ;	! Род., Вин.
 +N:%^DI   SgIllSufJE ;	! Дат.-напр
-+N:%^WG%> SgLocSuf ;    ! Местн.
++N:%^WG SgLocSuf ;    ! Местн.
 +N:%^WG   SgAbeSuf ;	! Лишит.
-+N:%^WG%> SgComSuf ;	! Совм.
-+N:%>     EssSuf ;		! Превр.
-+N:%>     ParSuf ;		! Парт.
++N:%^WG SgComSuf ;	! Совм.
++N:     EssSuf ;		! Превр.
++N:     ParSuf ;		! Парт.
   
 +N:%^WG   PlNomSuf ;    ! Им.
-+N:%^WG%> PlGenSuf ;	! Вин.
-+N:%^WG%> PlAccSuf ;	! Вин.
-+N:%^WG%> PlIllSuf ;    ! Местн.
-+N:%^WG%> PlLocSuf ;    ! Местн.
-+N:%^WG%> PlAbeSuf ;	! Лишит.
-+N:%^WG%> PlComSuf ;	! Совм.
++N:%^WG PlGenSuf ;	! Вин.
++N:%^WG PlAccSuf ;	! Вин.
++N:%^WG PlIllSuf ;    ! Местн.
++N:%^WG PlLocSuf ;    ! Местн.
++N:%^WG PlAbeSuf ;	! Лишит.
++N:%^WG PlComSuf ;	! Совм.
 
 LEXICON 1DB !"1st class", non-palatalized geminate, no ablaut/umlaut, "half-palatalization" in Ill.Sg
 !!OBS!! SgIllSufJE vs. SgIllSufHalfE / ParSuf vs. ParSufHalfE do not mark true subclasses, but for е vs. ӭ I'll later write a rule.
@@ -133,26 +133,58 @@ LEXICON 1DB !"1st class", non-palatalized geminate, no ablaut/umlaut, "half-pala
 +N:       SgNomSuf ; 
 +N:%^WG   SgGenAccSuf ;	
 +N:%^DI   SgIllSufHalfE ; 
-+N:%^WG%> SgLocSuf ; 
++N:%^WG SgLocSuf ; 
 +N:%^WG   SgAbeSuf ; 
-+N:%^WG%> SgComSuf ; 
-+N:%>     EssSuf ; 
-+N:%>     ParSufHalfE ; 
++N:%^WG SgComSuf ; 
++N:     EssSuf ; 
++N:     ParSufHalfE ; 
   
 +N:%^WG   PlNomSuf ; 
-+N:%^WG%> PlGenSuf ; 
-+N:%^WG%> PlAccSuf ; 
-+N:%^WG%> PlIllSuf ; 
-+N:%^WG%> PlLocSuf ; 
-+N:%^WG%> PlAbeSuf ; 
-+N:%^WG%> PlComSuf ; 
++N:%^WG PlGenSuf ; 
++N:%^WG PlAccSuf ; 
++N:%^WG PlIllSuf ; 
++N:%^WG PlLocSuf ; 
++N:%^WG PlAbeSuf ; 
++N:%^WG PlComSuf ; 
 
 ! these are just dummy for the moment
-LEXICON 2D
-1DA ;
+LEXICON 2D ! like 1D ?
++N:       SgNomSuf ;	! Им.
++N:%^WG   SgGenAccSuf ;	! Род., Вин.
++N:%^DI   SgIllSufJE ;	! Дат.-напр
++N:%^WG SgLocSuf ;    ! Местн.
++N:%^WG   SgAbeSuf ;	! Лишит.
++N:%^WG SgComSuf ;	! Совм.
++N:     EssSuf ;		! Превр.
++N:     ParSuf ;		! Парт.
+  
++N:%^WG   PlNomSuf ;    ! Им.
++N:%^WG PlGenSuf ;	! Вин.
++N:%^WG PlAccSuf ;	! Вин.
++N:%^WG PlIllSuf ;    ! Местн.
++N:%^WG PlLocSuf ;    ! Местн.
++N:%^WG PlAbeSuf ;	! Лишит.
++N:%^WG PlComSuf ;	! Совм.
+
 LEXICON 3D
-1DA ;
-LEXICON 4D
++N:       SgNomSuf ;	! Им.
++N:%^WG   SgGenAccSuf ;	! Род., Вин.
++N:%^DI   SgIllSufJE ;	! Дат.-напр
++N:%^WG SgLocSuf ;    ! Местн.
++N:%^WG   SgAbeSuf ;	! Лишит.
++N:%^WG SgComSuf ;	! Совм.
++N:     EssSuf ;		! Превр.
++N:     ParSuf ;		! Парт.
+  
++N:%^WG   PlNomSuf ;    ! Им.
++N:%^WG PlGenSuf ;	! Вин.
++N:%^WG PlAccSuf ;	! Вин.
++N:%^WG PlIllSuf ;    ! Местн.
++N:%^WG PlLocSuf ;    ! Местн.
++N:%^WG PlAbeSuf ;	! Лишит.
++N:%^WG PlComSuf ;	! Совм.
+
+LEXICON 4D ! contract
 +N+Sg+Nom:%^WG SgNomSuf ;			 ! Им.
 +N+Sg+Gen:%^MON%>э SgGenAccSuf ;		 ! Род.
 +N+Ess:%^MON%>э EssSuf ;		 ! Превр.
@@ -217,7 +249,7 @@ LEXICON SgIllSufE
 +Sg+Ill:%>э K ;		 ! Дат.-напр
 
 LEXICON SgIllSufJE
-+Sg+Ill:%>e K ;		 ! Дат.-напр
++Sg+Ill:%>е K ;		 ! Дат.-напр
 
 LEXICON SgIllSufHalfE
 +Sg+Ill:%>ӭ K ;		 ! Дат.-напр
