@@ -98,11 +98,6 @@ LEXICON PredSg
 LEXICON PredPl
 +Pred+Pl:%^WG K ;
 
-! ---------
-! Verb inflection
-! ---------
-
-!
 
 ! ---------
 ! Noun inflection
@@ -324,7 +319,7 @@ LEXICON 7
 
 
 LEXICON V_IMP
-+Sg:%>  # ; !Ø-suffix, weak grade
++Sg:  # ; !Ø-suffix, weak grade
 +Pl:%>э  # ;
 
 
@@ -336,7 +331,7 @@ LEXICON PRSSUF
 +Sg1:%^WG%>а              # ;   ! шоабш>а
 +Sg2:%^WG%>ак              # ;   ! шоабш>акь
 +Sg2:%^WG%>ах              # ;   ! шоабш>акь
-+Sg3:%>              # ;   !Ø-suffix Umlautvariant -оа- шoabаш>т
++Sg3:              # ;   !Ø-suffix Umlautvariant -оа- шoabаш>т
 +Pl1:%>эпь              # ;   ! шоабш>эпь
 +Pl2:%>бэдтӭ              # ;   ! шоабш>эбпе
 +Pl3:%>эв              # ;   ! шоабш>эв
