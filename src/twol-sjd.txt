@@ -120,3 +120,11 @@ Vx:Vy <=> ь: ( Dummy:0 ) %>:0 _ ;
 
 "ja to i in 2D Illative"
 я:и <=> _ C:* %^DI:0  ;
+
+"ue from long u 1"
+ӯ:у <=> _ :э  C:* %^DI:0  ;
+
+"ue from long u 2"
+0:э <=> ӯ: _ C:* %^DI:0  ;
+
+
