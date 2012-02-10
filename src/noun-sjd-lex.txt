@@ -19,14 +19,14 @@ LEXICON Noun !ЛЕКСИКОН существительное
 
 ! класса I
 
-шэ̄ӈӈ 1DA "шторм | буря | ураган" ;
+шэ̄ӈӈ 1DA "шторм, буря, ураган" ;
 ыйй 1DA "ночь" ;
 ылл 1DA "уголь" ;
 мӯрр 1DA "дерево" ;
-ме̄рр 1DA "море / sea | ocean" ;
+ме̄рр 1DA "море / sea, ocean" ;
 пя̄йвнэгк 1DA "солнечная погода / sunny weather" ;
-кӯсс 1DA "ель / fir | spruce" ;
-чувв 1DA "svet / light" ;
+кӯсс 1DA "ель / fir, spruce" ;
+чувв 1DA "свет / light" ;
 ыгкь 1DA "год" ; 
 кӯлль 1DA "рыба / fish" ; ! lang u->ue
  !аджь 1DA "отец / father" ;
@@ -41,8 +41,8 @@ LEXICON Noun !ЛЕКСИКОН существительное
 
 
 ! 2. declension (class 2) ! like 1. decl., but with C-clusters
-на̄ввьт 2D "зверь / wild animal | (wild) beast" ;
-ля̄ммт 2D "лес / forrest | wood(s)" ;
+на̄ввьт 2D "зверь / wild animal, (wild) beast" ;
+ля̄ммт 2D "лес / forrest, wood(s)" ;
 куэсськ 2D "тётя / aunt" ;
 кӯшшк 2D "порог на реке / rapids" ;
 мāййт 2D "молоко" ;
@@ -50,7 +50,7 @@ LEXICON Noun !ЛЕКСИКОН существительное
 āввьл 2D "крючок на перекладине в куваксе" ;
 āййк 2D "срок, пора" ;
 кēддҍк 2D "камень" ;
- 
+
 
 ! 3. declension (class 7) ! no stem gradation
 кӯссь 3D "гость / guest" ;
