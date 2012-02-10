@@ -29,10 +29,10 @@ LEXICON Noun !ЛЕКСИКОН существительное
 чувв 1DA "svet / light" ;
 ыгкь 1DA "год" ; 
 кӯлль 1DA "рыба / fish" ; ! lang u->ue
-!аджь 1DA "отец / father" ;
-!на̄һпь 1DA "чашка / cup" ; ! spelling variant на̄ххьп (in Kert 1986 [and the Aнтонова system])
-!пуадтмушш 1DA "приход / arrival" ; !only the productive DerSx -мушш should be listed
-!ка̄ннѣцвудт 1DA "дружба / friendship" ; !only the productive DerSx -вудт should be listed
+ !аджь 1DA "отец / father" ;
+ !на̄һпь 1DA "чашка / cup" ; ! spelling variant на̄ххьп (in Kert 1986 [and the Aнтонова system])
+ !пуадтмушш 1DA "приход / arrival" ; !only the productive DerSx -мушш should be listed
+ !ка̄ннѣцвудт 1DA "дружба / friendship" ; !only the productive DerSx -вудт should be listed
 ка̄ррь 1DA "посуда" ;
 кēджь 1DA "конец" ;
 
