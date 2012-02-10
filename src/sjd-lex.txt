@@ -259,7 +259,7 @@ LEXICON PlNomSuf
 +Pl+Nom: K ;			 ! Им.
 
 LEXICON PlGenSuf
-+Pl+Gen:%>э K ;		 ! Род.
++Pl+Gen:%>этѣ K ;		 ! Род. (ES: PlGen = этѣ)
 
 LEXICON PlAccSuf
 +Pl+Acc:%>этѣ K ;		 ! Вин.
