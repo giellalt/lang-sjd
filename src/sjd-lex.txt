@@ -180,20 +180,20 @@ LEXICON 3D
 +N:%^WG PlComSuf ;	! Совм.
 
 LEXICON 4D ! contract
-+N+Sg+Nom:%^WG SgNomSuf ;			 ! Им.
-+N+Sg+Gen:%^MON%>э SgGenAccSuf ;		 ! Род.
-+N+Ess:%^MON%>э EssSuf ;		 ! Превр.
-+N+Sg+Ine:%^MON%>э SgLocSuf ; ! Местн.
-+N+Sg+Ill:%^MON%>ъ SgIllSufJE ;		 ! Дат.-напр
-+N+Sg+Ela:%^WG%>ха K ;		 ! Лишит.
-+N+Sg+Com:%^WG%>энѣ K ;		 ! Совм.
-%+N+Par:%>ко K ;			 ! Not in Kuruch
++N:%^WG SgNomSuf ;		   ! Им.
++N:%^MON%>э SgGenAccSuf ;  ! Род.
++N:%^MON%>э EssSuf ;	   ! Превр.
++N:%^MON%>э SgLocSuf ;     ! Местн.
++N:%^MON%>ъ SgIllSufJE ;   ! Дат.-напр
++N:%^WG SgAbeSuf ;		   ! Лишит.
++N:%^WG SgComSuf ;		   ! Совм.
++N+Par:%>ко K ;		   ! Not in Kuruch
 
-+N+Pl+Nom:%^WG K ;			 ! Им.
-+N+Pl+Acc:%^WG%>этѣ K ;		 ! Вин.
-+N+Pl+Ine:%^WG%>энѣ K ; ! Местн.
-+N+Pl+Ela:%^WG%>эха K ;		 ! Лишит.
-+N+Pl+Com:%^WG%>эгуэйм K ;		 ! Совм.
++N:%^WG PlNomSuf ;			 ! Им.
++N:%^WG PlAccSuf ;		 ! Вин.
++N:%^WG PlLocSuf ; ! Местн.
++N:%^WG PlAbeSuf ;		 ! Лишит.
++N:%^WG PlComSuf ;		 ! Совм.
 
 LEXICON 4DА
 +N+Sg+Nom:%^WG K ;			 ! Им.
