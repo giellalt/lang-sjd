@@ -13,24 +13,84 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 LEXICON Punctuation 
-+CLB:%,   # ;
-+CLB:%.   # ;
-+CLB:%:   # ;
-+CLB:%;	  # ;
-+CLB:%!	  # ;
-+CLB:%?	  # ;
-+PUNCT:%-  # ;
-+PUNCT:%–  # ;
-+PUNCT:%—  # ;
-+HYPH:%' # ;
-+HYPH:%‘ # ;
-+HYPH:%’ # ; 
-+HYPH:%" # ;
-+HYPH:%“ # ;
-+HYPH:%” # ;
-+HYPH:%« # ;
-+HYPH:%» # ;
-+PAR:%[ # ;
-+PAR:%] # ;
-+PAR:%( # ;
-+PAR:%) # ;
+
+
+
+! Clause boundary symbols
+
+%,+CLB:%,   # ;
+%.+CLB:%.   # ;
+%.%.+CLB:%.%.   # ;
+%.%.%.+CLB:%.%.%.   # ;
+%:+CLB:%:   # ;
+%;+CLB:%;	  # ;
+! ^excl+CLB:%!	  # ;	!
+! ^pipe+CLB:%|  # ;
+ %?+CLB:%?	  # ; !Question mark
+…+CLB:…		  # ;
+ ¿+CLB:¿		  # ;	! Only seen as noise.
+ ¶+CLB:¶		  # ;	! This sign is for titles, it is introduced by the
+			! catxml script, and may be changed if it interferes 
+			! with real pilcrow signs.
+
+! Miscellaneous symbols, abbreviation symbols (could be moved to abbr-sme-lex.txt) 
+  
+!! sme, adjust these.  
+!!  §+N+ABBR+Use/Circ:§ PUNCTconnector ;    ! §:s	!
+!!  §§+N+ABBR+Use/Circ:§§ PUNCTconnector ;  ! §:ain	!
+!!  $+N+ABBR+Use/Circ:$  PUNCTconnector ;    ! $:s	!
+!!  €+N+ABBR+Use/Circ:€  PUNCTconnector ;    ! €:s	!
+!!  £+N+ABBR+Use/Circ:£  PUNCTconnector ;    ! €:s	!
+!! ®+N+ABBR:® # ;
+!! ©+N+ABBR:© # ;
+
+
+! Single punctuation marks
+
+ •+PUNCT:•  # ; !U
+ ●+PUNCT:●  # ; !U
+ ·+PUNCT:·  # ; !U
+ ּ+PUNCT:ּ  # ; !U
+ ·+PUNCT:·  # ; !U
+ -+PUNCT:-  # ; !hyphen
+ --+PUNCT:--  # ; !double hyphen
+ –+PUNCT:– # ; !endash
+ —+PUNCT:— # ; !emdash
+ ―+PUNCT:― # ; !horizontal bar U
+=+PUNCT:=  # ;
+≈+PUNCT:≈  # ;
+%%+PUNCT:%%  # ;
+&+PUNCT:& # ;
+%"+PUNCT:%"  # ;
+! '+PUNCT:'  # ;
+%*+PUNCT:%*  # ;
+++PUNCT:+  # ;
+±+PUNCT:±  # ;
+`+PUNCT:`  # ;
+´+PUNCT:´  # ;
+/+PUNCT:/  # ; 
++/-+PUNCT:+/- # ;
+%~+PUNCT:%~	  # ;
+
+
+! Paired punctuation marks
+
+«+PUNCT+LEFT:«  # ;
+»+PUNCT+RIGHT:»  # ;
+%“+PUNCT+LEFT:%“  # ;
+%”+PUNCT+RIGHT:%”  # ;
+%‘+PUNCT+LEFT:%‘  # ;
+%’+PUNCT+RIGHT:%’  # ;
+%„+PUNCT+LEFT:%„ # ;
+%‹+PUNCT+LEFT:%‹ # ;
+%›+PUNCT+RIGHT:%›  # ;
+%(+PUNCT+LEFT:%(  # ;
+%)+PUNCT+RIGHT:%)  # ;
+%[+PUNCT+LEFT:%[  # ;
+%]+PUNCT+RIGHT:%]  # ;
+%{+PUNCT+LEFT:%{  # ;
+%}+PUNCT+RIGHT:%}  # ;
+%<+PUNCT+LEFT:%<   # ;
+!%>+PUNCT+LEFT:%>   # ;
+
+
