@@ -38,16 +38,16 @@ LEXICON Neg
 ! (phonologically) the rules are the following:
 ! 1. replace the infinitive suffix /-e/ with the respective inflectional suffix, except in:
 ! --> +V+Prs+Sg3
-! --> +V+Pst+Sg3
+! --> +V+Prt+Sg3
 ! --> +V+Imp+Sg
 ! 2. replace the infinitive suffix /-e/ with the suffix /-t/ in:
 ! --> +V+Prs+Sg3
-! --> +V+Pst+Sg3
+! --> +V+Prt+Sg3
 ! --> +V+Imp+Sg
 ! 3. insert the infix /-a-/ before the last consonant in:
 ! --> +V+Prs+Sg3
 ! 4. insert the infix /-e-/ before the last consonant in:
-! --> +V+Pst+Sg3
+! --> +V+Prt+Sg3
 ! --> +V+Imp+Sg
 ! unfortunately, these rules become much more complicated in the cyrillic orthography…
 
@@ -61,17 +61,17 @@ LEXICON Neg
 +V+Prs+Pl2:шоабшэбпе K ;
 +V+Prs+Pl3:шоабшэв K ;
 
-+V+IMPERS+Prs:шоабшэтҍ K ; ! I don't know how to gloss "impersonal" [MR]
++V+Impers+Prs:шоабшэтҍ K ; ! I don't know how to gloss "impersonal" [MR]
 
 ! Indicative past
-+V+Pst+Sg1:шоабшэ K ;
-+V+Pst+Sg2:шоабшэк K ;
-+V+Pst+Sg3:шоабэшт K ;
-+V+Pst+Pl1:шоабшэмь K ;
-+V+Pst+Pl2:шоабшэтҍ K ;
-+V+Pst+Pl3:шоабшэнҍ K ;
++V+Prt+Sg1:шоабшэ K ;
++V+Prt+Sg2:шоабшэк K ;
++V+Prt+Sg3:шоабэшт K ;
++V+Prt+Pl1:шоабшэмь K ;
++V+Prt+Pl2:шоабшэтҍ K ;
++V+Prt+Pl3:шоабшэнҍ K ;
 
-+V+IMPERS+Pst:шоабшэнҍ K ;
++V+Impers+Prt:шоабшэнҍ K ;
 
 ! Imperative singular
 +V+Imp+Sg:шоабэшт K ; ! formally similar to 3sg.pst
@@ -80,10 +80,10 @@ LEXICON Neg
 +V+Imp+Sg:шоабшэгкэ K ;
 
 ! Connegative non-past ! I don't know how to gloss "connegative" [MR]
-+V+ConnegPrs:шоабэшт K ; ! formally similar to 3sg.pst
++V+ConNeg+Prs:шоабэшт K ; ! formally similar to 3sg.pst
 
 ! Connegative past 
-+V+ConnegPst:шоабшма K ; ! formally similar to perfect perticiple
++V+ConNeg+Prt:шоабшма K ; ! formally similar to perfect perticiple
 
 !кырьйхэ:кырьяһ:кырьеһ "писать / write" ; !kyr'jhe:kyr'jah:kyr'jeh
 
@@ -95,17 +95,17 @@ LEXICON Neg
 +V+Prs+Pl2:кырьйхэбпе K ;
 +V+Prs+Pl3:кырьйхэв K ;
 
-+V+IMPERS+Prs:кырьйхэтҍ K ; ! I don't know how to gloss "impersonal" [MR]
++V+Impers+Prs:кырьйхэтҍ K ; ! I don't know how to gloss "impersonal" [MR]
 
 ! Indicative past
-+V+Pst+Sg1:кырьйхэ K ;
-+V+Pst+Sg2:кырьйхэк K ;
-+V+Pst+Sg3:кырьеһт K ;
-+V+Pst+Pl1:кырьйхэмь K ;
-+V+Pst+Pl2:кырьйхэтҍ K ;
-+V+Pst+Pl3:кырьйхэнҍ K ;
++V+Prt+Sg1:кырьйхэ K ;
++V+Prt+Sg2:кырьйхэк K ;
++V+Prt+Sg3:кырьеһт K ;
++V+Prt+Pl1:кырьйхэмь K ;
++V+Prt+Pl2:кырьйхэтҍ K ;
++V+Prt+Pl3:кырьйхэнҍ K ;
 
-+V+IMPERS+Pst:кырьйхэнҍ K ;
++V+Impers+Prt:кырьйхэнҍ K ;
 
 ! Imperative singular
 +V+Imp+Sg:кырьеһт K ; ! formally similar to 3sg.pst
@@ -114,10 +114,10 @@ LEXICON Neg
 +V+Imp+Sg:кырьйхэгкэ K ;
 
 ! Connegative non-past ! I don't know how to gloss "connegative" [MR]
-+V+ConnegPrs:кырьеһт K ; ! formally similar to 3sg.pst
++V+ConNeg+Prs:кырьеһт K ; ! formally similar to 3sg.pst
 
 ! Connegative past 
-+V+ConnegPst:кырьйхма K ; ! formally similar to perfect perticiple
++V+ConNeg+Prt:кырьйхма K ; ! formally similar to perfect perticiple
 
 !вāннҍцлэ:вāннҍцалт:вāннҍцэлт "пойти / go (a little bit) / vázzilit" ; 
 
@@ -129,17 +129,17 @@ LEXICON Neg
 +V+Prs+Pl2:вāннҍцлэбпе K ;
 +V+Prs+Pl3:вāннҍцлэв K ;
 
-+V+IMPERS+Prs:вāннҍцлэтҍ K ; ! I don't know how to gloss "impersonal" [MR]
++V+Impers+Prs:вāннҍцлэтҍ K ; ! I don't know how to gloss "impersonal" [MR]
 
 ! Indicative past
-+V+Pst+Sg1:вāннҍцлэ K ;
-+V+Pst+Sg2:вāннҍцлэк K ;
-+V+Pst+Sg3:вāннҍцэлт K ;
-+V+Pst+Pl1:вāннҍцлэмь K ;
-+V+Pst+Pl2:вāннҍцлэтҍ K ;
-+V+Pst+Pl3:вāннҍцлэнҍ K ;
++V+Prt+Sg1:вāннҍцлэ K ;
++V+Prt+Sg2:вāннҍцлэк K ;
++V+Prt+Sg3:вāннҍцэлт K ;
++V+Prt+Pl1:вāннҍцлэмь K ;
++V+Prt+Pl2:вāннҍцлэтҍ K ;
++V+Prt+Pl3:вāннҍцлэнҍ K ;
 
-+V+IMPERS+Pst:вāннҍцлэнҍ K ;
++V+Impers+Prt:вāннҍцлэнҍ K ;
 
 ! Imperative singular
 +V+Imp+Sg:вāннҍцэлт K ; ! formally similar to 3sg.pst
@@ -148,10 +148,10 @@ LEXICON Neg
 +V+Imp+Sg:вāннҍцлэгкэ K ;
 
 ! Connegative non-past ! I don't know how to gloss "connegative" [MR]
-+V+ConnegPrs:вāннҍцэлт K ; ! formally similar to 3sg.pst
++V+ConNeg+Prs:вāннҍцэлт K ; ! formally similar to 3sg.pst
 
 ! Connegative past 
-+V+ConnegPst:вāннҍцла K ; ! formally similar to perfect perticiple, but note the alternative suffix ~/-a/ (not /-ma/)
++V+ConNeg+Prt:вāннҍцла K ; ! formally similar to perfect perticiple, but note the alternative suffix ~/-a/ (not /-ma/)
 
 ! Verb classes according to Kuruch p. 551
 ! 1. class (ending in long consonant)
