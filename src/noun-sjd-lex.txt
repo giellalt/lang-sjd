@@ -59,21 +59,21 @@ āййк 2D "срок, пора" ;
 а̄шшь 3D "просьба / request | application" ;
 
 ! 4. declension (classes 3, 5) !these are two different declesions: the "puaz-class" and the "cyza-class"
-пуаз:пуадз 4D "олень / reindeer" ;
+пуаз:пуадз 4D "олень / reindeer" ; ! no Nom generated!
 цыза 4DА "птичка / little bird" ; 
 оаб 4D "усы / moustache" ;
 оа̄з 4D "паук / spider" ; ! can mean also clothes, but with different paradigm
 оаккшэ 4D "топор / axe" ;
 ылльтэ 4D "полка / shelf" ;
 кнӣга 4D "книга / book" ; ! also кыррьй (buch, brief, aufzeichnung, zeichnung, gemaltes bild)
-кēлл 4D ;
+кēлл 4D ; ! no Nom generated! (latin long e?)
 
 
 ! 5. declension (classes 4, 6, 9)
-чӣгар:чӣгкар 5D "стадо / herd | flock" ;
-коавас:ко̄ввас 5D "кувакса / Saami tent" ;
-ва̄нѣтэсь:ва̄ннтас 5D "обруг / (barrel) hoop" ;
-вэнс:вэ̄ннас 5D "лодка / boat" ;
+чӣгар:чӣгкар 5D "стадо / herd | flock" ; ! no Nom generated!
+коавас:ко̄ввас 5D "кувакса / Saami tent" ; ! no Nom generated!
+ва̄нѣтэсь:ва̄ннтас 5D "обруг / (barrel) hoop" ;! no Nom generated!
+вэнс:вэ̄ннас 5D "лодка / boat" ;! no Nom generated!
 нызан 5D "женщина / woman" ;
 карънэль 5D "локоть / elbow" ;
 ке̄ресь 5D "керёжа / (reindeer) sleigh | pulka / sme: geres / nob: pulk" ;
