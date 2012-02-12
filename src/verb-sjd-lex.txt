@@ -157,7 +157,7 @@ LEXICON Neg
 ! 1. class (ending in long consonant)
 по̄ррэ:по̄рр 1 "ест, кушать";
 е̄лле:е̄лл 1 "жить" ;
-о̄дзэ:о̄дэ 1 "искать" ;
+о̄дзэ:о̄дэ 1 "искать" ! Does not generate inf!;
 уссэ:усс 1 "собирать" ;
 
 ! 2. class (ending in long + short consonant)
