@@ -56,6 +56,11 @@ Multichar_Symbols
   %^VOWSH
   %^EPHV 
 
+! Symbols that need to be escaped on the lower side (towards twolc):
+ »7     ! »
+ «7     ! «
+ %[%>%] ! >
+ %[%<%] ! <
 
 ! Key lexicon
 
