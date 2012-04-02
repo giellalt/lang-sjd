@@ -9,8 +9,7 @@
 кӣл пайнэмушш_N_SCHOOL-EDUCATION_ревитализация языка	
 ке̄-не_Pron_PRONOMEN, HUMAN_кто-нибудь ед ч	
 ке̄-ляннч_Pron_PRONOMEN, HUMAN_кто-то ед ч	
-шӣг_A_FOOD_вкусный, хороший	
-шӣг_A_HUMAN, LIVING-PLACE, SCHOOL-EDUCATION_хороший, приятный, отличный	
+шӣг_A_HUMAN, LIVING-PLACE, SCHOOL-EDUCATION, FOOD_хороший, приятный, отличный, вкусный	
 кай_N_ANIMAL_чайка маленькая	
 э̄д_N_BODY_костный мозг	
 сыр_N_FOOD_сыр	
@@ -108,7 +107,6 @@
 сыйе_Pron_PRONOMEN_к ним	
 тыйе_Pron_PRONOMEN_к вам	
 тудт_Pron_PRONOMEN_тот другой	
-со̄н_Pron_PRONOMEN_его, её	
 со̄н_Pron_PRONOMEN_его, её	
 ке̄н_Pron_PRONOMEN_кого	
 то̄н_Pron_PRONOMEN_тебя	
@@ -270,8 +268,7 @@
 ча̄сс_N_TIME_час	
 еххта_N_TIME_вчера	
 яххта_N_TIME_вчера	
-ма̄нн_N_TIME_месяц, луна	
-ма̄нн_N_WEATHER_луна, месяц	
+ма̄нн_N_TIME, WEATHER_месяц, луна	
 е̄ррк_N_WEATHER_погода	
 чӯдтҍ_Num_HUMAN, SCHOOL-EDUCATION_сто	
 кутӓс_Num_HUMAN_двое 	
@@ -280,8 +277,7 @@
 со̄нн_Pron_PRONOMEN, HUMAN_он, она, оно	
 нике̄_Pron_PRONOMEN, HUMAN_никто	
 тэста_Pron_PRONOMEN, LIVING-PLACE_здесь	
-касьт_Pron_PRONOMEN, PLACE-NATURE, LIVING-PLACE_где	
-касьт_Pron_PRONOMEN, PLACE-NATURE, LIVING-PLACE_откуда	
+касьт_Pron_PRONOMEN, PLACE-NATURE, LIVING-PLACE_где, откуда	
 масьт_Pron_PRONOMEN, PLACE-NATURE, LIVING-PLACE_откуда	
 тоннӭ_Pron_PRONOMEN_к тебе	
 соннӭ_Pron_PRONOMEN_к нему, к ней	
@@ -457,8 +453,7 @@
 вӣлльй_N_KIN_брат	
 вуэннь_N_KIN_мать жены, мать мужа	
 вӯффьп_N_KIN_отец жены, отец мужа	
-че̄дза_N_KIN_дядя младший брат отца	
-че̄дза_N_KIN_дядя младший брат матери	
+че̄дза_N_KIN_дядя, младший брат отца, младший брат матери	
 се̄сса_N_KIN_тетя старшая сестра отца	
 муэдта_N_KIN_тетя младшая сестра матери, тетя младшая сестра отца	
 вуэннь_N_KIN_жена старшего брата	
@@ -733,8 +728,7 @@
 ӣӈӈманн_N_MONTH_ноябрь	
 роа̄ввк_N_PLACE-NATUR, LIVING-PLACE_приведение	
 са̄ккьс_N_PLACE-NATURE, LIVING-PLACE_грязь искуственная	
-па̄ххьк_N_PLACE-NATURE_гора без растительности	
-па̄ххьк_N_PLACE-NATURE_гора крутая	
+па̄ххьк_N_PLACE-NATURE_гора без растительности, гора крутая
 ла̄ммьп_N_PLACE-NATURE_болото	
 ка̄йваш_N_PLACE-NATUR_роща	
 ка̄ннҍт_N_PLACE-NATUR_сопка, холм	
@@ -1209,8 +1203,7 @@
 выдантпеййв_N_WEEK-DAY_пятница	
 ко̄лльмэсьт_Num_HUMAN_втроём, у троих	
 мэ̄ннварэст_Pron_PRONOMEN_для чего	
-мэ̄ннгуэйке_Pron_PRONOMEN_для чего	
-мэ̄ннгуэйке_Pron_PRONOMEN_почему	
+мэ̄ннгуэйке_Pron_PRONOMEN_почему, для чего	
 тыввнаххьтэ_V_CLOTHES, VERB_одевать, одеть, надевать, надеть; натягивать, натянуть; обуваться, обуться	
 тӣрваслуввэ_V_HEALTH, VERB_выздороветь, поправиться	
 тулльтсэллэ_V_VERB, FOOD_закипать	
