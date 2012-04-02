@@ -1,28 +1,28 @@
-мӣ-не_Pron_PRONOMEN, HUMAN_что-нибудь ед ч	
+мӣ-не_Pron_PRONOMEN, HUMAN_что-нибудь
 кӯ-не_Pron_PRONOMEN_который-нибудь	
-мӣ-ляннч_Pron_PRONOMEN_что-то ед ч	
+мӣ-ляннч_Pron_PRONOMEN_что-то
 го_Pron_PRONOMEN_что	
-мӣ_Pron_PRONOMEN_что ед ч	
+мӣ_Pron_PRONOMEN_что
 кӯ_Pron_PRONOMEN_который	
 кӣл оаннӭй_N_SCHOOL-EDUCATION_носитель языка	
 ыгь кэ̄сск_N_WEATHER, TIME_времена года	
 кӣл пайнэмушш_N_SCHOOL-EDUCATION_ревитализация языка	
-ке̄-не_Pron_PRONOMEN, HUMAN_кто-нибудь ед ч	
-ке̄-ляннч_Pron_PRONOMEN, HUMAN_кто-то ед ч	
+ке̄-не_Pron_PRONOMEN, HUMAN_кто-нибудь	
+ке̄-ляннч_Pron_PRONOMEN, HUMAN_кто-то
 шӣг_A_HUMAN, LIVING-PLACE, SCHOOL-EDUCATION, FOOD_хороший, приятный, отличный, вкусный	
 кай_N_ANIMAL_чайка маленькая	
-э̄д_N_BODY_костный мозг	
+э̄д_N_BODY_мозг костный
 сыр_N_FOOD_сыр	
 чай_N_FOOD_чай	
 улл_N_HANDYCRAFT, CLOTHES_шерсть	
-ӣнн_N_KIN_дядя старший брат матери	
+ӣнн_N_KIN_старший брат матери	
 мӯр_N_LIVING-PLACE_дрова	
 юрт_N_SCHOOL-EDUCATION, HUMAN_мысль, мечта, смысл	
 ыйй_N_TIME_ночь	
 ке̄_Pron_PRONOMEN, HUMAN_кто	
 сӣн_Pron_PRONOMEN_их	
 штэ_Pron_PRONOMEN_что	
-мун_Pron_PRONOMEN_мой, моя, моё; меня	
+мун_Pron_PRONOMEN_мой, моя, моё, меня	
 мӣн_Pron_PRONOMEN_наш, наша, наши	
 тӣн_Pron_PRONOMEN_ваш, ваша, ваши	
 ыбе_V_VERB_ненужно, ненадо	
@@ -31,9 +31,9 @@
 тыйй ӣджь_Pron_PRONOMEN_вы сами	
 сыйй ӣджь_Pron_PRONOMEN_они сами	
 кӯль шылле_N_LIVING-PLACE, PLACE-WATER, FOOD, HUMAN_ловить рыбу	
-рука правая_N_BODY_вуэлькеськид	
-нӯра вӣлльй_N_KIN_брат младший 	
-поад ва̄ррь_N_PLACE-NATUR_лес маленький	
+вуэлькеськид_N_BODY_рука правая	
+нӯра вӣлльй_N_KIN_младший брат
+поад ва̄ррь_N_PLACE-NATUR_маленький лес
 кутӭ-кутӭ_Num_HUMAN, FOOD_по два	
 эфтэ-эфтэ_Num_HUMAN, FOOD_по одному	
 шӯрр_A_HUMAN, FOOD, CLOTHES, LIVING-PLACE_большой	
@@ -62,8 +62,8 @@
 чехс_N_BODY_желудок	
 оа̄з_N_CLOTHES_куртка	
 чӯмм_N_FISH, FOOD_чешуя	
-сайй_N_FISH_из породы трески	
-лӯсс_N_FISH_семга	
+сайй_N_FISH_порода трески	
+лӯсс_N_FISH_семга
 рӣсс_N_FOOD, PLANT_рис	
 чоай_N_FOOD_чай	
 уххт_N_FOOD_каша	
@@ -77,17 +77,17 @@
 кӯйй_N_KIN_муж	
 аджь_N_KIN_отец	
 аджя_N_KIN_папа	
-я̄гк_N_KIN_дядя старший брат отца	
-ӣнна_N_KIN_дядя старший брат матери	
+я̄гк_N_KIN_старший брат отца	
+ӣнна_N_KIN_старший брат матери	
 а̄йй_N_KIN_дедушка	
 а̄йя_N_KIN_дедушка	
-а̄ка_N_KIN_бабушка чья-то	
+а̄ка_N_KIN_бабушка чья-то, бабушка, старушка	
 кунн_N_LIVING-PLACE, FOOD_зола	
 вэнс_N_LIVING-PLACE, PLACE-WATER_лодка	
 кӣбп_N_LIVING-PLACE_сажа	
 уккс_N_LIVING-PLACE_дверь	
 вӣрр_N_PLACE-NATURE_гора круча	
-вӯнн_N_PLACE-WATER, LIVING-PLACE_бухта, губа, залив (моря)	
+вӯнн_N_PLACE-WATER, LIVING-PLACE_бухта, губа, залив	
 суэл_N_PLACE-WATER, LIVING-PLACE_остров	
 мӣлл_N_SCHOOL-EDUCATION, HUMAN_ум, разум, память	
 ыгкь_N_TIME_год	
@@ -107,7 +107,7 @@
 сыйе_Pron_PRONOMEN_к ним	
 тыйе_Pron_PRONOMEN_к вам	
 тудт_Pron_PRONOMEN_тот другой	
-со̄н_Pron_PRONOMEN_его, её	
+со̄н_Pron_PRONOMEN_её, его	
 ке̄н_Pron_PRONOMEN_кого	
 то̄н_Pron_PRONOMEN_тебя	
 тэдт_Pron_PRONOMEN_этот	
@@ -115,7 +115,7 @@
 ке̄з_Pron_PRONOMEN_кому, чему	
 то̄н_Pron_PRONOMEN_твой, твоя, твоё	
 мэ̄з_Pron_PRONOMEN_зачем, почему	
-уммэ_V_ANIMAL, VERB_жужжать (о комаре)	
+уммэ_V_ANIMAL, VERB_жужжать	
 быдт_V_HUMAN, VERB_надо, нужно, необходимо	
 угкэ_V_VERB, ANIMAL_лаять	
 югкэ_V_VERB, FOOD_пить	
@@ -126,21 +126,21 @@
 то̄нн ӣджь_Pron_PRONOMEN_ты сам, ты сама	
 со̄нн ӣджь_Pron_PRONOMEN_она сама, он сам	
 е̄ррь нызан_N_HEALTH_беременная женщина	
-луашш я̄вра_N_PLACE-WATER_озеро маленькое, озерко	
+луашш я̄вра_N_PLACE-WATER_озерко, маленькое озеро	
 э̄ххт чӯдтҍ_Num_HUMAN, SCHOOL-EDUCATION_сто	
 мэ̄нн е̄ннэ_Pron_PRONOMEN, SCHOOL-EDUCATION, FOOD_сколько	
 мэ̄нн кӯгкь_Pron_PRONOMEN, TIME_как долго	
-таммь чуэрьв_N_ANIMAL_летние мягкие рога у оленя	
+таммь чуэрьв_N_ANIMAL_летние рога оленя	
 ла̄гк кӣммьн_N_LIVING-PLACE, FOOD_кастрюля	
 тӯетҍ лыххкэ_V_HANDYCRAFT, HUMAN, VERB_работать, делать, трудиться	
 удлэс ве̄ххьк_N_HEALTH_скорая помошь	
 э̄ххт тоа̄фант_Num_HUMAN, SCHOOL-EDUCATION_тысяча	
-мэ̄гк-не_Pron_PRONOMEN, HUMAN_что-нибудь мн ч	
-ке̄гк-не_Pron_PRONOMEN, HUMAN_кто-нибудь мн ч 	
+мэ̄гк-не_Pron_PRONOMEN, HUMAN_что-нибудь	
+ке̄гк-не_Pron_PRONOMEN, HUMAN_кто-нибудь	
 поацк-сӣрр_N_LIVING-PLACE, SCHOOL-EDUCATION_игра с косточками	
 колмэ-колмэ_Num_HUMAN, FOOD_по три	
-ке̄гк-ляннч_Pron_PRONOMEN, HUMAN_кто-то мн ч	
-мэ̄гк-ляннч_Pron_PRONOMEN_что-то мн ч	
+ке̄гк-ляннч_Pron_PRONOMEN, HUMAN_кто-то
+мэ̄гк-ляннч_Pron_PRONOMEN_что-то
 рӯсст_A_COLOR, CLOTHES_ржавый	
 руэнн_A_COLOR, CLOTHES_зеленый	
 е̄ххк_A_HUMAN_CLOTHES_незнакомый, новый	
@@ -149,11 +149,11 @@
 валас_Adv_LIVING-PLACE_вниз	
 пайяс_Adv_LIVING-PLACE_вверх, наверх	
 тавас_Adv_LIVING-PLACE_дальше	
-кукас_Adv_PLACE-NATURE_далеко (идти)	
+кукас_Adv_PLACE-NATURE_далеко	
 кыдта_Adv_TIME, WEATHER_весной	
 аввта_Adv_TIME_опять	
 цызга_N_ DEMINUTIV_птички	
-каррэ_N_ANIMAL, VERB_бежать животное	
+каррэ_N_ANIMAL, VERB_бежать
 кӯввт_N_ANIMAL_змея	
 чуэнь_N_ANIMAL_гусь	
 вӯввт_N_ANIMAL_дупло	
@@ -162,14 +162,14 @@
 пигке_N_ANIMAL_филин	
 чӣгар_N_ANIMAL_стадо	
 чӯшшк_N_ANIMAL_комар	
-а̄ллт_N_ANIMAL_олень важенка	
+а̄ллт_N_ANIMAL_важенка	
 вӯрэч_N_ANIMAL_ворона	
 куҏҏк_N_ANIMAL_журавль	
 та̄лл_N_ANIMAL_медведь	
 цуэмп_N_ANIMAL_лягушка	
 цызга_N_ANIMAL_воробей	
 чуххч_N_ANIMAL_глухарь	
-сӯккс_N_ANIMAL_червячки беленькие, опарыши	
+сӯккс_N_ANIMAL_опарыши, червячки
 рыххп_N_ANIMAL_курапатка	
 ша̄га_N_ANIMAL_поросенок	
 вэ̄рр_N_BODY, FOOD_кровь	
@@ -178,21 +178,21 @@
 пэ̄кс_N_BODY_губа	
 чичча_N_BODY_сосок	
 чуэлл_N_BODY_кишка	
-кэ̄рс_N_BODY_горло дыхательное	
-ниннч_N_BODY_грудь, женская с молоком	
-вӯппт_N_BODY_волосы	
+кэ̄рс_N_BODY_горло
+ниннч_N_BODY_грудь женская с молоком, грудь
+вӯппт_N_BODY_волосы
 сызнӭ_N_BODY_внутреннести	
 ыввьн_N_CLOTHES, COLOR_цвет, окраска	
 суххк_N_CLOTHES_чулок	
 чӯмас_N_FISH, FOOD_чешуя	
-цӯххп_N_FISH, FOOD_кусочек порезанной рыбы	
+цӯххп_N_FISH, FOOD_кусок порезанной рыбы, кусок рыбы, кусочек рыбы, кусочек порезанной рыбы	
 ёррш_N_FISH_ерш	
 ша̄бп_N_FISH_сиг	
 кӯввч_N_FISH_кумжа	
 пикша_N_FISH_пикша	
 сӣллт_N_FISH_селдь	
 ме̄ню_N_FOOD, HUMAN_меню	
-чӯмсэ_N_FOOD, VERB_чистить рыбу (снимать чешую)	
+чӯмсэ_N_FOOD, VERB_чистить рыбу, снимать чешую
 ныййп_N_FOOD_нож	
 банка_N_FOOD_банка	
 сахар_N_FOOD_сахар	
@@ -208,43 +208,43 @@
 кэ̄бп_N_HEALTH_болезнь	
 лэ̄нн_N_HEALTH_насмарк	
 лэ̄гк_N_HUMAN, ANIMAL, PLANT, FOOD_запах	
-шӣшшь_N_HUMAN, ANIMAL, _ловушка, силкок	
+шӣшшь_N_HUMAN, ANIMAL_ловушка, силкок	
 кӯссь_N_HUMAN, FOOD_гость	
-вӣдже_N_HUMAN, VERB_бежать человек	
+вӣдже_N_HUMAN, VERB_бежать
 ве̄шш_N_HUMAN,LIVING-PLACE_вещи	
 нэ̄мм_N_HUMAN_имя, название	
 мӣлса_N_HUMAN_милый	
-туххк_N_HUMAN_толпа, набор, пучок, букет цветов	
+туххк_N_HUMAN_толпа, набор, пучок, букет	
 ро̄дт_N_KIN_род, родня, родственник 	
 е̄ннҍ_N_KIN_мать	
 нӣййт_N_KIN_дочь	
 я̄нна_N_KIN_мама	
 вӯххп_N_KIN_отец жены, отец мужа	
-коа̄б_N_KIN_жена молодая	
-сӣссь_N_KIN_тетя старшая сестра отца	
-мӯдтҍ_N_KIN_тетя младшая сестра матери, тетя младшая сестра отца	
+коа̄б_N_KIN_жена молодая, молодая жена	
+сӣссь_N_KIN_старшая сестра отца	
+мӯдтҍ_N_KIN_младшая сестра матери, младшая сестра отца	
 а̄йев_N_KIN_внук дедушки, внучка дедушки	
 маннь_N_KIN_жена младшего брата	
 роднэ_N_KIN_родной	
 коажь_N_LIVING-PLACE, FOOD_копоть	
 кӯшшь_N_LIVING-PLACE, FOOD_корзина	
 шылле_N_LIVING-PLACE, HUMAN, VERB_ловить, добывать	
-рыссе_N_LIVING-PLACE, PLANT_ветка маленькая	
-вэккс_N_LIVING-PLACE, PLANT_сучок, ветка сухая	
+рыссе_N_LIVING-PLACE, PLANT_ветка маленькая, маленькая ветка	
+вэккс_N_LIVING-PLACE, PLANT_сучок, ветка сухая, сухая ветка	
 па̄лл_N_LIVING-PLACE_мяч	
 а̄ййт_N_LIVING-PLACE_забор	
 луэнн_N_LIVING-PLACE_мусор	
 труба_N_LIVING-PLACE_труба	
 тӯвас_N_LIVING-PLACE_свеча	
-тӯррк_N_LIVING-PLACE_ветка на полу для постели	
-сӯрьв_N_LIVING-PLACE_дрова сухие из сосны	
+тӯррк_N_LIVING-PLACE_ветка на полу для постели, ветка для постели	
+сӯрьв_N_LIVING-PLACE_дрова сухие из сосны, сухие дрова из сосны	
 а̄ййт_N_LIVING-PLACE_огород	
 роавв_N_LIVING-PLACE_одеяло из оленьих шкур	
 то̄лл_N_LIVING-PLACE_костер, место для костра	
 сыййт_N_LIVING-PLACE_деревня	
 тагкь_N_LIVING-PLACE_камелек	
 са̄йй_N_PLACE-NATURE, LIVING-PLACE_место	
-уррьт_N_PLACE-NATURE_гора скалистая	
+уррьт_N_PLACE-NATURE_гора скалистая, скалистая гора
 табпь_N_PLACE-NATURE_знаки из камней в горах	
 ю̄гал_N_PLACE-NATUR_скала	
 ча̄рр_N_PLACE-NATUR_тундра	
@@ -252,23 +252,24 @@
 ё̄гк_N_PLACE-WATER, LIVING-PLACE_река	
 ё̄гя_N_PLACE-WATER, LIVING-PLACE_речка	
 рыннт_N_PLACE-WATER, LIVING-PLACE_берег	
-лӣххт_N_PLACE-WATER, LIVING-PLACE_берег песчанный	
-лӯххт_N_PLACE-WATER, LIVING-PLACE_бухта, губа, залив (озера, реки)	
-вӯӈӈк_N_PLACE-WATER, LIVING-PLACE_крючок рыболовный	
-вӯбпь_N_PLACE-WATER_губа маленькая	
+лӣххт_N_PLACE-WATER, LIVING-PLACE_берег песчанный, песчанный берег	
+лӯххт_N_PLACE-WATER, LIVING-PLACE_бухта или реки, бухта, губа, залив
+вӯӈӈк_N_PLACE-WATER, LIVING-PLACE_крючок рыболовный, рыболовный кручок
+вӯбпь_N_PLACE-WATER_губа маленькая, маленькая губа
 вуэйй_N_PLACE-WATER_ручей	
 кӯшшк_N_PLACE-WATER_порог, перекат на реке	
 чӯххп_N_PLACE-WATER_передняя часть лодки	
 каккш_N_PLANT_сучка	
 вашшь_N_PLANT_заросли ивника	
-роадт_N_PLANT_заросли березника в тундре	
-ча̄сэ_N_SCHOOL-EDUCATION, TIME_часы	
+роадт_N_PLANT_заросли березника в тундре, заросли березника	
+ча̄сэ_N_SCHOOL-EDUCATION, TIME_часы, время
 а̄ййк_N_SCHOOL-EDUCATION, TIME_время	
 лоагк_N_SCHOOL-EDUCATION_счёт	
 ча̄сс_N_TIME_час	
 еххта_N_TIME_вчера	
 яххта_N_TIME_вчера	
-ма̄нн_N_TIME, WEATHER_месяц, луна	
+ма̄нн_N_WEATHER_луна, месяц
+ма̄нн_N_TIME_месяц, луна
 е̄ррк_N_WEATHER_погода	
 чӯдтҍ_Num_HUMAN, SCHOOL-EDUCATION_сто	
 кутӓс_Num_HUMAN_двое 	
@@ -284,8 +285,8 @@
 мусьт_Pron_PRONOMEN_у меня, во мне	
 мыннӭ_Pron_PRONOMEN_ко мне	
 тэсьт_Pron_PRONOMEN_тут	
-мэ̄гк_Pron_PRONOMEN_что мн ч	
-тёллэ_Pron_PRONOMEN_вон там далеко	
+мэ̄гк_Pron_PRONOMEN_что множ чис, что
+тёллэ_Pron_PRONOMEN_вон там далеко, вон там, там далеко, далеко там	
 мунха_Pron_PRONOMEN_без меня	
 то̄гэ_Pron_PRONOMEN_туда	
 тоагэ_Pron_PRONOMEN_туда	
@@ -297,42 +298,42 @@
 е̄дтэ_V_HANDYCRAFT, FOOD, VERB_резать, отрезать, разрезать, нарезать	
 вэ̄йе_V_HANDYCRAFT, VERB_кроить	
 тубпэ_V_HANDYCRAFT, VERB_дубить	
-чӯдзе_V_HEALTH, VERB_болеть рука, мышцы	
+чӯдзе_V_HEALTH, VERB_болеть рука мышцы, болеть
 ыштнэ_V_LIVING-PLACE, HUMAN, VERB_сесть, садиться	
 ышштэ_V_LIVING-PLACE, HUMAN, VERB_сесть, садиться	
 оаррэ_V_LIVING-PLACE, HUMAN, VERB_сидеть, находиться	
 сугкэ_V_PLACE-WATER, HUMAN, VERB_грести	
 тӣдтӭ_V_SCHOOL-EDUCATION, HUMAN VERB_знать, узнать	
-куллэ_V_SCHOOL-EDUCATION, HUMAN VERB_слушать, слышать, чувствовать	
-сӣррэ_V_SCHOOL-EDUCATION, VERB_играть	
+куллэ_V_SCHOOL-EDUCATION, HUMAN VERB_слышать, слушать, чувствовать	
+сӣррэ_V_SCHOOL-EDUCATION, VERB_играть
 ышштэ_V_VERB, FOOD, SCHOOL-EDUCATION_сесть	
 чиннэ_V_VERB, FOOD_готовить, приготовить	
-пыййе_V_VERB, HANDYCRAFT_класть, положить; ставить, поставить; вставлять, вставить;	
-та̄йе_V_VERB, HEALTH_сходить с ума	
-чиннэ_V_VERB, HUMAN, LIVING-PLACE_чинить, починить, ремонтировать, отремонтировать; готовить, приготовить; крепить	
-пыййе_V_VERB, HUMAN_класть, положить; ставить, поставить; вставлять, вставить; грузить, погрузить; сажать, посадить; назначать, назначит	
+пыййе_V_VERB, HANDYCRAFT_положить, класть, ставить, поставить вставлять, вставить	
+та̄йе_V_VERB, HEALTH_сходить с ума, с ума сходить	
+чиннэ_V_VERB, HUMAN, LIVING-PLACE_чинить, починить, ремонтировать, отремонтировать, готовить, приготовить, крепить	
+пыййе_V_VERB, HUMAN_класть, положить, ставить, поставить, вставлять, вставить, грузить, погрузить, сажать, посадить, назначать, назначит	
 е̄лле_V_VERB, LIVING-PLACE_жить	
 оассэ_V_VERB, LIVING-PLACE_ставить куваксу, ставить чум, ставить палатку	
 пыйнэ_V_VERB, SCHOOL-EDUCATION_предполагать, решать	
 о̄дзэ_V_VERB_искать	
 уййнэ_V_VERB_видеть, замечать, смотреть, няньчить	
 оаннӭ_V_VERB_носить, расходовать 	
-а̄ннэ_V_VERB_просить кого что-то дать	
+а̄ннэ_V_VERB_просить кого что-то дать, просить дать, просить	
 пэллэ_V_VERB_бояться, пугаться	
 сӣрсэ_V_VERB_поиграть	
 таввял ыйй_N_TIME_полярная ночь	
-ше̄ннҍ уххт_N_FOOD_пшенная каша	
-поа̄ке урьт_N_PLACE-NATUR_цепь гор	
+ше̄ннҍ уххт_N_FOOD_пшённая каша, каша пшённая, пшенная каша, каша пшенная		
+поа̄ке урьт_N_PLACE-NATUR_цепь гор
 выййтэ кӯйе_V_KIN, VERB_выйти замуж	
-суввда вуэнч_N_FOOD_капченое мясо	
-о̄ллмэ роаӈьк_N_BODY_части тела	
+суввда вуэнч_N_FOOD_капчёное мясо, мясо копчёное, капченое мясо, мясо копченое
+о̄ллмэ роаӈьк_N_BODY_части тела
 пя̄ццк террьм_N_PLACE-NATURE_гора крутая	
 таввял пе̄ййв_N_TIME_полярный день	
 те̄ммэ руччкесь_A_COLOR, CLOTHES_коричневый	
 торьск, троа̄сськ, тоаҏҏьськ_N_FISH_треска	
 куэссь-не_Pron_PRONOMEN, TIME_когда-нибудь	
 манҍтэ-не_Pron_PRONOMEN_какой-нибудь	
-поппал-сӣрр_N_LIVING-PLACE, SCHOOL-EDUCATION_игра ”Попади”	
+поппал-сӣрр_N_LIVING-PLACE, SCHOOL-EDUCATION_игра-попади	
 манҍтэ-ляннч	_Pron_PRONOMEN_какой-то
 куэссь-ляннч_Pron_PRONOMEN, TIME_когда-то	
 а̄лехь_A_COLOR, CLOTHES_синий	
@@ -346,7 +347,7 @@
 поання_Adv_HANDYCRAFT_криво	
 чинчас_Adv_HUMAN, LIVING-PLACE_налево, влево	
 о̄лкэс_Adv_LIVING-PLACE_наружу, на улицу	
-чӣӈӈла_Adv_PLACE-NATURE, PLACE-WATER_глубже (в реке, в озере)	
+чӣӈӈла_Adv_PLACE-NATURE, PLACE-WATER_глубже в реке или в озере, глубже	
 кӯгкас_Adv_PLACE-NATURE_далеко (идти)	
 та̄вас_Adv_PLACE-WATER_дальше в озеро	
 ло̄ссэ_Adv_SCHOOL-EDUCATION, HUMAN_тяжело, трудно	
@@ -357,10 +358,10 @@
 пӯдзъя_N_ DEMINUTIV, ANIMAL_оленята	
 тоа̄ла_N_ DEMINUTIV, ANIMAL_медвежата	
 туа̄ла_N_ DEMINUTIV, LIVING-PLACE_столики	
-куэшка_N_ DEMINUTIV_порогчики, маленькие пороги	
+куэшка_N_ DEMINUTIV_порогчики, маленькие пороги, пороги маленькие
 тӯлльй_N_ANIMAL, HANDYCRAFT_шкура животного	
-луввдэ_N_ANIMAL, VERB_лежать животное	
-хоӈкрэ_N_ANIMAL, VERB_кричать, каркать ворона	
+луввдэ_N_ANIMAL, VERB_лежать о животном, лежать
+хоӈкрэ_N_ANIMAL, VERB_каркать о вороне, каркать	
 кӯввьт_N_ANIMAL_змея	
 ня̄ввь_N_ANIMAL_гнус	
 рӣммьн_N_ANIMAL_лиса	
@@ -370,9 +371,9 @@
 боаран_N_ANIMAL_баран	
 коа̄сс_N_ANIMAL_кошка	
 нёалл_N_ANIMAL_песец	
-ча̄бар_N_ANIMAL_чайка морская	
-се̄ййп_N_ANIMAL_хвост, длинный	
-пӣджан_N_ANIMAL_хвост, короткий	
+ча̄бар_N_ANIMAL_чайка морская, морская чайка	
+се̄ййп_N_ANIMAL_хвост длинный, длинный хвост	
+пӣджан_N_ANIMAL_хвост короткий, короткий хвост	
 е̄бешь_N_ANIMAL_лошадь	
 ка̄ннҍ_N_ANIMAL_курица	
 лӣххьм_N_ANIMAL_корова	
@@ -427,7 +428,7 @@
 ню̄ввт_N_FOOD_салат из щуки и морожки	
 ла̄шшь_N_FOOD_добавка	
 е̄весь_N_FOOD_продукты	
-куэшшь_N_HANDYCRAFT, ANIMAL_кожа животного	
+куэшшь_N_HANDYCRAFT, ANIMAL_кожа животного, кожа	
 кыррьй_N_HANDYCRAFT, CLOTHES_узор, рисунок	
 вӯппьс_N_HANDYCRAFT, CLOTHES_размер	
 кыррьй_N_HANDYCRAFT, CLOTHES_узорчатый, пёрстрый	
@@ -435,17 +436,17 @@
 нӣввьл_N_HANDYCRAFT_иголка	
 рӯввьт_N_HANDYCRAFT_ножницы	
 винтер_N_HANDYCRAFT_поясная часть на женских ярах	
-ко̄ӆӆк_N_HANDYCRAFT_бубенцы, колокольчики закрытые	
-е̄дант_N_HEALTH_операция	
+ко̄ӆӆк_N_HANDYCRAFT_бубенцы, колокольчики закрытые, колокольчики	
+е̄дант_N_HEALTH_операция
 ря̄гкэ_N_HUMAN, ANIMAL, VERB_кричать, орать	
-ше̄шшь_N_HUMAN, ANIMAL, _ловушка, силкок	
+ше̄шшь_N_HUMAN, ANIMAL_ловушка, силкок	
 чисстэ_N_HUMAN, FOOD, LIVING-PLACE, VERB_чистить, вытерать	
 ко̄ннч_N_HUMAN, HEALTH_моча	
 о̄ххтэ_N_HUMAN, KIN_один, одна	
 фоаӊӊт_N_HUMAN, SCHOOL-EDUCATION, HANDYCRAFT_фантазия	
 а̄ррьв_N_HUMAN, SCHOOL-EDUCATION_загадка	
-луввьт_N_HUMAN, SCHOOL-EDUCATION_традиционное саамское пение, песьня
-ле̄шшэ_N_HUMAN, VERB_лежать человек	
+луввьт_N_HUMAN, SCHOOL-EDUCATION_традиционное саамское пение, традиционная саамская песьня, саамская песьня
+ле̄шшэ_N_HUMAN, VERB_лежать человек, лежать	
 ла̄лле_N_HUMAN, VERB_ласкать, баловать, нянчить	
 томтас_N_HUMAN_знакомый	
 а̄лльк_N_KIN_сын	
@@ -453,15 +454,15 @@
 вӣлльй_N_KIN_брат	
 вуэннь_N_KIN_мать жены, мать мужа	
 вӯффьп_N_KIN_отец жены, отец мужа	
-че̄дза_N_KIN_дядя, младший брат отца, младший брат матери	
-се̄сса_N_KIN_тетя старшая сестра отца	
-муэдта_N_KIN_тетя младшая сестра матери, тетя младшая сестра отца	
+че̄дза_N_KIN_младший брат отца, младший брат матери	
+се̄сса_N_KIN_старшая сестра отца	
+муэдта_N_KIN_младшая сестра матери, младшая сестра отца	
 вуэннь_N_KIN_жена старшего брата	
 на̄ййм_N_KIN_свадьба	
-а̄кэнч_N_KIN_бабушка чья-то	
+а̄кэнч_N_KIN_бабушка чья-то, бабушка	
 вуэннь_N_KIN_старшая сестра мужа	
-кӣммьн_N_LIVING-PLACE, FOOD_котёл, котелок	
-ка̄ррь_N_LIVING-PLACE, FOOD_посуда деревянная	
+кӣммьн_N_LIVING-PLACE, FOOD_котёл, котелок, котел	
+ка̄ррь_N_LIVING-PLACE, FOOD_посуда деревянная, деревянная посуда, посуда	
 шалльт_N_LIVING-PLACE_пол	
 пэ̄ҏҏт_N_LIVING-PLACE_дом, комната	
 куэдтҍ_N_LIVING-PLACE_вежа	
@@ -473,20 +474,20 @@
 туррьп_N_LIVING-PLACE_труба	
 чуэкас_N_LIVING-PLACE_улица	
 ылльтэ_N_LIVING-PLACE_полка	
-лоаййт_N_LIVING-PLACE_место для постели	
+лоаййт_N_LIVING-PLACE_место для постели, постель	
 пе̄ххц_N_LIVING-PLACE_печка, плита	
-коавас_N_LIVING-PLACE_кувакса	
+коавас_N_LIVING-PLACE_кувакса, чум	
 лоа̄гк_N_LIVING-PLACE_потолок	
-са̄ттк_N_LIVING-PLACE_деревня приморская	
-не̄шшь_N_PLACE-NATURE, LIVING-PLACE_грязь натуральная	
+са̄ттк_N_LIVING-PLACE_деревня приморская, приморская	деревня, деревня у берега моря, деревня у моря
+не̄шшь_N_PLACE-NATURE, LIVING-PLACE_грязь натуральная, грязь	
 куххьк_N_PLACE-NATURE_даль	
-па̄ххт_N_PLACE-NATURE_гора без растительности	
-луэххк_N_PLACE-NATURE_гора небольшая, горка	
-шуэннь_N_PLACE-NATURE_болото топкое	
+па̄ххт_N_PLACE-NATURE_гора без растительности, голая гора	
+луэххк_N_PLACE-NATURE_гора небольшая, горка, небольшая гора, небольшая горка, горка небольшая	
+шуэннь_N_PLACE-NATURE_болото топкое, топкое болото
 кэ̄сск_N_PLACE-NATURE_расстояние, промежуток, центр, середина	
 шаррьй_N_PLACE-NATURE_возвышенность	
 ля̄ммт_N_PLACE-NATUR_лес густой, большой	
-коаллс_N_PLACE-NATUR_скала	
+коаллс_N_PLACE-NATUR_скала
 лоа̄шш_N_PLACE-NATUR_трясина	
 луа̄шш_N_PLACE-NATUR_трясина	
 а̄ррьй_N_PLACE-WATER, LIVING-PLACE_весло	
@@ -496,7 +497,7 @@
 ка̄ййв_N_PLACE-WATER, LIVING-PLACE_родник	
 моадтҍ_N_PLACE-WATER_ил	
 поаннҍ_N_PLACE-WATER_дно	
-цуэгкь_N_PLACE-WATER_мель у берега	
+цуэгкь_N_PLACE-WATER_мель у берега, мель	
 куэррк_N_PLACE-WATER_мель коса, корга	
 сэвван_N_PLACE-WATER_плес, тихое место на реке	
 нышшьк_N_PLACE-WATER_исток	
@@ -510,7 +511,7 @@
 лӯввьт_N_SCHOOL-EDUCATION_доска	
 са̄ннҍ_N_SCHOOL-EDUCATION_слово	
 вуррьп_N_SCHOOL-EDUCATION_жребий	
-тӣдтӭй_N_SCHOOL-EDUCATION_учёный, зающий	
+тӣдтӭй_N_SCHOOL-EDUCATION_учёный, знающий	
 кыррьй_N_SCHOOL-EDUCATION_письмо, грамота, книга, записка	
 оаннӭй_N_SCHOOL-EDUCATION_носитель	
 ке̄ссь_N_TIME, WEATHER_лето	
@@ -536,7 +537,7 @@
 сӣнэнҍ_Pron_PRONOMEN_у них, в них	
 тӣнэнҍ_Pron_PRONOMEN_у вас, в нас	
 ке̄сьт_Pron_PRONOMEN_у кого	
-со̄сьт_Pron_PRONOMEN_у него, у неё, в нём, в ней	
+со̄сьт_Pron_PRONOMEN_у него, у неё, у нее, в нем, в нём, в ней	
 то̄сьт_Pron_PRONOMEN_у тебя, в тебе	
 сӣнэтҍ_Pron_PRONOMEN_их	
 нимэ̄з_Pron_PRONOMEN_ни для чего	
@@ -549,7 +550,7 @@
 сӣнэха_Pron_PRONOMEN_без них	
 тӣнэха_Pron_PRONOMEN_без вас	
 то̄нха_Pron_PRONOMEN_без тебя	
-со̄нха_Pron_PRONOMEN_без него, без неё	
+со̄нха_Pron_PRONOMEN_без него, без неё, без нее	
 коампэ_Pron_PRONOMEN_который	
 цыӊӊке_V_ANIMAL, VERB_жужжать (о насекомых)	
 ла̄лле_V_ANIMAL_выхаживать птенцов, выводить птенцов	
@@ -566,17 +567,17 @@
 тӯллье_V_HUMAN, LIVING-PLACE, VERB_держать	
 ёадтӭ_V_HUMAN, VERB_ехать	
 во̄ссэ_V_HUMAN, VERB_возить	
-ца̄гке_V_HUMAN, VERB_толкать, толкнуть, подталкивать, подтолкнуть; совать, сунуть	
+ца̄гке_V_HUMAN, VERB_толкать, толкнуть, подталкивать, подтолкнуть, совать, сунуть	
 пуэдтӭ_V_LIVING-PLACE, PLACE-NATURE, HUMAN, VERB_приехать, прибыть	
 ко̄ррэ_V_PLACE-WATER, HANDTCRAFT, VERB_привязывать, привязать	
 ке̄ссе_V_PLACE-WATER, LIVING-PLACE, HUMAN, VERB_тащить, вытаскивать, возить	
 чиххтэ_V_PLACE-WATER, VERB_чинить сетки	
 ручкнэ_V_PLANT, VERB_желтеть	
 вуэӈӈэ_V_SCHOOL-EDUCATION, HUMAN VERB_отдыхать	
-юррьтӭ_V_SCHOOL-EDUCATION, VERB, HUMAN_думать, мыслить, мечтать, рассуэдать	
+юррьтӭ_V_SCHOOL-EDUCATION, VERB, HUMAN_думать, мыслить, мечтать, рассуждать	
 кэ̄дже_V_SCHOOL-EDUCATION, VERB_спросить, спрашивать, просить	
-ыррштэ_V_VERB, ANIMAL_рычать о собаке	
-пэ̄ссэ_V_VERB, FOOD_мыть что-то	
+ыррштэ_V_VERB, ANIMAL_рычать о собаке, рычать	
+пэ̄ссэ_V_VERB, FOOD_мыть что-то, мыть	
 луннцэ_V_VERB, FOOD_есть ложкой, есть житкую пищу	
 по̄ррэ_V_VERB, FOOD_кушать	
 по̄ҏсэ_V_VERB, FOOD_поесть	
@@ -585,7 +586,7 @@
 аппьсе_V_VERB, FOOD_пахнуть, вонять, нюхать	
 кӯсьхе_V_VERB, FOOD_угостить	
 сыххкэ_V_VERB, FOOD_вытирать	
-ка̄дтэ_V_VERB, HANDYCRAFT_апликация, нашивать кожу на кожу	
+ка̄дтэ_V_VERB, HANDYCRAFT_нашивать апликацию, нашивать кожу на кожу, апликация	
 шоабшэ_V_VERB, HUMAN_любить	
 а̄вьдэ_V_VERB, LIVING-PLACE_открыть, раскрыть	
 паййнэ_V_VERB, PLACE-NATURE_подняться	
@@ -603,20 +604,20 @@
 кӯсстэ_V_VERB_показаться, виднеться	
 суннтэ_V_WEATHER, FOOD, VERB_таять	
 па̄шшта кӯль лэ̄гк_N_FOOD_запах жаренной рыбы	
-овсяннэ уххт_N_FOOD_овсянная каша	
-цуэгесь вуая_N_PLACE-WATER_ручеёк мелкий	
+овсяннэ уххт_N_FOOD_овсянная каша, каша овсянная	
+цуэгесь вуая_N_PLACE-WATER_ручеёк мелкий, ручеек мелкий	
 ӯколэтҍ пыйе_V_HEALTH, VERB_делать уколы	
-пӣӈӈкья вуэнч_N_FOOD_вяленое мясо	
-кыджянт ча̄сс_N_SCHOOL-EDUCATION, TIME, FOOD_в семь часов	
-чӯввесь а̄лехь_A_COLOR, CLOTHES_голубой	
-коашшьк ма̄ййт_N_FOOD_молоко сухое	
-пуаррса вӣлльй_N_KIN_брат старший	
-цуэгесь я̄ввьр_N_PLACE-WATER_мелкое озеро	
+пӣӈӈкья вуэнч_N_FOOD_вяленое мясо, мясо вяленое	
+кыджянт ча̄сс_N_SCHOOL-EDUCATION, TIME, FOOD_в семь часов, семь часов, седьмой час	
+чӯввесь а̄лехь_A_COLOR, CLOTHES_голубой
+коашшьк ма̄ййт_N_FOOD_молоко сухое, сухое молоко	
+пуаррса вӣлльй_N_KIN_брат старший, старший брат
+цуэгесь я̄ввьр_N_PLACE-WATER_мелкое озеро, озеро мелкое	
 поа̄ххк выррьт_N_PLACE-WATER_гольфстрим	
 кыджянт ча̄сса_N_SCHOOL-EDUCATION, TIME, FOOD_к семи часам	
-о̄ййкье вэннас_V_PLACE-WATER, VERB_отталкивать лодку от берега	
+о̄ййкье вэннас_V_PLACE-WATER, VERB_отталкивать лодку от берега, отталкивать лодку	
 лыххцэм вӣгвудт_N_HEALTH_лечебная сила, лечебное качество	
-коа̄ррп поаввьн_N_PLACE-NATURE_гора торфенная	
+коа̄ррп поаввьн_N_PLACE-NATURE_гора торфенная, торфенная гора	
 кыджемь ча̄сэсьт_N_SCHOOL-EDUCATION, TIME, FOOD_в седьмом часу	
 ко̄ппче соа̄йметҍ_V_PLACE-WATER, VERB_собирать сетки	
 лӯшшьтэ соа̄йметҍ_V_PLACE-WATER, VERB_опустить сетки	
@@ -630,37 +631,37 @@
 лыххцэм_A_HEALTH_лечебный	
 э̄ллесь_A_HUMAN, LIVING-PLACE, PLACE-NATURE_высокий	
 кугкесь_A_PLACE-NATURE, HUMAN, CLOTHES_длинный	
-чоарэхь_A_PLANT_твёрдая о морошке	
+чоарэхь_A_PLANT_твёрдая о морошке, твердая о морошке, твёрдая, твердая	
 чепельт_Adv_HUMAN, HANDYCRAFT_искусно, мастерски	
 мӣлльтэ_Adv_HUMAN_вслед	
 эфтэсьт_Adv_HUMAN_вместе	
 оалкэнь_Adv_LIVING-PLACE_снаружи, на улице	
 ке̄ннҍц_Adv_PLACE-NATURE, CLOTHES_узко	
-чӣӈӈэль_Adv_PLACE-NATURE, PLACE-WATER_глубоко (в реке, в озере)	
-туммпла_Adv_PLACE-NATURE_дальше (в лес, по дороге)	
+чӣӈӈэль_Adv_PLACE-NATURE, PLACE-WATER_глубоко о реке о озере, глубоко	
+туммпла_Adv_PLACE-NATURE_дальше в лес по дороге, дальше	
 че̄ххча_Adv_TIME, WEATHER_осень	
 маӈӈедҍ_Adv_TIME_поздно	
 цызгэнч_N_ DEMINUTIV, ANIMAL_птичка	
 пе̄ннга_N_ DEMINUTIV, ANIMAL_собачки	
 кушкэнч_N_ DEMINUTIV_PLACE-WATER_порогчиг, маленький порог	
 поа̄лла_N_ DEMINUTIV_мячики	
-ко̄ввса_N_ DEMINUTIV_чумчики, маленькие куваксы	
+ко̄ввса_N_ DEMINUTIV_чумчики, маленькие куваксы, маленькие чумы	
 кыррьтэ_N_ANIMAL, HUMAN, VERB_лететь	
 лаппьсе_N_ANIMAL, VERB_доить	
-пэ̄ййнэ_N_ANIMAL, VERB_встать животные	
-пэ̄рркэ_N_ANIMAL, VERB_биться животное	
-хо̄ҏҏкэ_N_ANIMAL, VERB_кричать олень	
+пэ̄ййнэ_N_ANIMAL, VERB_встать о животном, встать	
+пэ̄рркэ_N_ANIMAL, VERB_биться о животном, биться	
+хо̄ҏҏкэ_N_ANIMAL, VERB_кричать о олене, кричать	
 ко̄йххь_N_ANIMAL_моль	
 вуэррев_N_ANIMAL_белка	
 ме̄герь_N_ANIMAL_мошка	
 ча̄шэнҍ_N_ANIMAL_дятел	
 чоа̄фан_N_ANIMAL_филин	
-коаннҍт_N_ANIMAL_олень дикий	
+коаннҍт_N_ANIMAL_олень дикий	, дикий олень
 нуэррьй_N_ANIMAL_тюлень, нерпа	
 вясмушш_N_ANIMAL_слепень	
 ке̄ттҍк_N_ANIMAL_росомаха	
 на̄ввьт_N_ANIMAL_животное дикое	
-ша̄гэнч_N_ANIMAL_поросенок	
+ша̄гэнч_N_ANIMAL_поросёнок, поросенок	
 пе̄гкей_N_ANIMAL_пресмыкающие	
 та̄ффьт_N_BODY, FOOD_скелет, кость	
 вуэххьц_N_BODY_лоб	
@@ -669,24 +670,24 @@
 ча̄лльм_N_BODY_глаз	
 вуэлльк_N_BODY_плечо	
 моаҏҏьш_N_BODY_морщина	
-чо̄лаэд_N_BODY_спинной мозг	
-когкэшк_N_BODY_средний палец	
-пе̄лльк_N_BODY_большой палец	
+чо̄лаэд_N_BODY_спинной мозг, мозг спинной, мозг спины	
+когкэшк_N_BODY_средний палец, палец средний	
+пе̄лльк_N_BODY_большой палец, палец большой
 роаӈӈьк_N_BODY_туловище	
 поа̄ййн_N_CLOTHES, COLOR_краска	
 пуэгень_N_CLOTHES, HANDYCRAFT_пояс	
 кабперь_N_CLOTHES, HANDYCRAFT_шапка	
 коа̄ммэ_N_CLOTHES, HANDYCRAFT_обувь	
 пе̄ссяр_N_CLOTHES, HANDYCRAFT_бисер	
-та̄ссэм_N_CLOTHES, HANDYCRAFT_ремень рабочий	
+та̄ссэм_N_CLOTHES, HANDYCRAFT_ремень рабочий, рабочий ремень, ремень	
 воа̄ххц_N_CLOTHES, HANDYCRAFT_варежки	
 коа̄дтӭ_N_CLOTHES_брюки	
 рыбпехь_N_CLOTHES_платок	
-пя̄ӆӆьк_N_COLOR, ANIMAL_белый олень	
+пя̄ӆӆьк_N_COLOR, ANIMAL_белый олень, олень белый	
 са̄ххьк_N_FISH, FOOD_криветка	
 ныгкешь_N_FISH_щука	
 пинагор_N_FISH_пинагор	
-са̄ййва_N_FISH_каменки (мальки)	
+са̄ййва_N_FISH_каменки, мальки	
 ка̄ӆӆьч_N_FISH_морской гребещок	
 ла̄ффьк_N_FOOD, HUMAN_магазин	
 пуйххьц_N_FOOD, LIVING-PLACE_бочка	
@@ -695,34 +696,34 @@
 че̄снок_N_FOOD_чеснок	
 варенье_N_FOOD_варенье	
 коа̄пас_N_FOOD_поварежка	
-шышшенҍ_N_HANDYCRAFT, CLOTHES_кожа лысая, жамша	
+шышшенҍ_N_HANDYCRAFT, CLOTHES_кожа лысая, жамша, лысая кожа	
 са̄ррьк_N_HANDYCRAFT, CLOTHES_сукно	
-на̄ххьк_N_HANDYCRAFT_кожа дубленная	
+на̄ххьк_N_HANDYCRAFT_кожа дублённая, дубленная кожа	
 пуйххьк_N_HANDYCRAFT_спица	
-ка̄лльт_N_HANDYCRAFT_позументная лента	
+ка̄лльт_N_HANDYCRAFT_позументная лента, лента позументная	
 те̄ххьп_N_HANDYCRAFT_триугольник висячий	
 лыххцэй_N_HEALTH_врач	
 лоа̄ддв_N_HEALTH_лекарство	
 ме̄ххьц_N_HUMAN, ANIMAL, FOOD_охота	
 па̄стэх_N_HUMAN, ANIMAL_пастух	
-вэ̄ццкэ_N_HUMAN, FOOD, VERB_скрести, скоблить; брить	
+вэ̄ццкэ_N_HUMAN, FOOD, VERB_скрести, скоблить, брить	
 че̄ххьп_N_HUMAN, HANDYCRAFT_мастер, мастерица	
 чуэррьв_N_HUMAN, SCHOOL-EDUCATION, LIVING-PLACE_председатель, вождь, начальник, руководитель,чиновник	
 моа̄гка_N_KIN_муж старшей сестры, муж младшей сестры	
-куэсськ_N_KIN_тетя старшая сестра матери	
+куэсськ_N_KIN_старшая сестра матери	
 а̄ххкэв_N_KIN_внук бабушки, внучка бабушки	
-оа̄ххка_N_KIN_бабушка моя	
-оа̄ххкь_N_KIN_бабушка моя	
+оа̄ххка_N_KIN_бабушка моя, моя бабушка	
+оа̄ххкь_N_KIN_бабушка моя, моя бабушка
 вӯннхэй_N_KIN_сватающий	
 на̄ххьп_N_LIVING-PLACE, FOOD_чашка	
 ка̄ввьн_N_LIVING-PLACE, FOOD_утварь, предмет, орудие	
 ла̄ттҍк_N_LIVING-PLACE, FOOD_сковорода	
-вуэккьс_N_LIVING-PLACE, PLANT_ветка большая	
-ве̄ххьц_N_LIVING-PLACE_свеча	
+вуэккьс_N_LIVING-PLACE, PLANT_ветка большая, большая ветка	
+ве̄ххьц_N_LIVING-PLACE_свеча, свечка
 усскэнҍ_N_LIVING-PLACE_место для дров	
 ло̄ххтэ_N_LIVING-PLACE_чердак	
-а̄ввьль_N_LIVING-PLACE_кручёк для котелка	
-куэххьк_N_LIVING-PLACE_кручёк для котелка	
+а̄ввьль_N_LIVING-PLACE_кручёк для котелка, кручек для котелка	
+куэххьк_N_LIVING-PLACE_кручёк для котелка, кручек для котелка
 крыльца_N_LIVING-PLACE_крыльцо	
 по̄дэшк_N_LIVING-PLACE_подушка	
 ӣӈӈманн_N_MONTH_ноябрь	
@@ -732,7 +733,7 @@
 ла̄ммьп_N_PLACE-NATURE_болото	
 ка̄йваш_N_PLACE-NATUR_роща	
 ка̄ннҍт_N_PLACE-NATUR_сопка, холм	
-пуэшенҍ_N_PLACE-NATUR_поляна где косят сено	
+пуэшенҍ_N_PLACE-NATUR_поляна где косят сено, сенокосная поляна, поляна	
 ке̄ддҍк_N_PLACE-WATER, LIVING-PLACE_камень	
 нёаррк_N_PLACE-WATER, LIVING-PLACE_полуостров	
 чуэлльм_N_PLACE-WATER_пролив	
@@ -745,7 +746,7 @@
 та̄лльв_N_TIME, WEATHER_зима	
 на̄ввьл_N_TIME_час	
 ӣнцкэнч_N_TIME_утро	
-пе̄ййва_N_TIME_днём	
+пе̄ййва_N_TIME_днём, днем	
 секунда_N_TIME_секунда	
 ентъенч_N_TIME_завтрашний	
 янтъенч_N_TIME_завтрашний	
@@ -767,21 +768,21 @@
 цыррьке_V_ANIMAL, VERB_щебетать	
 я̄ккьсе_V_CLOTHES, VERB_раздевать, раздеть, снимать, снять	
 це̄ҏҏтэ_V_HANDYCRAFT, SCHOOL-EDUCATION, VERB_чертить	
-кырьйхэ_V_HANDYCRAFT, VERB_вышивать, вышить; украсить узором	
+кырьйхэ_V_HANDYCRAFT, VERB_вышивать, вышить, украсить узором	
 вӯккьсе_V_HEALTH, VERB_рвать	
-луэннтэ_V_HEALTH, VERB_болеть зубы, кости, голова	
+луэннтэ_V_HEALTH, VERB_болеть зубы кости голова, болеть	
 лаффькэ_V_HEALTH, VERB_кашлять	
 лыххклэ_V_HEALTH, VERB_хромать	
 ко̄шшкэ_V_HEALTH, VERB_похудеть	
 ся̄ӈӈкэ_V_HEALTH, VERB_похудеть	
 ла̄ввлэ_V_HUMAN, SCHOOL-EDUCATION, VERB_петь	
-луввтъе_V_HUMAN, SCHOOL-EDUCATION, VERB_петь традиционную саамскую песьню	
-мушштлэ_V_HUMAN_вспоминать	
+луввтъе_V_HUMAN, SCHOOL-EDUCATION, VERB_петь традиционную саамскую песьню, петь луввты	
+мушштлэ_V_HUMAN_вспоминать
 шэ̄ннтэ_V_KIN, VERB_родиться, расти	
-ло̄хктэ_V_LIVING-PLACE_закрыть на замок	
+ло̄хктэ_V_LIVING-PLACE_закрыть на замок, запереть, заперать, закрыть	
 вуаӈӈкэ_V_PLACE-WATER, VERB_ловить удочкой	
-кэ̄ххче_V_PLANT, VERB_падать с верху вниз	
-куллтлэ_V_SCHOOL-EDUCATION, HUMAN VERB_слушать кого-что	
+кэ̄ххче_V_PLANT, VERB_падать с верху вниз, падать вниз	
+куллтлэ_V_SCHOOL-EDUCATION, HUMAN VERB_слушать кого-что, слушать	
 мушшьтэ_V_SCHOOL-EDUCATION, HUMAN VERB_помнить, запомнить	
 са̄ррнэ_V_SCHOOL-EDUCATION, HUMAN VERB_говорить	
 кырьйхэ_V_SCHOOL-EDUCATION, VERB_писать, написать, записать	
@@ -803,13 +804,16 @@
 па̄ххкэ_V_VERB_просить кого что-то сделать	
 оа̄ҏҏтэ_V_VERB_спорить, ругать	
 коадзъе_V_VERB_проснуться, встать	
-ла̄ндте_V_VERB_говаривать, упрашивать	
-Куэлнэгк нёаррк_N_PLACE, LIVING-PLACE_Кольский полуостров	
-оаньхесь кыррьй_N_SCHOOL-EDUCATION_резюмэ	
-давление высокое_N_HEALTH_вэ̄ррпэ̄ййнэмушш	
-грӣбпэнҍ кэ̄бптуввэ_V_HEALTH, VERB_заболеть грипом	
-мӣллвэсь, то̄ӆӆкэш_A_SCHOOL-EDUCATION, HUMAN_умный, толковый
-трасськэ, троа̄сськ, тоаҏҏьськ_N_FISH_треска	
+ла̄ндте_V_VERB_уговаривать, упрашивать	
+Куэлнэгк нёаррк_N_PLACE, LIVING-PLACE_Кольский полуостров, кольский полуостров	
+оаньхесь кыррьй_N_SCHOOL-EDUCATION_резюмэ, короткое письмо, короткий текст	
+вэ̄ррпэ̄ййнэмушш_N_HEALTH_давление высокое, высокое давление
+грӣбпэнҍ кэ̄бптуввэ_V_HEALTH, VERB_заболеть грипом, болеть грипом
+мӣллвэсь_A_SCHOOL-EDUCATION, HUMAN_умный, толковый
+то̄ӆӆкэш_A_SCHOOL-EDUCATION, HUMAN_умный, толковый
+трасськэ_N_FISH_треска
+троа̄сськ_N_FISH_треска
+тоаҏҏьськ_N_FISH_треска		
 кӯййкэсь_A_COLOR, CLOTHES_серый	
 руччкесь_A_COLOR, CLOTHES_желтый	
 рӯппсесь_A_COLOR, CLOTHES_красный, рыжий	
@@ -817,10 +821,10 @@
 оа̄йххьк_A_HUMAN, CLOTHES_огромный	
 ва̄ймель_A_HUMAN, SCHOOL-EDUCATION_активный, бойкий	
 оанҍхесь_A_PLACE-NATURE, CLOTHES, SCHOOL-EDUCATION_короткий	
-чӣӈӈлэсь_A_PLACE-NATURE, PLACE-WATER_глубокий (река, озеро)	
+чӣӈӈлэсь_A_PLACE-NATURE, PLACE-WATER_глубокий о реке о озере, глубокий	
 мӯрьялаш_A_PLACE-NATURE, PLANT_урожайный ягодами, богатый ягодами	
 кӯльялаш_A_PLACE-WATER, FISH_урожайный рыбой, богатый рыбой	
-лоантэхь_A_PLANT_спелая о морошке	
+лоантэхь_A_PLANT_спелая о морошке, спелая морошка	
 ло̄ссесь_A_SCHOOL-EDUCATION, HUMAN_тяжелый, трудный	
 оа̄нтшэм_A_SCHOOL-EDUCATION_понятный	
 шӣгтэнне_Adv_FOOD_вкусно, хорошо	
@@ -834,13 +838,13 @@
 та̄ввьла_Adv_PLACE-WATER_дальше в озеро	
 та̄лльва_Adv_TIME, WEATHER_зимой	
 э̄ввтэль_Adv_TIME_раньше	
-пӯдзъенч_N_ DEMINUTIV, ANIMAL_олененок	
-тоа̄лэнч_N_ DEMINUTIV, ANIMAL_медвиженок	
+пӯдзъенч_N_ DEMINUTIV, ANIMAL_оленёнок, олененок	
+тоа̄лэнч_N_ DEMINUTIV, ANIMAL_медвежонок	
 туа̄лэнч_N_ DEMINUTIV, LIVING-PLACE_столик	
-кӣдтжэва_N_ANIMAL, LIVING-PLACE_животное домашнее	
-ка̄рьксэ_N_ANIMAL, VERB_идти шагом животное	
-пэ̄ҏҏкъе_N_ANIMAL, VERB_уснуть животное	
-чуэннчле_N_ANIMAL, VERB_встать животные	
+кӣдтжэва_N_ANIMAL, LIVING-PLACE_животное домашнее, домашнее животное
+ка̄рьксэ_N_ANIMAL, VERB_идти шагом о животном, идти шагом	
+пэ̄ҏҏкъе_N_ANIMAL, VERB_уснуть о животном, уснуть	
+чуэннчле_N_ANIMAL, VERB_встать о животном, встать	
 нюэммель_N_ANIMAL_заяц	
 пальтэсь_N_ANIMAL_волк	
 ка̄рнэсь_N_ANIMAL_ворон	
@@ -848,14 +852,14 @@
 чинчкидт_N_BODY_рука левая
 куэммерь_N_BODY_горсть	
 чуамхэсс_N_BODY_лопатка	
-вуэрнэшк_N_BODY_безымянный палец	
-уллсуххк_N_CLOTHES, HANDYCRAFT_чулок шерстяной	
+вуэрнэшк_N_BODY_безымянный палец, безымянный палец	
+уллсуххк_N_CLOTHES, HANDYCRAFT_чулок шерстяной, шерстяной чулок	
 кӯрьтэхь_N_CLOTHES, HUMAN, HANDYCRAFT_жилетка	
 па̄лльта_N_CLOTHES_пальто	
 са̄ххьпе_N_CLOTHES_сапоги	
 аббрьоаз_N_CLOTHES_куртка от дождя	
-пе̄цеххь_N_FISH, FOOD_хвост рыбы	
-ма̄йххьк_N_FISH_сиг большой	
+пе̄цеххь_N_FISH, FOOD_хвост рыбы, рыбий хвост	
+ма̄йххьк_N_FISH_сиг большой, большой сиг
 вуэсскан_N_FISH_окунь	
 па̄ллтас_N_FISH_палтус	
 са̄ввель_N_FISH_хариус	
@@ -866,7 +870,7 @@
 моаркэфь_N_FOOD, PLANT_морковь	
 кыппьтэй_N_FOOD_повар	
 пасьтэмь_N_FOOD_ложка	
-кузэвуйй_N_FOOD_масло сливочное	
+кузэвуйй_N_FOOD_масло сливочное, сливочное масло	
 ню̄цкесь_N_FOOD_кисель	
 ма̄карон_N_FOOD_макароны	
 ня̄ллкас_N_FOOD_сладости	
@@ -876,16 +880,16 @@
 кӣдттуйй_N_HANDYCRAFT_рукоделие	
 лэфкхэсс_N_HEALTH_кашель	
 ва̄йймль_N_HUMAN, SCHOOL-EDUCATION_активист	
-ва̄ннҍце_N_HUMAN, VERB_идти шагом человек	
-чуэннчле_N_HUMAN, VERB_встать человек	
+ва̄ннҍце_N_HUMAN, VERB_идти шагом о человеке, идти шагом, шагать	
+чуэннчле_N_HUMAN, VERB_встать о человеке, встать	
 я̄ллмушш_N_HUMAN_жизнь	
 ка̄ллесь_N_KIN_муж	
-куа̄сска_N_KIN_тетя старшая сестра матери	
+куа̄сска_N_KIN_старшая сестра матери	
 ро̄дмурр_N_KIN_родовое дерево	
-рыстаджь_N_KIN_крёстный отец	
-рыстеннҍ_N_KIN_крёстная мать	
+рыстаджь_N_KIN_крёстный отец, крестный отец	
+рыстеннҍ_N_KIN_крёстная мать	, крестная мать
 племница_N_KIN_племянница	
-коатнэсс_N_LIVING-PLACE, FOOD_крышка любая	
+коатнэсс_N_LIVING-PLACE, FOOD_крышка	
 ло̄хчудт_N_LIVING-PLACE_ключ	
 шкоа̄ххп_N_LIVING-PLACE_шкаф	
 ка̄ррпан_N_LIVING-PLACE_корридор	
@@ -894,10 +898,10 @@
 э̄ллсайй_N_LIVING-PLACE_администрация	
 кыдтманн_N_MONTH_май	
 сӯйнманн_N_MONTH_июль	
-па̄йххьк_N_PLACE-NATURE, LIVING-PLACE_местность	
-чӣӈӈлэсс_N_PLACE-NATURE, PLACE-WATER_глубина (река, озеро)	
-ма̄ннтэр_N_PLACE-WATER_суша земли	
-моа̄йнсе_N_SCHOOL-EDUCATION, HUMAN, VERB_рассказать, беседовать, рассказать сказку, выступить с речью, выступить с докладом	
+па̄йххьк_N_PLACE-NATURE, LIVING-PLACE_местность, место	
+чӣӈӈлэсс_N_PLACE-NATURE, PLACE-WATER_глубина о реке о озере, глубина
+ма̄ннтэр_N_PLACE-WATER_суша земли, суша	
+моа̄йнсе_N_SCHOOL-EDUCATION, HUMAN, VERB_рассказать, беседовать, выступить, рассказать сказку, выступить с речью, выступить с докладом	
 моа̄йнас_N_SCHOOL-EDUCATION, HUMAN_рассказ, беседа, сказка, речь, доклад, выступление	
 вуэпьсей_N_SCHOOL-EDUCATION_воспитатель	
 са̄рнэгк_N_SCHOOL-EDUCATION_разговорник	
@@ -913,12 +917,12 @@
 куалмант_Num_TIME, SCHOOL-EDUCATION_третий	
 кя̄хцант_Num_TIME_восьмой	
 ня̄льянт_Num_TIME_четвертый	
-со̄нэсьт_Pron_PRONOMEN_у него, у неё, в нём, в ней	
+со̄нэсьт_Pron_PRONOMEN_у него, у неё, у нее, в нём, в нем, в ней	
 то̄нэсьт_Pron_PRONOMEN_у тебя, в тебе	
 нике̄сьт_Pron_PRONOMEN_ни у кого	
 то̄ннэнҍ_Pron_PRONOMEN_как ты, в тебя	
-со̄ннэнҍ_Pron_PRONOMEN_как он, как она, в него, в её	
-тёллэдтӭ_Pron_PRONOMEN_тот далеко	
+со̄ннэнҍ_Pron_PRONOMEN_как он, как она, в него, в её, в ее	
+тёллэдтӭ_Pron_PRONOMEN_тот далеко, тот	
 рисэвайе_V_HANDYCRAFT, SCHOOL-EDUCATION, VERB_рисовать	
 ла̄ххьтэ_V_HANDYCRAFT, VERB_вдедевать нитку в иголку, нанизывать	
 поа̄вчсе_V_HEALTH, VERB_болеть щимить, побалевать	
@@ -933,16 +937,16 @@
 вуэссьтэ_V_VERB, FOOD_купить, покупать	
 тӯлльтҍе_V_VERB, FOOD_закипеть	
 тӯлльтхэ_V_VERB, FOOD_вскипеть,вскипятить	
-луннҍтҍе_V_VERB, LIVING-PLACE_колоть, расколоть дрова	
+луннҍтҍе_V_VERB, LIVING-PLACE_колоть дрова, расколоть дрова, колоть, расколоть	
 ка̄ххьтэ_V_VERB, LIVING-PLACE_закрывать, закрыть, накрывать, накрыть, запирать	
 па̄шшьтэ_V_VERB, WEATHER_гореть, светиться	
 ва̄лльтэ_V_VERB_брать, получать, взять	
-чуэннчле_V_VERB_встать, подняться на ноги	
+чуэннчле_V_VERB_встать, подняться на ноги, подняться	
 че̄ццклэ_V_VERB_бросить, бросать, кидать, метать	
 моа̄йнсэ_V_VERB_рассказать, беседовать, рассказать сказку, выступить	
 куа̄шкхэ_V_WEATHER, FOOD, VERB_капать	
 куа̄шшкэ_V_WEATHER, FOOD, VERB_капать	
-чинчпелль е̄ҏҏьт_N_BODY_бок левый	
+чинчпелль е̄ҏҏьт_N_BODY_бок левый, левый бок	
 ня̄лькесь вӯнтас_N_FOOD_сахар	
 югкеналла лыдцант_N_HEALTH_процедура	
 пеххьпарь, перец_N_FOOD_перец	
@@ -955,8 +959,8 @@
 ва̄ймлесь_A_HUMAN, SCHOOL-EDUCATION_активный, бойкий	
 та̄ррьмъя_A_HUMAN, TIME_современный, сегодняшний	
 ке̄нҍцесь_A_PLACE-NATURE, CLOTHES_узкий	
-куххклэшш_A_PLACE-NATURE_дальний, далекий	
-туммплесь_A_PLACE-NATURE_дальний, далекий	
+куххклэшш_A_PLACE-NATURE_дальний, далекий, далёкий	
+туммплесь_A_PLACE-NATURE_дальний, далекий, далёкий
 ла̄шькесь_A_SCHOOL-EDUCATION, HUMAN_ленивый	
 мӣлкнесьт_Adv_HEALTH, HUMAN_тихо, потихоньку	
 вэххтэнне_Adv_HUMAN, FOOD, SCHOOL-EDUCATION_быстро	
@@ -966,37 +970,37 @@
 выххтэнне_Adv_HUMAN_FOOD_TIME_быстро	
 а̄йнханна_Adv_HUMAN_нечайно	
 куххькенҍ_Adv_LIVING-PLACE_далеко	
-вӯлльгесь_Adv_PLACE-NATURE_низкий	
-куххькень_Adv_PLACE-NATURE_далеко (находиться)	
+вӯлльгесь_Adv_PLACE-NATURE_низко	
+куххькень_Adv_PLACE-NATURE_далеко находиться, находиться далеко, далеко	
 оа̄дзкэнч_N_ DEMINUTIV, ANIMAL_паучок	
 пе̄ннгэнч_N_ DEMINUTIV, ANIMAL_собачка	
 поа̄ллэнч_N_ DEMINUTIV, LIVING-PLACE_мячик	
-ка̄ввсэнч_N_ DEMINUTIV, LIVING-PLACE_чумчик, маленькая кувакса 	
+ка̄ввсэнч_N_ DEMINUTIV, LIVING-PLACE_чумчик, маленькая кувакса, маленький чум 	
 та̄лвуадт_N_ANIMAL, PLACE-NATUR_берлога	
 ла̄мьпесь_N_ANIMAL_овца	
 па̄львашш_N_ANIMAL_соловей	
 кыррьйтэй_N_ANIMAL_насекомые	
 вуэйвэшна_N_BODY, FOOD_мозг	
 ню̄ххчемь_N_BODY_язык	
-чинчюлльк_N_BODY_нога лева	
+чинчюлльк_N_BODY_нога левая, левая нога	
 чуарпелль_N_BODY_бедро	
 ка̄ххцегк_N_BODY_кость тазовая	
 карьнэлль_N_BODY_локоть	
 кӣдтлабпь_N_BODY_запястия, кисть	
 кӣдтлаввь_N_BODY_запястия, кисть	
-черькешна_N_BODY_маленький палец	
+черькешна_N_BODY_маленький палец, палец маленький	
 ва̄ннцэнҍ_N_CLOTHES, HANDYCRAFT_обувь	
 куххькэль_N_CLOTHES, HANDYCRAFT_накомарник, куколник	
-лышшькоаз_N_CLOTHES_майка, нижнее бельё	
+лышшькоаз_N_CLOTHES_майка, нижнее бельё, нижнее белье	
 рӯшштоҏҏк_N_CLOTHES_куртка	
 э̄ляпаййт_N_CLOTHES_рубашка	
 ка̄мьпель_N_FISH_камбала	
 ре̄сторан_N_FOOD, HUMAN_ресторан	
 по̄ррмушш_N_FOOD_еда, пища	
-нӣппчессь_N_FOOD_палка на котором мясо и рыбу жарят	
+нӣппчессь_N_FOOD_палка на котором мясо и рыбу жарят, палка на котором мясо жарят, палка для жарки мяса	
 ка̄льпесь_N_FOOD_колбаса	
 вуэнҍтэсь_N_HANDYCRAFT_корень	
-сӯррмгэдт_N_HANDYCRAFT_наперсток	
+сӯррмгэдт_N_HANDYCRAFT_наперсток, напрёсток	
 чальмхемь_N_HEALTH_слепой	
 калльмушш_N_HEALTH_простуда	
 ла̄вькэбп_N_HEALTH_ревматизм	
@@ -1006,22 +1010,22 @@
 пуадтмушш_N_HUMAN, LIVING-PLACE_приезд	
 тыввьвудт_N_HUMAN, SCHOOL-EDUCATION_интерес	
 вуэйймушш_N_HUMAN, SCHOOL-EDUCATION_возможность	
-нагьруввэ_N_HUMAN, VERB_уснуть человек	
-кугкхэллэ_N_HUMAN, VERB_кричать человек	
+нагьруввэ_N_HUMAN, VERB_уснуть о человеке, уснуть	
+кугкхэллэ_N_HUMAN, VERB_кричать о человеке, кричать	
 шоабшмушш_N_HUMAN_любовь	
 коа̄нхэсс_N_KIN_жених	
 коа̄бсэсс_N_KIN_невеста	
 ро̄дтвудт_N_KIN_родство	
 вӯххпелль_N_KIN_старший брат мужа	
 ро̄дҍхэль_N_KIN_родители	
-ро̄дхуввэ_N_KIN_лишиться родни	
-коа̄тнэсс_N_LIVING-PLACE, FOOD_крышка для посуды	
-тӯӆӆпюдтҍ_N_LIVING-PLACE, FOOD_тарелка плоская	
-куэххьцев_N_LIVING-PLACE, PLANT_ветка хвойная	
+ро̄дхуввэ_N_KIN_лишиться родни, потерять родню	
+коа̄тнэсс_N_LIVING-PLACE, FOOD_крышка для посуды, крышка	
+тӯӆӆпюдтҍ_N_LIVING-PLACE, FOOD_тарелка плоская, плоская тарелка	
+куэххьцев_N_LIVING-PLACE, PLANT_ветка хвойная, хвойная ветка	
 пэ̄ҏҏтэля_N_LIVING-PLACE_крыша	
-це̄ӈькенҍ_N_LIVING-PLACE_жердь для чума	
+це̄ӈькенҍ_N_LIVING-PLACE_жердь для чума, жердь	
 таррьвмур_N_LIVING-PLACE_дрова смоленистые	
-поа̄шшэнҍ_N_LIVING-PLACE_чистое место (в куваксе)	
+поа̄шшэнҍ_N_LIVING-PLACE_чистое место в куваксе, чистое место	
 за̄весськ_N_LIVING-PLACE_балаган	
 са̄львесь_N_LIVING-PLACE_брезент	
 сӯвасмурр_N_LIVING-PLACE_перекладена для котелков	
@@ -1044,9 +1048,9 @@
 тӣрвхуввэ_V_HEALTH, VERB_выздороветь	
 копчнэдтэ_V_LIVING-PLACE, TIME, SCHOOL-EDUCATION, VERB_собираться	
 то̄ӆӆькье_V_SCHOOL-EDUCATION, VERB_понимать, понять	
-по̄ҏсуввэ_V_VERB, FOOD_хотеть кушать	
-куаррнмэн_V_VERB, HANDYCRAFT_за шитьём	
-моаӆӆьчхе_V_VERB, HANDYCRAFT_облезать, облезть (шкура)	
+по̄ҏсуввэ_V_VERB, FOOD_хотеть кушать, быть голодным	
+куаррнмэн_V_VERB, HANDYCRAFT_за шитьём, за шитьем	
+моаӆӆьчхе_V_VERB, HANDYCRAFT_облезать о шкуре, облезать, облезть	
 вуайхуввэ_V_VERB, HUMAN_меняться	
 мӣллсуввэ_V_VERB, HUMAN_влюбиться	
 мӣльсыввэ_V_VERB, HUMAN_нравиться	
@@ -1065,7 +1069,7 @@
 чинндэдтэ_V_VERB_готовиться	
 ро̄дҍхэлль со̄бэр_N_SCHOOL-EDUCATION_родительское собрание	
 то̄ӆӆкшэсь, то̄ӆӆкэш_A_SCHOOL-EDUCATION, HUMAN_умный, толковый
-се̄ввьнесь_A_COLOR, CLOTHES_тёмный, пасмурный	
+се̄ввьнесь_A_COLOR, CLOTHES_тёмный, пасмурный, темный	
 ча̄дьзялаш_A_FOOD_водинистый	
 ко̄ммьтэсь_A_PLACE-NATURE, CLOTHES_широкий	
 то̄ӆӆькьем_A_SCHOOL-EDUCATION_понятный	
@@ -1073,19 +1077,19 @@
 вуэллгэнне_Adv_PLACE-NATURE_низко	
 куллтлэнне_Adv_SCHOOL-EDUCATION_внимательно	
 куэццькэмь_N_ANIMAL_орел	
-рӯввьдпуар_N_ANIMAL_муха, большая	
-сэ̄рввуэза_N_ANIMAL_лосенок	
-ка̄ннҍпура_N_ANIMAL_цыпленок	
+рӯввьдпуар_N_ANIMAL_муха большая, большая муха	
+сэ̄рввуэза_N_ANIMAL_лосёнок, лосенок	
+ка̄ннҍпура_N_ANIMAL_цыплёнок, цыпленок
 муҏьце̄ххь_N_BODY_дуля	
 кӣдтвуэннч_N_BODY_мышца рук	
 кӣдттаффьт_N_BODY_кость руки	
 ке̄ххпнэсс_N_BODY_легкие	
-пӯввллаввь_N_BODY_сустав коленный	
-лӣййнпуффс_N_CLOTHES_трусы, нижные штаны	
+пӯввллаввь_N_BODY_сустав коленный, коленный состав	
+лӣййнпуффс_N_CLOTHES_трусы, нижные штаны, штаны нижные	
 па̄лльтэсь_N_FISH_палтус	
-ме̄рркулль_N_FISH_морская рыба	
+ме̄рркулль_N_FISH_морская рыба, рыба морская	
 лоа̄фкхэсс_N_FOOD, PLANT_лук, лук дикий	
-по̄снэвуйй_N_FOOD_масло растительное	
+по̄снэвуйй_N_FOOD_масло растительное, растительное масло	
 ча̄дзьлимм_N_FOOD_бульон	
 кыррьйнэсс_N_HANDYCRAFT_узор	
 ыгкьсемушш_N_HEALTH_икота	
@@ -1097,7 +1101,7 @@
 нэ̄ммпеййв_N_KIN_день рождения	
 вуэррьпэнҍ_N_KIN_сестра	
 шэ̄ннтмушш_N_KIN_рождение	
-рыствӣлльй_N_KIN_крёстный брат	
+рыствӣлльй_N_KIN_крёстный брат, крестный брат	
 ро̄дхэмэсь_N_KIN_безродный	
 це̄ххьпель_N_LIVING-PLACE, FOOD_спичка	
 коа̄ххтэсс_N_LIVING-PLACE, FOOD_скатереть	
@@ -1108,14 +1112,14 @@
 укскуэӆӆьц_N_LIVING-PLACE_дверь, ручка двери	
 нӯжьнэххьк_N_LIVING-PLACE_туалет	
 пэ̄ҏҏтаййт_N_LIVING-PLACE_огород	
-поа̄шшсайй_N_LIVING-PLACE_чистое место (в куваксе)	
+поа̄шшсайй_N_LIVING-PLACE_чистое место в куваксе, чистое место	
 туннпэ̄ҏҏт_N_LIVING-PLACE_комната	
 ке̄ссьманн_N_MONTH_июнь	
 по̄рркманн_N_MONTH_февраль	
 че̄ххчманн_N_MONTH_сентябрь	
-вуэсстлэгк_N_PLACE-NATURE_подъём на гору	
+вуэсстлэгк_N_PLACE-NATURE_подъём на гору, подъем на гору, подъём, подъем
 нёллктэсс_N_PLACE-NATUR_равнина	
-ча̄дзьсайй_N_PLACE-WATER_водоём	
+ча̄дзьсайй_N_PLACE-WATER_водоём, водоем	
 вуэсстлэгк_N_SCHOOL-EDUCATION_ответ	
 маӈӈаяххта_N_TIME_позавчера	
 туннӭпеййв_N_TIME_позавчера	
@@ -1124,12 +1128,12 @@
 пассьпеййв_N_WEEK-DAY_воскресение	
 ко̄ллмэшьт_Num_HUMAN_трижды, три раза	
 кӯххьтэшьт_Num_HUMAN_дважды, два раза	
-куэххтасьт_Num_HUMAN_вдвоём, удвоих	
+куэххтасьт_Num_HUMAN_вдвоём, у двоих, вдвоем	
 ёаххчедтнэ_V_CLOTHES, VERB_раздеться, раздеваться	
 кэ̄бптуввэ_V_HEALTH, VERB_заболеть	
 мушштсэллэ_V_SCHOOL-EDUCATION, HUMAN VERB_вспоминать	
 вуэпьсуввэ_V_SCHOOL-EDUCATION, VERB_заниматься, воспитываться	
-по̄ррсуввэ_V_VERB, FOOD_иметь желание покушать	
+по̄ррсуввэ_V_VERB, FOOD_хотеть кушать	
 луннтнэнтэ_V_VERB, FOOD_лопаться	
 луэшштэдтэ_V_VERB, PLACE-NATURE_спуститься	
 о̄ххпнуввэ_V_VERB, SCHOOL-EDUCATION_учиться, заниматься	
@@ -1138,7 +1142,8 @@
 оа̄ҏҏтэдтэ_V_VERB_ругаться	
 вуэдтсэллэ_V_VERB_собираться спать	
 тӣрвхэмушш_V_VERB_поздравление	
-пэ̄йельента, пэ̄йельпеййв_N_TIME_послезавтра	
+пэ̄йельента_N_TIME_послезавтра	
+пэ̄йельпеййв_N_TIME_послезавтра
 чоа̄ххьпесь_A_COLOR, CLOTHES_черный	
 пе̄лльйхемь_A_HEALTH_глухой	
 мо̄джьтэнне_Adv_HUMAN, HANDYCRAFT_красиво	
@@ -1150,7 +1155,7 @@
 ниннчвуайва_N_BODY_сосок	
 роаӈӈьксайй_N_BODY_талия	
 ю̄лльктаффь_N_BODY_кость ноги	
-чуарртаффьт_N_BODY_кость тазовая	
+чуарртаффьт_N_BODY_кость тазовая, тазовая кость	
 ю̄лльклабпь_N_BODY_ступня	
 те̄ххьксайй_N_BODY_мякоть ляшки	
 ю̄лльклаввь_N_BODY_сустав голеностопной	
@@ -1161,35 +1166,35 @@
 суххквуэййв_N_CLOTHES, HANDYCRAFT_носок	
 чушккабперь_N_CLOTHES, HANDYCRAFT_накомарник, куколник	
 уллкурьтэхь_N_CLOTHES_кофта, свитер	
-райлышькоаз_N_CLOTHES_майка, нижнее бельё	
-коа̄ххплэгк_N_FISH, FOOD_кусок рыбы, большой	
-ме̄ррвуэсск_N_FISH_окунь морской	
-я̄ввьркулль_N_FISH_озерная рыба	
+райлышькоаз_N_CLOTHES_майка, нижнее бельё, нижнее белье, белье нижнее, бельё нижнее
+коа̄ххплэгк_N_FISH, FOOD_большой кусок рыбы	
+ме̄ррвуэсск_N_FISH_окунь морской, морской окунь	
+я̄ввьркулль_N_FISH_озёрная рыба, рыба озёрная, озерная рыба, рыба озерная	
 мӯррьйчадзь_N_FOOD_морс	
 луннтнэдант_N_FOOD_лопанье	
 пе̄рьвесськ_N_HANDYCRAFT, HUMAN_девичий головной убор	
 пе̄лльйхемь_N_HEALTH_глухой	
 вуэллнэмушш_N_HEALTH_давление ниское	
 ка̄ннҍцвудт_N_HUMAN_дружба	
-вӣлльйпелль_N_KIN_брат двоюродный	
-вуэррьпелль_N_KIN_сестра двоюродная	
-племьнэххьк_N_KIN_племянник	
+вӣлльйпелль_N_KIN_брат двоюродный, двоюродный брат
+вуэррьпелль_N_KIN_сестра двоюродная, двоюродная	сестра
+племьнэххьк_N_KIN_племянник
 нюннҍкиммьн_N_LIVING-PLACE, FOOD_чайник	
-коа̄ххтнэсс_N_LIVING-PLACE, FOOD_крышка для посуды	
-коа̄ммплэсс_N_LIVING-PLACE, FOOD_крышка любая	
+коа̄ххтнэсс_N_LIVING-PLACE, FOOD_крышка для посуды, крышка	
+коа̄ммплэсс_N_LIVING-PLACE, FOOD_крышка	
 па̄рнапэҏҏт_N_LIVING-PLACE, SCHOOL-EDUCATION_детский сад	
 ло̄ххкчуввт_N_LIVING-PLACE_ключ	
 вуэйвпяллса_N_LIVING-PLACE_подушка	
 э̄ххтсасайй_N_LIVING-PLACE_комната	
-пе̄рьвесськ_N_LIVING-PLACE_полотно для регулировки дыма	
+пе̄рьвесськ_N_LIVING-PLACE_полотно для регулировки дыма
 о̄дтыгьманн_N_MONTH_январь	
 поаррькманн_N_MONTH_август	
 рэ̄гкэмманн_N_MONTH_октябрь	
 та̄лльвманн_N_MONTH_декабрь	
-лоавашкедҍк_N_PLACE-NATURE_камень которому покланялись	
+лоавашкедҍк_N_PLACE-NATURE_светой камень	
 вуэййвлоагк_N_PLACE-NATURE_вершина горы	
 коа̄ррпторф_N_PLACE-NATUR_торф	
-маннтеммьне_N_PLACE-WATER_суша земли	
+маннтеммьне_N_PLACE-WATER_суша земли, суша	
 мушштъемушш_N_SCHOOL-EDUCATION, HUMAN_вспоминания	
 вуэпьсемушш_N_SCHOOL-EDUCATION, KIN_воспитание	
 соагкнэххьк_N_SCHOOL-EDUCATION_словарь	
@@ -1201,10 +1206,10 @@
 пе̄ййвкэсск_N_TIME_полдень	
 коа̄ммпалль_N_TIME_полярная ночь	
 выдантпеййв_N_WEEK-DAY_пятница	
-ко̄лльмэсьт_Num_HUMAN_втроём, у троих	
+ко̄лльмэсьт_Num_HUMAN_втроём, у троих, втроем	
 мэ̄ннварэст_Pron_PRONOMEN_для чего	
 мэ̄ннгуэйке_Pron_PRONOMEN_почему, для чего	
-тыввнаххьтэ_V_CLOTHES, VERB_одевать, одеть, надевать, надеть; натягивать, натянуть; обуваться, обуться	
+тыввнаххьтэ_V_CLOTHES, VERB_одевать, одеть, надевать, надеть, натягивать, натянуть, обуваться, обуться	
 тӣрваслуввэ_V_HEALTH, VERB_выздороветь, поправиться	
 тулльтсэллэ_V_VERB, FOOD_закипать	
 по̄ҏҏтсэллэ_V_VERB, FOOD_подкармливать	
@@ -1226,9 +1231,9 @@
 ла̄вьчузяннт_N_HEALTH_ревматизм	
 лоа̄ткнэмушш_N_HEALTH_усталость	
 вуэсстлэмушш_N_HUMAN_встреча	
-пе̄льйгоанҍц_N_KIN_муж и жена	
+пе̄льйгоанҍц_N_KIN_супруги, муж и жена	
 ро̄дтлаххьтӭ_N_KIN_породнить	
-чӣӈӈлэссюдтҍ_N_LIVING-PLACE, FOOD_тарелка глубокая	
+чӣӈӈлэссюдтҍ_N_LIVING-PLACE, FOOD_тарелка глубокая, глубокая тарелка	
 о̄ххпэмпэҏҏт_N_LIVING-PLACE, SCHOOL-EDUCATION_школа	
 кыппьтэмсайй_N_LIVING-PLACE_кухня	
 ша̄ннтъемьне_N_LIVING-PLACE_родина	
@@ -1255,7 +1260,7 @@
 вэ̄ррсунэкэбп_N_HEALTH_склероз	
 лыххцэмпэ̄ҏҏт_N_HEALTH_больница	
 лыххцэйвеххьк_N_HEALTH_медсестра	
-нӯжнэгкьпымме_N_LIVING-PLACE_туалетная бумага	
+нӯжнэгкьпымме_N_LIVING-PLACE_туалетная бумага, бумага туалетная	
 сӯйнкоссэманн_N_MONTH_июль	
 кӯньтхемьманн_N_MONTH_апрель	
 вуэпьсуввмушш_N_SCHOOL-EDUCATION, KIN_воспитание	
@@ -1267,14 +1272,14 @@
 вуэлькесьпялла_Adv_HUMAN, LIVING-PLACE_на право	
 вуэлькесьбельт_Adv_HUMAN, LIVING-PLACE_справа	
 вуэлькесьюлльк_N_BODY_нога правая	
-воазхелэмцеххп_N_BODY_указательный палец	
+воазхелэмцеххп_N_BODY_указательный палец, палец указательный	
 коадтакурьтэхь_N_CLOTHES_кофта, свитер	
 па̄ннҍпасьтэмь_N_FOOD_вилка	
 та̄ффьтлыххцэй_N_HEALTH_ортопед	
 ча̄лльмлыххцэй_N_HEALTH_окулист	
 шэ̄ннтэмпе̄ййв_N_KIN_день рождения	
 ро̄дтҍхэльмэсь_N_KIN_сирота	
-рыствуэррьпэнҍ_N_KIN_крёстная сестра	
+рыствуэррьпэнҍ_N_KIN_крёстная сестра	, крестная сестра
 е̄кесьпоррмушш_N_LIVING-PLACE, FOOD_ужин	
 пе̄ййвпоррмушш_N_LIVING-PLACE, FOOD_обед	
 ӣнцэсьпоррмушш_N_LIVING-PLACE, FOOD_завтрак	
@@ -1289,8 +1294,8 @@
 моа̄йнсэшкуэдтӭ_V_VERB_начать рассказывать	
 а̄ҏҏьтпелльтаффь_N_BODY_ребро	
 па̄ррнэтҍлыххцэй_N_HEALTH_детский врач	
-пе̄ссьмурркайваш_N_PLACE-NATUR_роща березовая	
-пе̄ссьмуркоаллем_N_PLANT_заросли березника в лесу	
+пе̄ссьмурркайваш_N_PLACE-NATUR_роща берёзовая, берёзывая роща, роща березовая, березывая роща	
+пе̄ссьмуркоаллем_N_PLANT_заросли берёзника в лесу, заросли березника в лесу	
 кӯттҍкпоавчсэмушш_N_HEALTH_болезнь сердца	
 ня̄льмчисстэмьпымме_N_FOOD_салфетки	
 ня̄лькесьвунтаскэбп_N_HEALTH_сахарный диабет	
