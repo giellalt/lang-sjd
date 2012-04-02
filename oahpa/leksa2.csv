@@ -2,24 +2,21 @@
 кӯ-не_Pron_PRONOMEN_который-нибудь	
 мӣ-ляннч_Pron_PRONOMEN_что-то
 го_Pron_PRONOMEN_что	
-мӣ_Pron_PRONOMEN_что
 кӯ_Pron_PRONOMEN_который	
 кӣл оаннӭй_N_SCHOOL-EDUCATION_носитель языка	
 ыгь кэ̄сск_N_WEATHER, TIME_времена года	
 кӣл пайнэмушш_N_SCHOOL-EDUCATION_ревитализация языка	
-ке̄-не_Pron_PRONOMEN, HUMAN_кто-нибудь	
+ке̄-не_Pron_PRONOMEN, HUMAN_кто-нибудь
 ке̄-ляннч_Pron_PRONOMEN, HUMAN_кто-то
 шӣг_A_HUMAN, LIVING-PLACE, SCHOOL-EDUCATION, FOOD_хороший, приятный, отличный, вкусный	
 кай_N_ANIMAL_чайка маленькая	
 э̄д_N_BODY_мозг костный
 сыр_N_FOOD_сыр	
-чай_N_FOOD_чай	
 улл_N_HANDYCRAFT, CLOTHES_шерсть	
 ӣнн_N_KIN_старший брат матери	
 мӯр_N_LIVING-PLACE_дрова	
 юрт_N_SCHOOL-EDUCATION, HUMAN_мысль, мечта, смысл	
 ыйй_N_TIME_ночь	
-ке̄_Pron_PRONOMEN, HUMAN_кто	
 сӣн_Pron_PRONOMEN_их	
 штэ_Pron_PRONOMEN_что	
 мун_Pron_PRONOMEN_мой, моя, моё, меня	
@@ -31,9 +28,9 @@
 тыйй ӣджь_Pron_PRONOMEN_вы сами	
 сыйй ӣджь_Pron_PRONOMEN_они сами	
 кӯль шылле_N_LIVING-PLACE, PLACE-WATER, FOOD, HUMAN_ловить рыбу	
-вуэлькеськид_N_BODY_рука правая	
-нӯра вӣлльй_N_KIN_младший брат
-поад ва̄ррь_N_PLACE-NATUR_маленький лес
+вуэлькеськид_N_BODY_правая рука	
+нӯра вӣлльй_N_KIN_младший брат	
+поад ва̄ррь_N_PLACE-NATUR_лес маленький	
 кутӭ-кутӭ_Num_HUMAN, FOOD_по два	
 эфтэ-эфтэ_Num_HUMAN, FOOD_по одному	
 шӯрр_A_HUMAN, FOOD, CLOTHES, LIVING-PLACE_большой	
@@ -63,7 +60,7 @@
 оа̄з_N_CLOTHES_куртка	
 чӯмм_N_FISH, FOOD_чешуя	
 сайй_N_FISH_порода трески	
-лӯсс_N_FISH_семга
+лӯсс_N_FISH_семга	
 рӣсс_N_FOOD, PLANT_рис	
 чоай_N_FOOD_чай	
 уххт_N_FOOD_каша	
@@ -77,8 +74,8 @@
 кӯйй_N_KIN_муж	
 аджь_N_KIN_отец	
 аджя_N_KIN_папа	
-я̄гк_N_KIN_старший брат отца	
-ӣнна_N_KIN_старший брат матери	
+я̄гк_N_KIN_старший брат отца, дядя	
+ӣнна_N_KIN_старший брат матери, дядя	
 а̄йй_N_KIN_дедушка	
 а̄йя_N_KIN_дедушка	
 а̄ка_N_KIN_бабушка чья-то, бабушка, старушка	
@@ -115,7 +112,7 @@
 ке̄з_Pron_PRONOMEN_кому, чему	
 то̄н_Pron_PRONOMEN_твой, твоя, твоё	
 мэ̄з_Pron_PRONOMEN_зачем, почему	
-уммэ_V_ANIMAL, VERB_жужжать	
+уммэ_V_ANIMAL, VERB_жужжать
 быдт_V_HUMAN, VERB_надо, нужно, необходимо	
 угкэ_V_VERB, ANIMAL_лаять	
 югкэ_V_VERB, FOOD_пить	
@@ -135,12 +132,12 @@
 тӯетҍ лыххкэ_V_HANDYCRAFT, HUMAN, VERB_работать, делать, трудиться	
 удлэс ве̄ххьк_N_HEALTH_скорая помошь	
 э̄ххт тоа̄фант_Num_HUMAN, SCHOOL-EDUCATION_тысяча	
-мэ̄гк-не_Pron_PRONOMEN, HUMAN_что-нибудь	
+мэ̄гк-не_Pron_PRONOMEN, HUMAN_что-нибудь
 ке̄гк-не_Pron_PRONOMEN, HUMAN_кто-нибудь	
 поацк-сӣрр_N_LIVING-PLACE, SCHOOL-EDUCATION_игра с косточками	
 колмэ-колмэ_Num_HUMAN, FOOD_по три	
-ке̄гк-ляннч_Pron_PRONOMEN, HUMAN_кто-то
-мэ̄гк-ляннч_Pron_PRONOMEN_что-то
+ке̄гк-ляннч_Pron_PRONOMEN, HUMAN_кто-то	
+мэ̄гк-ляннч_Pron_PRONOMEN_что-то	
 рӯсст_A_COLOR, CLOTHES_ржавый	
 руэнн_A_COLOR, CLOTHES_зеленый	
 е̄ххк_A_HUMAN_CLOTHES_незнакомый, новый	
@@ -153,7 +150,7 @@
 кыдта_Adv_TIME, WEATHER_весной	
 аввта_Adv_TIME_опять	
 цызга_N_ DEMINUTIV_птички	
-каррэ_N_ANIMAL, VERB_бежать
+каррэ_N_ANIMAL, VERB_бежать	
 кӯввт_N_ANIMAL_змея	
 чуэнь_N_ANIMAL_гусь	
 вӯввт_N_ANIMAL_дупло	
@@ -169,7 +166,7 @@
 цуэмп_N_ANIMAL_лягушка	
 цызга_N_ANIMAL_воробей	
 чуххч_N_ANIMAL_глухарь	
-сӯккс_N_ANIMAL_опарыши, червячки
+сӯккс_N_ANIMAL_опарыши, червячки	
 рыххп_N_ANIMAL_курапатка	
 ша̄га_N_ANIMAL_поросенок	
 вэ̄рр_N_BODY, FOOD_кровь	
@@ -178,9 +175,9 @@
 пэ̄кс_N_BODY_губа	
 чичча_N_BODY_сосок	
 чуэлл_N_BODY_кишка	
-кэ̄рс_N_BODY_горло
-ниннч_N_BODY_грудь женская с молоком, грудь
-вӯппт_N_BODY_волосы
+кэ̄рс_N_BODY_горло	
+ниннч_N_BODY_грудь, женская с молоком	
+вӯппт_N_BODY_волосы	
 сызнӭ_N_BODY_внутреннести	
 ыввьн_N_CLOTHES, COLOR_цвет, окраска	
 суххк_N_CLOTHES_чулок	
@@ -285,7 +282,8 @@
 мусьт_Pron_PRONOMEN_у меня, во мне	
 мыннӭ_Pron_PRONOMEN_ко мне	
 тэсьт_Pron_PRONOMEN_тут	
-мэ̄гк_Pron_PRONOMEN_что множ чис, что
+<<<<<<< .mine
+мэ̄гк_Pron_PRONOMEN_чтомнож чис, чтоо	
 тёллэ_Pron_PRONOMEN_вон там далеко, вон там, там далеко, далеко там	
 мунха_Pron_PRONOMEN_без меня	
 то̄гэ_Pron_PRONOMEN_туда	
