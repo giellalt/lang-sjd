@@ -263,8 +263,9 @@
 поа̄ллэнч_N_DEMINUTIV, LIVING-PLACE_мячик
 ка̄ввсэнч_N_DEMINUTIV, LIVING-PLACE_чумчик, маленькая кувакса, маленький чум 
 кушкэнч_N_DEMINUTIV, PLACE-WATER_порогчиг, маленький порог
-мӯнненч, мӯнньгенч_N_DEMINUTIV, WEATHER_морозец
-мӯнньга, мӯнньгенч_N_DEMINUTIV, WEATHER_морозец
+мӯнненч_N_DEMINUTIV, WEATHER_морозец
+мӯнньгенч_N_DEMINUTIV, WEATHER_морозец
+мӯнньга_N_DEMINUTIV, WEATHER_морозец
 лӯсс_N_FISH_семга
 сайй_N_FISH_порода трески
 ёррш_N_FISH_ёрш, ерш
@@ -340,8 +341,8 @@
 ма̄карон_N_FOOD_макароны
 ня̄ллкас_N_FOOD_сладости
 ня̄лькесь вӯнтас_N_FOOD_сахар
-пеххьпарь, перец_N_FOOD_перец
-пыххьперь, перец_N_FOOD_перец
+пеххьпарь_N_FOOD_перец
+пыххьперь_N_FOOD_перец
 по̄ррмушш_N_FOOD_еда, пища
 нӣппчессь_N_FOOD_палка на котором мясо жарят, палка на котором мясо и рыбу жарят, палка для жарки мяса
 ка̄льпесь_N_FOOD_колбаса
@@ -353,6 +354,7 @@
 луннтнэнтмушш_N_FOOD_лопанье
 па̄ннҍпасьтэмь_N_FOOD_вилка
 ня̄льмчисстэмьпымме_N_FOOD_салфетки
+пэ̄дчисстэмьпымме_N_LIVING-PLACE_туалетная бумага
 пычь_Adv_FOOD, HUMAN_горько
 ме̄ню_N_FOOD, HUMAN_меню
 ла̄ффьк_N_FOOD, HUMAN_магазин
@@ -1170,50 +1172,49 @@
 ке̄ссь_N_TIME, WEATHER_лето
 че̄ххч_N_TIME, WEATHER_осень
 та̄лльв_N_TIME, WEATHER_зима
-ыбе_V_VERB_ненужно, ненадо
-о̄дзэ_V_VERB_искать
-уййнэ_V_VERB_видеть, замечать, смотреть, няньчить
-оаннӭ_V_VERB_носить, расходовать 
-а̄ннэ_V_VERB_просить кого что-то дать, просить дать, просить
-пэллэ_V_VERB_бояться, пугаться
-сӣрсэ_V_VERB_поиграть
-аллькэ_V_VERB_быть, начинать, стать, начинать делать что-то
-вуэдтӭ_V_VERB_спать
-аннҍтэ_V_VERB_давать, дать, отдать
-пуэдтӭ_V_VERB_прийти, приехать
-выййле_V_VERB_поехать, уехать, отехать, выехать
-ышштлэ_V_VERB_присесть
-кӣххче_V_VERB_смотреть, проверять, контролировать
-шӣххтэ_V_VERB_подходить, быть удобно, согласиться
-подтлэ_V_VERB_приходить, посещать
-тӣрвхэ_V_VERB_поздравить
-кӯсстэ_V_VERB_показаться, виднеться
-вӯлльке_V_VERB_пойти
-кя̄ййве_V_VERB_кивать
-чуэннче_V_VERB_стоять
-та̄ххтэ_V_VERB_хотеть, желать
-па̄ххкэ_V_VERB_просить кого что-то сделать
-оа̄ҏҏтэ_V_VERB_спорить, ругать
-коадзъе_V_VERB_проснуться, встать
-ла̄ндте_V_VERB_уговаривать, упрашивать
-ва̄лльтэ_V_VERB_брать, получать, взять
-чуэннчле_V_VERB_встать, подняться на ноги, подняться
-че̄ццклэ_V_VERB_бросить, бросать, кидать, метать
-моа̄йнсэ_V_VERB_рассказать, беседовать, рассказать сказку, выступить
-ва̄ннҍцле_V_VERB_пойти
-ва̄ннҍцлэ_V_VERB_пойти
-е̄ллсуввэ_V_VERB_хотеть жить
-куллтэллэ_V_VERB_слушать
-пэ̄знэдтэ_V_VERB_умываться
-уййнхуввэ_V_VERB_появиться
-вӯзьхуввэ_V_VERB_показаться
-чинндэдтэ_V_VERB_готовиться
-вуэдҍсуввэ_V_VERB_хотеть спать
-оа̄ҏҏтэдтэ_V_VERB_ругаться
-вуэдтсэллэ_V_VERB_собираться спать
-тӣрвхэмушш_V_VERB_поздравление
-лыгкэшкуэдтӭ_V_VERB_начать делать
-моа̄йнсэшкуэдтӭ_V_VERB_начать рассказывать
+ыбе_V_VERB, HUMAN, FOOD_ненужно, ненадо
+о̄дзэ_V_VERB, LIVING-PLACE, FOOD_искать
+уййнэ_V_VERB, HUMAN, PLACE-NATURE, COLOR, CLOTHES_видеть, замечать, смотреть, няньчить
+оаннӭ_V_VERB, CLOTHES, HUMAN_носить, расходовать 
+а̄ннэ_V_VERB, HUMAN, FOOD, SCHOOL-EDUCATION, CLOTHES_просить кого что-то дать, просить дать, просить
+пэллэ_V_VERB, HUMAN, LIVING-PLACE, PLACE-NATURE, PLACE-WATER_бояться, пугаться
+сӣрсэ_V_VERB, HUMAN, SCHOOL-EDUCATION, LIVING-PLACE_поиграть
+аллькэ_V_VERB, HUMAN, LIVNG-PLACE, HEALTH, TIME, FOOD_быть, начинать, стать, начинать делать что-то
+вуэдтӭ_V_VERB, LIVNG-PLACE, HEALTH, TIME_спать
+аннҍтэ_V_VERB, HUMAN, LIVNG-PLACE, HEALTH, TIME, FOOD, CLOTHES_давать, дать, отдать
+пуэдтӭ_V_VERB, HUMAN, LIVNG-PLACE, HEALTH, TIME, FOOD, CLOTHES_прийти, приехать
+выййле_V_VERB, HUMAN, LIVNG-PLACE, PLACE-NATURE, PLACE-WATER, TIME_поехать, уехать, отехать, выехать
+ышштлэ_V_VERB, HUMAN, LIVNG-PLACE, TIME, FOOD_присесть
+кӣххче_V_VERB, HUMAN, SCHOOL-EDUCATION, LIVNG-PLACE, PLACE-NATURE, PLACE-WATER, TIME_смотреть, проверять, контролировать
+шӣххтэ_V_VERB, HUMAN, TIME, FOOD_подходить, быть удобно, согласиться
+подтлэ_V_VERB, HUMAN, LIVNG-PLACE, PLACE-NATURE, PLACE-WATER, TIME, FOOD_приходить, посещать
+тӣрвхэ_V_VERB, HUMAN, SCHOOL-EDUCATION, TIME_поздравить
+кӯсстэ_V_VERB, HUMAN, TIME, LIVNG-PLACE, PLACE-NATURE, PLACE-WATER_показаться, виднеться
+вӯлльке_V_VERB, HUMAN, LIVNG-PLACE, PLACE-NATURE, TIME_пойти
+кя̄ййве_V_VERB, HUMAN, LIVNG-PLACE_кивать
+чуэннче_V_VERB, HUMAN, SCHOOL-EDUCATION, LIVNG-PLACE_стоять
+та̄ххтэ_V_VERB, HUMAN, LIVNG-PLACE, TIME, FOOD, CLOTHES_хотеть, желать
+па̄ххкэ_V_VERB, HUMAN, LIVNG-PLACE_просить
+оа̄ҏҏтэ_V_VERB, HUMAN, LIVNG-PLACE, SCHOOL-EDUCATION_спорить, ругать
+коадзъе_V_VERB, HUMAN, LIVNG-PLACE, SCHOOL-EDUCATION, TIME_проснуться, встать
+ла̄ндте_V_VERB, HUMAN, LIVNG-PLACE, FOOD_уговаривать, упрашивать
+ва̄лльтэ_V_VERB, HUMAN, LIVNG-PLACE, FOOD, CLOTHES, HANDYCRAFT_брать, получать, взять
+чуэннчле_V_VERB, LIVNG-PLACE, HEALTH, FOOD_встать, подняться на ноги, подняться
+че̄ццклэ_V_VERB, LIVNG-PLACE, FOOD_бросить, бросать, кидать, метать
+моа̄йнсэ_V_VERB, HUMAN, SCHOOL-EDUCATION, KIN, HANDYCRAFT, FOOD_рассказать, беседовать, рассказать сказку, выступить
+ва̄ннҍцле_V_VERB, HUMAN, LIVNG-PLACE, SCHOOL-EDUCATION, TIME_пойти
+е̄ллсуввэ_V_VERB, HUMAN, HEALTH_хотеть жить
+куллтэллэ_V_VERB, HUMAN, LIVNG-PLACE, SCHOOL-EDUCATION, TIME, KIN_слушать
+пэ̄знэдтэ_V_VERB, LIVNG-PLACE, FOOD, TIME, HEALTH_умываться
+уййнхуввэ_V_VERB, HUMAN, LIVNG-PLACE, SCHOOL-EDUCATION, TIME_появиться
+вӯзьхуввэ_V_VERB, HUMAN, LIVNG-PLACE, SCHOOL-EDUCATION, TIME_показаться
+чинндэдтэ_V_VERB, HUMAN, LIVNG-PLACE, SCHOOL-EDUCATION, TIME_готовиться
+вуэдҍсуввэ_V_VERB, HUMAN, SCHOOL-EDUCATION, TIME, HEALTH_хотеть спать
+оа̄ҏҏтэдтэ_V_VERB, HUMAN, SCHOOL-EDUCATION, KIN_ругаться
+вуэдтсэллэ_V_VERB, HUMAN, TIME_собираться спать
+тӣрвхэмушш_V_VERB, HUMAN, SCHOOL-EDUCATION, TIME_поздравление
+лыгкэшкуэдтӭ_V_VERB, HUMAN, SCHOOL-EDUCATION, TIME, LIVNG-PLACE_начать делать
+моа̄йнсэшкуэдтӭ_V_VERB, HUMAN, SCHOOL-EDUCATION, LIVNG-PLACE_начать рассказывать
 угкэ_V_VERB, ANIMAL_лаять
 ыррштэ_V_VERB, ANIMAL_рычать о собаке, рычать
 югкэ_V_VERB, FOOD_пить
