@@ -1418,7 +1418,6 @@
 па̄ррьн_N_KIN, HUMAN_парень, ребенок, ребёнок, малыш
 па̄ррьшя_N_KIN, HUMAN_мальчик, малыш
 ра̄бпэ_V_VERB, FOOD, LIVING-PLACE, PLACE-NATURE_копать
-
 ра̄ӊӊҍц_N_SCHOOL-EDUCATION_ранец
 ре̄ввклаххьтэ_V_VERB, HANDYCRAFT, COLOR_украсить, украшать, нарядить, наряжать
 ре̄ввьн_N_LIVING-PLACE, PLACE-NATURE_край, граница
@@ -1447,74 +1446,79 @@
 ся̄ххтар_N_PLACE-NATURE, PLANT_мох
 та̄нтар_N_PLACE-NATURE, ANIMAL_пастбище
 та̄стэнч_N_DEMINUTIV, TIME, PLACE-NATURE_звёздочка, звездочка
-те̄вьтхе_наполнить
-те̄д_знания
-те̄дтидтэй_учёный, ученый
-те̄ссклэнне_дружно
-те̄ххьтэ_попасть, наткнуться
-тӣввэ_навещать
-тӣрвсэ_на здоровье
-тӣррв_здравствуй, здравствуйте
-тӣррвэнҍ_здоровый
-тӣшшяй_смешной
-тоа̄вас_сильный
-тоа̄вврэшш_товарищ
-тоа̄гэ_туда
-тоа̄йва_чаще
-то̄ӆӆк_толк, польза, смысл, ум
-то̄ӆӆькье_понимать
-туарр_война, драка
-туаррэм_во время войны, во время драки
-тӯррэ_на войну
-тӯгкенҍ_за, позади
-тула_давно
-тӯллье_держать
-тӯррье_скорчиться, съежиться, сжиматься, съёжиться
-тыввнаххьте_одевать
-тыввнэдтэ_одеваться
-тыввь_диво, чудо
-тыввэ_хотеть, желать
-тэйта_эти
-тюдӓ_кулик
-тя̄дтӭ_попадать, попасьт
-угленч_уголок
-уггл_угол
-углэсьт_в углу
-углясьт_в уголке
-хабпхэ_вспыхнуть
-харпьсе_суетиться
-эӆпсэ_болтать
-ца̄ввьнэ_воспитывать
-це̄бпэ_мелко шинковать
-церехь_ласточка
-це̄ҏҏтлэ_зачеркнуть
-церствэ_чрёствый, черствый
-цо̄ввнэ_будить
-цуррьк_чурка
-цырмшаххьтэ_зажмуриться
-цыррмшэ_жмуриться
-чиммьп_кость ноги
-чосснэгк_головешка
-чуэйбялса_шкура на животе животного, шкура с живота животного, шкура на животе, шкура с живота
-шӣххтэль_удобный
-шувв_хороший
-шӯштэ_шалить
-ыштнэ_садиться
-ышшьтэ_ящик
-эгк_не
-эйй_не, нет
-элля_нет, не
-эсстхэллэ_догонять
-юксэ_догнать
-ю̄гке_делить, разделить
-югке_каждый
-югкесьт_у каждого
-я̄ммей_смерть
-я̄лл_жизнь
-райя_до, к
-тала_вот
-танна_тогда
-та̄ннӓ_в этом году
-
-
-по̄яс_пезд  ?? (kolla översättning)
+те̄вьтхе_V_VERB, FOOD, COLOUR_наполнить
+те̄д_N_SCHOOL-EDUCATION, HANDYCRAFT, KIN_знания
+те̄дтидтэй_N_SCHOOL-EDUCATION_учёный, ученый
+те̄ссклэнне_Adv_HUMAN, SCHOOL-EDUCATION, KIN_дружно
+те̄ххьтэ_V_VERB, LIVING-PLACE, PLACE-NATURE_попасть, наткнуться
+тӣввэ_V_VERB, FOOD, KIN, LIVING-PLACE_навещать
+тӣрвсэ_V_VERB, FOOD, HEALTH_на здоровье
+тӣррв_N_HUMAN, LIVING-PLACE, HEALTH_здравствуй, здравствуйте
+тӣррвэнҍ_A_HEALTH_здоровый
+тӣшшяй_A_HUMAN, SCHOOL-EDUCATION_смешной
+тоа̄вас_A_HUMAN, HEALTH_сильный
+тоа̄вврэшш_N_HUMAN, SCHOOL-EDUCATION_товарищ
+тоа̄гэ_Adv_LIVING-PLACE, PLACE-NATURE, PLACE-WATER, FOOD, CLOTHES_туда
+тоа̄йва_Adv_LIVING-PLACE, SCHOOL-EDUCATION, FOOD_чаще
+то̄ӆӆк_N_SCHOOL-EDUCATION_толк, польза, смысл, ум
+то̄ӆӆькье_V_VERB, SCHOOL-EDUCATION, HUMAN_понимать
+туарр_N_LIVING-PLACE, HUMAN_война, драка
+туарр_N_SCHOOL-EDUCATION_драка, война
+туаррэм_Adv_LIVING-PLACE, HUMAN_во время войны, во время драки
+туаррэм_Adv_SCHOOL-EDUCATION_во время драки, во время войны
+тӯррэ_Adv_LIVING-PLACE, HUMAN_на войну
+тӯгкенҍ_Adv_LIVING-PLACE, HUMAN, PLACE-NATURE_за, позади
+тула_Adv_TIME_давно
+тӯллье_V_VERB, FOOD, HANDYCRAFT, LIVING-PLACE_держать
+тӯррье_V_VERB, HUMAN, SCHOOL-EDUCATION_скорчиться, съежиться, сжиматься, съёжиться
+тыввнаххьте_V_VERB, CLOTHES, HEALTH, SCHOOL-EDUCATION_одевать
+тыввнэдтэ_V_VERB, CLOTHES, HEALTH, SCHOOL-EDUCATION_одеваться
+тыввь_N_HUMAN, HANDYCRAFT, HUMAN_диво, чудо
+тыввэ_V_VERB, CLOTHES, HUMAN, FOOD, COLOR_хотеть, желать
+тэйта_Pron_PRONOMEN, CLOTHES, HUMAN, FOOD, COLOR, PLANT, ANIMAL_эти
+тюдӓ_N_ANIMAL_кулик
+тя̄дтӭ_V_VERB, SCHOOL-EDUCATION, HUMAN_попадать, попасьт
+угленч_N_DEMINUTIV, LIVING-PLACE_уголок
+уггл_N_LIVING-PLACE_угол
+углэсьт_Adv_LIVING-PLACE, SCHOOL-EDUCATION_в углу
+углясьт_Adv_DEMINUTIV, LIVING-PLACE_в уголке
+хабпхэ_V_VERB, HUMAN, SCHOOL-EDUCATION, LIVING-PLACE_вспыхнуть
+харпьсе_V_VERB, HUMAN, SCHOOL-EDUCATION_суетиться
+эӆпсэ_V_VERB, HUMAN, SCHOOL-EDUCATION_болтать
+ца̄ввьнэ_V_VERB, SCHOOL-EDUCATION, KIN_воспитывать
+це̄бпэ_V_VERB, FOOD_мелко шинковать
+церехь_N_ANIMAL_ласточка
+це̄ҏҏтлэ_V_VERB, SCHOOL-EDUCATION, HANDYCRAFT_зачеркнуть
+церствэ_A_FOOD_чрёствый, черствый
+цо̄ввнэ_V_VERB_SCHOOL-EDUCATION, LIVING-PLACE_будить
+цуррьк_N_LIVING-PLACE, HANDYCRAFT_чурка
+цырмшаххьтэ_V_VERB_SHOOL-EDUCATION, HUMAN, HEALTH_зажмуриться
+цыррмшэ_V_VERB_SHOOL-EDUCATION, HUMAN, HEALTH_жмуриться
+чиммьп_N_BODY_кость ноги
+чосснэгк_N_LIVING-PLACE, FOOD_головешка
+чуэйбялса_N-ANIMAL, HANDYCRAFT_шкура на животе животного, шкура с живота животного, шкура на животе, шкура с живота
+шӣххтэль_A_LIVING-PLACE_удобный
+шувв_A_WEATHER_хороший
+шӯштэ_V_VERB, SCHOOL-EDUCATION_шалить
+ыштнэ_V_VERB, SCHOOL-EDUCATION, FOOD, HUMAN, LIVING-PLACE_садиться
+ышшьтэ_N_LIVING-PLACE, FOOD_ящик
+элля_V_VERB, FOOD, LIVING-PLACE, COLOR, CLOTHES_нет, не
+эсстхэллэ_V_VERB, HUMAN, SCHOOL-EDUCATION_догонять
+юксэ_V_VERB, HUMAN, SCHOOL-EDUCATION_догнать
+ю̄гке_V_VERB, SCHOOL-EDUCATION, FOOD, HANDYCRAFT_делить, разделить
+югке_A_SCHOOL-EDUCATION, FOOD, HUMAN, HANDYCRAFT_каждый
+югкесьт_N_FOOD, CLOTHES, HUMAN_у каждого
+я̄ммей_N_HUMAN, KIN, HEALTH_смерть
+я̄лл_N_HUMAN, KIN, HEALTH_жизнь
+райя_Adv_PLACE-NATURE, PLACE-WATER, TIME_до, к
+тала_Pron_PRONOMEN, FOOD, HUMAN, LIVING-PLACE, PLACE-NATURE_вот
+танна_Pron_PRONOMEN, TIME, KIN_тогда
+та̄ннӓ_Pron_PRONOMEN, TIME, WEATHER, SCHOOL-EDUCATION_в этом году
+мӣдтҍ_Pron_PRONOMEN, PLACE-NATURE, PLACE-WATER_вдоль, по
+гӯлл_Pron_PRONOMEN, PLACE-NATURE, PLACE-WATER_вдоль, по
+куэӈ_Pron_PRONOMEN, PLACE-NATURE, PLACE-WATER_вдоль, по
+паййлэнне_Adv_PLACE-NATURE, LIVING-PLACE_высоко
+э̄ллгэнне_Adv_PLACE-NATURE, LIVING-PLACE_высоко
+э̄ллъенне_Adv_PLACE-NATURE, LIVING-PLACE_высоко
+паййгэнне_Adv_PLACE-NATURE, LIVING-PLACE_высоко
+по̄яс_N_LIVING-PLACE_поезд
