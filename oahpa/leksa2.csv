@@ -49,7 +49,7 @@
 ва̄лль_N_ANIMAL_ястреб, сокол
 а̄лльп_N_ANIMAL_бабочка
 ко̄ттк_N_ANIMAL_муравей
-коа̄зя_N_ANIMAL_котенок
+коа̄зя_N_DEMINUTIV, ANIMAL_котенок
 ко̄йххь_N_ANIMAL_моль
 вуэррев_N_ANIMAL_белка
 ме̄герь_N_ANIMAL_мошка
@@ -504,7 +504,7 @@
 томтас_N_HUMAN_знакомый
 я̄ллмушш_N_HUMAN_жизнь
 шоабшмушш_N_HUMAN_любовь
-са̄ррнмушш_N_HUMAN_разговор
+са̄ррнмушш_N_HUMAN, SCHOOL-EDUCATION, FOOD_разговор
 ка̄ннҍцвудт_N_HUMAN_дружба
 вуэсстлэмушш_N_HUMAN_встреча
 кутӓс_Num_HUMAN_двое 
@@ -1522,3 +1522,6 @@
 э̄ллъенне_Adv_PLACE-NATURE, LIVING-PLACE_высоко
 паййгэнне_Adv_PLACE-NATURE, LIVING-PLACE_высоко
 по̄яс_N_LIVING-PLACE_поезд
+тӣшш_N_HUMAN, SCHOOL-EDUCATION, HEALTH_смех
+уххцэй_N_SCHOOL-EDUCATION_учитель, учительница
+стиха_N_HUMAN, SCHOOL-EDUCATION_стихи, стих
