@@ -1525,3 +1525,44 @@
 тӣшш_N_HUMAN, SCHOOL-EDUCATION, HEALTH_смех
 уххцэй_N_SCHOOL-EDUCATION_учитель, учительница
 стиха_N_HUMAN, SCHOOL-EDUCATION_стихи, стих
+са̄мь тӣтэ туххк_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_саамский алфавит
+тӣтэ туххк_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_алфавит
+тӣт_N_GRAMMAR-TERMINOLOGY_звуки, знаки
+тӣххт_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_звук, знак
+ӣнн тӣххт_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_гласный звук, гласный
+ӣнхэмь тӣххт_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_согласный звук, согласный
+кукесь ӣнн тӣххт_N_GRAMMAR-TERMINOLOGY_долгий гласный звук, долгий гласный
+кукесь ӣнхэмь тӣххт_N_GRAMMAR-TERMINOLOGY_долгий согласный звук, долгий согласный
+сӯбьнӭй тӣххт_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_мягкий знак
+пя̄лла сӯбьнэй тӣххт_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_полумягкий знак
+пя̄лла сӯбьнэй ӣнн тӣххт_N_GRAMMAR-TERMINOLOGY_полумягкий гласный
+пя̄лла ӣнсэй тӣххт_N_GRAMMAR-TERMINOLOGY_звонкий согласный, сонорный звук
+пя̄лла ӣнсэй кыррьтэй тӣххт_N_GRAMMAR-TERMINOLOGY_глухой сонорный звук
+кукесь тӣххт_N_GRAMMAR-TERMINOLOGY_долгий звук
+пя̄лла ӣнсэй оанҍхесь нюннҍ тӣххт_N_GRAMMAR-TERMINOLOGY_глухой сонорный краткий носовой звук 
+пя̄лла ӣнсэй кукесь нюннҍ тӣххт_N_GRAMMAR-TERMINOLOGY_глухой сонорный долгий носовой звук
+пя̄лла ӣнсэй оанҍхесь чонт тӣххт_N_GRAMMAR-TERMINOLOGY_глухой сонорный краткий гортанный звук
+пя̄лла ӣнсэй кукесь нюннҍ тӣххт_N_GRAMMAR-TERMINOLOGY_глухой сонорный долгий гортанный звук
+пя̄лла ӣнсэй оанҍхесь ню̄ххчемь тӣххт_N_GRAMMAR-TERMINOLOGY_глухой сонорный языковый краткий звук
+пя̄лла ӣнсэй кукесь нюххчемь тӣххт_N_GRAMMAR-TERMINOLOGY_глухой сонорный языковый долгий звук
+падеж_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_падежи
+падешш_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_падеж
+числа_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_число                              
+э̄ххт числа_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_единственное число
+е̄ннэ числа_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_множественное число      
+оа̄лкант_N_GRAMMAR-TERMINOLOGY_именительный, именительный падеж
+уйнант_N_GRAMMAR-TERMINOLOGY_винительный, винительный падеж
+уйнхемь_N_GRAMMAR-TERMINOLOGY_родительный, родительный падеж
+коа̄ввсаннт_N_GRAMMAR-TERMINOLOGY_превратительный, превратительный падеж
+саянт_N_GRAMMAR-TERMINOLOGY_местный, местно-исходный, местный падеж, местно-исходный падеж
+анҍтант_N_GRAMMAR-TERMINOLOGY_дательно-направительный, дательно-направительный падеж
+эхтант_N_GRAMMAR-TERMINOLOGY_совместный,совместный падеж
+коа̄дант_N_GRAMMAR-TERMINOLOGY_лишительный, лишительный падеж
+оа̄лкант падешш_N_SCHOOL-EDUCATION_именительный падеж, именительный
+уйнант падешш_N_SCHOOL-EDUCATION_винительный падеж, винительный
+уйнхемь падешш_N_SCHOOL-EDUCATION_родительный падеж, родительный
+коа̄ввсаннт падешш_N_SCHOOL-EDUCATION_превратительный падеж, превратительный
+саянт падешш_N_SCHOOL-EDUCATION_местный падеж, местно-исходный падеж, местный, местно-исходный
+анҍтант падешш_N_SCHOOL-EDUCATION_дательно-направительный падеж, дательно-направительный
+эхтант падешш_N_SCHOOL-EDUCATION_совместный падеж, совместный
+коа̄дант падешш_N_SCHOOL-EDUCATION_лишительный падеж, лишительный
