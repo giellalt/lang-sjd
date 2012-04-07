@@ -49,7 +49,7 @@
 ва̄лль_N_ANIMAL_ястреб, сокол
 а̄лльп_N_ANIMAL_бабочка
 ко̄ттк_N_ANIMAL_муравей
-коа̄зя_N_DEMINUTIV, ANIMAL_котенок
+коа̄зя_N_DIMINUTIVE, ANIMAL_котенок
 ко̄йххь_N_ANIMAL_моль
 вуэррев_N_ANIMAL_белка
 ме̄герь_N_ANIMAL_мошка
@@ -77,11 +77,11 @@
 чӯшшкперрий_N_ANIMAL_стрекоза
 ча̄дзьлоаннҍт_N_ANIMAL_утка
 ла̄лле_V_ANIMAL_выхаживать птенцов, выводить птенцов
-тӯлльй_N_ANIMAL, HANDYCRAFT_шкура животного
+тӯлльй_N_ANIMAL, HANDICRAFT_шкура животного
 кыррьтэ_N_ANIMAL, HUMAN, VERB_лететь
 кӣдтжэва_N_ANIMAL, LIVING-PLACE_животное домашнее, домашнее животное
 ля̄шшкэмнуррь_N_ANIMAL, LIVING-PLACE_аркан
-та̄лвуадт_N_ANIMAL, PLACE-NATUR_берлога
+та̄лвуадт_N_ANIMAL, PLACE-NATURE_берлога
 каррэ_N_ANIMAL, VERB_бежать
 луввдэ_N_ANIMAL, VERB_лежать о животном, лежать
 хоӈкрэ_N_ANIMAL, VERB_каркать о вороне, каркать
@@ -207,20 +207,20 @@
 коадтакурьтэхь_N_CLOTHES_кофта, свитер
 ыввьн_N_CLOTHES, COLOR_цвет, окраска
 поа̄ййн_N_CLOTHES, COLOR_краска
-пыссяр_N_CLOTHES, HANDYCRAFT_бисер
-пуэгень_N_CLOTHES, HANDYCRAFT_пояс
-кабперь_N_CLOTHES, HANDYCRAFT_шапка
-коа̄ммэ_N_CLOTHES, HANDYCRAFT_обувь
-пе̄ссяр_N_CLOTHES, HANDYCRAFT_бисер
-та̄ссэм_N_CLOTHES, HANDYCRAFT_ремень рабочий, рабочий ремень, ремень
-воа̄ххц_N_CLOTHES, HANDYCRAFT_варежки
-уллсуххк_N_CLOTHES, HANDYCRAFT_чулок шерстяной, шерстяной чулок
-ва̄ннцэнҍ_N_CLOTHES, HANDYCRAFT_обувь
-куххькэль_N_CLOTHES, HANDYCRAFT_накомарник, куколник
-суххквуэййв_N_CLOTHES, HANDYCRAFT_носок
-чушккабперь_N_CLOTHES, HANDYCRAFT_накомарник, куколник
-се̄лльквусс_N_CLOTHES, HANDYCRAFT, SCHOOL-EDUCATION_рюкзак
-кӯрьтэхь_N_CLOTHES, HUMAN, HANDYCRAFT_жилетка
+пыссяр_N_CLOTHES, HANDICRAFT_бисер
+пуэгень_N_CLOTHES, HANDICRAFT_пояс
+кабперь_N_CLOTHES, HANDICRAFT_шапка
+коа̄ммэ_N_CLOTHES, HANDICRAFT_обувь
+пе̄ссяр_N_CLOTHES, HANDICRAFT_бисер
+та̄ссэм_N_CLOTHES, HANDICRAFT_ремень рабочий, рабочий ремень, ремень
+воа̄ххц_N_CLOTHES, HANDICRAFT_варежки
+уллсуххк_N_CLOTHES, HANDICRAFT_чулок шерстяной, шерстяной чулок
+ва̄ннцэнҍ_N_CLOTHES, HANDICRAFT_обувь
+куххькэль_N_CLOTHES, HANDICRAFT_накомарник, куколник
+суххквуэййв_N_CLOTHES, HANDICRAFT_носок
+чушккабперь_N_CLOTHES, HANDICRAFT_накомарник, куколник
+се̄лльквусс_N_CLOTHES, HANDICRAFT, SCHOOL-EDUCATION_рюкзак
+кӯрьтэхь_N_CLOTHES, HUMAN, HANDICRAFT_жилетка
 лӣййнҍ_N_CLOTHES, PLANT_лён
 ца̄гке_V_CLOTHES, VERB_одевать, одеть, надевать, надеть; натягивать, натянуть; обуваться, обуться
 я̄ккьсе_V_CLOTHES, VERB_раздевать, раздеть, снимать, снять
@@ -244,28 +244,28 @@
 э̄йвсессь_A_COLOR, CLOTHES_нежный
 се̄ввьнесь_A_COLOR, CLOTHES_тёмный, пасмурный, темный
 чоа̄ххьпесь_A_COLOR, CLOTHES_черный
-цыза_N_DEMINUTIV_птички
-цызга_N_DEMINUTIV_птички
-куэшка_N_DEMINUTIV_порогчики, маленькие пороги, пороги маленькие
-поа̄лла_N_DEMINUTIV_мячики
-ко̄ввса_N_DEMINUTIV_чумчики, маленькие куваксы, маленькие чумы
-цызэнч_N_DEMINUTIV, ANIMAL_птичка
-пӯдзъя_N_DEMINUTIV, ANIMAL_оленята
-тоа̄ла_N_DEMINUTIV, ANIMAL_медвежата
-цызгэнч_N_DEMINUTIV, ANIMAL_птичка
-пе̄ннга_N_DEMINUTIV, ANIMAL_собачки
-пӯдзъенч_N_DEMINUTIV, ANIMAL_оленёнок, олененок
-тоа̄лэнч_N_DEMINUTIV, ANIMAL_медвежонок
-оа̄дзкэнч_N_DEMINUTIV, ANIMAL_паучок
-пе̄ннгэнч_N_DEMINUTIV, ANIMAL_собачка
-туа̄ла_N_DEMINUTIV, LIVING-PLACE_столики
-туа̄лэнч_N_DEMINUTIV, LIVING-PLACE_столик
-поа̄ллэнч_N_DEMINUTIV, LIVING-PLACE_мячик
-ка̄ввсэнч_N_DEMINUTIV, LIVING-PLACE_чумчик, маленькая кувакса, маленький чум 
-кушкэнч_N_DEMINUTIV, PLACE-WATER_порогчиг, маленький порог
-мӯнненч_N_DEMINUTIV, WEATHER_морозец
-мӯнньгенч_N_DEMINUTIV, WEATHER_морозец
-мӯнньга_N_DEMINUTIV, WEATHER_морозец
+цыза_N_DIMINUTIVE_птички
+цызга_N_DIMINUTIVE_птички
+куэшка_N_DIMINUTIVE_порогчики, маленькие пороги, пороги маленькие
+поа̄лла_N_DIMINUTIVE_мячики
+ко̄ввса_N_DIMINUTIVE_чумчики, маленькие куваксы, маленькие чумы
+цызэнч_N_DIMINUTIVE, ANIMAL_птичка
+пӯдзъя_N_DIMINUTIVE, ANIMAL_оленята
+тоа̄ла_N_DIMINUTIVE, ANIMAL_медвежата
+цызгэнч_N_DIMINUTIVE, ANIMAL_птичка
+пе̄ннга_N_DIMINUTIVE, ANIMAL_собачки
+пӯдзъенч_N_DIMINUTIVE, ANIMAL_оленёнок, олененок
+тоа̄лэнч_N_DIMINUTIVE, ANIMAL_медвежонок
+оа̄дзкэнч_N_DIMINUTIVE, ANIMAL_паучок
+пе̄ннгэнч_N_DIMINUTIVE, ANIMAL_собачка
+туа̄ла_N_DIMINUTIVE, LIVING-PLACE_столики
+туа̄лэнч_N_DIMINUTIVE, LIVING-PLACE_столик
+поа̄ллэнч_N_DIMINUTIVE, LIVING-PLACE_мячик
+ка̄ввсэнч_N_DIMINUTIVE, LIVING-PLACE_чумчик, маленькая кувакса, маленький чум 
+кушкэнч_N_DIMINUTIVE, PLACE-WATER_порогчиг, маленький порог
+мӯнненч_N_DIMINUTIVE, WEATHER_морозец
+мӯнньгенч_N_DIMINUTIVE, WEATHER_морозец
+мӯнньга_N_DIMINUTIVE, WEATHER_морозец
 лӯсс_N_FISH_семга
 сайй_N_FISH_порода трески
 ёррш_N_FISH_ёрш, ерш
@@ -373,55 +373,55 @@
 лоа̄фкхэсс_N_FOOD, PLANT_лук, лук дикий, дикий лук
 чӯмсэ_N_FOOD, VERB_чистить рыбу, снимать чешую
 лӯнтнэ_V_FOOD, VERB_лопнуть
-поання_Adv_HANDYCRAFT_криво
-чамсэннӭ_Adv_HANDYCRAFT_ровно, красиво
-сӯнн_N_HANDYCRAFT_нитка
-вайй_N_HANDYCRAFT_выкройка
-ке̄бп_N_HANDYCRAFT_игла для сеток
-шамшш_N_HANDYCRAFT_шамшура
-те̄пь_N_HANDYCRAFT_триугольник висячий, висячий триугольник
-нӣввьл_N_HANDYCRAFT_иголка
-рӯввьт_N_HANDYCRAFT_ножницы
-винтер_N_HANDYCRAFT_поясная часть на женских ярах
-ко̄ӆӆк_N_HANDYCRAFT_бубенцы, колокольчики закрытые, колокольчики
-на̄ххьк_N_HANDYCRAFT_кожа дублённая, дубленная кожа
-пуйххьк_N_HANDYCRAFT_спица
-ка̄лльт_N_HANDYCRAFT_позументная лента, лента позументная
-те̄ххьп_N_HANDYCRAFT_триугольник висячий
-ложьбанд_N_HANDYCRAFT_клапан на мужских ярах
-вӯсспэдт_N_HANDYCRAFT_нижняя часть сумки
-кӣдттуйй_N_HANDYCRAFT_рукоделие
-вуэнҍтэсь_N_HANDYCRAFT_корень
-сӯррмгэдт_N_HANDYCRAFT_наперсток, напрёсток
-кыррьйнэсс_N_HANDYCRAFT_узор
-вуэррьтниввьл_N_HANDYCRAFT_игла с гранями
-куэшшь_N_HANDYCRAFT, ANIMAL_кожа животного, кожа
-улл_N_HANDYCRAFT, CLOTHES_шерсть
-сефс_N_HANDYCRAFT, CLOTHES_шерсть
-саййк_N_HANDYCRAFT, CLOTHES_шерсть
-кыррьй_N_HANDYCRAFT, CLOTHES_узор, рисунок
-вӯппьс_N_HANDYCRAFT, CLOTHES_размер
-кыррьй_N_HANDYCRAFT, CLOTHES_узорчатый, пёрстрый
-шышшенҍ_N_HANDYCRAFT, CLOTHES_кожа лысая, жамша, лысая кожа
-са̄ррьк_N_HANDYCRAFT, CLOTHES_сукно
-кырьнэсс_N_HANDYCRAFT, CLOTHES_узор, рисунок
-е̄дтэ_V_HANDYCRAFT, FOOD, VERB_резать, отрезать, разрезать, нарезать
-чӯххпэ_V_HANDYCRAFT, FOOD, VERB_резать, обрезать, нарезать
-пе̄рьвесськ_N_HANDYCRAFT, HUMAN_девичий головной убор
-тӯетҍ лыххкэ_V_HANDYCRAFT, HUMAN, VERB_работать, делать, трудиться
-пе̄ррэ_V_HANDYCRAFT, HUMAN, VERB_стрич волосы или шерсть; срезать
-лыххкэ_V_HANDYCRAFT, HUMAN, VERB_работать, делать, трудиться
-рӯввьтнаввьл_N_HANDYCRAFT, LIVING-PLACE_гвоздь
-це̄ҏҏтэ_V_HANDYCRAFT, SCHOOL-EDUCATION, VERB_чертить
-рисэвайе_V_HANDYCRAFT, SCHOOL-EDUCATION, VERB_рисовать
-ло̄дтэ_V_HANDYCRAFT, VERB_плести из толстых ниток
-вэ̄йе_V_HANDYCRAFT, VERB_кроить
-тубпэ_V_HANDYCRAFT, VERB_дубить
-куаррэ_V_HANDYCRAFT, VERB_шить
-кырьйхэ_V_HANDYCRAFT, VERB_вышивать, вышить, украсить узоромкы
+поання_Adv_HANDICRAFT_криво
+чамсэннӭ_Adv_HANDICRAFT_ровно, красиво
+сӯнн_N_HANDICRAFT_нитка
+вайй_N_HANDICRAFT_выкройка
+ке̄бп_N_HANDICRAFT_игла для сеток
+шамшш_N_HANDICRAFT_шамшура
+те̄пь_N_HANDICRAFT_триугольник висячий, висячий триугольник
+нӣввьл_N_HANDICRAFT_иголка
+рӯввьт_N_HANDICRAFT_ножницы
+винтер_N_HANDICRAFT_поясная часть на женских ярах
+ко̄ӆӆк_N_HANDICRAFT_бубенцы, колокольчики закрытые, колокольчики
+на̄ххьк_N_HANDICRAFT_кожа дублённая, дубленная кожа
+пуйххьк_N_HANDICRAFT_спица
+ка̄лльт_N_HANDICRAFT_позументная лента, лента позументная
+те̄ххьп_N_HANDICRAFT_триугольник висячий
+ложьбанд_N_HANDICRAFT_клапан на мужских ярах
+вӯсспэдт_N_HANDICRAFT_нижняя часть сумки
+кӣдттуйй_N_HANDICRAFT_рукоделие
+вуэнҍтэсь_N_HANDICRAFT_корень
+сӯррмгэдт_N_HANDICRAFT_наперсток, напрёсток
+кыррьйнэсс_N_HANDICRAFT_узор
+вуэррьтниввьл_N_HANDICRAFT_игла с гранями
+куэшшь_N_HANDICRAFT, ANIMAL_кожа животного, кожа
+улл_N_HANDICRAFT, CLOTHES_шерсть
+сефс_N_HANDICRAFT, CLOTHES_шерсть
+саййк_N_HANDICRAFT, CLOTHES_шерсть
+кыррьй_N_HANDICRAFT, CLOTHES_узор, рисунок
+вӯппьс_N_HANDICRAFT, CLOTHES_размер
+кыррьй_N_HANDICRAFT, CLOTHES_узорчатый, пёрстрый
+шышшенҍ_N_HANDICRAFT, CLOTHES_кожа лысая, жамша, лысая кожа
+са̄ррьк_N_HANDICRAFT, CLOTHES_сукно
+кырьнэсс_N_HANDICRAFT, CLOTHES_узор, рисунок
+е̄дтэ_V_HANDICRAFT, FOOD, VERB_резать, отрезать, разрезать, нарезать
+чӯххпэ_V_HANDICRAFT, FOOD, VERB_резать, обрезать, нарезать
+пе̄рьвесськ_N_HANDICRAFT, HUMAN_девичий головной убор
+тӯетҍ лыххкэ_V_HANDICRAFT, HUMAN, VERB_работать, делать, трудиться
+пе̄ррэ_V_HANDICRAFT, HUMAN, VERB_стрич волосы или шерсть; срезать
+лыххкэ_V_HANDICRAFT, HUMAN, VERB_работать, делать, трудиться
+рӯввьтнаввьл_N_HANDICRAFT, LIVING-PLACE_гвоздь
+це̄ҏҏтэ_V_HANDICRAFT, SCHOOL-EDUCATION, VERB_чертить
+рисэвайе_V_HANDICRAFT, SCHOOL-EDUCATION, VERB_рисовать
+ло̄дтэ_V_HANDICRAFT, VERB_плести из толстых ниток
+вэ̄йе_V_HANDICRAFT, VERB_кроить
+тубпэ_V_HANDICRAFT, VERB_дубить
+куаррэ_V_HANDICRAFT, VERB_шить
+кырьйхэ_V_HANDICRAFT, VERB_вышивать, вышить, украсить узоромкы
 кырьйнэсс_N_SCHOOL-EDUCATION_рисунок, узор
-кырьйнэсс_N_HANDYCRAFT_узор, рисунок
-ла̄ххьтэ_V_HANDYCRAFT, VERB_вдедевать нитку в иголку, нанизывать
+кырьйнэсс_N_HANDICRAFT_узор, рисунок
+ла̄ххьтэ_V_HANDICRAFT, VERB_вдедевать нитку в иголку, нанизывать
 тӣрвас_A_HEALTH_здоровый
 лыххцэм_A_HEALTH_лечебный
 чальмхемь_A_HEALTH_слепой
@@ -536,11 +536,11 @@
 вэххтэнне_Adv_HUMAN, FOOD, SCHOOL-EDUCATION_быстро
 выххтэнне_Adv_HUMAN, FOOD, TIME_быстро
 вэ̄ццкэ_N_HUMAN, FOOD, VERB_скрести, скоблить, брить
-чепесь_A_HUMAN, HANDYCRAFT_искусный, мастеровой
-чепельт_Adv_HUMAN, HANDYCRAFT_искусно, мастерски
-мо̄джесь_Adv_HUMAN, HANDYCRAFT_красивый
-мо̄джьтэнне_Adv_HUMAN, HANDYCRAFT_красиво
-че̄ххьп_N_HUMAN, HANDYCRAFT_мастер, мастерица
+чепесь_A_HUMAN, HANDICRAFT_искусный, мастеровой
+чепельт_Adv_HUMAN, HANDICRAFT_искусно, мастерски
+мо̄джесь_Adv_HUMAN, HANDICRAFT_красивый
+мо̄джьтэнне_Adv_HUMAN, HANDICRAFT_красиво
+че̄ххьп_N_HUMAN, HANDICRAFT_мастер, мастерица
 ко̄ннч_N_HUMAN, HEALTH_моча
 о̄ххтэ_N_HUMAN, KIN_один, одна
 чинчас_Adv_HUMAN, LIVING-PLACE_налево, влево
@@ -574,8 +574,8 @@
 э̄ххт тоа̄фант_Num_HUMAN, SCHOOL-EDUCATION_тысяча
 чӯдтҍ_Num_HUMAN, SCHOOL-EDUCATION_сто
 тоа̄фант_Num_HUMAN, SCHOOL-EDUCATION_тысяча
-шӣгтэнне_Adv_HUMAN, SCHOOL-EDUCATION, HANDYCRAFT_хорошо, приятно, отлично
-фоаӊӊт_N_HUMAN, SCHOOL-EDUCATION, HANDYCRAFT_фантазия
+шӣгтэнне_Adv_HUMAN, SCHOOL-EDUCATION, HANDICRAFT_хорошо, приятно, отлично
+фоаӊӊт_N_HUMAN, SCHOOL-EDUCATION, HANDICRAFT_фантазия
 чуэррьв_N_HUMAN, SCHOOL-EDUCATION, LIVING-PLACE_председатель, вождь, начальник, руководитель,чиновник
 ла̄ввлэ_V_HUMAN, SCHOOL-EDUCATION, VERB_петь
 луввтъе_V_HUMAN, SCHOOL-EDUCATION, VERB_петь традиционную саамскую песьню, петь луввты
@@ -796,21 +796,21 @@
 та̄лльвманн_N_MONTH_декабрь
 сӯйнкоссэманн_N_MONTH_июль
 кӯньтхемьманн_N_MONTH_апрель
-поад ва̄ррь_N_PLACE-NATUR_лес маленький
-ю̄гал_N_PLACE-NATUR_скала
-ча̄рр_N_PLACE-NATUR_тундра
-поа̄ке урьт_N_PLACE-NATUR_цепь гор
-ля̄ммт_N_PLACE-NATUR_лес густой, большой
-коаллс_N_PLACE-NATUR_скала
-лоа̄шш_N_PLACE-NATUR_трясина
-луа̄шш_N_PLACE-NATUR_трясина
-ка̄йваш_N_PLACE-NATUR_роща
-ка̄ннҍт_N_PLACE-NATUR_сопка, холм
-пуэшенҍ_N_PLACE-NATUR_поляна где косят сено, сенокосная поляна, поляна
-нёллктэсс_N_PLACE-NATUR_равнина
-коа̄ррпторф_N_PLACE-NATUR_торф
-пе̄ссьмурркайваш_N_PLACE-NATUR_роща берёзовая, берёзывая роща, роща березовая, березывая роща
-роа̄ввк_N_PLACE-NATUR, LIVING-PLACE_приведение
+поад ва̄ррь_N_PLACE-NATURE_лес маленький
+ю̄гал_N_PLACE-NATURE_скала
+ча̄рр_N_PLACE-NATURE_тундра
+поа̄ке урьт_N_PLACE-NATURE_цепь гор
+ля̄ммт_N_PLACE-NATURE_лес густой, большой
+коаллс_N_PLACE-NATURE_скала
+лоа̄шш_N_PLACE-NATURE_трясина
+луа̄шш_N_PLACE-NATURE_трясина
+ка̄йваш_N_PLACE-NATURE_роща
+ка̄ннҍт_N_PLACE-NATURE_сопка, холм
+пуэшенҍ_N_PLACE-NATURE_поляна где косят сено, сенокосная поляна, поляна
+нёллктэсс_N_PLACE-NATURE_равнина
+коа̄ррпторф_N_PLACE-NATURE_торф
+пе̄ссьмурркайваш_N_PLACE-NATURE_роща берёзовая, берёзывая роща, роща березовая, березывая роща
+роа̄ввк_N_PLACE-NATURE, LIVING-PLACE_приведение
 туммплесь_A_PLACE-NATURE_дальний, далекий, далёкий
 куххклэшш_A_PLACE-NATURE_дальний, далекий, далёкий
 кукас_Adv_PLACE-NATURE_далеко
@@ -881,7 +881,7 @@
 ё̄гкмоаххьк_N_PLACE-WATER_изгиб реки
 кӯльялаш_A_PLACE-WATER, FISH_урожайный рыбой, богатый рыбой
 кӯлль_N_PLACE-WATER, FISH_рыба
-ко̄ррэ_V_PLACE-WATER, HANDTCRAFT, VERB_привязывать, привязать
+ко̄ррэ_V_PLACE-WATER, HANDICRAFT, VERB_привязывать, привязать
 сугкэ_V_PLACE-WATER, HUMAN, VERB_грести
 вӯнн_N_PLACE-WATER, LIVING-PLACE_бухта, губа, залив
 суэл_N_PLACE-WATER, LIVING-PLACE_остров
@@ -916,123 +916,123 @@
 ё̄гккоаллем_N_PLANT_заросли берёзника вдоль реки, заросли березника вдоль рекиаросли берёзника, заросли березника
 пе̄ссьмуркоаллем_N_PLANT_заросли берёзника в лесу, заросли березника в лесу
 мя̄рркнэ_V_PLANT, FOOD, VERB_гнить
-ва̄ррь_N_PLANT, PLACE-NATUR_лес
+ва̄ррь_N_PLANT, PLACE-NATURE_лес
 ручкнэ_V_PLANT, VERB_желтеть
 кэ̄ххче_V_PLANT, VERB_падать с верху вниз, падать вниз
-кӯ-не_Pron_PRONOMEN_который-нибудь
-мӣ-ляннч_Pron_PRONOMEN_что-то
-го_Pron_PRONOMEN_что
-кӯ_Pron_PRONOMEN_который
-сӣн_Pron_PRONOMEN_их
-штэ_Pron_PRONOMEN_что
-мун_Pron_PRONOMEN_мой, моя, моё, меня
-мӣн_Pron_PRONOMEN_наш, наша, наши
-тӣн_Pron_PRONOMEN_ваш, ваша, ваши
-мунн ӣджь_Pron_PRONOMEN_я сама, я сам
-мыйй ӣджь_Pron_PRONOMEN_мы сами
-тыйй ӣджь_Pron_PRONOMEN_вы сами
-сыйй ӣджь_Pron_PRONOMEN_они сами
-мыйе_Pron_PRONOMEN_к нам
-сыйе_Pron_PRONOMEN_к ним
-тыйе_Pron_PRONOMEN_к вам
-со̄н_Pron_PRONOMEN_её, его
-тудт_Pron_PRONOMEN_тот другой, тот
-ке̄н_Pron_PRONOMEN_кого
-то̄н_Pron_PRONOMEN_тебя
-тэдт_Pron_PRONOMEN_этот
-тӣгэ_Pron_PRONOMEN_сюда
-ке̄з_Pron_PRONOMEN_кому, чему
-то̄н_Pron_PRONOMEN_твой, твоя, твоё
-мэ̄з_Pron_PRONOMEN_зачем, почему
-то̄нн ӣджь_Pron_PRONOMEN_ты сам, ты сама
-со̄нн ӣджь_Pron_PRONOMEN_она сама, он сам
-мэ̄гк-ляннч_Pron_PRONOMEN_что-то
-тоннӭ_Pron_PRONOMEN_к тебе
-соннӭ_Pron_PRONOMEN_к нему, к ней
-мусьт_Pron_PRONOMEN_у меня, во мне
-мыннӭ_Pron_PRONOMEN_ко мне
-тэсьт_Pron_PRONOMEN_тут
-тёллэ_Pron_PRONOMEN_вон там далеко, вон там, там далеко, далеко там
-мунха_Pron_PRONOMEN_без меня
-то̄гэ_Pron_PRONOMEN_туда
-тоагэ_Pron_PRONOMEN_туда
-тэдта_Pron_PRONOMEN_этот
-тэсса_Pron_PRONOMEN_сюда
-мэ̄нн_Pron_PRONOMEN_чего, что
-мугка_Pron_PRONOMEN_такой
-мэ̄йт_Pron_PRONOMEN_зачем, почему
-мэ̄гк_Pron_PRONOMEN_что множ чис, что
-манҍтэ-не_Pron_PRONOMEN_какой-нибудь
-мӣнэнҍ_Pron_PRONOMEN_у нас, в нас
-сӣнэнҍ_Pron_PRONOMEN_у них, в них
-тӣнэнҍ_Pron_PRONOMEN_у вас, в нас
-ке̄сьт_Pron_PRONOMEN_у кого
-со̄сьт_Pron_PRONOMEN_у него, у неё, у нее, в нем, в нём, в ней
-то̄сьт_Pron_PRONOMEN_у тебя, в тебе
-сӣнэтҍ_Pron_PRONOMEN_их
-нимэ̄з_Pron_PRONOMEN_ни для чего
-мунэнҍ_Pron_PRONOMEN_со мной
-ко̄ххт_Pron_PRONOMEN_как
-ма̄ххт_Pron_PRONOMEN_как
-мӣнэтҍ_Pron_PRONOMEN_нас
-тӣнэтҍ_Pron_PRONOMEN_вас
-мӣнэха_Pron_PRONOMEN_без нас
-сӣнэха_Pron_PRONOMEN_без них
-тӣнэха_Pron_PRONOMEN_без вас
-то̄нха_Pron_PRONOMEN_без тебя
-со̄нха_Pron_PRONOMEN_без него, без неё, без нее
-коампэ_Pron_PRONOMEN_который
-со̄нэнҍ_Pron_PRONOMEN_с ним, с ней
-мунэсьт_Pron_PRONOMEN_у меня, во мне
-то̄нэнҍ_Pron_PRONOMEN_с тобой
-нимэ̄йн_Pron_PRONOMEN_ни с чем
-нимасьт_Pron_PRONOMEN_ни у чего
-муннэнҍ_Pron_PRONOMEN_как я, в меня
-нике̄нн_Pron_PRONOMEN_ничей, никого
-со̄нэсьт_Pron_PRONOMEN_у него, у неё, у нее, в нём, в нем, в ней
-то̄нэсьт_Pron_PRONOMEN_у тебя, в тебе
-нике̄сьт_Pron_PRONOMEN_ни у кого
-то̄ннэнҍ_Pron_PRONOMEN_как ты, в тебя
-со̄ннэнҍ_Pron_PRONOMEN_как он, как она, в него, в её, в ее
-тёллэдтӭ_Pron_PRONOMEN_тот далеко, тот
-мӣнэгуэйм_Pron_PRONOMEN_с нами
-сӣнэгуэйм_Pron_PRONOMEN_с ними
-тӣнэгуэйм_Pron_PRONOMEN_с вами
-мэ̄ннварэст_Pron_PRONOMEN_для чего
-мэ̄ннгуэйке_Pron_PRONOMEN_почему, для чего
-нимэ̄ннгуэйке_Pron_PRONOMEN_ни для чего
-манҍтэ_Pron_PRONOMEN, COLOR, CLOTHES, FOOD_какой, какие
-мӣ-не_Pron_PRONOMEN, HUMAN_что-нибудь
-ке̄-не_Pron_PRONOMEN, HUMAN_кто-нибудь
-ке̄-ляннч_Pron_PRONOMEN, HUMAN_кто-то
-мунн_Pron_PRONOMEN, HUMAN_я
-мыйй_Pron_PRONOMEN, HUMAN_мы
-тыйй_Pron_PRONOMEN, HUMAN_вы
-сыйй_Pron_PRONOMEN, HUMAN_они
-нимӣ_Pron_PRONOMEN, HUMAN_ничто
-мэ̄гк-не_Pron_PRONOMEN, HUMAN_что-нибудь
-ке̄гк-не_Pron_PRONOMEN, HUMAN_кто-нибудь
-ке̄гк-ляннч_Pron_PRONOMEN, HUMAN_кто-то
-ке̄йн_Pron_PRONOMEN, HUMAN_с кем
-то̄нн_Pron_PRONOMEN, HUMAN_ты
-со̄нн_Pron_PRONOMEN, HUMAN_он, она, оно
-нике̄_Pron_PRONOMEN, HUMAN_никто
-нике̄з_Pron_PRONOMEN, HUMAN_никому
-нике̄йн_Pron_PRONOMEN, HUMAN_ни с кем
-нимэ̄нн_Pron_PRONOMEN, HUMAN_ничего
-тэста_Pron_PRONOMEN, LIVING-PLACE_здесь
-тамьпе_Pron_PRONOMEN, LIVING-PLACE_там
-нико̄з_Pron_PRONOMEN, LIVING-PLACE_никуда
-никасьт_Pron_PRONOMEN, LIVING-PLACE_нигде, ниоткуда
-ко̄з_Pron_PRONOMEN, PLACE-NATURE, LIVING-PLACE_куда
-касьт_Pron_PRONOMEN, PLACE-NATURE, LIVING-PLACE_где, откуда
-масьт_Pron_PRONOMEN, PLACE-NATURE, LIVING-PLACE_откуда
-мэ̄нн е̄ннэ_Pron_PRONOMEN, SCHOOL-EDUCATION, FOOD_сколько
-мэннверьт_Pron_PRONOMEN, SCHOOL-EDUCATION, FOOD_сколько
-мэ̄нн кӯгкь_Pron_PRONOMEN, TIME_как долго
-куэссь-не_Pron_PRONOMEN, TIME_когда-нибудь
-куэссь-ляннч_Pron_PRONOMEN, TIME_когда-то
-куэссь_Pron_PRONOMEN, TIME_когда
+кӯ-не_Pron_PRONOUN_который-нибудь
+мӣ-ляннч_Pron_PRONOUN_что-то
+го_Pron_PRONOUN_что
+кӯ_Pron_PRONOUN_который
+сӣн_Pron_PRONOUN_их
+штэ_Pron_PRONOUN_что
+мун_Pron_PRONOUN_мой, моя, моё, меня
+мӣн_Pron_PRONOUN_наш, наша, наши
+тӣн_Pron_PRONOUN_ваш, ваша, ваши
+мунн ӣджь_Pron_PRONOUN_я сама, я сам
+мыйй ӣджь_Pron_PRONOUN_мы сами
+тыйй ӣджь_Pron_PRONOUN_вы сами
+сыйй ӣджь_Pron_PRONOUN_они сами
+мыйе_Pron_PRONOUN_к нам
+сыйе_Pron_PRONOUN_к ним
+тыйе_Pron_PRONOUN_к вам
+со̄н_Pron_PRONOUN_её, его
+тудт_Pron_PRONOUN_тот другой, тот
+ке̄н_Pron_PRONOUN_кого
+то̄н_Pron_PRONOUN_тебя
+тэдт_Pron_PRONOUN_этот
+тӣгэ_Pron_PRONOUN_сюда
+ке̄з_Pron_PRONOUN_кому, чему
+то̄н_Pron_PRONOUN_твой, твоя, твоё
+мэ̄з_Pron_PRONOUN_зачем, почему
+то̄нн ӣджь_Pron_PRONOUN_ты сам, ты сама
+со̄нн ӣджь_Pron_PRONOUN_она сама, он сам
+мэ̄гк-ляннч_Pron_PRONOUN_что-то
+тоннӭ_Pron_PRONOUN_к тебе
+соннӭ_Pron_PRONOUN_к нему, к ней
+мусьт_Pron_PRONOUN_у меня, во мне
+мыннӭ_Pron_PRONOUN_ко мне
+тэсьт_Pron_PRONOUN_тут
+тёллэ_Pron_PRONOUN_вон там далеко, вон там, там далеко, далеко там
+мунха_Pron_PRONOUN_без меня
+то̄гэ_Pron_PRONOUN_туда
+тоагэ_Pron_PRONOUN_туда
+тэдта_Pron_PRONOUN_этот
+тэсса_Pron_PRONOUN_сюда
+мэ̄нн_Pron_PRONOUN_чего, что
+мугка_Pron_PRONOUN_такой
+мэ̄йт_Pron_PRONOUN_зачем, почему
+мэ̄гк_Pron_PRONOUN_что множ чис, что
+манҍтэ-не_Pron_PRONOUN_какой-нибудь
+мӣнэнҍ_Pron_PRONOUN_у нас, в нас
+сӣнэнҍ_Pron_PRONOUN_у них, в них
+тӣнэнҍ_Pron_PRONOUN_у вас, в нас
+ке̄сьт_Pron_PRONOUN_у кого
+со̄сьт_Pron_PRONOUN_у него, у неё, у нее, в нем, в нём, в ней
+то̄сьт_Pron_PRONOUN_у тебя, в тебе
+сӣнэтҍ_Pron_PRONOUN_их
+нимэ̄з_Pron_PRONOUN_ни для чего
+мунэнҍ_Pron_PRONOUN_со мной
+ко̄ххт_Pron_PRONOUN_как
+ма̄ххт_Pron_PRONOUN_как
+мӣнэтҍ_Pron_PRONOUN_нас
+тӣнэтҍ_Pron_PRONOUN_вас
+мӣнэха_Pron_PRONOUN_без нас
+сӣнэха_Pron_PRONOUN_без них
+тӣнэха_Pron_PRONOUN_без вас
+то̄нха_Pron_PRONOUN_без тебя
+со̄нха_Pron_PRONOUN_без него, без неё, без нее
+коампэ_Pron_PRONOUN_который
+со̄нэнҍ_Pron_PRONOUN_с ним, с ней
+мунэсьт_Pron_PRONOUN_у меня, во мне
+то̄нэнҍ_Pron_PRONOUN_с тобой
+нимэ̄йн_Pron_PRONOUN_ни с чем
+нимасьт_Pron_PRONOUN_ни у чего
+муннэнҍ_Pron_PRONOUN_как я, в меня
+нике̄нн_Pron_PRONOUN_ничей, никого
+со̄нэсьт_Pron_PRONOUN_у него, у неё, у нее, в нём, в нем, в ней
+то̄нэсьт_Pron_PRONOUN_у тебя, в тебе
+нике̄сьт_Pron_PRONOUN_ни у кого
+то̄ннэнҍ_Pron_PRONOUN_как ты, в тебя
+со̄ннэнҍ_Pron_PRONOUN_как он, как она, в него, в её, в ее
+тёллэдтӭ_Pron_PRONOUN_тот далеко, тот
+мӣнэгуэйм_Pron_PRONOUN_с нами
+сӣнэгуэйм_Pron_PRONOUN_с ними
+тӣнэгуэйм_Pron_PRONOUN_с вами
+мэ̄ннварэст_Pron_PRONOUN_для чего
+мэ̄ннгуэйке_Pron_PRONOUN_почему, для чего
+нимэ̄ннгуэйке_Pron_PRONOUN_ни для чего
+манҍтэ_Pron_PRONOUN, COLOR, CLOTHES, FOOD_какой, какие
+мӣ-не_Pron_PRONOUN, HUMAN_что-нибудь
+ке̄-не_Pron_PRONOUN, HUMAN_кто-нибудь
+ке̄-ляннч_Pron_PRONOUN, HUMAN_кто-то
+мунн_Pron_PRONOUN, HUMAN_я
+мыйй_Pron_PRONOUN, HUMAN_мы
+тыйй_Pron_PRONOUN, HUMAN_вы
+сыйй_Pron_PRONOUN, HUMAN_они
+нимӣ_Pron_PRONOUN, HUMAN_ничто
+мэ̄гк-не_Pron_PRONOUN, HUMAN_что-нибудь
+ке̄гк-не_Pron_PRONOUN, HUMAN_кто-нибудь
+ке̄гк-ляннч_Pron_PRONOUN, HUMAN_кто-то
+ке̄йн_Pron_PRONOUN, HUMAN_с кем
+то̄нн_Pron_PRONOUN, HUMAN_ты
+со̄нн_Pron_PRONOUN, HUMAN_он, она, оно
+нике̄_Pron_PRONOUN, HUMAN_никто
+нике̄з_Pron_PRONOUN, HUMAN_никому
+нике̄йн_Pron_PRONOUN, HUMAN_ни с кем
+нимэ̄нн_Pron_PRONOUN, HUMAN_ничего
+тэста_Pron_PRONOUN, LIVING-PLACE_здесь
+тамьпе_Pron_PRONOUN, LIVING-PLACE_там
+нико̄з_Pron_PRONOUN, LIVING-PLACE_никуда
+никасьт_Pron_PRONOUN, LIVING-PLACE_нигде, ниоткуда
+ко̄з_Pron_PRONOUN, PLACE-NATURE, LIVING-PLACE_куда
+касьт_Pron_PRONOUN, PLACE-NATURE, LIVING-PLACE_где, откуда
+масьт_Pron_PRONOUN, PLACE-NATURE, LIVING-PLACE_откуда
+мэ̄нн е̄ннэ_Pron_PRONOUN, SCHOOL-EDUCATION, FOOD_сколько
+мэннверьт_Pron_PRONOUN, SCHOOL-EDUCATION, FOOD_сколько
+мэ̄нн кӯгкь_Pron_PRONOUN, TIME_как долго
+куэссь-не_Pron_PRONOUN, TIME_когда-нибудь
+куэссь-ляннч_Pron_PRONOUN, TIME_когда-то
+куэссь_Pron_PRONOUN, TIME_когда
 оа̄нтшэм_A_SCHOOL-EDUCATION_понятный
 то̄ӆӆькьем_A_SCHOOL-EDUCATION_понятный
 са̄мас_Adv_SCHOOL-EDUCATION_по-саамски
@@ -1181,42 +1181,42 @@
 а̄ннэ_V_VERB, HUMAN, FOOD, SCHOOL-EDUCATION, CLOTHES_просить кого что-то дать, просить дать, просить
 пэллэ_V_VERB, HUMAN, LIVING-PLACE, PLACE-NATURE, PLACE-WATER_бояться, пугаться
 сӣрсэ_V_VERB, HUMAN, SCHOOL-EDUCATION, LIVING-PLACE_поиграть
-аллькэ_V_VERB, HUMAN, LIVNG-PLACE, HEALTH, TIME, FOOD_быть, начинать, стать, начинать делать что-то
-вуэдтӭ_V_VERB, LIVNG-PLACE, HEALTH, TIME_спать
-аннҍтэ_V_VERB, HUMAN, LIVNG-PLACE, HEALTH, TIME, FOOD, CLOTHES_давать, дать, отдать
-пуэдтӭ_V_VERB, HUMAN, LIVNG-PLACE, HEALTH, TIME, FOOD, CLOTHES_прийти, приехать
-выййле_V_VERB, HUMAN, LIVNG-PLACE, PLACE-NATURE, PLACE-WATER, TIME_поехать, уехать, отехать, выехать
-ышштлэ_V_VERB, HUMAN, LIVNG-PLACE, TIME, FOOD_присесть
-кӣххче_V_VERB, HUMAN, SCHOOL-EDUCATION, LIVNG-PLACE, PLACE-NATURE, PLACE-WATER, TIME_смотреть, проверять, контролировать
+аллькэ_V_VERB, HUMAN, LIVING-PLACE, HEALTH, TIME, FOOD_быть, начинать, стать, начинать делать что-то
+вуэдтӭ_V_VERB, LIVING-PLACE, HEALTH, TIME_спать
+аннҍтэ_V_VERB, HUMAN, LIVING-PLACE, HEALTH, TIME, FOOD, CLOTHES_давать, дать, отдать
+пуэдтӭ_V_VERB, HUMAN, LIVING-PLACE, HEALTH, TIME, FOOD, CLOTHES_прийти, приехать
+выййле_V_VERB, HUMAN, LIVING-PLACE, PLACE-NATURE, PLACE-WATER, TIME_поехать, уехать, отехать, выехать
+ышштлэ_V_VERB, HUMAN, LIVING-PLACE, TIME, FOOD_присесть
+кӣххче_V_VERB, HUMAN, SCHOOL-EDUCATION, LIVING-PLACE, PLACE-NATURE, PLACE-WATER, TIME_смотреть, проверять, контролировать
 шӣххтэ_V_VERB, HUMAN, TIME, FOOD_подходить, быть удобно, согласиться
-подтлэ_V_VERB, HUMAN, LIVNG-PLACE, PLACE-NATURE, PLACE-WATER, TIME, FOOD_приходить, посещать
+подтлэ_V_VERB, HUMAN, LIVING-PLACE, PLACE-NATURE, PLACE-WATER, TIME, FOOD_приходить, посещать
 тӣрвхэ_V_VERB, HUMAN, SCHOOL-EDUCATION, TIME_поздравить
-кӯсстэ_V_VERB, HUMAN, TIME, LIVNG-PLACE, PLACE-NATURE, PLACE-WATER_показаться, виднеться
-вӯлльке_V_VERB, HUMAN, LIVNG-PLACE, PLACE-NATURE, TIME_пойти
-кя̄ййве_V_VERB, HUMAN, LIVNG-PLACE_кивать
-чуэннче_V_VERB, HUMAN, SCHOOL-EDUCATION, LIVNG-PLACE_стоять
-та̄ххтэ_V_VERB, HUMAN, LIVNG-PLACE, TIME, FOOD, CLOTHES_хотеть, желать
-па̄ххкэ_V_VERB, HUMAN, LIVNG-PLACE_просить
-оа̄ҏҏтэ_V_VERB, HUMAN, LIVNG-PLACE, SCHOOL-EDUCATION_спорить, ругать
-коадзъе_V_VERB, HUMAN, LIVNG-PLACE, SCHOOL-EDUCATION, TIME_проснуться, встать
-ла̄ндте_V_VERB, HUMAN, LIVNG-PLACE, FOOD_уговаривать, упрашивать
-ва̄лльтэ_V_VERB, HUMAN, LIVNG-PLACE, FOOD, CLOTHES, HANDYCRAFT_брать, получать, взять
-чуэннчле_V_VERB, LIVNG-PLACE, HEALTH, FOOD_встать, подняться на ноги, подняться
-че̄ццклэ_V_VERB, LIVNG-PLACE, FOOD_бросить, бросать, кидать, метать
-моа̄йнсэ_V_VERB, HUMAN, SCHOOL-EDUCATION, KIN, HANDYCRAFT, FOOD_рассказать, беседовать, рассказать сказку, выступить
-ва̄ннҍцле_V_VERB, HUMAN, LIVNG-PLACE, SCHOOL-EDUCATION, TIME_пойти
+кӯсстэ_V_VERB, HUMAN, TIME, LIVING-PLACE, PLACE-NATURE, PLACE-WATER_показаться, виднеться
+вӯлльке_V_VERB, HUMAN, LIVING-PLACE, PLACE-NATURE, TIME_пойти
+кя̄ййве_V_VERB, HUMAN, LIVING-PLACE_кивать
+чуэннче_V_VERB, HUMAN, SCHOOL-EDUCATION, LIVING-PLACE_стоять
+та̄ххтэ_V_VERB, HUMAN, LIVING-PLACE, TIME, FOOD, CLOTHES_хотеть, желать
+па̄ххкэ_V_VERB, HUMAN, LIVING-PLACE_просить
+оа̄ҏҏтэ_V_VERB, HUMAN, LIVING-PLACE, SCHOOL-EDUCATION_спорить, ругать
+коадзъе_V_VERB, HUMAN, LIVING-PLACE, SCHOOL-EDUCATION, TIME_проснуться, встать
+ла̄ндте_V_VERB, HUMAN, LIVING-PLACE, FOOD_уговаривать, упрашивать
+ва̄лльтэ_V_VERB, HUMAN, LIVING-PLACE, FOOD, CLOTHES, HANDICRAFT_брать, получать, взять
+чуэннчле_V_VERB, LIVING-PLACE, HEALTH, FOOD_встать, подняться на ноги, подняться
+че̄ццклэ_V_VERB, LIVING-PLACE, FOOD_бросить, бросать, кидать, метать
+моа̄йнсэ_V_VERB, HUMAN, SCHOOL-EDUCATION, KIN, HANDICRAFT, FOOD_рассказать, беседовать, рассказать сказку, выступить
+ва̄ннҍцле_V_VERB, HUMAN, LIVING-PLACE, SCHOOL-EDUCATION, TIME_пойти
 е̄ллсуввэ_V_VERB, HUMAN, HEALTH_хотеть жить
-куллтэллэ_V_VERB, HUMAN, LIVNG-PLACE, SCHOOL-EDUCATION, TIME, KIN_слушать
-пэ̄знэдтэ_V_VERB, LIVNG-PLACE, FOOD, TIME, HEALTH_умываться
-уййнхуввэ_V_VERB, HUMAN, LIVNG-PLACE, SCHOOL-EDUCATION, TIME_появиться
-вӯзьхуввэ_V_VERB, HUMAN, LIVNG-PLACE, SCHOOL-EDUCATION, TIME_показаться
-чинндэдтэ_V_VERB, HUMAN, LIVNG-PLACE, SCHOOL-EDUCATION, TIME_готовиться
+куллтэллэ_V_VERB, HUMAN, LIVING-PLACE, SCHOOL-EDUCATION, TIME, KIN_слушать
+пэ̄знэдтэ_V_VERB, LIVING-PLACE, FOOD, TIME, HEALTH_умываться
+уййнхуввэ_V_VERB, HUMAN, LIVING-PLACE, SCHOOL-EDUCATION, TIME_появиться
+вӯзьхуввэ_V_VERB, HUMAN, LIVING-PLACE, SCHOOL-EDUCATION, TIME_показаться
+чинндэдтэ_V_VERB, HUMAN, LIVING-PLACE, SCHOOL-EDUCATION, TIME_готовиться
 вуэдҍсуввэ_V_VERB, HUMAN, SCHOOL-EDUCATION, TIME, HEALTH_хотеть спать
 оа̄ҏҏтэдтэ_V_VERB, HUMAN, SCHOOL-EDUCATION, KIN_ругаться
 вуэдтсэллэ_V_VERB, HUMAN, TIME_собираться спать
 тӣрвхэмушш_V_VERB, HUMAN, SCHOOL-EDUCATION, TIME_поздравление
-лыгкэшкуэдтӭ_V_VERB, HUMAN, SCHOOL-EDUCATION, TIME, LIVNG-PLACE_начать делать
-моа̄йнсэшкуэдтӭ_V_VERB, HUMAN, SCHOOL-EDUCATION, LIVNG-PLACE_начать рассказывать
+лыгкэшкуэдтӭ_V_VERB, HUMAN, SCHOOL-EDUCATION, TIME, LIVING-PLACE_начать делать
+моа̄йнсэшкуэдтӭ_V_VERB, HUMAN, SCHOOL-EDUCATION, LIVING-PLACE_начать рассказывать
 угкэ_V_VERB, ANIMAL_лаять
 ыррштэ_V_VERB, ANIMAL_рычать о собаке, рычать
 югкэ_V_VERB, FOOD_пить
@@ -1247,10 +1247,10 @@
 по̄ҏҏтсэллэ_V_VERB, FOOD_подкармливать
 по̄рэшкуэдтӭ_V_VERB, FOOD_начать кушать
 ышштэ_V_VERB, FOOD, SCHOOL-EDUCATION_сесть
-пыййе_V_VERB, HANDYCRAFT_положить, класть, ставить, поставить вставлять, вставить
-ка̄дтэ_V_VERB, HANDYCRAFT_нашивать апликацию, нашивать кожу на кожу, апликация
-куаррнмэн_V_VERB, HANDYCRAFT_за шитьём, за шитьем
-моаӆӆьчхе_V_VERB, HANDYCRAFT_облезать о шкуре, облезать, облезть
+пыййе_V_VERB, HANDICRAFT_положить, класть, ставить, поставить вставлять, вставить
+ка̄дтэ_V_VERB, HANDICRAFT_нашивать апликацию, нашивать кожу на кожу, апликация
+куаррнмэн_V_VERB, HANDICRAFT_за шитьём, за шитьем
+моаӆӆьчхе_V_VERB, HANDICRAFT_облезать о шкуре, облезать, облезть
 та̄йе_V_VERB, HEALTH_сходить с ума, с ума сходить
 а̄ррьвдӭ_N_VERB, HUMAN_угадать, отгадать, разгадать, догадаться
 лийе_V_VERB, HUMAN_быть
@@ -1264,7 +1264,7 @@
 уййнлэдтэ_V_VERB, HUMAN_встретиться, увидиться
 тӣрвхэдтэ_V_VERB, HUMAN_поздороваться
 чиннэ_V_VERB, HUMAN, LIVING-PLACE_чинить, починить, ремонтировать, отремонтировать, готовить, приготовить, крепить
-ко̄ппче_V_VERB, HUMAN, LIVING-PLACE, FOOD, HANDYCRAFT_собирать, собрать, копить, запасать, убирать
+ко̄ппче_V_VERB, HUMAN, LIVING-PLACE, FOOD, HANDICRAFT_собирать, собрать, копить, запасать, убирать
 ко̄ннче_V_VERB, HUMAN, LIVING-PLACE, HEALTH_писать, мочиться
 шэ̄ннтътэ_V_VERB, KIN_вырастить
 е̄лле_V_VERB, LIVING-PLACE_жить
@@ -1304,9 +1304,9 @@
 кэ̄сскпоаррк_N_WEEK-DAY_среда
 куалмантпеййв_N_WEEK-DAY_среда
 ня̄льянтпеййв_N_WEEK-DAY_четверг
-манҍтэ-ляннч_Pron_PRONOMEN, HUMAN_какой-то
-о̄ххпнуввэмтуйй_учебное пособие, уебный материал
-о̄ххпнуввэмтуй_учебные пособия, учебные материалы
+манҍтэ-ляннч_Pron_PRONOUN, HUMAN_какой-то
+о̄ххпнуввэмтуйй_N_SCHOOL-EDUCATION_учебное пособие, уебный материал
+о̄ххпнуввэмтуй_N_SCHOOL-EDUCATION_учебные пособия, учебные материалы
 са̄мь_A_SCHOOL-EDUCATION, HUMAN_саамский
 са̄мь кӣлл_N_SCHOOL-EDUCATION_саамский язык
 кӣллт_A_SCHOOL-EDUCATION, HUMAN_кильдинский
@@ -1394,10 +1394,10 @@
 Я̄к_N_NAME, HUMAN_Яков
 пӯдзэпыней_N_ANIMAL, HUMAN_оленевод, пастух
 пуарр_N_ANIMAL_овод
-пуарса_Adj_HUMAN, KIN_старший
-пуалл_N_HANDYCRAFT, CLOTHES_пуговица
-празднэххьк_TIME, WEEK-DAY_праздник
-по̄тткнэ_V_VERB, HANDYCRAFT, LIVING-PLACE_разорваться, оборваться
+пуарса_A_HUMAN, KIN_старший
+пуалл_N_HANDICRAFT, CLOTHES_пуговица
+празднэххьк_N_TIME, WEEK-DAY_праздник
+по̄тткнэ_V_VERB, HANDICRAFT, LIVING-PLACE_разорваться, оборваться
 по̄ттк_N_FISH, PLACE-WATER_сети поставленные на озере, сети на озере
 поа̄шшэ_V_VERB, LIVING-PLACE_мести, подметать
 поа̄шт_N_WEATHER_тёплый день, ясный день, теплый день
@@ -1405,7 +1405,7 @@
 поа̄ххк_A_WEATHER, HUMAN, FOOD_тёплый, теплый
 поа̄рр_N_LIVING-PLACE, WEATHER, HUMAN, FOOD_пар
 поа̄лльтэ_Adv_HUMAN, LIVING-PLACE, PLACE-NATURE_рядом
-поа̄ййнэ_V_VERB, COLOR, LIVING-PLACE, HANDYCRAFT_красить
+поа̄ййнэ_V_VERB, COLOR, LIVING-PLACE, HANDICRAFT_красить
 паяс_Adv_LIVING-PLACE, PLACE-NATURE_вверх
 паялт_Adv_LIVING-PLACE, PLACE-NATURE_сверху
 пай_Adv_LIVING-PLACE, HUMAN, KIN_всегда
@@ -1414,40 +1414,40 @@
 пайй_A_LIVING-PLACE, PLACE-NATURE_верхний
 пайнэ_V_VERB, LIVING-PLACE, HUMAN, FOOD_поднять
 па̄лль_N_TIME_пора, время, период
-па̄рнэнч_N_KIN, DEMINUTIV, HUMAN_ребенок, ребёнок
+па̄рнэнч_N_KIN, DIMINUTIVE, HUMAN_ребенок, ребёнок
 па̄ррьн_N_KIN, HUMAN_парень, ребенок, ребёнок, малыш
 па̄ррьшя_N_KIN, HUMAN_мальчик, малыш
 ра̄бпэ_V_VERB, FOOD, LIVING-PLACE, PLACE-NATURE_копать
 ра̄ӊӊҍц_N_SCHOOL-EDUCATION_ранец
-ре̄ввклаххьтэ_V_VERB, HANDYCRAFT, COLOR_украсить, украшать, нарядить, наряжать
+ре̄ввклаххьтэ_V_VERB, HANDICRAFT, COLOR_украсить, украшать, нарядить, наряжать
 ре̄ввьн_N_LIVING-PLACE, PLACE-NATURE_край, граница
-рисэвайе_V_VERB, SCHOOL-EDUCATION, HANDYCRAFT_рисовать
-роавас_A_HUMAN, HEALTH, FOOD, HANDYCRAFT_крепкий, прочный
-ро̄дтҍе_V_VERB, FOOD, LIVING-PLACE, HANDYCRAFT_выдернуть, дёрнуть, дернуть
+рисэвайе_V_VERB, SCHOOL-EDUCATION, HANDICRAFT_рисовать
+роавас_A_HUMAN, HEALTH, FOOD, HANDICRAFT_крепкий, прочный
+ро̄дтҍе_V_VERB, FOOD, LIVING-PLACE, HANDICRAFT_выдернуть, дёрнуть, дернуть
 руввьт_N_ANIMAL, LIVING-PLACE_капкан
 руэняс_A_HUMAN, SCHOOL-EDUCATION_весёлый, веселый
 рэ̄ӎэдэ_V_VERB, HUMAN, SCHOOL-EDUCATION_ворчать
 рэ̄сс_N_HUMAN, SCHOOL-EDUCATION, LIVING-PLACE_проблема, трудность, сложность
 са̄вехь_N_HEALTH, LIVING-PLACE_лыжи
-са̄вьха_N_LIVINGPLACE, DEMINUTIV_маленькие лыжи
+са̄вьха_N_LIVING-PLACE, DIMINUTIVE_маленькие лыжи
 соа̄йменҍ_Adv_FISH, FOOD, PLACE-WATER_сеткой
 са̄ттка_N_LIVING-PLACE_в посёлке, в селе, в поселке
-сӣря_N_HUMAN, SCHOOL-EDUCATION, HANDYCRAFT_игрушки
+сӣря_N_HUMAN, SCHOOL-EDUCATION, HANDICRAFT_игрушки
 соа̄гкэ_V_VERB, ANIMAL, FISH_добыть, поймать, достать
 соа̄н_N_LIVING-PLACE_сани
-суаенч_N_DEMINUTIV, ANIMAL, FOOD_крылышко
+суаенч_N_DIMINUTIVE, ANIMAL, FOOD_крылышко
 суӎӎьк_N_LIVING-PLACE, HUMAN, SCHOOL-EDUCATION_сумка
 сӯрвесь_A_HUMAN, HEALTH_бойкий, удалой
-сӯррькхэ_V_VERB_HUMAN, LIVING-PLACE_испугать
+сӯррькхэ_V_VERB, HUMAN, LIVING-PLACE_испугать
 суэйй_N_ANIMAL, FOOD_крыло
-сыз_Adv_LIVING-PLACE, HANDYCRAFT, SCHOOL-EDUCATION_внутрь
-сыссенҍ_Adv_LIVING-PLACE, HANDYCRAFT, SCHOOL-EDUCATION_внутри
+сыз_Adv_LIVING-PLACE, HANDICRAFT, SCHOOL-EDUCATION_внутрь
+сыссенҍ_Adv_LIVING-PLACE, HANDICRAFT, SCHOOL-EDUCATION_внутри
 ся̄ййве_V_VERB, LIVING-PLACE, SCHOOL-EDUCATION_сесть, опуститься
 ся̄ххтар_N_PLACE-NATURE, PLANT_мох
 та̄нтар_N_PLACE-NATURE, ANIMAL_пастбище
-та̄стэнч_N_DEMINUTIV, TIME, PLACE-NATURE_звёздочка, звездочка
-те̄вьтхе_V_VERB, FOOD, COLOUR_наполнить
-те̄д_N_SCHOOL-EDUCATION, HANDYCRAFT, KIN_знания
+та̄стэнч_N_DIMINUTIVE, TIME, PLACE-NATURE_звёздочка, звездочка
+те̄вьтхе_V_VERB, FOOD, COLOR_наполнить
+те̄д_N_SCHOOL-EDUCATION, HANDICRAFT, KIN_знания
 те̄дтидтэй_N_SCHOOL-EDUCATION_учёный, ученый
 те̄ссклэнне_Adv_HUMAN, SCHOOL-EDUCATION, KIN_дружно
 те̄ххьтэ_V_VERB, LIVING-PLACE, PLACE-NATURE_попасть, наткнуться
@@ -1469,34 +1469,34 @@
 тӯррэ_Adv_LIVING-PLACE, HUMAN_на войну
 тӯгкенҍ_Adv_LIVING-PLACE, HUMAN, PLACE-NATURE_за, позади
 тула_Adv_TIME_давно
-тӯллье_V_VERB, FOOD, HANDYCRAFT, LIVING-PLACE_держать
+тӯллье_V_VERB, FOOD, HANDICRAFT, LIVING-PLACE_держать
 тӯррье_V_VERB, HUMAN, SCHOOL-EDUCATION_скорчиться, съежиться, сжиматься, съёжиться
 тыввнаххьте_V_VERB, CLOTHES, HEALTH, SCHOOL-EDUCATION_одевать
 тыввнэдтэ_V_VERB, CLOTHES, HEALTH, SCHOOL-EDUCATION_одеваться
-тыввь_N_HUMAN, HANDYCRAFT, HUMAN_диво, чудо
+тыввь_N_HUMAN, HANDICRAFT, HUMAN_диво, чудо
 тыввэ_V_VERB, CLOTHES, HUMAN, FOOD, COLOR_хотеть, желать
-тэйта_Pron_PRONOMEN, CLOTHES, HUMAN, FOOD, COLOR, PLANT, ANIMAL_эти
+тэйта_Pron_PRONOUN, CLOTHES, HUMAN, FOOD, COLOR, PLANT, ANIMAL_эти
 тюдӓ_N_ANIMAL_кулик
 тя̄дтӭ_V_VERB, SCHOOL-EDUCATION, HUMAN_попадать, попасьт
-угленч_N_DEMINUTIV, LIVING-PLACE_уголок
+угленч_N_DIMINUTIVE, LIVING-PLACE_уголок
 уггл_N_LIVING-PLACE_угол
 углэсьт_Adv_LIVING-PLACE, SCHOOL-EDUCATION_в углу
-углясьт_Adv_DEMINUTIV, LIVING-PLACE_в уголке
+углясьт_Adv_DIMINUTIVE, LIVING-PLACE_в уголке
 хабпхэ_V_VERB, HUMAN, SCHOOL-EDUCATION, LIVING-PLACE_вспыхнуть
 харпьсе_V_VERB, HUMAN, SCHOOL-EDUCATION_суетиться
 эӆпсэ_V_VERB, HUMAN, SCHOOL-EDUCATION_болтать
 ца̄ввьнэ_V_VERB, SCHOOL-EDUCATION, KIN_воспитывать
 це̄бпэ_V_VERB, FOOD_мелко шинковать
 церехь_N_ANIMAL_ласточка
-це̄ҏҏтлэ_V_VERB, SCHOOL-EDUCATION, HANDYCRAFT_зачеркнуть
+це̄ҏҏтлэ_V_VERB, SCHOOL-EDUCATION, HANDICRAFT_зачеркнуть
 церствэ_A_FOOD_чрёствый, черствый
-цо̄ввнэ_V_VERB_SCHOOL-EDUCATION, LIVING-PLACE_будить
-цуррьк_N_LIVING-PLACE, HANDYCRAFT_чурка
-цырмшаххьтэ_V_VERB_SHOOL-EDUCATION, HUMAN, HEALTH_зажмуриться
-цыррмшэ_V_VERB_SHOOL-EDUCATION, HUMAN, HEALTH_жмуриться
+цо̄ввнэ_V_VERB, SCHOOL-EDUCATION, LIVING-PLACE_будить
+цуррьк_N_LIVING-PLACE, HANDICRAFT_чурка
+цырмшаххьтэ_V_VERB, SCHOOL-EDUCATION, HUMAN, HEALTH_зажмуриться
+цыррмшэ_V_VERB, SCHOOL-EDUCATION, HUMAN, HEALTH_жмуриться
 чиммьп_N_BODY_кость ноги
 чосснэгк_N_LIVING-PLACE, FOOD_головешка
-чуэйбялса_N-ANIMAL, HANDYCRAFT_шкура на животе животного, шкура с живота животного, шкура на животе, шкура с живота
+чуэйбялса_N_ANIMAL, HANDICRAFT_шкура на животе животного, шкура с живота животного, шкура на животе, шкура с живота
 шӣххтэль_A_LIVING-PLACE_удобный
 шувв_A_WEATHER_хороший
 шӯштэ_V_VERB, SCHOOL-EDUCATION_шалить
@@ -1505,18 +1505,18 @@
 элля_V_VERB, FOOD, LIVING-PLACE, COLOR, CLOTHES_нет, не
 эсстхэллэ_V_VERB, HUMAN, SCHOOL-EDUCATION_догонять
 юксэ_V_VERB, HUMAN, SCHOOL-EDUCATION_догнать
-ю̄гке_V_VERB, SCHOOL-EDUCATION, FOOD, HANDYCRAFT_делить, разделить
-югке_A_SCHOOL-EDUCATION, FOOD, HUMAN, HANDYCRAFT_каждый
+ю̄гке_V_VERB, SCHOOL-EDUCATION, FOOD, HANDICRAFT_делить, разделить
+югке_A_SCHOOL-EDUCATION, FOOD, HUMAN, HANDICRAFT_каждый
 югкесьт_N_FOOD, CLOTHES, HUMAN_у каждого
 я̄ммей_N_HUMAN, KIN, HEALTH_смерть
 я̄лл_N_HUMAN, KIN, HEALTH_жизнь
 райя_Adv_PLACE-NATURE, PLACE-WATER, TIME_до, к
-тала_Pron_PRONOMEN, FOOD, HUMAN, LIVING-PLACE, PLACE-NATURE_вот
-танна_Pron_PRONOMEN, TIME, KIN_тогда
-та̄ннӓ_Pron_PRONOMEN, TIME, WEATHER, SCHOOL-EDUCATION_в этом году
-мӣдтҍ_Pron_PRONOMEN, PLACE-NATURE, PLACE-WATER_вдоль, по
-гӯлл_Pron_PRONOMEN, PLACE-NATURE, PLACE-WATER_вдоль, по
-куэӈ_Pron_PRONOMEN, PLACE-NATURE, PLACE-WATER_вдоль, по
+тала_Pron_PRONOUN, FOOD, HUMAN, LIVING-PLACE, PLACE-NATURE_вот
+танна_Pron_PRONOUN, TIME, KIN_тогда
+та̄ннӓ_Pron_PRONOUN, TIME, WEATHER, SCHOOL-EDUCATION_в этом году
+мӣдтҍ_Pron_PRONOUN, PLACE-NATURE, PLACE-WATER_вдоль, по
+гӯлл_Pron_PRONOUN, PLACE-NATURE, PLACE-WATER_вдоль, по
+куэӈ_Pron_PRONOUN, PLACE-NATURE, PLACE-WATER_вдоль, по
 паййлэнне_Adv_PLACE-NATURE, LIVING-PLACE_высоко
 э̄ллгэнне_Adv_PLACE-NATURE, LIVING-PLACE_высоко
 э̄ллъенне_Adv_PLACE-NATURE, LIVING-PLACE_высоко
@@ -1585,13 +1585,13 @@ aлльм aджь_N_CHURCH-LEXIC_небесный отец
 алльм_N_CHURCH-LEXIC, WEATHER, PLACE-NATURE_небо
 алльм_A_CHURCH-LEXIC_небесный
 алльм цоа̄ггвудт_N_CHURCH-LEXIC_небесное царство
-алльт_Adv_HUMAN, CHURCH-LEXIC, LIVING-PLCE, PLACE-NATURE_близко, вблизи, недалеко
+алльт_Adv_HUMAN, CHURCH-LEXIC, LIVING-PLACE, PLACE-NATURE_близко, вблизи, недалеко
 альмесьт_N_CHURCH-LEXIC_на небесах
 альмсе_V_VERB, CHURCH-LEXIC, FOOD_опрокинуть  
 альмусс сӯдтӭ_N_CHURCH-LEXIC_верховное судилище, небесное судилище
 альтнэ_V_VERB, CHURCH-LEXIC, FOOD_подать, дать, отдать, воздать
 альтэсь_A_CHURCH-LEXIC, HUMAN, PLACE-NATURE, LIVING-PLACE, KIN_ближний
-аннтма альмусс сӯдтӭ_подлежит верховному судилищу
+аннтма альмусс сӯдтӭ_V_HUMAN_подлежит верховному судилищу
 аннтма са̄ннҍ_N_CHURCH-LEXIC_клятва
 аннтэдтма оа̄шшьтъемушше_V_VERB, CHURCH-LEXIC_соблазниться, податься обещанию
 а̄ннъе_N_CHURCH-LEXIC_просящему
@@ -1608,7 +1608,7 @@ aлльм aджь_N_CHURCH-LEXIC_небесный отец
 иммель лоаннҍт_N_CHURCH-LEXIC_божъя птичка
 иммель_N_CHURCH-LEXIC_бог
 ме̄ррьдэ_V_VERB, CLOTHES, HEALTH, CHURCH-LEXIC_мерить, смерить, измерять, измерить, отмерить, примерять, примерить
-жоар ме̄рредҍ_V_VERB_HEALTH_измерь температуру
+жоар ме̄рредҍ_V_VERB, HEALTH_измерь температуру
 жоарр_N_HEALTH_температура 
 оасск_N_CHURCH-LEXIC_вера
 оасскэ_V_VERB, CHURCH-LEXIC, HUMAN, HEALTH_верить, поверить, сочувствовать
@@ -1620,45 +1620,46 @@ aлльм aджь_N_CHURCH-LEXIC_небесный отец
 цуэҏҏьт_N_CHURCH-LEXIC_чёрт, черт
 ча̄нн_N_CHURCH-LEXIC_чёрт, черт
 чӯдзэ_N_ANIMAL, CHURCH-LEXIC_стадо
-шуря_A_CHURCH-LEXIC, HANDYCRAFT, HUMAN_наибольшой, наибольшая, наибольшое
+шуря_A_CHURCH-LEXIC, HANDICRAFT, HUMAN_наибольшой, наибольшая, наибольшое
 э̄ллтнэ_V_VERB, CHURCH-LEXIC, HUMAN, ANIMAL_приблизиться
 ӣӈӈк_N_CHURCH-LEXIC, HUMAN_душа
 ӣӈкхуввэ_V_VERB, CHURCH-LEXIC, HUMAN_очерстветь, стать бездушным
 ӣӈкхувнэ_V_VERB, CHURCH-LEXIC, HUMAN_черстветь, становиться бездушным
 ӣӈӈклаххьтӭ_V_VERB, CHURCH-LEXIC_сделать кого душевным
-ӣӈӈклуввэ_V_VERB, CHURCH-LEXIC_стать душевным                                                                           ӣӈӈҍкай_A_CHURCH-LEXIC, HUMAN_добрый, душевный, добрый
+ӣӈӈклуввэ_V_VERB, CHURCH-LEXIC_стать душевным
+ӣӈӈҍкай_A_CHURCH-LEXIC, HUMAN_добрый, душевный, добрый
 ӣӈӈҍкъенне_Adv_CHURCH-LEXIC, HUMAN_душевно, со всей душой
 ӣӈӈҍкъесь_A_CHURCH-LEXIC, HUMAN_добрый, душевный
 ӣӈӈҍкъесь олма_N_CHURCH-LEXIC_душевный человек
-ва̄пьс_N_HANDYCAFT, CLOTHES_ладонная часть меховой рукавицы, ладонная часть рукавицы
+ва̄пьс_N_HANDICRAFT, CLOTHES_ладонная часть меховой рукавицы, ладонная часть рукавицы
 ве̄ӆӆьтэ_V_VERB, ANIMAL, HUMAN_переселять, переменить место, перете на новое место
-ве̄шшьк пуалл_N_HANDYCAFT, CLOTHES_медная пуговица, пуговица медная
-е̄верь_N_HANDYCAFT, PLANT_нарост, кап
-е̄рркъя_A_HANDYCRAFT, KIN, CHURCH-LEXIC_старинный
-кандт_N_HANDYCAFT_пятка от пуговицы
-кӣввт_N_HANDYCAFT_верёвка плетенная из корней, веревка плетенная из корней
-кысста_N_HANDYCAFT, CLOTHES_рукавица
-кысста се̄лльк_N_HANDYCAFT_тыльная сторона у меховой рукавицы, тыльная сторона у рукавицы, тыльная сторона меховой рукавицы, тыльная сторона рукавицы
-кӣдтэлӓ_N_HANDYCAFT_манжет малицы, верх ладонной части малицы, манжет, верх ладонной части
-кэннц сӯнн_N_HANDYCAFT, ANIMAL_нитка снятая с ног оленя, нитка с ног оленя
-лоаннҍт пэдш уййвэнҍ_N_HANDYCAFT, ANIMAL_кончик хвостика с пухом у птицы, кончик хвостика птицы с пухом конец хвостика у птицы с пухом, кончик хвостика птицы, конец хвостика у птицы
-ма̄лець кысста_N_HANDYCAFT, CLOTHES_маличная рукaвица
-ма̄лець_N_HANDYCAFT, CLOTHES_малица
+ве̄шшьк пуалл_N_HANDICRAFT, CLOTHES_медная пуговица, пуговица медная
+е̄верь_N_HANDICRAFT, PLANT_нарост, кап
+е̄рркъя_A_HANDICRAFT, KIN, CHURCH-LEXIC_старинный
+кандт_N_HANDICRAFT_пятка от пуговицы
+кӣввт_N_HANDICRAFT_верёвка плетенная из корней, веревка плетенная из корней
+кысста_N_HANDICRAFT, CLOTHES_рукавица
+кысста се̄лльк_N_HANDICRAFT_тыльная сторона у меховой рукавицы, тыльная сторона у рукавицы, тыльная сторона меховой рукавицы, тыльная сторона рукавицы
+кӣдтэлӓ_N_HANDICRAFT_манжет малицы, верх ладонной части малицы, манжет, верх ладонной части
+кэннц сӯнн_N_HANDICRAFT, ANIMAL_нитка снятая с ног оленя, нитка с ног оленя
+лоаннҍт пэдш уййвэнҍ_N_HANDICRAFT, ANIMAL_кончик хвостика с пухом у птицы, кончик хвостика птицы с пухом конец хвостика у птицы с пухом, кончик хвостика птицы, конец хвостика у птицы
+ма̄лець кысста_N_HANDICRAFT, CLOTHES_маличная рукaвица
+ма̄лець_N_HANDICRAFT, CLOTHES_малица
 мырр_N_HUMAN, LIVING-PLACE_мир, вселённая, вселенная
 мырр со̄ббр_A_HUMAN, LIVING-PLACE, SCHOOL-EDUCATION_большое собрание
 нӣццкас_N_FOOD, ANIMAL_голень
 падк_A_HUMAN, CHURCH-LEXIC_боязливой
 падкэ_V_VERB, HUMAN, CHURCH-LEXIC_побаиваться
-пе̄лльк_N_HANDYCAFT_верх напаличника меховой рукавицы
+пе̄лльк_N_HANDICRAFT_верх напаличника меховой рукавицы
 пуннт_A_HUMAN, LIVING-PLACE, FOOD_хозяйственный, смышленный
 сӯррь мӯрр_N_PLANT_развилка у дерева, развилина на дереве, дерево с двумя вершинами, развилка, развилина
-ся̄ххк_N_HANDYCAFT_щётка на подошве ног оленя, щетка на подошве оленя, шетка, щётка
-ся̄ххктэ_V_VERB, HANDYCAFT_сшить подошвы из щёток
-тӣт_N_HANDYCAFT_метка
-цимӓ_A_CLOTHES, HANDYCAFT, HUMAN_средне-маленький
+ся̄ххк_N_HANDICRAFT_щётка на подошве ног оленя, щетка на подошве оленя, шетка, щётка
+ся̄ххктэ_V_VERB, HANDICRAFT_сшить подошвы из щёток
+тӣт_N_HANDICRAFT_метка
+цимӓ_A_CLOTHES, HANDICRAFT, HUMAN_средне-маленький
 цыххьц_A_COLOR_бордовый
-шэллмаш_N_HANDYCAFT_утонченная часть нитки
-шэресь_N_HANDYCAFT, SCHOOL-EDUCATION, HUMAN_погремушка
+шэллмаш_N_HANDICRAFT_утонченная часть нитки
+шэресь_N_HANDICRAFT, SCHOOL-EDUCATION, HUMAN_погремушка
 А̄рьсъёгк сыййт_N_NAME, LIVING-PLACE, KIN_Варзинский погост, Варзина
 Ёфкэ сыййт_N_NAME, LIVING-PLACE, KIN_Йокангский погост, Йоканга, Иокангский погост, Иоканга
 Коардэгк сыййт_N_NAME, LIVING-PLACE, KIN_Вороньинсий погост, Воронье
