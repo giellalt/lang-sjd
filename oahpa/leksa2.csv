@@ -699,48 +699,48 @@
 ша̄ннтъемьне_N_LIVING-PLACE_родина_native land
 вуэдтэмьсайй_N_LIVING-PLACE_кровать_bed
 эххканчалльм_N_LIVING-PLACE_форточка_window leaf
-нӯжнэгкьпымме_N_LIVING-PLACE_туалетная бумага, бумага туалетная_toilet paper, paper toilet
+нӯжнэгкьпымме_N_LIVING-PLACE_туалетная бумага, бумага туалетная_toilet paper
 поа̄шшэмгоаррь_N_LIVING-PLACE_поддувало_blew
 ре̄ххьпенҍсайй_N_LIVING-PLACE_отверстие для дыма_aperture for a smoke
 са̄львесьпэҏьта_N_LIVING-PLACE_палатка_tent
-ло̄хктэ_V_LIVING-PLACE_закрыть на замок, запереть, запирать, закрыть_to close on the lock, to lock, lock, close
+ло̄хктэ_V_LIVING-PLACE_закрыть на замок, запереть, запирать, закрыть_to close the lock, to lock
 ла̄гк кӣммьн_N_LIVING-PLACE, FOOD_кастрюля_pan
 коажь_N_LIVING-PLACE, FOOD_копоть_soot
 кӯшшь_N_LIVING-PLACE, FOOD_корзина_basket
-кӣммьн_N_LIVING-PLACE, FOOD_котёл, котелок, котел_copper, kettle, copper
-ка̄ррь_N_LIVING-PLACE, FOOD_посуда деревянная, деревянная посуда, посуда_ware wooden, wooden ware, ware
+кӣммьн_N_LIVING-PLACE, FOOD_котёл, котелок, котел_copper, kettle
+ка̄ррь_N_LIVING-PLACE, FOOD_посуда деревянная, деревянная посуда, посуда_wooden ware
 на̄ххьп_N_LIVING-PLACE, FOOD_чашка_cup
-ка̄ввьн_N_LIVING-PLACE, FOOD_утварь, предмет, орудие_utensils, subject, the tool
+ка̄ввьн_N_LIVING-PLACE, FOOD_утварь, предмет, орудие_utensils, tool
 ла̄ттҍк_N_LIVING-PLACE, FOOD_сковорода_frying pan
 коатнэсс_N_LIVING-PLACE, FOOD_крышка_cover
-коа̄тнэсс_N_LIVING-PLACE, FOOD_крышка для посуды, крышка_cover for ware, a cover
-тӯӆӆпюдтҍ_N_LIVING-PLACE, FOOD_тарелка плоская, плоская тарелка_plate a flat, flat plate
+коа̄тнэсс_N_LIVING-PLACE, FOOD_крышка для посуды, крышка_cover
+тӯӆӆпюдтҍ_N_LIVING-PLACE, FOOD_тарелка плоская, плоская тарелка_flat plate
 це̄ххьпель_N_LIVING-PLACE, FOOD_спичка_match
 коа̄ххтэсс_N_LIVING-PLACE, FOOD_скатерть_cloth
 коа̄ммплэсс_N_LIVING-PLACE, FOOD_крышка_cover
 нюннҍкиммьн_N_LIVING-PLACE, FOOD_чайник_teapot
-коа̄ххтнэсс_N_LIVING-PLACE, FOOD_крышка для посуды, крышка_cover for ware, a cover
-чӣӈӈлэссюдтҍ_N_LIVING-PLACE, FOOD_тарелка глубокая, глубокая тарелка_plate deep, a soup plate
+коа̄ххтнэсс_N_LIVING-PLACE, FOOD_крышка для посуды, крышка_cover
+чӣӈӈлэссюдтҍ_N_LIVING-PLACE, FOOD_тарелка глубокая, глубокая тарелка_deep plate, soup plate
 е̄кесьпоррмушш_N_LIVING-PLACE, FOOD_ужин_supper
 пе̄ййвпоррмушш_N_LIVING-PLACE, FOOD_обед_dinner
 ӣнцэсьпоррмушш_N_LIVING-PLACE, FOOD_завтрак_breakfast
 отералльнэххьк_N_LIVING-PLACE, FOOD_полотенце_towel
-шылле_N_LIVING-PLACE, HUMAN, VERB_ловить, добывать_to catch, extract
-ыштнэ_V_LIVING-PLACE, HUMAN, VERB_сесть, садиться_to sit down, down
-ышштэ_V_LIVING-PLACE, HUMAN, VERB_сесть, садиться_to sit down, down
-оаррэ_V_LIVING-PLACE, HUMAN, VERB_сидеть, находиться_to sit, be
+шылле_N_LIVING-PLACE, HUMAN, VERB_ловить, добывать_to catch, to extract
+ыштнэ_V_LIVING-PLACE, HUMAN, VERB_сесть, садиться_to sit down
+ышштэ_V_LIVING-PLACE, HUMAN, VERB_сесть, садиться_to sit down
+оаррэ_V_LIVING-PLACE, HUMAN, VERB_сидеть, находиться_to sit, to be
 вэнс_N_LIVING-PLACE, PLACE-WATER_лодка_boat
 кӯль шылле_N_LIVING-PLACE, PLACE-WATER, FOOD, HUMAN_ловить рыбу_to fish
-рыссе_N_LIVING-PLACE, PLANT_ветка маленькая, маленькая ветка_branch a small, small branch
-вэккс_N_LIVING-PLACE, PLANT_сучок, ветка сухая, сухая ветка_knot, branch a dry, dry branch
-вуэккьс_N_LIVING-PLACE, PLANT_ветка большая, большая ветка_branch the big, big branch
-куэххьцев_N_LIVING-PLACE, PLANT_ветка хвойная, хвойная ветка_branch a coniferous, coniferous branch
+рыссе_N_LIVING-PLACE, PLANT_ветка маленькая, маленькая ветка_small branch
+вэккс_N_LIVING-PLACE, PLANT_сучок, ветка сухая, сухая ветка_knot, dry branch
+вуэккьс_N_LIVING-PLACE, PLANT_ветка большая, большая ветка_big branch
+куэххьцев_N_LIVING-PLACE, PLANT_ветка хвойная, хвойная ветка_coniferous branch
 поацк-сӣрр_N_LIVING-PLACE, SCHOOL-EDUCATION_игра с косточками_game with stones
 поппал-сӣрр_N_LIVING-PLACE, SCHOOL-EDUCATION_игра-попади_game-get
 па̄рнапэҏҏт_N_LIVING-PLACE, SCHOOL-EDUCATION_детский сад_kindergarten
 о̄ххпэмпэҏҏт_N_LIVING-PLACE, SCHOOL-EDUCATION_школа_school
 копчнэдтэ_V_LIVING-PLACE, TIME, SCHOOL-EDUCATION, VERB_собираться_to gather
-вуэссьтэ_V_LIVING-PLACE, VERB_купить, покупать_to buy, buy
+вуэссьтэ_V_LIVING-PLACE, VERB_купить, покупать_to buy
 ӣӈӈманн_N_MONTH_ноябрь_november
 кыдтманн_N_MONTH_май_may
 сӯйнманн_N_MONTH_июль_july
@@ -754,30 +754,30 @@
 та̄лльвманн_N_MONTH_декабрь_december
 сӯйнкоссэманн_N_MONTH_июль_july
 кӯньтхемьманн_N_MONTH_апрель_april
-поад ва̄ррь_N_PLACE-NATURE_лес маленький_wood small
+поад ва̄ррь_N_PLACE-NATURE_лес маленький_small wood
 ю̄гал_N_PLACE-NATURE_скала_rock
-поа̄ке урьт_N_PLACE-NATURE_цепь гор_chain of mountains
+поа̄ке урьт_N_PLACE-NATURE_цепь гор_mountains ridge
 коаллс_N_PLACE-NATURE_скала_rock
 лоа̄шш_N_PLACE-NATURE_трясина_bog
 луа̄шш_N_PLACE-NATURE_трясина_bog
 ка̄йваш_N_PLACE-NATURE_роща_grove
-пуэшенҍ_N_PLACE-NATURE_поляна где косят сено, сенокосная поляна, поляна_glade where hay, a haying glade, a glade mow
+пуэшенҍ_N_PLACE-NATURE_поляна где косят сено, сенокосная поляна, поляна_hay, glade mow
 нёллктэсс_N_PLACE-NATURE_равнина_plain
 коа̄ррпторф_N_PLACE-NATURE_торф_peat
 пе̄ссьмурркайваш_N_PLACE-NATURE_роща берёзовая, берёзовая роща, роща березовая, березовая роща_grove birch, a birchwood, a grove birch, a birchwood
 роа̄ввк_N_PLACE-NATURE, LIVING-PLACE_приведение_reduction
-туммплесь_A_PLACE-NATURE_дальний, далекий, далёкий_distant, far, far
-куххклэшш_A_PLACE-NATURE_дальний, далекий, далёкий_distant, far, far
+туммплесь_A_PLACE-NATURE_дальний, далекий, далёкий_distant, far
+куххклэшш_A_PLACE-NATURE_дальний, далекий, далёкий_distant, far
 кукас_Adv_PLACE-NATURE_далеко_far
-кӯгкас_Adv_PLACE-NATURE_далеко, далеко идти_far, far to go
-туммпла_Adv_PLACE-NATURE_дальше в лес, дальше по дороге, дальше_further in wood, further on road, further
+кӯгкас_Adv_PLACE-NATURE_далеко, далеко идти_far
+туммпла_Adv_PLACE-NATURE_дальше в лес, дальше по дороге, дальше_further in forest, further on road, further
 вӯлльгесь_Adv_PLACE-NATURE_низко_low
-куххькень_Adv_PLACE-NATURE_далеко находиться, находиться далеко, далеко_far to be, be far, far
+куххькень_Adv_PLACE-NATURE_далеко находиться, находиться далеко, далеко_far
 вуэллгэнне_Adv_PLACE-NATURE_низко_low
-вӣрр_N_PLACE-NATURE_круча горы, круча_круча mountains, круча
-табпь_N_PLACE-NATURE_знаки из камней в горах, знаки из камней на горах, знаки из камней, горки из камней на горах, горки из камней в горах_signs from stones in mountains, signs from stones on mountains, signs from stones, hills from stones on mountains, hills from stones in mountains
-пя̄ццк террьм_N_PLACE-NATURE_гора крутая, крутая гора_mountain abrupt, abrupt mountain
-куххьк_N_PLACE-NATURE_даль_distance
+вӣрр_N_PLACE-NATURE_круча горы, круча_круча mountains
+табпь_N_PLACE-NATURE_знаки из камней в горах, знаки из камней на горах, знаки из камней, горки из камней на горах, горки из камней в горах_stone signs in mountains
+пя̄ццк террьм_N_PLACE-NATURE_гора крутая, крутая гора_abrupt mountain
+куххьк_N_PLACE-NATURE_даль_distance------------------------------------------ENGLISH TO THIS LINE
 па̄ххт_N_PLACE-NATURE_гора без растительности, голая гора, гора голая_mountain without vegetation, naked mountain, mountain naked
 луэххк_N_PLACE-NATURE_небольшая гора, гора небольшая, горка, небольшая горка, горка небольшая_small mountain, mountain small, a hill, a small hill, a hill small
 шуэннь_N_PLACE-NATURE_топкое болото, болото топкое_fenny bog, bog fenny
