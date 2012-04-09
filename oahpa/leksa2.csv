@@ -777,15 +777,15 @@
 вӣрр_N_PLACE-NATURE_круча горы, круча_круча mountains
 табпь_N_PLACE-NATURE_знаки из камней в горах, знаки из камней на горах, знаки из камней, горки из камней на горах, горки из камней в горах_stone signs in mountains
 пя̄ццк террьм_N_PLACE-NATURE_гора крутая, крутая гора_abrupt mountain
-куххьк_N_PLACE-NATURE_даль_distance------------------------------------------ENGLISH TO THIS LINE
-па̄ххт_N_PLACE-NATURE_гора без растительности, голая гора, гора голая_mountain without vegetation, naked mountain, mountain naked
-луэххк_N_PLACE-NATURE_небольшая гора, гора небольшая, горка, небольшая горка, горка небольшая_small mountain, mountain small, a hill, a small hill, a hill small
-шуэннь_N_PLACE-NATURE_топкое болото, болото топкое_fenny bog, bog fenny
-кэ̄сск_N_PLACE-NATURE_расстояние, промежуток, центр, середина_distance, interval, the center, the middle
+куххьк_N_PLACE-NATURE_даль_distance
+па̄ххт_N_PLACE-NATURE_гора без растительности, голая гора, гора голая_mountain without vegetation, naked mountain
+луэххк_N_PLACE-NATURE_небольшая гора, гора небольшая, горка, небольшая горка, горка небольшая_small mountain,  hill
+шуэннь_N_PLACE-NATURE_топкое болото, болото топкое_fenny bog
+кэ̄сск_N_PLACE-NATURE_расстояние, промежуток, центр, середина_distance, interval, center, the middle
 шаррьй_N_PLACE-NATURE_возвышенность_height
-коа̄ррп поаввьн_N_PLACE-NATURE_торфяная гора, гора торфяная_peat mountain, mountain peat
+коа̄ррп поаввьн_N_PLACE-NATURE_торфяная гора, гора торфяная_mountain peat
 ла̄ммьп_N_PLACE-NATURE_болото_bog
-вуэсстлэгк_N_PLACE-NATURE_подъём на гору, подъем на гору, подъём, подъем_lifting on mountain, lifting on mountain, lifting, lifting
+вуэсстлэгк_N_PLACE-NATURE_подъём на гору, подъем на гору, подъём, подъем_lifting on mountain
 лоавашкедҍк_N_PLACE-NATURE_святой камень_sacred stone
 вуэййвлоагк_N_PLACE-NATURE_вершина горы_mountain top
 ке̄нҍцесь_A_PLACE-NATURE, CLOTHES_узкий_narrow
@@ -797,21 +797,21 @@
 кукесь_A_PLACE-NATURE, HUMAN, CLOTHES_длинный_long
 кугкесь_A_PLACE-NATURE, HUMAN, CLOTHES_длинный_long
 са̄йй_N_PLACE-NATURE, LIVING-PLACE_место_place
-не̄шшь_N_PLACE-NATURE, LIVING-PLACE_грязь натуральная, натуральная грязь, грязь_dirt a natural, natural dirt, a dirt
-са̄ккьс_N_PLACE-NATURE, LIVING-PLACE_грязь искусственная, искусственная грязь_dirt an artificial, artificial dirt
+не̄шшь_N_PLACE-NATURE, LIVING-PLACE_грязь натуральная, натуральная грязь, грязь_natural dirt, dirt
+са̄ккьс_N_PLACE-NATURE, LIVING-PLACE_грязь искусственная, искусственная грязь_artificial dirt
 па̄йххьк_N_PLACE-NATURE, LIVING-PLACE_местность, место_district, place
-чӣӈӈлэсь_A_PLACE-NATURE, PLACE-WATER_глубокий, глубокий о реке, глубокий о озере, глубокий о водоеме, глубокий о водоёме_deep, deep about the river, deep about lake, deep about a reservoir, deep about a reservoir
-чӣӈӈла_Adv_PLACE-NATURE, PLACE-WATER_глубже, глубже в реке, глубже в озере, глубже о водоеме, глубже о водоёме_more deeply, more deeply in the river, is deeper in lake, is deeper about a reservoir, is deeper about a reservoir
+чӣӈӈлэсь_A_PLACE-NATURE, PLACE-WATER_глубокий, глубокий о реке, глубокий о озере, глубокий о водоеме, глубокий о водоёме_deep, deep about river, deep about lake
+чӣӈӈла_Adv_PLACE-NATURE, PLACE-WATER_глубже, глубже в реке, глубже в озере, глубже о водоеме, глубже о водоёме_more deeply, more deeply in the river
 чӣӈӈэль_Adv_PLACE-NATURE, PLACE-WATER_глубоко, глубоко о озере, глубоко о реке, глубоко о водоеме, глубоко о водоёме_deeply, deeply about lake, it is deep about the river, it is deep about a reservoir, it is deep about a reservoir
-чӣӈӈлэсс_N_PLACE-NATURE, PLACE-WATER_глубина, глубина о озере, глубина о реке, глубина о водоеме, глубина о водоёме_depth, depth about lake, depth about the river, depth about a reservoir, depth about a reservoir
+чӣӈӈлэсс_N_PLACE-NATURE, PLACE-WATER_глубина, глубина о озере, глубина о реке, глубина о водоеме, глубина о водоёме_depth, depth about lake, depth about river
 мӯрьялаш_A_PLACE-NATURE, PLANT_урожайный ягодами, богатый ягодами_fruitful the berries, rich with berries
 та̄вас_Adv_PLACE-WATER_дальше в озеро_further in lake
 та̄ввьла_Adv_PLACE-WATER_дальше в озеро_further in lake
 луашш я̄вра_N_PLACE-WATER_озерко, маленькое озеро_озерко, small lake
-вӯбпь_N_PLACE-WATER_губа маленькая, маленькая губа_lip a small, small lip
+вӯбпь_N_PLACE-WATER_губа маленькая, маленькая губа_small lip
 вуэйй_N_PLACE-WATER_ручей_stream
 кӯшшк_N_PLACE-WATER_порог, перекат на реке_threshold, rift on the river
-чӯххп_N_PLACE-WATER_передняя часть лодки_forward part of a boat
+чӯххп_N_PLACE-WATER_передняя часть лодки_bow, front part of a boat
 моадтҍ_N_PLACE-WATER_ил_silt
 поаннҍ_N_PLACE-WATER_дно_bottom
 цуэгкь_N_PLACE-WATER_мель у берега, мель_bank at coast, a bank
@@ -821,25 +821,25 @@
 лӯмпал_N_PLACE-WATER_заводь_creek
 выррьт_N_PLACE-WATER_течение_current
 а̄ввьн_N_PLACE-WATER_уключина_rowlock
-цуэгесь вуая_N_PLACE-WATER_ручеёк мелкий, ручеек мелкий, мелкий ручеёк, мелкий ручеек_streamlet small, a streamlet a small, small streamlet, a small streamlet
-цуэгесь я̄ввьр_N_PLACE-WATER_мелкое озеро, озеро мелкое_small lake, lake small
-поа̄ххк выррьт_N_PLACE-WATER_гольфстрим_гольфстрим
+цуэгесь вуая_N_PLACE-WATER_ручеёк мелкий, ручеек мелкий, мелкий ручеёк, мелкий ручеек_small streamlet
+цуэгесь я̄ввьр_N_PLACE-WATER_мелкое озеро, озеро мелкое_small lake
+поа̄ххк выррьт_N_PLACE-WATER_гольфстрим_Golf Stream
 чуэлльм_N_PLACE-WATER_пролив_passage
 ма̄ннтэр_N_PLACE-WATER_суша земли, суша_earth land, land
 вуэллдэгк_N_PLACE-WATER_устье_mouth
-ча̄дзьсайй_N_PLACE-WATER_водоём, водоем_reservoir, reservoir
+ча̄дзьсайй_N_PLACE-WATER_водоём, водоем_reservoir
 маннтеммьне_N_PLACE-WATER_суша земли, суша_earth land, land
 ё̄гкмоаххьк_N_PLACE-WATER_изгиб реки_river bend
-кӯльялаш_A_PLACE-WATER, FISH_урожайный рыбой, богатый рыбой_fruitful the fish, rich with fish
+кӯльялаш_A_PLACE-WATER, FISH_урожайный рыбой, богатый рыбой_rich with fish
 ко̄ррэ_V_PLACE-WATER, HANDICRAFT, VERB_привязывать, привязать_to adhere, adhere
 сугкэ_V_PLACE-WATER, HUMAN, VERB_грести_to row
 вӯнн_N_PLACE-WATER, LIVING-PLACE_бухта, губа, залив_bay, lip, gulf
 ё̄гк_N_PLACE-WATER, LIVING-PLACE_река_river
 ё̄гя_N_PLACE-WATER, LIVING-PLACE_речка_small river
 рыннт_N_PLACE-WATER, LIVING-PLACE_берег_coast
-лӯххт_N_PLACE-WATER, LIVING-PLACE_бухта или реки, бухта, губа, залив_bay or the rivers, a bay, a lip, a gulf
-лӣххт_N_PLACE-WATER, LIVING-PLACE_берег песчаный, песчаный берег_coast sandy, sandy coast
-вӯӈӈк_N_PLACE-WATER, LIVING-PLACE_крючок рыболовный, рыболовный крючок_hook a fishing, fishing hook
+лӯххт_N_PLACE-WATER, LIVING-PLACE_бухта, губа, залив_bay, gulf
+лӣххт_N_PLACE-WATER, LIVING-PLACE_берег песчаный, песчаный берег_sandy coast
+вӯӈӈк_N_PLACE-WATER, LIVING-PLACE_крючок рыболовный, рыболовный крючок_fishing hook, hook
 а̄ррьй_N_PLACE-WATER, LIVING-PLACE_весло_oar
 нӯххьт_N_PLACE-WATER, LIVING-PLACE_невод_seine
 са̄ййм_N_PLACE-WATER, LIVING-PLACE_сетка_grid
@@ -847,49 +847,49 @@
 ка̄ййв_N_PLACE-WATER, LIVING-PLACE_родник_spring
 ке̄ддҍк_N_PLACE-WATER, LIVING-PLACE_камень_stone
 нёаррк_N_PLACE-WATER, LIVING-PLACE_полуостров_peninsula
-ке̄ссе_V_PLACE-WATER, LIVING-PLACE, HUMAN, VERB_тащить, вытаскивать, возить_to drag, pull out, carry
+ке̄ссе_V_PLACE-WATER, LIVING-PLACE, HUMAN, VERB_тащить, вытаскивать, возить_to drag, to pull out, to carry
 чиххтэ_V_PLACE-WATER, VERB_чинить сетки_to repair grids
-о̄ййкье вэннас_V_PLACE-WATER, VERB_отталкивать лодку от берега, отталкивать лодку_to push away a boat from coast, to push away a boat
+о̄ййкье вэннас_V_PLACE-WATER, VERB_отталкивать лодку от берега, отталкивать лодку_to push away a boat from the coast, to push away a boat
 ко̄ппче соа̄йметҍ_V_PLACE-WATER, VERB_собирать сетки_to collect grids
 лӯшшьтэ соа̄йметҍ_V_PLACE-WATER, VERB_опустить сетки_to lower grids
 вуаӈӈкэ_V_PLACE-WATER, VERB_ловить удочкой_to catch a fishing tackle
-Куэлнэгк нёаррк_N_PLACE, LIVING-PLACE, NAME_Кольский полуостров, кольский полуостров_kola peninsula, the kola peninsula
-чоарэхь_A_PLANT_твёрдая о морошке, твердая о морошке, твёрдая, твердая_firm about cloudberries, firm about cloudberries, firm, firm
+Куэлнэгк нёаррк_N_PLACE, LIVING-PLACE, NAME_Кольский полуостров, кольский полуостров_Kola peninsula, Kola
+чоарэхь_A_PLANT_твёрдая о морошке, твердая о морошке, твёрдая, твердая_firm about cloudberries, firm
 лоантэхь_A_PLANT_спелая о морошке, спелая морошка_ripe about cloudberries, ripe cloudberries
 каккш_N_PLANT_сучка_knot
 вашшь_N_PLANT_заросли ивника_thickets ивника
-роадт_N_PLANT_заросли березняка в тундре, заросли березника в тундре, заросли березняка, заросли березника_birch forest thickets in tundra, birch forest thickets in tundra, thickets of a birch forest, a birch forest thicket
-ла̄ддҍв_N_PLANT_вершина деревьев_top of trees
+роадт_N_PLANT_заросли березняка в тундре, заросли березника в тундре, заросли березняка, заросли березника_birch forest thickets in tundra, birch forest thicket
+ла̄ддҍв_N_PLANT_вершина деревьев_top of trees, treetop
 коаллем_N_PLANT_заросли березняка, заросли березника_thickets of a birch forest, birch forest thicket
 ё̄гккоаллем_N_PLANT_заросли березняка вдоль реки, заросли березняка, заросли березника вдоль реки, заросли березника_thickets of a birch forest along the river, thickets of a birch forest, a thicket of a birch forest along the river, birch forest thickets
 пе̄ссьмуркоаллем_N_PLANT_заросли березняка в лесу, заросли березника в лесу_birch forest thickets in wood, birch forest thickets in wood
 мя̄рркнэ_V_PLANT, FOOD, VERB_гнить_to decay
 ручкнэ_V_PLANT, VERB_желтеть_to turn yellow
-кэ̄ххче_V_PLANT, VERB_падать с верху вниз, падать вниз_to fall with top downwards, to fall downwards
+кэ̄ххче_V_PLANT, VERB_падать с верху вниз, падать вниз_to fall to fall downwards
 кӯ-не_Pron_PRONOUN_который-нибудь_which-nibud
 мӣ-ляннч_Pron_PRONOUN_что-то_something
 го_Pron_PRONOUN_что_that
 кӯ_Pron_PRONOUN_который_which
 сӣн_Pron_PRONOUN_их_them
 штэ_Pron_PRONOUN_что_that
-мун_Pron_PRONOUN_мой, моя, моё, меня_mine, washing, mine, me
-мӣн_Pron_PRONOUN_наш, наша, наши_ours, ours, ours
-тӣн_Pron_PRONOUN_ваш, ваша, ваши_yours, yours, yours
+мун_Pron_PRONOUN_мой, моя, моё, меня_me
+мӣн_Pron_PRONOUN_наш, наша, наши_ours
+тӣн_Pron_PRONOUN_ваш, ваша, ваши_yours
 мыйй ӣджь_Pron_PRONOUN_мы сами_ourselves
 тыйй ӣджь_Pron_PRONOUN_вы сами_you
 сыйй ӣджь_Pron_PRONOUN_они сами_they
 мыйе_Pron_PRONOUN_к нам_to us
 сыйе_Pron_PRONOUN_к ним_to them
 тыйе_Pron_PRONOUN_к вам_to you
-со̄н_Pron_PRONOUN_её, его_it, it
+со̄н_Pron_PRONOUN_её, его_it
 ке̄н_Pron_PRONOUN_кого_whom
 то̄н_Pron_PRONOUN_тебя_you
 тэдт_Pron_PRONOUN_этот_this
 тӣгэ_Pron_PRONOUN_сюда_here
 ке̄з_Pron_PRONOUN_кому, чему_to whom, to that
-то̄н_Pron_PRONOUN_твой, твоя, твоё_yours, yours, yours
+то̄н_Pron_PRONOUN_твой, твоя, твоё_yours
 мэ̄з_Pron_PRONOUN_зачем, почему_what for, why
-то̄нн ӣджь_Pron_PRONOUN_ты сам, ты сама_you, you
+то̄нн ӣджь_Pron_PRONOUN_ты сам, ты сама_you
 со̄нн ӣджь_Pron_PRONOUN_она сама, он сам_she, he
 мэ̄гк-ляннч_Pron_PRONOUN_что-то_something
 тоннӭ_Pron_PRONOUN_к тебе_to you
@@ -897,7 +897,7 @@
 мусьт_Pron_PRONOUN_у меня, во мне_at me, in me
 мыннӭ_Pron_PRONOUN_ко мне_to me
 тэсьт_Pron_PRONOUN_тут_here
-тёллэ_Pron_PRONOUN_вон там далеко, вон там, там далеко, далеко там_there far, there, there it is far, far there
+тёллэ_Pron_PRONOUN_вон там далеко, вон там, там далеко, далеко там_there far, far there
 мунха_Pron_PRONOUN_без меня_without me
 то̄гэ_Pron_PRONOUN_туда_there
 тоагэ_Pron_PRONOUN_туда_there
@@ -912,7 +912,7 @@
 сӣнэнҍ_Pron_PRONOUN_у них, в них_at them, in them
 тӣнэнҍ_Pron_PRONOUN_у вас, в нас_at you, in us
 ке̄сьт_Pron_PRONOUN_у кого_at whom
-со̄сьт_Pron_PRONOUN_у него, у неё, у нее, в нем, в нём, в ней_at it, at it, at it, in it, in it, in it
+со̄сьт_Pron_PRONOUN_у него, у неё, у нее, в нем, в нём, в ней_at it, in it
 то̄сьт_Pron_PRONOUN_у тебя, в тебе_at you, in you
 сӣнэтҍ_Pron_PRONOUN_их_them
 нимэ̄з_Pron_PRONOUN_ни для чего_for what
@@ -925,20 +925,20 @@
 сӣнэха_Pron_PRONOUN_без них_without them
 тӣнэха_Pron_PRONOUN_без вас_without you
 то̄нха_Pron_PRONOUN_без тебя_without you
-со̄нха_Pron_PRONOUN_без него, без неё, без нее_without it, without it, without it
+со̄нха_Pron_PRONOUN_без него, без неё, без нее_without it
 коампэ_Pron_PRONOUN_который_which
-со̄нэнҍ_Pron_PRONOUN_с ним, с ней_with it, with it
+со̄нэнҍ_Pron_PRONOUN_с ним, с ней_with it
 мунэсьт_Pron_PRONOUN_у меня, во мне_at me, in me
 то̄нэнҍ_Pron_PRONOUN_с тобой_with you
 нимэ̄йн_Pron_PRONOUN_ни с чем_with what
 нимасьт_Pron_PRONOUN_ни у чего_at what
 муннэнҍ_Pron_PRONOUN_как я, в меня_as i, in me
 нике̄нн_Pron_PRONOUN_ничей, никого_nobody's, anybody
-со̄нэсьт_Pron_PRONOUN_у него, у неё, у нее, в нём, в нем, в ней_at it, at it, at it, in it, in it, in it
+со̄нэсьт_Pron_PRONOUN_у него, у неё, у нее, в нём, в нем, в ней_at it, in it
 то̄нэсьт_Pron_PRONOUN_у тебя, в тебе_at you, in you
 нике̄сьт_Pron_PRONOUN_ни у кого_at anybody
 то̄ннэнҍ_Pron_PRONOUN_как ты, в тебя_as you, in you
-со̄ннэнҍ_Pron_PRONOUN_как он, как она, в него, в её, в ее_as it, as it, in it, in it, in it
+со̄ннэнҍ_Pron_PRONOUN_как он, как она, в него, в её, в ее_as it, as it
 тёллэдтӭ_Pron_PRONOUN_тот далеко, тот_that it is far, that
 мӣнэгуэйм_Pron_PRONOUN_с нами_with us
 сӣнэгуэйм_Pron_PRONOUN_с ними_with them
@@ -950,7 +950,7 @@
 мӣ-не_Pron_PRONOUN, HUMAN_что-нибудь_something
 ке̄-не_Pron_PRONOUN, HUMAN_кто-нибудь_somebody
 ке̄-ляннч_Pron_PRONOUN, HUMAN_кто-то_someone
-мунн_Pron_PRONOUN, HUMAN_я_i
+мунн_Pron_PRONOUN, HUMAN_я_I
 тыйй_Pron_PRONOUN, HUMAN_вы_you
 сыйй_Pron_PRONOUN, HUMAN_они_they
 нимӣ_Pron_PRONOUN, HUMAN_ничто_anything
@@ -958,7 +958,7 @@
 ке̄гк-не_Pron_PRONOUN, HUMAN_кто-нибудь_somebody
 ке̄гк-ляннч_Pron_PRONOUN, HUMAN_кто-то_someone
 ке̄йн_Pron_PRONOUN, HUMAN_с кем_with whom
-со̄нн_Pron_PRONOUN, HUMAN_он, она, оно_it, it, it
+со̄нн_Pron_PRONOUN, HUMAN_он, она, оно_it
 нике̄_Pron_PRONOUN, HUMAN_никто_anybody
 нике̄з_Pron_PRONOUN, HUMAN_никому_to anybody
 нике̄йн_Pron_PRONOUN, HUMAN_ни с кем_with anybody
@@ -966,7 +966,7 @@
 тэста_Pron_PRONOUN, LIVING-PLACE_здесь_here
 тамьпе_Pron_PRONOUN, LIVING-PLACE_там_there
 нико̄з_Pron_PRONOUN, LIVING-PLACE_никуда_anywhere
-никасьт_Pron_PRONOUN, LIVING-PLACE_нигде, ниоткуда_anywhere, anywhere
+никасьт_Pron_PRONOUN, LIVING-PLACE_нигде, ниоткуда_anywhere
 ко̄з_Pron_PRONOUN, PLACE-NATURE, LIVING-PLACE_куда_where
 касьт_Pron_PRONOUN, PLACE-NATURE, LIVING-PLACE_где, откуда_where, whence
 масьт_Pron_PRONOUN, PLACE-NATURE, LIVING-PLACE_откуда_whence
@@ -978,20 +978,20 @@
 куэссь_Pron_PRONOUN, TIME_когда_when
 оа̄нтшэм_A_SCHOOL-EDUCATION_понятный_clear
 то̄ӆӆькьем_A_SCHOOL-EDUCATION_понятный_clear
-са̄мас_Adv_SCHOOL-EDUCATION_по-саамски_on-saamski
+са̄мас_Adv_SCHOOL-EDUCATION_по-саамски_in Saami
 куллтлэнне_Adv_SCHOOL-EDUCATION_внимательно_attentively
 кӣл оаннӭй_N_SCHOOL-EDUCATION_носитель языка_native speaker
-кӣл пайнэмушш_N_SCHOOL-EDUCATION_ревитализация языка_ревитализация language
-лоагк_N_SCHOOL-EDUCATION_счёт, счет_account, the account
+кӣл пайнэмушш_N_SCHOOL-EDUCATION_ревитализация языка_language revitalisation
+лоагк_N_SCHOOL-EDUCATION_счёт, счет_account
 лӯввьт_N_SCHOOL-EDUCATION_доска_board
 са̄ннҍ_N_SCHOOL-EDUCATION_слово_word
 вуррьп_N_SCHOOL-EDUCATION_жребий_lot
-тӣдтӭй_N_SCHOOL-EDUCATION_учёный, знающий, ученый_scientist knowing, the scientist
-кыррьй_N_SCHOOL-EDUCATION_письмо, грамота, книга, записка_letter, the reading and writing, the book, note
+тӣдтӭй_N_SCHOOL-EDUCATION_учёный, знающий, ученый_scientist
+кыррьй_N_SCHOOL-EDUCATION_письмо, грамота, книга, записка_letter, reading and writing, book, note
 оаннӭй_N_SCHOOL-EDUCATION_носитель_carrier
 гла̄гол_N_SCHOOL-EDUCATION_глагол_verb
 адтъешь_N_SCHOOL-EDUCATION_настоящее время_present
-оаньхесь кыррьй_N_SCHOOL-EDUCATION_резюме, короткое письмо, короткий текст_resume, the short letter, the short text
+оаньхесь кыррьй_N_SCHOOL-EDUCATION_резюме, короткое письмо, короткий текст_resume, short letter, short text
 вуэпьсей_N_SCHOOL-EDUCATION_воспитатель_tutor
 са̄рнэгк_N_SCHOOL-EDUCATION_разговорник_phrase book
 кэ̄жьнэгк_N_SCHOOL-EDUCATION_вопрос_question
@@ -1014,16 +1014,16 @@
 ло̄ссэ_Adv_SCHOOL-EDUCATION, HUMAN_тяжело, трудно_hard, difficultly
 юрт_N_SCHOOL-EDUCATION, HUMAN_мысль, мечта, смысл_thought, dream, sense
 мӣлл_N_SCHOOL-EDUCATION, HUMAN_ум, разум, память_mind, reason, memory
-ла̄шшьк_N_SCHOOL-EDUCATION, HUMAN_лень, лентяй_laziness, the idler
-моа̄йнас_N_SCHOOL-EDUCATION, HUMAN_рассказ, беседа, сказка, речь, доклад, выступление_story, conversation, fairy tale, speech, the report, performance
+ла̄шшьк_N_SCHOOL-EDUCATION, HUMAN_лень, лентяй_laziness
+моа̄йнас_N_SCHOOL-EDUCATION, HUMAN_рассказ, беседа, сказка, речь, доклад, выступление_story, conversation, fairy tale, speech, report, performance
 мушштъемушш_N_SCHOOL-EDUCATION, HUMAN_вспоминания_recalls
 тӣдтӭ_V_SCHOOL-EDUCATION, HUMAN VERB_знать, узнать_nobility to learn
 вуэӈӈэ_V_SCHOOL-EDUCATION, HUMAN VERB_отдыхать_to have a rest
-куллтлэ_V_SCHOOL-EDUCATION, HUMAN VERB_слушать кого-что, слушать_to listen to whom-that, to listen
-мушшьтэ_V_SCHOOL-EDUCATION, HUMAN VERB_помнить, запомнить_to remember, remember
+куллтлэ_V_SCHOOL-EDUCATION, HUMAN VERB_слушать кого-что, слушать_to listen to somebody, to listen
+мушшьтэ_V_SCHOOL-EDUCATION, HUMAN VERB_помнить, запомнить_to remember
 са̄ррнэ_V_SCHOOL-EDUCATION, HUMAN VERB_говорить_to speak
 мушштсэллэ_V_SCHOOL-EDUCATION, HUMAN VERB_вспоминать_to remember
-моа̄йнсе_N_SCHOOL-EDUCATION, HUMAN, VERB_рассказать, беседовать, выступить, рассказать сказку, выступить с речью, выступить с докладом_to tell, talk, act, tell a fairy tale, to make speech, to act with the report
+моа̄йнсе_N_SCHOOL-EDUCATION, HUMAN, VERB_рассказать, беседовать, выступить, рассказать сказку, выступить с речью, выступить с докладом_to tell, to talk, to act
 па̄ррнэ_N_SCHOOL-EDUCATION, KIN_дети_children
 вуэпьсемушш_N_SCHOOL-EDUCATION, KIN_воспитание_education
 вуэпьсуввмушш_N_SCHOOL-EDUCATION, KIN_воспитание_education
@@ -1035,14 +1035,14 @@
 кыджемь ча̄сэсьт_N_SCHOOL-EDUCATION, TIME, FOOD_в седьмом часу_at the seventh o'clock
 ло̄гкэ_N_SCHOOL-EDUCATION, VERB_читать, диктовать, считать_to read, dictate, consider
 сӣррэ_V_SCHOOL-EDUCATION, VERB_играть_to play
-кэ̄дже_V_SCHOOL-EDUCATION, VERB_спросить, спрашивать, просить_to ask, ask, ask
-оа̄нтшэ_V_SCHOOL-EDUCATION, VERB_понимать, понять_to understand, understand
-вуэпьсе_V_SCHOOL-EDUCATION, VERB_воспитывать, воспитать_to bring up, up
-це̄ӆӆьке_V_SCHOOL-EDUCATION, VERB_сказать, произнести, сообщить_to tell, say, inform
-вуэсстлэ_V_SCHOOL-EDUCATION, VERB_ответить, отвечать_to answer, answer
-то̄ӆӆькье_V_SCHOOL-EDUCATION, VERB_понимать, понять_to understand, understand
-вуэпьсуввэ_V_SCHOOL-EDUCATION, VERB_заниматься, воспитываться_to be engaged, brought up
-юррьтӭ_V_SCHOOL-EDUCATION, VERB, HUMAN_думать, мыслить, мечтать, рассуждать_to think, think, dream, argue
+кэ̄дже_V_SCHOOL-EDUCATION, VERB_спросить, спрашивать, просить_to ask
+оа̄нтшэ_V_SCHOOL-EDUCATION, VERB_понимать, понять_to understand
+вуэпьсе_V_SCHOOL-EDUCATION, VERB_воспитывать, воспитать_to bring up
+це̄ӆӆьке_V_SCHOOL-EDUCATION, VERB_сказать, произнести, сообщить_to tell, to say, to inform
+вуэсстлэ_V_SCHOOL-EDUCATION, VERB_ответить, отвечать_to answer
+то̄ӆӆькье_V_SCHOOL-EDUCATION, VERB_понимать, понять_to understand
+вуэпьсуввэ_V_SCHOOL-EDUCATION, VERB_заниматься, воспитываться_to be engaged, to be brought up
+юррьтӭ_V_SCHOOL-EDUCATION, VERB, HUMAN_думать, мыслить, мечтать, рассуждать_to think, to dream, to argue
 аввта_Adv_TIME_опять_again
 айкалт_Adv_TIME_рано_early
 маӈӈедҍ_Adv_TIME_поздно_late
@@ -1065,7 +1065,7 @@
 ӣнцэсь_N_TIME_утренний_morning
 на̄ввьл_N_TIME_час_hour
 ӣнцкэнч_N_TIME_утро_morning
-пе̄ййва_N_TIME_днём, днем_in the afternoon, in the afternoon
+пе̄ййва_N_TIME_днём, днем_in the afternoon
 секунда_N_TIME_секунда_second
 ентъенч_N_TIME_завтрашний_tomorrow's
 янтъенч_N_TIME_завтрашний_tomorrow's
@@ -1081,8 +1081,8 @@
 туннӭпеййв_N_TIME_позавчера_day before yesterday
 та̄ррмъенч_N_TIME_сегодняшний_today's
 поаррькпейв_N_TIME_дни недели_days of the week
-е̄кесьпеййв_N_TIME_вторая половина дня_second half of day
-ӣнцэсьпеййв_N_TIME_первая половина дня_first half of day
+е̄кесьпеййв_N_TIME_вторая половина дня_second half of day, before noon
+ӣнцэсьпеййв_N_TIME_первая половина дня_first half of day, afternoon
 пе̄ййвкэсск_N_TIME_полдень_midday
 коа̄ммпалль_N_TIME_полярная ночь_polar night
 пэ̄йельента_N_TIME_послезавтра_day after tomorrow
@@ -1113,29 +1113,29 @@
 та̄лльв_N_TIME, WEATHER_зима_winter
 ыбе_V_VERB, HUMAN, FOOD_ненужно, не надо_it is unnecessary, it is not necessary
 о̄дзэ_V_VERB, LIVING-PLACE, FOOD_искать_to search
-оаннӭ_V_VERB, CLOTHES, HUMAN_носить, расходовать _to carry, spend 
-а̄ннэ_V_VERB, HUMAN, FOOD, SCHOOL-EDUCATION, CLOTHES_просить кого что-то дать, просить дать, просить_to ask whom something to allow, ask to give, ask
-пэллэ_V_VERB, HUMAN, LIVING-PLACE, PLACE-NATURE, PLACE-WATER_бояться, пугаться_to be afraid, frightened
+оаннӭ_V_VERB, CLOTHES, HUMAN_носить, расходовать _to carry, to spend 
+а̄ннэ_V_VERB, HUMAN, FOOD, SCHOOL-EDUCATION, CLOTHES_просить кого что-то дать, просить дать, просить_to ask to give, to ask
+пэллэ_V_VERB, HUMAN, LIVING-PLACE, PLACE-NATURE, PLACE-WATER_бояться, пугаться_to be afraid, to be frightened
 сӣрсэ_V_VERB, HUMAN, SCHOOL-EDUCATION, LIVING-PLACE_поиграть_to play
-аллькэ_V_VERB, HUMAN, LIVING-PLACE, HEALTH, TIME, FOOD_быть, начинать, стать, начинать делать что-то_to be, start, begin, start to do something
-пуэдтӭ_V_VERB, HUMAN, LIVING-PLACE, HEALTH, TIME, FOOD, CLOTHES_прийти, приехать_to come, arrive
-выййле_V_VERB, HUMAN, LIVING-PLACE, PLACE-NATURE, PLACE-WATER, TIME_поехать, уехать, отъехать, выехать_to go, leave, drive off, leave
+аллькэ_V_VERB, HUMAN, LIVING-PLACE, HEALTH, TIME, FOOD_быть, начинать, стать, начинать делать что-то_to start to do something, to begin
+пуэдтӭ_V_VERB, HUMAN, LIVING-PLACE, HEALTH, TIME, FOOD, CLOTHES_прийти, приехать_to come, to arrive
+выййле_V_VERB, HUMAN, LIVING-PLACE, PLACE-NATURE, PLACE-WATER, TIME_поехать, уехать, отъехать, выехать_to go, to leave, to drive off
 ышштлэ_V_VERB, HUMAN, LIVING-PLACE, TIME, FOOD_присесть_to sit down
 шӣххтэ_V_VERB, HUMAN, TIME, FOOD_подходить, быть удобно, согласиться_to approach, be convenient, to agree
-подтлэ_V_VERB, HUMAN, LIVING-PLACE, PLACE-NATURE, PLACE-WATER, TIME, FOOD_приходить, посещать_to come, visit
+подтлэ_V_VERB, HUMAN, LIVING-PLACE, PLACE-NATURE, PLACE-WATER, TIME, FOOD_приходить, посещать_to come, to visit
 тӣрвхэ_V_VERB, HUMAN, SCHOOL-EDUCATION, TIME_поздравить_to congratulate
 кӯсстэ_V_VERB, HUMAN, , LIVING-PLACE, PLACE-NATURE, PLACE-WATER_показаться, виднеться_to seem, be seen
 вӯлльке_V_VERB, HUMAN, LIVING-PLACE, PLACE-NATURE, TIME_пойти_to go
 кя̄ййве_V_VERB, HUMAN, LIVING-PLACE_кивать_to nod
-та̄ххтэ_V_VERB, HUMAN, LIVING-PLACE, TIME, FOOD, CLOTHES_хотеть, желать_to want, wish
+та̄ххтэ_V_VERB, HUMAN, LIVING-PLACE, TIME, FOOD, CLOTHES_хотеть, желать_to want, to wish
 па̄ххкэ_V_VERB, HUMAN, LIVING-PLACE_просить_to ask
-оа̄ҏҏтэ_V_VERB, HUMAN, LIVING-PLACE, SCHOOL-EDUCATION_спорить, ругать_to argue, abuse
-коадзъе_V_VERB, HUMAN, LIVING-PLACE, SCHOOL-EDUCATION, TIME_проснуться, встать_to wake up, rise
-ла̄ндте_V_VERB, HUMAN, LIVING-PLACE, FOOD_уговаривать, упрашивать_to persuade, ask
-ва̄лльтэ_V_VERB, HUMAN, LIVING-PLACE, FOOD, CLOTHES, HANDICRAFT_брать, получать, взять_to take, receive, take
-чуэннчле_V_VERB, LIVING-PLACE, HEALTH, FOOD_встать, подняться на ноги, подняться_to rise, rise to the feet, rise
-че̄ццклэ_V_VERB, LIVING-PLACE, FOOD_бросить, бросать, кидать, метать_to throw, throw, throw, throw
-моа̄йнсэ_V_VERB, HUMAN, SCHOOL-EDUCATION, KIN, HANDICRAFT, FOOD_рассказать, беседовать, рассказать сказку, выступить_to tell, talk, tell a fairy tale, to act
+оа̄ҏҏтэ_V_VERB, HUMAN, LIVING-PLACE, SCHOOL-EDUCATION_спорить, ругать_to argue, to abuse
+коадзъе_V_VERB, HUMAN, LIVING-PLACE, SCHOOL-EDUCATION, TIME_проснуться, встать_to wake up, to rise
+ла̄ндте_V_VERB, HUMAN, LIVING-PLACE, FOOD_уговаривать, упрашивать_to persuade, to ask
+ва̄лльтэ_V_VERB, HUMAN, LIVING-PLACE, FOOD, CLOTHES, HANDICRAFT_брать, получать, взять_to take, to receive
+чуэннчле_V_VERB, LIVING-PLACE, HEALTH, FOOD_встать, подняться на ноги, подняться_to rise, to rise to the feet
+че̄ццклэ_V_VERB, LIVING-PLACE, FOOD_бросить, бросать, кидать, метать_to throw
+моа̄йнсэ_V_VERB, HUMAN, SCHOOL-EDUCATION, KIN, HANDICRAFT, FOOD_рассказать, беседовать, рассказать сказку, выступить_to tell, to talk, tell a fairy tale, to act
 ва̄ннҍцле_V_VERB, HUMAN, LIVING-PLACE, SCHOOL-EDUCATION, TIME_пойти_to go
 е̄ллсуввэ_V_VERB, HUMAN, HEALTH_хотеть жить_to want to live
 куллтэллэ_V_VERB, HUMAN, LIVING-PLACE, SCHOOL-EDUCATION, TIME, KIN_слушать_to listen
@@ -1150,7 +1150,7 @@
 лыгкэшкуэдтӭ_V_VERB, HUMAN, SCHOOL-EDUCATION, TIME, LIVING-PLACE_начать делать_to start to do
 моа̄йнсэшкуэдтӭ_V_VERB, HUMAN, SCHOOL-EDUCATION, LIVING-PLACE_начать рассказывать_to start to tell
 угкэ_V_VERB, ANIMAL_лаять_to bark
-ыррштэ_V_VERB, ANIMAL_рычать о собаке, рычать_to growl about a dog, to growl
+ыррштэ_V_VERB, ANIMAL_рычать о собаке, рычать_to growl
 юхтэ_V_VERB, FOOD_поить_to give to drink
 югсэ_V_VERB, FOOD_попить_to drink
 чиннэ_V_VERB, FOOD_готовить, приготовить_to prepare, prepare
@@ -1158,30 +1158,30 @@
 по̄ҏсэ_V_VERB, FOOD_поесть_to eat
 тӯллтэ_V_VERB, FOOD_кипеть_to boil
 по̄ҏтэ_V_VERB, FOOD_кормить_to feed
-аппьсе_V_VERB, FOOD_пахнуть, вонять, нюхать_to smell, stink, smell
+аппьсе_V_VERB, FOOD_пахнуть, вонять, нюхать_to smell, to stink
 кӯсьхе_V_VERB, FOOD_угостить_to treat
 сыххкэ_V_VERB, FOOD_вытирать_to wipe
 кэ̄ннцэ_V_VERB, FOOD_есть ложкой, есть жидкую пищу_is a spoon, is liquid food
 кыппьтэ_V_VERB, FOOD_варить_to cook
 по̄ррлэ_V_VERB, FOOD_съесть_to eat
-луннтнэ_V_VERB, FOOD_лопнуть, треснуть_to burst, burst
-вуэссьтэ_V_VERB, FOOD_купить, покупать_to buy, buy
+луннтнэ_V_VERB, FOOD_лопнуть, треснуть_to burst
+вуэссьтэ_V_VERB, FOOD_купить, покупать_to buy
 тӯлльтҍе_V_VERB, FOOD_закипеть_to begin to boil
-тӯлльтхэ_V_VERB, FOOD_вскипеть, вскипятить_to boil, boil
-по̄ҏсуввэ_V_VERB, FOOD_хотеть кушать, быть голодным_to want to eat, be hungry
+тӯлльтхэ_V_VERB, FOOD_вскипеть, вскипятить_to boil
+по̄ҏсуввэ_V_VERB, FOOD_хотеть кушать, быть голодным_to want to eat, to be hungry
 по̄ррсуввэ_V_VERB, FOOD_хотеть кушать_to want to eat
 луннтнэнтэ_V_VERB, FOOD_лопаться_to burst
 тулльтсэллэ_V_VERB, FOOD_закипать_to begin to boil
 по̄ҏҏтсэллэ_V_VERB, FOOD_подкармливать_to feed up
 по̄рэшкуэдтӭ_V_VERB, FOOD_начать кушать_to start to eat
-пыййе_V_VERB, HANDICRAFT_положить, класть, ставить, поставить вставлять, вставить_to put, put, put, put to insert, insert
+пыййе_V_VERB, HANDICRAFT_положить, класть, ставить, поставить вставлять, вставить_to put, to insert
 ка̄дтэ_V_VERB, HANDICRAFT_нашивать аппликацию, нашивать кожу на кожу, аппликация_to sew application, to sew a skin on a skin, application
 куаррнмэн_V_VERB, HANDICRAFT_за шитьём, за шитьем_for sewing, behind sewing
 моаӆӆьчхе_V_VERB, HANDICRAFT_облезать о шкуре, облезать, облезть_to grow bare about a skin, to grow bare, облезть
 та̄йе_V_VERB, HEALTH_сходить с ума, с ума сходить_to go mad, become crazy
-а̄ррьвдӭ_N_VERB, HUMAN_угадать, отгадать, разгадать, догадаться_to guess, guess, solve, guess
+а̄ррьвдӭ_N_VERB, HUMAN_угадать, отгадать, разгадать, догадаться_to guess
 лийе_V_VERB, HUMAN_быть_to be
-пыййе_V_VERB, HUMAN_класть, положить, ставить, поставить, вставлять, вставить, грузить, погрузить, сажать, посадить, назначать, назначит_to put, put, put, put, insert, insert, to load, ship, put, plant, appoint, will appoint
+пыййе_V_VERB, HUMAN_класть, положить, ставить, поставить, вставлять, вставить, грузить, погрузить, сажать, посадить, назначать, назначит_to put, to insert
 шоабшэ_V_VERB, HUMAN_любить_to love
 мушштъе_V_VERB, HUMAN_вспомнить_to remember
 вуайхуввэ_V_VERB, HUMAN_меняться_to change
@@ -1190,22 +1190,22 @@
 томтсувнэ_V_VERB, HUMAN_знакомиться_to get acquainted
 уййнлэдтэ_V_VERB, HUMAN_встретиться, увидеться_to meet, meet
 тӣрвхэдтэ_V_VERB, HUMAN_поздороваться_to greet
-чиннэ_V_VERB, HUMAN, LIVING-PLACE_чинить, починить, ремонтировать, отремонтировать, готовить, приготовить, крепить_to repair, repair, repair, repair, prepare, prepare, to fix
-ко̄ппче_V_VERB, HUMAN, LIVING-PLACE, FOOD, HANDICRAFT_собирать, собрать, копить, запасать, убирать_to collect, collect, save, reserve, clean
-ко̄ннче_V_VERB, HUMAN, LIVING-PLACE, HEALTH_писать, мочиться_to write, urinate
+чиннэ_V_VERB, HUMAN, LIVING-PLACE_чинить, починить, ремонтировать, отремонтировать, готовить, приготовить, крепить_to repair, to fix
+ко̄ппче_V_VERB, HUMAN, LIVING-PLACE, FOOD, HANDICRAFT_собирать, собрать, копить, запасать, убирать_to collect, to save
+ко̄ннче_V_VERB, HUMAN, LIVING-PLACE, HEALTH_писать, мочиться_to write, to urinate
 шэ̄ннтътэ_V_VERB, KIN_вырастить_to grow up
 оассэ_V_VERB, LIVING-PLACE_ставить куваксу, ставить чум, ставить палатку_to put куваксу, to put plagues, to put tent
-а̄вьдэ_V_VERB, LIVING-PLACE_открыть, раскрыть, отворить_to open, open, open
-луннҍтҍе_V_VERB, LIVING-PLACE_колоть дрова, расколоть дрова, колоть, расколоть_to chop firewood, split fire wood, to prick, split
-ка̄ххьтэ_V_VERB, LIVING-PLACE_закрывать, закрыть, накрывать, накрыть, запирать_to close, close, cover, cover, lock
+а̄вьдэ_V_VERB, LIVING-PLACE_открыть, раскрыть, отворить_to open
+луннҍтҍе_V_VERB, LIVING-PLACE_колоть дрова, расколоть дрова, колоть, расколоть_to chop firewood, split fire wood, to prick
+ка̄ххьтэ_V_VERB, LIVING-PLACE_закрывать, закрыть, накрывать, накрыть, запирать_to close, to cover
 паййнэ_V_VERB, PLACE-NATURE_подняться_to rise
 луэшштэдтэ_V_VERB, PLACE-NATURE_спуститься_to go down
 лӯшшьтлуввэ_V_VERB, PLACE-NATURE_спуститься_to go down
-пыйнэ_V_VERB, SCHOOL-EDUCATION_предполагать, решать_to assume, solve
+пыйнэ_V_VERB, SCHOOL-EDUCATION_предполагать, решать_to assume, to solve
 вӯзьхе_V_VERB, SCHOOL-EDUCATION_показать_to show
 вэ̄зьхе_V_VERB, SCHOOL-EDUCATION_показать_to show
 вуэзхэллэ_V_VERB, SCHOOL-EDUCATION_показывать_to show
-о̄ххпнуввэ_V_VERB, SCHOOL-EDUCATION_учиться, заниматься_to study, be engaged
+о̄ххпнуввэ_V_VERB, SCHOOL-EDUCATION_учиться, заниматься_to study, to be engaged
 кырьйхуввэ_V_VERB, SCHOOL-EDUCATION_расписаться_to undersign
 ю̄ррьтсэллэ_V_VERB, SCHOOL-EDUCATION_подумывать_to think
 вуаййлаххьтэ_V_VERB, SCHOOL-EDUCATION_забыть_to forget
