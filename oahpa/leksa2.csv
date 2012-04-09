@@ -241,7 +241,7 @@
 туа̄ла_N_DIMINUTIVE, LIVING-PLACE_столики_little tables
 туа̄лэнч_N_DIMINUTIVE, LIVING-PLACE_столик_little table
 поа̄ллэнч_N_DIMINUTIVE, LIVING-PLACE_мячик_ball
-ка̄ввсэнч_N_DIMINUTIVE, LIVING-PLACE_чумчик, маленькая кувакса, маленький чум _small plagues 
+ка̄ввсэнч_N_DIMINUTIVE, LIVING-PLACE_чумчик, маленькая кувакса, маленький чум_small plagues 
 кушкэнч_N_DIMINUTIVE, PLACE-WATER_порогчиг, маленький порог_small threshold
 мӯнненч_N_DIMINUTIVE, WEATHER_морозец_морозец
 мӯнньгенч_N_DIMINUTIVE, WEATHER_морозец_морозец
@@ -483,7 +483,7 @@
 са̄ррнмушш_N_HUMAN, SCHOOL-EDUCATION, FOOD_разговор_conversation
 ка̄ннҍцвудт_N_HUMAN_дружба_friendship
 вуэсстлэмушш_N_HUMAN_встреча_meeting
-кутӓс_Num_HUMAN_двое _two 
+кутӓс_Num_HUMAN_двое_two 
 колмас_Num_HUMAN_трое_three
 не̄льяс_Num_HUMAN_четверо_four
 куэххтасьт_Num_HUMAN_вдвоём, у двоих, вдвоем_together
@@ -744,7 +744,7 @@
 ӣӈӈманн_N_MONTH_ноябрь_november
 кыдтманн_N_MONTH_май_may
 сӯйнманн_N_MONTH_июль_july
-нюххчманн_N_MONTH_март _march 
+нюххчманн_N_MONTH_март_march 
 ке̄ссьманн_N_MONTH_июнь_june
 по̄рркманн_N_MONTH_февраль_february
 че̄ххчманн_N_MONTH_сентябрь_september
@@ -1113,7 +1113,7 @@
 та̄лльв_N_TIME, WEATHER_зима_winter
 ыбе_V_VERB, HUMAN, FOOD_ненужно, не надо_it is unnecessary, it is not necessary
 о̄дзэ_V_VERB, LIVING-PLACE, FOOD_искать_to search
-оаннӭ_V_VERB, CLOTHES, HUMAN_носить, расходовать _to carry, to spend 
+оаннӭ_V_VERB, CLOTHES, HUMAN_носить, расходовать_to carry, to spend 
 а̄ннэ_V_VERB, HUMAN, FOOD, SCHOOL-EDUCATION, CLOTHES_просить кого что-то дать, просить дать, просить_to ask to give, to ask
 пэллэ_V_VERB, HUMAN, LIVING-PLACE, PLACE-NATURE, PLACE-WATER_бояться, пугаться_to be afraid, to be frightened
 сӣрсэ_V_VERB, HUMAN, SCHOOL-EDUCATION, LIVING-PLACE_поиграть_to play
@@ -1232,102 +1232,102 @@
 манҍтэ-ляннч_Pron_PRONOUN, HUMAN_какой-то_any
 о̄ххпнуввэмтуйй_N_SCHOOL-EDUCATION_учебное пособие, учебный материал_manual, teaching material
 о̄ххпнуввэмтуй_N_SCHOOL-EDUCATION_учебные пособия, учебные материалы_manuals, teaching materials
-са̄мь_A_SCHOOL-EDUCATION, HUMAN_саамский_lappish
-са̄мь кӣлл_N_SCHOOL-EDUCATION_саамский язык_lappish language
-кӣллт_A_SCHOOL-EDUCATION, HUMAN_кильдинский_кильдинский
-кӣллт са̄мь_A_SCHOOL-EDUCATION, HUMAN_кильдинский_кильдинский
-кӣллт са̄мь_N_SCHOOL-EDUCATION, HUMAN_кильдинский саами, кильдинский саам, кильдинсаами, кильдинсаам_кильдинский саами, кильдинский the sami, кильдинсаами, кильдинсаам
-кӣллт кӣлл_N_SCHOOL-EDUCATION_кильдинский язык_кильдинский language
-кӣллт са̄мь кӣлл_N_SCHOOL-EDUCATION_кильдин-саамский язык, кильдинсаамский язык, кильдин саамский язык_kildin-lappish language, кильдинсаамский language, кильдин lappish language
-ахькэль са̄мь кӣлл_N_SCHOOL-EDUCATION_бабинский язык, аккала-саамский язык, аккаласаамский язык, аккала саамский язык_бабинский language, akkala-lappish language, аккаласаамский language, аккала lappish language
-ахькэль кӣлл_N_SCHOOL-EDUCATION_бабинский язык, аккала-саамский язык, аккаласаамский язык, аккала саамский язык_бабинский language, akkala-lappish language, аккаласаамский language, аккала lappish language
+са̄мь_A_SCHOOL-EDUCATION, HUMAN_саамский_Saami, Sami, Lappish
+са̄мь кӣлл_N_SCHOOL-EDUCATION_саамский язык_Saami lanugage, Sami language, Lappish language
+кӣллт_A_SCHOOL-EDUCATION, HUMAN_кильдинский_Kildin
+кӣллт са̄мь_A_SCHOOL-EDUCATION, HUMAN_кильдинский_Kildin Saami
+кӣллт са̄мь_N_SCHOOL-EDUCATION, HUMAN_кильдинский саами, кильдинский саам, кильдинсаами, кильдинсаам_Kildin Saami
+кӣллт кӣлл_N_SCHOOL-EDUCATION_кильдинский язык_Kildin language, Kildin Saami language
+кӣллт са̄мь кӣлл_N_SCHOOL-EDUCATION_кильдин-саамский язык, кильдинсаамский язык, кильдин саамский язык_Kildin language, Kildin Saami language
+ахькэль са̄мь кӣлл_N_SCHOOL-EDUCATION_бабинский язык, аккала-саамский язык, аккаласаамский язык, аккала саамский язык_Akkala Saami, Akkala Saami language
+ахькэль кӣлл_N_SCHOOL-EDUCATION_бабинский язык, аккала-саамский язык, аккаласаамский язык, аккала саамский язык_Akkala Saami, Akkala Saami language
 ахькэль_A_SCHOOL-EDUCATION, HUMAN_бабинский, аккала-саамский_бабинский, akkala-lappish
-ахькэль са̄мь_A_SCHOOL-EDUCATION, HUMAN_бабинский-саамский, аккала-саамский, аккаласаамский, бабинский_babinsky-lappish, akkala-lappish, аккаласаамский, бабинский
-ахькэль са̄мь_N_SCHOOL-EDUCATION, HUMAN_бабинский саами, бабинский саам, аккала-саами, аккала-саам, аккаласаами, аккаласаам, аккала саами, аккала саам_бабинский саами, бабинский the sami, akkala-saami, the akkala-sami, аккаласаами, аккаласаам, аккала саами, аккала the sami
-таррьй кӣлл_N_SCHOOL-EDUCATION_йокангский язык, иокангский язык, тер-саамский язык, тер саамский язык, терсаамский язык_йокангский language, иокангский language, rubbed-lappish language, rubbed lappish language, терсаамский language
-таррьй са̄мь кӣлл_N_SCHOOL-EDUCATION_йокангский язык, иокангский язык, тер-саамский язык, тер саамский язык, терсаамский язык_йокангский language, иокангский language, rubbed-lappish language, rubbed lappish language, терсаамский language
-таррьй_A_SCHOOL-EDUCATION, HUMAN_йокангский, иокангский, тер_йокангский, иокангский, rubbed
-таррьй са̄мь_A_SCHOOL-EDUCATION, HUMAN_йокангский-саамский, йокангский саамский, йокангский, иокангский-саамский, иокангский саамский, тер_jokangsky-lappish, йокангский lappish, йокангский, iokangsky-lappish, иокангский lappish, rubbed
-таррьй са̄мь_N_SCHOOL-EDUCATION, HUMAN_йокангский саами, йокангская саами, йокангские саами, иокангский саами, иокангская саами, иокангские саами, йокангский саам, йокангские саамы, иокангский саам, иокангские саамы, тер-саами, терсаами, тер-саам, терсаам, тер-саамы, терсаамы, терский саами, терская саами, терские саами, терский саам, терские саамы_йокангский саами, йокангская саами, йокангские саами, иокангский саами, иокангская саами, иокангские саами, йокангский the sami, йокангские samis, иокангский the sami, иокангские samis, rubbed-saami, терсаами, rubbed-sami, терсаам, rubbed-samis, терсаамы, терский саами, терская саами, терские саами, терский the sami, терские samis
-колтта са̄мь_A_SCHOOL-EDUCATION, HUMAN_скольт-саамский, скольта-саамский, скольтсаамский, скольтасаамский_skolt-lappish, skolta-lappish, скольтсаамский, скольтасаамский
-колтта са̄мь_N_SCHOOL-EDUCATION, HUMAN_скольт-саами, скольт саами, скольт-саам, скольтсаам, скольта-саами, скольтасаами, скольта-саамы, скольта саамы, скольта-саам, скольтасаам_skolt-saami, скольт саами, the skolt-sami, скольтсаам, skolta-saami, скольтасаами, skolta-saamy, скольта samis, the skolta-sami, скольтасаам
-колтта са̄мь кӣлл_N_SCHOOL-EDUCATION_скольт-саамский язык, скольтсаамский язык, скольт саамский язык, скольта-саамский язык, скольтасаамский язык, скольта саамский язык_skolt-lappish language, скольтсаамский language, скольт lappish language, skolta-lappish language, скольтасаамский language, скольта lappish language
-нуҏҏьт са̄мь кӣлл_N_SCHOOL-EDUCATION_восточно-саамский язык, восточно саамский язык, восточный саамский язык_east lappish language, east lappish language, east lappish language
-центральнэ са̄мь кӣлл_N_SCHOOL-EDUCATION_центрально-саамский язык, центрально саамский язык, центральный саамский язык _central-lappish language, it is central lappish language, the central lappish language 
-соа̄ййв са̄мь кӣл_N_SCHOOL-EDUCATION_южно-саамский язык, южно саамский язык, южный саамский язык_south lappish language, southern lappish language, southern lappish language
+ахькэль са̄мь_A_SCHOOL-EDUCATION, HUMAN_бабинский-саамский, аккала-саамский, аккаласаамский, бабинский_Akkala Saami, Akkala Saami language
+ахькэль са̄мь_N_SCHOOL-EDUCATION, HUMAN_бабинский саами, бабинский саам, аккала-саами, аккала-саам, аккаласаами, аккаласаам, аккала саами, аккала саам_Akkala Saami, Akkala Saami language
+таррьй кӣлл_N_SCHOOL-EDUCATION_йокангский язык, иокангский язык, тер-саамский язык, тер саамский язык, терсаамский язык_Ter Saami language, Jukanga Saami language
+таррьй са̄мь кӣлл_N_SCHOOL-EDUCATION_йокангский язык, иокангский язык, тер-саамский язык, тер саамский язык, терсаамский язык_Ter Saami language, Jukanga Saami language
+таррьй_A_SCHOOL-EDUCATION, HUMAN_йокангский, иокангский, тер_Ter Saami language, Jukanga Saami language
+таррьй са̄мь_A_SCHOOL-EDUCATION, HUMAN_йокангский-саамский, йокангский саамский, йокангский, иокангский-саамский, иокангский саамский, тер_Ter Saami language, Jukanga Saami language
+таррьй са̄мь_N_SCHOOL-EDUCATION, HUMAN_йокангский саами, йокангская саами, йокангские саами, иокангский саами, иокангская саами, иокангские саами, йокангский саам, йокангские саамы, иокангский саам, иокангские саамы, тер-саами, терсаами, тер-саам, терсаам, тер-саамы, терсаамы, терский саами, терская саами, терские саами, терский саам, терские саамы_Ter Saami language, Jukanga Saami language
+колтта са̄мь_A_SCHOOL-EDUCATION, HUMAN_скольт-саамский, скольта-саамский, скольтсаамский, скольтасаамский_Skolt Saami, Skolt
+колтта са̄мь_N_SCHOOL-EDUCATION, HUMAN_скольт-саами, скольт саами, скольт-саам, скольтсаам, скольта-саами, скольтасаами, скольта-саамы, скольта саамы, скольта-саам, скольтасаам_Skolt Saami, Skolt
+колтта са̄мь кӣлл_N_SCHOOL-EDUCATION_скольт-саамский язык, скольтсаамский язык, скольт саамский язык, скольта-саамский язык, скольтасаамский язык, скольта саамский язык_Skolt Saami language, Skolt language
+нуҏҏьт са̄мь кӣлл_N_SCHOOL-EDUCATION_восточно-саамский язык, восточно саамский язык, восточный саамский язык_East Saami language
+центральнэ са̄мь кӣлл_N_SCHOOL-EDUCATION_центрально-саамский язык, центрально саамский язык, центральный саамский язык_Central Saami language 
+соа̄ййв са̄мь кӣл_N_SCHOOL-EDUCATION_южно-саамский язык, южно саамский язык, южный саамский язык_South Saami language, South Saami
 са̄ррнэй_N_SCHOOL-EDUCATION_говорящий, носитель языка, разговаривающий_speaking, the native speaker talking
-кӣл туххьк_N_SCHOOL-EDUCATION_языковая группа, группа языка_language group, language group
+кӣл туххьк_N_SCHOOL-EDUCATION_языковая группа, группа языка_language group
 суэӈӈмушш_N_LIVING-PLACE_вход_input
-суэӈӈэ_V_VERB, LIVING-PLACE_входить, войти_to enter, enter
+суэӈӈэ_V_VERB, LIVING-PLACE_входить, войти_to enter
 нюэзесь_Adv_HEALTH, HUMAN, SCHOOL-EDUCATION_плохо_badly
 а̄ррв_N_HUMAN, SCHOOL-EDUCATION_цена, оценка_price, estimation
-А̄ннҍ_N_NAME, HUMAN_Анна_anna
-Ва̄дьк_N_NAME, HUMAN_Вадик_vadik
-Ва̄сськ_N_NAME, HUMAN_Василий_vasily
-Вуаннса_N_NAME, HUMAN_Афанасий_athanasius
-Вуаӈт_N_NAME, HUMAN_Антон_anton
-Вуаӈтэнч_N_NAME, HUMAN_Афоня_афоня
-Вуэннҍтре_N_NAME, HUMAN_Андрей_andrey
-Вуэннҍтряя_N_NAME, HUMAN_Андрюша_андрюша
-Ёа̄ввк_N_NAME, HUMAN_Евгений_evgenie
-Ёак_N_NAME, HUMAN_Яков_jacob
-Ёгор_N_NAME, HUMAN_Георгий_george
-Ёгра_N_NAME, HUMAN_Гоша_gosha
-Лёлль_N_NAME, HUMAN_Лолий_лолий
-Луяввьр_N_LIVING-PLACE, NAME_Ловозеро_ловозеро
-Ма̄рьенч_N_NAME, HUMAN_Машенька_машенька
-Ма̄тӓ_N_NAME, HUMAN_Матвейка_матвейка
-Моа̄дран_N_NAME, HUMAN_Матрёна, Матрена_матрёна, matrena
-Моа̄дрна_N_NAME, HUMAN_Матрёнка, Матренка_матрёнка, matrenka
-Моа̄ҏҏк_N_NAME, HUMAN_Марк_mark
-Моа̄рьна_N_NAME, HUMAN_Марина_marina
-Мыккла_N_NAME, HUMAN_Николай_nikolay
-Мыкклэнч_N_NAME, HUMAN_Коля_kohl
-Мышшк_N_NAME, HUMAN_Михаил_michael
-Мышкэнч_N_NAME, HUMAN_Миша_миша
-На̄дтла_N_NAME, HUMAN_Наталья_natalia
-Нӣна_N_NAME, HUMAN_Нина_nina
-Ноасстъенч_N_NAME, HUMAN_Настя_настя
-О̄ця_N_NAME_Гена_gene
-Оленьк_N_NAME, HUMAN_Лена_lena
-Парэск_N_NAME, HUMAN_Прасковья_прасковья
-Параска_N_NAME, HUMAN_Паня_паня
-Пася_N_NAME, HUMAN_Паша_pasha
-Пе̄дра_N_NAME, HUMAN_Петя_petja
-Пе̄др_N_NAME, HUMAN_Пётр, Петр_peter, peter
-По̄ввла_N_NAME, HUMAN_Павел_pavel
-Пӯна_N_NAME, HUMAN_Аполинария_аполинария
-Рыг_N_NAME, HUMAN_Григорий_grigory
-Рыгкъенч_N_NAME, HUMAN_Гриша_гриша
-Са̄ндра_N_NAME, HUMAN_Александра_alexander
-Са̄ххкрэ_N_NAME, HUMAN_Захар_захар
-Сӣрьке_N_NAME, HUMAN_Сергей_sergey
-Сӣрькья_N_NAME, HUMAN_Серёжа, Сережа_серёжа, serezha
-Таввь_N_NAME, HUMAN_Север_north
-Та̄дҍна_N_NAME, HUMAN_Таня_таня
-Та̄дҍян_N_NAME, HUMAN_Татьяна_tatyana
-Таиск_N_NAME, HUMAN_Тася_тася
-Та̄ррьй_N_NAME, HUMAN_Дарья_darya
-Та̄рьенч_N_NAME, HUMAN_Даша_даша
-Тоа̄нал_N_NAME, HUMAN_Данил_daniels
-Тоа̄нла_N_NAME, HUMAN_Данилка_данилка
-Тымэшк_N_NAME, HUMAN_Тимофей_timothy
-Улльна_N_NAME, HUMAN_Уля_уля
-Улльян_N_NAME, HUMAN_Ульяна_ульяна
-Эвван_N_NAME, HUMAN_Иван_ivan
-Эввнэнч_N_NAME, HUMAN_Ваня_ваня
-Я̄к_N_NAME, HUMAN_Яков_jacob
-пӯдзэпыней_N_ANIMAL, HUMAN_оленевод, пастух_reindeer breeder, the shepherd
+А̄ннҍ_N_NAME, HUMAN_Анна_Anna
+Ва̄дьк_N_NAME, HUMAN_Вадик_Vadik
+Ва̄сськ_N_NAME, HUMAN_Василий_Vasily
+Вуаннса_N_NAME, HUMAN_Афанасий_Afanasius
+Вуаӈт_N_NAME, HUMAN_Антон_Anton
+Вуаӈтэнч_N_NAME, HUMAN_Афоня_Afonja
+Вуэннҍтре_N_NAME, HUMAN_Андрей_Andrey
+Вуэннҍтряя_N_NAME, HUMAN_Андрюша_Andjusha
+Ёа̄ввк_N_NAME, HUMAN_Евгений_Evgeny
+Ёак_N_NAME, HUMAN_Яков_Jacob
+Ёгор_N_NAME, HUMAN_Георгий_George, Georgij
+Ёгра_N_NAME, HUMAN_Гоша_Gosha
+Лёлль_N_NAME, HUMAN_Лолий_Lolij
+Луяввьр_N_LIVING-PLACE, NAME_Ловозеро_Lovozero
+Ма̄рьенч_N_NAME, HUMAN_Машенька_Mashen'ko, Mashenko
+Ма̄тӓ_N_NAME, HUMAN_Матвейка_Matvejka
+Моа̄дран_N_NAME, HUMAN_Матрёна, Матрена_Matrena
+Моа̄дрна_N_NAME, HUMAN_Матрёнка, Матренка_Matrenka
+Моа̄ҏҏк_N_NAME, HUMAN_Марк_Mark
+Моа̄рьна_N_NAME, HUMAN_Марина_Marina
+Мыккла_N_NAME, HUMAN_Николай_Nikolay
+Мыкклэнч_N_NAME, HUMAN_Коля_Kolya
+Мышшк_N_NAME, HUMAN_Михаил_Michael
+Мышкэнч_N_NAME, HUMAN_Миша_Misha
+На̄дтла_N_NAME, HUMAN_Наталья_Natalia, Natalya
+Нӣна_N_NAME, HUMAN_Нина_Nina
+Ноасстъенч_N_NAME, HUMAN_Настя_Nastya
+О̄ця_N_NAME_Гена_Gena
+Оленьк_N_NAME, HUMAN_Лена_Lena
+Парэск_N_NAME, HUMAN_Прасковья_Praskovya
+Параска_N_NAME, HUMAN_Паня_Panyq
+Пася_N_NAME, HUMAN_Паша_Pasha
+Пе̄дра_N_NAME, HUMAN_Петя_Petya
+Пе̄др_N_NAME, HUMAN_Пётр, Петр_Peter
+По̄ввла_N_NAME, HUMAN_Павел_Pavel
+Пӯна_N_NAME, HUMAN_Аполинария_Apolinariqy
+Рыг_N_NAME, HUMAN_Григорий_Grigory
+Рыгкъенч_N_NAME, HUMAN_Гриша_Grisha
+Са̄ндра_N_NAME, HUMAN_Александра_Alexander
+Са̄ххкрэ_N_NAME, HUMAN_Захар_Zakhar
+Сӣрьке_N_NAME, HUMAN_Сергей_Sergey
+Сӣрькья_N_NAME, HUMAN_Серёжа, Сережа_Serezha
+Таввь_N_NAME, HUMAN_Север_North
+Та̄дҍна_N_NAME, HUMAN_Таня_Tanya
+Та̄дҍян_N_NAME, HUMAN_Татьяна_Tatyana
+Таиск_N_NAME, HUMAN_Тася_Tasya
+Та̄ррьй_N_NAME, HUMAN_Дарья_Darya
+Та̄рьенч_N_NAME, HUMAN_Даша_Dasha
+Тоа̄нал_N_NAME, HUMAN_Данил_Daniel
+Тоа̄нла_N_NAME, HUMAN_Данилка_Danilka
+Тымэшк_N_NAME, HUMAN_Тимофей_Timofey, Timothy
+Улльна_N_NAME, HUMAN_Уля_Ulya
+Улльян_N_NAME, HUMAN_Ульяна_Ulyana
+Эвван_N_NAME, HUMAN_Иван_Ivan
+Эввнэнч_N_NAME, HUMAN_Ваня_Vanya
+Я̄к_N_NAME, HUMAN_Яков_Jacob
+пӯдзэпыней_N_ANIMAL, HUMAN_оленевод, пастух_reindeer breeder, shepherd
 пуарр_N_ANIMAL_овод_gadfly
 пуарса_A_HUMAN, KIN_старший_senior
 пуалл_N_HANDICRAFT, CLOTHES_пуговица_button
 празднэххьк_N_TIME, WEEK-DAY_праздник_holiday
-по̄тткнэ_V_VERB, HANDICRAFT, LIVING-PLACE_разорваться, оборваться_to be broken off, break
-по̄ттк_N_FISH, PLACE-WATER_сети поставленные на озере, сети на озере_networks put on lake, a network on lake
+по̄тткнэ_V_VERB, HANDICRAFT, LIVING-PLACE_разорваться, оборваться_to be broken off, to break
+по̄ттк_N_FISH, PLACE-WATER_сети поставленные на озере, сети на озере_networks on lake, a network on lake
 поа̄шшэ_V_VERB, LIVING-PLACE_мести, подметать_to sweep, to sweep
-поа̄шт_N_WEATHER_тёплый день, ясный день, теплый день_warm day, clear day, warm day
+поа̄шт_N_WEATHER_тёплый день, ясный день, теплый день_warm day
 поа̄шт-пе̄ййв_N_WEATHER_солнечный день_sunny day
-поа̄ххк_A_WEATHER, HUMAN, FOOD_тёплый, теплый_warm, warm
+поа̄ххк_A_WEATHER, HUMAN, FOOD_тёплый, теплый_warm
 поа̄рр_N_LIVING-PLACE, WEATHER, HUMAN, FOOD_пар_steam
 поа̄лльтэ_Adv_HUMAN, LIVING-PLACE, PLACE-NATURE_рядом_nearby
 поа̄ййнэ_V_VERB, COLOR, LIVING-PLACE, HANDICRAFT_красить_to paint
@@ -1338,15 +1338,15 @@
 пайгке_V_VERB, ANIMAL, FOOD_щипать птицу_to burn a bird
 пайй_A_LIVING-PLACE, PLACE-NATURE_верхний_top
 пайнэ_V_VERB, LIVING-PLACE, HUMAN, FOOD_поднять_to lift
-па̄лль_N_TIME_пора, время, период_it is time, time, the period
-па̄рнэнч_N_KIN, DIMINUTIVE, HUMAN_ребенок, ребёнок_child, the child
+па̄лль_N_TIME_пора, время, период_time, period
+па̄рнэнч_N_KIN, DIMINUTIVE, HUMAN_ребенок, ребёнок_child
 ра̄бпэ_V_VERB, FOOD, LIVING-PLACE, PLACE-NATURE_копать_to dig
 ра̄ӊӊҍц_N_SCHOOL-EDUCATION_ранец_satchel
-ре̄ввклаххьтэ_V_VERB, HANDICRAFT, COLOR_украсить, украшать, нарядить, наряжать_to decorate, decorate, dress up, dress up
+ре̄ввклаххьтэ_V_VERB, HANDICRAFT, COLOR_украсить, украшать, нарядить, наряжать_to decorate, to dress up
 ре̄ввьн_N_LIVING-PLACE, PLACE-NATURE_край, граница_edge, border
 рисэвайе_V_VERB, SCHOOL-EDUCATION, HANDICRAFT_рисовать_to draw
-роавас_A_HUMAN, HEALTH, FOOD, HANDICRAFT_крепкий, прочный_strong, strong
-ро̄дтҍе_V_VERB, FOOD, LIVING-PLACE, HANDICRAFT_выдернуть, дёрнуть, дернуть_to pull out, pull, pull
+роавас_A_HUMAN, HEALTH, FOOD, HANDICRAFT_крепкий, прочный_strong
+ро̄дтҍе_V_VERB, FOOD, LIVING-PLACE, HANDICRAFT_выдернуть, дёрнуть, дернуть_to pull out
 руввьт_N_ANIMAL, LIVING-PLACE_капкан_trap
 рэ̄ӎэдэ_V_VERB, HUMAN, SCHOOL-EDUCATION_ворчать_to grumble
 рэ̄сс_N_HUMAN, SCHOOL-EDUCATION, LIVING-PLACE_проблема, трудность, сложность_problem, difficulty, complexity
@@ -1366,7 +1366,7 @@
 сыссенҍ_Adv_LIVING-PLACE, HANDICRAFT, SCHOOL-EDUCATION_внутри_inside
 ся̄ййве_V_VERB, LIVING-PLACE, SCHOOL-EDUCATION_сесть, опуститься_to sit down, fall
 та̄нтар_N_PLACE-NATURE, ANIMAL_пастбище_pasture
-та̄стэнч_N_DIMINUTIVE, TIME, PLACE-NATURE_звёздочка, звездочка_asterisk, asterisk
+та̄стэнч_N_DIMINUTIVE, TIME, PLACE-NATURE_звёздочка, звездочка_asterisk
 те̄вьтхе_V_VERB, FOOD, COLOR_наполнить_to fill
 те̄д_N_SCHOOL-EDUCATION, HANDICRAFT, KIN_знания_knowledge
 те̄дтидтэй_N_SCHOOL-EDUCATION_учёный, ученый_scientist, scientific
@@ -1391,14 +1391,14 @@
 тӯгкенҍ_Adv_LIVING-PLACE, HUMAN, PLACE-NATURE_за, позади_for, behind
 тула_Adv_TIME_давно_for a long time
 тӯллье_V_VERB, FOOD, HANDICRAFT, LIVING-PLACE_держать_to hold
-тӯррье_V_VERB, HUMAN, SCHOOL-EDUCATION_скорчиться, съежиться, сжиматься, съёжиться_to writhe, shrivel, be compressed, shrivel
+тӯррье_V_VERB, HUMAN, SCHOOL-EDUCATION_скорчиться, съежиться, сжиматься, съёжиться_to writhe, to shrivel, to be compressed
 тыввнаххьте_V_VERB, CLOTHES, HEALTH, SCHOOL-EDUCATION_одевать_to dress
 тыввнэдтэ_V_VERB, CLOTHES, HEALTH, SCHOOL-EDUCATION_одеваться_to put on
-тыввь_N_HUMAN, HANDICRAFT, HUMAN_диво, чудо_miracle, miracle
-тыввэ_V_VERB, CLOTHES, HUMAN, FOOD, COLOR_хотеть, желать_to want, wish
+тыввь_N_HUMAN, HANDICRAFT, HUMAN_диво, чудо_miracle
+тыввэ_V_VERB, CLOTHES, HUMAN, FOOD, COLOR_хотеть, желать_to want, to wish
 тэйта_Pron_PRONOUN, CLOTHES, HUMAN, FOOD, COLOR, PLANT, ANIMAL_эти_these
 тюдӓ_N_ANIMAL_кулик_sandpiper
-тя̄дтӭ_V_VERB, SCHOOL-EDUCATION, HUMAN_попадать, попасть_to get, get
+тя̄дтӭ_V_VERB, SCHOOL-EDUCATION, HUMAN_попадать, попасть_to get
 угленч_N_DIMINUTIVE, LIVING-PLACE_уголок_corner
 уггл_N_LIVING-PLACE_угол_corner
 углэсьт_Adv_LIVING-PLACE, SCHOOL-EDUCATION_в углу_in a corner
@@ -1417,7 +1417,7 @@
 цыррмшэ_V_VERB, SCHOOL-EDUCATION, HUMAN, HEALTH_жмуриться_to blink
 чиммьп_N_BODY_кость ноги_foot bone
 чосснэгк_N_LIVING-PLACE, FOOD_головешка_brand
-чуэйбялса_N_ANIMAL, HANDICRAFT_шкура на животе животного, шкура с живота животного, шкура на животе, шкура с живота_skin on a stomach of an animal, a skin from a stomach of an animal, a skin on a stomach, a skin from a stomach
+чуэйбялса_N_ANIMAL, HANDICRAFT_шкура на животе животного, шкура с живота животного, шкура на животе, шкура с живота_skin on a stomach of an animal
 шӣххтэль_A_LIVING-PLACE_удобный_convenient
 шувв_A_WEATHER_хороший_good
 шӯштэ_V_VERB, SCHOOL-EDUCATION_шалить_to play pranks
@@ -1431,13 +1431,13 @@
 югкесьт_N_FOOD, CLOTHES, HUMAN_у каждого_at everyone
 я̄ммей_N_HUMAN, KIN, HEALTH_смерть_death
 я̄лл_N_HUMAN, KIN, HEALTH_жизнь_life
-райя_Adv_PLACE-NATURE, PLACE-WATER, TIME_до, к_to, to
+райя_Adv_PLACE-NATURE, PLACE-WATER, TIME_до, к_to
 тала_Pron_PRONOUN, FOOD, HUMAN, LIVING-PLACE, PLACE-NATURE_вот_here
 танна_Pron_PRONOUN, TIME, KIN_тогда_then
 та̄ннӓ_Pron_PRONOUN, TIME, WEATHER, SCHOOL-EDUCATION_в этом году_this year
-мӣдтҍ_Pron_PRONOUN, PLACE-NATURE, PLACE-WATER_вдоль, по_lengthways, on
-гӯлл_Pron_PRONOUN, PLACE-NATURE, PLACE-WATER_вдоль, по_lengthways, on
-куэӈ_Pron_PRONOUN, PLACE-NATURE, PLACE-WATER_вдоль, по_lengthways, on
+мӣдтҍ_Pron_PRONOUN, PLACE-NATURE, PLACE-WATER_вдоль, по_lengthways
+гӯлл_Pron_PRONOUN, PLACE-NATURE, PLACE-WATER_вдоль, по_lengthways
+куэӈ_Pron_PRONOUN, PLACE-NATURE, PLACE-WATER_вдоль, по_lengthways
 паййлэнне_Adv_PLACE-NATURE, LIVING-PLACE_высоко_highly
 э̄ллгэнне_Adv_PLACE-NATURE, LIVING-PLACE_высоко_highly
 э̄ллъенне_Adv_PLACE-NATURE, LIVING-PLACE_высоко_highly
@@ -1446,21 +1446,21 @@
 тӣшш_N_HUMAN, SCHOOL-EDUCATION, HEALTH_смех_laughter
 уххцэй_N_SCHOOL-EDUCATION_учитель, учительница_teacher, the teacher
 стиха_N_HUMAN, SCHOOL-EDUCATION_стихи, стих_verses, verse
-са̄мь тӣтэ туххк_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_саамский алфавит_lappish alphabet
+са̄мь тӣтэ туххк_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_саамский алфавит_Saami alphabet
 тӣтэ туххк_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_алфавит_alphabet
 тӣт_N_GRAMMAR-TERMINOLOGY_звуки, знаки_sounds, signs
 тӣххт_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_звук, знак_sound, sign
 ӣнн тӣххт_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_гласный звук, гласный_vowel sound, public
-ӣнхэмь тӣххт_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_согласный звук, согласный_consonant concordant
-кукесь ӣнн тӣххт_N_GRAMMAR-TERMINOLOGY_долгий гласный звук, долгий гласный_long, the long
-кукесь ӣнхэмь тӣххт_N_GRAMMAR-TERMINOLOGY_долгий согласный звук, долгий согласный_long consonant, the long concordant
+ӣнхэмь тӣххт_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_согласный звук, согласный_consonant
+кукесь ӣнн тӣххт_N_GRAMMAR-TERMINOLOGY_долгий гласный звук, долгий гласный_long
+кукесь ӣнхэмь тӣххт_N_GRAMMAR-TERMINOLOGY_долгий согласный звук, долгий согласный_long consonant
 сӯбьнӭй тӣххт_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_мягкий знак_soft sign
 пя̄лла сӯбьнэй тӣххт_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_полумягкий знак_semisoft sign
 пя̄лла сӯбьнэй ӣнн тӣххт_N_GRAMMAR-TERMINOLOGY_полумягкий гласный_semisoft public
 пя̄лла ӣнсэй тӣххт_N_GRAMMAR-TERMINOLOGY_звонкий согласный, сонорный звук_sonorous concordant, сонорный a sound
 пя̄лла ӣнсэй кыррьтэй тӣххт_N_GRAMMAR-TERMINOLOGY_глухой сонорный звук_deaf сонорный a sound
 кукесь тӣххт_N_GRAMMAR-TERMINOLOGY_долгий звук_long sound
-пя̄лла ӣнсэй оанҍхесь нюннҍ тӣххт_N_GRAMMAR-TERMINOLOGY_глухой сонорный краткий носовой звук _deaf сонорный a short nasal sound 
+пя̄лла ӣнсэй оанҍхесь нюннҍ тӣххт_N_GRAMMAR-TERMINOLOGY_глухой сонорный краткий носовой звук_deaf сонорный a short nasal sound 
 пя̄лла ӣнсэй кукесь нюннҍ тӣххт_N_GRAMMAR-TERMINOLOGY_глухой сонорный долгий носовой звук_deaf сонорный a long nasal sound
 пя̄лла ӣнсэй оанҍхесь чонт тӣххт_N_GRAMMAR-TERMINOLOGY_глухой сонорный краткий гортанный звук_deaf сонорный a short guttural sound
 пя̄лла ӣнсэй кукесь нюннҍ тӣххт_N_GRAMMAR-TERMINOLOGY_глухой сонорный долгий гортанный звук_deaf сонорный a long guttural sound
@@ -1468,25 +1468,17 @@
 пя̄лла ӣнсэй кукесь нюххчемь тӣххт_N_GRAMMAR-TERMINOLOGY_глухой сонорный языковый долгий звук_deaf сонорный языковый a long sound
 падеж_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_падежи_cases
 падешш_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_падеж_case
-числа_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_число                              _number                              
+числа_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_число_number
 э̄ххт числа_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_единственное число_singular
-е̄ннэ числа_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_множественное число      _plural      
-оа̄лкант_N_GRAMMAR-TERMINOLOGY_именительный, именительный падеж, номинатив_именительный, the nominative case, a nominative
-уйнант_N_GRAMMAR-TERMINOLOGY_винительный, винительный падеж, аккузатив_accusative, accusative case, аккузатив
-уйнхемь_N_GRAMMAR-TERMINOLOGY_родительный, родительный падеж, генитив_genitive, genitive case, генитив
-коа̄ввсаннт_N_GRAMMAR-TERMINOLOGY_превратительный, превратительный падеж, эссив_превратительный, превратительный a case, эссив
-саянт_N_GRAMMAR-TERMINOLOGY_местный, местно-исходный, местный падеж, местно-исходный падеж, локатив_local, mestno-initial, local case, mestno-initial case, locative
-анҍтант_N_GRAMMAR-TERMINOLOGY_дательно-направительный, дательно-направительный падеж, иллатив_datelno-napravitelnyj, datelno-napravitelnyj a case, an illative
-эхтант_N_GRAMMAR-TERMINOLOGY_совместный, совместный падеж, комитатив_joint, joint case, комитатив
-коа̄дант_N_GRAMMAR-TERMINOLOGY_лишительный, лишительный падеж, аббэсив_лишительный, лишительный a case, аббэсив
-оа̄лкант падешш_N_SCHOOL-EDUCATION_именительный падеж, именительный, номинатив_nominative case, именительный, a nominative
-уйнант падешш_N_SCHOOL-EDUCATION_винительный падеж, винительный, аккузатив_accusative case, accusative, аккузатив
-уйнхемь падешш_N_SCHOOL-EDUCATION_родительный падеж, родительный, генитив_genitive case, genitive, генитив
-коа̄ввсаннт падешш_N_SCHOOL-EDUCATION_превратительный падеж, превратительный, эссив_превратительный a case, превратительный, эссив
-саянт падешш_N_SCHOOL-EDUCATION_местный падеж, местно-исходный падеж, местный, местно-исходный, локатив_local case, mestno-initial case, local, mestno-initial, a locative
-анҍтант падешш_N_SCHOOL-EDUCATION_дательно-направительный падеж, дательно-направительный, иллатив_datelno-napravitelnyj a case, datelno-napravitelnyj, an illative
-эхтант падешш_N_SCHOOL-EDUCATION_совместный падеж, совместный, комитатив_joint case, joint, комитатив
-коа̄дант падешш_N_SCHOOL-EDUCATION_лишительный падеж, лишительный, аббэсив_лишительный a case, лишительный, аббэсив
+е̄ннэ числа_N_GRAMMAR-TERMINOLOGY, SCHOOL-EDUCATION_множественное число_plural
+оа̄лкант_N_GRAMMAR-TERMINOLOGY_именительный, именительный падеж, номинатив_nominative, nominative case
+уйнант_N_GRAMMAR-TERMINOLOGY_винительный, винительный падеж, аккузатив_accusative, accusative case
+уйнхемь_N_GRAMMAR-TERMINOLOGY_родительный, родительный падеж, генитив_genitive, genitivecase
+коа̄ввсаннт_N_GRAMMAR-TERMINOLOGY_превратительный, превратительный падеж, эссив_essive, essive case
+саянт_N_GRAMMAR-TERMINOLOGY_местный, местно-исходный, местный падеж, местно-исходный падеж, локатив_locative, locative case
+анҍтант_N_GRAMMAR-TERMINOLOGY_дательно-направительный, дательно-направительный падеж, иллатив_ illative, illative case
+эхтант_N_GRAMMAR-TERMINOLOGY_совместный, совместный падеж, комитатив_comitative, comitative case
+коа̄дант_N_GRAMMAR-TERMINOLOGY_лишительный, лишительный падеж, аббэсив_abessive case, abessive
 аджь_N_CHURCH-LEXIC_отец_father
 алльм аджь_N_CHURCH-LEXIC_небесный отец_heavenly father
 а̄бперь_N_FOOD_закваска_ferment
@@ -1497,7 +1489,7 @@
 ажь ва̄лтха_N_CHURCH-LEXIC_без воли отца_without will of the father
 ажь вӯняс_N_CHURCH-LEXIC_дух отца_spirit of the father
 ажь эвтэсьт_N_CHURCH-LEXIC_перед отцом_before the father
-ажь я альк я пассь вӯняс_N_CHURCH-LEXIC_во имя отца и сына и святого духа _for the sake of the father and the son and the holy spirit 
+ажь я альк я пассь вӯняс_N_CHURCH-LEXIC_во имя отца и сына и святого духа_for the sake of the father and the son and the holy spirit 
 а̄ййк маӈӈедҍ_N_TIME, SCHOOL-EDUCATION, CHURCH-LEXIC_время позднее_time later
 а̄йка_Adv_TIME, SCHOOL-EDUCATION, WEATHER_прежде, раньше_before, earlier
 а̄йтнэ_V_VERB, CHURCH-LEXIC, HEALTH_успокоить, утешаться_to calm, be consoled
@@ -1505,89 +1497,89 @@
 алльм вӣг_N_CHURCH-LEXIC_силы небесные_forces heavenly
 алльм_N_CHURCH-LEXIC, WEATHER, PLACE-NATURE_небо_sky
 алльм цоа̄ггвудт_N_CHURCH-LEXIC_небесное царство_heavenly kingdom
-алльт_Adv_HUMAN, CHURCH-LEXIC, LIVING-PLACE, PLACE-NATURE_близко, вблизи, недалеко_close, close, nearby
-альмесьт_N_CHURCH-LEXIC_на небесах_in heavens
-альмсе_V_VERB, CHURCH-LEXIC, FOOD_опрокинуть  _to overturn  
+алльт_Adv_HUMAN, CHURCH-LEXIC, LIVING-PLACE, PLACE-NATURE_близко, вблизи, недалеко_close, nearby
+альмесьт_N_CHURCH-LEXIC_на небесах_in heaven
+альмсе_V_VERB, CHURCH-LEXIC, FOOD_опрокинуть_to overturn  
 альмусс сӯдтӭ_N_CHURCH-LEXIC_верховное судилище, небесное судилище_supreme court, heavenly court
-альтнэ_V_VERB, CHURCH-LEXIC, FOOD_подать, дать, отдать, воздать_tax to give, give, render
+альтнэ_V_VERB, CHURCH-LEXIC, FOOD_подать, дать, отдать, воздать_tax to give, to render
 альтэсь_A_CHURCH-LEXIC, HUMAN, PLACE-NATURE, LIVING-PLACE, KIN_ближний_near
 аннтма альмусс сӯдтӭ_V_HUMAN_подлежит верховному судилищу_is subject to the supreme court
 аннтма са̄ннҍ_N_CHURCH-LEXIC_клятва_oath
 аннтэдтма оа̄шшьтъемушше_V_VERB, CHURCH-LEXIC_соблазниться, податься обещанию_to be tempted, move to the promise
 а̄ннъе_N_CHURCH-LEXIC_просящему_to the asking
-аннҍтэ_V_VERB, CHURCH-LEXIC, SCHOOL-EDUCATION, HUMAN_позволить                         _to allow                         
-аннҍтэ_V_VERB, CHURCH-LEXIC, HUMAN_предать, предавать_to betray, betray
-а̄ннэ_V_VERB, CHURCH-LEXIC, FOOD_просить, умолять, упросить_to ask, beg, ask
+аннҍтэ_V_VERB, CHURCH-LEXIC, SCHOOL-EDUCATION, HUMAN_позволить_to allow 
+аннҍтэ_V_VERB, CHURCH-LEXIC, HUMAN_предать, предавать_to betray
+а̄ннэ_V_VERB, CHURCH-LEXIC, FOOD_просить, умолять, упросить_to ask, to beg
 ансэ_V_VERB, CHURCH-LEXIC, FOOD_попросить_to ask
-а̄ррв_N_CHURCH-LEXIC_выкуп, цена_repayment, the price
-а̄ррв_N_FOOD, CLOTHES_цена, выкуп_price, the repayment
+а̄ррв_N_CHURCH-LEXIC_выкуп, цена_repayment, price
+а̄ррв_N_FOOD, CLOTHES_цена, выкуп_price, repayment
 а̄ррьвдэсс_N_CHURCH-LEXIC_притча_parable
 а̄шшь_N_CHURCH-LEXIC, SCHOOL-EDUCATION, HUMAN_причина_reason
 ва̄лтха_N_CHURCH-LEXIC_без воли_without will
 вӯняс_N_CHURCH-LEXIC_дух_spirit
 иммель лоаннҍт_N_CHURCH-LEXIC_божья птичка_divine birdie
 иммель_N_CHURCH-LEXIC_бог_god
-ме̄ррьдэ_V_VERB, CLOTHES, HEALTH, CHURCH-LEXIC_мерить, смерить, измерять, измерить, отмерить, примерять, примерить_to measure, measure, measure, measure, measure, try on, to try on
+ме̄ррьдэ_V_VERB, CLOTHES, HEALTH, CHURCH-LEXIC_мерить, смерить, измерять, измерить, отмерить, примерять, примерить_to measure, to try on
 жоар ме̄рредҍ_V_VERB, HEALTH_измерь температуру_take temperature
-жоарр_N_HEALTH_температура _temperature 
+жоарр_N_HEALTH_температура_temperature 
 оасск_N_CHURCH-LEXIC_вера_belief
-оасскэ_V_VERB, CHURCH-LEXIC, HUMAN, HEALTH_верить, поверить, сочувствовать_to trust, believe, sympathize
+оасскэ_V_VERB, CHURCH-LEXIC, HUMAN, HEALTH_верить, поверить, сочувствовать_to trust, to believe, to sympathize
 пассь вӯняс_N_CHURCH-LEXIC_святой дух_holy spirit
 пассь_N_CHURCH-LEXIC, TIME_пост_post
 пассь_A_CHURCH-LEXIC_святой_sacred
 суйпнэшкуэдтӭ_V_VERB, CHURCH-LEXIC_поколеблется_will hesitate for a time
 цоа̄ггвудт_N_CHURCH-LEXIC_царство_kingdom
-цуэҏҏьт_N_CHURCH-LEXIC_чёрт, черт_lines, lines
-ча̄нн_N_CHURCH-LEXIC_чёрт, черт_lines, lines
+цуэҏҏьт_N_CHURCH-LEXIC_чёрт, черт_lines
+ча̄нн_N_CHURCH-LEXIC_чёрт, черт_lines
 чӯдзэ_N_ANIMAL, CHURCH-LEXIC_стадо_herd
-шуря_A_CHURCH-LEXIC, HANDICRAFT, HUMAN_наибольший, наибольшая, наибольшее_greatest, the greatest, the greatest
+шуря_A_CHURCH-LEXIC, HANDICRAFT, HUMAN_наибольший, наибольшая, наибольшее_greatest
 э̄ллтнэ_V_VERB, CHURCH-LEXIC, HUMAN, ANIMAL_приблизиться_to come nearer
 ӣӈӈк_N_CHURCH-LEXIC, HUMAN_душа_soul
-ӣӈкхуввэ_V_VERB, CHURCH-LEXIC, HUMAN_очерстветь, стать бездушным_to become hardened, become callous
-ӣӈкхувнэ_V_VERB, CHURCH-LEXIC, HUMAN_черстветь, становиться бездушным_to harden, become callous
-ӣӈӈклаххьтӭ_V_VERB, CHURCH-LEXIC_сделать кого душевным_to make whom sincere
+ӣӈкхуввэ_V_VERB, CHURCH-LEXIC, HUMAN_очерстветь, стать бездушным_to become hardened, to become callous
+ӣӈкхувнэ_V_VERB, CHURCH-LEXIC, HUMAN_черстветь, становиться бездушным_to harden, to become callous
+ӣӈӈклаххьтӭ_V_VERB, CHURCH-LEXIC_сделать кого душевным_to make someone sincere
 ӣӈӈклуввэ_V_VERB, CHURCH-LEXIC_стать душевным_to become sincere
 ӣӈӈҍкай_A_CHURCH-LEXIC, HUMAN_добрый, душевный, добрый_kind, sincere, kind
-ӣӈӈҍкъенне_Adv_CHURCH-LEXIC, HUMAN_душевно, со всей душой_sincerely, with with all the heart
+ӣӈӈҍкъенне_Adv_CHURCH-LEXIC, HUMAN_душевно, со всей душой_sincerely
 ӣӈӈҍкъесь_A_CHURCH-LEXIC, HUMAN_добрый, душевный_kind, sincere
 ӣӈӈҍкъесь олма_N_CHURCH-LEXIC_душевный человек_sincere person
 ва̄пьс_N_HANDICRAFT, CLOTHES_ладонная часть меховой рукавицы, ладонная часть рукавицы_palmar part of a fur mitten, palmar part of a mitten
 ве̄ӆӆьтэ_V_VERB, ANIMAL, HUMAN_переселять, переменить место, перейти на новое место_to move, change a place, to pass to a new place
-ве̄шшьк пуалл_N_HANDICRAFT, CLOTHES_медная пуговица, пуговица медная_copper button, button copper
-е̄верь_N_HANDICRAFT, PLANT_нарост, кап_outgrowth, кап
+ве̄шшьк пуалл_N_HANDICRAFT, CLOTHES_медная пуговица, пуговица медная_copper button
+е̄верь_N_HANDICRAFT, PLANT_нарост, кап_outgrowth
 е̄рркъя_A_HANDICRAFT, KIN, CHURCH-LEXIC_старинный_ancient
-кандт_N_HANDICRAFT_пятка от пуговицы_heel from a button
-кӣввт_N_HANDICRAFT_верёвка плетенная из корней, веревка плетенная из корней_rope плетенная from roots, a rope плетенная from roots
+кандт_N_HANDICRAFT_пятка от пуговицы_button heel, heel from a button
+кӣввт_N_HANDICRAFT_верёвка плетенная из корней, веревка плетенная из корней_rope from roots, rope
 кысста_N_HANDICRAFT, CLOTHES_рукавица_mitten
-кысста се̄лльк_N_HANDICRAFT_тыльная сторона у меховой рукавицы, тыльная сторона у рукавицы, тыльная сторона меховой рукавицы, тыльная сторона рукавицы_back party at a fur mitten, the back party at a mitten, the back party of a fur mitten, the back party of a mitten
-кӣдтэлӓ_N_HANDICRAFT_манжет малицы, верх ладонной части малицы, манжет, верх ладонной части_cuffs малицы, top of a palmar part малицы, cuffs, top of a palmar part
-кэннц сӯнн_N_HANDICRAFT, ANIMAL_нитка снятая с ног оленя, нитка с ног оленя_thread removed from feet of a deer, a thread from feet of a deer
-лоаннҍт пэдш уййвэнҍ_N_HANDICRAFT, ANIMAL_кончик хвостика с пухом у птицы, кончик хвостика птицы с пухом конец хвостика у птицы с пухом, кончик хвостика птицы, конец хвостика у птицы_tip of a tail with down at a bird, a tip of a tail of a bird with down the end of a tail at a bird with down, a tip of a tail of a bird, the end of a tail at a bird
-ма̄лець кысста_N_HANDICRAFT, CLOTHES_маличная рукавица_маличная a mitten
+кысста се̄лльк_N_HANDICRAFT_тыльная сторона у меховой рукавицы, тыльная сторона у рукавицы, тыльная сторона меховой рукавицы, тыльная сторона рукавицы_back party at a fur mitten
+кӣдтэлӓ_N_HANDICRAFT_манжет малицы, верх ладонной части малицы, манжет, верх ладонной части_cuffs малицы, top of a palmar part
+кэннц сӯнн_N_HANDICRAFT, ANIMAL_нитка снятая с ног оленя, нитка с ног оленя_thread removed from feet of a reindeer, thread from feet of a reindeer
+лоаннҍт пэдш уййвэнҍ_N_HANDICRAFT, ANIMAL_кончик хвостика с пухом у птицы, кончик хвостика птицы с пухом конец хвостика у птицы с пухом, кончик хвостика птицы, конец хвостика у птицы_tip of a tail of a bird, birdtail
+ма̄лець кысста_N_HANDICRAFT, CLOTHES_маличная рукавица_mitten
 ма̄лець_N_HANDICRAFT, CLOTHES_малица_малица
-мырр_N_HUMAN, LIVING-PLACE_мир, вселённая, вселенная_world, the universe installed
+мырр_N_HUMAN, LIVING-PLACE_мир, вселённая, вселенная_world
 мырр со̄ббр_A_HUMAN, LIVING-PLACE, SCHOOL-EDUCATION_большое собрание_big meeting
 нӣццкас_N_FOOD, ANIMAL_голень_shin
 падк_A_HUMAN, CHURCH-LEXIC_боязливой_timid
-падкэ_V_VERB, HUMAN, CHURCH-LEXIC_побаиваться_to be rather afraid
+падкэ_V_VERB, HUMAN, CHURCH-LEXIC_побаиваться_to be rather afraid, to be afraid
 пе̄лльк_N_HANDICRAFT_верх напальчника меховой рукавицы_top of a fingerstall of a fur mitten
-пуннт_A_HUMAN, LIVING-PLACE, FOOD_хозяйственный, смышлёный, смышленый_economic, clever, clever
-сӯррь мӯрр_N_PLANT_развилка у дерева, развилина на дереве, дерево с двумя вершинами, развилка, развилина_fork at a tree, a fork on a tree, a tree with two tops, a fork, a fork
-ся̄ххк_N_HANDICRAFT_щётка на подошве ног оленя, щетка на подошве оленя, шетка, щётка_brush on a sole of feet of a deer, a brush on a sole of a deer, шетка, a brush
+пуннт_A_HUMAN, LIVING-PLACE, FOOD_хозяйственный, смышлёный, смышленый_economic, clever
+сӯррь мӯрр_N_PLANT_развилка у дерева, развилина на дереве, дерево с двумя вершинами, развилка, развилина_fork at a tree, fork
+ся̄ххк_N_HANDICRAFT_щётка на подошве ног оленя, щетка на подошве оленя, шетка, щётка_brush on a sole of the feet of a reindeer
 ся̄ххктэ_V_VERB, HANDICRAFT_сшить подошвы из щёток_to sew soles from brushes
 тӣт_N_HANDICRAFT_метка_label
 цимӓ_A_CLOTHES, HANDICRAFT, HUMAN_средне-маленький_sredne-small
 цыххьц_A_COLOR_бордовый_claret
 шэллмаш_N_HANDICRAFT_утонченная часть нитки_refined part of a thread
 шэресь_N_HANDICRAFT, SCHOOL-EDUCATION, HUMAN_погремушка_rattle
-А̄рьсъёгк сыййт_N_NAME, LIVING-PLACE, KIN_Варзинский погост, Варзина_varzinsky country churchyard, varzina
-Ёфкэ сыййт_N_NAME, LIVING-PLACE, KIN_Йокангский погост, Йоканга, Иокангский погост, Иоканга_jokangsky country churchyard, jokanga, iokangsky country churchyard, iokanga
-Коардэгк сыййт_N_NAME, LIVING-PLACE, KIN_Вороньинсий погост, Воронье_voroninsy country churchyard, carrion crows
-Лыббе сыййт_N_NAME, LIVING-PLACE, KIN_Лумбовский погост, Лумбовка_lumbovsky country churchyard, lumbovka
-Луяввьр сыййт_N_NAME, LIVING-PLACE, KIN_Ловозерский погост, Ловозеро_lovozersky country churchyard, lovozero
-Полъяввьр_N_NAME, LIVING-PLACE, KIN_Пулозерский погост, Пулозеро	_pulozersky country churchyard, pulozero 
-Терибирь_N_NAME, LIVING-PLACE, KIN_Териберка_териберка
-Кӣлт сыййт_N_NAME, LIVING-PLACE, KIN_Кильдинский погост, Кильдин_kildinsky country churchyard, kildin
-Сымман_N_NAME_Семён, Семен_simeon, simeon
-Ларя_N_NAME_Лариса, Лариса_larissa, larissa
+А̄рьсъёгк сыййт_N_NAME, LIVING-PLACE, KIN_Варзинский погост, Варзина_Varzinsky country churchyard
+Ёфкэ сыййт_N_NAME, LIVING-PLACE, KIN_Йокангский погост, Йоканга, Иокангский погост, Иоканга_Jokangsky country churchyard
+Коардэгк сыййт_N_NAME, LIVING-PLACE, KIN_Вороньинсий погост, Воронье_Voroninsy country churchyard
+Лыббе сыййт_N_NAME, LIVING-PLACE, KIN_Лумбовский погост, Лумбовка_Lumbovsky country churchyard, Lumbovka
+Луяввьр сыййт_N_NAME, LIVING-PLACE, KIN_Ловозерский погост, Ловозеро_lovozersky country churchyard, Lovozero
+Полъяввьр_N_NAME, LIVING-PLACE, KIN_Пулозерский погост, Пулозеро_Pulozersky country churchyard, Pulozero 
+Терибирь_N_NAME, LIVING-PLACE, KIN_Териберка_Teriberka
+Кӣлт сыййт_N_NAME, LIVING-PLACE, KIN_Кильдинский погост, Кильдин_Kildinsky country churchyard, Kildin
+Сымман_N_NAME_Семён, Семен_Simeon
+Ларя_N_NAME_Лариса, Лариса_Larissa
 хозенҍ_N_LIVING-PLACE_хозяин_owner
