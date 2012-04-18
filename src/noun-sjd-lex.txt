@@ -19,24 +19,24 @@ LEXICON Noun !ЛЕКСИКОН существительное
 
 ! класса I
 
-шэ̄ӈӈ 1DA "шторм, буря, ураган" ;
-ыйй 1DA "ночь" ;
-ылл 1DA "уголь" ;
-мӯрр 1DA "дерево" ;
+шэ̄ӈӈ 1DA "шторм, буря, ураган / strom" ;
+ыйй 1DA "ночь / night" ;
+ылл 1DA "уголь / coal" ;
+мӯрр 1DA "дерево / tree" ;
 ме̄рр 1DA "море / sea, ocean" ;
 пя̄йвнэгк 1DA "солнечная погода / sunny weather" ;
 кӯсс 1DA "ель / fir, spruce" ;
 чувв 1DA "свет / light" ;
-ыгкь 1DA "год" ; 
+ыгкь 1DA "год / year" ; 
 кӯлль 1DA "рыба / fish" ; ! lang u->ue
  !аджь 1DA "отец / father" ;
  !на̄һпь 1DA "чашка / cup" ; ! spelling variant на̄ххьп (in Kert 1986 [and the Aнтонова system])
  !пуадтмушш 1DA "приход / arrival" ; !only the productive DerSx -мушш should be listed
  !ка̄ннѣцвудт 1DA "дружба / friendship" ; !only the productive DerSx -вудт should be listed
-ка̄ррь 1DA "посуда" ;
-кēджь 1DA "конец" ;
+ка̄ррь 1DA "посуда / dish" ;
+кēджь 1DA "конец / end" ;
 
-кӣдт 1DB "рука" ;
+кӣдт 1DB "рука / hand, arm" ;
 
 
 
@@ -45,11 +45,11 @@ LEXICON Noun !ЛЕКСИКОН существительное
 ля̄ммт 2D "лес / forrest, wood(s)" ;
 куэсськ 2D "тётя / aunt" ;
 кӯшшк 2D "порог на реке / rapids" ;
-мāййт 2D "молоко" ;
-аббьр 2D "дождь" ;
-āввьл 2D "крючок на перекладине в куваксе" ;
-āййк 2D "срок, пора" ;
-кēддҍк 2D "камень" ;
+мāййт 2D "молоко / milk" ;
+аббьр 2D "дождь / rain" ;
+āввьл 2D "крючок на перекладине в куваксе / hook for hanging things in a kuvaksa" ;
+āййк 2D "срок, пора / time" ;
+кēддҍк 2D "камень / rock" ;
 
 
 ! 3. declension (class 7) ! no stem gradation
