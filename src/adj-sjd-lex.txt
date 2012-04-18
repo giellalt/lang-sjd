@@ -38,22 +38,22 @@ A4 ; !"4th ADJ class" with WK-as for PRED (number infl) and WK-as for ATTR
 э̄лл A2  "высокий / high" ; !this adj varies as to its class membership
 чувв A2 "светлый / light" ;
 руччк A2 "жёлтый / yellow" ;
-!сӯбпь A2 "мягкий" ; !сӯбпэ
-!рӯппьсесь "красный" ;
+!сӯбпь A2 "мягкий / soft" ; !сӯбпэ
+!рӯппьсесь "красный / red" ;
 !мо̄джь A2 "красивый / beautiful" ; ?мо̄дже
 !ко̄ммьтесь A2 "широкый / broad" ; ко̄ммтэ sg : ?коамьт pl?
-!вӯгк A2 "густый" ; !-есь -э
+!вӯгк A2 "густый / thick" ; !-есь -э
 !-та(мп) COMPARATIVE
 чуввь A2 ;
 чуввҍ A2 ;
 
 куһкь A3 "long" ;
 луэммч A3 "слабый / weak" ;
-роадтҍ A3 "некрасивый" ;!роадӭсь
+роадтҍ A3 "некрасивый / ugly" ;!роадӭсь
 
-вӯгк A4 "дешёвый" ; !predsg вӯгас : predpl вӯгкас
-роавв A4 "крепкий";
+вӯгк A4 "дешёвый / inexpensive" ; !predsg вӯгас : predpl вӯгкас
+роавв A4 "крепкий / strong";
 
 !loan adjectives (like A1 class except missing number inflection in PRED)
 !активнэ A5 "акивный / active" ;
-!безударнэ A1 "безударный" ;
+!безударнэ A1 "безударный / unstressed" ;
