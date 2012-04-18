@@ -16,6 +16,6 @@ LEXICON CS
 +CS: # ;
 
 LEXICON Subjunction
-штэ CS "что" ;
-гу CS "как" ;
-куэссь CS "когда" ;
+штэ CS "что / that" ;
+гу CS "как / like" ;
+куэссь CS "когда / when" ;
