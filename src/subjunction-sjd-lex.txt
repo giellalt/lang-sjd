@@ -19,3 +19,4 @@ LEXICON Subjunction
 штэ CS "что / that" ;
 гу CS "как / like" ;
 куэссь CS "когда / when" ;
+го CS "что / that" ; ! Check this !! From Oahpa
