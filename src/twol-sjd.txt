@@ -76,17 +76,17 @@ Sets
 Rules
 
 "Qualitative CG1a" !this rule doesn't work yet
-Cx:0 <=> _ Cx: (ь:) %^WG:0 ;
+Cx:0 <=> V: _ Cx: (ь:) %^WG:0 ;
       where Cx in ( с ) ;
 
 "Qualitative CG1b xx:y" !сс : з
-Cx:Cy <=> Cx: _ (ь:) %^WG:0 ;
+Cx:Cy <=> V: Cx: _ (ь:) %^WG:0 ;
       where Cx in ( с )
             Cy in ( з ) 
       matched ;
 
 "Preaspiration" !һк : гк
-һ:Cy <=> _ Cx: (PALMARK:) %^WG:0 ;
+һ:Cy <=> V: _ Cx: (PALMARK:) %^WG:0 ;
       where Cx in ( к )
             Cy in ( г ) 
       matched ;
