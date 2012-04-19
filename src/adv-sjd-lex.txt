@@ -12,6 +12,9 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
+LEXICON OAHPA_ADV
+adv ;
+
 LEXICON adv
 +Adv: # ;
 
@@ -40,3 +43,120 @@ LEXICON Adverb
 ! ?derived adverbs from (derived) verbs; suffix /-enn'e/; no gradation
 ӣннъенне adv "громко / loud" ; !derived from ӣннъе 'звучать / to sound, to resonate' (< ӣнн'голос / voice')
 роаммъенне adv "радостно / gladly" ; !derived from ?роаммъе (< роамм 'радость / joy')
+
+
+куэссь-не OAHPA_ADV ;
+сыз OAHPA_ADV ;
+пай OAHPA_ADV ;
+ыгка OAHPA_ADV ;
+тала OAHPA_ADV ;
+тула OAHPA_ADV ;
+ента OAHPA_ADV ;
+янта OAHPA_ADV ;
+ӣнца OAHPA_ADV ;
+пере OAHPA_ADV ;
+гӯлл OAHPA_ADV ;
+агас OAHPA_ADV ;
+паяс OAHPA_ADV ;
+пычь OAHPA_ADV ;
+тӣгэ OAHPA_ADV ;
+ӣнцэ OAHPA_ADV ;
+райя OAHPA_ADV ;
+адтҍ OAHPA_ADV ;
+куэӈ OAHPA_ADV ;
+а̄йка OAHPA_ADV ;
+танна OAHPA_ADV ;
+тэсса OAHPA_ADV ;
+аввта OAHPA_ADV ;
+кыдта OAHPA_ADV ;
+еххта OAHPA_ADV ;
+яххта OAHPA_ADV ;
+моа̄з OAHPA_ADV ;
+тавас OAHPA_ADV ;
+кукас OAHPA_ADV ;
+валас OAHPA_ADV ;
+эвтэс OAHPA_ADV ;
+пайяс OAHPA_ADV ;
+кутӓс OAHPA_ADV ;
+паялт OAHPA_ADV ;
+алльт OAHPA_ADV ;
+касьт OAHPA_ADV ;
+масьт OAHPA_ADV ;
+то̄гэ OAHPA_ADV ;
+тоагэ OAHPA_ADV ;
+тёллэ OAHPA_ADV ;
+е̄ннэ OAHPA_ADV ;
+тӯррэ OAHPA_ADV ;
+мӣдтҍ OAHPA_ADV ;
+куэссь-ляннч OAHPA_ADV ;
+чӣӈӈла OAHPA_ADV ;
+е̄кьна OAHPA_ADV ;
+тамьпе OAHPA_ADV ;
+нико̄з OAHPA_ADV ;
+нимэ̄з OAHPA_ADV ;
+та̄рьм OAHPA_ADV ;
+та̄вас OAHPA_ADV ;
+кӯгкас OAHPA_ADV ;
+са̄мас OAHPA_ADV ;
+чинчас OAHPA_ADV ;
+о̄лкэс OAHPA_ADV ;
+айкалт OAHPA_ADV ;
+моа̄ст OAHPA_ADV ;
+ма̄ххт OAHPA_ADV ;
+ко̄ххт OAHPA_ADV ;
+тоа̄гэ OAHPA_ADV ;
+ло̄ссэ OAHPA_ADV ;
+о̄ххтэ OAHPA_ADV ;
+поання OAHPA_ADV ;
+ке̄сся OAHPA_ADV ;
+та̄ннӓ OAHPA_ADV ;
+тоа̄йва OAHPA_ADV ;
+туммпла OAHPA_ADV ;
+че̄ххча OAHPA_ADV ;
+туаррэм OAHPA_ADV ;
+чепельт OAHPA_ADV ;
+никасьт OAHPA_ADV ;
+углэсьт OAHPA_ADV ;
+эфтэсьт OAHPA_ADV ;
+углясьт OAHPA_ADV ;
+ке̄ннҍц OAHPA_ADV ;
+чӣӈӈэль OAHPA_ADV ;
+оалкэнь OAHPA_ADV ;
+нюэзесь OAHPA_ADV ;
+мӣлльтэ OAHPA_ADV ;
+маӈӈедҍ OAHPA_ADV ;
+тӯгкенҍ OAHPA_ADV ;
+сыссенҍ OAHPA_ADV ;
+та̄лльва OAHPA_ADV ;
+та̄ввьла OAHPA_ADV ;
+вуйнэлле OAHPA_ADV ;
+ӣннҍенне OAHPA_ADV ;
+чамсэнне OAHPA_ADV ;
+шӣгтэнне OAHPA_ADV ;
+э̄ввтэль OAHPA_ADV ;
+тӣррвэнҍ OAHPA_ADV ;
+тёллэдтӭ OAHPA_ADV ;
+чинчпялла OAHPA_ADV ;
+а̄йнханна OAHPA_ADV ;
+э̄ллъенне OAHPA_ADV ;
+паййгэнне OAHPA_ADV ;
+э̄ллгэнне OAHPA_ADV ;
+паййлэнне OAHPA_ADV ;
+выххтэнне OAHPA_ADV ;
+чинчбельт OAHPA_ADV ;
+поа̄лльтэ OAHPA_ADV ;
+куххькенҍ OAHPA_ADV ;
+соа̄йменҍ OAHPA_ADV ;
+ӣӈӈҍкъенне OAHPA_ADV ;
+вуэллгэнне OAHPA_ADV ;
+куллтлэнне OAHPA_ADV ;
+мэ̄ннгуэйке OAHPA_ADV ;
+ва̄нҍцнелле OAHPA_ADV ;
+те̄ссклэнне OAHPA_ADV ;
+мо̄джьтэнне OAHPA_ADV ;
+мэ̄ннварэст OAHPA_ADV ;
+ва̄ннҍцлэнне OAHPA_ADV ;
+нимэ̄ннгуэйке OAHPA_ADV ;
+вуэлькесьпялла OAHPA_ADV ;
+вуэлькесьбельт OAHPA_ADV ;
+

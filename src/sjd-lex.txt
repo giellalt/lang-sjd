@@ -89,6 +89,9 @@ Verb ;
 ! Adjective inflection
 !----------
 
+LEXICON OAHPA_A
+A1 ; ! Just dumping the Oahpa adjectives here
+
 LEXICON A1
 +A:	#		;
 +A:	PredPl ;
@@ -119,6 +122,9 @@ LEXICON PredPl
 ! ---------
 ! Noun inflection
 ! ---------
+
+LEXICON OAHPA_N
+1DA ; ! Just pointing it on to the first and best
 
 LEXICON 1DA !"1st class", non-palatalized geminate, no ablaut/umlaut, palatalization in Ill.Sg
 
@@ -296,6 +302,9 @@ LEXICON PlComSuf
 
 
 
+
+
+
 ! =============== !
 ! Verb inflection !
 ! =============== !
@@ -303,6 +312,9 @@ LEXICON PlComSuf
  
 !LEXICON 1_EPH
 !:%^EPHV    1 ;
+
+LEXICON OAHPA_V
+1 ; ! just dumping the oahpa verbs here
 
 LEXICON 1
 +V+Inf:%>э  # ; 
