@@ -20,6 +20,12 @@ Multichar_Symbols
   +Use/NG 
 
 LEXICON Root
+NUMBERSECTION ; ! Numerals
+COMMASECTION ;  ! Separator section 
+! DATESECTION ;   ! Not implemented
+
+LEXICON NUMBERSECTION  ! Numerals
+
 HUNDREDSM ;		! 200M
 чӯдтҍ% :1 HUNDREDM ;	! 100M
 TENSM ;			! 20-99M
@@ -36,7 +42,6 @@ TENS ;			! 20-99
 TEENS ;			! 10-19
 CARDINAL ;		  ! 1-9
 ORDINAL ; ! tja, sjekk
-ONESORDINALS ;   ! 2.-9.
 AVTMUSS ;         ! 1. the isolated first.
 
 LEXICON HUNDREDSM
@@ -123,7 +128,7 @@ HUNDREDST ;		! x00.000.000
 :%0%0%0%0 TENS ;
 :%0%0%0%0 TEENS ;
 :%0%0%0%0%0 ONES ;
-:%0%0%0%0%0%0 # ;	!  x000000
+:%0%0%0%0%0%0 COMMA ;	!  x000000
 
 LEXICON HUNDREDST
 кӯххт% :2  CUODIT ;	! 200000-299999
@@ -203,7 +208,7 @@ UNDERTHOUSAND ;	   ! 1100-1999
 :%0 TENS ;	   ! 1020-1099
 :%0 TEENS ;	   ! 1010-1019
 :%0%0 ONES ;	   ! 1001-1009
-:%0%0%0 # ;	   ! 1000
+:%0%0%0 COMMA ;	   ! 1000
 
 !===========================
 !Here starts the 999 numbers
@@ -231,32 +236,13 @@ LEXICON HUNDRED
 TENS ;
 TEENS ;
 % :%0 ONES ;
-% :%0%0 # ;
-
-LEXICON TEENS
-% :1 TEEN ;
-
-LEXICON TEEN
-э̄ххт:1 LOHKAIE ;
-кӯххт:2 LOHKAIE ;
-кӯһт+Use/NG:2 LOHKAIE ;
-ко̄ллм:3 LOHKAIE ;
-не̄лльемплоагкь:4 # ;
-выдт:5 LOHKAIE ;
-кудт:6 LOHKAIE ;
-кыджемь:7 LOHKAIJE ;
-ка̄ххц:8 LOHKAIE ;
-аххц:9 LOHKAIE ;
-
-LEXICON LOHKAIE
-эмплоагкь% : # ;
-
-LEXICON LOHKAIJE
-емплоагкь% : # ;
+% :%0%0 COMMA ;
 
 LEXICON TENS
-лоагкь:1%0 # ;
-лоагант:1%0%. # ; 
+
+лоагкь:1%0 COMMA ; ! cardinal
+лоагант:1%0%. COMMA ; ! ordinal
+
 кӯххт:2 LOGI ;
 кӯһт+Use/NG:2 LOGI ;
 ко̄ллм:3 LOGI ;
@@ -268,8 +254,32 @@ LEXICON TENS
 аххц:9 LOGI ;
 
 LEXICON LOGI
-лоагкь:%0 # ;
+лоагкь:%0 COMMA ; ! cardinal
+лоагант:%0%. COMMA ; ! ordinal
 лоагкь% : ONES ;
+
+LEXICON TEENS
+% :1 TEENSCARDINALS ;
+% :1 TEENSORDINALS ;
+
+LEXICON TEENSCARDINALS
+э̄ххт:1 LOHKAIE ;
+кӯххт:2 LOHKAIE ;
+кӯһт+Use/NG:2 LOHKAIE ;
+ко̄ллм:3 LOHKAIE ;
+не̄лльемплоагкь:4 COMMA ;
+выдт:5 LOHKAIE ;
+кудт:6 LOHKAIE ;
+кыджемь:7 LOHKAIJE ;
+ка̄ххц:8 LOHKAIE ;
+аххц:9 LOHKAIE ;
+
+LEXICON LOHKAIE
+эмплоагкь% : COMMA ;
+
+LEXICON LOHKAIJE
+емплоагкь% : COMMA ;
+
 
 
 LEXICON ONES
@@ -277,32 +287,31 @@ CARDINAL ;
 ORDINAL ;
 
 LEXICON CARDINAL
-э̄ххт:1 # ;
-кӯххт:2 # ;
-кӯһт+Use/NG:2 # ;
-ко̄ллм:3 # ;
-не̄лльй:4 # ;
-выдт:5 # ;
-кудт:6 # ;
-кыджемь:7 # ;
-ка̄ххц:8 # ;
-аххц:9 # ;
+э̄ххт:1 COMMA ;
+кӯххт:2 COMMA ;
+кӯһт+Use/NG:2 COMMA ;
+ко̄ллм:3 COMMA ;
+не̄лльй:4 COMMA ;
+выдт:5 COMMA ;
+кудт:6 COMMA ;
+кыджемь:7 COMMA ;
+ка̄ххц:8 COMMA ;
+аххц:9 COMMA ;
 
 
 LEXICON ORDINAL		   ! sme, fix
-авьтма:1%.     # ;   ! sme, fix
+авьтма:1%.     COMMA ;   ! sme, fix
 ONESORDINALS ;
-:1 TEENSORDINALS ;
 
 LEXICON ONESORDINALS
-ныммьп:2%.   # ;	   ! sme, fix
-куалмант:3%.   # ;	   ! sme, fix
-ня̄льянт:4%. # ;	       ! sme, fix
-выдант:5%.   # ;	   ! sme, fix
-кудант:6%.   # ;	   ! sme, fix
-кыджянт:7%.    # ;	   ! sme, fix
-ка̄хцант:8%.   # ;	   ! sme, fix
-ахцант:9%.    # ;	   ! sme, fix
+ныммьп:2%.   COMMA ;	   ! sme, fix
+куалмант:3%.   COMMA ;	   ! sme, fix
+ня̄льянт:4%. COMMA ;	       ! sme, fix
+выдант:5%.   COMMA ;	   ! sme, fix
+кудант:6%.   COMMA ;	   ! sme, fix
+кыджянт:7%.    COMMA ;	   ! sme, fix
+ка̄хцант:8%.   COMMA ;	   ! sme, fix
+ахцант:9%.    COMMA ;	   ! sme, fix
 
 LEXICON TEENSORDINALS
 э̄ххт:1   TEENSORDINALEND ;
@@ -317,20 +326,35 @@ LEXICON TEENSORDINALS
 аххц:9 TEENSORDINALEND ;
 
 LEXICON TEENSORDINALEND
-эмплоагант:%. # ;
+эмплоагант:%. COMMA ;
 
 LEXICON AVTMUSS
-авьтмусс:1%.     # ;   ! sme, fix
+авьтмусс:1%.     COMMA ;   ! sme, fix
 
-! LEXICON ONES
-! э̄ххт:1 # ;
-! кӯһт:2 # ;
-! кӯһт:2 # ;
-! ко̄ллм:3 # ;
-! не̄лльй:4 # ;
-! выдт:5 # ;
-! кудт:6 # ;
-! кыджемь:7 # ;
-! ка̄ххц:8 # ;
-! аххц:9 # ;
+
+
+
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! !!!!!!!!!!                    !!!!!!!!!!!!!!!!!!!
+! !!!!!!!!!!   Comma section    !!!!!!!!!!!!!!!!!!!
+! !!!!!!!!!!                    !!!!!!!!!!!!!!!!!!!
+! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+LEXICON COMMA
+ #            ; 
+ COMMASECTION ;
+
+LEXICON COMMASECTION 
+                  # ; 
+  % запятая% :,      NUMBERSECTION ; ! perhaps rus (Kildin?) for "comma"
+!  % čuokkis% :%.   NUMBERSECTION ; ! these will overlap with dates
+!  % kolon% :%:     NUMBERSECTION ;
+!  % sárggis% :%-   NUMBERSECTION ; 
+! % lea% :%=        NUMBERSECTION ; 
+! % gráda% :%°      NUMBERSECTION ; 
+! % paragráfa% :§   NUMBERSECTION ; 
+!  % násti% :%*     NUMBERSECTION ; 
+! % ja% :&          NUMBERSECTION ; 
+
 
