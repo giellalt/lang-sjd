@@ -35,6 +35,7 @@ UNDERTHOUSAND ;		! 100-999
 TENS ;			! 20-99
 TEENS ;			! 10-19
 CARDINAL ;		  ! 1-9
+ORDINAL ; ! tja, sjekk
 ONESORDINALS ;   ! 2.-9.
 AVTMUSS ;         ! 1. the isolated first.
 
@@ -304,19 +305,19 @@ LEXICON ONESORDINALS
 ахцант:9%.    # ;	   ! sme, fix
 
 LEXICON TEENSORDINALS
-э̄ххт:   TEENSORDINALEND ;
+э̄ххт:1   TEENSORDINALEND ;
 кӯххт:2  TEENSORDINALEND ;
 кӯһт+Use/NG:2 TEENSORDINALEND ;
-ко̄ллм   TEENSORDINALEND ;
-не̄лльй  TEENSORDINALEND ;
-выдт:5 TEENSORDINALEND ;
-кудт:6 TEENSORDINALEND ;
+ко̄ллм:3   TEENSORDINALEND ;
+не̄лльй:4  TEENSORDINALEND ;
+выдт:5  TEENSORDINALEND ;
+кудт:6  TEENSORDINALEND ;
 кыджемь:7 TEENSORDINALEND ;
 ка̄ххц:8   TEENSORDINALEND ;
 аххц:9 TEENSORDINALEND ;
 
 LEXICON TEENSORDINALEND
-эмплоагант: # ;
+эмплоагант:%. # ;
 
 LEXICON AVTMUSS
 авьтмусс:1%.     # ;   ! sme, fix
