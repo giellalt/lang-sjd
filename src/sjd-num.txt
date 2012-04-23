@@ -209,6 +209,7 @@ UNDERTHOUSAND ;	   ! 1100-1999
 :%0 TEENS ;	   ! 1010-1019
 :%0%0 ONES ;	   ! 1001-1009
 :%0%0%0 COMMA ;	   ! 1000
+:%0%0%0%.  COMMA ;	   ! 1000.
 
 !===========================
 !Here starts the 999 numbers
@@ -237,6 +238,9 @@ TENS ;
 TEENS ;
 % :%0 ONES ;
 % :%0%0 COMMA ;
+% :%0%0%. COMMA ; ! card = ord for x00
+
+
 
 LEXICON TENS
 
@@ -300,7 +304,8 @@ LEXICON CARDINAL
 
 
 LEXICON ORDINAL		   ! sme, fix
-авьтма:1%.     COMMA ;   ! sme, fix
+авьтма+Use/NG:1%.     COMMA ; ! sme, fix
+авьтмусс:1%.     COMMA ; ! sme, fix
 ONESORDINALS ;
 
 LEXICON ONESORDINALS
@@ -330,7 +335,7 @@ LEXICON TEENSORDINALEND
 
 LEXICON AVTMUSS
 авьтмусс:1%.     COMMA ;   ! sme, fix
-
+авьтма+Use/NG:1%.   COMMA ;
 
 
 
@@ -347,7 +352,7 @@ LEXICON COMMA
 
 LEXICON COMMASECTION 
                   # ; 
-  % запятая% :,      NUMBERSECTION ; ! perhaps rus (Kildin?) for "comma"
+!  % запятая% :,      NUMBERSECTION ; ! perhaps rus (Kildin?) for "comma"
 !  % čuokkis% :%.   NUMBERSECTION ; ! these will overlap with dates
 !  % kolon% :%:     NUMBERSECTION ;
 !  % sárggis% :%-   NUMBERSECTION ; 
