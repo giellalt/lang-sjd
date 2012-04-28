@@ -35,6 +35,10 @@ Multichar_Symbols
 @U.MONTH.11@ 
 @U.MONTH.12@ 
 
++Use/NG ! For substandard month names used in Oahpa
+        ! They will be accepted but not generated.
+
+
 
 LEXICON Root
 
