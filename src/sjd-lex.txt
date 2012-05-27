@@ -25,14 +25,13 @@ Multichar_Symbols
 
 ! Verbal MSP
 +Prs +Prt +Prf 
-+Ind +Imp +Cond +Pot
++Ind +Imprt +Cond +Pot
 +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3 +Impers
 +Inf
 +VAbess
 +PrfPrc
 +Ger
 +Pos +Neg +ConNeg
-+Impers ! hmm…
 
 ! Nominal MSP
 +Sg +Pl
@@ -321,7 +320,7 @@ LEXICON 1
 +V+Ind:  V_IND ;
 +V+Cond: V_COND ;
 +V+Pot:  V_POT ; 
-+V+Imp: V_IMP ;
++V+Imprt: V_IMP ;
 +V+Ind+Prs+Impers:%>этҍ   # ; !weak grade
 +V+Ind+Prt+Impers:%>эшь   # ; 
 +V+ConNeg+Prs:%^WG   # ; !Ø-suffix, weak grade
