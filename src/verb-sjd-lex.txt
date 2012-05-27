@@ -27,8 +27,8 @@ LEXICON Neg
 +V+Neg+Prs+Pl2:ебпе K ;
 +V+Neg+Prs+Pl3:ев K ;
 +V+Neg+Prs+Impers:едтҍ K ;
-+V+Neg+Imp+Sg:е̄ль K ;
-+V+Neg+Imp+Pl:е̄лле K ;
++V+Neg+Imprt+Sg:е̄ль K ;
++V+Neg+Imprt+Pl:е̄лле K ;
 
 ! the simplest verb class (without any paradigmatic stem alternations)
 ! comprises most verbs from Kurutch's classes II, III, and IV
@@ -39,16 +39,16 @@ LEXICON Neg
 ! 1. replace the infinitive suffix /-e/ with the respective inflectional suffix, except in:
 ! --> +V+Prs+Sg3
 ! --> +V+Prt+Sg3
-! --> +V+Imp+Sg
+! --> +V+Imprt+Sg
 ! 2. replace the infinitive suffix /-e/ with the suffix /-t/ in:
 ! --> +V+Prs+Sg3
 ! --> +V+Prt+Sg3
-! --> +V+Imp+Sg
+! --> +V+Imprt+Sg
 ! 3. insert the infix /-a-/ before the last consonant in:
 ! --> +V+Prs+Sg3
 ! 4. insert the infix /-e-/ before the last consonant in:
 ! --> +V+Prt+Sg3
-! --> +V+Imp+Sg
+! --> +V+Imprt+Sg
 ! unfortunately, these rules become much more complicated in the cyrillic orthography…
 
 !шоабшэ:шоабаш:шоабэш 1_EPH "любить / love" ;
@@ -74,10 +74,10 @@ LEXICON Neg
 +V+Impers+Prt:шоабшэнҍ K ;
 
 ! Imperative singular
-+V+Imp+Sg:шоабэшт K ; ! formally similar to 3sg.pst
++V+Imprt+Sg:шоабэшт K ; ! formally similar to 3sg.pst
 
 ! Imperative plural
-+V+Imp+Sg:шоабшэгкэ K ;
++V+Imprt+Sg:шоабшэгкэ K ;
 
 ! Connegative non-past ! I don't know how to gloss "connegative" [MR]
 +V+ConNeg+Prs:шоабэшт K ; ! formally similar to 3sg.pst
@@ -108,10 +108,10 @@ LEXICON Neg
 +V+Impers+Prt:кырьйхэнҍ K ;
 
 ! Imperative singular
-+V+Imp+Sg:кырьеһт K ; ! formally similar to 3sg.pst
++V+Imprt+Sg:кырьеһт K ; ! formally similar to 3sg.pst
 
 ! Imperative plural
-+V+Imp+Sg:кырьйхэгкэ K ;
++V+Imprt+Sg:кырьйхэгкэ K ;
 
 ! Connegative non-past ! I don't know how to gloss "connegative" [MR]
 +V+ConNeg+Prs:кырьеһт K ; ! formally similar to 3sg.pst
@@ -142,10 +142,10 @@ LEXICON Neg
 +V+Impers+Prt:вāннҍцлэнҍ K ;
 
 ! Imperative singular
-+V+Imp+Sg:вāннҍцэлт K ; ! formally similar to 3sg.pst
++V+Imprt+Sg:вāннҍцэлт K ; ! formally similar to 3sg.pst
 
 ! Imperative plural
-+V+Imp+Sg:вāннҍцлэгкэ K ;
++V+Imprt+Sg:вāннҍцлэгкэ K ;
 
 ! Connegative non-past ! I don't know how to gloss "connegative" [MR]
 +V+ConNeg+Prs:вāннҍцэлт K ; ! formally similar to 3sg.pst
