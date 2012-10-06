@@ -1,17 +1,18 @@
 \documentclass[a4,12pt]{scrartcl}
 
-\usepackage{xltxtra,color,tabularx,graphicx}
+\usepackage{xltxtra,tabularx,authblk}
 
 \usepackage[english]{babel}
 
 \usepackage{hyperref}
 \hypersetup{colorlinks=true, citecolor=red, linkcolor=blue, urlcolor=green, breaklinks=true}
 
-\usepackage{natbib}
-\bibpunct[: ]{(}{)}{;}{a}{}{;}
+\usepackage[style=authoryear-icomp]{biblatex}
+\bibliography{bibliographyNeu}
+\DefineBibliographyStrings{english}{
+}
 
-\usepackage{gb4e}
-
+\usepackage{gb4e}%compiles only if this package comes sist?
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -37,7 +38,6 @@
 %Number of languages covered
 %Contributions should preferably cover more than one language from the language family studied. This does not concern Basque, Maltese, Hungarian, Albanian, Greek, Romani and Kalmyk.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{authblk}
 
 \title{Semantic and syntactic structure of complementizers in Saami languages}
 \author[1]{Kristina Kotcheva}
@@ -64,7 +64,7 @@ The chapter describes the the syntactic structure and semantic functions of comp
 
 \section{Introduction}
 \subsection{Aim of the investigation}
-\paragraph{Prospect I}  Our paper aims at a detailed description of the syntactic structure and semantic functions of complementizer constructions in North Saami, illustrated with minimal pairs (in concordance with the project description). North Saami data will be taken from existing descriptions \citetext{e.g. \citealt{nickel1994, sammallahti1998b, nielsen1979-1}} and corpora (\url{http://giellatekno.uit.no/text.en.html}).  %Are there restrictions on the co-occurrence of complementizers and e.g. modal markers?\\
+\paragraph{Prospect I}  Our paper aims at a detailed description of the syntactic structure and semantic functions of complementizer constructions in North Saami, illustrated with minimal pairs (in concordance with the project description). North Saami data will be taken from existing descriptions \cite[e.g.]{nickel1994, sammallahti1998b, nielsen1979-1} and corpora (\url{http://giellatekno.uit.no/text.en.html}).  %Are there restrictions on the co-occurrence of complementizers and e.g. modal markers?\\
 
 \paragraph{Prospect II} We will also try to compare North Saami with Kildin Saami (E-Saamic<Uralic), for which syntactic and semantic descriptions are virtually non-existent. Kildin Saami data will be taken from a spoken language corpus (Kola Saami Documentation Project, DoBeS Archive. Nijmegen: Max Planck 
 Institut for Psycholinguistics, \url{http://www.mpi.nl/DOBES/}) and from elicitations and experiments with native speakers.
@@ -85,19 +85,19 @@ Institut for Psycholinguistics, \url{http://www.mpi.nl/DOBES/}) and from elicita
 
 The Saamic\footnote{Other common spellings are Sámi(c) or Sami(c).} languages (Uralic) form a dialect continuum across an area extending from central Scandinavia to the Kola Peninsula in the Russian Federation. Due to the influence of Norwegian, Swedish, Finnish and Russian languages and cultures, all ethnic Saami are fluent in their respective contact languages, while younger generations are typically monolingual in these. As a result, all Saamic languages are today either extinct, moribund or endangered. The present chapter focuses on Kildin, Skolt and North Saami, which exhibit different stages of endangerness due to divers language sociological conditions and official support in the respective countries where these languages are spoken.
 
-\paragraph{North Saami} (Endonym {\it sámegiella} or {\it davvisámegiella}) is the least endangered Saamic language today. The language belongs to the West-Saamic subbranch and is spoken by about 17,000 speakers in Norway, Sweden and Finland \citep[cf., e.g.,][1]{sammallahti1998b}. North Saamic is relatively well documented and described. 
+\paragraph{North Saami} (Endonym {\it sámegiella} or {\it davvisámegiella}) is the least endangered Saamic language today. The language belongs to the West-Saamic subbranch and is spoken by about 17,000 speakers in Norway, Sweden and Finland \cite[cf., e.g.,][1]{sammallahti1998b}. North Saamic is relatively well documented and described. 
 
 %Dialects and current main settlement areas
 
 %Written language
 
-\paragraph{Skolt Saami} (Endonym {\it (nuõrtt)sääˊmǩiõll}) is an East-Saamic language spoken in Finland, Russia and Norway. Skolt Saami used to be spoken predominantly on the western Kola Peninsula and the adjacent mainland in the borderland area between Russia, Norway and Finland. However, most members of the original Skolt Saami villages in Russia resettled in Finland after the area was ceded to the Soviet Union in 1945. As a result, the language is now spoken in a relatively compact area by approximately 300 Saami in Finland \citep[??PAGE??]{salminen2007}. In Russia there are only about 30 Skolt Saami speakers left today \citep[??PAGE??]{scheller2011}. The traditional Skolt Saami dialect of Sør-Varanger in Norway died out in the 1970s.
+\paragraph{Skolt Saami} (Endonym {\it (nuõrtt)sääˊmǩiõll}) is an East-Saamic language spoken in Finland, Russia and Norway. Skolt Saami used to be spoken predominantly on the western Kola Peninsula and the adjacent mainland in the borderland area between Russia, Norway and Finland. However, most members of the original Skolt Saami villages in Russia resettled in Finland after the area was ceded to the Soviet Union in 1945. As a result, the language is now spoken in a relatively compact area by approximately 300 Saami in Finland \cite[??PAGE??]{salminen2007}. In Russia there are only about 30 Skolt Saami speakers left today \cite[??PAGE??]{scheller2011}. The traditional Skolt Saami dialect of Sør-Varanger in Norway died out in the 1970s.
 
 Resettlement to Finland is also the explanation for the fact that Skolt Saami has been more extensively documented and described by Finish linguists, has been sucessfully standardized only in Finland and is probably also somewhat less endangered than the closely related Kildin Saami language of Russia due to support from the Finnish state. 
 
 Skolt Saami has a standardized orthography, based on Latin script, which was developed in Finland in the 1970s. This orthography could in principle cover all Skolt Saami dialects in the different countries (just as the standard North Saami orthography is valid in Finland, Norway and Sweden) and a project is currently going on at the Skolt Saami museum in Neiden/Norway to introduce materials written in Standard Skolt Saami in Norway and Russia. However, the Skolt Saami written language has so far only been used in Finland.
 
-\paragraph{Kildin Saami} (Endonym {\it (kīllt)sāmʼkīllʼ}) is not only the most endangered, but also the least documented and described among the three languages investigated in the present chapter. The language is actively spoken by no more than 100 native speakers \citep[??PAGE??]{scheller2011}. Kildin Saami used to be spoken in the central inland parts and the central coastal parts of the Kola Peninsula, but the original Kildin dialect areas have fragmented chiefly as the result of forced centralization to larger towns. As a result, today most of the Kola Saami population live in the town of Lovozero, which is nowadays usually regarded as the ‘Saami capital’ of Russia.
+\paragraph{Kildin Saami} (Endonym {\it (kīllt)sāmʼkīllʼ}) is not only the most endangered, but also the least documented and described among the three languages investigated in the present chapter. The language is actively spoken by no more than 100 native speakers \cite[??PAGE??]{scheller2011}. Kildin Saami used to be spoken in the central inland parts and the central coastal parts of the Kola Peninsula, but the original Kildin dialect areas have fragmented chiefly as the result of forced centralization to larger towns. As a result, today most of the Kola Saami population live in the town of Lovozero, which is nowadays usually regarded as the ‘Saami capital’ of Russia.
 
 A Cyrillic-based orthography for Kildin was developed during the 1980s and has been used in text books for elementary schools and in other pieces of teaching materials, including a few dictionaries. Also a considerable amount of literary texts have been published, although most of these are short or written for learners of Kildin Saami.
 
@@ -414,12 +414,12 @@ classes of CTPs \cite{noonan2007}
 \subsection{Distribution}
 \paragraph{Types of complements}%1.	In which types of complements are the complementizers or complementation markers in focus found?
 \begin{exe}
-	\ex  commentative predicate \label{ahteSubject} \citep[194]{nickel1994} 
+	\ex  commentative predicate \label{ahteSubject} \cite[194]{nickel1994} 
 	\gll 	Imaš 	lei, 	{\bf ahte} 	rámbuvrriin 	oaččui 	viine 	oastit.\\
 	odd 	be:{\sc 3sg.pst} {\sc comp} shop:{\sc loc:pl} get:{\sc 3sg:pst} wine:{\sc acc:sg} buy:{\sc inf}\\
 	\glt 	‘It was odd that one could buy wine in the shops.’
 	
-	\ex preception predicate \label{ahteObject} \citep[194]{nickel1994}
+	\ex preception predicate \label{ahteObject} \cite[194]{nickel1994}
 	\gll 	Mun 	oainnán, 	{\bf ahte} 	áddjá 	lea 	boahtán.\\
 	{\sc 1sg} see:{\sc 1sg} {\sc comp} grand\_father be:{\sc 3sg.prs} come:{\sc pastpart}\\%past participle
 	\glt 	‘I see that grandfather has come.’
@@ -440,7 +440,7 @@ classes of CTPs \cite{noonan2007}
 %
 %KK>MR: wat machemer mitn relativsätzen? es gibt einen artikel über die konzeptionelle/gramm. nähe von COMP-sätzen und REL-sätzen. aber wir müssen uns überlegen, ob wir's brauchen/wollen
 %
-%	 \ex Relative clause \label{ahteRelativsatz} \citep[194]{nickel1994}
+%	 \ex Relative clause \label{ahteRelativsatz} \cite[194]{nickel1994}
 %	\gll Sus lei jou geasset leamaš dat jurdda, ahte dáidá mus oažžut veahki.\\
 %	{\sc 3sg.loc} be:{\sc 3sg.ind.pst} already in\_summer be:{\sc pastpart} DEM:{\sc 3sg.nom} thought:{\sc nom.sg} REL may\_be{\sc 3sg.ind.prs} {\sc 1sg.loc} get:{\sc inf} help:{\sc acc.sg}\\
 %	'S/he had already in summer the idea that I might help him/her.'
@@ -459,12 +459,12 @@ classes of CTPs \cite{noonan2007}
 
 \begin{exe}
 
-	\ex \label{goAttr} Attributive clause of (subject) pronoun \citep[439]{nickel1994}% (…{\it dat go…} ‘…that which…’)
+	\ex \label{goAttr} Attributive clause of (subject) pronoun \cite[439]{nickel1994}% (…{\it dat go…} ‘…that which…’)
 	\gll 	Dasa 	lei 	sivvan dat 	{\bf go} 	son 	čorbmagođii 	mu 	reaŋgabártáža.\\
 	{\sc dem:ill} be:{\sc 3sg.pst} reason {\sc dem}  {\sc attrCOMP} {\sc 3sg} fist\_hit:{\sc 3sg:pst} {\sc 1sg:gen} servant\_boy:{\sc dim:acc}\\
 	\glt 	‘The reason for that was such that he hit my boy servant.’ %'Årsaken var at han begynte å slå gutten som var dreng hos mig.'
 
-	\ex \label{goComp} Comparative clause \citep[199]{nickel1994} %(…{\it riggát go…} ‘…bigger than…’) 
+	\ex \label{goComp} Comparative clause \cite[199]{nickel1994} %(…{\it riggát go…} ‘…bigger than…’) 
 	\gll 	Dat 	dáidá 	riggát 	{\bf go} 	mii 	jáhkkit.\\
 	{3sg}	may\_be:{\sc 3sg} rich:{comp:pred} {\sc attrCOMP} {\sc 1pl} believe:{\sc 1pl}\\
 	\glt 	‘He is perhaps richer than we believe.’ %'Han er kanskje rikere enn vi tror.'
@@ -514,7 +514,7 @@ classes of CTPs \cite{noonan2007}
 However, the structure with omitted {\it ahte} seems to represent an apposed main clause instead of subordination.
 
 \begin{exe}
-	\ex \label{ahteOmitted} {\it ahte} can be omitted \citep[439]{nickel1994}%(Nickel:439)
+	\ex \label{ahteOmitted} {\it ahte} can be omitted \cite[439]{nickel1994}%(Nickel:439)
 	\gll 	Máhtte 	muitalii 	{\bf (ahte)} 	áddjá 	boahtá \\
  	Máhtte 	tell:{\sc 3sg:pst} {\sc comp} grandfather come:{\sc 3sg}\\
 	\glt ‘Máhtte said (that) grandfather is coming.’
@@ -532,7 +532,7 @@ However, the structure with omitted {\it ahte} seems to represent an apposed mai
 {\it Ahte} can also be combined, e.g. with another subordinator {\it ahte go} ‘that when’, with a conjunction {\it ahte vai} ‘that so that’ or with an interrogative pronoun {\it ahte maid} [that what:{\sc acc}] ‘that which'. In (\ref{ahteGo}–\ref{ahteMaid}) {\it ahte} seems to indicate the subordinative relation alone while the second part of the subordinating formative {\it go, vai, maid} defines the nature of this relation: temporal adverbial in (\ref{ahteGo}), final adverbial in (\ref{ahteVai}) and a complement in (\ref{ahteMaid}):% Nickel:196 "I enkelte setninger finnes et såkalt pleonastisk (overflødig) ahte":
 
 \begin{exe}
-	\ex \label{ahteGo} Temporal clause \textbf{ahte go} \citep[196]{nickel1994}
+	\ex \label{ahteGo} Temporal clause \textbf{ahte go} \cite[196]{nickel1994}
 	\gll Roađđi lea {\bf ahte} {\bf go} ruoksadin šaddá beaivvi badjánemiin ja ruokset fas beaivvi luoitádettiin.\\
 	redness:{\sc nmlz} be:{\sc 3sg} {\sc comp} {\sc advCOMP} red:{\sc ess} become:{\sc 3sg} sun:{\sc gen.sg} ascent:{\sc gerund:com} and be\_red again sun:{\sc gen.sg} descent:{\sc gerund:com}\\
 	\glt ‘{\it Roađđi} is when it gets red with the sun rising and is red again when the sun is setting.'
@@ -543,7 +543,7 @@ However, the structure with omitted {\it ahte} seems to represent an apposed mai
 \ex \textbf{go} temporal \label{goTemporal}
 \begin{xlist}
 \ex %Temporal adverbial clause: present \label{goTempContext} 
-\citep[196]{nickel1994}
+\cite[196]{nickel1994}
 \gll 	Mun 	boađán 	{\bf go} 	gearggan.\\
 	{\sc 1sg} come:{\sc 1sg} {\sc advCOMP} get\_ready:{\sc 1sg}\\
 \glt 	‘I shall come when / if I am ready.’%'Jeg kommer når jeg er ferdig'
@@ -560,7 +560,7 @@ come-2SG.IMP.PRS AdvCOMT want-2SG.PRS\\
 
 
 \ex %Temporal adverbial clause: past \label{goTemporalPST} 
-\citep[436]{nickel1994}%nickel:439, sammallahti:105 -- subjektsatz
+\cite[436]{nickel1994}%nickel:439, sammallahti:105 -- subjektsatz
 \gll 	Buorre 	lei 	{\bf go} 	bohtet\\
 	good:{\sc pred} be:{\sc 3sg.pst} {\sc advCOMP} come:{\sc 2sg.pst}\\
 \glt 	‘It was good that you came.’
@@ -570,7 +570,7 @@ come-2SG.IMP.PRS AdvCOMT want-2SG.PRS\\
 \ex \label{goTemporal}
 \begin{xlist}
 \ex %Temporal adverbial clause: present \label{goTempContext} 
-\citep[196]{nickel1994}
+\cite[196]{nickel1994}
 \gll 	Mun 	boađán 	{\bf go} 	gearggan.\\
 	{\sc 1sg} come:{\sc 1sg} {\sc advCOMP} get\_ready:{\sc 1sg}\\
 \glt 	‘I shall come when / if I am ready.’%'Jeg kommer når jeg er ferdig'
@@ -585,7 +585,7 @@ come-2SG.IMP.PRS AdvCOMT want-2SG.PRS\\
 % ###### Disambiguierung durch JOS? #################
 %############################################################################
 \ex %Temporal adverbial clause: past \label{goTemporalPST} 
-\citep[436]{nickel1994}%nickel:439, sammallahti:105 -- subjektsatz
+\cite[436]{nickel1994}%nickel:439, sammallahti:105 -- subjektsatz
 \gll 	Buorre 	lei 	{\bf go} 	bohtet\\
 	good:{\sc pred} be:{\sc 3sg.pst} {\sc advCOMP} come:{\sc 2sg.pst}\\
 \glt 	‘It was good that you came.’
@@ -593,14 +593,14 @@ come-2SG.IMP.PRS AdvCOMT want-2SG.PRS\\
 	
 	
 
-	\ex \label{ahteVai} Causal clause \textbf{ahte vai} \citep[196]{nickel1994}
+	\ex \label{ahteVai} Causal clause \textbf{ahte vai} \cite[196]{nickel1994}
 	\gll 	De 	son 	riemai 	gillut 	beatnagiiddis 	ealu 	ala 	{\bf ahte} {\bf vai} 	mii 	eat 	beasa 	rátkit.\\
 	so {\sc 3sg} begin:{\sc 3sg:pst} sick:{\sc inf} dog:{\sc poss:3sg:acc:pl} reindeer\_flock:{\sc gen} on {\it comp} {\sc advCOMP} {\sc 1pl} {\sc neg:1pl} be\_able:{\sc conneg} separate:{\sc inf}\\
 	\glt ‘So s/he began to sick his/her dogs on the reindeer flock so that we were unable to separate (the reindeer).’
 	%'Så begynte hun å hisse hundene sine på reinflokken for at vi ikke skulle få skilt ut (reinsdyra våre)'
 	%(kk: AHTE+VAI 'att för att'; AHTE als reiner COMP?)
 
-	\ex \label{ahteMaid} Final clause \textbf{ahte maid} \citep[196]{nickel1994}
+	\ex \label{ahteMaid} Final clause \textbf{ahte maid} \cite[196]{nickel1994}
 	\gll 	Muhto 	mii 	dušše 	geahčastalaime 	vuorrasii 	{\bf ahte} {\bf maid} 	dal 	vuoras 	dahká.\\
 	but {\sc 1pl} just look\_a\_bit:{\sc 1pl:pst} old\_person:{\sc ill} {\sc comp} what:{\sc acc.sg} {\sc part} old\_person do:{\sc 3sg}\\
 	\glt 	‘But we just looked at the old man, what is the old man doing.'%'Men vi bare tittet på gamlingen; hva ville han nå gjøre?'
@@ -631,9 +631,6 @@ $\rightarrow$ {\it ahte} and {\it jos/jus} are Finnish loanwords in NSaa while {
 
 \section{Summary}
 
-
-\section[Bibliography]{Bibliography}
-\bibliographystyle{plainnat}
-\bibliography{bibliographyNeu} 
+\printbibliography
 
 \end{document}
