@@ -1,6 +1,6 @@
 \documentclass[a4,12pt]{scrartcl}
 
-\usepackage{xltxtra,tabularx,authblk}
+\usepackage{xltxtra,tabularx,authblk,qtree}
 
 \usepackage[english]{babel}
 
@@ -39,25 +39,28 @@
 %Contributions should preferably cover more than one language from the language family studied. This does not concern Basque, Maltese, Hungarian, Albanian, Greek, Romani and Kalmyk.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Semantic and syntactic structure of complementizers in Saami languages}
+\title{Semantic and syntactic structure of complementizers in three Saamic languages}
 \author[1]{Kristina Kotcheva}
 \author[2]{Michael Rießler}
 \affil[1]{Department of Linguistics, University of Konstanz}
 \affil[2]{Scandinavian Department, University of Freiburg}
 
+\setmainfont[Mapping=tex-text]{Charis SIL}
+
 \begin{document}
  %%Contributions should be between 12,500 and 17,500 words long, including references.%KK: ca. 10–15 Seiten%
 
-\tableofcontents
-
+%%%only preliminary for keeping track of the content
+\tableofcontents 
 \newpage
+%%%
+
 \maketitle
 
 \begin{abstract}
-The chapter describes the the syntactic structure and semantic functions of complementizer constructions in three endangered Saamic (Uralic) languages.\\
+The chapter describes the the syntactic structure and semantic functions of complementizer constructions in three endangered Saamic (Uralic) languages.\\%needs some more elaboration
 
-
-{\bf Keywords:} semantics, syntax, typology, subordination, complementizer\\
+{\bf Keywords:} semantics, syntax, etymology, typology, subordination, complementizer\\
 
 {\bf ISO 639-3:} sjd, sme, sms 
 \end{abstract}
@@ -81,25 +84,40 @@ Institut for Psycholinguistics, \url{http://www.mpi.nl/DOBES/}) and from elicita
 \subsection{Saamic languages}
 %%1. briefly introduce the languages covered (among other things, mention possible characteristics of the languages as well as their genetic and geographical affiliation and – if possible – the number of speakers of the languages).
 
-%\includegraphics[width=\textwidth]{Maps/SaaLgs.jpg}
+\begin{figure}
+\begin{center}
+\caption{Sápmi and the Saamic languages. The languages of the project are shaded.} %shadow!
+\label{SaamiLgs}
+\includegraphics[width=0.7\textwidth]{SaaLgs.jpg}
+\end{center}
+\end{figure}
+\begin{figure}
+\caption{Saamic language tree \cite[according to][6–34]{sammallahti1998b}.} \label{tree}
+\qtreecenterfalse
+\Tree [.Saamic [.{West-Saamic} [.South South Ume ] [.Central Pite Lule {\bf North} ] ] [.{East-Saamic} [.Mainland Inari {\bf Skolt} Akkala ] [.Peninsula {\bf Kildin} Ter ] ] ]
+\end{figure}
 
-The Saamic\footnote{Other common spellings are Sámi(c) or Sami(c).} languages (Uralic) form a dialect continuum across an area extending from central Scandinavia to the Kola Peninsula in the Russian Federation. Due to the influence of Norwegian, Swedish, Finnish and Russian languages and cultures, all ethnic Saami are fluent in their respective contact languages, while younger generations are typically monolingual in these. As a result, all Saamic languages are today either extinct, moribund or endangered. The present chapter focuses on Kildin, Skolt and North Saami, which exhibit different stages of endangerness due to divers language sociological conditions and official support in the respective countries where these languages are spoken.
+The Saamic\footnote{Other common spellings are Sámi(c) or Sami(c).} languages belong to the Finnougric branch of the Uralic language family and form a dialect continuum across an area extending from central Scandinavia to the Kola Peninsula in the Russian Federation. Typologically, Saamic languages are unlike the Indoeuropean languages in the area in being exclusively suffixing languages and exhibiting predominantly postpositions. Phrases are generally head-final, although SVO has become grammatical as well, just as postponed relative constructions occur. Saami case systems consist of between seven and nine cases and nouns additionally have possessive inflection (this feature is lost in Kildin). In most Saamic languages, verbs and pronouns are inflected for dual (in Skolt dual is preserved only in pronominal inflection, in Kildin the feature is lost completely), in addition to singular and plural number categories. Additionally, all Saamic languages are known for their complicated non-linear morphology realized as ablaut, consonant gradation (phonological alternations in a stem's consonants triggered by the morphological environment) and/or palatalization of noun and verb stems (only in East-Saamic). A syntactic feature common for all Saamic languages is negation expressed by means of an inflected negation auxiliary followed by the non-finite main verb in a special connegative form.
 
-\paragraph{North Saami} (Endonym {\it sámegiella} or {\it davvisámegiella}) is the least endangered Saamic language today. The language belongs to the West-Saamic subbranch and is spoken by about 17,000 speakers in Norway, Sweden and Finland \cite[cf., e.g.,][1]{sammallahti1998b}. North Saamic is relatively well documented and described. 
+Due to the influence of Norwegian, Swedish, Finnish and Russian languages and cultures, all ethnic Saami are fluent in their respective contact languages, while younger generations are typically monolingual in these. As a result, all Saamic languages are today either extinct, moribund or endangered. The present chapter focuses on Kildin, Skolt and North Saami, which exhibit different stages of endangerness due to divers language sociological conditions and official support in the respective countries where these languages are spoken.
 
-%Dialects and current main settlement areas
+\paragraph{North Saami} (Endonym {\it sámegiella} or {\it davvisámegiella}) is the least endangered Saamic language today. The language belongs to the West-Saamic subbranch and is spoken by about 17,000 speakers in Norway, Sweden and Finland \cite[cf., e.g.,][1]{sammallahti1998b}. North Saami is devided into several dialect groups and subgroups \cite[e.g.][9–20]{sammallahti1998b}. The three main dialects are (from North to South) Sea North Saami, spoken along the northernmost Norwegian coast, Finnmark North Saami spoken in the inland of northernmost Norway and adjacent north-westernmost Finland, and Torne North Saami spoken in northernmost Sweden and adjacent areas in Norway and Finland. North Saamic is relatively well documented and described. Standard written North Saami is based on Latin script. The language is used in written media of all kind today.
 
-%Written language
+Main contact languages of contemporary North Saami are Finnish, Norwegian and Swedish.
 
 \paragraph{Skolt Saami} (Endonym {\it (nuõrtt)sääˊmǩiõll}) is an East-Saamic language spoken in Finland, Russia and Norway. Skolt Saami used to be spoken predominantly on the western Kola Peninsula and the adjacent mainland in the borderland area between Russia, Norway and Finland. However, most members of the original Skolt Saami villages in Russia resettled in Finland after the area was ceded to the Soviet Union in 1945. As a result, the language is now spoken in a relatively compact area by approximately 300 Saami in Finland \cite[??PAGE??]{salminen2007}. In Russia there are only about 30 Skolt Saami speakers left today \cite[??PAGE??]{scheller2011}. The traditional Skolt Saami dialect of Sør-Varanger in Norway died out in the 1970s.
 
 Resettlement to Finland is also the explanation for the fact that Skolt Saami has been more extensively documented and described by Finish linguists, has been sucessfully standardized only in Finland and is probably also somewhat less endangered than the closely related Kildin Saami language of Russia due to support from the Finnish state. 
 
-Skolt Saami has a standardized orthography, based on Latin script, which was developed in Finland in the 1970s. This orthography could in principle cover all Skolt Saami dialects in the different countries (just as the standard North Saami orthography is valid in Finland, Norway and Sweden) and a project is currently going on at the Skolt Saami museum in Neiden/Norway to introduce materials written in Standard Skolt Saami in Norway and Russia. However, the Skolt Saami written language has so far only been used in Finland.
+Skolt Saami has a standardized orthography, based on Latin script, which was developed in Finland in the 1970s. This orthography could in principle cover all Skolt Saami dialects in the different countries (just as the standard North Saami orthography is valid in Finland, Norway and Sweden) and a project is currently going on at the Skolt Saami museum in Neiden/Norway to introduce materials written in Standard Skolt Saami in Norway and Russia. However, the Skolt Saami written language has so far only been used in Finland. 
+
+Main contact languages of contemporary Skolt Saami are Finnish (in Finland) and Russian (in Russia) until recently there were also very close contacts with speakers of Karelian.
 
 \paragraph{Kildin Saami} (Endonym {\it (kīllt)sāmʼkīllʼ}) is not only the most endangered, but also the least documented and described among the three languages investigated in the present chapter. The language is actively spoken by no more than 100 native speakers \cite[??PAGE??]{scheller2011}. Kildin Saami used to be spoken in the central inland parts and the central coastal parts of the Kola Peninsula, but the original Kildin dialect areas have fragmented chiefly as the result of forced centralization to larger towns. As a result, today most of the Kola Saami population live in the town of Lovozero, which is nowadays usually regarded as the ‘Saami capital’ of Russia.
 
 A Cyrillic-based orthography for Kildin was developed during the 1980s and has been used in text books for elementary schools and in other pieces of teaching materials, including a few dictionaries. Also a considerable amount of literary texts have been published, although most of these are short or written for learners of Kildin Saami.
+
+The main contact language of contemporary Kildin Saami is Russian until recently there were also very close contacts with speakers of Karelian.
 
 \subsection{Data used for this investigation}
 North Saami
