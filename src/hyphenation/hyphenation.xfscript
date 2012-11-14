@@ -208,7 +208,9 @@ beforedipht
 .o. removedouble4
  ] ;
 
-invert net ;
+echo <<Inverting...>>
+
+invert net
 
 ! For quick compilation, comment the following line in:
 !save h.fst ;
