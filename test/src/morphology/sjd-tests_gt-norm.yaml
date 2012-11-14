@@ -1,10 +1,10 @@
 Config:
   hfst:
-    Gen: sjd/bin/isjd.hfst
-    Morph: sjd/bin/sjd.hfst
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
   xerox:
-    Gen: sjd/bin/isjd.fst
-    Morph: sjd/bin/sjd.fst
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
     App: lookup
 
 
@@ -382,7 +382,3 @@ Tests:
 #    millo+N+Sg+Com: 
 #    millo+N+Ess: 
 #    millo+N+Pl+Abe: 
-# 
-# 
-# 
-# 
