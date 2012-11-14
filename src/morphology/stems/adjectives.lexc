@@ -1,0 +1,167 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
+
+
+LEXICON Adjective
+
+A1  ; !similar forms for pred (number infl, except loan adj on -e) and attr
+!A1b ; COMPARATIVE -я(мп)
+A2  ; !"2nd ADJ class" with (?DEPAL)-e for PRED (no number infl) and PAL-es' for ATTR; the stem, which is also the base form for several verbal derivations, is given here due to morphological consistency, although this is not consistent with the lexical dict entries of these adjectives
+A3  ; !"3rd ADJ class" with STR-Ø for PRED (number infl) and WK/PAL-es' for ATTR
+A4 ; !"4th ADJ class" with WK-as for PRED (number infl) and WK-as for ATTR
+
+нӯрр 	A1  "молодой / young" ;
+шӯрр    A1  "большой / big" ;
+э̄лл    A1  "высокий / high" ; !this adj varies as to its class membership
+ӣййв    A1 ;
+о̄дт A1 "new" ;
+!-мусс A1 "SUPERL" ;
+!ӣввьй   A1 ; !gradation rule has to be written in twol
+
+!-а(мп) COMPARATIVE1
+
+!поасс A1b "злой" поассъя(мп)
+!-я(мп) COMPARATIVE2 
+
+вӣлльк A2 "белый / white" ;
+э̄лл A2  "высокий / high" ; !this adj varies as to its class membership
+чувв A2 "светлый / light" ;
+руччк A2 "жёлтый / yellow" ;
+!сӯбпь A2 "мягкий / soft" ; !сӯбпэ
+!рӯппьсесь "красный / red" ;
+!мо̄джь A2 "красивый / beautiful" ; ?мо̄дже
+!ко̄ммьтесь A2 "широкый / broad" ; ко̄ммтэ sg : ?коамьт pl?
+!вӯгк A2 "густый / thick" ; !-есь -э
+!-та(мп) COMPARATIVE
+чуввь A2 ;
+чуввҍ A2 ;
+
+куһкь A3 "long" ;
+луэммч A3 "слабый / weak" ;
+роадтҍ A3 "некрасивый / ugly" ;!роадӭсь
+
+вӯгк A4 "дешёвый / inexpensive" ; !predsg вӯгас : predpl вӯгкас
+роавв A4 "крепкий / strong";
+
+!loan adjectives (like A1 class except missing number inflection in PRED)
+!активнэ A5 "акивный / active" ;
+!безударнэ A1 "безударный / unstressed" ;
+
+
+
+! Just dumping the oahpa adjectives here
+
+
+шӣг OAHPA_A ;
+шувв OAHPA_A ;
+югке OAHPA_A ;
+пайй OAHPA_A ;
+падк OAHPA_A ;
+чинч OAHPA_A ;
+удць OAHPA_A ;
+шуря OAHPA_A ;
+цимӓ OAHPA_A ;
+ӣнсэй OAHPA_A ;
+е̄ххк OAHPA_A ;
+руэнн OAHPA_A ;
+ёрпас OAHPA_A ;
+вӯввт OAHPA_A ;
+кӣллт OAHPA_A ;
+пуннт OAHPA_A ;
+рӯсст OAHPA_A ;
+са̄мь OAHPA_A ;
+роднэ OAHPA_A ;
+пуарса OAHPA_A ;
+таррьй OAHPA_A ;
+тӣшшяй OAHPA_A ;
+тоавас OAHPA_A ;
+тӣрвас OAHPA_A ;
+поакас OAHPA_A ;
+чивкас OAHPA_A ;
+каллас OAHPA_A ;
+кэлмас OAHPA_A ;
+тӣвтас OAHPA_A ;
+руэняс OAHPA_A ;
+цыххьц OAHPA_A ;
+е̄кесь OAHPA_A ;
+чепесь OAHPA_A ;
+ӣнцэсь OAHPA_A ;
+а̄лехь OAHPA_A ;
+оанӭхь OAHPA_A ;
+упрямэ OAHPA_A ;
+чоаһпэ OAHPA_A ;
+рӯппсэ OAHPA_A ;
+ӣӈӈҍкай OAHPA_A ;
+поа̄ххк OAHPA_A ;
+коашшьк OAHPA_A ;
+лыххцэм OAHPA_A ;
+пыччкар OAHPA_A ;
+тоа̄вас OAHPA_A ;
+нӯрмусс OAHPA_A ;
+вуазлэш OAHPA_A ;
+коаллэш OAHPA_A ;
+о̄менэш OAHPA_A ;
+ахькэль OAHPA_A ;
+кӯввесь OAHPA_A ;
+чӯввесь OAHPA_A ;
+сӯрвесь OAHPA_A ;
+ра̄кесь OAHPA_A ;
+кугкесь OAHPA_A ;
+пуэресь OAHPA_A ;
+альтэсь OAHPA_A ;
+чоарэхь OAHPA_A ;
+церствэ OAHPA_A ;
+скромнэ OAHPA_A ;
+е̄рркъя OAHPA_A ;
+оа̄йххьк OAHPA_A ;
+куаррнэм OAHPA_A ;
+оа̄нтшэм OAHPA_A ;
+кӯльялаш OAHPA_A ;
+мӯрьялаш OAHPA_A ;
+то̄ӆӆкэш OAHPA_A ;
+ва̄ймель OAHPA_A ;
+шӣххтэль OAHPA_A ;
+мо̄джесь OAHPA_A ;
+нӯськесь OAHPA_A ;
+рӯппсесь OAHPA_A ;
+ло̄ссесь OAHPA_A ;
+мӣллвэсь OAHPA_A ;
+кӯййкэсь OAHPA_A ;
+чӣӈӈлэсь OAHPA_A ;
+оанҍхэсь OAHPA_A ;
+мӣллшэсь OAHPA_A ;
+лоантэхь OAHPA_A ;
+то̄ӆӆкхэм OAHPA_A ;
+куххклэшш OAHPA_A ;
+чальмхэмь OAHPA_A ;
+вӯлльгесь OAHPA_A ;
+вуэлькесь OAHPA_A ;
+ла̄шькесь OAHPA_A ;
+ва̄ймлесь OAHPA_A ;
+туммплесь OAHPA_A ;
+ке̄нҍцесь OAHPA_A ;
+ӣӈӈҍкъесь OAHPA_A ;
+э̄йвсессь OAHPA_A ;
+та̄ррьмъя OAHPA_A ;
+то̄ӆӆькьем OAHPA_A ;
+ча̄дьзялаш OAHPA_A ;
+ча̄дзьялаш OAHPA_A ;
+ро̄дхэмэсь OAHPA_A ;
+се̄ввьнэсь OAHPA_A ;
+ко̄ммьтэсь OAHPA_A ;
+то̄ӆӆкшэсь OAHPA_A ;
+та̄ррьмъенч OAHPA_A ;
+вуэзьхэмесь OAHPA_A ;
+чоа̄ххьпесь OAHPA_A ;
+
