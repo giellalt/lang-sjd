@@ -1,0 +1,238 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
+
+
+LEXICON Pronoun 
+
+Personal ;
+Demonstrative ;
+Interrogative ;
+Relative ;
+Reflexive ;
+
+
+! Personal pronouns
+! =================
+! a = stem му-
+! b = stem      то̄-, со̄-
+! c = stem      тo-, сo-
+! d = stem мы-, ты-, сы-
+! e = stem мӣ-, тӣ-, сӣ-
+
+LEXICON Personal
+мунн:му  pers_a ;
+то̄нн:то̄  pers_b ;
+со̄нн:со̄  pers_b ;
+мунн:мы  pers_c ;
+то̄нн:то  pers_d ;
+со̄нн:со  pers_d ;
+мунн:мы  pers_e ;
+то̄нн:ты  pers_e ;
+со̄нн:сы  pers_e ;
+мунн:мӣ  pers_f ;
+то̄нн:тӣ  pers_f ;
+со̄нн:сӣ  pers_f ;
+
+LEXICON pers_a
++Pron+Pers+Sg+Nom:нн K ;
++Pron+Pers+Sg+Gen:н K ;
++Pron+Pers+Sg+Acc:н K ;
++Pron+Pers+Sg+Loc:нэсьт K ;
++Pron+Pers+Sg+Loc:ст K ;
++Pron+Pers+Sg+Com:нэнѣ K ;
++Pron+Pers+Sg+Abe:нха K ;
++Pron+Pers+Sg+Ess:ннэнѣ K ;
+
+LEXICON pers_b
++Pron+Pers+Sg+Nom:нн K ;
++Pron+Pers+Sg+Gen:н K ;
++Pron+Pers+Sg+Acc:н K ;
++Pron+Pers+Sg+Loc:нэсьт K ;
++Pron+Pers+Sg+Loc:ст K ;
++Pron+Pers+Sg+Com:нэнѣ K ;
++Pron+Pers+Sg+Abe:нха K ;
++Pron+Pers+Sg+Ess:ннэнѣ K ;
+
+LEXICON pers_c
++Pron+Pers+Sg+Ill:ннӭ K ;
+
+LEXICON pers_d
++Pron+Pers+Sg+Ill:ннӭ K ;
+
+LEXICON pers_e
++Pron+Pers+Pl+Nom:йй K ;
++Pron+Pers+Pl+Ill:йе K ;
+
+LEXICON pers_f
++Pron+Pers+Pl+Gen:н K ;
++Pron+Pers+Pl+Acc:нэтѣ K ;
++Pron+Pers+Pl+Loc:нэнѣ K ;
++Pron+Pers+Pl+Com:нэгуэйм K ;
++Pron+Pers+Pl+Abe:нэха K ; 
++Pron+Pers+Pl+Ess:ннэнѣ K ;
+
+LEXICON Demonstrative
+тэдта:тэ dem ;
+
+LEXICON dem
++Pron+Dem+Sg+Nom:дта # ;
++Pron+Dem+Sg+Gen:нн # ;
++Pron+Dem+Sg+Acc:нн # ;
++Pron+Dem+Sg+Ill:з # ;
++Pron+Dem+Sg+Loc:сьт # ;
++Pron+Dem+Sg+Com:йн # ;
++Pron+Dem+Sg+Abe:ннха # ;
++Pron+Dem+Pl+Nom:гка # ;
++Pron+Dem+Pl+Gen:йт # ;
++Pron+Dem+Pl+Acc:йт # ;
++Pron+Dem+Pl+Ill:йт # ;
++Pron+Dem+Pl+Loc:йнэнҍ # ;
++Pron+Dem+Pl+Com:йтгуэйм # ;
++Pron+Dem+Pl+Abe:йтха # ;
+
+! Interrogative pronouns
+! ======================
+! a	= stem ке̄- 
+! b = stem мӣ- 
+! c = stem мӣ- -> мэ̄-
+! d = stem мӣ- -> ма̄-
+
+LEXICON Interrogative
+ке̄:ке̄ interr_a ;
+мӣ:мӣ interr_b ;
+мӣ:мэ̄ interr_c ;
+мӣ:ма̄ interr_d ;
+
+LEXICON interr_a
++Pron+Interr+Sg+Nom: # ;
++Pron+Interr+Sg+Gen:нн # ;
++Pron+Interr+Sg+Acc:нн # ;
++Pron+Interr+Sg+Ill:з # ;
++Pron+Interr+Sg+Loc:сьт # ;
++Pron+Interr+Sg+Com:йн # ;
++Pron+Interr+Sg+Abe:ннха # ;
++Pron+Interr+Pl+Nom:гк # ;
++Pron+Interr+Pl+Gen:йт # ;
++Pron+Interr+Pl+Acc:йт # ;
++Pron+Interr+Pl+Ill:йт # ;
++Pron+Interr+Pl+Loc:йн # ;
++Pron+Interr+Pl+Com:йтгуэйм # ;
++Pron+Interr+Pl+Abe:йтха # ;
+
+LEXICON interr_b
++Pron+Interr+Sg+Nom: # ;
+
+LEXICON interr_c
++Pron+Interr+Sg+Gen:нн # ;
++Pron+Interr+Sg+Acc:нн # ;
++Pron+Interr+Sg+Ill:з # ;
++Pron+Interr+Sg+Com:йн # ;
++Pron+Interr+Sg+Abe:ннха # ;
++Pron+Interr+Pl+Nom:гк # ;
++Pron+Interr+Pl+Gen:йт # ;
++Pron+Interr+Pl+Acc:йт # ;
++Pron+Interr+Pl+Ill:йт # ;
++Pron+Interr+Pl+Loc:йн # ;
++Pron+Interr+Pl+Com:йтгуэйм # ;
++Pron+Interr+Pl+Abe:йтха # ;
+
+LEXICON interr_d
++Pron+Interr+Sg+Loc:сьт # ;
+
+! Relative pronoun
+! =================
+! a = stem кӯ-
+! b = stem кӯ- -> ко̄-
+
+LEXICON Relative
+кӯ:кӯ rel_a ;
+кӯ:ко̄  rel_b ;
+
+LEXICON rel_a
++Pron+Rel+Sg+Nom: # ;
+
+LEXICON rel_b
++Pron+Rel+Sg+Gen:нн # ;
++Pron+Rel+Sg+Acc:нн # ;
++Pron+Rel+Sg+Ill:з # ;
++Pron+Rel+Sg+Loc:ннэсьт # ;
++Pron+Rel+Sg+Com:йн # ;
++Pron+Rel+Sg+Abe:ннха # ;
++Pron+Rel+Pl+Nom:гк # ;
++Pron+Rel+Pl+Gen:йт # ;
++Pron+Rel+Pl+Acc:йт # ;
++Pron+Rel+Pl+Ill:йт # ;
++Pron+Rel+Pl+Loc:йн # ;
++Pron+Rel+Pl+Com:йтгуэйм # ;
++Pron+Rel+Pl+Abe:йтха # ;
+
+LEXICON Reflexive
+ӣджь+Pron+Refl:ӣджь STRONGREFL ;
+ӣджь+Pron+Refl:ӣжь WEAKREFL ;
+
+LEXICON STRONGREFL
++Pron+Refl+Sg+Nom: # ;
++Pron+Refl+Ess:%>на PERSREFLSG ;
++Pron+Refl+Ess:%>ена PERSREFLPL ;  
++Pron+Refl+Ill:%>с PERSREFLSG ;
+ 
+LEXICON WEAKREFL 
++Pron+Refl+Pl+Nom:%>а # ;
++Pron+Refl+Gen: PERSREFLSG ;
++Pron+Refl+Acc: PERSREFLSG ;
++Pron+Refl+Loc:%>с PERSREFLSG ;
++Pron+Refl+Com:%>ен PERSREFLSG ;
++Pron+Refl+Abe: PERSREFLSGABESS ;
+
++Pron+Refl+Gen:%>ед PERSREFLPL ;
++Pron+Refl+Acc:%>ед PERSREFLPL ;
++Pron+Refl+Loc:%>ес PERSREFLPL ;
++Pron+Refl+Com:%>ед PERSREFLPLCOM ;
++Pron+Refl+Abe:%>ед PERSREFLPLABESS ;
+
+LEXICON PERSREFLSG
++Pron+Refl+Sg1:%>aн # ;
++Pron+Refl+Sg2:%>aнт # ;
++Pron+Refl+Sg3:%>есь # ;
+
+LEXICON PERSREFLPL
++Pron+Refl+Pl1:%>ан # ;
++Pron+Refl+Pl2:%>ант # ;
++Pron+Refl+Pl3:%>есь # ;
+
+LEXICON PERSREFLSGABESS
++Pron+Refl+Sg1:%>aнха # ;
++Pron+Refl+Sg2:%>aнтха # ;
++Pron+Refl+Sg3:%>есьха # ;
+
+LEXICON PERSREFLPLABESS
++Pron+Refl+Pl1:%>анха # ;
++Pron+Refl+Pl2:%>антха # ;
++Pron+Refl+Pl3:%>есьха # ;
+
+LEXICON PERSREFLPLCOM
++Pron+Refl+Pl1:%>ангуэйм # ;
++Pron+Refl+Pl2:%>антгуэйм # ;
++Pron+Refl+Pl3:%>есьгуэйм # ;
+
+
+
+
+
+
+
+
+
+
+
