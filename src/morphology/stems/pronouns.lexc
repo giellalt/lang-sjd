@@ -24,65 +24,50 @@ Reflexive ;
 
 ! Personal pronouns
 ! =================
-! a = stem му-
-! b = stem      то̄-, со̄-
-! c = stem      тo-, сo-
-! d = stem мы-, ты-, сы-
-! e = stem мӣ-, тӣ-, сӣ-
+! a = stem му-, то̄-, со̄-
+! b = stem      тo-, сo-
+! c = stem мы-, ты-, сы-
+! d = stem мӣ-, тӣ-, сӣ-
 
 LEXICON Personal
 мунн:му  pers_a ;
 то̄нн:то̄  pers_a ;
-!то̄нн:то̄  pers_b ;
 со̄нн:со̄  pers_a ;
-!со̄нн:со̄  pers_b ;
+то̄нн:то  pers_b ;
+со̄нн:со  pers_b ;
 мунн:мы  pers_c ;
-то̄нн:то  pers_d ;
-со̄нн:со  pers_d ;
-мунн:мы  pers_e ;
-то̄нн:ты  pers_e ;
-со̄нн:сы  pers_e ;
-мунн:мӣ  pers_f ;
-то̄нн:тӣ  pers_f ;
-со̄нн:сӣ  pers_f ;
+то̄нн:ты  pers_c ;
+со̄нн:сы  pers_c ;
+мунн:мӣ  pers_d ;
+то̄нн:тӣ  pers_d ;
+со̄нн:сӣ  pers_d ;
 
 LEXICON pers_a
 +Pron+Pers+Sg+Nom:нн K ;
 +Pron+Pers+Sg+Gen:н K ;
 +Pron+Pers+Sg+Acc:н K ;
++Pron+Pers+Sg+Ill:ннӭ K ;
 +Pron+Pers+Sg+Loc:нэсьт K ;
 +Pron+Pers+Sg+Loc:ст K ;
 +Pron+Pers+Sg+Com:нэнѣ K ;
 +Pron+Pers+Sg+Abe:нха K ;
 +Pron+Pers+Sg+Ess:ннэнѣ K ;
 
-!LEXICON pers_b
-!+Pron+Pers+Sg+Nom:нн K ;
-!+Pron+Pers+Sg+Gen:н K ;
-!+Pron+Pers+Sg+Acc:н K ;
-!+Pron+Pers+Sg+Loc:нэсьт K ;
-!+Pron+Pers+Sg+Loc:ст K ;
-!+Pron+Pers+Sg+Com:нэнѣ K ;
-!+Pron+Pers+Sg+Abe:нха K ;
-!+Pron+Pers+Sg+Ess:ннэнѣ K ;
+LEXICON pers_b
++Pron+Pers+Sg+Ill:ннӭ K ;
++Pron+Pers+Sg+Loc:ст K ;
 
 LEXICON pers_c
 +Pron+Pers+Sg+Ill:ннӭ K ;
-
-LEXICON pers_d
-+Pron+Pers+Sg+Ill:ннӭ K ;
-
-LEXICON pers_e
 +Pron+Pers+Pl+Nom:йй K ;
 +Pron+Pers+Pl+Ill:йе K ;
 
-LEXICON pers_f
+LEXICON pers_d
 +Pron+Pers+Pl+Gen:н K ;
-+Pron+Pers+Pl+Acc:нэтѣ K ;
-+Pron+Pers+Pl+Loc:нэнѣ K ;
++Pron+Pers+Pl+Acc:нэтҍ K ;
++Pron+Pers+Pl+Loc:нэнҍ K ;
 +Pron+Pers+Pl+Com:нэгуэйм K ;
 +Pron+Pers+Pl+Abe:нэха K ; 
-+Pron+Pers+Pl+Ess:ннэнѣ K ;
 
 LEXICON Demonstrative
 тэдта:тэ dem ;

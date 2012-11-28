@@ -13,30 +13,75 @@ Tests:
 # Proofread the gold standard (below)
 # Then: run analyser, then correct. 
 
-  Pronoun - мунн: #1sg
+  Personal pronoun 1 - мунн:
     мунн+Pron+Pers+Sg+Nom: мунн
     мунн+Pron+Pers+Sg+Gen: мун
     мунн+Pron+Pers+Sg+Acc: мун
+    мунн+Pron+Pers+Sg+Ill: [мыннӭ,муннӭ]
     мунн+Pron+Pers+Sg+Loc: [мунэсьт,муст]
     мунн+Pron+Pers+Sg+Com: мунэнѣ
     мунн+Pron+Pers+Sg+Abe: мунха
     мунн+Pron+Pers+Sg+Ess: муннэнѣ
+    #Par?? see field notes; this form perhaps exists
+    мунн+Pron+Pers+Pl+Nom: мыйй
+    мунн+Pron+Pers+Pl+Gen: мӣн
+    мунн+Pron+Pers+Pl+Acc: мӣнэтҍ
+    мунн+Pron+Pers+Pl+Ill: мыйе
+    мунн+Pron+Pers+Pl+Loc: мӣнэнҍ
+    мунн+Pron+Pers+Pl+Com: мӣнэгуэйм
+    мунн+Pron+Pers+Pl+Abe: мӣнэха
+    #Pl+Ess?? see Kuruč and Šaršina; I do not believe this form occurs in real texts
 
-  Pronoun - то̄нн: #2sg
+  Personal pronoun 2 - то̄нн:
     то̄нн+Pron+Pers+Sg+Nom: то̄нн
     то̄нн+Pron+Pers+Sg+Gen: то̄н
     то̄нн+Pron+Pers+Sg+Acc: то̄н
-    то̄нн+Pron+Pers+Sg+Loc: [то̄нэсьт,то̄ст]
+    то̄нн+Pron+Pers+Sg+Ill: тоннӭ
+    то̄нн+Pron+Pers+Sg+Loc: [то̄нэсьт,тост]
     то̄нн+Pron+Pers+Sg+Com: то̄нэнѣ
     то̄нн+Pron+Pers+Sg+Abe: то̄нха
     то̄нн+Pron+Pers+Sg+Ess: то̄ннэнѣ
+    то̄нн+Pron+Pers+Pl+Nom: тыйй
+    то̄нн+Pron+Pers+Pl+Gen: тӣн
+    то̄нн+Pron+Pers+Pl+Acc: тӣнэтҍ
+    то̄нн+Pron+Pers+Pl+Ill: тыйе
+    то̄нн+Pron+Pers+Pl+Loc: тӣнэнҍ
+    то̄нн+Pron+Pers+Pl+Com: тӣнэгуэйм
+    то̄нн+Pron+Pers+Pl+Abe: тӣнэха
 
-  Pronoun - со̄нн: #3sg
+  Personal pronoun 3 - со̄нн:
     со̄нн+Pron+Pers+Sg+Nom: со̄нн
     со̄нн+Pron+Pers+Sg+Gen: со̄н
     со̄нн+Pron+Pers+Sg+Acc: со̄н
-    со̄нн+Pron+Pers+Sg+Loc: [со̄нэсьт,со̄ст]
+    со̄нн+Pron+Pers+Sg+Ill: соннӭ
+    со̄нн+Pron+Pers+Sg+Loc: [со̄нэсьт,сост]
     со̄нн+Pron+Pers+Sg+Com: со̄нэнѣ
     со̄нн+Pron+Pers+Sg+Abe: со̄нха
     со̄нн+Pron+Pers+Sg+Ess: со̄ннэнѣ
+    со̄нн+Pron+Pers+Pl+Nom: сыйй
+    со̄нн+Pron+Pers+Pl+Gen: сӣн
+    со̄нн+Pron+Pers+Pl+Acc: сӣнэтҍ
+    со̄нн+Pron+Pers+Pl+Ill: сыйе
+    со̄нн+Pron+Pers+Pl+Abe: сӣнэха
+    со̄нн+Pron+Pers+Pl+Loc: сӣнэнҍ
+    со̄нн+Pron+Pers+Pl+Com: сӣнэгуэйм
+    со̄нн+Pron+Pers+Pl+Abe: сӣнэха
 
+#  Personal pronoun Q - ке̄:
+#    ке̄+Pron+Pers+Sg+Nom: ке̄
+#    ке̄+Pron+Pers+Sg+Gen: ке̄нн
+#    ке̄+Pron+Pers+Sg+Acc: ке̄нн
+#    ке̄+Pron+Pers+Sg+Ill: ке̄з
+#    ке̄+Pron+Pers+Sg+Loc: ке̄сът
+#    ке̄+Pron+Pers+Sg+Com: ке̄йн
+#    ке̄+Pron+Pers+Sg+Abe: ке̄ннха
+#    ке̄+Pron+Pers+Sg+Ess: кейненҍ
+#    ке̄#Par?? see field notes
+#    ке̄+Pron+Pers+Pl+Nom: ке̄гк
+#    ке̄+Pron+Pers+Pl+Gen: ке̄йт
+#    ке̄+Pron+Pers+Pl+Acc: ке̄йт
+#    ке̄+Pron+Pers+Pl+Ill: ке̄йт
+#    ке̄+Pron+Pers+Pl+Loc: ке̄йн
+#    ке̄+Pron+Pers+Pl+Com: ке̄йтгуэйм
+#    ке̄+Pron+Pers+Pl+Abe: ке̄йтха
+#    ке̄ #Pl+Ess?? see Kuruč
