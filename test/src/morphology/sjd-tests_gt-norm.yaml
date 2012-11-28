@@ -9,6 +9,12 @@ Config:
 
 
 Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
   Noun - кӯлль: # I
     кӯлль+N+Sg+Nom: кӯлль
     кӯлль+N+Sg+Acc: кӯль
@@ -382,3 +388,4 @@ Tests:
 #    millo+N+Sg+Com: 
 #    millo+N+Ess: 
 #    millo+N+Pl+Abe: 
+
