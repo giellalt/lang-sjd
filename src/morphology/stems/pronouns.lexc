@@ -32,8 +32,10 @@ Reflexive ;
 
 LEXICON Personal
 мунн:му  pers_a ;
-то̄нн:то̄  pers_b ;
-со̄нн:со̄  pers_b ;
+то̄нн:то̄  pers_a ;
+!то̄нн:то̄  pers_b ;
+со̄нн:со̄  pers_a ;
+!со̄нн:со̄  pers_b ;
 мунн:мы  pers_c ;
 то̄нн:то  pers_d ;
 со̄нн:со  pers_d ;
@@ -54,15 +56,15 @@ LEXICON pers_a
 +Pron+Pers+Sg+Abe:нха K ;
 +Pron+Pers+Sg+Ess:ннэнѣ K ;
 
-LEXICON pers_b
-+Pron+Pers+Sg+Nom:нн K ;
-+Pron+Pers+Sg+Gen:н K ;
-+Pron+Pers+Sg+Acc:н K ;
-+Pron+Pers+Sg+Loc:нэсьт K ;
-+Pron+Pers+Sg+Loc:ст K ;
-+Pron+Pers+Sg+Com:нэнѣ K ;
-+Pron+Pers+Sg+Abe:нха K ;
-+Pron+Pers+Sg+Ess:ннэнѣ K ;
+!LEXICON pers_b
+!+Pron+Pers+Sg+Nom:нн K ;
+!+Pron+Pers+Sg+Gen:н K ;
+!+Pron+Pers+Sg+Acc:н K ;
+!+Pron+Pers+Sg+Loc:нэсьт K ;
+!+Pron+Pers+Sg+Loc:ст K ;
+!+Pron+Pers+Sg+Com:нэнѣ K ;
+!+Pron+Pers+Sg+Abe:нха K ;
+!+Pron+Pers+Sg+Ess:ннэнѣ K ;
 
 LEXICON pers_c
 +Pron+Pers+Sg+Ill:ннӭ K ;
