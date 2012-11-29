@@ -23,7 +23,8 @@ LEXICON 1DA !"class1", monosyllabic, non-palatalized, str-wk, no ablaut/umlaut, 
 
 +N:     SgNomSuf ;
 +N:%^WG SgGenAccSuf ;
-+N:%^DI SgIllSufJE ;
+!+N:%^DI SgIllSufJE ;!MR:here is no gradation, but what was %^DI? I'll check this later
++N:     SgIllSufJE ;
 +N:%^WG SgLocSuf ;
 +N:%^WG SgAbeSuf ;
 +N:%^WG SgComSuf ;
@@ -148,19 +149,19 @@ LEXICON ParSuf
 +Par:%>э K ;		 ! Парт.
 
 LEXICON ParSufHalfE
-+Par:%>ӭ K ; 
++Par:%>ӭ K ;
 
 LEXICON SgLocSuf
 +Sg+Loc:%>эсьт K ; ! Местн.
 
 LEXICON SgIllSufA
-+Sg+Ill:%>а K ;		 ! Дат.-напр
++Sg+Ill:%>а K ;
 
 LEXICON SgIllSufE
-+Sg+Ill:%>э K ;		 ! Дат.-напр
++Sg+Ill:%>э K ;
 
 LEXICON SgIllSufJE
-+Sg+Ill:%>е K ;		 ! Дат.-напр
++Sg+Ill:%>е K ;
 
 LEXICON SgIllSufHalfE
 +Sg+Ill:%>ӭ K ;		 ! Дат.-напр
