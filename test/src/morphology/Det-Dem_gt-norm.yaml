@@ -1,0 +1,56 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+  Determiner demonstrative proxal - тэдт:
+    тэдт+Det+Dem+Sg+Nom: тэдт
+    тэдт+Det+Dem+Sg+Gen: тэнн
+    тэдт+Det+Dem+Sg+Acc: тэнн
+    тэдт+Det+Dem+Sg+Ill: тэз
+    тэдт+Det+Dem+Sg+Loc: тэсьт
+    тэдт+Det+Dem+Sg+Com: тэйн
+    тэдт+Det+Dem+Sg+Abe: тэннха
+    тэдт+Det+Dem+Sg+Ess: тэйн
+##    ке̄#Par?? see field notes
+    тэдт+Det+Dem+Pl+Nom: тэгк
+    тэдт+Det+Dem+Pl+Gen: тэйт
+    тэдт+Det+Dem+Pl+Acc: тэйт
+    тэдт+Det+Dem+Pl+Ill: тэйт
+    тэдт+Det+Dem+Pl+Loc: тэйнэнҍ
+    тэдт+Det+Dem+Pl+Com: тэйтгуэйм
+    тэдт+Det+Dem+Pl+Abe: тэйтха
+    тэдт+Det+Dem+Pl+Ess: тэйнэнҍ
+
+
+  Determiner demonstrative distal - тудт:
+    тудт+Det+Dem+Sg+Nom: тудт
+    тудт+Det+Dem+Sg+Gen: тунн
+    тудт+Det+Dem+Sg+Acc: тунн
+    тудт+Det+Dem+Sg+Ill: туз
+    тудт+Det+Dem+Sg+Loc: тусьт
+    тудт+Det+Dem+Sg+Com: туйн
+    тудт+Det+Dem+Sg+Abe: туннха
+    тудт+Det+Dem+Sg+Ess: туйн
+##    ке̄#Par?? see field notes
+    тудт+Det+Dem+Pl+Nom: тугк
+    тудт+Det+Dem+Pl+Gen: туйт
+    тудт+Det+Dem+Pl+Acc: туйт
+    тудт+Det+Dem+Pl+Ill: туйт
+    тудт+Det+Dem+Pl+Loc: туйнэнҍ
+    тудт+Det+Dem+Pl+Com: туйтгуэйм
+    тудт+Det+Dem+Pl+Abe: туйтха
+    тудт+Det+Dem+Pl+Ess: туйнэнҍ
+
+
+#MR: Deduced from its actual use in real texts, the common analysis of тэдта / тэгка as Dem+Nom (cf. Kuruč 1985, Sammallahti 1991, Šaršina 2008) is probably wrong. I am here following Kert 1971. тэдта / тэгка should rather be analyzed as 3rd person inanimate pronouns (cf. Finnish se, North Sámi dat).
