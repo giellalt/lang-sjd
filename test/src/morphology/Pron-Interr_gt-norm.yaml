@@ -1,0 +1,52 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+#  Interrogative pronoun animate - ке̄:
+#    ке̄+Pron+Pers+Sg+Nom: ке̄
+#    ке̄+Pron+Pers+Sg+Gen: ке̄нн
+#    ке̄+Pron+Pers+Sg+Acc: ке̄нн
+#    ке̄+Pron+Pers+Sg+Ill: ке̄з
+#    ке̄+Pron+Pers+Sg+Loc: ке̄сьт
+#    ке̄+Pron+Pers+Sg+Com: ке̄йн
+#    ке̄+Pron+Pers+Sg+Abe: ке̄ннха
+#    ке̄+Pron+Pers+Sg+Ess: кейненҍ
+#    ке̄#Par?? see field notes
+#    ке̄+Pron+Pers+Pl+Nom: ке̄гк
+#    ке̄+Pron+Pers+Pl+Gen: ке̄йт
+#    ке̄+Pron+Pers+Pl+Acc: ке̄йт
+#    ке̄+Pron+Pers+Pl+Ill: ке̄йт
+#    ке̄+Pron+Pers+Pl+Loc: ке̄йн
+#    ке̄+Pron+Pers+Pl+Com: ке̄йтгуэйм
+#    ке̄+Pron+Pers+Pl+Abe: ке̄йтха
+#    ке̄ #Pl+Ess?? see Kuruč
+
+#  Interrogative pronoun animate - мӣ:
+#    ке̄+Pron+Pers+Sg+Nom: мӣ
+#    ке̄+Pron+Pers+Sg+Gen: мэ̄нн
+#    ке̄+Pron+Pers+Sg+Acc: мэ̄нн
+#    ке̄+Pron+Pers+Sg+Ill: мэ̄з
+#    ке̄+Pron+Pers+Sg+Loc: ма̄сьт
+#    ке̄+Pron+Pers+Sg+Com: мэ̄йн
+#    ке̄+Pron+Pers+Sg+Abe: мэ̄ннха
+#    ке̄+Pron+Pers+Sg+Ess: 
+#    ке̄#Par?? see field notes
+#    ке̄+Pron+Pers+Pl+Nom: мэ̄гк
+#    ке̄+Pron+Pers+Pl+Gen: мэ̄йт
+#    ке̄+Pron+Pers+Pl+Acc: мэ̄йт
+#    ке̄+Pron+Pers+Pl+Ill: мэ̄йт
+#    ке̄+Pron+Pers+Pl+Loc: мэ̄йн
+#    ке̄+Pron+Pers+Pl+Com: мэ̄йтгуэйм
+#    ке̄+Pron+Pers+Pl+Abe: мэ̄йтха
+#    ке̄ #Pl+Ess?? see Kuruč
