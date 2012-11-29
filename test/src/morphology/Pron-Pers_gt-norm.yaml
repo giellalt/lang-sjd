@@ -30,7 +30,7 @@ Tests:
     мунн+Pron+Pers+Pl+Loc: мӣнэнҍ
     мунн+Pron+Pers+Pl+Com: мӣнэгуэйм
     мунн+Pron+Pers+Pl+Abe: мӣнэха
-    #Pl+Ess?? see Kuruč and Šaršina; I do not believe this form occurs in real texts
+    мунн+Pron+Pers+Pl+Ess: мӣннэнҍ
 
   Personal pronoun 2 - то̄нн:
     то̄нн+Pron+Pers+Sg+Nom: то̄нн
@@ -48,6 +48,7 @@ Tests:
     то̄нн+Pron+Pers+Pl+Loc: тӣнэнҍ
     то̄нн+Pron+Pers+Pl+Com: тӣнэгуэйм
     то̄нн+Pron+Pers+Pl+Abe: тӣнэха
+    то̄нн+Pron+Pers+Pl+Ess: тӣннэнҍ
 
   Personal pronoun 3 - со̄нн:
     со̄нн+Pron+Pers+Sg+Nom: со̄нн
@@ -66,3 +67,4 @@ Tests:
     со̄нн+Pron+Pers+Pl+Loc: сӣнэнҍ
     со̄нн+Pron+Pers+Pl+Com: сӣнэгуэйм
     со̄нн+Pron+Pers+Pl+Abe: сӣнэха
+    со̄нн+Pron+Pers+Pl+Ess: сӣннэнҍ
