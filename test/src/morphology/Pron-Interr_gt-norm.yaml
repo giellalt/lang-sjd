@@ -13,40 +13,44 @@ Tests:
 # Proofread the gold standard (below)
 # Then: run analyser, then correct. 
 
-#  Interrogative pronoun animate - ке̄:
-#    ке̄+Pron+Pers+Sg+Nom: ке̄
-#    ке̄+Pron+Pers+Sg+Gen: ке̄нн
-#    ке̄+Pron+Pers+Sg+Acc: ке̄нн
-#    ке̄+Pron+Pers+Sg+Ill: ке̄з
-#    ке̄+Pron+Pers+Sg+Loc: ке̄сьт
-#    ке̄+Pron+Pers+Sg+Com: ке̄йн
-#    ке̄+Pron+Pers+Sg+Abe: ке̄ннха
-#    ке̄+Pron+Pers+Sg+Ess: кейненҍ
+  Interrogative pronoun animate - ке̄:
+    ке̄+Pron+Interr+Sg+Nom: ке̄
+    ке̄+Pron+Interr+Sg+Gen: ке̄нн
+    ке̄+Pron+Interr+Sg+Acc: ке̄нн
+    ке̄+Pron+Interr+Sg+Ill: ке̄з
+    ке̄+Pron+Interr+Sg+Loc: ке̄сьт
+    ке̄+Pron+Interr+Sg+Com: ке̄йн
+    ке̄+Pron+Interr+Sg+Abe: ке̄ннха
+    ке̄+Pron+Interr+Sg+Ess: ке̄йн
 #    ке̄#Par?? see field notes
-#    ке̄+Pron+Pers+Pl+Nom: ке̄гк
-#    ке̄+Pron+Pers+Pl+Gen: ке̄йт
-#    ке̄+Pron+Pers+Pl+Acc: ке̄йт
-#    ке̄+Pron+Pers+Pl+Ill: ке̄йт
-#    ке̄+Pron+Pers+Pl+Loc: ке̄йн
-#    ке̄+Pron+Pers+Pl+Com: ке̄йтгуэйм
-#    ке̄+Pron+Pers+Pl+Abe: ке̄йтха
-#    ке̄ #Pl+Ess?? see Kuruč
+    ке̄+Pron+Interr+Pl+Nom: ке̄гк
+    ке̄+Pron+Interr+Pl+Gen: ке̄йт
+    ке̄+Pron+Interr+Pl+Acc: ке̄йт
+    ке̄+Pron+Interr+Pl+Ill: ке̄йт
+    ке̄+Pron+Interr+Pl+Loc: ке̄йн
+    ке̄+Pron+Interr+Pl+Com: ке̄йтгуэйм
+    ке̄+Pron+Interr+Pl+Abe: ке̄йтха
+    ке̄+Pron+Interr+Pl+Ess: ке̄йнэнҍ #according to Kert 1971, Kuruč 1985, Šaršina 2008 there is a numeral destinction in Ess
 
-#  Interrogative pronoun animate - мӣ:
-#    ке̄+Pron+Pers+Sg+Nom: мӣ
-#    ке̄+Pron+Pers+Sg+Gen: мэ̄нн
-#    ке̄+Pron+Pers+Sg+Acc: мэ̄нн
-#    ке̄+Pron+Pers+Sg+Ill: мэ̄з
-#    ке̄+Pron+Pers+Sg+Loc: ма̄сьт
-#    ке̄+Pron+Pers+Sg+Com: мэ̄йн
-#    ке̄+Pron+Pers+Sg+Abe: мэ̄ннха
-#    ке̄+Pron+Pers+Sg+Ess: 
-#    ке̄#Par?? see field notes
-#    ке̄+Pron+Pers+Pl+Nom: мэ̄гк
-#    ке̄+Pron+Pers+Pl+Gen: мэ̄йт
-#    ке̄+Pron+Pers+Pl+Acc: мэ̄йт
-#    ке̄+Pron+Pers+Pl+Ill: мэ̄йт
-#    ке̄+Pron+Pers+Pl+Loc: мэ̄йн
-#    ке̄+Pron+Pers+Pl+Com: мэ̄йтгуэйм
-#    ке̄+Pron+Pers+Pl+Abe: мэ̄йтха
-#    ке̄ #Pl+Ess?? see Kuruč
+
+  Interrogative pronoun inanimate - мӣ:
+    мӣ+Pron+Interr+Sg+Nom: мӣ
+    мӣ+Pron+Interr+Sg+Gen: мэ̄нн
+    мӣ+Pron+Interr+Sg+Acc: мэ̄нн
+    мӣ+Pron+Interr+Sg+Ill: мэ̄з
+    мӣ+Pron+Interr+Sg+Loc: ма̄сьт
+    мӣ+Pron+Interr+Sg+Com: мэ̄йн
+    мӣ+Pron+Interr+Sg+Abe: мэ̄ннха
+    мӣ+Pron+Interr+Sg+Ess: мэ̄йн
+#    мӣ#Par?? see field notes
+    мӣ+Pron+Interr+Pl+Nom: мэ̄гк
+    мӣ+Pron+Interr+Pl+Gen: мэ̄йт
+    мӣ+Pron+Interr+Pl+Acc: мэ̄йт
+    мӣ+Pron+Interr+Pl+Ill: мэ̄йт
+    мӣ+Pron+Interr+Pl+Loc: мэ̄йн
+    мӣ+Pron+Interr+Pl+Com: мэ̄йтгуэйм
+    мӣ+Pron+Interr+Pl+Abe: мэ̄йтха
+    мӣ+Pron+Interr+Pl+Ess: мэ̄йнэнҍ #according to Kert 1971, Kuruč 1985, Šaršina 2008 there is a numeral destinction in Ess
+    
+
+#MR: variants with superflous semi-soft sign (мэ̄йнҍ, ке̄йтҍ and the like) are inconsistently used, e.g. in Šaršina 2008, they should not be generated because the generally exepted orthographic rules (both Antonova and Afanas'eva) exclude them.
