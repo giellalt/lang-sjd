@@ -21,36 +21,17 @@ Tests:
     кӯлль+N+Sg+Gen: кӯль
 #    кӯлль+N+Sg+Ill: куэлла
 #    кӯлль+N+Sg+Loc: кӯлесьт
-#    кӯлль+N+Sg+Com: кӯленѣ
-#    кӯлль+N+Ess: кӯлленѣ
+#    кӯлль+N+Sg+Com: кӯленҍ
+#    кӯлль+N+Ess: кӯлленҍ
 #    кӯлль+N+Par: кӯлле
 #    кӯлль+N+Sg+Abe: кӯльха
 #    кӯлль+N+Pl+Nom: кӯль
-#    кӯлль+N+Pl+Acc: кӯлетѣ
-#    кӯлль+N+Pl+Gen: [кӯле, кӯлетѣ]
-#    кӯлль+N+Pl+Ill: кӯлетѣ
-#    кӯлль+N+Pl+Loc: кӯленѣ
+#    кӯлль+N+Pl+Acc: кӯлетҍ
+#    кӯлль+N+Pl+Gen: [кӯле, кӯлетҍ]
+#    кӯлль+N+Pl+Ill: кӯлетҍ
+#    кӯлль+N+Pl+Loc: кӯленҍ
 #    кӯлль+N+Pl+Com: кӯлегуэйм
 #    кӯлль+N+Pl+Abe: кӯлеха
-#
-#  Noun - ме̄рр: 
-#    ме̄рр+N+Sg+Nom: ме̄рр
-#    ме̄рр+N+Sg+Acc: ме̄р
-#    ме̄рр+N+Sg+Gen: ме̄р
-#    ме̄рр+N+Sg+Ill: ме̄рре
-#    ме̄рр+N+Sg+Loc: ме̄рэсьт
-#    ме̄рр+N+Sg+Com: ме̄рэнѣ
-#    ме̄рр+N+Ess: ме̄ррэнѣ
-#    ме̄рр+N+Par: ме̄ррэ
-#    ме̄рр+N+Sg+Abe: ме̄рха
-#    ме̄рр+N+Pl+Nom: ме̄р
-#    ме̄рр+N+Pl+Acc: ме̄рэтѣ
-#    ме̄рр+N+Pl+Gen: [ме̄рэ, ме̄рэтѣ]
-#    ме̄рр+N+Pl+Ill: ме̄рэтѣ
-#    ме̄рр+N+Pl+Loc: ме̄рэнѣ
-#    ме̄рр+N+Pl+Com: ме̄рэгуэйм
-#    ме̄рр+N+Pl+Abe: ме̄рэха
-#
 #
 #  Noun - на̄ххьпь: 
 #    на̄ххьпь+N+Sg+Nom: на̄ххьпь
@@ -58,15 +39,15 @@ Tests:
 #    на̄ххьпь+N+Sg+Gen: на̄пь
 #    на̄ххьпь+N+Sg+Ill: на̄ххпа
 #    на̄ххьпь+N+Sg+Loc: на̄песьт
-#    на̄ххьпь+N+Sg+Com: ноа̄пенѣ
-#    на̄ххьпь+N+Ess: на̄ххьпенѣ
+#    на̄ххьпь+N+Sg+Com: ноа̄пенҍ
+#    на̄ххьпь+N+Ess: на̄ххьпенҍ
 #    на̄ххьпь+N+Par: на̄ххьпе
 #    на̄ххьпь+N+Sg+Abe: на̄пьха
 #    на̄ххьпь+N+Pl+Nom: ноа̄пь
-#    на̄ххьпь+N+Pl+Acc: ноа̄петѣ
-#    на̄ххьпь+N+Pl+Gen: [ноа̄пе, ноа̄петѣ]
-#    на̄ххьпь+N+Pl+Ill: ноа̄петѣ
-#    на̄ххьпь+N+Pl+Loc: ноа̄пенѣ
+#    на̄ххьпь+N+Pl+Acc: ноа̄петҍ
+#    на̄ххьпь+N+Pl+Gen: [ноа̄пе, ноа̄петҍ]
+#    на̄ххьпь+N+Pl+Ill: ноа̄петҍ
+#    на̄ххьпь+N+Pl+Loc: ноа̄пенҍ
 #    на̄ххьпь+N+Pl+Com: ноа̄пегуэйм
 #    на̄ххьпь+N+Pl+Abe: ноа̄пеха
 # 
@@ -81,17 +62,6 @@ Tests:
 #    sollâ+N+Sg+Com: 
 #    sollâ+N+Ess: 
 #    sollâ+N+Pl+Abe: 
-#
-#
-#  Noun - шэ̄ӈӈ: 
-#    sollâ+N+Sg+Nom: 
-#    sollâ+N+Sg+Gen: 
-#    sollâ+N+Sg+Ill: 
-#    sollâ+N+Sg+Loc: 
-#    sollâ+N+Sg+Com: 
-#    sollâ+N+Ess: 
-#    sollâ+N+Pl+Abe: 
-#    
 #
 #  Noun - ыйй: 
 #    kielâ+N+Sg+Nom: 
@@ -128,15 +98,6 @@ Tests:
 #    tullâ+N+Sg+Com: 
 #    tullâ+N+Ess: 
 #    tullâ+N+Pl+Abe: 
-# 
-#  Noun - кӯсс: 
-#    tuppâ+N+Sg+Nom: 
-#    tuppâ+N+Sg+Gen: 
-#    tuppâ+N+Sg+Ill: 
-#    tuppâ+N+Sg+Loc: 
-#    tuppâ+N+Sg+Com: 
-#    tuppâ+N+Ess: 
-#    tuppâ+N+Pl+Abe: 
 # 
 #  Noun - чувв: 
 #    luččâ+N+Sg+Nom: 
@@ -300,7 +261,7 @@ Tests:
 #    teltta+N+Ess: 
 #    teltta+N+Pl+Abe: 
 # 
-#  Noun - ва̄нѣтэсь: 
+#  Noun - ва̄нҍтэсь: 
 #    asto+N+Sg+Nom: 
 #    asto+N+Sg+Gen: 
 #    asto+N+Sg+Ill: 
