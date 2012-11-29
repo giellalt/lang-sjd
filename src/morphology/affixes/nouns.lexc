@@ -115,16 +115,16 @@ LEXICON 4DА
 +N+Sg+Nom:%^WG K ;			 ! Им.
 +N+Sg+Gen:%^DI%>э K ;		 ! Род.
 +N+Sg+Acc:%^WG K ;		 ! Вин.
-+N+Ess:%>энѣ K ;		 ! Превр.
++N+Ess:%>энҍ K ;		 ! Превр.
 +N+Sg+Loc:%^WG%>эсьт K ; ! Местн.
 +N+Sg+Ill:%^DI%>а K ;		 ! Дат.-напр
 +N+Sg+Ela:%^WG%>ха K ;		 ! Лишит.
-+N+Sg+Com:%^WG%>энѣ K ;		 ! Совм.
++N+Sg+Com:%^WG%>энҍ K ;		 ! Совм.
 +N+Par:%>ко K ;			 ! Not in Kuruch
 
 +N+Pl+Nom:%^WG K ;			 ! Им.
-+N+Pl+Acc:%^WG%>этѣ K ;		 ! Вин.
-+N+Pl+Loc:%^WG%>энѣ K ; ! Местн.
++N+Pl+Acc:%^WG%>этҍ K ;		 ! Вин.
++N+Pl+Loc:%^WG%>энҍ K ; ! Местн.
 +N+Pl+Ela:%^WG%>эха K ;		 ! Лишит.
 +N+Pl+Com:%^WG%>эгуэйм K ;		 ! Совм.
 
@@ -142,7 +142,7 @@ LEXICON SgGenAccSuf
 +Sg+Acc: K ;		 ! Вин.
 
 LEXICON EssSuf
-+Ess:%>энѣ K ;		 ! Превр. !check here and elsewhere whether the palatal-mark-deletion-rule is really needed here (it's already included above)
++Ess:%>энҍ K ;		 ! Превр. !check here and elsewhere whether the palatal-mark-deletion-rule is really needed here (it's already included above)
 
 LEXICON ParSuf
 +Par:%>э K ;		 ! Парт.
@@ -169,30 +169,27 @@ LEXICON SgAbeSuf
 +Sg+Abe:%>ха K ;		 ! Лишит.
 
 LEXICON SgComSuf
-+Sg+Com:%>энѣ K ;		 ! Совм.
++Sg+Com:%>энҍ K ;		 ! Совм.
 
 LEXICON PlNomSuf
 +Pl+Nom: K ;			 ! Им.
 
 LEXICON PlGenSuf
 +Pl+Gen:%>э K ;
-+Pl+Gen:%>этѣ K ;!innovative variant identical to PlAccSuf
++Pl+Gen:%>этҍ K ;!innovative variant identical to PlAccSuf
 
 LEXICON PlAccSuf
-+Pl+Acc:%>этѣ K ;		 ! Вин.
++Pl+Acc:%>этҍ K ;		 ! Вин.
 
 LEXICON PlIllSuf
 +Pl+Ill:%>этҍ K ; ! Местн.
 
 LEXICON PlLocSuf
-+Pl+Loc:%>энѣ K ; ! Местн.
++Pl+Loc:%>энҍ K ; ! Местн.
 
 LEXICON PlAbeSuf
 +Pl+Abe:%>эха K ;		 ! Лишит.
 
 LEXICON PlComSuf
 +Pl+Com:%>эгуэйм K ;		 ! Совм.
-
-
-
 
