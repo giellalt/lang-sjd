@@ -27,7 +27,7 @@ Reflexive ;
 ! a = stem му-, то̄-, со̄-
 ! b = stem      тo-, сo-
 ! c = stem мы-, ты-, сы-
-! d = stem мӣ-, тӣ-, сӣ-
+! d = stem мӣ-, тӣ-, сӣ-
 
 LEXICON Personal
 мунн:му  pers_a ;
@@ -49,9 +49,9 @@ LEXICON pers_a
 +Pron+Pers+Sg+Ill:ннӭ K ;
 +Pron+Pers+Sg+Loc:нэсьт K ;
 +Pron+Pers+Sg+Loc:ст K ;
-+Pron+Pers+Sg+Com:нэнѣ K ;
++Pron+Pers+Sg+Com:нэнҍ K ;
 +Pron+Pers+Sg+Abe:нха K ;
-+Pron+Pers+Sg+Ess:ннэнѣ K ;
++Pron+Pers+Sg+Ess:ннэнҍ K ;
 
 LEXICON pers_b
 +Pron+Pers+Sg+Ill:ннӭ K ;
