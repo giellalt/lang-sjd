@@ -1,0 +1,39 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Relative pronoun - кӯ:
+    кӯ+Pron+Rel+Sg+Nom: кӯ
+    кӯ+Pron+Rel+Sg+Gen: ко̄нн
+    кӯ+Pron+Rel+Sg+Acc: ко̄нн
+    кӯ+Pron+Rel+Sg+Ill: [ко̄з,ко̄нн]
+    кӯ+Pron+Rel+Sg+Loc: ко̄ннэсьт
+    кӯ+Pron+Rel+Sg+Com: ко̄йн
+    кӯ+Pron+Rel+Sg+Abe: ко̄ннха
+    кӯ+Pron+Rel+Sg+Ess: ко̄йн
+#    #Par?? see field notes
+    кӯ+Pron+Rel+Pl+Nom: кӯгк
+    кӯ+Pron+Rel+Pl+Gen: ко̄йт
+    кӯ+Pron+Rel+Pl+Acc: ко̄йт
+    кӯ+Pron+Rel+Pl+Ill: ко̄йт
+    кӯ+Pron+Rel+Pl+Loc: ко̄йн
+    кӯ+Pron+Rel+Pl+Com: ко̄йтгуэйм
+    кӯ+Pron+Rel+Pl+Abe: ко̄йтха
+    кӯ+Pron+Rel+Pl+Ess: ко̄йнэнҍ #according to Kert 1971, Kuruč 1985, Šaršina 2008 there is a numeral destinction in Ess
+    
+
+#MR: The obscure variant ко̄нн in Sg+Ess is included because both Kert 1971, Kuruč 1985 and Šaršina 2008 give this form.
+
+#MR: The variants with superflous semi-soft sign (мэ̄йнҍ, ке̄йтҍ and the like) are inconsistently used, e.g. in Šaršina 2008, they should not be generated because the generally exepted orthographic rules (both Antonova and Afanas'eva) exclude them.
