@@ -13,12 +13,9 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-LEXICON Noun !ЛЕКСИКОН существительное
+LEXICON Noun
 
-! This classification follows the grammar from the 
-! Kola Saami Documentation Project, with reference to Kuruch in parentheses.
-
-! класса I
+! class1
 
 шэ̄ӈӈ 1DA "шторм, буря, ураган / strom" ;
 ыйй 1DA "ночь / night" ;

@@ -1,0 +1,36 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - кӯсс: # class1
+    кӯсс+N+Sg+Nom: кӯсс
+    кӯсс+N+Sg+Acc: кӯз
+    кӯсс+N+Sg+Gen: кӯз
+    кӯсс+N+Sg+Ill: кӯссе
+    кӯсс+N+Sg+Loc: кӯзэсьт
+    кӯсс+N+Sg+Com: кӯзэнҍ
+    кӯсс+N+Sg+Abe: кӯзха
+    кӯсс+N+Pl+Nom: кӯз
+    кӯсс+N+Pl+Acc: кӯзэтҍ
+    кӯсс+N+Pl+Gen: [кӯзэ,кӯзэтҍ]
+    кӯсс+N+Pl+Ill: кӯзэтҍ
+    кӯсс+N+Pl+Loc: кӯзэнҍ
+    кӯсс+N+Pl+Com: кӯзэгуэйм
+    кӯсс+N+Pl+Abe: кӯзэха
+    кӯсс+N+Ess: кӯссэнҍ
+    кӯсс+N+Par: кӯссэ
+
+#MR: According to Kert 1971 Sg+Ess and Pl+Ess are syncretic forms. Here I follow the common description of Sámi Essives without a number destinction (like Partitive). Šaršina 2008 presents an obscure synctetism between Pl+Ess and Pl+Com. We will include this form once it is attested in real texts.
