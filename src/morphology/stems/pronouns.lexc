@@ -14,12 +14,34 @@
 
 
 LEXICON Pronoun 
-
+Determiner ;
 Personal ;
 Interrogative ;
 Relative ;
-Demonstrative ;
 Reflexive ;
+
+
+LEXICON Determiner
+тэдт:тэ dem ;
+тудт:ту dem ;
+
+LEXICON dem
++Det+Dem+Sg+Nom:дт K ;
++Det+Dem+Sg+Gen:нн K ;
++Det+Dem+Sg+Acc:нн K ;
++Det+Dem+Sg+Ill:з K ;
++Det+Dem+Sg+Loc:сьт K ;
++Det+Dem+Sg+Com:йн K ;
++Det+Dem+Sg+Abe:ннха K ;
++Det+Dem+Sg+Ess:йн K ;
++Det+Dem+Pl+Nom:гк K ;
++Det+Dem+Pl+Gen:йт K ;
++Det+Dem+Pl+Acc:йт K ;
++Det+Dem+Pl+Ill:йт K ;
++Det+Dem+Pl+Loc:йнэнҍ K ;
++Det+Dem+Pl+Com:йтгуэйм K ;
++Det+Dem+Pl+Abe:йтха K ;
++Det+Dem+Pl+Ess:йнэнҍ K ;
 
 
 ! Personal pronouns
@@ -30,17 +52,17 @@ Reflexive ;
 ! d = stem мӣ-, тӣ-, сӣ-
 
 LEXICON Personal
-мунн:му  pers_a ;
-то̄нн:то̄  pers_a ;
-со̄нн:со̄  pers_a ;
-то̄нн:то  pers_b ;
-со̄нн:со  pers_b ;
-мунн:мы  pers_c ;
-то̄нн:ты  pers_c ;
-со̄нн:сы  pers_c ;
-мунн:мӣ  pers_d ;
-то̄нн:тӣ  pers_d ;
-со̄нн:сӣ  pers_d ;
+мунн:му pers_a ;
+то̄нн:то̄ pers_a ;
+со̄нн:со̄ pers_a ;
+то̄нн:то pers_b ;
+со̄нн:со pers_b ;
+мунн:мы pers_c ;
+то̄нн:ты pers_c ;
+со̄нн:сы pers_c ;
+мунн:мӣ pers_d ;
+то̄нн:тӣ pers_d ;
+со̄нн:сӣ pers_d ;
 
 LEXICON pers_a
 +Pron+Pers+Sg+Nom:нн K ;
@@ -150,26 +172,6 @@ LEXICON rel_b
 +Pron+Rel+Pl+Com:йтгуэйм K ;
 +Pron+Rel+Pl+Abe:йтха K ;
 +Pron+Rel+Pl+Ess:йнэнҍ K ;
-
-
-LEXICON Demonstrative
-тэдта:тэ dem ;
-
-LEXICON dem
-+Pron+Dem+Sg+Nom:дта K ;
-+Pron+Dem+Sg+Gen:нн K ;
-+Pron+Dem+Sg+Acc:нн K ;
-+Pron+Dem+Sg+Ill:з K ;
-+Pron+Dem+Sg+Loc:сьт K ;
-+Pron+Dem+Sg+Com:йн K ;
-+Pron+Dem+Sg+Abe:ннха K ;
-+Pron+Dem+Pl+Nom:гка K ;
-+Pron+Dem+Pl+Gen:йт K ;
-+Pron+Dem+Pl+Acc:йт K ;
-+Pron+Dem+Pl+Ill:йт K ;
-+Pron+Dem+Pl+Loc:йнэнҍ K ;
-+Pron+Dem+Pl+Com:йтгуэйм K ;
-+Pron+Dem+Pl+Abe:йтха K ;
 
 
 LEXICON Reflexive
