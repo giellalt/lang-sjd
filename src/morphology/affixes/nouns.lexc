@@ -12,28 +12,25 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-
-
-
-! ---------
-! Noun inflection
-! ---------
+! --------------- !
+! Noun inflection !
+! --------------- !
 
 LEXICON OAHPA_N
 1DA ; ! Just pointing it on to the first and best
 
-LEXICON 1DA !"1st class", non-palatalized geminate, no ablaut/umlaut, palatalization in Ill.Sg
+LEXICON 1DA !"class1", monosyllabic, non-palatalized, str-wk, no ablaut/umlaut, palatalization in Ill.Sg
 
-+N:       SgNomSuf ;	! Им.
-+N:%^WG   SgGenAccSuf ;	! Род., Вин.
-+N:%^DI   SgIllSufJE ;	! Дат.-напр
-+N:%^WG SgLocSuf ;    ! Местн.
-+N:%^WG   SgAbeSuf ;	! Лишит.
-+N:%^WG SgComSuf ;	! Совм.
-+N:     EssSuf ;		! Превр.
-+N:     ParSuf ;		! Парт.
++N:     SgNomSuf ;
++N:%^WG SgGenAccSuf ;
++N:%^DI SgIllSufJE ;
++N:%^WG SgLocSuf ;
++N:%^WG SgAbeSuf ;
++N:%^WG SgComSuf ;
++N:     EssSuf ;
++N:     ParSuf ;
   
-+N:%^WG   PlNomSuf ;    ! Им.
++N:%^WG PlNomSuf ;    ! Им.
 +N:%^WG PlGenSuf ;	! Вин.
 +N:%^WG PlAccSuf ;	! Вин.
 +N:%^WG PlIllSuf ;    ! Местн.
@@ -178,7 +175,8 @@ LEXICON PlNomSuf
 +Pl+Nom: K ;			 ! Им.
 
 LEXICON PlGenSuf
-+Pl+Gen:%>этѣ K ;		 ! Род. (ES: PlGen = этѣ)
++Pl+Gen:%>э K ;
++Pl+Gen:%>этѣ K ;!innovative variant identical to PlAccSuf
 
 LEXICON PlAccSuf
 +Pl+Acc:%>этѣ K ;		 ! Вин.
