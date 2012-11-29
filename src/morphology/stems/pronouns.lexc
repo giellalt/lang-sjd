@@ -25,6 +25,7 @@ LEXICON Determiner
 тэдт:тэ dem ;
 тудт:ту dem ;
 
+
 LEXICON dem
 +Det+Dem+Sg+Nom:дт K ;
 +Det+Dem+Sg+Gen:нн K ;
@@ -98,12 +99,15 @@ LEXICON pers_d
 ! a = stem ке̄-, мӣ-
 ! b = stem мэ̄-
 ! c = stem ма̄-
+! d = stem коамп-
 
 LEXICON Interrogative
 ке̄:ке̄ interr_a ;
 мӣ:мӣ interr_a ;
 мӣ:мэ̄ interr_b ;
 мӣ:ма̄ interr_c ;
+ке̄:коампэ interr_d ;
+
 
 LEXICON interr_a
 +Pron+Interr+Sg+Nom: K ;
@@ -141,6 +145,14 @@ LEXICON interr_b
 
 LEXICON interr_c
 +Pron+Interr+Sg+Loc:сьт K ;
+
+LEXICON interr_d
++Pron+Interr+Du+Nom: K ;
++Pron+Interr+Du+Loc:сьт K ;
++Pron+Interr+Du+Com:нҍ K ;
++Pron+Interr+Du+Abe:ха K ;
+! what about other case forms?
+! what about коампнессе, коампнезэсьт, коампнезэ?
 
 
 ! Relative pronoun
