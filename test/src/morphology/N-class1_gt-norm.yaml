@@ -15,7 +15,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - кӯсс: # class1
+  Noun - кӯсс:
     кӯсс+N+Sg+Nom: кӯсс
     кӯсс+N+Sg+Acc: кӯз
     кӯсс+N+Sg+Gen: кӯз
@@ -32,5 +32,24 @@ Tests:
     кӯсс+N+Pl+Abe: кӯзэха
     кӯсс+N+Ess: кӯссэнҍ
     кӯсс+N+Par: кӯссэ
+
+  Noun - ме̄рр: 
+    ме̄рр+N+Sg+Nom: ме̄рр
+    ме̄рр+N+Sg+Acc: ме̄р
+    ме̄рр+N+Sg+Gen: ме̄р
+    ме̄рр+N+Sg+Ill: ме̄рре
+    ме̄рр+N+Sg+Loc: ме̄рэсьт
+    ме̄рр+N+Sg+Com: ме̄рэнҍ
+    ме̄рр+N+Sg+Abe: ме̄рха
+    ме̄рр+N+Pl+Nom: ме̄р
+    ме̄рр+N+Pl+Acc: ме̄рэтҍ
+    ме̄рр+N+Pl+Gen: [ме̄рэ,ме̄рэтҍ]
+    ме̄рр+N+Pl+Ill: ме̄рэтҍ
+    ме̄рр+N+Pl+Loc: ме̄рэнҍ
+    ме̄рр+N+Pl+Com: ме̄рэгуэйм
+    ме̄рр+N+Pl+Abe: ме̄рэха
+    ме̄рр+N+Ess: ме̄ррэнҍ
+    ме̄рр+N+Par: ме̄ррэ
+
 
 #MR: According to Kert 1971 Sg+Ess and Pl+Ess are syncretic forms. Here I follow the common description of Sámi Essives without a number destinction (like Partitive). Šaršina 2008 presents an obscure synctetism between Pl+Ess and Pl+Com. We will include this form once it is attested in real texts.
