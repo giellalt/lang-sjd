@@ -16,8 +16,8 @@
 LEXICON Pronoun 
 
 Personal ;
-Demonstrative ;
 Interrogative ;
+Demonstrative ;
 Relative ;
 Reflexive ;
 
@@ -69,73 +69,76 @@ LEXICON pers_d
 +Pron+Pers+Pl+Com:нэгуэйм K ;
 +Pron+Pers+Pl+Abe:нэха K ; 
 
+
+! Interrogative pronouns
+! ======================
+! a = stem ке̄-, мӣ-
+! b = stem мэ̄-
+! c = stem ма̄-
+
+LEXICON Interrogative
+ке̄:ке̄ interr_a ;
+мӣ:мӣ interr_a ;
+мӣ:мэ̄ interr_b ;
+мӣ:ма̄ interr_c ;
+
+LEXICON interr_a
++Pron+Interr+Sg+Nom: K ;
++Pron+Interr+Sg+Gen:нн K ;
++Pron+Interr+Sg+Acc:нн K ;
++Pron+Interr+Sg+Ill:з K ;
++Pron+Interr+Sg+Loc:сьт K ;
++Pron+Interr+Sg+Com:йн K ;
++Pron+Interr+Sg+Abe:ннха K ;
++Pron+Interr+Sg+Ess:йн K ;
++Pron+Interr+Pl+Nom:гк K ;
++Pron+Interr+Pl+Gen:йт K ;
++Pron+Interr+Pl+Acc:йт K ;
++Pron+Interr+Pl+Ill:йт K ;
++Pron+Interr+Pl+Loc:йн K ;
++Pron+Interr+Pl+Com:йтгуэйм K ;
++Pron+Interr+Pl+Abe:йтха K ;
++Pron+Interr+Pl+Ess:йнэнҍ K ;
+
+LEXICON interr_b
++Pron+Interr+Sg+Gen:нн K ;
++Pron+Interr+Sg+Acc:нн K ;
++Pron+Interr+Sg+Ill:з K ;
++Pron+Interr+Sg+Com:йн K ;
++Pron+Interr+Sg+Abe:ннха K ;
++Pron+Interr+Sg+Ess:йн K ;
++Pron+Interr+Pl+Nom:гк K ;
++Pron+Interr+Pl+Gen:йт K ;
++Pron+Interr+Pl+Acc:йт K ;
++Pron+Interr+Pl+Ill:йт K ;
++Pron+Interr+Pl+Loc:йн K ;
++Pron+Interr+Pl+Com:йтгуэйм K ;
++Pron+Interr+Pl+Abe:йтха K ;
++Pron+Interr+Pl+Ess:йнэнҍ K ;
+
+LEXICON interr_c
++Pron+Interr+Sg+Loc:сьт K ;
+
+
 LEXICON Demonstrative
 тэдта:тэ dem ;
 
 LEXICON dem
-+Pron+Dem+Sg+Nom:дта # ;
-+Pron+Dem+Sg+Gen:нн # ;
-+Pron+Dem+Sg+Acc:нн # ;
-+Pron+Dem+Sg+Ill:з # ;
-+Pron+Dem+Sg+Loc:сьт # ;
-+Pron+Dem+Sg+Com:йн # ;
-+Pron+Dem+Sg+Abe:ннха # ;
-+Pron+Dem+Pl+Nom:гка # ;
-+Pron+Dem+Pl+Gen:йт # ;
-+Pron+Dem+Pl+Acc:йт # ;
-+Pron+Dem+Pl+Ill:йт # ;
-+Pron+Dem+Pl+Loc:йнэнҍ # ;
-+Pron+Dem+Pl+Com:йтгуэйм # ;
-+Pron+Dem+Pl+Abe:йтха # ;
++Pron+Dem+Sg+Nom:дта K ;
++Pron+Dem+Sg+Gen:нн K ;
++Pron+Dem+Sg+Acc:нн K ;
++Pron+Dem+Sg+Ill:з K ;
++Pron+Dem+Sg+Loc:сьт K ;
++Pron+Dem+Sg+Com:йн K ;
++Pron+Dem+Sg+Abe:ннха K ;
++Pron+Dem+Pl+Nom:гка K ;
++Pron+Dem+Pl+Gen:йт K ;
++Pron+Dem+Pl+Acc:йт K ;
++Pron+Dem+Pl+Ill:йт K ;
++Pron+Dem+Pl+Loc:йнэнҍ K ;
++Pron+Dem+Pl+Com:йтгуэйм K ;
++Pron+Dem+Pl+Abe:йтха K ;
 
-! Interrogative pronouns
-! ======================
-! a	= stem ке̄- 
-! b = stem мӣ- 
-! c = stem мӣ- -> мэ̄-
-! d = stem мӣ- -> ма̄-
-
-LEXICON Interrogative
-ке̄:ке̄ interr_a ;
-мӣ:мӣ interr_b ;
-мӣ:мэ̄ interr_c ;
-мӣ:ма̄ interr_d ;
-
-LEXICON interr_a
-+Pron+Interr+Sg+Nom: # ;
-+Pron+Interr+Sg+Gen:нн # ;
-+Pron+Interr+Sg+Acc:нн # ;
-+Pron+Interr+Sg+Ill:з # ;
-+Pron+Interr+Sg+Loc:сьт # ;
-+Pron+Interr+Sg+Com:йн # ;
-+Pron+Interr+Sg+Abe:ннха # ;
-+Pron+Interr+Pl+Nom:гк # ;
-+Pron+Interr+Pl+Gen:йт # ;
-+Pron+Interr+Pl+Acc:йт # ;
-+Pron+Interr+Pl+Ill:йт # ;
-+Pron+Interr+Pl+Loc:йн # ;
-+Pron+Interr+Pl+Com:йтгуэйм # ;
-+Pron+Interr+Pl+Abe:йтха # ;
-
-LEXICON interr_b
-+Pron+Interr+Sg+Nom: # ;
-
-LEXICON interr_c
-+Pron+Interr+Sg+Gen:нн # ;
-+Pron+Interr+Sg+Acc:нн # ;
-+Pron+Interr+Sg+Ill:з # ;
-+Pron+Interr+Sg+Com:йн # ;
-+Pron+Interr+Sg+Abe:ннха # ;
-+Pron+Interr+Pl+Nom:гк # ;
-+Pron+Interr+Pl+Gen:йт # ;
-+Pron+Interr+Pl+Acc:йт # ;
-+Pron+Interr+Pl+Ill:йт # ;
-+Pron+Interr+Pl+Loc:йн # ;
-+Pron+Interr+Pl+Com:йтгуэйм # ;
-+Pron+Interr+Pl+Abe:йтха # ;
-
-LEXICON interr_d
-+Pron+Interr+Sg+Loc:сьт # ;
 
 ! Relative pronoun
 ! =================
@@ -147,35 +150,35 @@ LEXICON Relative
 кӯ:ко̄  rel_b ;
 
 LEXICON rel_a
-+Pron+Rel+Sg+Nom: # ;
++Pron+Rel+Sg+Nom: K ;
 
 LEXICON rel_b
-+Pron+Rel+Sg+Gen:нн # ;
-+Pron+Rel+Sg+Acc:нн # ;
-+Pron+Rel+Sg+Ill:з # ;
-+Pron+Rel+Sg+Loc:ннэсьт # ;
-+Pron+Rel+Sg+Com:йн # ;
-+Pron+Rel+Sg+Abe:ннха # ;
-+Pron+Rel+Pl+Nom:гк # ;
-+Pron+Rel+Pl+Gen:йт # ;
-+Pron+Rel+Pl+Acc:йт # ;
-+Pron+Rel+Pl+Ill:йт # ;
-+Pron+Rel+Pl+Loc:йн # ;
-+Pron+Rel+Pl+Com:йтгуэйм # ;
-+Pron+Rel+Pl+Abe:йтха # ;
++Pron+Rel+Sg+Gen:нн K ;
++Pron+Rel+Sg+Acc:нн K ;
++Pron+Rel+Sg+Ill:з K ;
++Pron+Rel+Sg+Loc:ннэсьт K ;
++Pron+Rel+Sg+Com:йн K ;
++Pron+Rel+Sg+Abe:ннха K ;
++Pron+Rel+Pl+Nom:гк K ;
++Pron+Rel+Pl+Gen:йт K ;
++Pron+Rel+Pl+Acc:йт K ;
++Pron+Rel+Pl+Ill:йт K ;
++Pron+Rel+Pl+Loc:йн K ;
++Pron+Rel+Pl+Com:йтгуэйм K ;
++Pron+Rel+Pl+Abe:йтха K ;
 
 LEXICON Reflexive
 ӣджь+Pron+Refl:ӣджь STRONGREFL ;
 ӣджь+Pron+Refl:ӣжь WEAKREFL ;
 
 LEXICON STRONGREFL
-+Pron+Refl+Sg+Nom: # ;
++Pron+Refl+Sg+Nom: K ;
 +Pron+Refl+Ess:%>на PERSREFLSG ;
 +Pron+Refl+Ess:%>ена PERSREFLPL ;  
 +Pron+Refl+Ill:%>с PERSREFLSG ;
  
 LEXICON WEAKREFL 
-+Pron+Refl+Pl+Nom:%>а # ;
++Pron+Refl+Pl+Nom:%>а K ;
 +Pron+Refl+Gen: PERSREFLSG ;
 +Pron+Refl+Acc: PERSREFLSG ;
 +Pron+Refl+Loc:%>с PERSREFLSG ;
@@ -213,13 +216,5 @@ LEXICON PERSREFLPLCOM
 +Pron+Refl+Pl2:%>антгуэйм # ;
 +Pron+Refl+Pl3:%>есьгуэйм # ;
 
-
-
-
-
-
-
-
-
-
-
+END
+Since pronouns can be followed by clitics (like =ше and the like) the rules above do not end with #; for reflexive pronouns, this has to be checked
