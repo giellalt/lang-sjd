@@ -27,7 +27,7 @@ Alphabet
   ф Ф х Х ц Ц ч Ч ш Ш щ Щ ъ Ъ 
   ы Ы ь Ь ҍ Ҍ э Э ӭ Ӭ э̄ Э̄ ю Ю 
   ю̄ Ю̄ я Я я̄ Я̄ 
-! сс:с vs. сс:з (last one is already defined as a rule below)
+! сс:с vs. сс:з (only last one is already defined as a rule below)
 
   %´:0 
   %,:%´
@@ -48,7 +48,7 @@ Alphabet
 ! Morpheme boundaries:
  «  ! Derivational prefix
  »  ! Derivational suffix
- %< ! Inflectional prefx
+ %< ! Inflectional prefix
  %> ! Inflectional suffix
  #  ! Word boundary for both lexicalised and dynamic compounds
  %^ ! (exceptional) soft hyphenation point
