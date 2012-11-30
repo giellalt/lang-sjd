@@ -51,5 +51,25 @@ Tests:
     ме̄рр+N+Ess: ме̄ррэнҍ
     ме̄рр+N+Par: ме̄ррэ
 
+  Noun - эхтнэгк: #"союз - union" 
+    эхтнэгк+N+Sg+Nom: эхтнэгк
+    эхтнэгк+N+Sg+Gen: эхтнэг
+    эхтнэгк+N+Sg+Acc: эхтнэг
+    эхтнэгк+N+Sg+Ill: эхтнэгке
+    эхтнэгк+N+Sg+Loc: эхтнэгэсьт
+    эхтнэгк+N+Sg+Com: эхтнэгэнҍ
+    эхтнэгк+N+Sg+Abe: эхтнэгха
+    эхтнэгк+N+Pl+Nom: эхтнэг
+    эхтнэгк+N+Pl+Gen: [эхтнэгэ,эхтнэгэтҍ]
+    эхтнэгк+N+Pl+Acc: эхтнэгэтҍ
+    эхтнэгк+N+Pl+Ill: эхтнэгэтҍ
+    эхтнэгк+N+Pl+Loc: эхтнэгэнҍ
+    эхтнэгк+N+Pl+Com: эхтнэгэгуэйм
+    эхтнэгк+N+Pl+Abe: эхтнэгэха
+    эхтнэгк+N+Ess: эхтнэгкэнҍ
+    эхтнэгк+N+Par: эхтнэгкэ
+
+#NOTES (to be collected in a separate file later)
+#MR: The inflection foot (=suffix -нэгк) is monosyllabic. Hence multi-syllabic words can also belong to the present class; in a morphophonologically more accurate description we would assign the inflection class (and the consequent fst rules) just to the suffix part. However, in a learner dictionary each lexeme derived by this suffix needs to be tagged for class and paradigms have to be generated for the whole lexeme with its actual translation (rather than abstract glossing: эхт-нэгк [one-SUBSTANTIVIZER:INFLECTION]).
 
 #MR: According to Kert 1971 Sg+Ess and Pl+Ess are syncretic forms. Here I follow the common description of Sámi Essives without a number destinction (like Partitive). Šaršina 2008 presents an obscure synctetism between Pl+Ess and Pl+Com. We will include this form once it is attested in real texts.
