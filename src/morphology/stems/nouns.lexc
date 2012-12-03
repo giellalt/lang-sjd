@@ -23,6 +23,7 @@ LEXICON Noun
 мырр 1DA ;
 шэ̄ӈӈ 1DA "шторм / storm" ;
 чувв 1DA "свет / light" ;
+ылл 1DA "уголь / coal" ;
 эхтнэгк 1DA "союз / union" ;
 пя̄йвнэгк 1DA "солнечная погода / sunny weather" ;
 са̄рнэгк 1DA ;
@@ -39,7 +40,6 @@ LEXICON Noun
 
 
 ыйй 1DA "ночь / night" ;
-ылл 1DA "уголь / coal" ;
 ыгкь 1DA "год / year" ; 
 кӯлль 1DA "рыба / fish" ; ! lang u->ue
 !аджь 1DA "отец / father" ;
@@ -440,7 +440,6 @@ āййк 2D "срок, пора / time" ;
 ра̄ввт OAHPA_N ;
 ню̄ввт OAHPA_N ;
 нарэдт OAHPA_N ;
-ма̄ййт OAHPA_N ;
 лоаййт OAHPA_N ;
 е̄дант OAHPA_N ;
 уйнант OAHPA_N ;
