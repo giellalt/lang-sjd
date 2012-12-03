@@ -106,6 +106,14 @@ Tests:
     ка̄ннҍцвудт+N+Par: ка̄ннҍцвудтэ
 
 
+  Noun - ыйй: #"ночь / night" 
+    ыйй+N+Sg+Nom: ыйй
+    ыйй+N+Sg+Gen: ый
+    ыйй+N+Sg+Acc: ый
+#    ыйй+N+Sg+Ill: ыйе
+    ыйй+N+Sg+Loc: ыйесьт
+
+
 #NOTES (to be collected in a separate file later)
 #MR: The inflection foot (=suffix -нэгк) is monosyllabic. Hence multi-syllabic words can also belong to the present class; in a morphophonologically more accurate description we would assign the inflection class (and the consequent fst rules) just to the suffix part. However, in a learner dictionary each lexeme derived by this suffix needs to be tagged for class and paradigms have to be generated for the whole lexeme with its actual translation (rather than abstract glossing: эхт-нэгк [one-SUBSTANTIVIZER:INFLECTION]).
 
