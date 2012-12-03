@@ -69,6 +69,43 @@ Tests:
     эхтнэгк+N+Ess: эхтнэгкэнҍ
     эхтнэгк+N+Par: эхтнэгкэ
 
+  Noun - кӣдт: #"рука / hand, arm" 
+    кӣдт+N+Sg+Nom: кӣдт
+    кӣдт+N+Sg+Gen: кӣд
+    кӣдт+N+Sg+Acc: кӣд
+    кӣдт+N+Sg+Ill: кӣдтӭ
+    кӣдт+N+Sg+Loc: кӣдэсьт
+    кӣдт+N+Sg+Com: кӣдэнҍ
+    кӣдт+N+Sg+Abe: кӣдха
+    кӣдт+N+Pl+Nom: кӣд
+    кӣдт+N+Pl+Gen: [кӣдэ,кӣдэтҍ]
+    кӣдт+N+Pl+Acc: кӣдэтҍ
+    кӣдт+N+Pl+Ill: кӣдэтҍ
+    кӣдт+N+Pl+Loc: кӣдэнҍ
+    кӣдт+N+Pl+Com: кӣдэгуэйм
+    кӣдт+N+Pl+Abe: кӣдэха
+    кӣдт+N+Ess: кӣдтэнҍ
+    кӣдт+N+Par: кӣдтэ
+
+  Noun - ка̄ннҍцвудт: #"рука / hand, arm" 
+    ка̄ннҍцвудт+N+Sg+Nom: ка̄ннҍцвудт
+    ка̄ннҍцвудт+N+Sg+Gen: ка̄ннҍцвуд
+    ка̄ннҍцвудт+N+Sg+Acc: ка̄ннҍцвуд
+    ка̄ннҍцвудт+N+Sg+Ill: ка̄ннҍцвудтӭ
+    ка̄ннҍцвудт+N+Sg+Loc: ка̄ннҍцвудэсьт
+    ка̄ннҍцвудт+N+Sg+Com: ка̄ннҍцвудэнҍ
+    ка̄ннҍцвудт+N+Sg+Abe: ка̄ннҍцвудха
+    ка̄ннҍцвудт+N+Pl+Nom: ка̄ннҍцвуд
+    ка̄ннҍцвудт+N+Pl+Gen: [ка̄ннҍцвудэ,ка̄ннҍцвудэтҍ]
+    ка̄ннҍцвудт+N+Pl+Acc: ка̄ннҍцвудэтҍ
+    ка̄ннҍцвудт+N+Pl+Ill: ка̄ннҍцвудэтҍ
+    ка̄ннҍцвудт+N+Pl+Loc: ка̄ннҍцвудэнҍ
+    ка̄ннҍцвудт+N+Pl+Com: ка̄ннҍцвудэгуэйм
+    ка̄ннҍцвудт+N+Pl+Abe: ка̄ннҍцвудэха
+    ка̄ннҍцвудт+N+Ess: ка̄ннҍцвудтэнҍ
+    ка̄ннҍцвудт+N+Par: ка̄ннҍцвудтэ
+
+
 #NOTES (to be collected in a separate file later)
 #MR: The inflection foot (=suffix -нэгк) is monosyllabic. Hence multi-syllabic words can also belong to the present class; in a morphophonologically more accurate description we would assign the inflection class (and the consequent fst rules) just to the suffix part. However, in a learner dictionary each lexeme derived by this suffix needs to be tagged for class and paradigms have to be generated for the whole lexeme with its actual translation (rather than abstract glossing: эхт-нэгк [one-SUBSTANTIVIZER:INFLECTION]).
 

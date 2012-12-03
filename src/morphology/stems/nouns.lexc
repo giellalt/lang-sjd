@@ -16,10 +16,13 @@
 LEXICON Noun
 
 ! class1
-кӯсс 1DA "ель / fir" ;
-ме̄рр 1DA "море / sea" ;
+кӯсс 1DA "ель / fir" ;!xx-->y NEEDS a new subclass later, cf. сс-->с
+
+ме̄рр 1DA "море / sea" ;!хх-->x
 мӯрр 1DA "дерево / tree" ;
 мырр 1DA ;
+шэ̄ӈӈ 1DA "шторм / storm" ;
+чувв 1DA "свет / light" ;
 эхтнэгк 1DA "союз / union" ;
 пя̄йвнэгк 1DA "солнечная погода / sunny weather" ;
 са̄рнэгк 1DA ;
@@ -30,21 +33,21 @@ LEXICON Noun
 коа̄ххплэгк 1DA ;
 кӣдткоаллдэгк 1DA ;
 
+! class1 [orth. дт/ill. ӭ]
+кӣдт 1DB "рука / hand, arm" ;!xx-->x
+ка̄ннҍцвудт 1DB "дружба / friendship" ;
 
-шэ̄ӈӈ 1DA "шторм, буря, ураган / strom" ;
+
 ыйй 1DA "ночь / night" ;
 ылл 1DA "уголь / coal" ;
-чувв 1DA "свет / light" ;
 ыгкь 1DA "год / year" ; 
 кӯлль 1DA "рыба / fish" ; ! lang u->ue
 !аджь 1DA "отец / father" ;
 !на̄һпь 1DA "чашка / cup" ; ! spelling variant на̄ххьп (in Kert 1986 [and the Aнтонова system])
 !пуадтмушш 1DA "приход / arrival" ; !only the productive DerSx -мушш should be listed
-!ка̄ннѣцвудт 1DA "дружба / friendship" ; !only the productive DerSx -вудт should be listed
 ка̄ррь 1DA "посуда / dish" ;
 кēджь 1DA "конец / end" ;
 
-кӣдт 1DB "рука / hand, arm" ;
 
 
 
@@ -80,7 +83,7 @@ āййк 2D "срок, пора / time" ;
 ! 5. declension (classes 4, 6, 9)
 чӣгар:чӣгкар 5D "стадо / herd | flock" ; ! no Nom generated!
 коавас:ко̄ввас 5D "кувакса / Saami tent" ; ! no Nom generated!
-ва̄нѣтэсь:ва̄ннтас 5D "обруг / (barrel) hoop" ;! no Nom generated!
+ва̄нҍтэсь:ва̄ннтас 5D "обруг / (barrel) hoop" ;! no Nom generated!
 вэнс:вэ̄ннас 5D "лодка / boat" ;! no Nom generated!
 нызан 5D "женщина / woman" ;
 карънэль 5D "локоть / elbow" ;

@@ -16,10 +16,8 @@
 ! Noun inflection !
 ! --------------- !
 
-LEXICON OAHPA_N
-1DA ; ! Just pointing it on to the first and best
-
-LEXICON 1DA !"class1", monosyllabic, non-palatalized, str-wk, no ablaut/umlaut, palatalization in Ill.Sg
+!"class1" = monosyllabic/non-palatalized inflection foot, str-wk, no ablaut/umlaut, palatalization in Ill.Sg
+LEXICON 1DA !=orthographic subclass with xx-->x
 
 +N:     SgNomSuf ;
 +N:%^WG SgGenAccSuf ;
@@ -31,33 +29,33 @@ LEXICON 1DA !"class1", monosyllabic, non-palatalized, str-wk, no ablaut/umlaut, 
 +N:     EssSuf ;
 +N:     ParSuf ;
   
-+N:%^WG PlNomSuf ;    ! Им.
-+N:%^WG PlGenSuf ;	! Вин.
-+N:%^WG PlAccSuf ;	! Вин.
-+N:%^WG PlIllSuf ;    ! Местн.
-+N:%^WG PlLocSuf ;    ! Местн.
-+N:%^WG PlAbeSuf ;	! Лишит.
-+N:%^WG PlComSuf ;	! Совм.
++N:%^WG PlNomSuf ;
++N:%^WG PlGenSuf ;
++N:%^WG PlAccSuf ;
++N:%^WG PlIllSuf ;
++N:%^WG PlLocSuf ;
++N:%^WG PlAbeSuf ;
++N:%^WG PlComSuf ;
 
-LEXICON 1DB !"1st class", non-palatalized geminate, no ablaut/umlaut, "half-palatalization" in Ill.Sg
-!!OBS!! SgIllSufJE vs. SgIllSufHalfE / ParSuf vs. ParSufHalfE do not mark true subclasses, but for е vs. ӭ I'll later write a rule.
+LEXICON 1DB !=orthographic subclass with xy-->x and "half-palatalization" in Ill.Sg; !OBS! SgIllSufJE vs. SgIllSufHalfE does not mark a true morphological subclass, but is due to orthographic conventions
 
-+N:       SgNomSuf ; 
-+N:%^WG   SgGenAccSuf ;	
-+N:%^DI   SgIllSufHalfE ; 
-+N:%^WG SgLocSuf ; 
-+N:%^WG   SgAbeSuf ; 
-+N:%^WG SgComSuf ; 
-+N:     EssSuf ; 
-+N:     ParSufHalfE ; 
++N:     SgNomSuf ;
++N:%^WG SgGenAccSuf ;
+!+N:%^DI   SgIllSufHalfE ; %^DI? is a "placeholder"? I have to check why we needed this in the earlier version
++N:     SgIllSufHalfE ;
++N:%^WG SgLocSuf ;
++N:%^WG SgAbeSuf ;
++N:%^WG SgComSuf ;
++N:     EssSuf ;
++N:     ParSuf ;
   
-+N:%^WG   PlNomSuf ; 
-+N:%^WG PlGenSuf ; 
-+N:%^WG PlAccSuf ; 
-+N:%^WG PlIllSuf ; 
-+N:%^WG PlLocSuf ; 
-+N:%^WG PlAbeSuf ; 
-+N:%^WG PlComSuf ; 
++N:%^WG PlNomSuf ;
++N:%^WG PlGenSuf ;
++N:%^WG PlAccSuf ;
++N:%^WG PlIllSuf ;
++N:%^WG PlLocSuf ;
++N:%^WG PlAbeSuf ;
++N:%^WG PlComSuf ;
 
 ! these are just dummy for the moment
 LEXICON 2D ! like 1D ?
@@ -131,6 +129,9 @@ LEXICON 4DА
 
 LEXICON 5D
 1DA ;
+
+LEXICON OAHPA_N
+1DA ; ! Just pointing it on to the first and best
 
 
 ! Case affixes
