@@ -24,6 +24,7 @@ LEXICON Noun
 шэ̄ӈӈ 1DA "шторм / storm" ;
 чувв 1DA "свет / light" ;
 ылл 1DA "уголь / coal" ;
+ёгк 1DA "река / river" ;
 эхтнэгк 1DA "союз / union" ;
 пя̄йвнэгк 1DA "солнечная погода / sunny weather" ;
 са̄рнэгк 1DA ;
@@ -34,6 +35,22 @@ LEXICON Noun
 коа̄ххплэгк 1DA ;
 кӣдткоаллдэгк 1DA ;
 пуадтмушш 1DA "приход / arrival" ;
+кӯттҍкпоавчсэмушш 1DA ;
+ке̄ххьпнэсспоаввчсэмушш 1DA ;
+вуэпьсемушш 1DA ;
+мушштъемушш 1DA ;
+вуэллнэмушш 1DA ;
+вӣгкхуввмушш 1DA ;
+вуэсстлэмушш 1DA ;
+лоа̄ткнэмушш 1DA ;
+поа̄вчсэмушш 1DA ;
+вуэпьсуввмушш 1DA ;
+ло̄гктэдтмушш 1DA ;
+луннтнэнтмушш 1DA ;
+пе̄ййвпоррмушш 1DA ;
+е̄кесьпоррмушш 1DA ;
+ӣнцэсьпоррмушш 1DA ;
+вэ̄ррпэ̄ййнэмушш 1DA ;
 
 ! class1 [orth. дт/ill. ӭ]
 кӣдт 1DB "рука / hand, arm" ;!xx-->x
@@ -46,14 +63,13 @@ LEXICON Noun
 ля̄ммт 2D "лес / forrest, wood(s)" ;!Ablaut
 кӯшшк 2D "порог на реке / rapids" ;!Ablaut
 ма̄ййт 2D "молоко / milk" ;!Ablaut
-kuvaksa" ;
 а̄ййк 2D "срок, пора / time" ;!Ablaut
 
 ! 3. declension (class 7) ! no stem gradation
 куэсськ 2D "тётя / aunt" ;
 ке̄ддҍк 2D "камень / rock" ;
 аббьр 2D "дождь / rain" ;
-а̄ввьл 2D "крючок на перекладине в куваксе / hook for hanging things in a ыгкь 1DA "год / year" ; 
+а̄ввьл 2D "крючок на перекладине в куваксе / hook for hanging things in a" ; 
 кӯлль 1DA "рыба / fish" ; ! lang u->ue
 !аджь 1DA "отец / father" ;
 !на̄һпь 1DA "чашка / cup" ; ! spelling variant на̄ххьп (in Kert 1986 [and the Aнтонова system])
@@ -104,7 +120,6 @@ kuvaksa" ;
 э̄д OAHPA_N ;
 кай OAHPA_N ;
 чай OAHPA_N ;
-ёгк OAHPA_N ;
 улл OAHPA_N ;
 сем OAHPA_N ;
 ӣнн OAHPA_N ;
@@ -919,9 +934,6 @@ kuvaksa" ;
 чуарртаффьт OAHPA_N ;
 па̄рнапэҏҏт OAHPA_N ;
 коа̄ррпторф OAHPA_N ;
-вуэпьсемушш OAHPA_N ;
-мушштъемушш OAHPA_N ;
-вуэллнэмушш OAHPA_N ;
 ю̄лльклаввь OAHPA_N ;
 мӯррьйчадзь OAHPA_N ;
 коа̄ммпалль OAHPA_N ;
@@ -957,10 +969,6 @@ kuvaksa" ;
 о̄ххпэмпэҏҏт OAHPA_N ;
 пе̄льйгоанҍц OAHPA_N ;
 ю̄лльквуэннч OAHPA_N ;
-вӣгкхуввмушш OAHPA_N ;
-вуэсстлэмушш OAHPA_N ;
-лоа̄ткнэмушш OAHPA_N ;
-поа̄вчсэмушш OAHPA_N ;
 чогкпасьтэмь OAHPA_N ;
 уйннаххьтэмь OAHPA_N ;
 тӯӆӆпкабперь OAHPA_N ;
@@ -978,9 +986,6 @@ kuvaksa" ;
 вэ̄ррсунэкэбп OAHPA_N ;
 ча̄дзьлоаннҍт OAHPA_N ;
 лыххцэмпэ̄ҏҏт OAHPA_N ;
-вуэпьсуввмушш OAHPA_N ;
-ло̄гктэдтмушш OAHPA_N ;
-луннтнэнтмушш OAHPA_N ;
 карьнэльлаввь OAHPA_N ;
 куллнаххьтэмь OAHPA_N ;
 ча̄лльмкагерь OAHPA_N ;
@@ -993,9 +998,6 @@ kuvaksa" ;
 вуэлькесьюлльк OAHPA_N ;
 отералльнэххьк OAHPA_N ;
 воазхелэмцеххп OAHPA_N ;
-пе̄ййвпоррмушш OAHPA_N ;
-е̄кесьпоррмушш OAHPA_N ;
-ӣнцэсьпоррмушш OAHPA_N ;
 па̄ннҍпасьтэмь OAHPA_N ;
 поа̄шшэмгоаррь OAHPA_N ;
 ро̄дтҍхэльмэсь OAHPA_N ;
@@ -1007,11 +1009,8 @@ kuvaksa" ;
 па̄ррнэтҍлыххцэй OAHPA_N ;
 пе̄ссьмуркоаллем OAHPA_N ;
 пе̄ссьмурркайваш OAHPA_N ;
-вэ̄ррпэ̄ййнэмушш OAHPA_N ;
 пэ̄дчисстэмьпымме OAHPA_N ;
 а̄ҏҏьтпелльтаффьт OAHPA_N ;
-кӯттҍкпоавчсэмушш OAHPA_N ;
 ня̄льмчисстэмьпымме OAHPA_N ;
 ке̄ххпнэссжоарркэбп OAHPA_N ;
 ня̄лькесьвунтаскэбп OAHPA_N ;
-ке̄ххьпнэсспоаввчсэмушш OAHPA_N ;
