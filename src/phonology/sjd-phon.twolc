@@ -107,10 +107,10 @@ Cx:Cy <=> V: Cx: _ (ь:) %^WG:0 ;
             Cy in ( п к т )
       matched ;
 
-"Quantitative CG hard 3-Cns Cluster" !e.g. са̄ррн : са̄рн 
+"Quantitative CG non-pal 3-Cns Cluster" !e.g. са̄ррн : са̄рн 
  Cx:0 <=> Cx _ Cy (PALMARK:) %^WG:0 ;
-      where Cx in ( л й м р )  
-            Cy in ( к в ч н )
+      where Cx in ( л й м р ш )  
+            Cy in ( к в ч н к )
       matched ;
 
 "Epenthetic vowel deletion"
@@ -123,7 +123,7 @@ Vx:Vy <=> ь: ( Dummy:0 ) %>:0 _ ;
             Vy in ( я Я е Е ю Ю ) 
       matched ;
 
-"Halv-Palatal Mark Deletion"
+"Half-Palatal Mark Deletion"
  ҍ:0 <=> C: _ (Dummy:) %>:0 [ :ӓ | :Ӓ | :ӭ | :Ӭ ] ;
 
 "Palatal Mark Deletion"
