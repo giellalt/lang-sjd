@@ -105,13 +105,30 @@ Tests:
     ка̄ннҍцвудт+N+Ess: ка̄ннҍцвудтэнҍ
     ка̄ннҍцвудт+N+Par: ка̄ннҍцвудтэ
 
-
   Noun - ыйй: #"ночь / night" 
     ыйй+N+Sg+Nom: ыйй
     ыйй+N+Sg+Gen: ый
     ыйй+N+Sg+Acc: ый
 #    ыйй+N+Sg+Ill: ыйе
-    ыйй+N+Sg+Loc: ыйесьт
+#    ыйй+N+Sg+Loc: ыйесьт
+
+  Noun - кӯшшк: #"порог в реке / rapids"
+    кӯшшк+N+Sg+Nom: кӯшшк
+    кӯшшк+N+Sg+Gen: кӯшк
+    кӯшшк+N+Sg+Acc: кӯшк
+#    кӯшшк+N+Sg+Ill: кӯшшькэ
+    кӯшшк+N+Sg+Loc: кӯшкэсьт
+    кӯшшк+N+Sg+Com: кӯшкэнҍ
+    кӯшшк+N+Sg+Abe: кӯшкха
+    кӯшшк+N+Pl+Nom: кӯшк
+    кӯшшк+N+Pl+Gen: [кӯшкэ,кӯшкэтҍ]
+    кӯшшк+N+Pl+Acc: кӯшкэтҍ
+    кӯшшк+N+Pl+Ill: кӯшкэтҍ
+    кӯшшк+N+Pl+Loc: кӯшкэнҍ
+    кӯшшк+N+Pl+Com: кӯшкэгуэйм
+    кӯшшк+N+Pl+Abe: кӯшкэха
+    кӯшшк+N+Ess: кӯшшкэнҍ
+    кӯшшк+N+Par: кӯшшкэ
 
 
 #NOTES (to be collected in a separate file later)
