@@ -36,123 +36,123 @@ Multichar_Symbols
 @U.MONTH.12@ 
 
 +Use/NG ! For substandard month names used in Oahpa
-        ! They will be accepted but not generated.
+! They will be accepted but not generated.
 
 
 
 LEXICON Root
 
- @U.MONTH.1@:о̄дтыгьманн% @U.MONTH.1@      31DAYS ;
- @U.MONTH.2@:по̄рркманн% @U.MONTH.2@       29DAYS ;
- @U.MONTH.3@:нюххчманн% @U.MONTH.3@       31DAYS ;
- @U.MONTH.4@:кӯньтхемьманн% @U.MONTH.4@   30DAYS ;
- @U.MONTH.5@:кыдтманн% @U.MONTH.5@        31DAYS ;
- @U.MONTH.6@:ке̄ссьманн% @U.MONTH.6@       30DAYS ;
- @U.MONTH.7@:сӯйнкоссэманн% @U.MONTH.7@   31DAYS ;
- @U.MONTH.7@:сӯйнманн+Use/NG% @U.MONTH.7@ 31DAYS ;
- @U.MONTH.8@:поаррькманн% @U.MONTH.8@     31DAYS ;
- @U.MONTH.9@:че̄ххчманн% @U.MONTH.9@        30DAYS ;
- @U.MONTH.10@:рэ̄гкэмманн% @U.MONTH.10@    31DAYS ;
- @U.MONTH.11@:ӣӈӈманн% @U.MONTH.11@        30DAYS ;
- @U.MONTH.12@:та̄лльвманн% @U.MONTH.12@     31DAYS ;
-
-
+о̄дтыгьманн% @U.MONTH.1@:@U.MONTH.1@ 31DAYS ;
+по̄рркманн% @U.MONTH.2@:@U.MONTH.2@ 29DAYS ;
+нюххчманн% @U.MONTH.3@:@U.MONTH.3@ 31DAYS ;
+кӯньтхемьманн% @U.MONTH.4@:@U.MONTH.4@ 30DAYS ;
+кыдтманн% @U.MONTH.5@:@U.MONTH.5@ 31DAYS ;
+ке̄ссьманн% @U.MONTH.6@:@U.MONTH.6@ 30DAYS ;
+сӯйнкоссэманн% @U.MONTH.7@:@U.MONTH.7@ 31DAYS ;
+сӯйнманн+Use/NG% @U.MONTH.7@:@U.MONTH.7@ 31DAYS ;
+поаррькманн% @U.MONTH.8@:@U.MONTH.8@ 31DAYS ;
+че̄ххчманн% @U.MONTH.9@:@U.MONTH.9@ 30DAYS ;
+рэ̄гкэмманн% @U.MONTH.10@:@U.MONTH.10@ 31DAYS ;
+ӣӈӈманн% @U.MONTH.11@:@U.MONTH.11@ 30DAYS ;
+та̄лльвманн% @U.MONTH.12@:@U.MONTH.12@ 31DAYS ;
+ 
+ 
 LEXICON 29DAYS
-
-
-1   B ;
-2   B ;
-3   B ;
-4   B ;
-5   B ;
-6   B ;
-7   B ;
-8   B ;
-9   B ;
-1%0 B ;
-11  B ;
-12  B ;
-13  B ;
-14  B ;
-15  B ;
-16  B ;
-17  B ;
-18  B ;
-19  B ;
-2%0 B ;
-21  B ;
-22  B ;
-23  B ;
-24  B ;
-25  B ;
-26  B ;
-27  B ;
-28  B ;
-29  B ;
-
+ 
+ 
+1:1 B ;
+2:2 B ;
+3:3 B ;
+4:4 B ;
+5:5 B ;
+6:6 B ;
+7:7 B ;
+8:8 B ;
+9:9 B ;
+1%0:1%0 B ;
+11:11 B ;
+12:12 B ;
+13:13 B ;
+14:14 B ;
+15:15 B ;
+16:16 B ;
+17:17 B ;
+18:18 B ;
+19:19 B ;
+2%0:2%0 B ;
+21:21 B ;
+22:22 B ;
+23:23 B ;
+24:24 B ;
+25:25 B ;
+26:26 B ;
+27:27 B ;
+28:28 B ;
+29:29 B ;
+ 
 ! Commenting out numeric-to-letter day, for Oahpa.
 ! Comment in again for use in TTS applications.
 
-! 1:авьтмусс% 		     B ;
-! 2:ныммьп% 			     B ;
-! 3:куалмант% 		     B ;
-! 4:ня̄льянт% 		         B ;
-! 5:выдант% 			     B ;
-! 6:кудант% 			     B ;
-! 7:кыджянт% 			     B ;
-! 8:ка̄хцант% 			     B ;
-! 9:ахцант% 			     B ;
-! 1%0:лоагант% 		     B ;
-! 11:э̄ххтэмплоагант% 	     B ;
-! 12:кӯххтэмплоагант%      B ;
-! 13:ко̄ллмэмплоагант%      B ;
-! 14:не̄лльемплоагант%      B ;
-! 15:выдтэмплоагант%       B ;
-! 16:кудтэмплоагант%       B ;
-! 17:кыджемплоагант%       B ;
-! 18:ка̄ххцэмплоагант%      B ;
-! 19:аххцэмплоагант%       B ;
-! 2%0:кӯххтлоагант% 	     B ;
-! 21:кӯххтлоагкьа̄вьтма%   B ;
-! 22:кӯххтлоагкьныммьп%   B ;
+! 1:авьтмусс%  B ;
+! 2:ныммьп%  B ;
+! 3:куалмант%  B ;
+! 4:ня̄льянт%  B ;
+! 5:выдант%  B ;
+! 6:кудант%  B ;
+! 7:кыджянт%  B ;
+! 8:ка̄хцант%  B ;
+! 9:ахцант%  B ;
+! 1%0:лоагант%  B ;
+! 11:э̄ххтэмплоагант%  B ;
+! 12:кӯххтэмплоагант%  B ;
+! 13:ко̄ллмэмплоагант%  B ;
+! 14:не̄лльемплоагант%  B ;
+! 15:выдтэмплоагант%  B ;
+! 16:кудтэмплоагант%  B ;
+! 17:кыджемплоагант%  B ;
+! 18:ка̄ххцэмплоагант%  B ;
+! 19:аххцэмплоагант%  B ;
+! 2%0:кӯххтлоагант%  B ;
+! 21:кӯххтлоагкьа̄вьтма%  B ;
+! 22:кӯххтлоагкьныммьп%  B ;
 ! 23:кӯххтлоагкькуалмант%  B ;
 ! 24:кӯххтлоагкьня̄льянт%  B ;
-! 25:кӯххтлоагкьвыдант%   B ;
-! 26:кӯххтлоагкькудант%   B ;
+! 25:кӯххтлоагкьвыдант%  B ;
+! 26:кӯххтлоагкькудант%  B ;
 ! 27:кӯххтлоагкькыджянт%  B ;
 ! 28:кӯххтлоагкька̄хцант%  B ;
-! 29:кӯххтлоагкьахцант%   B ;
-
+! 29:кӯххтлоагкьахцант%  B ;
+ 
 LEXICON 30DAYS
-3%0 B ;
-!3%0:ко̄ллмлоагант% 	     B ;
+3%0:3%0 B ;
+ко̄ллмлоагант% :!3%0 B ;
 29DAYS ;
-
+ 
 LEXICON 31DAYS
-31 B ;
-!31:ко̄ллмлоагкь% а̄вьтма%   B ;
+31:31 B ;
+ко̄ллмлоагкь% а̄вьтма% :!31 B ;
 30DAYS ;
-
-
+ 
+ 
 LEXICON B
-%.:%.% пе̄ййв%  MONTH ;
-%.+Use/NG:%.% п%.%  MONTH ;
-%.+Use/NG:%.п%.%  MONTH ;
-
+%.% пе̄ййв% :%. MONTH ;
+%.% п%.% :%.+Use/NG MONTH ;
+%.п%.% :%.+Use/NG MONTH ;
+ 
 LEXICON MONTH
-   1@U.MONTH.1@:@U.MONTH.1@   X ;
-   2@U.MONTH.2@:@U.MONTH.2@   X ;
-   3@U.MONTH.3@:@U.MONTH.3@   X ;
-   4@U.MONTH.4@:@U.MONTH.4@   X ;
-   5@U.MONTH.5@:@U.MONTH.5@   X ;
-   6@U.MONTH.6@:@U.MONTH.6@   X ;
-   7@U.MONTH.7@:@U.MONTH.7@   X ;
-   8@U.MONTH.8@:@U.MONTH.8@   X ;
-   9@U.MONTH.9@:@U.MONTH.9@   X ;
-1%0@U.MONTH.10@:@U.MONTH.10@  X ;
- 11@U.MONTH.11@:@U.MONTH.11@  X ;
- 12@U.MONTH.12@:@U.MONTH.12@  X ;
-
+@U.MONTH.1@:1@U.MONTH.1@ X ;
+@U.MONTH.2@:2@U.MONTH.2@ X ;
+@U.MONTH.3@:3@U.MONTH.3@ X ;
+@U.MONTH.4@:4@U.MONTH.4@ X ;
+@U.MONTH.5@:5@U.MONTH.5@ X ;
+@U.MONTH.6@:6@U.MONTH.6@ X ;
+@U.MONTH.7@:7@U.MONTH.7@ X ;
+@U.MONTH.8@:8@U.MONTH.8@ X ;
+@U.MONTH.9@:9@U.MONTH.9@ X ;
+@U.MONTH.10@:1%0@U.MONTH.10@ X ;
+@U.MONTH.11@:11@U.MONTH.11@ X ;
+@U.MONTH.12@:12@U.MONTH.12@ X ;
+ 
 LEXICON X
-%.: # ;
-!    # ; ! sloppy punctuation
+:%. # ;
+!:! # ; ! sloppy punctuation
