@@ -126,7 +126,7 @@ HUNDREDST ;		! x00.000.000
 тоафант% :%0%01 THOUSAND ;	!   1.000.000
 :%0%0%0 UNDERTHOUSAND ;	
 :%0%0%0%0 TENS ;
-:%0%0%0%0 TEENS ;
+:%0%0%0%0 TEENSCONT ;
 :%0%0%0%0%0 ONES ;
 :%0%0%0%0%0%0 COMMA ;	!  x000000
 
@@ -206,7 +206,7 @@ LEXICON THOUSANDS      ! x > 1
 LEXICON THOUSAND
 UNDERTHOUSAND ;	   ! 1100-1999
 :%0 TENS ;	   ! 1020-1099
-:%0 TEENS ;	   ! 1010-1019
+:%0 TEENSCONT ;	   ! 1010-1019
 :%0%0 ONES ;	   ! 1001-1009
 :%0%0%0 COMMA ;	   ! 1000
 :%0%0%0%.  COMMA ;	   ! 1000.
@@ -235,7 +235,7 @@ LEXICON CUODI
 
 LEXICON HUNDRED
 TENS ;
-TEENS ;
+TEENSCONT ;
 % :%0 ONES ;
 % :%0%0 COMMA ;
 % :%0%0%. COMMA ; ! card = ord for x00
@@ -262,9 +262,12 @@ LEXICON LOGI
 лоагант:%0%. COMMA ; ! ordinal
 лоагкь% : ONES ;
 
+LEXICON TEENSCONT
+% : TEENS ;
+
 LEXICON TEENS
-% :1 TEENSCARDINALS ;
-% :1 TEENSORDINALS ;
+:1 TEENSCARDINALS ;
+:1 TEENSORDINALS ;
 
 LEXICON TEENSCARDINALS
 э̄ххт:1 LOHKAIE ;
@@ -279,10 +282,10 @@ LEXICON TEENSCARDINALS
 аххц:9 LOHKAIE ;
 
 LEXICON LOHKAIE
-эмплоагкь% : COMMA ;
+эмплоагкь: COMMA ;
 
 LEXICON LOHKAIJE
-емплоагкь% : COMMA ;
+емплоагкь: COMMA ;
 
 
 
@@ -309,14 +312,14 @@ LEXICON ORDINAL		   ! sme, fix
 ONESORDINALS ;
 
 LEXICON ONESORDINALS
-ныммьп:2%.   COMMA ;	   ! sme, fix
-куалмант:3%.   COMMA ;	   ! sme, fix
-ня̄льянт:4%. COMMA ;	       ! sme, fix
-выдант:5%.   COMMA ;	   ! sme, fix
-кудант:6%.   COMMA ;	   ! sme, fix
-кыджянт:7%.    COMMA ;	   ! sme, fix
-ка̄хцант:8%.   COMMA ;	   ! sme, fix
-ахцант:9%.    COMMA ;	   ! sme, fix
+ныммьп:2%.   # ;	   ! sme, fix
+куалмант:3%.   # ;	   ! sme, fix
+ня̄льянт:4%. # ;	       ! sme, fix
+выдант:5%.   # ;	   ! sme, fix
+кудант:6%.   # ;	   ! sme, fix
+кыджянт:7%.    # ;	   ! sme, fix
+ка̄хцант:8%.   # ;	   ! sme, fix
+ахцант:9%.    # ;	   ! sme, fix
 
 LEXICON TEENSORDINALS
 э̄ххт:1   TEENSORDINALEND ;
