@@ -13,12 +13,12 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! --------------- !
-! Noun inflection !
+!! Noun inflection 
 ! --------------- !
 
-!"class1" = monosyllabic/non-palatalized inflection foot, str-wk, no ablaut/umlaut, palatalization in Ill.Sg
-LEXICON 1DA !=orthographic subclass with xx-->x
-
+!! "class1" = monosyllabic/non-palatalized inflection foot, str-wk, no ablaut/umlaut, palatalization in Ill.Sg
+LEXICON 1DA !!= @CODE@ is orthographic subclass with xx--> x
+ 
 +N:     SgNomSuf ;
 +N:%^WG SgGenAccSuf ;
 !+N:%^DI SgIllSufJE ;!MR:here is no gradation, but what was %^DI? I'll check this later
@@ -37,7 +37,8 @@ LEXICON 1DA !=orthographic subclass with xx-->x
 +N:%^WG PlAbeSuf ;
 +N:%^WG PlComSuf ;
 
-LEXICON 1DB !=orthographic subclass with xy-->x and "half-palatalization" in Ill.Sg; !OBS! SgIllSufJE vs. SgIllSufHalfE does not mark a true morphological subclass, but is due to orthographic conventions
+LEXICON 1DB !!= @CODE@ is orthographic subclass with xy-->x and "half-palatalization" in Ill.Sg; 
+!! OBS! SgIllSufJE vs. SgIllSufHalfE does not mark a true morphological subclass, but is due to orthographic conventions
 
 +N:     SgNomSuf ;
 +N:%^WG SgGenAccSuf ;
@@ -57,8 +58,10 @@ LEXICON 1DB !=orthographic subclass with xy-->x and "half-palatalization" in Ill
 +N:%^WG PlAbeSuf ;
 +N:%^WG PlComSuf ;
 
-! these are just dummy for the moment
-LEXICON 2D ! like 1D ?
+!! Lexica 2D etc are classes from Kuruch dictionary.
+!! It is unclear whether this is the correct classification
+
+LEXICON 2D !!= @CODE@ like 1D ?  these are just dummy for the moment
 +N:       SgNomSuf ;	! Им.
 +N:%^WG   SgGenAccSuf ;	! Род., Вин.
 +N:%^DI   SgIllSufJE ;	! Дат.-напр
@@ -76,7 +79,7 @@ LEXICON 2D ! like 1D ?
 +N:%^WG PlAbeSuf ;	! Лишит.
 +N:%^WG PlComSuf ;	! Совм.
 
-LEXICON 3D
+LEXICON 3D !!= @CODE@
 +N:       SgNomSuf ;	! Им.
 +N:%^WG   SgGenAccSuf ;	! Род., Вин.
 +N:%^DI   SgIllSufJE ;	! Дат.-напр
@@ -94,7 +97,7 @@ LEXICON 3D
 +N:%^WG PlAbeSuf ;	! Лишит.
 +N:%^WG PlComSuf ;	! Совм.
 
-LEXICON 4D ! contract
+LEXICON 4D  !!= @CODE@ is contract
 +N:%^WG SgNomSuf ;		   ! Им.
 +N:%^MON%>э SgGenAccSuf ;  ! Род.
 +N:%^MON%>э EssSuf ;	   ! Превр.
@@ -110,7 +113,7 @@ LEXICON 4D ! contract
 +N:%^WG PlAbeSuf ;		 ! Лишит.
 +N:%^WG PlComSuf ;		 ! Совм.
 
-LEXICON 4DА
+LEXICON 4DА  !!= @CODE@
 +N+Sg+Nom:%^WG K ;			 ! Им.
 +N+Sg+Gen:%^DI%>э K ;		 ! Род.
 +N+Sg+Acc:%^WG K ;		 ! Вин.
@@ -127,71 +130,72 @@ LEXICON 4DА
 +N+Pl+Ela:%^WG%>эха K ;		 ! Лишит.
 +N+Pl+Com:%^WG%>эгуэйм K ;		 ! Совм.
 
-LEXICON 5D
+LEXICON 5D  !!= @CODE@ goes to 1DA
 1DA ;
 
-LEXICON OAHPA_N
+LEXICON OAHPA_N  !!= @CODE@ is all the words from OAHPA_N, we just point them to 1DA.
 1DA ; ! Just pointing it on to the first and best
 
 
-! Case affixes
+!! !!Case affixes
 
-LEXICON SgNomSuf
+LEXICON SgNomSuf !!= @CODE@
 +Sg+Nom: K ;			 ! Им.
 
-LEXICON SgGenAccSuf
+LEXICON SgGenAccSuf !!= @CODE@
 +Sg+Gen: K ;		 ! Род.
 +Sg+Acc: K ;		 ! Вин.
 
-LEXICON EssSuf
-+Ess:%>энҍ K ;		 ! Превр. !check here and elsewhere whether the palatal-mark-deletion-rule is really needed here (it's already included above)
+LEXICON EssSuf !!= @CODE@
++Ess:%>энҍ K ;		 
+!! Превр. !check here and elsewhere whether the palatal-mark-deletion-rule is really needed here (it's already included above)
 
-LEXICON ParSuf
+LEXICON ParSuf  !!= @CODE@
 +Par:%>э K ;		 ! Парт.
 
-LEXICON ParSufHalfE
+LEXICON ParSufHalfE  !!= @CODE@
 +Par:%>ӭ K ;
 
-LEXICON SgLocSuf
+LEXICON SgLocSuf  !!= @CODE@
 +Sg+Loc:%>эсьт K ; ! Местн.
 
-LEXICON SgIllSufA
+LEXICON SgIllSufA  !!= @CODE@
 +Sg+Ill:%>а K ;
 
-LEXICON SgIllSufE
+LEXICON SgIllSufE !!= @CODE@
 +Sg+Ill:%>э K ;
 
-LEXICON SgIllSufJE
+LEXICON SgIllSufJE !!= @CODE@
 +Sg+Ill:%>е K ;
 
-LEXICON SgIllSufHalfE
+LEXICON SgIllSufHalfE !!= @CODE@
 +Sg+Ill:%>ӭ K ;		 ! Дат.-напр
 
-LEXICON SgAbeSuf
+LEXICON SgAbeSuf !!= @CODE@
 +Sg+Abe:%>ха K ;		 ! Лишит.
 
-LEXICON SgComSuf
+LEXICON SgComSuf !!= @CODE@
 +Sg+Com:%>энҍ K ;		 ! Совм.
 
-LEXICON PlNomSuf
+LEXICON PlNomSuf !!= @CODE@
 +Pl+Nom: K ;			 ! Им.
 
-LEXICON PlGenSuf
+LEXICON PlGenSuf !!= @CODE@
 +Pl+Gen:%>э K ;
 +Pl+Gen:%>этҍ K ;!innovative variant identical to PlAccSuf
 
-LEXICON PlAccSuf
+LEXICON PlAccSuf !!= @CODE@
 +Pl+Acc:%>этҍ K ;		 ! Вин.
 
-LEXICON PlIllSuf
+LEXICON PlIllSuf !!= @CODE@
 +Pl+Ill:%>этҍ K ; ! Местн.
 
-LEXICON PlLocSuf
+LEXICON PlLocSuf !!= @CODE@
 +Pl+Loc:%>энҍ K ; ! Местн.
 
-LEXICON PlAbeSuf
+LEXICON PlAbeSuf !!= @CODE@
 +Pl+Abe:%>эха K ;		 ! Лишит.
 
-LEXICON PlComSuf
+LEXICON PlComSuf !!= @CODE@
 +Pl+Com:%>эгуэйм K ;		 ! Совм.
 
