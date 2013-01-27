@@ -1,6 +1,14 @@
 !!!Documentation on Kildin Saami ~ Документация файлов кильдин-саамского языка
 
+!! Dynamic documentation
+
 * [Links to generated source file documentation|Links.html]
+* Source files: [stems|https://victorio.uit.no/langtech/trunk/langs/sjd/src/morphology/stems/]   
+  / [affixes|https://victorio.uit.no/langtech/trunk/langs/sjd/src/morphology/affixes/] 
+  / [twolc|https://victorio.uit.no/langtech/trunk/langs/sjd/src/phonology/sjd-phon.twolc]   
+  / [yaml|https://victorio.uit.no/langtech/trunk/langs/sjd/test/src/morphology/]
+* Generation of: [paradigms|http://giellatekno.uit.no/cgi/p-sjd.rus.html]
+  / [text|http://giellatekno.uit.no/cgi/d-sjd.rus.html]
 
 !!Old documentation
 
