@@ -30,6 +30,55 @@ This is free and open source Kildin Sámi morphology.
 
 
 
+!!!Kildin Sámi TWOLC file
+!!!Alphabet, definitions
+
+
+
+
+
+
+
+
+
+
+
+!!!Rule section
+
+__Qualitative CG1a__ this rule doesn't work yet
+
+__Qualitative CG1b xx:y__  сс : з
+
+__Preaspiration__  һк : гк
+
+__Palatalization: Clusters ллк : лльк, etc.__  
+
+__Quantitative CG__  
+
+__Quantitative CG 2-Cns Cluster__  e.g. ?ма̄дт : ма̄д, ?ма̄дтҍ : ма̄дҍ
+
+__Quantitative CG non-pal 3-Cns Cluster__  e.g. са̄ррн : са̄рн 
+
+__Epenthetic vowel deletion__  
+
+__Palatalised Suffix Vowel__  
+
+__Half-Palatal Mark Deletion__  
+
+__Palatal Mark Deletion__  
+
+__ue Diphtongisation__  
+
+__ja to i in 2D Illative__  
+
+__ue from long u 1__  
+
+__ue from long u 2__  
+
+__u from ua in 4D__  
+
+
+
 Noun inflection 
 
 "class1" = monosyllabic/non-palatalized inflection foot, str-wk, no ablaut/umlaut, palatalization in Ill.Sg
