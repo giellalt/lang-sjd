@@ -9,7 +9,8 @@
 
 if CAN_DOCC
 
-JSP_PAGES=root-morphology.jspwiki \
+JSP_PAGES=root-morphology.jspwiki  \
+		  sjd-phon-phonology.jspwiki \
 		  nouns-affixes.jspwiki \
 		  nouns-stems.jspwiki              
 # clitics-morphology.jspwiki       \
