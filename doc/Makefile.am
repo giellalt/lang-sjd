@@ -10,9 +10,9 @@
 if CAN_DOCC
 
 JSP_PAGES=root-morphology.jspwiki  \
-		  sjd-phon-phonology.jspwiki \
 		  nouns-affixes.jspwiki \
-		  nouns-stems.jspwiki              
+		  nouns-stems.jspwiki \
+		  sjd-phon-phonology.jspwiki
 # clitics-morphology.jspwiki       \
 # compounding-morphology.jspwiki   \
 # abbreviations-stems.jspwiki      \
