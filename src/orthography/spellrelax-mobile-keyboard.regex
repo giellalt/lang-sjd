@@ -1,32 +1,43 @@
-# Skolt Saami #SoMe spellrelax file.
+# Kildin Saami #SoMe spellrelax file.
 
-đ (->)  d ,
-ŋ (->)  n ,
-á (->)  a ,
-Á (->)  A ,
-ä (->)  æ ,
-Ä (->)  Æ ,
-ö (->)  ø ,
-Ö (->)  Ø ,
-â (->)  a ,
-Â (->)  A ,
-õ (->)  o ,
-Õ (->)  O ,
-č (->)  c ,
-Č (->)  C ,
-ǯ (->)  z ,
-Ǯ (->)  Z ,
-ǧ (->)  g ,
-Ǧ (->)  G ,
-ǥ (->)  g ,
-Ǥ (->)  G ,
-ǩ (->)  k ,
-Ǩ (->)  K ,
-š (->)  s ,
-Š (->)  S ,
-ž (->)  z ,
-Ž (->)  Z ;
+а̄ (->) а, # Tolerate short vowel for correct long
+е̄ (->) е, # Tolerate short vowel for correct long
+о̄ (->) о, # Tolerate short vowel for correct long
+ӯ (->) у, # Tolerate short vowel for correct long
+ы̄ (->) ы, # Tolerate short vowel for correct long
+ю̄ (->) ю, # Tolerate short vowel for correct long
+я̄ (->) я, # Tolerate short vowel for correct long
+ӣ (->) и, # Tolerate short vowel for correct long
 
+А̄ (->) А, # Tolerate short vowel for correct long, capital letters
+Е̄ (->) Е, # Tolerate short vowel for correct long, capital letters
+О̄ (->) О, # Tolerate short vowel for correct long, capital letters
+Ӯ (->) У, # Tolerate short vowel for correct long, capital letters
+Ы̄ (->) Ы, # Tolerate short vowel for correct long, capital letters
+Ю̄ (->) Ю, # Tolerate short vowel for correct long, capital letters
+Я̄ (->) Я, # Tolerate short vowel for correct long, capital letters
+Ӣ  (->) И, # Tolerate short vowel for correct long, capital letters
+
+а (->) a, # Latin lookalikes for correct Cyrillic
+е (->) e, # Latin lookalikes for correct Cyrillic
+о (->) o, # Latin lookalikes for correct Cyrillic
+А (->) A, # Latin lookalikes for correct Cyrillic
+Е (->) E, # Latin lookalikes for correct Cyrillic
+О (->) O, # Latin lookalikes for correct Cyrillic
+
+ӯ (->) у, # Cyrillic у + U+0304 (->) basic
+ӣ (->) и, # Cyrillic и + U+0304 (->) basic
+
+а́ (->) а, # Russian long vowel, accept short
+е́ (->) е, # Russian long vowel, accept short
+и́ (->) и, # Russian long vowel, accept short
+о́ (->) о, # Russian long vowel, accept short
+у́ (->) у, # Russian long vowel, accept short
+я́ (->) я, # Russian long vowel, accept short
+ё (->) е, # Russian long vowel, accept je pro jo
+ы́ (->) ы, # Russian long vowel, accept short
+ю́ (->) ю # Russian long vowel, accept short
+;
 
 # Explanation:
 # lexical side (->) input 
