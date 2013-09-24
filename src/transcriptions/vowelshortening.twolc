@@ -19,13 +19,13 @@ Sets
 Rules
 
 "Vowel Shortening in Compounds etc."
- Vx:Vy <=> .#. Cns:* Vow [Vow|Cns] *? _ ;
+ Vx:Vy <=> .#. Cns:* Vow [Vow|Cns] ?* _ ;
 	where Vx in ( а̄ е̄ о̄ ӯ ю̄ я̄ ӣ А̄ Е̄ Ё̄ Ӣ О̄ Ӯ Э̄ Ю̄ Я̄ ) 
 	      Vy in ( а е о у ю я и А Е Ё И О У Э Ю Я ) 
 	      matched ;
 
 "Vowel Shortening in Compounds etc. with Combining Macro"
- ̄:0 <=> .#. Cns:* Vow [Vow|Cns] *? _ ;
+ ̄:0 <=> .#. Cns:* Vow [Vow|Cns] ?* _ ;
 
 ! Both these test should work, none do:
 ! combining
