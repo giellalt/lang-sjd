@@ -1,0 +1,37 @@
+
+!! Vowel shortening in compounds in Kildin Saami
+
+!! Linguistics behind this file: 
+!! In compounding non-initial long vowels shorten.
+
+Alphabet
+
+ б Б в В г Г д Д ж Ж з З һ Һ й Й ј Ј к К л Л ӆ Ӆ м М ӎ Ӎ 
+ н Н ӊ Ӊ ӈ Ӈ п П р Р ҏ Ҏ с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ 
+ а А ӓ Ӓ а̄ А̄ е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э ӭ Ӭ э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄ 
+  ̄ ;
+
+Sets
+ Cns  = б Б в В г Г д Д ж Ж з З һ Һ й Й ј Ј к К л Л ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ п П р Р ҏ Ҏ с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ ;
+ Vow  = а А ӓ Ӓ а̄ А̄ е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э ӭ Ӭ э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;
+
+
+Rules
+
+"Vowel Shortening in Compounds etc."
+ Vx:Vy <=> .#. Cns:* Vow [Vow|Cns] *? _ ;
+	where Vx in ( а̄ е̄ о̄ ӯ ю̄ я̄ ӣ А̄ Е̄ Ё̄ Ӣ О̄ Ӯ Э̄ Ю̄ Я̄ ) 
+	      Vy in ( а е о у ю я и А Е Ё И О У Э Ю Я ) 
+	      matched ;
+
+"Vowel Shortening in Compounds etc. with Combining Macro"
+ ̄:0 <=> .#. Cns:* Vow [Vow|Cns] *? _ ;
+
+! Both these test should work, none do:
+! combining
+!€ ко̄ллмлоагкька̄ххц
+!€ ко̄ллмлоагкькаххц
+
+! non-combining
+!€ ко̄ллмлоагкька̄ххц
+!€ ко̄ллмлоагкькаххц
