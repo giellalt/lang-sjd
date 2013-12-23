@@ -13,10 +13,14 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 
+
+
 LEXICON Verb
 
 Neg ;
 !Aux	;
+Verbstems ;
+
 
 LEXICON Neg
 
@@ -152,6 +156,11 @@ LEXICON Neg
 
 ! Connegative past 
 +V+ConNeg+Prt:вāннҍцла K ; ! formally similar to perfect perticiple, but note the alternative suffix ~/-a/ (not /-ma/)
+
+
+
+
+LEXICON Verbstems
 
 ! Verb classes according to Kuruch p. 551
 ! 1. class (ending in long consonant)
