@@ -235,5 +235,5 @@ LEXICON PERSREFLPLCOM
 +Pron+Refl+Pl2:%>антгуэйм # ;
 +Pron+Refl+Pl3:%>есьгуэйм # ;
 
-END
-Since pronouns can be followed by clitics (like =ше and the like) the rules above do not end with #; for reflexive pronouns, this has to be checked
+!END
+!Since pronouns can be followed by clitics (like =ше and the like) the rules above do not end with #; for reflexive pronouns, this has to be checked
