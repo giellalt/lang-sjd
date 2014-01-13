@@ -210,7 +210,7 @@ beforedipht
 
 echo <<Inverting...>>
 
-invert net
+
 
 ! For quick compilation, comment the following line in:
 !save h.fst ;
