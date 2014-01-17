@@ -27,7 +27,7 @@ LEXICON OAHPA_V
 
 LEXICON 1
 +V+Inf:%>э  # ; 
-+V+Ind:  V_IND ;
++V+Ind:  V_IND_EVEN ;
 +V+Cond: V_COND ;
 +V+Pot:  V_POT ; 
 +V+Imprt: V_IMP ;
@@ -55,17 +55,24 @@ LEXICON 7
 1 ;
 
 
+LEXICON LUVTTE
++V+Inf:%>ъе # ;
++V+Ind: V_IND_CONTR_PAL ;
+
+LEXICON KULLE
++V+Inf:%>э # ;
++V+Ind: V_IND_EVEN ;
 
 LEXICON V_IMP
 +Sg:  # ; !Ø-suffix, weak grade
 +Pl:%>э  # ;
 
 
-LEXICON V_IND
-+Prs: PRSSUF ;
-+Prt: PRTSUF ;
+LEXICON V_IND_EVEN
++Prs: PRSSUF_EVEN ;
++Prt: PRTSUF_EVEN ;
 
-LEXICON PRSSUF
+LEXICON PRSSUF_EVEN
 +Sg1:%^WG%>а              # ;   ! шоабш>а
 +Sg2:%^WG%>ак              # ;   ! шоабш>акь
 +Sg2:%^WG%>ах              # ;   ! шоабш>акь
@@ -74,22 +81,25 @@ LEXICON PRSSUF
 +Pl2:%>бэдтӭ              # ;   ! шоабш>эбпе
 +Pl3:%>эв              # ;   ! шоабш>эв
 
-LEXICON PRTSUF
+LEXICON PRTSUF_EVEN
 +Sg1:%>е       # ; ! palatalized		шоабш>э
 +Sg2:%>екь       # ; ! palatalized		шоабш>экь
-+Sg3:%>э       # ; ! weak grade		шoab>эшт
-+Pl1:%>эмь       # ; ! weak grade		шоабш>эмь
-+Pl2:%>этҍ       # ; ! weak grade	шоабш>этҍ
++Sg2:%>ехь       # ; ! palatalized		шоабш>экь
++Sg3:%^WG%>э       # ; ! weak grade		шoab>эшт
++Pl1:%^WG%>эмь       # ; ! weak grade		шоабш>эмь
++Pl2:%^WG%>этҍ       # ; ! weak grade	шоабш>этҍ
 +Pl3:%>енҍ       # ; ! palatalized	шоабш>энҍ
+
+
 
 
 LEXICON V_COND
 +Sg1:%>че   # ; !weak
-+Sg2:%>чекь   # ; !weak
-+Sg3:%>аһч   # ; ! weak
-+Pl1:%>   # ;
-+Pl2:%>   # ;
-+Pl3:%>   # ;
++Sg2:%>чекь # ; !weak
++Sg3:%>аһч  # ; ! weak
++Pl1:%>     # ;
++Pl2:%>     # ;
++Pl3:%>     # ;
 
 
 LEXICON V_POT 
@@ -99,6 +109,31 @@ LEXICON V_POT
 +Pl1:%>   # ;
 +Pl2:%>   # ;
 +Pl3:%>   # ;
+
+
+
+LEXICON V_IND_CONTR_PAL
++Prs: PRSSUF_CONTR_PAL ;
++Prt: PRTSUF_CONTR_PAL ;
+
+LEXICON PRSSUF_CONTR_PAL
++Sg1:%>ъя    # ;   
++Sg2:%>ъях   # ;  
++Sg2:%>ъяк   # ;  
++Sg3:%>ай    # ;   
++Pl1:%>ъeпь  # ; 
++Pl2:%>ъепе  # ; 
++Pl3:%>ъэв   # ;  
+
+LEXICON PRTSUF_CONTR_PAL
++Sg1:%>ъе    # ; 
++Sg2:%>ъекь  # ; 
++Sg2:%>ъехь  # ; 
++Sg3:%>ӭй    # ;  
++Pl1:%>ъемь  # ; 
++Pl2:%>ъетҍ  # ; 
++Pl3:%>ъенҍ  # ; 
+
 
 
 
