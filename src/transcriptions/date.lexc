@@ -136,8 +136,8 @@ LEXICON 31DAYS
  
 LEXICON B
 %.% пе̄ййв% :%. MONTH ;
-%.% п%.% :%.+Use/NG MONTH ;
-%.п%.% :%.+Use/NG MONTH ;
+%.% п%.% +Use/NG:%. MONTH ;
+%.п%.% +Use/NG:%. MONTH ;
  
 LEXICON MONTH
 @U.MONTH.1@:1@U.MONTH.1@ X ;
