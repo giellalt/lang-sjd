@@ -36,8 +36,9 @@
 * +Interj (=междометие)
 * +Pcle (=частица)
 * +C (=союз)
-** +CS (=подчинительный союз) 
-** +CC (=сочинительный союз)
+** +Cs (=подчинительный союз) 
+** +Cs (=сочинительный союз)
+* +Det (=Determiner)
 
 !!Tags for values of nominal inflectional categories
 !!!Падеж
@@ -75,7 +76,7 @@
 * +Pot (=Potential)
 
 !!!Время
-* +Prs (=настоящее)
+* +Prs (=настоящее, non-past)
 * +Prt (=past)
 
 !!!Person/Number

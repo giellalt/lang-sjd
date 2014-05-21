@@ -32,8 +32,9 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 ** +Pr (=preposition)
 * +Interj (=interjection)
 * +Pcle (=particle)
-* +CS (=subordinator) 
-* +CC (=coordinator)
+* +Cs (=subordinator) 
+* +Cc (=coordinator)
+* +Det (=determiner=
 
 !!Tags for values of nominal inflectional categories
 !!!Case
