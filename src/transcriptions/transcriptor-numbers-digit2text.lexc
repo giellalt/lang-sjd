@@ -27,16 +27,16 @@ COMMASECTION ;  ! Separator section
 LEXICON NUMBERSECTION  ! Numerals
 
 HUNDREDSM ;		! 200M
-чӯдтҍ% :1 HUNDREDM ;	! 100M
+1:чӯдтҍ%  HUNDREDM ;	! 100M
 TENSM ;			! 20-99M
 TEENSM ;		! 10-19M
 ONESM ;			! 1-9M
 HUNDREDST ;		! 200000-999999
-чӯдтҍ% :1 HUNDREDT ;	! 100000-100999 чӯдтҍ
+1:чӯдтҍ%  HUNDREDT ;	! 100000-100999 чӯдтҍ
 TENST ;			! 20000-99999,10000-10999
 TEENST ;		! 11000-19999
 ONEST ;			! 2000-9999
-тоафант% :1 THOUSAND ;	! 1000-1999
+1:тоафант%  THOUSAND ;	! 1000-1999
 UNDERTHOUSAND ;		! 100-999
 TENS ;			! 20-99
 TEENS ;			! 10-19
@@ -45,73 +45,73 @@ ORDINAL ; ! tja, sjekk
 AVTMUSS ;         ! 1. the isolated first.
 
 LEXICON HUNDREDSM
-кӯххт% :2  CUODIM ;
-кӯһт% +Use/NG:2  CUODIM ;
-ко̄ллм% :3 CUODIM ;
-не̄лльй% :4 CUODIM ;
-выдт% :5 CUODIM ;
-кудт% :6 CUODIM ;
-кыджемь% :7 CUODIM ;
-ка̄ххц% :8 CUODIM ;
-аххц% :9 CUODIM ;
+2:кӯххт%   CUODIM ;
+2:кӯһт% +Use/NG  CUODIM ;
+3:ко̄ллм%  CUODIM ;
+4:не̄лльй%  CUODIM ;
+5:выдт%  CUODIM ;
+6:кудт%  CUODIM ;
+7:кыджемь%  CUODIM ;
+8:ка̄ххц%  CUODIM ;
+9:аххц%  CUODIM ;
 
 LEXICON CUODIM
-чӯдтҍ% : HUNDREDM ;
+:чӯдтҍ%  HUNDREDM ;
 
 LEXICON HUNDREDM
 TENSM ;
 TEENSM ;
-:%0 ONESM ;
-:%0%0 MILJON ;
+%0: ONESM ;
+%0%0: MILJON ;
 
 LEXICON TEENSM
-:1 TEENM ;
+1: TEENM ;
 
 LEXICON TEENM
-э̄ххт% :1 LOHKAIM ;
-кӯххт% +Use/NG:2 LOHKAIM ;
-кӯһт% :2 LOHKAIM ;
-ко̄ллм% :3 LOHKAIM ;
-не̄лльй% :4 LOHKAIM ;
-выдт% :5 LOHKAIM ;
-кудт% :6 LOHKAIM ;
-кыджемь% :7 LOHKAIM ;
-ка̄ххц% :8 LOHKAIM ;
-аххц% :9 LOHKAIM ;
+1:э̄ххт%   LOHKAIM ;
+2:кӯххт% +Use/NG  LOHKAIM ;
+2:кӯһт%   LOHKAIM ;
+3:ко̄ллм%   LOHKAIM ;
+4:не̄лльй%   LOHKAIM ;
+5:выдт%   LOHKAIM ;
+6:кудт%   LOHKAIM ;
+7:кыджемь%   LOHKAIM ;
+8:ка̄ххц%   LOHKAIM ;
+9:аххц%  LOHKAIM ;
 
 LEXICON LOHKAIM
-лоагкь% : MILJON ;
+:лоагкь%  MILJON ;
 
 LEXICON TENSM
-лоагкь% :1%0 MILJON ;
-кӯххт% :2 LOGIM ;
-кӯһт% +Use/NG:2 LOGIM ;
-ко̄ллм% :3 LOGIM ;
-не̄лльй% :4 LOGIM ;
-выдт% :5 LOGIM ;
-кудт% :6 LOGIM ;
-кыджемь% :7 LOGIM ;
-ка̄ххц% :8 LOGIM ;
-аххц% :9 LOGIM ;
+1%0:лоагкь%  MILJON ;
+2:кӯххт%  LOGIM ;
+2:кӯһт% +Use/NG LOGIM ;
+3:ко̄ллм%  LOGIM ;
+4:не̄лльй%  LOGIM ;
+5:выдт%  LOGIM ;
+6:кудт%  LOGIM ;
+7:кыджемь%  LOGIM ;
+8:ка̄ххц%  LOGIM ;
+9:аххц%  LOGIM ;
 
 LEXICON LOGIM
-лоагкь% :%0 MILJON ;
-лоагкь% : ONESM ;
+%0:лоагкь%  MILJON ;
+:лоагкь%  ONESM ;
 
 LEXICON ONESM
-миллион% :1 OVERTHOUSANDS ;
-кӯххт% :2 MILJON ;
-кӯһт% +Use/NG:2 MILJON ;
-ко̄ллм% :3 MILJON ;
-не̄лльй% :4 MILJON ;
-выдт% :5 MILJON ;
-кудт% :6 MILJON ;
-кыджемь% :7 MILJON ;
-ка̄ххц% :8 MILJON ;
-аххц% :9 MILJON ; 
+1:миллион%  OVERTHOUSANDS ;
+2:кӯххт%  MILJON ;
+2:кӯһт% +Use/NG MILJON ;
+3:ко̄ллм%  MILJON ;
+4:не̄лльй%  MILJON ;
+5:выдт%  MILJON ;
+6:кудт%  MILJON ;
+7:кыджемь%  MILJON ;
+8:ка̄ххц%  MILJON ;
+9:аххц%  MILJON ; 
 
 LEXICON MILJON
-миллион% : OVERTHOUSANDS ;
+:миллион%  OVERTHOUSANDS ;
 
 ! =================
 ! Under the million
@@ -119,173 +119,173 @@ LEXICON MILJON
 
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		! x00.000.000
-чӯдтҍ% :1 HUNDREDT ;	! 100.000.000
-:%0 TENST ;		!  20.000.000
-:%0 TEENST ;		!  10.000.000
-:%0%0 ONEST ;		!   2.000.000
-тоафант% :%0%01 THOUSAND ;	!   1.000.000
-:%0%0%0 UNDERTHOUSAND ;	
-:%0%0%0%0 TENS ;
-:%0%0%0%0 TEENSCONT ;
-:%0%0%0%0%0 ONES ;
-:%0%0%0%0%0%0 COMMA ;	!  x000000
+1:чӯдтҍ%  HUNDREDT ;	! 100.000.000
+%0: TENST ;		!  20.000.000
+%0: TEENST ;		!  10.000.000
+%0%0: ONEST ;		!   2.000.000
+%0%01:тоафант%  THOUSAND ;	!   1.000.000
+%0%0%0: UNDERTHOUSAND ;	
+%0%0%0%0: TENS ;
+%0%0%0%0: TEENSCONT ;
+%0%0%0%0%0: ONES ;
+%0%0%0%0%0%0: COMMA ;	!  x000000
 
 LEXICON HUNDREDST
-кӯххт% :2  CUODIT ;	! 200000-299999
-кӯһт% +Use/NG:2  CUODIT ;	! 200000-299999
-ко̄ллм% :3 CUODIT ;	! 300000-399999
-не̄лльй% :4 CUODIT ;	! 400000-499999
-выдт% :5 CUODIT ;	! 500000-599999
-кудт% :6 CUODIT ;	! 600000-699999
-кыджемь% :7 CUODIT ;	! 700000-799999
-ка̄ххц% :8 CUODIT ;	! 800000-899999
-аххц% :9 CUODIT ;	! 900000-999999
+2:кӯххт%   CUODIT ;	! 200000-299999
+2:кӯһт% +Use/NG  CUODIT ;	! 200000-299999
+3:ко̄ллм%  CUODIT ;	! 300000-399999
+4:не̄лльй%  CUODIT ;	! 400000-499999
+5:выдт%  CUODIT ;	! 500000-599999
+6:кудт%  CUODIT ;	! 600000-699999
+7:кыджемь%  CUODIT ;	! 700000-799999
+8:ка̄ххц%  CUODIT ;	! 800000-899999
+9:аххц%  CUODIT ;	! 900000-999999
 
 LEXICON CUODIT
-чӯдҍ% : HUNDREDT ;	! 100000-199999
+:чӯдҍ%  HUNDREDT ;	! 100000-199999
 
 LEXICON HUNDREDT	! X = 1-9, Y = 0-9
 TENST ;			! X2XYYY, X10YYY
 TEENST ;		! X1XYYY
-э̄ххт% :%01 THOUSANDS ;
-% :%0 ONEST ;		! XX0YYY
-% :%0%0 THOUSANDS ;	! X00YYY
+%01:э̄ххт%  THOUSANDS ;
+%0:%  ONEST ;		! XX0YYY
+%0%0:%  THOUSANDS ;	! X00YYY
 
 LEXICON TEENST
-% :1 TEENT ;
+1:%  TEENT ;
 
 LEXICON TEENT
-лоагкь% :%0 THOUSANDS ;
-э̄ххт% :1 LOHKAITE ;
-кӯххт% :2 LOHKAITE ;
-кӯһт% +Use/NG:2 LOHKAITE ;
-ко̄ллм% :3 LOHKAITE ;
-не̄лльемплоагкь% :4 THOUSANDS ;
-выдт% :5 LOHKAITE ;
-кудт% :6 LOHKAITE ;
-кыджемь% :7 LOHKAITJE ;
-ка̄ххц% :8 LOHKAITE ;
-аххц% :9 LOHKAITE ;
+%0:лоагкь%  THOUSANDS ;
+1:э̄ххт%  LOHKAITE ;
+2:кӯххт%  LOHKAITE ;
+2:кӯһт% +Use/NG LOHKAITE ;
+3:ко̄ллм%  LOHKAITE ;
+4:не̄лльемплоагкь%  THOUSANDS ;
+5:выдт%  LOHKAITE ;
+6:кудт%  LOHKAITE ;
+7:кыджемь%  LOHKAITJE ;
+8:ка̄ххц%  LOHKAITE ;
+9:аххц%  LOHKAITE ;
 
 LEXICON LOHKAITE
-эмплоагкь% : THOUSANDS ;
+:эмплоагкь%  THOUSANDS ;
 
 LEXICON LOHKAITJE
-емплоагкь% : THOUSANDS ;
+:емплоагкь%  THOUSANDS ;
 
 LEXICON TENST
-кӯххтлоагкь% :2 LOGIT ;
-кӯһтлоагкь% +Use/NG:2 LOGIT ;
-ко̄ллмлоагкь% :3 LOGIT ;
-не̄лльйлоагкь% :4 LOGIT ;
-выдтлоагкь% :5 LOGIT ;
-кудтлоагкь% :6 LOGIT ;
-кыджемьлоагкь% :7 LOGIT ;
-ка̄ххцлоагкь% :8 LOGIT ;
-аххцлоагкь% :9 LOGIT ;
+2:кӯххтлоагкь%  LOGIT ;
+2:кӯһтлоагкь% +Use/NG LOGIT ;
+3:ко̄ллмлоагкь%  LOGIT ;
+4:не̄лльйлоагкь%  LOGIT ;
+5:выдтлоагкь%  LOGIT ;
+6:кудтлоагкь%  LOGIT ;
+7:кыджемьлоагкь%  LOGIT ;
+8:ка̄ххцлоагкь%  LOGIT ;
+9:аххцлоагкь%  LOGIT ;
 
 LEXICON LOGIT
-% :%0 THOUSANDS ;
-э̄ххт% :1 THOUSANDS ;
+%0:%   THOUSANDS ;
+1:э̄ххт%  THOUSANDS ;
 ONEST ;
 
 LEXICON ONEST
-кӯххт% :2 THOUSANDS ;
-кӯһт% +Use/NG:2 THOUSANDS ;
-ко̄ллм% :3 THOUSANDS ;
-не̄лльй% :4 THOUSANDS ;
-выдт% :5 THOUSANDS ;
-кудт% :6 THOUSANDS ;
-кыджемь% :7 THOUSANDS ;
-ка̄ххц% :8 THOUSANDS ;
-аххц% :9 THOUSANDS ;
+2:кӯххт%  THOUSANDS ;
+2:кӯһт% +Use/NG THOUSANDS ;
+3:ко̄ллм%  THOUSANDS ;
+4:не̄лльй%  THOUSANDS ;
+5:выдт%  THOUSANDS ;
+6:кудт%  THOUSANDS ;
+7:кыджемь%  THOUSANDS ;
+8:ка̄ххц%  THOUSANDS ;
+9:аххц%  THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
-тоафант% : THOUSAND ;
+:тоафант%  THOUSAND ;
 
 LEXICON THOUSAND
 UNDERTHOUSAND ;	   ! 1100-1999
-:%0 TENS ;	   ! 1020-1099
-:%0 TEENSCONT ;	   ! 1010-1019
-:%0%0 ONES ;	   ! 1001-1009
-:%0%0%0 COMMA ;	   ! 1000
-:%0%0%0%.  COMMA ;	   ! 1000.
+%0: TENS ;	   ! 1020-1099
+%0: TEENSCONT ;	   ! 1010-1019
+%0%0: ONES ;	   ! 1001-1009
+%0%0%0: COMMA ;	   ! 1000
+%0%0%0%.:  COMMA ;	   ! 1000.
 
 !===========================
 !Here starts the 999 numbers
 !===========================
 
 LEXICON UNDERTHOUSAND
-чӯдтҍ% :1 HUNDRED ;
+1:чӯдтҍ%  HUNDRED ;
 HUNDREDS ;
 
 LEXICON HUNDREDS
-кӯххт% :2  CUODI ;
-кӯһт% +Use/NG:2  CUODI ;
-ко̄ллм% :3 CUODI ;
-не̄лльй% :4 CUODI ;
-выдт% :5 CUODI ;
-кудт% :6 CUODI ;
-кыджемь% :7 CUODI ;
-ка̄ххц% :8 CUODI ;
-аххц% :9 CUODI ;
+2:кӯххт%   CUODI ;
+2:кӯһт% +Use/NG  CUODI ;
+3:ко̄ллм%  CUODI ;
+4:не̄лльй%  CUODI ;
+5:выдт%  CUODI ;
+6:кудт%  CUODI ;
+7:кыджемь%  CUODI ;
+8:ка̄ххц%  CUODI ;
+9:аххц%  CUODI ;
 
 LEXICON CUODI
-чӯдҍ% : HUNDRED ;
+:чӯдҍ%  HUNDRED ;
 
 LEXICON HUNDRED
 TENS ;
 TEENSCONT ;
-% :%0 ONES ;
-% :%0%0 COMMA ;
-% :%0%0%. COMMA ; ! card = ord for x00
+%0:%  ONES ;
+%0%0:%  COMMA ;
+%0%0%.:%  COMMA ; ! card = ord for x00
 
 
 
 LEXICON TENS
 
-лоагкь:1%0 COMMA ; ! cardinal
-лоагант:1%0%. COMMA ; ! ordinal
+1%0:лоагкь COMMA ; ! cardinal
+1%0%.:лоагант COMMA ; ! ordinal
 
-кӯххт:2 LOGI ;
-кӯһт+Use/NG:2 LOGI ;
-ко̄ллм:3 LOGI ;
-не̄лльй:4 LOGI ;
-выдт:5 LOGI ;
-кудт:6 LOGI ;
-кыджемь:7 LOGI ;
-ка̄ххц:8 LOGI ;
-аххц:9 LOGI ;
+2:кӯххт LOGI ;
+2:кӯһт+Use/NG LOGI ;
+3:ко̄ллм LOGI ;
+4:не̄лльй LOGI ;
+5:выдт LOGI ;
+6:кудт LOGI ;
+7:кыджемь LOGI ;
+8:ка̄ххц LOGI ;
+9:аххц LOGI ;
 
 LEXICON LOGI
-лоагкь:%0 COMMA ; ! cardinal
-лоагант:%0%. COMMA ; ! ordinal
-лоагкь% : ONES ;
+%0:лоагкь COMMA ; ! cardinal
+%0%.:лоагант COMMA ; ! ordinal
+:лоагкь%  ONES ;
 
 LEXICON TEENSCONT
-% : TEENS ;
+:%   TEENS ;
 
 LEXICON TEENS
-:1 TEENSCARDINALS ;
-:1 TEENSORDINALS ;
+1: TEENSCARDINALS ;
+1: TEENSORDINALS ;
 
 LEXICON TEENSCARDINALS
-э̄ххт:1 LOHKAIE ;
-кӯххт:2 LOHKAIE ;
-кӯһт+Use/NG:2 LOHKAIE ;
-ко̄ллм:3 LOHKAIE ;
-не̄лльемплоагкь:4 COMMA ;
-выдт:5 LOHKAIE ;
-кудт:6 LOHKAIE ;
-кыджемь:7 LOHKAIJE ;
-ка̄ххц:8 LOHKAIE ;
-аххц:9 LOHKAIE ;
+1:э̄ххт LOHKAIE ;
+2:кӯххт LOHKAIE ;
+2:кӯһт+Use/NG LOHKAIE ;
+3:ко̄ллм LOHKAIE ;
+4:не̄лльемплоагкь COMMA ;
+5:выдт LOHKAIE ;
+6:кудт LOHKAIE ;
+7:кыджемь LOHKAIJE ;
+8:ка̄ххц LOHKAIE ;
+9:аххц LOHKAIE ;
 
 LEXICON LOHKAIE
-эмплоагкь: COMMA ;
+:эмплоагкь COMMA ;
 
 LEXICON LOHKAIJE
-емплоагкь: COMMA ;
+:емплоагкь COMMA ;
 
 
 
@@ -294,51 +294,51 @@ CARDINAL ;
 ORDINAL ;
 
 LEXICON CARDINAL
-э̄ххт:1 COMMA ;
-кӯххт:2 COMMA ;
-кӯһт+Use/NG:2 COMMA ;
-ко̄ллм:3 COMMA ;
-не̄лльй:4 COMMA ;
-выдт:5 COMMA ;
-кудт:6 COMMA ;
-кыджемь:7 COMMA ;
-ка̄ххц:8 COMMA ;
-аххц:9 COMMA ;
+1:э̄ххт  COMMA ;
+2:кӯххт  COMMA ;
+2:кӯһт+Use/NG  COMMA ;
+3:ко̄ллм  COMMA ;
+4:не̄лльй  COMMA ;
+5:выдт  COMMA ;
+6:кудт COMMA ;
+7:кыджемь  COMMA ;
+8:ка̄ххц  COMMA ;
+9:аххц COMMA ;
 
 
 LEXICON ORDINAL		   ! sme, fix
-авьтма+Use/NG:1%.     COMMA ; ! sme, fix
-авьтмусс:1%.     COMMA ; ! sme, fix
+1%.:авьтма+Use/NG     COMMA ; ! sme, fix
+1%.:авьтмусс     COMMA ; ! sme, fix
 ONESORDINALS ;
 
 LEXICON ONESORDINALS
-ныммьп:2%.   # ;	   ! sme, fix
-куалмант:3%.   # ;	   ! sme, fix
-ня̄льянт:4%. # ;	       ! sme, fix
-выдант:5%.   # ;	   ! sme, fix
-кудант:6%.   # ;	   ! sme, fix
-кыджянт:7%.    # ;	   ! sme, fix
-ка̄хцант:8%.   # ;	   ! sme, fix
-ахцант:9%.    # ;	   ! sme, fix
+2%.:ныммьп   # ;	   ! sme, fix
+3%.:куалмант   # ;	   ! sme, fix
+4%.:ня̄льянт # ;	       ! sme, fix
+5%.:выдант   # ;	   ! sme, fix
+6%.:кудант   # ;	   ! sme, fix
+7%.:кыджянт    # ;	   ! sme, fix
+8%.:ка̄хцант   # ;	   ! sme, fix
+9%.:ахцант    # ;	   ! sme, fix
 
 LEXICON TEENSORDINALS
-э̄ххт:1   TEENSORDINALEND ;
-кӯххт:2  TEENSORDINALEND ;
-кӯһт+Use/NG:2 TEENSORDINALEND ;
-ко̄ллм:3   TEENSORDINALEND ;
-не̄лльй:4  TEENSORDINALEND ;
-выдт:5  TEENSORDINALEND ;
-кудт:6  TEENSORDINALEND ;
-кыджемь:7 TEENSORDINALEND ;
-ка̄ххц:8   TEENSORDINALEND ;
-аххц:9 TEENSORDINALEND ;
+1:э̄ххт   TEENSORDINALEND ;
+2:кӯххт  TEENSORDINALEND ;
+2:кӯһт+Use/NG TEENSORDINALEND ;
+3:ко̄ллм   TEENSORDINALEND ;
+4:не̄лльй  TEENSORDINALEND ;
+5:выдт  TEENSORDINALEND ;
+6:кудт  TEENSORDINALEND ;
+7:кыджемь TEENSORDINALEND ;
+8:ка̄ххц   TEENSORDINALEND ;
+9:аххц TEENSORDINALEND ;
 
 LEXICON TEENSORDINALEND
-эмплоагант:%. COMMA ;
+%.:эмплоагант COMMA ;
 
 LEXICON AVTMUSS
-авьтмусс:1%.     COMMA ;   ! sme, fix
-авьтма+Use/NG:1%.   COMMA ;
+1%.:авьтмусс     COMMA ;   ! sme, fix
+1%.:авьтма+Use/NG   COMMA ;
 
 
 
@@ -351,10 +351,10 @@ LEXICON AVTMUSS
 
 LEXICON COMMA
  #            ; 
- COMMASECTION ;
+! COMMASECTION ;
 
-LEXICON COMMASECTION 
-                  # ; 
+ LEXICON COMMASECTION 
+ # ;
 !  % запятая% :,      NUMBERSECTION ; ! perhaps rus (Kildin?) for "comma"
 !  % čuokkis% :%.   NUMBERSECTION ; ! these will overlap with dates
 !  % kolon% :%:     NUMBERSECTION ;
