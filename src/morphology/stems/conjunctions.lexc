@@ -16,7 +16,10 @@ LEXICON CC
 +CC: # ;
 
 LEXICON Conjunction
-я CC "и" ;
+я CC "и / and" ;
 э CC "или / or" ;
 а CC "a / but" ;
 или CC "или / or" ;
+и CC "и / and" ;
+но CC "но / but" ;
+
