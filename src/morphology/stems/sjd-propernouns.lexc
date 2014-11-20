@@ -19,73 +19,74 @@ LEXICON PROP_1DA
 +Prop: 1DA ;
 
 LEXICON Propernoun
-Чиприан PROP_1DA ; !1A first class
-Tронд PROP_1DA ; !1А economy class
-Мэ̄һкал PROP_1DA ; !2A tourist class
-Мышшьк PROP_1DA ;
 Во̄леньк PROP_1DA "Лена, Елена" ;
+Мышшьк PROP_1DA ;
+Мэ̄һкал PROP_1DA ; !2A tourist class
 О̄леньк PROP_1DA ;
-
+Тронд PROP_1DA ; !1А economy class
+Чиприан PROP_1DA ; !1A first class
 
 ! Oahpa dump here
 
-Рыг OAHPA_PROP ;
-Я̄к OAHPA_PROP ;
-Ёак OAHPA_PROP ;
-Нӣна OAHPA_PROP ;
-Пӯна OAHPA_PROP ;
-Ёгра OAHPA_PROP ;
-Ёгор OAHPA_PROP ;
-Ларя OAHPA_PROP ;
-Пася OAHPA_PROP ;
-О̄ця OAHPA_PROP ;
-Таиск OAHPA_PROP ;
-Мышшк OAHPA_PROP ;
-Эвван OAHPA_PROP ;
-Пе̄др OAHPA_PROP ;
-Вуаӈт OAHPA_PROP ;
-Таввь OAHPA_PROP ;
-Лёлль OAHPA_PROP ;
+Антон OAHPA_PROP ;
 А̄ннҍ OAHPA_PROP ;
-Ма̄тӓ OAHPA_PROP ;
-Мыккла OAHPA_PROP ;
-Улльна OAHPA_PROP ;
-Пе̄дра OAHPA_PROP ;
-Сӣрьке OAHPA_PROP ;
-Ёа̄ввк OAHPA_PROP ;
-Парэск OAHPA_PROP ;
-Тымэшк OAHPA_PROP ;
-Оленьк OAHPA_PROP ;
 Ва̄дҍк OAHPA_PROP ;
-Сымман OAHPA_PROP ;
-Улльян OAHPA_PROP ;
-Параска OAHPA_PROP ;
-По̄ввла OAHPA_PROP ;
-Тоа̄нла OAHPA_PROP ;
-На̄дтла OAHPA_PROP ;
-Та̄дҍна OAHPA_PROP ;
-Са̄ндра OAHPA_PROP ;
-Вуаннса OAHPA_PROP ;
-Та̄ррьй OAHPA_PROP ;
 Ва̄сськ OAHPA_PROP ;
-Моа̄ҏҏк OAHPA_PROP ;
-Тоа̄нал OAHPA_PROP ;
-Та̄дҍян OAHPA_PROP ;
+Вуаннса OAHPA_PROP ;
+Вуаӈт OAHPA_PROP ;
+Вуаӈтэнч OAHPA_PROP ;
+Вуэннҍтре OAHPA_PROP ;
+Вуэннҍтряя OAHPA_PROP ;
+Ёа̄ввк OAHPA_PROP ;
+Ёак OAHPA_PROP ;
+Ёгор OAHPA_PROP ;
+Ёгра OAHPA_PROP ;
+Ларя OAHPA_PROP ;
+Лёлль OAHPA_PROP ;
 Луяввьр OAHPA_PROP ;
-Мышкэнч OAHPA_PROP ;
-Эввнэнч OAHPA_PROP ;
-Сӣрькья OAHPA_PROP ;
+Ма̄рьенч OAHPA_PROP ;
+Ма̄тӓ OAHPA_PROP ;
+Моа̄дран OAHPA_PROP ;
 Моа̄дрна OAHPA_PROP ;
 Моа̄рьна OAHPA_PROP ;
-Моа̄дран OAHPA_PROP ;
-Рыгкъенч OAHPA_PROP ;
-Ма̄рьенч OAHPA_PROP ;
-Та̄рьенч OAHPA_PROP ;
+Моа̄ҏҏк OAHPA_PROP ;
+Мыккла OAHPA_PROP ;
 Мыкклэнч OAHPA_PROP ;
-Вуаӈтэнч OAHPA_PROP ;
-Терибирь OAHPA_PROP ;
-Са̄ххкрэ OAHPA_PROP ;
-Вуэннҍтре OAHPA_PROP ;
-Полъяввьр OAHPA_PROP ;
+Мышкэнч OAHPA_PROP ;
+Мышшк OAHPA_PROP ;
+На̄дтла OAHPA_PROP ;
+Нӣна OAHPA_PROP ;
 Ноасстъенч OAHPA_PROP ;
-Вуэннҍтряя OAHPA_PROP ;
+Оленьк OAHPA_PROP ;
+О̄ця OAHPA_PROP ;
+Параска OAHPA_PROP ;
+Парэск OAHPA_PROP ;
+Пася OAHPA_PROP ;
+Пе̄др OAHPA_PROP ;
+Пе̄дра OAHPA_PROP ;
+По̄ввла OAHPA_PROP ;
+Полъяввьр OAHPA_PROP ;
+Пӯна OAHPA_PROP ;
+Рыг OAHPA_PROP ;
+Рыгкъенч OAHPA_PROP ;
+Са̄ндра OAHPA_PROP ;
+Са̄ххкрэ OAHPA_PROP ;
+Сӣрьке OAHPA_PROP ;
+Сӣрькья OAHPA_PROP ;
+Сымман OAHPA_PROP ;
+Таввь OAHPA_PROP ;
+Та̄дҍна OAHPA_PROP ;
+Та̄дҍян OAHPA_PROP ;
+Таиск OAHPA_PROP ;
+Та̄ррьй OAHPA_PROP ;
+Та̄рьенч OAHPA_PROP ;
+Терибирь OAHPA_PROP ;
+Тоа̄нал OAHPA_PROP ;
+Тоа̄нла OAHPA_PROP ;
+Тымэшк OAHPA_PROP ;
+Улльна OAHPA_PROP ;
+Улльян OAHPA_PROP ;
+Эвван OAHPA_PROP ;
+Эввнэнч OAHPA_PROP ;
+Я̄к OAHPA_PROP ;
+
