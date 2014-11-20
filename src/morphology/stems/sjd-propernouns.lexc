@@ -20,11 +20,11 @@ LEXICON PROP_1DA
 
 LEXICON Propernoun
 Во̄леньк PROP_1DA "Лена, Елена" ;
-Мышшьк PROP_1DA ;
+Мышшьк PROP_1DA ;!variant Мышшк
 Мэ̄һкал PROP_1DA ; !2A tourist class
-О̄леньк PROP_1DA ;
+О̄леньк PROP_1DA ;!variant Оленьк
 Тронд PROP_1DA ; !1А economy class
-Чиприан PROP_1DA ; !1A first class
+Чипрян PROP_1DA ; !1A first class
 
 ! Oahpa dump here
 
@@ -43,21 +43,19 @@ LEXICON Propernoun
 Ёгра OAHPA_PROP ;
 Ларя OAHPA_PROP ;
 Лёлль OAHPA_PROP ;
-Луяввьр OAHPA_PROP ;
+Луяввьр OAHPA_PROP ;!place name
 Ма̄рьенч OAHPA_PROP ;
 Ма̄тӓ OAHPA_PROP ;
-Моа̄дран OAHPA_PROP ;
+Моадрна OAHPA_PROP ;!variant Моа̄дран
 Моа̄дрна OAHPA_PROP ;
 Моа̄рьна OAHPA_PROP ;
 Моа̄ҏҏк OAHPA_PROP ;
 Мыккла OAHPA_PROP ;
 Мыкклэнч OAHPA_PROP ;
 Мышкэнч OAHPA_PROP ;
-Мышшк OAHPA_PROP ;
 На̄дтла OAHPA_PROP ;
 Нӣна OAHPA_PROP ;
 Ноасстъенч OAHPA_PROP ;
-Оленьк OAHPA_PROP ;
 О̄ця OAHPA_PROP ;
 Параска OAHPA_PROP ;
 Парэск OAHPA_PROP ;
@@ -89,4 +87,6 @@ LEXICON Propernoun
 Эвван OAHPA_PROP ;
 Эввнэнч OAHPA_PROP ;
 Я̄к OAHPA_PROP ;
+Ша̄шка OAHPA_PROP ;
+Москва OAHPA_PROP ;!place name
 
