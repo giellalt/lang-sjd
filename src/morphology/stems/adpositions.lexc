@@ -15,5 +15,16 @@
 LEXICON PP ! These are the indeclinable ones 
 +Po: #;
 
+LEXICON PR ! These are the indeclinable ones 
++Pr: #;
+
 LEXICON Postposition
- PP ;
+луннҍ PP "около / around" ;
+сыз PP "вовнутрь / into" ;
+туэгка PP "за / ??" ;
+
+LEXICON Preposition
+чӯл PR "вдоль / ??" ;
+рай PR "мимо / ЬЬ" ;
+мидтҍ PR "попутно / ??" ;
+раст PR "через / through" ;
