@@ -17,14 +17,20 @@ LEXICON CC
 
 LEXICON Conjunction
 я CC "и / and" ;
+да CC "и / and" ;
 и CC "и / and" ;
-э CC "и / and" ;
 !
 а CC "a / but" ;
+э CC "а / but" ;
 !
-или CC "или / or" ;
+вай CC "или / or" ;
+але CC "или / or" ;
 элэ CC "или / or" ;
+или CC "или / or" ;
+!
+лубэ CC "или / or" ;
 !
 но CC "но / but" ;
 ноа CC "но / but" ;
-
+ноэ CC "но / but" ;
+нэ CC "но / but" ;
