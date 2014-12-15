@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 
-LEXICON Adjective
+LEXICON Adjective   !!= * __@CODE@__
 
 A1  ; !similar forms for pred (number infl, except loan adj on -e) and attr
 !A1b ; COMPARATIVE -я(мп)
@@ -32,7 +32,7 @@ A4 ; !"4th ADJ class" with WK-as for PRED (number infl) and WK-as for ATTR
 !-а(мп) COMPARATIVE1
 
 !поасс A1b "злой" поассъя(мп)
-!-я(мп) COMPARATIVE2 
+!-я(мп) COMPARATIVE2
 
 вӣлльк A2 "белый / white" ;
 э̄лл A2  "высокий / high" ; !this adj varies as to its class membership
@@ -60,7 +60,7 @@ A4 ; !"4th ADJ class" with WK-as for PRED (number infl) and WK-as for ATTR
 
 
 
-! Just dumping the oahpa adjectives here
+!! Just dumping the oahpa adjectives here
 
 
 шӣг OAHPA_A ;

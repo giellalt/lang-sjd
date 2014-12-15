@@ -13,16 +13,16 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 
+!! !!!Kildin Saami verbs
 
-
-LEXICON Verb
+LEXICON Verb   !!= * __@CODE@__
 
 Neg ;
 !Aux	;
 Verbstems ;
 
 
-LEXICON Neg
+LEXICON Neg   !!= * __@CODE@__
 
 +V+Neg+Prs+Sg1:эмм K ;
 +V+Neg+Prs+Sg2:эгк K ;
@@ -36,7 +36,7 @@ LEXICON Neg
 
 ! the simplest verb class (without any paradigmatic stem alternations)
 ! comprises most verbs from Kurutch's classes II, III, and IV
-! in MR's analysis, this is "class II" (out of three classes) 
+! in MR's analysis, this is "class II" (out of three classes)
 ! [not important here, but these are derived verbs with three-syllabic stems historically; the vocalism of the second syllable is syncopated; that's why the consonantism looks odd (-бш- -рьйх- …) and doosn' undergo stem gradation]
 
 ! (phonologically) the rules are the following:
@@ -86,7 +86,7 @@ LEXICON Neg
 ! Connegative non-past ! I don't know how to gloss "connegative" [MR]
 +V+ConNeg+Prs:шоабэшт K ; ! formally similar to 3sg.pst
 
-! Connegative past 
+! Connegative past
 +V+ConNeg+Prt:шоабшма K ; ! formally similar to perfect perticiple
 
 !кырьйхэ:кырьяһ:кырьеһ "писать / write" ; !kyr'jhe:kyr'jah:kyr'jeh
@@ -120,10 +120,10 @@ LEXICON Neg
 ! Connegative non-past ! I don't know how to gloss "connegative" [MR]
 +V+ConNeg+Prs:кырьеһт K ; ! formally similar to 3sg.pst
 
-! Connegative past 
+! Connegative past
 +V+ConNeg+Prt:кырьйхма K ; ! formally similar to perfect perticiple
 
-!вāннҍцлэ:вāннҍцалт:вāннҍцэлт "пойти / go (a little bit) / vázzilit" ; 
+!вāннҍцлэ:вāннҍцалт:вāннҍцэлт "пойти / go (a little bit) / vázzilit" ;
 
 ! Indicative non-past
 +V+Prs+Sg1:вāннҍцла K ;
@@ -154,13 +154,13 @@ LEXICON Neg
 ! Connegative non-past ! I don't know how to gloss "connegative" [MR]
 +V+ConNeg+Prs:вāннҍцэлт K ; ! formally similar to 3sg.pst
 
-! Connegative past 
+! Connegative past
 +V+ConNeg+Prt:вāннҍцла K ; ! formally similar to perfect perticiple, but note the alternative suffix ~/-a/ (not /-ma/)
 
 
 
 
-LEXICON Verbstems
+LEXICON Verbstems   !!= * __@CODE@__
 
 ! Elisabeth:
 
@@ -215,7 +215,7 @@ LEXICON Verbstems
 
 
 
-! Just dumping Oahpa verbs here
+!! Just dumping Oahpa verbs in the rest of the file
 
 
 ыбе:ыб OAHPA_V ;
