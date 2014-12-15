@@ -105,6 +105,24 @@ It is unclear whether this is the correct classification
 
 
 
+ * __LEXICON Adjective   __
+
+
+
+
+
+
+
+
+
+
+
+Just dumping the oahpa adjectives here
+
+
+
+
+
 !!!Kildin Saami nouns
 
  * LEXICON Noun 
@@ -140,6 +158,68 @@ These words are added from sjdoahpa.
 Some of them are unfortunaely plural forms, and should be removed 
 or put in singular.
 Then they should be given correct declension class
+
+
+
+!!!Kildin Saami verbs
+
+ * __LEXICON Verb   __
+
+
+
+ * __LEXICON Neg   __
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * __LEXICON Verbstems   __
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Just dumping Oahpa verbs in the rest of the file
+
 
 
 !!!Kildin Sámi TWOLC file

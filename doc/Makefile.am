@@ -11,14 +11,15 @@ if CAN_DOCC
 
 JSP_PAGES=root-morphology.jspwiki  \
 		  nouns-affixes.jspwiki \
+		  adjectives-stems.jspwiki         \
 		  nouns-stems.jspwiki \
+		  verbs-stems.jspwiki              \
 		  sjd-phon-phonology.jspwiki
 # clitics-morphology.jspwiki       \
 # compounding-morphology.jspwiki   \
 # abbreviations-stems.jspwiki      \
 # acronyms-stems.jspwiki           \
 # adjectives-oahpa-stems.jspwiki   \
-# adjectives-stems.jspwiki         \
 # adpositions-stems.jspwiki        \
 # adverbs-stems.jspwiki            \
 # conjunctions-stems.jspwiki       \
@@ -31,7 +32,6 @@ JSP_PAGES=root-morphology.jspwiki  \
 # punctuation-stems.jspwiki        \
 # smi-propernouns-stems.jspwiki    \
 # subjunctions-stems.jspwiki       \
-# verbs-stems.jspwiki              \
 # adjectives-oahpa-affixes.jspwiki \
 # adjectives-affixes.jspwiki       \
 # propernouns-affixes.jspwiki      \
