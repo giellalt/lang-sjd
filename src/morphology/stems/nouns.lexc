@@ -19,7 +19,7 @@ LEXICON Noun !!= * @CODE@
 
 !! !!class1
 кӯсс 1DA "ель / fir" ; !!= кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
-
+ноаҏҏт 1DA "сани / sled" ;
 ме̄рр 1DA "море / sea" ;!хх-->x
 мӯрр 1DA "дерево / tree" ;
 мырр 1DA ;
@@ -111,9 +111,13 @@ LEXICON Noun !!= * @CODE@
 
 !! !!6. declension (classes )
 
+!! !!ELAN dump
+!! These words are added during testing work with the ELAN-FST script
+!! They should be given correct declension classes later
+лыһк 1DA "труд / work" ;
+шӯрр 1DA "?? / master" ;
 
 !! !!Oahpa dump
-
 !! These words are added from sjdoahpa.
 !! Some of them are unfortunaely plural forms, and should be removed 
 !! or put in singular.

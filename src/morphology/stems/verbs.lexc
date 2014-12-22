@@ -214,6 +214,11 @@ LEXICON Verbstems   !!= * __@CODE@__
 оаввнэннтэ:оаввнэннт 7 "открываться / to open up (vi)" ;
 
 
+!! !!ELAN dump
+!! These words are added during testing work with the ELAN-FST script
+!! They should be given correct declension classes later
+лыһкэ:лыһк ELAN_V ;
+
 
 !! Just dumping Oahpa verbs in the rest of the file
 

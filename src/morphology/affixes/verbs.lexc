@@ -22,6 +22,9 @@
 !LEXICON 1_EPH
 !:%^EPHV    1 ;
 
+LEXICON ELAN_V
+1 ; ! just dumping the ELAN verbs here
+
 LEXICON OAHPA_V
 1 ; ! just dumping the oahpa verbs here
 
