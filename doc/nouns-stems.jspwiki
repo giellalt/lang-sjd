@@ -7,7 +7,6 @@
 !!class1
 кӯсс 1DA "ель / fir" ;   кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
 
-
 class1 orth. дт/ill. ӭ
 
 
@@ -28,9 +27,11 @@ class1 orth. дт/ill. ӭ
 
 !!6. declension (classes )
 
+!!ELAN dump
+These words are added during testing work with the ELAN-FST script
+They should be given correct declension classes later
 
 !!Oahpa dump
-
 These words are added from sjdoahpa.
 Some of them are unfortunaely plural forms, and should be removed 
 or put in singular.
