@@ -95,7 +95,7 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 !!Tags for values of derivational processes
 !!!Compounds
 * +Cmp/Sg
-* +SgNomCmp
+* +Cmp/SgNom
 * +SgGenCmp
 * +PlGenCmp
 * +Cmpnd
