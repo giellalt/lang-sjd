@@ -96,7 +96,7 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 !!!Compounds
 * +Cmp/Sg
 * +Cmp/SgNom
-* +SgGenCmp
+* +Cmp/SgGen
 * +PlGenCmp
 * +Cmpnd
 * +Cmpnd+ 
