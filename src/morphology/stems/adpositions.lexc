@@ -13,19 +13,35 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
 LEXICON PP ! These are the indeclinable ones 
-+Po: #;
++Po: # ;
 
 LEXICON PR ! These are the indeclinable ones 
-+Pr: #;
++Pr: # ;
 
 LEXICON Postposition
 луннҍ PP "около / around" ;
-сыз PP "вовнутрь / into" ;
+
+!inflected? derived?
 туэгка PP "за / ??" ;
-тӯгкенҍ PP "за / ??" ;
+тӯгкенҍ PP "из-за / ??" ;
+
+сыз PP "вовнутрь / into" ;
+сыссенҍ PP "внутри / ??" ;
+
+гоаррь PP "?? / ??" ; !check гоаррь (noun "side")
+гоаррэ PP "в сторону / ??" ;
+гоарренҍ PP "со стороны / ??" ;
+
+пайй PP "?? / ??" ; ! check пайй (noun "??")
+паяс PP "вверх / ??" ; ! this is an adverb
+паялт PP "сверху / ??" ; ! this is an adverb
+пайенҍ PP "сверху / ??" ;
+
+таввенҍ PP "вдали / remote" ;
+тавас PP "?? / ??"
 
 LEXICON Preposition
 чӯл PR "вдоль / ??" ;
-рай PR "мимо / ЬЬ" ;
+рай PR "мимо / ??" ;
 мидтҍ PR "попутно / ??" ;
 раст PR "через / through" ;
