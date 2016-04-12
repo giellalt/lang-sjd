@@ -1,5 +1,5 @@
 ! Divvun & Giellatekno - open source grammars for Sámi and other languages
-! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! Copyright © 2000-2016 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
 ! This program is free software; you can redistribute and/or modify
@@ -11,13 +11,33 @@
 !
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
+!
+! -------- !
+! Numerals !
+! -------- !
 
-LEXICON num
-+Num: # ;
+LEXICON Card ! cardinal numerals 
++Card: # ;
 
-LEXICON Numeral
-э̄һт num "one" ;
-куһт num "two" ; 
+LEXICON Ord ! ordinal numerals 
++Ord: # ;
+
+LEXICON Numeral ! underived numerals
+
+э̄ххт    Card "one"      ; 
+кӯһт    Card "two"      ;    
+ко̄ллм   Card "three"    ; 
+не̄лльй  Card "four"     ; 
+выдт    Card "five"     ;    
+кудт    Card "six"      ;    
+кыджемь Card "seven"    ;    
+ка̄ххц   Card "eight"    ; 
+аххц    Card "nine"     ;    
+лоагкь  Card "ten"      ;    
+					      
+чӯдтҍ	Card "hundred"  ;
+					      
+тоафант Card "thousand" ;
 
 ! derived numerals
 ! окта 
