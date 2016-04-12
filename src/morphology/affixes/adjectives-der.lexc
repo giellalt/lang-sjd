@@ -23,3 +23,11 @@ Adj+Der/xem+Pred:%>хэм    # ;
 LEXICON DER/XEMES
 
 Adj+Der/xemes+Attr:%>хэмэсь    # ;
+
+LEXICON DER/NALŠEM
+
+Adj+Der/nalšem+Pred:%>-налшэм    # ;
+
+LEXICON DER/NALŠEMES
+
+Adj+Der/nalšemes+Attr:%>-налшэмэсь    # ;
