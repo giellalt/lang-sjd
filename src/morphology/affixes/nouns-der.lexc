@@ -18,63 +18,63 @@
 
 LEXICON DER/MUŠŠ
 
-+N+NDer/mušš+Sg+Nom:%>мушш      # ;
-+N+NDer/mušš+Sg+Gen:%>муж       # ;
-+N+NDer/mušš+Sg+Acc:%>муж       # ;
-+N+NDer/mušš+Sg+Ill:%>мушше     # ;
-+N+NDer/mušš+Sg+Loc:%>мужэсьт   # ;
-+N+NDer/mušš+Sg+Com:%>мужэнҍ    # ;
-+N+NDer/mušš+Sg+Abe:%>мужха     # ;
++N+Der/mušš+Sg+Nom:%>мушш      # ;
++N+Der/mušš+Sg+Gen:%>муж       # ;
++N+Der/mušš+Sg+Acc:%>муж       # ;
++N+Der/mušš+Sg+Ill:%>мушше     # ;
++N+Der/mušš+Sg+Loc:%>мужэсьт   # ;
++N+Der/mušš+Sg+Com:%>мужэнҍ    # ;
++N+Der/mušš+Sg+Abe:%>мужха     # ;
 
-+N+NDer/mušš+Pl+Nom:%>муж       # ;
-+N+NDer/mušš+Pl+Gen:%>мужэ      # ;
-+N+NDer/mušš+Pl+Acc:%>мужэтҍ    # ;
-+N+NDer/mušš+Pl+Ill:%>мужэтҍ    # ;
-+N+NDer/mušš+Pl+Loc:%>мужэнҍ    # ;
-+N+NDer/mušš+Pl+Com:%>мужэгуэйм # ;
-+N+NDer/mušš+Pl+Abe:%>мужэха    # ;
++N+Der/mušš+Pl+Nom:%>муж       # ;
++N+Der/mušš+Pl+Gen:%>мужэ      # ;
++N+Der/mušš+Pl+Acc:%>мужэтҍ    # ;
++N+Der/mušš+Pl+Ill:%>мужэтҍ    # ;
++N+Der/mušš+Pl+Loc:%>мужэнҍ    # ;
++N+Der/mušš+Pl+Com:%>мужэгуэйм # ;
++N+Der/mušš+Pl+Abe:%>мужэха    # ;
 
-+N+NDer/mušš+Ess:%>мушшэнҍ      # ;
-+N+NDer/mušš+Par:%>мушшэ        # ;
++N+Der/mušš+Ess:%>мушшэнҍ      # ;
++N+Der/mušš+Par:%>мушшэ        # ;
 
-LEXICON NDER/EJ
+LEXICON DER/EJ
 
-+N+NDer/mušš+Sg+Nom:%>й      # ; !-(э|ӭ|е)й
-+N+NDer/mušš+Sg+Gen:%>й      # ; !-(э|ӭ|е)й
-+N+NDer/mušš+Sg+Acc:%>й      # ; !-(э|ӭ|е)й
-+N+NDer/mušš+Sg+Ill:%>е      # ; !-(ъ|ь|ҍ)е
-+N+NDer/mušš+Sg+Loc:%>есьт   # ; !-(ъ|ь|ҍ)есьт
-+N+NDer/mušš+Sg+Com:%>енҍ    # ; !-(ъ|ь|ҍ)енҍ
-+N+NDer/mušš+Sg+Abe:%>яһта   # ; !-(ъ|ь|ҍ)яһта
++N+Der/mušš+Sg+Nom:%>й      # ; !-(э|ӭ|е)й
++N+Der/mušš+Sg+Gen:%>й      # ; !-(э|ӭ|е)й
++N+Der/mušš+Sg+Acc:%>й      # ; !-(э|ӭ|е)й
++N+Der/mušš+Sg+Ill:%>е      # ; !-(ъ|ь|ҍ)е
++N+Der/mušš+Sg+Loc:%>есьт   # ; !-(ъ|ь|ҍ)есьт
++N+Der/mušš+Sg+Com:%>енҍ    # ; !-(ъ|ь|ҍ)енҍ
++N+Der/mušš+Sg+Abe:%>яһта   # ; !-(ъ|ь|ҍ)яһта
 
-+N+NDer/mušš+Pl+Nom:%>й      # ; !-(э|ӭ|е)й
-+N+NDer/mušš+Pl+Gen:%%>е     # ; !-(ъ|ь|ҍ)е
-+N+NDer/mušš+Pl+Acc:%>етҍ    # ; !-(ъ|ь|ҍ)етҍ
-+N+NDer/mušš+Pl+Ill:%>етҍ    # ; !-(ъ|ь|ҍ)етҍ
-+N+NDer/mušš+Pl+Loc:%>енҍ    # ; !-(ъ|ь|ҍ)енҍ
-+N+NDer/mušš+Pl+Com:%>егуэйм # ; !-(ъ|ь|ҍ)егуэйм
-+N+NDer/mušš+Pl+Abe:%>еха    # ; !-(ъ|ь|ҍ)еха
++N+Der/mušš+Pl+Nom:%>й      # ; !-(э|ӭ|е)й
++N+Der/mušš+Pl+Gen:%%>е     # ; !-(ъ|ь|ҍ)е
++N+Der/mušš+Pl+Acc:%>етҍ    # ; !-(ъ|ь|ҍ)етҍ
++N+Der/mušš+Pl+Ill:%>етҍ    # ; !-(ъ|ь|ҍ)етҍ
++N+Der/mušš+Pl+Loc:%>енҍ    # ; !-(ъ|ь|ҍ)енҍ
++N+Der/mušš+Pl+Com:%>егуэйм # ; !-(ъ|ь|ҍ)егуэйм
++N+Der/mušš+Pl+Abe:%>еха    # ; !-(ъ|ь|ҍ)еха
 
-+N+NDer/mušš+Ess:%>енҍ       # ; !-(ъ|ь|ҍ)енҍ
-+N+NDer/mušš+Par:%>едтӭ      # ; !-(ъ|ь|ҍ)едтӭ
++N+Der/mušš+Ess:%>енҍ       # ; !-(ъ|ь|ҍ)енҍ
++N+Der/mušš+Par:%>едтӭ      # ; !-(ъ|ь|ҍ)едтӭ
 
-LEXICON NDER/ENČ
+LEXICON DER/ENČ
 
-+N+NDer/mušš+Sg+Nom:%>нч    # ; !-(э|ӭ|е)нч
-!+N+NDer/mušš+Sg+Gen:%>     # ; !-(а|ӓ|я)
-!+N+NDer/mušš+Sg+Acc:%>     # ; !-(а|ӓ|я)
-+N+NDer/mušš+Sg+Ill:%>не    # ; 
-+N+NDer/mušš+Sg+Loc:%>сьт   # ; !-(а|ӓ|я)сьт
-+N+NDer/mušš+Sg+Com:%>нҍ    # ; !-(а|ӓ|я)нҍ
-+N+NDer/mušš+Sg+Abe:%>һта   # ; !-(а|ӓ|я)һта
++N+Der/mušš+Sg+Nom:%>нч    # ; !-(э|ӭ|е)нч
+!+N+Der/mušš+Sg+Gen:%>     # ; !-(а|ӓ|я)
+!+N+Der/mušš+Sg+Acc:%>     # ; !-(а|ӓ|я)
++N+Der/mušš+Sg+Ill:%>не    # ; 
++N+Der/mušš+Sg+Loc:%>сьт   # ; !-(а|ӓ|я)сьт
++N+Der/mušš+Sg+Com:%>нҍ    # ; !-(а|ӓ|я)нҍ
++N+Der/mušš+Sg+Abe:%>һта   # ; !-(а|ӓ|я)һта
 
-!+N+NDer/mušš+Pl+Nom:%>     # ; !-(а|ӓ|я)
-!+N+NDer/mušš+Pl+Gen:%>     # ; !-(а|ӓ|я)
-+N+NDer/mušš+Pl+Acc:%>тҍ    # ; !-(а|ӓ|я)тҍ
-+N+NDer/mušš+Pl+Ill:%>тҍ    # ; !-(а|ӓ|я)тҍ
-+N+NDer/mušš+Pl+Loc:%>нҍ    # ; !-(а|ӓ|я)нҍ
-+N+NDer/mušš+Pl+Com:%>гуэйм # ; !-(а|ӓ|я)гуэйм
-+N+NDer/mušš+Pl+Abe:%>ха    # ; !-(а|ӓ|я)ха
+!+N+Der/mušš+Pl+Nom:%>     # ; !-(а|ӓ|я)
+!+N+Der/mušš+Pl+Gen:%>     # ; !-(а|ӓ|я)
++N+Der/mušš+Pl+Acc:%>тҍ    # ; !-(а|ӓ|я)тҍ
++N+Der/mušš+Pl+Ill:%>тҍ    # ; !-(а|ӓ|я)тҍ
++N+Der/mušš+Pl+Loc:%>нҍ    # ; !-(а|ӓ|я)нҍ
++N+Der/mušš+Pl+Com:%>гуэйм # ; !-(а|ӓ|я)гуэйм
++N+Der/mušš+Pl+Abe:%>ха    # ; !-(а|ӓ|я)ха
 
-+N+NDer/mušš+Ess:%>нҍ       # ; !-(а|ӓ|я)нҍ
-+N+NDer/mušš+Par:%>недтӭ    # ;
++N+Der/mušš+Ess:%>нҍ       # ; !-(а|ӓ|я)нҍ
++N+Der/mušš+Par:%>недтӭ    # ;
