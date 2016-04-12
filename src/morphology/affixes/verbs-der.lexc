@@ -16,142 +16,142 @@
 ! Verb derivation !
 ! =============== !
 
-LEXICON VDER/ŠKUEDD                          !inchoative -(э|е)шкуэдтҍ-
+LEXICON DER/ŠKUEDD                          !inchoative -(э|е)шкуэдтҍ-
 
-+V+VDer/škuedd+Inf:%>шкуэдтӭ              # ;
++V+Der/škuedd+Inf:%>шкуэдтӭ              # ;
 
-+V+VDer/škuedd+Ind+Prs+Sg1:%>шкуада       # ;
-+V+VDer/škuedd+Ind+Prs+Sg2:%>шкуадак      # ;
-+V+VDer/škuedd+Ind+Prs+Sg3:%>шкуадт       # ;
-+V+VDer/škuedd+Ind+Prs+Sg4:%>шкуэдӭтҍ     # ;
-+V+VDer/škuedd+Ind+Prs+Pl1:%>шкуэдтӭпь    # ;
-+V+VDer/škuedd+Ind+Prs+Pl2:%>шкуэдтҍбэдтӭ # ;
-+V+VDer/škuedd+Ind+Prs+Pl3:%>шкуэдтӭв     # ;
++V+Der/škuedd+Ind+Prs+Sg1:%>шкуада       # ;
++V+Der/škuedd+Ind+Prs+Sg2:%>шкуадак      # ;
++V+Der/škuedd+Ind+Prs+Sg3:%>шкуадт       # ;
++V+Der/škuedd+Ind+Prs+Sg4:%>шкуэдӭтҍ     # ;
++V+Der/škuedd+Ind+Prs+Pl1:%>шкуэдтӭпь    # ;
++V+Der/škuedd+Ind+Prs+Pl2:%>шкуэдтҍбэдтӭ # ;
++V+Der/škuedd+Ind+Prs+Pl3:%>шкуэдтӭв     # ;
 
-+V+VDer/škuedd+Ind+Prt+Sg1:%>шкӯдтӭ       # ;
-+V+VDer/škuedd+Ind+Prt+Sg2:%>шкӯдтӭкь     # ;
-+V+VDer/škuedd+Ind+Prt+Sg3:%>шкӯдӭ        # ;
-+V+VDer/škuedd+Ind+Prt+Sg4:%>шкӯдтӭшь     # ;
-+V+VDer/škuedd+Ind+Prt+Pl1:%>шкӯдӭмь      # ;
-+V+VDer/škuedd+Ind+Prt+Pl2:%>шкӯдӭтҍ      # ;
-+V+VDer/škuedd+Ind+Prt+Pl3:%>шкӯдтӭнҍ     # ;
++V+Der/škuedd+Ind+Prt+Sg1:%>шкӯдтӭ       # ;
++V+Der/škuedd+Ind+Prt+Sg2:%>шкӯдтӭкь     # ;
++V+Der/škuedd+Ind+Prt+Sg3:%>шкӯдӭ        # ;
++V+Der/škuedd+Ind+Prt+Sg4:%>шкӯдтӭшь     # ;
++V+Der/škuedd+Ind+Prt+Pl1:%>шкӯдӭмь      # ;
++V+Der/škuedd+Ind+Prt+Pl2:%>шкӯдӭтҍ      # ;
++V+Der/škuedd+Ind+Prt+Pl3:%>шкӯдтӭнҍ     # ;
 
-+V+VDer/škuedd+Cond+Sg1:%>шкӯдче          # ;
-+V+VDer/škuedd+Cond+Sg2:%>шкӯдчекь        # ;
-+V+VDer/škuedd+Cond+Sg3:%>шкӯдаһч         # ;
-+V+VDer/škuedd+Cond+Pl1:%>шкӯдчепь        # ;
-+V+VDer/škuedd+Cond+Pl2:%>шкӯдчебпе       # ;
-+V+VDer/škuedd+Cond+Pl3:%>шкӯдченҍ        # ;
++V+Der/škuedd+Cond+Sg1:%>шкӯдче          # ;
++V+Der/škuedd+Cond+Sg2:%>шкӯдчекь        # ;
++V+Der/škuedd+Cond+Sg3:%>шкӯдаһч         # ;
++V+Der/škuedd+Cond+Pl1:%>шкӯдчепь        # ;
++V+Der/škuedd+Cond+Pl2:%>шкӯдчебпе       # ;
++V+Der/škuedd+Cond+Pl3:%>шкӯдченҍ        # ;
 
-+V+VDer/škuedd+Imprt+Sg:%>шкуэдҍ          # ;
-+V+VDer/škuedd+Imprt+Pl:%>шкуэдтӭ         # ;
++V+Der/škuedd+Imprt+Sg:%>шкуэдҍ          # ;
++V+Der/škuedd+Imprt+Pl:%>шкуэдтӭ         # ;
 
-+V+VDer/škuedd+ConNeg+Prs:%>шкуэдҍ        # ;
-+V+VDer/škuedd+ConNeg+Prt:%>шкуадтма      # ;
++V+Der/škuedd+ConNeg+Prs:%>шкуэдҍ        # ;
++V+Der/škuedd+ConNeg+Prt:%>шкуадтма      # ;
 
-+V+VDer/škuedd+Actio:%>шкуэдтҍмэмь         # ;
++V+Der/škuedd+Actio:%>шкуэдтҍмэмь         # ;
 
-LEXICON VDER/T                       !-аһтҍ- allomorph of causative -т-, also complex derivations -лаһт- -хаһт- -саһт- -наһт-
+LEXICON DER/T                       !-аһтҍ- allomorph of causative -т-, also complex derivations -лаһт- -хаһт- -саһт- -наһт-
 
-+V+VDer/t+Inf:%>аһтӭ              # ;
++V+Der/t+Inf:%>аһтӭ              # ;
 
-+V+VDer/t+Ind+Prs+Sg1:%>адта      # ;
-+V+VDer/t+Ind+Prs+Sg2:%>адтак     # ;
-+V+VDer/t+Ind+Prs+Sg3:%>аһт       # ;
-+V+VDer/t+Ind+Prs+Sg4:%>адтӭтҍ    # ;
-+V+VDer/t+Ind+Prs+Pl1:%>аһтӭпь    # ;
-+V+VDer/t+Ind+Prs+Pl2:%>аһтҍбэдтӭ # ;
-+V+VDer/t+Ind+Prs+Pl3:%>аһтӭв     # ;
++V+Der/t+Ind+Prs+Sg1:%>адта      # ;
++V+Der/t+Ind+Prs+Sg2:%>адтак     # ;
++V+Der/t+Ind+Prs+Sg3:%>аһт       # ;
++V+Der/t+Ind+Prs+Sg4:%>адтӭтҍ    # ;
++V+Der/t+Ind+Prs+Pl1:%>аһтӭпь    # ;
++V+Der/t+Ind+Prs+Pl2:%>аһтҍбэдтӭ # ;
++V+Der/t+Ind+Prs+Pl3:%>аһтӭв     # ;
 
-+V+VDer/t+Ind+Prt+Sg1:%>эдтӭ      # ;
-+V+VDer/t+Ind+Prt+Sg2:%>эдтӭкь    # ;
-+V+VDer/t+Ind+Prt+Sg3:%>эдӭ       # ;
-+V+VDer/t+Ind+Prt+Sg4:%>эдтӭшь    # ;
-+V+VDer/t+Ind+Prt+Pl1:%>эдтӭмь    # ;
-+V+VDer/t+Ind+Prt+Pl2:%>эдӭтҍ     # ;
-+V+VDer/t+Ind+Prt+Pl3:%>эдтӭнҍ    # ;
++V+Der/t+Ind+Prt+Sg1:%>эдтӭ      # ;
++V+Der/t+Ind+Prt+Sg2:%>эдтӭкь    # ;
++V+Der/t+Ind+Prt+Sg3:%>эдӭ       # ;
++V+Der/t+Ind+Prt+Sg4:%>эдтӭшь    # ;
++V+Der/t+Ind+Prt+Pl1:%>эдтӭмь    # ;
++V+Der/t+Ind+Prt+Pl2:%>эдӭтҍ     # ;
++V+Der/t+Ind+Prt+Pl3:%>эдтӭнҍ    # ;
 
-+V+VDer/t+Cond+Sg1:%>эдтче        # ;
-+V+VDer/t+Cond+Sg2:%>эдтчекь      # ;
-+V+VDer/t+Cond+Sg3:%>эдтаһч       # ;
-+V+VDer/t+Cond+Pl1:%>эдтчепь      # ;
-+V+VDer/t+Cond+Pl2:%>эдтчебпе     # ;
-+V+VDer/t+Cond+Pl3:%>эдтченҍ      # ;
++V+Der/t+Cond+Sg1:%>эдтче        # ;
++V+Der/t+Cond+Sg2:%>эдтчекь      # ;
++V+Der/t+Cond+Sg3:%>эдтаһч       # ;
++V+Der/t+Cond+Pl1:%>эдтчепь      # ;
++V+Der/t+Cond+Pl2:%>эдтчебпе     # ;
++V+Der/t+Cond+Pl3:%>эдтченҍ      # ;
 
-+V+VDer/t+Imprt+Sg:%>адтҍ         # ;
-+V+VDer/t+Imprt+Pl:%>аһтӭ         # ;
++V+Der/t+Imprt+Sg:%>адтҍ         # ;
++V+Der/t+Imprt+Pl:%>аһтӭ         # ;
 
-+V+VDer/t+ConNeg+Prs:%>адтҍ       # ;
-+V+VDer/t+ConNeg+Prt:%>аһтма      # ;
++V+Der/t+ConNeg+Prs:%>адтҍ       # ;
++V+Der/t+ConNeg+Prt:%>аһтма      # ;
 
 +V+Der/t+Actio:%>аһтҍмэмь        # ;
 
-LEXICON VDER/ASST                       !diminutive -(а|я)ссьт-, also complex derivations -(ь|ҍ)й- etc.
+LEXICON DER/ASST                       !diminutive -(а|я)ссьт-, also complex derivations -(ь|ҍ)й- etc.
 
-+V+VDer/asst+Inf:%>ссьтэ             # ;
++V+Der/asst+Inf:%>ссьтэ             # ;
 
-+V+VDer/asst+Ind+Prs+Sg1:%>ста       # ;
-+V+VDer/asst+Ind+Prs+Sg2:%>стак      # ;
-+V+VDer/asst+Ind+Prs+Sg3:%>сст       # ;
-+V+VDer/asst+Ind+Prs+Sg4:%>сьтэтҍ    # ;
-+V+VDer/asst+Ind+Prs+Pl1:%>ссьтэпь   # ;
-+V+VDer/asst+Ind+Prs+Pl2:%>ссьтбэдтӭ # ;
-+V+VDer/asst+Ind+Prs+Pl3:%>ссьтэв    # ;
++V+Der/asst+Ind+Prs+Sg1:%>ста       # ;
++V+Der/asst+Ind+Prs+Sg2:%>стак      # ;
++V+Der/asst+Ind+Prs+Sg3:%>сст       # ;
++V+Der/asst+Ind+Prs+Sg4:%>сьтэтҍ    # ;
++V+Der/asst+Ind+Prs+Pl1:%>ссьтэпь   # ;
++V+Der/asst+Ind+Prs+Pl2:%>ссьтбэдтӭ # ;
++V+Der/asst+Ind+Prs+Pl3:%>ссьтэв    # ;
 
-+V+VDer/asst+Ind+Prt+Sg1:%>сьтэ      # ;
-+V+VDer/asst+Ind+Prt+Sg2:%>сьтэкь    # ;
-+V+VDer/asst+Ind+Prt+Sg3:%>сьтэ      # ;
-+V+VDer/asst+Ind+Prt+Sg4:%>сьтэшь    # ;
-+V+VDer/asst+Ind+Prt+Pl1:%>сьтэмь    # ;
-+V+VDer/asst+Ind+Prt+Pl2:%>сьтэтҍ    # ;
-+V+VDer/asst+Ind+Prt+Pl3:%>сьтэнҍ    # ;
++V+Der/asst+Ind+Prt+Sg1:%>сьтэ      # ;
++V+Der/asst+Ind+Prt+Sg2:%>сьтэкь    # ;
++V+Der/asst+Ind+Prt+Sg3:%>сьтэ      # ;
++V+Der/asst+Ind+Prt+Sg4:%>сьтэшь    # ;
++V+Der/asst+Ind+Prt+Pl1:%>сьтэмь    # ;
++V+Der/asst+Ind+Prt+Pl2:%>сьтэтҍ    # ;
++V+Der/asst+Ind+Prt+Pl3:%>сьтэнҍ    # ;
 
-+V+VDer/asst+Cond+Sg1:%>сьтче        # ;
-+V+VDer/asst+Cond+Sg2:%>сьтчекь      # ;
-+V+VDer/asst+Cond+Sg3:%>сьтаһч       # ;
-+V+VDer/asst+Cond+Pl1:%>сьтчепь      # ;
-+V+VDer/asst+Cond+Pl2:%>сьтчебпе     # ;
-+V+VDer/asst+Cond+Pl3:%>сьтченҍ      # ;
++V+Der/asst+Cond+Sg1:%>сьтче        # ;
++V+Der/asst+Cond+Sg2:%>сьтчекь      # ;
++V+Der/asst+Cond+Sg3:%>сьтаһч       # ;
++V+Der/asst+Cond+Pl1:%>сьтчепь      # ;
++V+Der/asst+Cond+Pl2:%>сьтчебпе     # ;
++V+Der/asst+Cond+Pl3:%>сьтченҍ      # ;
 
-+V+VDer/asst+Imprt+Sg:%>сьт          # ;
-+V+VDer/asst+Imprt+Pl:%>ссьтэ        # ;
++V+Der/asst+Imprt+Sg:%>сьт          # ;
++V+Der/asst+Imprt+Pl:%>ссьтэ        # ;
 
-+V+VDer/asst+ConNeg+Prs:%>сьт        # ;
-+V+VDer/asst+ConNeg+Prt:%>сстма      # ;
++V+Der/asst+ConNeg+Prs:%>сьт        # ;
++V+Der/asst+ConNeg+Prt:%>сстма      # ;
 
-+V+VDer/asst+Actio:%>ссьтмэмь        # ;
++V+Der/asst+Actio:%>ссьтмэмь        # ;
 
-LEXICON VDER/UVV                     !passive -увв-, also complex derivations -(ь|ҍ)ювв- etc.
+LEXICON DER/UVV                     !passive -увв-, also complex derivations -(ь|ҍ)ювв- etc.
 
-+V+VDer/uvv+Inf:%>ввэ             # ;
++V+Der/uvv+Inf:%>ввэ             # ;
 
-+V+VDer/uvv+Ind+Prs+Sg1:%>ва      # ;
-+V+VDer/uvv+Ind+Prs+Sg2:%>вак     # ;
-+V+VDer/uvv+Ind+Prs+Sg3:%>вв      # ;
-+V+VDer/uvv+Ind+Prs+Sg4:%>вэтҍ    # ;
-+V+VDer/uvv+Ind+Prs+Pl1:%>ввэпь   # ;
-+V+VDer/uvv+Ind+Prs+Pl2:%>ввбэдтӭ # ;
-+V+VDer/uvv+Ind+Prs+Pl3:%>ввэв    # ;
++V+Der/uvv+Ind+Prs+Sg1:%>ва      # ;
++V+Der/uvv+Ind+Prs+Sg2:%>вак     # ;
++V+Der/uvv+Ind+Prs+Sg3:%>вв      # ;
++V+Der/uvv+Ind+Prs+Sg4:%>вэтҍ    # ;
++V+Der/uvv+Ind+Prs+Pl1:%>ввэпь   # ;
++V+Der/uvv+Ind+Prs+Pl2:%>ввбэдтӭ # ;
++V+Der/uvv+Ind+Prs+Pl3:%>ввэв    # ;
 
-+V+VDer/uvv+Ind+Prt+Sg1:%>вве     # ;
-+V+VDer/uvv+Ind+Prt+Sg2:%>ввекь   # ;
-+V+VDer/uvv+Ind+Prt+Sg3:%>вэ      # ;
-+V+VDer/uvv+Ind+Prt+Sg4:%>ввэшь   # ;
-+V+VDer/uvv+Ind+Prt+Pl1:%>вэмь    # ;
-+V+VDer/uvv+Ind+Prt+Pl2:%>вэтҍ    # ;
-+V+VDer/uvv+Ind+Prt+Pl3:%>ввенҍ   # ;
++V+Der/uvv+Ind+Prt+Sg1:%>вве     # ;
++V+Der/uvv+Ind+Prt+Sg2:%>ввекь   # ;
++V+Der/uvv+Ind+Prt+Sg3:%>вэ      # ;
++V+Der/uvv+Ind+Prt+Sg4:%>ввэшь   # ;
++V+Der/uvv+Ind+Prt+Pl1:%>вэмь    # ;
++V+Der/uvv+Ind+Prt+Pl2:%>вэтҍ    # ;
++V+Der/uvv+Ind+Prt+Pl3:%>ввенҍ   # ;
 
-+V+VDer/uvv+Cond+Sg1:%>вче        # ;
-+V+VDer/uvv+Cond+Sg2:%>вчекь      # ;
-+V+VDer/uvv+Cond+Sg3:%>ваһч       # ;
-+V+VDer/uvv+Cond+Pl1:%>вчепь      # ;
-+V+VDer/uvv+Cond+Pl2:%>вчебпе     # ;
-+V+VDer/uvv+Cond+Pl3:%>вченҍ      # ;
++V+Der/uvv+Cond+Sg1:%>вче        # ;
++V+Der/uvv+Cond+Sg2:%>вчекь      # ;
++V+Der/uvv+Cond+Sg3:%>ваһч       # ;
++V+Der/uvv+Cond+Pl1:%>вчепь      # ;
++V+Der/uvv+Cond+Pl2:%>вчебпе     # ;
++V+Der/uvv+Cond+Pl3:%>вченҍ      # ;
 
-+V+VDer/uvv+Imprt+Sg:%>в          # ;
-+V+VDer/uvv+Imprt+Pl:%>ввэ        # ;
++V+Der/uvv+Imprt+Sg:%>в          # ;
++V+Der/uvv+Imprt+Pl:%>ввэ        # ;
 
-+V+VDer/uvv+ConNeg+Prs:%>в        # ;
-+V+VDer/uvv+ConNeg+Prt:%>ввма     # ;
++V+Der/uvv+ConNeg+Prs:%>в        # ;
++V+Der/uvv+ConNeg+Prt:%>ввма     # ;
 
-+V+VDer/uvv+Actio:%>ввмэмь        # ;
++V+Der/uvv+Actio:%>ввмэмь        # ;
