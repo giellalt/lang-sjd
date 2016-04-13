@@ -1,5 +1,58 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2016 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
 
-
+! ------- !
+! Clitics !
+! ------- !
 
 LEXICON K
 # ;
+
+!attaches to question words (adverbs and pronouns), deriving indefinite forms
+!ни- 
+!-не
+!-ля̄ннч
+!
+!attaches to everything, meaning 'also'
+!-шэ
+!
+!attaches to verbs inflected in conditional mood and should perhaps be analyzed as a suffix
+!-пэ
+!
+!attaches to nouns, clitic form of DEM, inflects in all cases and numbers in agreement with the noun, meaning similar to Russian '=то'
+!SG
+!дэдт
+!дэнн
+!дэнн
+!дэз
+!дэсьт
+!дэйн
+!дэннха
+!
+!PL
+!дэгк
+!дэйт
+!дэйт
+!дэйнэнҍ
+!дэйтгуэйм
+!дэйтха
+!
+!??Ess
+!??Part
+!
+!Russian clitic occurring in Kildin spoken texts, attaches to everything, meaning similar to Russian '=то'
+!-то
+!
+!Russian clitic occurring in Kildin spoken texts, attaches to everything, meaning similar to Russian '=же'
+!-же
