@@ -25,24 +25,24 @@ LEXICON PR ! These are the indeclinable ones
 LEXICON Postposition
 луннҍ PP "около / around" ;
 
-!inflected? derived?
-туэгка PP "за / ??" ;
-тӯгкенҍ PP "из-за / ??" ;
-
-сыз PP "вовнутрь / into" ;
-сыссенҍ PP "внутри / ??" ;
-
-гоаррь PP "?? / ??" ; !check гоаррь (noun "side")
-гоаррэ PP "в сторону / ??" ;
-гоарренҍ PP "со стороны / ??" ;
-
-пайй PP "?? / ??" ; ! check пайй (noun "??")
-паяс PP "вверх / ??" ; ! this is an adverb
-паялт PP "сверху / ??" ; ! this is an adverb
-пайенҍ PP "сверху / ??" ;
-
-таввенҍ PP "вдали / remote" ;
-тавас PP "?? / ??"
+!!inflected? derived?
+!туэгка PP "за / ??" ;
+!тӯгкенҍ PP "из-за / ??" ;
+!
+!сыз PP "вовнутрь / into" ;
+!сыссенҍ PP "внутри / ??" ;
+!
+!гоаррь PP "?? / ??" ; !check гоаррь (noun "side")
+!гоаррэ PP "в сторону / ??" ;
+!гоарренҍ PP "со стороны / ??" ;
+!
+!пайй PP "?? / ??" ; ! check пайй (noun "??")
+!паяс PP "вверх / ??" ; ! this is an adverb
+!паялт PP "сверху / ??" ; ! this is an adverb
+!пайенҍ PP "сверху / ??" ;
+!
+!таввенҍ PP "вдали / remote" ;
+!тавас PP "?? / ??"
 
 LEXICON Preposition
 чӯл PR "вдоль / ??" ;
