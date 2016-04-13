@@ -20,13 +20,17 @@ LEXICON DER/NALLA
 
 Adv+Der/nalla:%>-налла # ;
 
-LEXICON DER/LJANČ
-
-Adv+Der/ljanč:%>-ля̄ннч # ;
-
-LEXICON DER/NE
-
-Adv+Der/ne:%>-не # ;
+!LEXICON DER/LJANČ ! derives adverbs from adverbs and pronouns from pronouns
+!
+!Adv+Der/ljanč:%>-ля̄ннч # ;
+!
+!LEXICON DER/NE ! derives adverbs from adverbs and pronouns from pronouns
+!
+!Adv+Der/ne:%>-не # ;
+!
+!LEXICON DER/NI ! derives adverbs from adverbs and pronouns from pronouns
+!!prefix
+!Adv+Der/ni:%>не # ;
 
 LEXICON DER/XANNA
 
