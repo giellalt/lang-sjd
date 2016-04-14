@@ -12,20 +12,20 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 !
-! -------- !
-! Numerals !
-! -------- !
+! ------------- !
+! Numeral roots !
+! ------------- !
 
 LEXICON Numeral ! underived numerals
 э̄ххт    Card "один / one"      ; 
 кӯһт    Card "two"      ;    
-ко̄ллм   Card "три / three"    ; 
+ко̄ллм   1DA(CARD) "три / three"    ; 
 не̄лльй  Card "four"     ; 
-выдт    Card "five"     ;    
-кудт    Card "six"      ;    
+выдт    1DA(CARD) "five"     ;    
+кудт    1DA(CARD) "six"      ;    
 кыджемь Card "семь / seven"    ;    
-ка̄ххц   Card "eight"    ; 
-аххц    Card "nine"     ;    
+ка̄ххц   1DA(CARD) "eight"    ; 
+аххц    1DA(CARD) "nine"     ;    
 лоагкь  Card "ten"      ;    
 чӯдтҍ	Card "сто / hundred"  ;
 тоафант Card "thousand" ;
@@ -36,6 +36,86 @@ LEXICON Card ! cardinal numerals
 LEXICON Ord ! ordinal numerals 
 +Num+Ord: K ;
 
-! derived numerals
-! окта 
-! о̄ххтэ
+! ------------------ !
+! Numeral inflection !
+! ------------------ !
+
+LEXICON 1DA(CARD) ! cardinal numerals class 1DA (for testing)
++Num+Card:     SgNomSuf(card) ;
++Num+Card:%^WG SgGenAccSuf(card) ;
++Num+Card:     SgIllSufE(card) ;
++Num+Card:%^WG SgLocSuf(card) ;
++Num+Card:%^WG SgComSuf(card) ;
++Num+Card:%^WG SgAbeSuf(card) ;
++Num+Card:     EssSuf(card) ;
++Num+Card:     ParSuf(card) ;
+
+LEXICON SgNomSuf(card)
++Nom: K ;
+
+LEXICON SgGenAccSuf(card)
++Gen: K ;
++Acc: K ;
+
+LEXICON SgIllSufE(card)
++Ill:%>э K ;
+
+LEXICON SgLocSuf(card)
++Loc:%>эсьт K ;
+
+LEXICON SgComSuf(card)
++Sg+Com:%>энҍ K ;
+
+LEXICON SgAbeSuf(card)
++Abe:%>ха K ;
+
+LEXICON EssSuf(card)
++Ess:%>энҍ K ;
+
+LEXICON ParSuf(card)
++Par:%>э K ;
+
+! ------------------ !
+! Numeral derivation ! i.e. forms derived from numeral bases
+! ------------------ !
+
+LEXICON CARD-NPAL
++Num+Card+Der/эшт:%>эшьт K ; 
+
+!LEXICON DER/EŠT ! С о б и р а т е л ь н ы е числительные
+!Adv+Der/est: # ; !-(а|ӓ|я)с -эшьт (-ешьт)
+!STR, no ablaut
+!кӯhтэшьт „дважды, два раза”
+!кōллмэшьт „трижды, три раза”
+!нēлльешьт „четырежды, четыре раза”
+!выдтэшьт „пять раз”
+!кудтэшьт „шесть раз”
+!кыджьмэшьт „семь раз”
+!кāххцэшьт „восемь раз”
+!аххцэшьт „девять раз”
+!лоагкешьт „десять раз”
+
+!э̄ххтъя
+!э̄ххтэ
+!э̄ххтса "совместный" adjective
+!эхтнэгк ?vowel ?gradation
+!эфт-налла
+!эфтэ
+!аххтан
+!эфтэ-эфтэ
+!эхтнэ verb
+!эхтсэ verb
+!эхтхэ verb
+!э̄ххткэнне "близко" adverb
+!э̄ххтэмплоагкь
+
+!кӯһтэ "оба"
+!кӯһтэшьт "дважды"
+!кутӓс "двое" ?palatalized
+!кутӭ-кутӭ  "по два" ?palatalized
+!куэһтасьт "вдвоём" ?px
+
+!ко̄ллмэшьт
+!колмас "трое"
+!колмэ-колмэ "по три"
+!куалмант
