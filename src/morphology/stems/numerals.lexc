@@ -16,28 +16,25 @@
 ! Numerals !
 ! -------- !
 
-LEXICON Card ! cardinal numerals 
-+Card: # ;
-
-LEXICON Ord ! ordinal numerals 
-+Ord: # ;
-
 LEXICON Numeral ! underived numerals
-
-э̄ххт    Card "one"      ; 
+э̄ххт    Card "один / one"      ; 
 кӯһт    Card "two"      ;    
-ко̄ллм   Card "three"    ; 
+ко̄ллм   Card "три / three"    ; 
 не̄лльй  Card "four"     ; 
 выдт    Card "five"     ;    
 кудт    Card "six"      ;    
-кыджемь Card "seven"    ;    
+кыджемь Card "семь / seven"    ;    
 ка̄ххц   Card "eight"    ; 
 аххц    Card "nine"     ;    
 лоагкь  Card "ten"      ;    
-					      
-чӯдтҍ	Card "hundred"  ;
-					      
+чӯдтҍ	Card "сто / hundred"  ;
 тоафант Card "thousand" ;
+
+LEXICON Card ! cardinal numerals
++Num+Card: K ; 
+
+LEXICON Ord ! ordinal numerals 
++Num+Ord: K ;
 
 ! derived numerals
 ! окта 
