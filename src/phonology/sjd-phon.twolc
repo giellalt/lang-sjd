@@ -116,10 +116,10 @@ Cx:Cy <=> V: Cx: _ (ь:) %^WG:0 ;
       matched ;
 
 "Quantitative CG non-pal 3-Cns Cluster"
-!! __@RULENAME@__  e.g. са̄ррн : са̄рн 
+!! __@RULENAME@__  e.g. са̄ррн : са̄рн, ко̄ллм : ко̄лм 
  Cx:0 <=> Cx _ Cy (PALMARK:) %^WG:0 ;
       where Cx in ( л й м р ш )  
-            Cy in ( к в ч н к )
+            Cy in ( к в ч н м )
       matched ;
 
 "Epenthetic vowel deletion"
