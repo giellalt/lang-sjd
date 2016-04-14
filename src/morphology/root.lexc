@@ -1,5 +1,5 @@
 ! Divvun & Giellatekno - open source grammars for Kildin Sámi.
-! Copyright © 2000-2015 The University of Tromsø & the Norwegian Sámi Parliament
+! Copyright © 2000-2016 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
 ! This program is free software; you can redistribute and/or modify
@@ -21,7 +21,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 ! POS
 +N +V +A
 +Adv +CC +CS +Interj +Pron +Num
-+Pers +Rel +Refl +Interr +Dem
++Pers +Rel +Refl +Det
 +Pr +Po
 
 ! Adjectival MSP
@@ -39,8 +39,8 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 ! Nominal MSP
 +Sg +Pl
-+Nom +Acc +Gen +Ill +Loc +Ela +Com +Ess +Par +Abe
-+Ord
++Nom +Acc +Gen +Ill +Loc +Com +Ess +Par +Abe
++Card +Ord
 +Prop +Sem/Ani +Sem/Mal +Sem/Fem +Sem/Sur +Sem/Plc +Sem/Org +Sem/Obj ! Semantic properties of names
 
 +CLB
