@@ -16,6 +16,9 @@
 ! Numeral derivation !
 ! ------------------ !
 
+LEXICON Card1DA ! cardinal numerals class 1DA
++Num+Card: 1DA ; 
+
 LEXICON DER/EMPLOAGK
 
 Ord+Der/emploagk:%>мплоагкь # ; ! эмплоагкь
