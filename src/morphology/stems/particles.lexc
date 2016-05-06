@@ -16,7 +16,9 @@ LEXICON PCLE
 +Pcle: # ;
 
 LEXICON Particle
+на    PCLE ;
 ныдтҍ PCLE ;
+тэль  PCLE ;
 
 !loan discourse particles found in spoken texts
 !phonologoically/orthographically adapted
@@ -25,6 +27,7 @@ LEXICON Particle
 ладнэ   PCLE "ладно" ;
 навернэ PCLE "наверно" ;
 начит   PCLE "значит" ;
+о̄бще    PCLE "вообще" ;
 простэ  PCLE "просто" ;
 яснэ    PCLE "ясно" ;
 
@@ -33,6 +36,7 @@ LEXICON Particle
 да          PCLE "да" ;
 даже        PCLE "даже" ;
 дак         PCLE "дак" ;
+господин    PCLE "господин" ;
 ли          PCLE "ли" ; !!might also be the verb лӣ
 ну          PCLE "ну" ; !!might also be an inherited Saami particle
 оказывается PCLE "оказывается" ;
