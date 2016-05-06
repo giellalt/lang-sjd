@@ -18,7 +18,7 @@ LEXICON CS
 LEXICON Subjunction
 есле      CS "если / if" ;
 потомуштэ CS "потому что / because" ;
-штобэ     CS "чтобы / in order to" " ;
+штобэ     CS "чтобы / in order to" ;
 штэ       CS "что / that" ;
 
 гу     CS "как / like" ; !! Check this, adverb?
