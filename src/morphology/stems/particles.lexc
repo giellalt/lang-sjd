@@ -1,5 +1,5 @@
 ! Divvun & Giellatekno - open source grammars for Sámi and other languages
-! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! Copyright © 2000-2016 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
 ! This program is free software; you can redistribute and/or modify
@@ -13,4 +13,32 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
 LEXICON Particle
-# ;
+ныдтҍ # ;
+
+!loan discourse particles found in spoken texts
+!phonologoically/orthographically adapted
+всёравнэ "всё равно" # ;
+конешнэ "конечно" # ;
+ладнэ "ладно" # ;
+навернэ "наверно" # ;
+начит "значит" # ;
+простэ "просто" # ;
+яснэ "ясно" # ;
+
+!not adapted
+вот "вот" # ;
+да "да" # ;
+даже "даже" # ;
+дак "дак" # ;
+ли "ли" # ; !!might also be the verb лӣ
+ну "ну" # ; !!might also be an inherited Saami particle
+оказывается "оказывается" # ;
+правда "правда" # ;
+раз "раз" # ;
+тоже "тоже" # ;
+
+!complex !!preprocessor need here
+!ну вот # ;
+!да простэ "да просто" # ;
+!ну раз # ;
+!ну яснэ "ну ясно" # ;

@@ -1,5 +1,5 @@
 ! Divvun & Giellatekno - open source grammars for Sámi and other languages
-! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! Copyright © 2000-2016 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
 ! This program is free software; you can redistribute and/or modify
@@ -20,7 +20,7 @@ LEXICON adv
 
 LEXICON Adverb
 ! lexical adverbs
-чофта adv "много / очень / much" ;
+чофта adv "очень / much" ;
 четк adv "насмерть / to death" ;
 
 ! ?derived adverbs from adjectives; suffix /-as/ <-ас>; weak grade, depalatalization (incl. velar umlaut)
@@ -158,4 +158,12 @@ LEXICON Adverb
 нимэ̄ннгуэйке OAHPA_ADV ;
 вуэлькесьпялла OAHPA_ADV ;
 вуэлькесьбельт OAHPA_ADV ;
+
+!loan adverbs found in spoken texts
+щас adv "сейчас / now" ;
+уже adv "уже / already" ;
+потом adv "потом / then" ; 
+неправилнэ "неправильно / wrong" ;
+всёвремя "всё время / constantly" ;
+
 
