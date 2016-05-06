@@ -12,28 +12,18 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
-LEXICON CC
-+CC: # ;
+LEXICON CS
++CS: # ;
 
-LEXICON Conjunction
-я  CC "и / and" ;
-да CC "и / and" ;
+LEXICON Subjunction
+есле      CS "если / if" ;
+потомуштэ CS "потому что / because" ;
+штобэ     CS "чтобы / in order to" " ;
+штэ       CS "что / that" ;
 
-и  CC "и / and" ;
-ы  CC "и / and" ;
+гу     CS "как / like" ; !! Check this, adverb?
+куэссь CS "когда / when" ; !! Check this, adverb?
+го     CS "что / that" ; !! From Oahpa !! Check this 
 
-а  CC "a / but" ;
-э  CC "а / but" ;
-
-вай CC "или / or" ;
-
-але CC "или / or" ;
-элэ CC "или / or" ;
-или CC "или / or" ;
-
-лубэ CC "или / or" ;
-
-но  CC "но / but" ;
-ноа CC "но / but" ;
-ноэ CC "но / but" ;
-нэ  CC "но / but" ;
+!да !!check да as subjunction
+!если … так и … !!check complex subjunction 
