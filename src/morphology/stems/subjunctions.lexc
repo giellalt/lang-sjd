@@ -16,7 +16,7 @@ LEXICON CS
 +CS: # ;
 
 LEXICON Subjunction
-есле      CS "если / if            " ;
+если      CS "если / if            " ;
 потомуштэ CS "потому что / because " ;
 штобэ     CS "чтобы / in order to  " ;
 штэ       CS "что / that           " ;
