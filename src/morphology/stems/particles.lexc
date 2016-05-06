@@ -12,33 +12,36 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
+LEXICON PCLE
++Pcle: # ;
+
 LEXICON Particle
-ныдтҍ # ;
+ныдтҍ PCLE ;
 
 !loan discourse particles found in spoken texts
 !phonologoically/orthographically adapted
-всёравнэ "всё равно" # ;
-конешнэ "конечно" # ;
-ладнэ "ладно" # ;
-навернэ "наверно" # ;
-начит "значит" # ;
-простэ "просто" # ;
-яснэ "ясно" # ;
+сёравнэ PCLE "всё равно" ;
+конешнэ PCLE "конечно" ;
+ладнэ   PCLE "ладно" ;
+навернэ PCLE "наверно" ;
+начит   PCLE "значит" ;
+простэ  PCLE "просто" ;
+яснэ    PCLE "ясно" ;
 
 !not adapted
-вот "вот" # ;
-да "да" # ;
-даже "даже" # ;
-дак "дак" # ;
-ли "ли" # ; !!might also be the verb лӣ
-ну "ну" # ; !!might also be an inherited Saami particle
-оказывается "оказывается" # ;
-правда "правда" # ;
-раз "раз" # ;
-тоже "тоже" # ;
+вот         PCLE "вот" ;
+да          PCLE "да" ;
+даже        PCLE "даже" ;
+дак         PCLE "дак" ;
+ли          PCLE "ли" ; !!might also be the verb лӣ
+ну          PCLE "ну" ; !!might also be an inherited Saami particle
+оказывается PCLE "оказывается" ;
+правда      PCLE "правда" ;
+раз         PCLE "раз" ;
+тоже        PCLE "тоже" ;
 
 !complex !!preprocessor need here
-!ну вот # ;
-!да простэ "да просто" # ;
-!ну раз # ;
-!ну яснэ "ну ясно" # ;
+!ну вот ;
+!да простэ "да просто" ;
+!ну раз ;
+!ну яснэ "ну ясно" ;
