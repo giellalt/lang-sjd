@@ -20,7 +20,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 ! POS
 +N +V +A
-+Adv +CC +CS +Interj +Pron +Num
++Adv +CC +CS +Interj +Pcle +Pron +Num
 +Pers +Rel +Refl +Det
 +Pr +Po
 
