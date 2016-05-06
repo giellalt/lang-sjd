@@ -1,5 +1,5 @@
 ! Divvun & Giellatekno - open source grammars for Sámi and other languages
-! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! Copyright © 2000-2016 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
 ! This program is free software; you can redistribute and/or modify
@@ -489,3 +489,9 @@ LEXICON Verbstems   !!= * __@CODE@__
 са̄рнэшкуэдтӭ:са̄рнэшкуэдт OAHPA_V ;
 ноа̄йххьтлэдтэ:ноа̄йххьтлэдт OAHPA_V ;
 моа̄йнсэшкуэдтӭ:моа̄йнсэшкуэдт OAHPA_V ;
+
+
+!loan modal auxiliary verbs found in spoken texts
++V+Mod+Prs+Sg3:должен K ;
++V+Mod+Prs+Sg3:может K ;
++V+Mod+Prs+Sg3:нужен K ;

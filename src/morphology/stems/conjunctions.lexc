@@ -1,5 +1,5 @@
 ! Divvun & Giellatekno - open source grammars for Sámi and other languages
-! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! Copyright © 2000-2016 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
 ! This program is free software; you can redistribute and/or modify
@@ -15,22 +15,41 @@
 LEXICON CC
 +CC: # ;
 
+LEXICON CS
++CS: # ;
+
 LEXICON Conjunction
-я CC "и / and" ;
+я  CC "и / and" ;
 да CC "и / and" ;
-и CC "и / and" ;
-!
-а CC "a / but" ;
-э CC "а / but" ;
-!
+
+и  CC "и / and" ;
+ы  CC "и / and" ;
+
+а  CC "a / but" ;
+э  CC "а / but" ;
+
 вай CC "или / or" ;
+
 але CC "или / or" ;
 элэ CC "или / or" ;
 или CC "или / or" ;
-!
+
 лубэ CC "или / or" ;
-!
-но CC "но / but" ;
+
+но  CC "но / but" ;
 ноа CC "но / but" ;
 ноэ CC "но / but" ;
-нэ CC "но / but" ;
+нэ  CC "но / but" ;
+
+LEXICON Subjunction
+есле      CS "если / if" ;
+потомуштэ CS "потому что / because" ;
+штобэ     CS "чтобы / in order to" " ;
+штэ       CS "что / that" ;
+
+гу     CS "как / like" ; !! Check this, adverb?
+куэссь CS "когда / when" ; !! Check this, adverb?
+го     CS "что / that" ; !! From Oahpa !! Check this 
+
+!да !!check да as subjunction
+!если … так и … !!check complex subjunction 
