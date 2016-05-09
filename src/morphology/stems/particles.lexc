@@ -18,7 +18,7 @@ LEXICON PCLE
 LEXICON Particle
 на    PCLE ;
 ныдтҍ PCLE ;
-тэль  PCLE ;
+тэль  PCLE ;!!bound variant -дель
 
 !loan discourse particles found in spoken texts
 !phonologoically/orthographically adapted
@@ -49,3 +49,4 @@ LEXICON Particle
 !да простэ "да просто" ;
 !ну раз ;
 !ну яснэ "ну ясно" ;
+!ну-э "ну и" ;
