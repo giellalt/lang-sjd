@@ -57,7 +57,6 @@ given the proper use of these flags.
 
 
 
-Noun inflection 
 
 "class1" = monosyllabic/non-palatalized inflection foot, str-wk, no ablaut/umlaut, palatalization in Ill.Sg
  LEXICON 1DA  is orthographic subclass with xx--> x
@@ -129,7 +128,6 @@ It is unclear whether this is the correct classification
  LEXICON PlAbeSuf 
 
  LEXICON PlComSuf 
-
 
 
  * __LEXICON Adjective   __
@@ -254,6 +252,8 @@ Just dumping Oahpa verbs in the rest of the file
 
 
 
+
+
 !!!Kildin Sámi TWOLC file
 !!!Alphabet, definitions
 
@@ -281,7 +281,7 @@ __Quantitative CG__
 
 __Quantitative CG 2-Cns Cluster__  e.g. ?ма̄дт : ма̄д, ?ма̄дтҍ : ма̄дҍ
 
-__Quantitative CG non-pal 3-Cns Cluster__  e.g. са̄ррн : са̄рн 
+__Quantitative CG non-pal 3-Cns Cluster__  e.g. са̄ррн : са̄рн, ко̄ллм : ко̄лм 
 
 __Epenthetic vowel deletion__  
 
