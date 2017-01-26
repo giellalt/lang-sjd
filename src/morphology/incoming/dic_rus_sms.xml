@@ -1,0 +1,1606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lexicon xml:lang="rus">
+	<entry>
+		<lemma>???????</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">jŠŠ«mmed </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">kuolla</tr>
+			<tr xml:lang="eng">to die</tr>
+			<tr xml:lang="deu">sterben</tr>
+			<tr xml:lang="nor">d¿</tr>
+		</translations>
+		<semantics>
+			<sem class="HUMAN"/>
+			<sem class="ANIMAL"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???????</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">kŒ«dded </tr>
+			<tr xml:lang="sjd">????????</tr>
+			<tr xml:lang="fin">tappaa</tr>
+			<tr xml:lang="eng">to kill</tr>
+			<tr xml:lang="deu">tšten</tr>
+			<tr xml:lang="nor">drepe</tr>
+		</translations>
+		<semantics>
+			<sem class="HUMAN"/>
+			<sem class="ANIMAL"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????? </lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">li‰??‰d </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">maata</tr>
+			<tr xml:lang="eng">to lie</tr>
+			<tr xml:lang="deu">liegen</tr>
+			<tr xml:lang="nor">ligge</tr>
+		</translations>
+		<semantics>
+			<sem class="HUMAN"/>
+			<sem class="ANIMAL"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">i?tt‰d </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">istua</tr>
+			<tr xml:lang="eng">to sit</tr>
+			<tr xml:lang="deu">sitzen</tr>
+			<tr xml:lang="nor">sitte</tr>
+		</translations>
+		<semantics>
+			<sem class="HUMAN"/>
+			<sem class="ANIMAL"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">vue«??ed</tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">nukkua</tr>
+			<tr xml:lang="eng">to sleep</tr>
+			<tr xml:lang="deu">schlafen</tr>
+			<tr xml:lang="nor">sove</tr>
+		</translations>
+		<semantics>
+			<sem class="HUMAN"/>
+			<sem class="ANIMAL"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">po?? </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">hšyhen</tr>
+			<tr xml:lang="eng">feather</tr>
+			<tr xml:lang="deu">Feder</tr>
+			<tr xml:lang="nor">fj¾r</tr>
+		</translations>
+		<semantics>
+			<sem class="ANIMAL"/>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">vuŠ«?'?</tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">liha</tr>
+			<tr xml:lang="eng">meat</tr>
+			<tr xml:lang="deu">Fleisch</tr>
+			<tr xml:lang="nor">kj¿tt</tr>
+		</translations>
+		<semantics>
+			<sem class="FOOD"/>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">sei«bb </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">hŠntŠ</tr>
+			<tr xml:lang="eng">tail</tr>
+			<tr xml:lang="deu">Schwanz</tr>
+			<tr xml:lang="nor">svans</tr>
+		</translations>
+		<semantics>
+			<sem class="ANIMAL"/>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">lŒ«dd </tr>
+			<tr xml:lang="sjd">???????</tr>
+			<tr xml:lang="fin">lintu</tr>
+			<tr xml:lang="eng">bird</tr>
+			<tr xml:lang="deu">Vogel</tr>
+			<tr xml:lang="nor">fugl</tr>
+		</translations>
+		<semantics>
+			<sem class="ANIMAL"/>
+			<sem class="FOOD"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">v›rr </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">veri</tr>
+			<tr xml:lang="eng">blood</tr>
+			<tr xml:lang="deu">Blut</tr>
+			<tr xml:lang="nor">blod</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+			<sem class="FOOD"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">tŠ«htt </tr>
+			<tr xml:lang="sjd">???????</tr>
+			<tr xml:lang="fin">luu</tr>
+			<tr xml:lang="eng">bone</tr>
+			<tr xml:lang="deu">Knochen</tr>
+			<tr xml:lang="nor">bein</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+			<sem class="FOOD"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">m‰‰«nn </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">muna</tr>
+			<tr xml:lang="eng">egg</tr>
+			<tr xml:lang="deu">Ei</tr>
+			<tr xml:lang="nor">egg</tr>
+		</translations>
+		<semantics>
+			<sem class="ANIMAL"/>
+			<sem class="FOOD"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">kue«ll </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">kala</tr>
+			<tr xml:lang="eng">fish</tr>
+			<tr xml:lang="deu">Fisch</tr>
+			<tr xml:lang="nor">fisk</tr>
+		</translations>
+		<semantics>
+			<sem class="ANIMAL"/>
+			<sem class="FOOD"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">?‰‰«?  </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">sydŠn</tr>
+			<tr xml:lang="eng">heart</tr>
+			<tr xml:lang="deu">Herz</tr>
+			<tr xml:lang="nor">hjerte</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+			<sem class="FOOD"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">vu›iv‰s </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">maksa</tr>
+			<tr xml:lang="eng">liver</tr>
+			<tr xml:lang="deu">Leber</tr>
+			<tr xml:lang="nor">lever</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+			<sem class="FOOD"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">njuh??‰m </tr>
+			<tr xml:lang="sjd">???????</tr>
+			<tr xml:lang="fin">kieli</tr>
+			<tr xml:lang="eng">tongue</tr>
+			<tr xml:lang="deu">Zunge</tr>
+			<tr xml:lang="nor">tunge</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+			<sem class="FOOD"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">?ŠŠ«cc </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">vesi</tr>
+			<tr xml:lang="eng">water</tr>
+			<tr xml:lang="deu">Wasser</tr>
+			<tr xml:lang="nor">vann</tr>
+		</translations>
+		<semantics>
+			<sem class="NATURE"/>
+			<sem class="FOOD"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">pŠŠ«ljes </tr>
+			<tr xml:lang="sjd">???????</tr>
+			<tr xml:lang="fin">polku</tr>
+			<tr xml:lang="eng">path</tr>
+			<tr xml:lang="deu">Pfad</tr>
+			<tr xml:lang="nor">stig</tr>
+		</translations>
+		<semantics>
+			<sem class="NATURE"/>
+			<sem class="HUMAN"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???????</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">kuull‰d </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">kuulla</tr>
+			<tr xml:lang="eng">to hear</tr>
+			<tr xml:lang="deu">hšren</tr>
+			<tr xml:lang="nor">h¿re</tr>
+		</translations>
+		<semantics>
+			<sem class="SENSE"/>
+			<sem class="HUMAN"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">tie«tted </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">tietŠŠ</tr>
+			<tr xml:lang="eng">to know</tr>
+			<tr xml:lang="deu">wissen</tr>
+			<tr xml:lang="nor">vite</tr>
+		</translations>
+		<semantics>
+			<sem class="SENSE"/>
+			<sem class="HUMAN"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">vŠ«??ed </tr>
+			<tr xml:lang="sjd">????????</tr>
+			<tr xml:lang="fin">kŠvellŠ</tr>
+			<tr xml:lang="eng">to walk</tr>
+			<tr xml:lang="deu">gehen</tr>
+			<tr xml:lang="nor">gŒ</tr>
+		</translations>
+		<semantics>
+			<sem class="MOTION"/>
+			<sem class="HUMAN"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">mŠŠn </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">kuu</tr>
+			<tr xml:lang="eng">moon</tr>
+			<tr xml:lang="deu">Mond</tr>
+			<tr xml:lang="nor">mŒne</tr>
+		</translations>
+		<semantics>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">mŠŠn </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">kuukausi</tr>
+			<tr xml:lang="eng">month</tr>
+			<tr xml:lang="deu">Monat</tr>
+			<tr xml:lang="nor">mŒnad</tr>
+		</translations>
+		<semantics>
+			<sem class="TIME"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">inn </tr>
+			<tr xml:lang="sjd">???</tr>
+			<tr xml:lang="fin">yš</tr>
+			<tr xml:lang="eng">night</tr>
+			<tr xml:lang="deu">Nacht</tr>
+			<tr xml:lang="nor">natt</tr>
+		</translations>
+		<semantics>
+			<sem class="TIME"/>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">pei«vv </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">aurinko</tr>
+			<tr xml:lang="eng">Sun</tr>
+			<tr xml:lang="deu">Sonne</tr>
+			<tr xml:lang="nor">sol</tr>
+		</translations>
+		<semantics>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">pei«vv </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">pŠivŠ</tr>
+			<tr xml:lang="eng">day</tr>
+			<tr xml:lang="deu">Tag</tr>
+			<tr xml:lang="nor">dag</tr>
+		</translations>
+		<semantics>
+			<sem class="TIME"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">?e«rdded </tr>
+			<tr xml:lang="sjd">???????</tr>
+			<tr xml:lang="fin">lentŠŠ</tr>
+			<tr xml:lang="eng">to fly</tr>
+			<tr xml:lang="deu">fliegen</tr>
+			<tr xml:lang="nor">fly</tr>
+		</translations>
+		<semantics>
+			<sem class="MOTION"/>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">?u‰?'?ad</tr>
+			<tr xml:lang="sjd">???????</tr>
+			<tr xml:lang="fin">seistŠ</tr>
+			<tr xml:lang="eng">to stand</tr>
+			<tr xml:lang="deu">stehen</tr>
+			<tr xml:lang="nor">stŒ</tr>
+		</translations>
+		<semantics>
+			<sem class="MOTION"/>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???????</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">vu›jj‰d </tr>
+			<tr xml:lang="sjd">????</tr>
+			<tr xml:lang="fin">uida</tr>
+			<tr xml:lang="eng">to swim</tr>
+			<tr xml:lang="deu">schwimmen</tr>
+			<tr xml:lang="nor">sv¿mme</tr>
+		</translations>
+		<semantics>
+			<sem class="MOTION"/>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">mu›rr </tr>
+			<tr xml:lang="sjd">????</tr>
+			<tr xml:lang="fin">puu</tr>
+			<tr xml:lang="eng">tree; wood</tr>
+			<tr xml:lang="deu">Baum; Holz</tr>
+			<tr xml:lang="nor">tre</tr>
+		</translations>
+		<semantics>
+			<sem class="PLANT"/>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="adjective"/>
+		<translations>
+			<tr xml:lang="sms">vi›lgg‰d</tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">valkoinen</tr>
+			<tr xml:lang="eng">white</tr>
+			<tr xml:lang="deu">wei§</tr>
+			<tr xml:lang="nor">hvit</tr>
+		</translations>
+		<semantics>
+			<sem class="COLOR"/>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="adjective"/>
+		<translations>
+			<tr xml:lang="sms">viskk‰d </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">keltainen</tr>
+			<tr xml:lang="eng">yellow</tr>
+			<tr xml:lang="deu">gelb</tr>
+			<tr xml:lang="nor">gul</tr>
+		</translations>
+		<semantics>
+			<sem class="COLOR"/>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???</lemma>
+		<pos class="pronoun"/>
+		<translations>
+			<tr xml:lang="sms">puk </tr>
+			<tr xml:lang="sjd">????</tr>
+			<tr xml:lang="fin">kaikki</tr>
+			<tr xml:lang="eng">all</tr>
+			<tr xml:lang="deu">alle</tr>
+			<tr xml:lang="nor">alle</tr>
+		</translations>
+		<semantics>
+			<sem class="NUMBER"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">kunn </tr>
+			<tr xml:lang="sjd">????</tr>
+			<tr xml:lang="fin">tuhka</tr>
+			<tr xml:lang="eng">ash</tr>
+			<tr xml:lang="deu">Asche</tr>
+			<tr xml:lang="nor">aske</tr>
+		</translations>
+		<semantics>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">pŠrkk </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">kaarna</tr>
+			<tr xml:lang="eng">bark</tr>
+			<tr xml:lang="deu">Borke</tr>
+			<tr xml:lang="nor">bark</tr>
+		</translations>
+		<semantics>
+			<sem class="PLANT"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">?Œu«jj </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">vatsa</tr>
+			<tr xml:lang="eng">belly</tr>
+			<tr xml:lang="deu">Bauch</tr>
+			<tr xml:lang="nor">mage</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">?urr </tr>
+			<tr xml:lang="sjd">????</tr>
+			<tr xml:lang="fin">suuri</tr>
+			<tr xml:lang="eng">big</tr>
+			<tr xml:lang="deu">gro§</tr>
+			<tr xml:lang="nor">stor</tr>
+		</translations>
+		<semantics>
+			<sem class="ABSTRACT"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="adjective"/>
+		<translations>
+			<tr xml:lang="sms">?app‰d</tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">musta</tr>
+			<tr xml:lang="eng">black</tr>
+			<tr xml:lang="deu">schwarz</tr>
+			<tr xml:lang="nor">svart</tr>
+		</translations>
+		<semantics>
+			<sem class="COLOR"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">r‰«dd </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">rinta</tr>
+			<tr xml:lang="eng">breast</tr>
+			<tr xml:lang="deu">Brust</tr>
+			<tr xml:lang="nor">bryst</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">vu›jj </tr>
+			<tr xml:lang="sjd">????</tr>
+			<tr xml:lang="fin">voi</tr>
+			<tr xml:lang="eng">butter</tr>
+			<tr xml:lang="deu">Butter</tr>
+			<tr xml:lang="nor">sm¿r</tr>
+		</translations>
+		<semantics>
+			<sem class="FOOD"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">vu›jj </tr>
+			<tr xml:lang="sjd">????</tr>
+			<tr xml:lang="fin">rasva</tr>
+			<tr xml:lang="eng">fat</tr>
+			<tr xml:lang="deu">Fett</tr>
+			<tr xml:lang="nor">fett</tr>
+		</translations>
+		<semantics>
+			<sem class="FOOD"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">p›lvv </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">pilvi</tr>
+			<tr xml:lang="eng">cloud</tr>
+			<tr xml:lang="deu">Wolke</tr>
+			<tr xml:lang="nor">sky</tr>
+		</translations>
+		<semantics>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????????</lemma>
+		<pos class="adjective"/>
+		<translations>
+			<tr xml:lang="sms">k››um‰s</tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">kylmŠ</tr>
+			<tr xml:lang="eng">cold</tr>
+			<tr xml:lang="deu">kalt</tr>
+			<tr xml:lang="nor">kald</tr>
+		</translations>
+		<semantics>
+			<sem class="SENSE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">pi‰nnai </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">koira</tr>
+			<tr xml:lang="eng">dog</tr>
+			<tr xml:lang="deu">Hund</tr>
+			<tr xml:lang="nor">hund</tr>
+		</translations>
+		<semantics>
+			<sem class="ANIMAL"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="adjective"/>
+		<translations>
+			<tr xml:lang="sms">kŒŒ«??es </tr>
+			<tr xml:lang="sjd">???????</tr>
+			<tr xml:lang="fin">kuiva</tr>
+			<tr xml:lang="eng">dry</tr>
+			<tr xml:lang="deu">trocken</tr>
+			<tr xml:lang="nor">t¿rr</tr>
+		</translations>
+		<semantics>
+			<sem class="SENSE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">pe«llj</tr>
+			<tr xml:lang="sjd">???????</tr>
+			<tr xml:lang="fin">korva</tr>
+			<tr xml:lang="eng">ear</tr>
+			<tr xml:lang="deu">Ohr</tr>
+			<tr xml:lang="nor">¿re</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">j‰nnam </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">maa</tr>
+			<tr xml:lang="eng">earth</tr>
+			<tr xml:lang="deu">Erde</tr>
+			<tr xml:lang="nor">jord</tr>
+		</translations>
+		<semantics>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">?‰«lmm</tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">silmŠ</tr>
+			<tr xml:lang="eng">eye</tr>
+			<tr xml:lang="deu">Auge</tr>
+			<tr xml:lang="nor">¿ye</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">k›?? </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">kynsi</tr>
+			<tr xml:lang="eng">fingernail</tr>
+			<tr xml:lang="deu">Nagel</tr>
+			<tr xml:lang="nor">negl</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">toll </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">tuli</tr>
+			<tr xml:lang="eng">fire</tr>
+			<tr xml:lang="deu">Feuer</tr>
+			<tr xml:lang="nor">ild</tr>
+		</translations>
+		<semantics>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">jue«l?? </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">jalka</tr>
+			<tr xml:lang="eng">foot</tr>
+			<tr xml:lang="deu">Fu§</tr>
+			<tr xml:lang="nor">fot</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">jue«l?? </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">jalka</tr>
+			<tr xml:lang="eng">leg</tr>
+			<tr xml:lang="deu">Bein</tr>
+			<tr xml:lang="nor">bein</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="adjective"/>
+		<translations>
+			<tr xml:lang="sms">tiiud‰s </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">tŠysinŠinen</tr>
+			<tr xml:lang="eng">full</tr>
+			<tr xml:lang="deu">voll</tr>
+			<tr xml:lang="nor">full</tr>
+		</translations>
+		<semantics>
+			<sem class="ABSTRACT"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???????</lemma>
+		<pos class="adjective"/>
+		<translations>
+			<tr xml:lang="sms">?i›??</tr>
+			<tr xml:lang="sjd">???</tr>
+			<tr xml:lang="fin">hyvŠ</tr>
+			<tr xml:lang="eng">good</tr>
+			<tr xml:lang="deu">gut</tr>
+			<tr xml:lang="nor">god</tr>
+		</translations>
+		<semantics>
+			<sem class="ABSTRACT"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???????</lemma>
+		<pos class="adjective"/>
+		<translations>
+			<tr xml:lang="sms">ru›n‰s </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">vihreŠ</tr>
+			<tr xml:lang="eng">green</tr>
+			<tr xml:lang="deu">grŸn</tr>
+			<tr xml:lang="nor">gr¿nn</tr>
+		</translations>
+		<semantics>
+			<sem class="COLOR"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">vu›ptt </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">tukka</tr>
+			<tr xml:lang="eng">hair</tr>
+			<tr xml:lang="deu">Haar</tr>
+			<tr xml:lang="nor">hŒr</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">?i›tt </tr>
+			<tr xml:lang="sjd">????</tr>
+			<tr xml:lang="fin">kŠsi</tr>
+			<tr xml:lang="eng">hand</tr>
+			<tr xml:lang="deu">Hand</tr>
+			<tr xml:lang="nor">hand</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">?i›tt </tr>
+			<tr xml:lang="sjd">????</tr>
+			<tr xml:lang="fin">kŠsi</tr>
+			<tr xml:lang="eng">arm</tr>
+			<tr xml:lang="deu">Arm</tr>
+			<tr xml:lang="nor">arm</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">vuei«vv </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">pŠŠ</tr>
+			<tr xml:lang="eng">head</tr>
+			<tr xml:lang="deu">Kopf</tr>
+			<tr xml:lang="nor">hode</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">?uŠ«rvv </tr>
+			<tr xml:lang="sjd">???????</tr>
+			<tr xml:lang="fin">sarvi</tr>
+			<tr xml:lang="eng">horn</tr>
+			<tr xml:lang="deu">Horn</tr>
+			<tr xml:lang="nor">horn</tr>
+		</translations>
+		<semantics>
+			<sem class="ANIMAL"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="adjective"/>
+		<translations>
+			<tr xml:lang="sms">pu›«l'li</tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">kuuma</tr>
+			<tr xml:lang="eng">hot</tr>
+			<tr xml:lang="deu">hei§</tr>
+			<tr xml:lang="nor">het</tr>
+		</translations>
+		<semantics>
+			<sem class="SENSE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?</lemma>
+		<pos class="pronoun"/>
+		<translations>
+			<tr xml:lang="sms">mon </tr>
+			<tr xml:lang="sjd">????</tr>
+			<tr xml:lang="fin">minŠ</tr>
+			<tr xml:lang="eng">I</tr>
+			<tr xml:lang="deu">ich</tr>
+			<tr xml:lang="nor">jeg</tr>
+		</translations>
+		<semantics>
+			<sem class="HUMAN"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">pu›lvv</tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">polvi</tr>
+			<tr xml:lang="eng">knee</tr>
+			<tr xml:lang="deu">Knie</tr>
+			<tr xml:lang="nor">kne</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">l›stt </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">lehti</tr>
+			<tr xml:lang="eng">leaf</tr>
+			<tr xml:lang="deu">Blatt</tr>
+			<tr xml:lang="nor">blad</tr>
+		</translations>
+		<semantics>
+			<sem class="PLANT"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???????</lemma>
+		<pos class="adjective"/>
+		<translations>
+			<tr xml:lang="sms">ku«?? </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">pitkŠ</tr>
+			<tr xml:lang="eng">long</tr>
+			<tr xml:lang="deu">lang</tr>
+			<tr xml:lang="nor">lang</tr>
+		</translations>
+		<semantics>
+			<sem class="ABSTRACT"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">te«?? </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">tŠi</tr>
+			<tr xml:lang="eng">louse</tr>
+			<tr xml:lang="deu">Laus</tr>
+			<tr xml:lang="nor">lus</tr>
+		</translations>
+		<semantics>
+			<sem class="ANIMAL"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">ŒŒlmai</tr>
+			<tr xml:lang="sjd">????-????</tr>
+			<tr xml:lang="fin">mies</tr>
+			<tr xml:lang="eng">man</tr>
+			<tr xml:lang="deu">Mann</tr>
+			<tr xml:lang="nor">mann</tr>
+		</translations>
+		<semantics>
+			<sem class="HUMAN"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="quantifier"/>
+		<translations>
+			<tr xml:lang="sms">mŠ?gg </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">monta</tr>
+			<tr xml:lang="eng">many</tr>
+			<tr xml:lang="deu">viele</tr>
+			<tr xml:lang="nor">mange</tr>
+		</translations>
+		<semantics>
+			<sem class="NUMBER"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">vŠŠ«rr </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">vaara</tr>
+			<tr xml:lang="eng">mountain</tr>
+			<tr xml:lang="deu">Berg</tr>
+			<tr xml:lang="nor">fjell</tr>
+		</translations>
+		<semantics>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">njŠ«lmm</tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">suu</tr>
+			<tr xml:lang="eng">mouth</tr>
+			<tr xml:lang="deu">Mund</tr>
+			<tr xml:lang="nor">munn</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">n›mm </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">nimi</tr>
+			<tr xml:lang="eng">name</tr>
+			<tr xml:lang="deu">Name</tr>
+			<tr xml:lang="nor">navn</tr>
+		</translations>
+		<semantics>
+			<sem class="HUMAN"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">nji«???-maadd </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">niska</tr>
+			<tr xml:lang="eng">neck</tr>
+			<tr xml:lang="deu">Nacken</tr>
+			<tr xml:lang="nor">nakke</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="adjective"/>
+		<translations>
+			<tr xml:lang="sms">oo?‰s </tr>
+			<tr xml:lang="sjd">????</tr>
+			<tr xml:lang="fin">uusi</tr>
+			<tr xml:lang="eng">new</tr>
+			<tr xml:lang="deu">neu</tr>
+			<tr xml:lang="nor">ny</tr>
+		</translations>
+		<semantics>
+			<sem class="ABSTRACT"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">njuu«nn </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">nenŠ</tr>
+			<tr xml:lang="eng">nose</tr>
+			<tr xml:lang="deu">Nase</tr>
+			<tr xml:lang="nor">nese</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">njuu«nn </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">nokka</tr>
+			<tr xml:lang="eng">beak</tr>
+			<tr xml:lang="deu">Schnabel</tr>
+			<tr xml:lang="nor">snabel</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">ij </tr>
+			<tr xml:lang="sjd">???</tr>
+			<tr xml:lang="fin">ei</tr>
+			<tr xml:lang="eng">not</tr>
+			<tr xml:lang="deu">nicht</tr>
+			<tr xml:lang="nor">inte</tr>
+		</translations>
+		<semantics>
+			<sem class="ABSTRACT"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="numeral"/>
+		<translations>
+			<tr xml:lang="sms">›htt </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">yksi</tr>
+			<tr xml:lang="eng">one</tr>
+			<tr xml:lang="deu">eins</tr>
+			<tr xml:lang="nor">en</tr>
+		</translations>
+		<semantics>
+			<sem class="NUMBER"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">›umm-oouma? </tr>
+			<tr xml:lang="sjd">????</tr>
+			<tr xml:lang="fin">ihminen</tr>
+			<tr xml:lang="eng">person</tr>
+			<tr xml:lang="deu">Person</tr>
+			<tr xml:lang="nor">menneske</tr>
+		</translations>
+		<semantics>
+			<sem class="HUMAN"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">‰«brr </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">sade</tr>
+			<tr xml:lang="eng">rain</tr>
+			<tr xml:lang="deu">Regen</tr>
+			<tr xml:lang="nor">regn</tr>
+		</translations>
+		<semantics>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???????</lemma>
+		<pos class="adjective"/>
+		<translations>
+			<tr xml:lang="sms">ru›pss‰d</tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">punainen</tr>
+			<tr xml:lang="eng">red</tr>
+			<tr xml:lang="deu">rot</tr>
+			<tr xml:lang="nor">r¿d</tr>
+		</translations>
+		<semantics>
+			<sem class="COLOR"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">vue«ddes</tr>
+			<tr xml:lang="sjd">???????</tr>
+			<tr xml:lang="fin">juuri</tr>
+			<tr xml:lang="eng">root</tr>
+			<tr xml:lang="deu">Wurzel</tr>
+			<tr xml:lang="nor">rot</tr>
+		</translations>
+		<semantics>
+			<sem class="PLANT"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???????</lemma>
+		<pos class="adjective"/>
+		<translations>
+			<tr xml:lang="sms">joorb‰s </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">pyšreŠ</tr>
+			<tr xml:lang="eng">round</tr>
+			<tr xml:lang="deu">rund</tr>
+			<tr xml:lang="nor">rund</tr>
+		</translations>
+		<semantics>
+			<sem class="SENSE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">vu›dd‰s </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">hiekka</tr>
+			<tr xml:lang="eng">sand</tr>
+			<tr xml:lang="deu">Sand</tr>
+			<tr xml:lang="nor">sand</tr>
+		</translations>
+		<semantics>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">si›m</tr>
+			<tr xml:lang="sjd">???</tr>
+			<tr xml:lang="fin">siemen</tr>
+			<tr xml:lang="eng">seed</tr>
+			<tr xml:lang="deu">Samen</tr>
+			<tr xml:lang="nor">fr¿</tr>
+		</translations>
+		<semantics>
+			<sem class="PLANT"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">le«??? </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">iho</tr>
+			<tr xml:lang="eng">skin</tr>
+			<tr xml:lang="deu">Haut</tr>
+			<tr xml:lang="nor">hud</tr>
+		</translations>
+		<semantics>
+			<sem class="BODY"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????????</lemma>
+		<pos class="adjective"/>
+		<translations>
+			<tr xml:lang="sms">u«cc </tr>
+			<tr xml:lang="sjd">????</tr>
+			<tr xml:lang="fin">pieni</tr>
+			<tr xml:lang="eng">small</tr>
+			<tr xml:lang="deu">klein</tr>
+			<tr xml:lang="nor">liten</tr>
+		</translations>
+		<semantics>
+			<sem class="SENSE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">su›vv </tr>
+			<tr xml:lang="sjd">????</tr>
+			<tr xml:lang="fin">savu</tr>
+			<tr xml:lang="eng">smoke</tr>
+			<tr xml:lang="deu">Rauch</tr>
+			<tr xml:lang="nor">r¿yk</tr>
+		</translations>
+		<semantics>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">tŠ«snn </tr>
+			<tr xml:lang="sjd">?????'?</tr>
+			<tr xml:lang="fin">tŠhti</tr>
+			<tr xml:lang="eng">star</tr>
+			<tr xml:lang="deu">Stern</tr>
+			<tr xml:lang="nor">stjerne</tr>
+		</translations>
+		<semantics>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">?eŠ«d?? </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">kivi</tr>
+			<tr xml:lang="eng">stone</tr>
+			<tr xml:lang="deu">Stein</tr>
+			<tr xml:lang="nor">stein</tr>
+		</translations>
+		<semantics>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??</lemma>
+		<pos class="pronoun"/>
+		<translations>
+			<tr xml:lang="sms">tut </tr>
+			<tr xml:lang="sjd">????</tr>
+			<tr xml:lang="fin">tuo</tr>
+			<tr xml:lang="eng">that</tr>
+			<tr xml:lang="deu">jenes</tr>
+			<tr xml:lang="nor">det</tr>
+		</translations>
+		<semantics>
+			<sem class="ABSTRACT"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???</lemma>
+		<pos class="pronoun"/>
+		<translations>
+			<tr xml:lang="sms">tŠt </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">tŠmŠ</tr>
+			<tr xml:lang="eng">this</tr>
+			<tr xml:lang="deu">dieses</tr>
+			<tr xml:lang="nor">dette</tr>
+		</translations>
+		<semantics>
+			<sem class="ABSTRACT"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">kŠ«c??ed </tr>
+			<tr xml:lang="sjd">????????</tr>
+			<tr xml:lang="fin">purra</tr>
+			<tr xml:lang="eng">to bite</tr>
+			<tr xml:lang="deu">bei§en</tr>
+			<tr xml:lang="nor">bite</tr>
+		</translations>
+		<semantics>
+			<sem class="ANIMAL"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">pue«lled </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">palaa</tr>
+			<tr xml:lang="eng">to burn</tr>
+			<tr xml:lang="deu">brennen</tr>
+			<tr xml:lang="nor">brenne</tr>
+		</translations>
+		<semantics>
+			<sem class="NATURE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?????????</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">pue«tted</tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">tulla</tr>
+			<tr xml:lang="eng">to come</tr>
+			<tr xml:lang="deu">kommen</tr>
+			<tr xml:lang="nor">komme</tr>
+		</translations>
+		<semantics>
+			<sem class="MOTION"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">juukk‰d </tr>
+			<tr xml:lang="sjd">????</tr>
+			<tr xml:lang="fin">juoda</tr>
+			<tr xml:lang="eng">to drink</tr>
+			<tr xml:lang="deu">trinken</tr>
+			<tr xml:lang="nor">drikke</tr>
+		</translations>
+		<semantics>
+			<sem class="FOOD"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">poorr‰d </tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">syšdŠ</tr>
+			<tr xml:lang="eng">to eat</tr>
+			<tr xml:lang="deu">essen</tr>
+			<tr xml:lang="nor">spise</tr>
+		</translations>
+		<semantics>
+			<sem class="FOOD"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">u«vvded</tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">antaa</tr>
+			<tr xml:lang="eng">to give</tr>
+			<tr xml:lang="deu">geben</tr>
+			<tr xml:lang="nor">gi</tr>
+		</translations>
+		<semantics>
+			<sem class="HUMAN"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>????????</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">ceŠ«l??ed </tr>
+			<tr xml:lang="sjd">????????</tr>
+			<tr xml:lang="fin">puhua</tr>
+			<tr xml:lang="eng">to say</tr>
+			<tr xml:lang="deu">sprechen</tr>
+			<tr xml:lang="nor">snakke</tr>
+		</translations>
+		<semantics>
+			<sem class="HUMAN"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??????</lemma>
+		<pos class="verb"/>
+		<translations>
+			<tr xml:lang="sms">vuei«nned </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">nŠhdŠ</tr>
+			<tr xml:lang="eng">to see</tr>
+			<tr xml:lang="deu">sehen</tr>
+			<tr xml:lang="nor">se</tr>
+		</translations>
+		<semantics>
+			<sem class="SENSE"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">kue«htt</tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">kaksi</tr>
+			<tr xml:lang="eng">two</tr>
+			<tr xml:lang="deu">zwei</tr>
+			<tr xml:lang="nor">to</tr>
+		</translations>
+		<semantics>
+			<sem class="NUMBER"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>??</lemma>
+		<pos class="pronoun"/>
+		<translations>
+			<tr xml:lang="sms">mij </tr>
+			<tr xml:lang="sjd">????</tr>
+			<tr xml:lang="fin">me</tr>
+			<tr xml:lang="eng">we</tr>
+			<tr xml:lang="deu">wir</tr>
+			<tr xml:lang="nor">vi</tr>
+		</translations>
+		<semantics>
+			<sem class="HUMAN"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???</lemma>
+		<pos class="pronoun"/>
+		<translations>
+			<tr xml:lang="sms">mii</tr>
+			<tr xml:lang="sjd">??</tr>
+			<tr xml:lang="fin">mikŠ</tr>
+			<tr xml:lang="eng">what</tr>
+			<tr xml:lang="deu">was</tr>
+			<tr xml:lang="nor">hva</tr>
+		</translations>
+		<semantics>
+			<sem class="ABSTRACT"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???</lemma>
+		<pos class="pronoun"/>
+		<translations>
+			<tr xml:lang="sms">?ii </tr>
+			<tr xml:lang="sjd">???</tr>
+			<tr xml:lang="fin">kuka</tr>
+			<tr xml:lang="eng">who</tr>
+			<tr xml:lang="deu">wer</tr>
+			<tr xml:lang="nor">hvem</tr>
+		</translations>
+		<semantics>
+			<sem class="HUMAN"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>???????</lemma>
+		<pos class="noun"/>
+		<translations>
+			<tr xml:lang="sms">neezzan</tr>
+			<tr xml:lang="sjd">??????</tr>
+			<tr xml:lang="fin">nainen</tr>
+			<tr xml:lang="eng">woman</tr>
+			<tr xml:lang="deu">Frau</tr>
+			<tr xml:lang="nor">kvinne</tr>
+		</translations>
+		<semantics>
+			<sem class="HUMAN"/>
+		</semantics>
+	</entry>
+	<entry>
+		<lemma>?? </lemma>
+		<pos class="pronoun"/>
+		<translations>
+			<tr xml:lang="sms">ton </tr>
+			<tr xml:lang="sjd">?????</tr>
+			<tr xml:lang="fin">sinŠ</tr>
+			<tr xml:lang="eng">you</tr>
+			<tr xml:lang="deu">du</tr>
+			<tr xml:lang="nor">du</tr>
+		</translations>
+		<semantics>
+			<sem class="HUMAN"/>
+		</semantics>
+	</entry>
+</lexicon>
