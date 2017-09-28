@@ -1,6 +1,6 @@
 
 ! Divvun & Giellatekno - open source grammars for Sámi and other languages
-! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! Copyright © 2000-2018 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
 ! This program is free software; you can redistribute and/or modify
@@ -18,67 +18,66 @@
 LEXICON Noun !!= * @CODE@
 
 !! !!class1
+вӣгкхуввмушш 1DA ; !!DER вигк-хувв-мушш
+вуэллдэгк 1DA ;
+вуэллнэмушш 1DA ;
+вуэпьсемушш 1DA ;
+вуэпьсуввмушш 1DA ;
+вуэсстлэгк 1DA ;
+вуэсстлэмушш 1DA ;
+вэ̄ррпэ̄ййнэмушш 1DA ;
+ёгк 1DA "река / river" ;
+е̄кесьпоррмушш 1DA ;
+ыйй 1DA "ночь / night" ;
+ӣнцэсьпоррмушш 1DA ;
+ке̄ххьпнэсспоаввчсэмушш 1DA ;
+кӣдткоаллдэгк 1DA ;
+коа̄ххплэгк 1DA ;
 кӯсс 1DA "ель / fir" ; !!= кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
-ноаҏҏт 1DA "сани / sled" ;
+кӯттҍкпоавчсэмушш 1DA ;
+кэ̄жьнэгк 1DA ;
+лоа̄ткнэмушш 1DA ;
+ло̄гктэдтмушш 1DA ;
+луннтнэнтмушш 1DA ;
+лыһк 1DA "труд / work" ;
 ме̄рр 1DA "море / sea" ;!хх-->x
 мӯрр 1DA "дерево / tree" ;
+мушштъемушш 1DA ;
 мырр 1DA ;
-шэ̄ӈӈ 1DA "шторм / storm" ;
-чувв 1DA "свет / light" ;
-ылл 1DA "уголь / coal" ;
-ёгк 1DA "река / river" ;
-эхтнэгк 1DA "союз / union" ;
+ноаҏҏт 1DA "сани / sled" ;
+пе̄ййвпоррмушш 1DA ;
+поа̄вчсэмушш 1DA ;
+пуадтмушш 1DA "приход / arrival" ;
 пя̄йвнэгк 1DA "солнечная погода / sunny weather" ;
 са̄рнэгк 1DA ;
 чосснэгк 1DA ;
-кэ̄жьнэгк 1DA ;
-вуэллдэгк 1DA ;
-вуэсстлэгк 1DA ;
-коа̄ххплэгк 1DA ;
-кӣдткоаллдэгк 1DA ;
-пуадтмушш 1DA "приход / arrival" ;
-кӯттҍкпоавчсэмушш 1DA ;
-ке̄ххьпнэсспоаввчсэмушш 1DA ;
-вуэпьсемушш 1DA ;
-мушштъемушш 1DA ;
-вуэллнэмушш 1DA ;
-вӣгкхуввмушш 1DA ;
-вуэсстлэмушш 1DA ;
-лоа̄ткнэмушш 1DA ;
-поа̄вчсэмушш 1DA ;
-вуэпьсуввмушш 1DA ;
-ло̄гктэдтмушш 1DA ;
-луннтнэнтмушш 1DA ;
-пе̄ййвпоррмушш 1DA ;
-е̄кесьпоррмушш 1DA ;
-ӣнцэсьпоррмушш 1DA ;
-вэ̄ррпэ̄ййнэмушш 1DA ;
+чувв 1DA "свет / light" ;
+шӯрр 1DA "?? / master" ;
+шэ̄ӈӈ 1DA "шторм / storm" ;
+ылл 1DA "уголь / coal" ;
+эхтнэгк 1DA "союз / union" ;
+кӯлль 1DA "рыба / fish" ; ! lang u->ue
+!аджь 1DA "отец / father" ;
+!на̄һпь 1DA "чашка / cup" ; ! spelling variant на̄ххьп (in Kert 1986 [and the Aнтонова system])
+ка̄ррь 1DA "посуда / dish" ;
+ке̄джь 1DA "конец / end" ;
 
 !! class1 orth. дт/ill. ӭ
-
 кӣдт 1DB "рука / hand, arm" ;!xx-->x
 ка̄ннҍцвудт 1DB "дружба / friendship" ;
-
-
-ыйй 1DA "ночь / night" ;
 
 !! !!2. declension (class 2) ! like 1. decl., but with C-clusters
 ля̄ммт 2D "лес / forrest, wood(s)" ;!! * Ablaut
 кӯшшк 2D "порог на реке / rapids" ;!Ablaut
 ма̄ййт 2D "молоко / milk" ;!Ablaut
 а̄ййк 2D "срок, пора / time" ;!Ablaut
-
-!! !!3. declension (class 7) no stem gradation
 куэсськ 2D "тётя / aunt" ; !!= * @CODE@
 ке̄ддҍк 2D "камень / rock" ;
 аббьр 2D "дождь / rain" ;
 а̄ввьл 2D "крючок на перекладине в куваксе / hook for hanging things in a" ; 
-кӯлль 1DA "рыба / fish" ; ! lang u->ue
-!аджь 1DA "отец / father" ;
-!на̄һпь 1DA "чашка / cup" ; ! spelling variant на̄ххьп (in Kert 1986 [and the Aнтонова system])
-ка̄ррь 1DA "посуда / dish" ;
-ке̄джь 1DA "конец / end" ;
 на̄ввьт 2D "зверь / wild animal, (wild) beast" ;
+
+!! !!3. declension (class 7) no stem gradation
 кӯссь 3D "гость / guest" ;
 пысс 3D "ружьё / gun" ;
 па̄лл 3D "мяч / ball" ;
@@ -94,7 +93,6 @@ LEXICON Noun !!= * @CODE@
 кнӣга 4D "книга / book" ; ! also кыррьй (buch, brief, aufzeichnung, zeichnung, gemaltes bild)
 ке̄лл 4D ;
 
-
 !! !!5. declension (classes 4, 6, 9)
 чӣгар:чӣгкар 5D "стадо / herd | flock" ; ! no Nom generated!
 коавас:ко̄ввас 5D "кувакса / Saami tent" ; ! no Nom generated!
@@ -107,15 +105,12 @@ LEXICON Noun !!= * @CODE@
 куаррэй 5D "швея / seamstress" ;
 кэ̄рхаллей 5D "гонщик / racer | rafter" ;
 
-
-
 !! !!6. declension (classes )
 
 !! !!ELAN dump
 !! These words are added during testing work with the ELAN-FST script
 !! They should be given correct declension classes later
-лыһк 1DA "труд / work" ;
-шӯрр 1DA "?? / master" ;
+рекла̄ма ELAN_N "реклама / advertisement" ;
 
 !! !!Oahpa dump
 !! These words are added from sjdoahpa.
