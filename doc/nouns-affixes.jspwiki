@@ -1,4 +1,5 @@
 
+!!!Kildin Saami noun inflection
 
 "class1" = monosyllabic/non-palatalized inflection foot, str-wk, no ablaut/umlaut, palatalization in Ill.Sg
  LEXICON 1DA  is orthographic subclass with xx--> x
@@ -28,6 +29,8 @@ It is unclear whether this is the correct classification
  LEXICON 5D   goes to 1DA
 
  LEXICON OAHPA_N   is all the words from OAHPA_N, we just point them to 1DA.
+
+ LEXICON ELAN_N   is all the words from ELAN_N, we just point them to 1DA.
 
 
 !!Case affixes
