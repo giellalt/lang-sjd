@@ -54,6 +54,9 @@ LEXICON 6
 LEXICON 7
 1 ;
 
+LEXICON PUEDTE
++V+INF:%>ӭ # ;
++V+Pl1:%>ӭпь # ;
 
 LEXICON LUVTTE
 +V+Inf:%>ъе # ;

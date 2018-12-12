@@ -162,8 +162,7 @@ LEXICON Neg   !!= * __@CODE@__
 
 LEXICON Verbstems   !!= * __@CODE@__
 
-! Elisabeth:
-
+пуэдтӭ:пуэдт PUEDTE "come" ;
 
 луввтъе:луввт LUVTTE ; ! = sme contr, no CG
 
@@ -341,7 +340,6 @@ LEXICON Verbstems   !!= * __@CODE@__
 суэӈӈэ:суэӈӈ OAHPA_V ;
 тя̄дтӭ:тя̄дт OAHPA_V ;
 вуэдтӭ:вуэдт OAHPA_V ;
-пуэдтӭ:пуэдт OAHPA_V ;
 кя̄ййве:кя̄ййв OAHPA_V ;
 ся̄ййве:ся̄ййв OAHPA_V ;
 вӯлльке:вӯлльк OAHPA_V ;
