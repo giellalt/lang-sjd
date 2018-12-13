@@ -15,11 +15,11 @@
 
 LEXICON Adjective   !!= * __@CODE@__
 
-A1  ; !similar forms for pred (number infl, except loan adj on -e) and attr
-!A1b ; COMPARATIVE -я(мп)
-A2  ; !"2nd ADJ class" with (?DEPAL)-e for PRED (no number infl) and PAL-es' for ATTR; the stem, which is also the base form for several verbal derivations, is given here due to morphological consistency, although this is not consistent with the lexical dict entries of these adjectives
-A3  ; !"3rd ADJ class" with STR-Ø for PRED (number infl) and WK/PAL-es' for ATTR
-A4 ; !"4th ADJ class" with WK-as for PRED (number infl) and WK-as for ATTR
+!  A1 ; !similar forms for pred (number infl, except loan adj on -e) and attr
+!!A1b ; COMPARATIVE -я(мп)
+!  A2 ; !"2nd ADJ class" with (?DEPAL)-e for PRED (no number infl) and PAL-es' for ATTR; the stem, which is also the base form for several verbal derivations, is given here due to morphological consistency, although this is not consistent with the lexical dict entries of these adjectives
+!  A3 ; !"3rd ADJ class" with STR-Ø for PRED (number infl) and WK/PAL-es' for ATTR
+!  A4 ; !"4th ADJ class" with WK-as for PRED (number infl) and WK-as for ATTR
 
 нӯрр 	A1  "молодой / young" ;
 шӯрр    A1  "большой / big" ;
