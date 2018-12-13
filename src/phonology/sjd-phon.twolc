@@ -29,8 +29,12 @@ Alphabet
   ю̄ Ю̄ я Я я̄ Я̄ 
 ! сс:с vs. сс:з (only last one is already defined as a rule below)
 
-  %´:0 
-  %,:%´
+! SNM 13.12.2018: Commented out the following two lines, they caused PUNCT
+! analyses of empty strings. The symbols are not used in any lexc file, which
+! makes the twolc definition useless.
+!  %´:0 
+!  %,:%´
+
   %-
 
   %^1VOW:0 
@@ -44,6 +48,12 @@ Alphabet
   %^DI:0
   %^CLDPAL:0 
   %^MON:0
+
+! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
+ »7     ! »
+ «7     ! «
+ %[%>%] ! >
+ %[%<%] ! <
 
 ! Morpheme boundaries:
  «  ! Derivational prefix
