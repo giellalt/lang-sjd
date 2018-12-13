@@ -1,5 +1,5 @@
 ! Divvun & Giellatekno - open source grammars for Sámi and other languages
-! Copyright © 2000-2016 The University of Tromsø & the Norwegian Sámi Parliament
+! Copyright © 2000-2018 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
 ! This program is free software; you can redistribute and/or modify
@@ -13,27 +13,45 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
 LEXICON CC
-+CC: # ;
++CC: # ; !! no +CC: K ; because complex CC's go into the lexicon
+
+LEXICON Cc_orth
++CC+Use/Orth: # ;
+
+LEXICON CS
++CS: # ; !! no +CS: K ; because complex CS's go into the lexicon
+
+LEXICON Cs_elid
++CS+Use/Elid: # ;
 
 LEXICON Conjunction
-я  CC "и / and" ;
-да CC "и / and" ;
-
-и  CC "и / and" ;
-ы  CC "и / and" ;
-
 а  CC "a / but" ;
-э  CC "а / but" ;
-
-вай CC "или / or" ;
-
 але CC "или / or" ;
-элэ CC "или / or" ;
+вай CC "или / or" ;
+да CC "и / and" ;
+и  CC "и / and" ;
 или CC "или / or" ;
-
 лубэ CC "или / or" ;
-
 но  CC "но / but" ;
 ноа CC "но / but" ;
 ноэ CC "но / but" ;
 нэ  CC "но / but" ;
+э  Cc_orth "и / and" ;
+элэ CC "или / or" ;
+я  CC "и / and" ;
+
+LEXICON Subjunction
+го     CS "что / that   " ; !! From Oahpa !! Check this 
+гу     CS "как / like   " ; !! Check this, adverb?
+если      CS "если / if            " ;
+коале CS ;
+коаль Cs_elid ; 
+куэссь CS "когда / when " ; !! Check this, adverb?
+потомуштэ CS "потому что / because " ;
+штоб Cs_elid ;
+штобэ CS ;
+штэ       CS "что / that           " ;
+
+!да !!check да as subjunction
+!если … так и … !!check complex subjunction 
+
