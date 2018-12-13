@@ -18,40 +18,18 @@ LEXICON CC
 LEXICON Cc_orth
 +CC+Use/Orth: # ;
 
-LEXICON CS
-+CS: # ; !! no +CS: K ; because complex CS's go into the lexicon
-
-LEXICON Cs_elid
-+CS+Use/Elid: # ;
-
 LEXICON Conjunction
-а  CC "a / but" ;
-але CC "или / or" ;
-вай CC "или / or" ;
-да CC "и / and" ;
-и  CC "и / and" ;
-или CC "или / or" ;
-лубэ CC "или / or" ;
-но  CC "но / but" ;
-ноа CC "но / but" ;
-ноэ CC "но / but" ;
-нэ  CC "но / but" ;
-э  Cc_orth "и / and" ;
-элэ CC "или / or" ;
-я  CC "и / and" ;
-
-LEXICON Subjunction
-го     CS "что / that   " ; !! From Oahpa !! Check this 
-гу     CS "как / like   " ; !! Check this, adverb?
-если      CS "если / if            " ;
-коале CS ;
-коаль Cs_elid ; 
-куэссь CS "когда / when " ; !! Check this, adverb?
-потомуштэ CS "потому что / because " ;
-штоб Cs_elid ;
-штобэ CS ;
-штэ       CS "что / that           " ;
-
-!да !!check да as subjunction
-!если … так и … !!check complex subjunction 
-
+    а CC      "a / but"  ;
+  але CC      "или / or" ;
+  вай CC      "или / or" ;
+   да CC      "и / and"  ;
+    и CC      "и / and"  ;
+  или CC      "или / or" ;
+ лубэ CC      "или / or" ;
+   но CC      "но / but" ;
+  ноа CC      "но / but" ;
+  ноэ CC      "но / but" ;
+   нэ CC      "но / but" ;
+    э Cc_orth "и / and"  ;
+  элэ CC      "или / or" ;
+    я CC      "и / and"  ;
