@@ -21,21 +21,21 @@ LEXICON OAHPA_A
 A1 ; ! Just dumping the Oahpa adjectives here
 
 LEXICON A1
-+A:	#		;
-+A:	PredPl ;
++Adj:	#		;
++Adj:	PredPl ;
 
 LEXICON A2
-+A: Attr ;
-+A: PredSg ; 
++Adj: Attr ;
++Adj: PredSg ; 
 
 LEXICON A3
-+A:%^WG Attr ;
-+A+Pred: # ;
-+A: PredPl ;
++Adj:%^WG Attr ;
++Adj+Pred: # ;
++Adj: PredPl ;
 
 LEXICON A4
-+A:%^WGас K ;
-+A+Pred+Pl:ас K ;
++Adj:%^WGас K ;
++Adj+Pred+Pl:ас K ;
 
 LEXICON Attr
 +Attr:%>есь K ;
