@@ -19,6 +19,9 @@ This is free and open source Kildin Sami morphology.
 
 
 
+ * +Use/Elid    = Elided (Иванович~Иваныч, новее~новей, чтобы~чтоб, или~иль, коли~коль)
+ * +Use/Orth	 = Orthographic substandard
+
 
 
 
@@ -226,7 +229,6 @@ Then they should be given correct declension class
 
 
  * __LEXICON Verbstems   __
-
 
 
 
