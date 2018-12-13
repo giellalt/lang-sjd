@@ -1,5 +1,5 @@
 ! Divvun & Giellatekno - open source grammars for Sámi and other languages
-! Copyright © 2000-2016 The University of Tromsø & the Norwegian Sámi Parliament
+! Copyright © 2000-2018 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
 ! This program is free software; you can redistribute and/or modify
@@ -15,24 +15,40 @@
 
 !! !!!Kildin Saami verbs
 
-LEXICON Verb   !!= * __@CODE@__
 
-Neg ;
-!Aux	;
+LEXICON Verb   !!= * __@CODE@__
+NegAux ; ! negative auxilary
+Cop	; ! copula, auxilary
+NegCop ;
 Verbstems ;
 
 
-LEXICON Neg   !!= * __@CODE@__
+LEXICON NegAux   !!= * __@CODE@__
++V+Aux+Neg+Prs+Sg1:эмм K ;
++V+Aux+Neg+Prs+Sg2:эгк K ;
++V+Aux+Neg+Prs+Sg3:эйй K ;
++V+Aux+Neg+Prs+Pl1:ебпь K ;
++V+Aux+Neg+Prs+Pl2:ебпе K ;
++V+Aux+Neg+Prs+Pl3:ев K ;
++V+Aux+Neg+Prs+Impers:едтҍ K ;
++V+Aux+Neg+Imprt+Sg:ель K ;
++V+Aux+Neg+Imprt+Pl:елле K ;
 
-+V+Neg+Prs+Sg1:эмм K ;
-+V+Neg+Prs+Sg2:эгк K ;
-+V+Neg+Prs+Sg3:эйй K ;
-+V+Neg+Prs+Pl1:ебпь K ;
-+V+Neg+Prs+Pl2:ебпе K ;
-+V+Neg+Prs+Pl3:ев K ;
-+V+Neg+Prs+Impers:едтҍ K ;
-+V+Neg+Imprt+Sg:е̄ль K ;
-+V+Neg+Imprt+Pl:е̄лле K ;
+
+LEXICON Cop
++V+Cop+Prs+Inf:лӣйе K ;
++V+Cop+Prs+Sg1:ля̄ K ;
++V+Cop+Prs+Sg2:ля̄к K ;
++V+Cop+Prs+Sg3:лӣ K ;
++V+Cop+Prs+Pl1:ле̄бпь K ;
++V+Cop+Prs+Pl2:ле̄бпе K ;
++V+Cop+Prs+Pl3:ле̄в K ;
+
+
+LEXICON NegCop
++V+Cop+Neg+Prs+Sg3:элля K ;
++V+Cop+Neg+Prs+Pl3:евла K ;
++V+Cop+Neg+Prt+Sg3:эллий K ;
 
 ! the simplest verb class (without any paradigmatic stem alternations)
 ! comprises most verbs from Kurutch's classes II, III, and IV
@@ -167,6 +183,7 @@ LEXICON Verbstems   !!= * __@CODE@__
 луввтъе:луввт LUVTTE ; ! = sme contr, no CG
 
 куллэ:кулл KULLE ; !This is Kurutsh 1 = sme even
+уййнэ:уййн KULLE ;
 
 ! Kurutsh:
 
@@ -223,7 +240,6 @@ LEXICON Verbstems   !!= * __@CODE@__
 
 
 ыбе:ыб OAHPA_V ;
-лийе:лий OAHPA_V ;
 выйе:вый OAHPA_V ;
 пыйе:пый OAHPA_V ;
 вӯйе:вӯй OAHPA_V ;
@@ -253,7 +269,6 @@ LEXICON Verbstems   !!= * __@CODE@__
 куллэ:кулл OAHPA_V ;
 пэллэ:пэлл OAHPA_V ;
 пайнэ:пайн OAHPA_V ;
-уййнэ:уййн OAHPA_V ;
 пыйнэ:пыйн OAHPA_V ;
 а̄ннэ:а̄нн OAHPA_V ;
 чиннэ:чинн OAHPA_V ;
@@ -487,9 +502,3 @@ LEXICON Verbstems   !!= * __@CODE@__
 са̄рнэшкуэдтӭ:са̄рнэшкуэдт OAHPA_V ;
 ноа̄йххьтлэдтэ:ноа̄йххьтлэдт OAHPA_V ;
 моа̄йнсэшкуэдтӭ:моа̄йнсэшкуэдт OAHPA_V ;
-
-
-!loan modal auxiliary verbs found in spoken texts
-+V+Mod+Prs+Sg3:должен K ;
-+V+Mod+Prs+Sg3:может K ;
-+V+Mod+Prs+Sg3:нужен K ;
