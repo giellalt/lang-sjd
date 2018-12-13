@@ -31,25 +31,3 @@ LEXICON Conjunction
 э  Cc_orth "и / and" ;
 элэ Cc_orth "или / or" ;
 я  CC "и / and" ;
-
-LEXICON CS
-+CS: # ; !! no +CS: K ; because complex CS's go into the lexicon
-
-LEXICON Cs_elid
-+CS+Use/Elid: # ;
-
-LEXICON Subjunction
-го     CS "что / that   " ; !! From Oahpa !! Check this 
-гу     CS "как / like   " ; !! Check this, adverb?
-еслэ      CS "если / if            " ;
-коале CS ;
-коаль Cs_elid ; 
-куэссь CS "когда / when " ; !! Check this, adverb?
-потомуштэ CS "потому что / because " ;
-штоб Cs_elid ;
-штобэ CS ;
-штэ       CS "что / that           " ;
-
-!да !!check да as subjunction
-!если … так и … !!check complex subjunction 
-
