@@ -13,17 +13,25 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
 LEXICON CS
-+CS: # ;
++CS: # ; !! no +CS: K ; because complex CS's go into the lexicon
+
+LEXICON Cs_elid
++CS+Use/Elid: # ;
 
 LEXICON Subjunction
-если      CS "если / if            " ;
-потомуштэ CS "потому что / because " ;
-штобэ     CS "чтобы / in order to  " ;
-штэ       CS "что / that           " ;
+      если CS      "если / if            " ;
+ потомуштэ CS      "потому что / because " ;
+     штобэ CS      "чтобы / in order to  " ;
+       штэ CS      "что / that           " ;
 
-гу     CS "как / like   " ; !! Check this, adverb?
-куэссь CS "когда / when " ; !! Check this, adverb?
-го     CS "что / that   " ; !! From Oahpa !! Check this 
+        гу CS      "как / like   "         ; !! Check this, adverb?
+    куэссь CS      "когда / when "         ; !! Check this, adverb?
+        го CS      "что / that   "         ; !! From Oahpa !! Check this
+
+     коале CS                              ;
+     коаль Cs_elid                         ;
+      штоб Cs_elid                         ;
 
 !да !!check да as subjunction
-!если … так и … !!check complex subjunction 
+!если … так и … !!check complex subjunction
+
