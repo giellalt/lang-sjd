@@ -100,13 +100,10 @@ Cx:Cy <=> V: Cx: _ (ь:) %^WG:0 ;
             Cy in ( з ) 
       matched ;
 
-!!trying to make a new rule
-!"Qualitative CG affricate джь : жь"      
-!!! __@RULENAME@__
-!д:Cy <=> V: _ Cx: (PALMARK:) %^WG:0 ;
-!	where 	Cx in ( ж )
-!			Cy in ( ц )
-!			matched ;
+"Qualitative CG xx:y (voiced affricate)"      
+!! __@RULENAME@__ i.e. джь : жь, дзь : зь, дз : з
+д:0 <=> V: _ Cx: (PALMARK:) %^WG:0 ;
+	where 	Cx in ( з ж ) ;
     
 "Preaspiration"
 !! __@RULENAME@__  һк : гк
