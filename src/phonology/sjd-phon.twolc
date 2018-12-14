@@ -105,12 +105,19 @@ Cx:Cy <=> V: Cx: _ (ь:) %^WG:0 ;
 д:0 <=> V: _ Cx: (PALMARK:) %^WG:0 ;
 	where 	Cx in ( з ж ) ;
     
-"Preaspiration"
-!! __@RULENAME@__  һк : гк
+"Qualitative CG xx:yy (long preaspiration)"
+!! __@RULENAME@__ e.g. һк : гк
 һ:Cy <=> V: _ Cx: (PALMARK:) %^WG:0 ;
       where Cx in ( к )
             Cy in ( г ) 
       matched ;
+
+!"Qualitative CG xx:y (short preaspiration)"
+!!! __@RULENAME@__ e.g. һк : к
+!һ:Cy <=> V: _ Cx: (PALMARK:) %^WG:0 ;
+!      where Cx in ( к )
+!            Cy in ( г ) 
+!      matched ;
 
 "Palatalization: Clusters ллк : лльк, etc."
 !! __@RULENAME@__  
