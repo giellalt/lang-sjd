@@ -93,11 +93,11 @@ Rules
 Cx:0 <=> V: _ Cx: (ь:) %^WG:0 ;
       where Cx in ( с ) ;
 
-"Qualitative CG1b xx:y"
-!! __@RULENAME@__  сс : з
+"Qualitative CG xx:y (sibilant)"
+!! __@RULENAME@__ i.e. сс : з, шш : ж
 Cx:Cy <=> V: Cx: _ (ь:) %^WG:0 ;
-      where Cx in ( с )
-            Cy in ( з ) 
+      where Cx in ( с ш )
+            Cy in ( з ж ) 
       matched ;
 
 "Qualitative CG xx:y (voiced affricate)"      
