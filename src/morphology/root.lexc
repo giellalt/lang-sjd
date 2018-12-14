@@ -55,7 +55,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 !+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
   %^WG	!weak grade
-  %>	!palatal mark deletion
+  %>	! Inflectional suffix (incl. palatal mark deletion)
   %^CLDPAL !cluster depalatalization
 
   %^DI	!?palatalization
