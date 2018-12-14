@@ -1,5 +1,5 @@
 ! Divvun & Giellatekno - open source grammars for Sámi and other languages
-! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! Copyright © 2000-2018 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
 ! This program is free software; you can redistribute and/or modify
@@ -15,6 +15,9 @@
 LEXICON OAHPA_PROP
 PROP_1DA ;
 
+LEXICON ELAN_PROP
+PROP_1DA ;
+
 LEXICON PROP_1DA
 +Prop: 1DA ;
 
@@ -26,8 +29,12 @@ LEXICON Propernoun
 Тронд PROP_1DA ; !1А economy class
 Чипрян PROP_1DA ; !1A first class
 
-! Oahpa dump here
+! ELAN dump here
+Егор ELAN_PROP ;
+Па̄ла ELAN_PROP ;
+Семёрка ELAN_PROP ;
 
+! Oahpa dump here
 Антон OAHPA_PROP ;
 А̄ннҍ OAHPA_PROP ;
 Ва̄дҍк OAHPA_PROP ;

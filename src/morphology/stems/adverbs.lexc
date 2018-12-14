@@ -20,6 +20,10 @@ LEXICON adv
 
 LEXICON Adverb
 ! lexical adverbs
+вя̄л adv ;
+ё adv ;
+лышэ adv ;
+моаст adv ;
 чофта adv "очень / much" ;
 четк adv "насмерть / to death" ;
 
@@ -31,6 +35,9 @@ LEXICON Adverb
 ! ?derived adverbs from nouns; suffix /-el't/ <-ельт> <-эльт> <-ӭльт>; weak grade
 нюэзельт adv "плохо / badly" ; !derived from нюэссь '(что-то) плохое / bad'
 ла̄шькэльт adv "лениво / lazily" ; !derived from ла̄шьк 'лень/ lazy'
+
+! ??
+а̄йкалт adv ;
 
 ! ?derived adverbs from adjectives; suffix ?/-nes't/ (looks like a poss3sg.loc)
 мӣлкнесьт adv "тихонечко / медленно / slowly" ; !derived from мя̄лк
@@ -100,8 +107,6 @@ LEXICON Adverb
 са̄мас OAHPA_ADV ;
 чинчас OAHPA_ADV ;
 о̄лкэс OAHPA_ADV ;
-айкалт OAHPA_ADV ;
-моа̄ст OAHPA_ADV ;
 ма̄ххт OAHPA_ADV ;
 ко̄ххт OAHPA_ADV ;
 тоа̄гэ OAHPA_ADV ;

@@ -43,12 +43,19 @@ LEXICON Cop
 +V+Cop+Prs+Pl1:ле̄бпь K ;
 +V+Cop+Prs+Pl2:ле̄бпе K ;
 +V+Cop+Prs+Pl3:ле̄в K ;
++V+Cop+Prt+Sg1:лӣйе K ;
++V+Cop+Prt+Sg2:лӣйекь K ;
++V+Cop+Prt+Sg3:ля̄йй K ;
++V+Cop+Prt+Pl1:лӣйемь K ;
++V+Cop+Prt+Pl2:лӣйетҍ K ;
++V+Cop+Prt+Pl3:лӣйенҍ K ;
 
 
 LEXICON NegCop
 +V+Cop+Neg+Prs+Sg3:элля K ;
 +V+Cop+Neg+Prs+Pl3:евла K ;
 +V+Cop+Neg+Prt+Sg3:эллий K ;
++V+Cop+Neg+Prt+Pl3:евлий K ;
 
 ! the simplest verb class (without any paradigmatic stem alternations)
 ! comprises most verbs from Kurutch's classes II, III, and IV

@@ -1,5 +1,5 @@
 ! Divvun & Giellatekno - open source grammars for Sámi and other languages
-! Copyright © 2000-2016 The University of Tromsø & the Norwegian Sámi Parliament
+! Copyright © 2000-2018 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
 ! This program is free software; you can redistribute and/or modify
@@ -23,7 +23,9 @@ LEXICON PR ! These are the indeclinable ones
 +Pr: # ;
 
 LEXICON Postposition
+баяс PP ;
 луннҍ PP "около / around" ;
+мӣлльтэ PP ;
 
 !!inflected? derived?
 !туэгка PP "за / ??" ;
@@ -33,7 +35,7 @@ LEXICON Postposition
 !сыссенҍ PP "внутри / ??" ;
 !
 !гоаррь PP "?? / ??" ; !check гоаррь (noun "side")
-!гоаррэ PP "в сторону / ??" ;
+гоаррэ PP "в сторону / ??" ;
 !гоарренҍ PP "со стороны / ??" ;
 !
 !пайй PP "?? / ??" ; ! check пайй (noun "??")
