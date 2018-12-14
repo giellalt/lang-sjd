@@ -151,9 +151,16 @@ Vx:0  <=> C _ C+ %^EPHV:0 %>: V ;
 
 "Palatalised Suffix Vowel (before deletion)"
 !! __@RULENAME@__  e.g. ӣджь : ӣджя, кӯлль : кӯлле
-Vx:Vy <=> ь: ( Dummy:0 ) %>:0 _ ;
+Vx:Vy <=> ь: ( Dummy:0 ) %>: _ ;
       where Vx in ( а А э Э у У )
             Vy in ( я Я е Е ю Ю ) 
+      matched ;
+
+"Half-Palatalised Suffix Vowel (before deletion)"
+!! __@RULENAME@__  e.g. нюннҍ : нюнӓ
+Vx:Vy <=> ҍ: ( Dummy:0 ) %>: _ ;
+      where Vx in ( а А э Э )
+            Vy in ( ӓ Ӓ ӭ Ӭ ) 
       matched ;
 
 "Half-Palatal Mark Deletion"
