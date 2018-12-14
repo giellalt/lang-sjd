@@ -86,13 +86,6 @@ Sets
 !! !!!Rule section
 Rules
 
-! сс:с vs. сс:з (only last one is already defined as a rule below)
-
-"Qualitative CG1a"
-!! __@RULENAME@__ this rule doesn't work yet
-Cx:0 <=> V: _ Cx: (ь:) %^WG:0 ;
-      where Cx in ( с ) ;
-
 "Qualitative CG xx:y (sibilant)"
 !! __@RULENAME@__ i.e. сс : з, шш : ж
 Cx:Cy <=> V: Cx: _ (ь:) %^WG:0 ;
@@ -118,6 +111,12 @@ Cx:Cy <=> V: Cx: _ (ь:) %^WG:0 ;
 !      where Cx in ( к )
 !            Cy in ( г ) 
 !      matched ;
+
+! сс:с vs. сс:з (only last one is already defined as a rule below)
+!"Qualitative CG1a"
+!!! __@RULENAME@__ this rule doesn't work yet
+!Cx:0 <=> V: _ Cx: (ь:) %^WG:0 ;
+!      where Cx in ( с ) ;
 
 "Palatalization: Clusters ллк : лльк, etc."
 !! __@RULENAME@__  
@@ -150,8 +149,8 @@ Cx:Cy <=> V: Cx: _ (ь:) %^WG:0 ;
 Vx:0  <=> C _ C+ %^EPHV:0 %>: V ;
       where Vx in ( а я ) ; 
 
-"Palatalised Suffix Vowel"
-!! __@RULENAME@__  
+"Palatalised Suffix Vowel (before deletion)"
+!! __@RULENAME@__  e.g. ӣджь : ӣджя, кӯлль : кӯлле
 Vx:Vy <=> ь: ( Dummy:0 ) %>:0 _ ;
       where Vx in ( а А э Э у У )
             Vy in ( я Я е Е ю Ю ) 
