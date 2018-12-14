@@ -144,18 +144,20 @@ Cx:Cy <=> V: Cx: _ (ь:) %^WG:0 ;
             Cy in ( к в ч н м )
       matched ;
 
-"Epenthetic vowel deletion"
-!! __@RULENAME@__  
-Vx:0  <=> C _ C+ %^EPHV:0 %>: V ;
-      where Vx in ( а я ) ; 
-
+!!The following two rules should apply as a cascade, in order to first change a V-letter and later remove the trigger letter
 "Palatalised Suffix Vowel (before deletion)"
 !! __@RULENAME@__  e.g. ӣджь : ӣджя, кӯлль : кӯлле
 Vx:Vy <=> ь: ( Dummy:0 ) %>: _ ;
-      where Vx in ( а А э Э у У )
-            Vy in ( я Я е Е ю Ю ) 
-      matched ;
+    where Vx in ( а А э Э у У )
+          Vy in ( я Я е Е ю Ю ) 
+	matched ;
 
+"Palatal Mark Deletion"
+!! __@RULENAME@__  e.g. ӣджь : ӣджя, кӯлль : кӯлле
+Cx:0 <=> C: _ ( Dummy:0 ) %>:0 [ :я | :Я | :е | :Е | :и | :И | :ё | :Ё | :ю | :Ю ] ;
+    where Cx in ( ь Ь ) ;
+	 
+!!The following two rules should apply as a cascade, in order to first change a V-letter and later remove the trigger letter
 "Half-Palatalised Suffix Vowel (before deletion)"
 !! __@RULENAME@__  e.g. нюннҍ : нюнӓ
 Vx:Vy <=> ҍ: ( Dummy:0 ) %>: _ ;
@@ -165,12 +167,13 @@ Vx:Vy <=> ҍ: ( Dummy:0 ) %>: _ ;
 
 "Half-Palatal Mark Deletion"
 !! __@RULENAME@__  
- ҍ:0 <=> C: _ (Dummy:) %>:0 [ :ӓ | :Ӓ | :ӭ | :Ӭ ] ;
+ ҍ:0 <=> C: _ ( Dummy:0 ) %>:0 [ :ӓ | :Ӓ | :ӭ | :Ӭ ] ;
 
-"Palatal Mark Deletion"
+"Epenthetic vowel deletion"
 !! __@RULENAME@__  
- ь:0 <=> C: _ (Dummy:) %>:0 [ :я | :Я | :е | :Е | :и | :И | :ё | :Ё | :ю | :Ю ] ;
- 
+Vx:0  <=> C _ C+ %^EPHV:0 %>: V ;
+      where Vx in ( а я ) ; 
+
 "ue Diphtongisation"
 !! __@RULENAME@__  
  э:а <=> у _ C:* %^DI:0  ;
