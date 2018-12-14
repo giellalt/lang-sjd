@@ -27,7 +27,6 @@ Alphabet
   ӯ Ӯ ф Ф х Х ц Ц ч Ч ш Ш щ Щ 
   ъ Ъ ы Ы ь Ь ъ Ъ ҍ Ҍ э Э ӭ Ӭ 
   э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄ 
-! сс:с vs. сс:з (only last one is already defined as a rule below)
 
 ! SNM 13.12.2018: Commented out the following two lines, they caused PUNCT
 ! analyses of empty strings. The symbols are not used in any lexc file, which
@@ -86,6 +85,8 @@ Sets
 
 !! !!!Rule section
 Rules
+
+! сс:с vs. сс:з (only last one is already defined as a rule below)
 
 "Qualitative CG1a"
 !! __@RULENAME@__ this rule doesn't work yet
