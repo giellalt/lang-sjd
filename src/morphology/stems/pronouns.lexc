@@ -14,15 +14,15 @@
 
 
 LEXICON Pronoun
-Demonstratives ;
-Determiners ;
-Personals ;
-Interrogatives ;
-Relatives ;
-Reflexives ;
+Demonstrative ;
+Determiner ;
+Personal ;
+Interrogative ;
+Relative ;
+Reflexive ;
 
 
-LEXICON Demonstratives
+LEXICON Demonstrative
 +Pron+Dem+Disc:та dem ;
 +Pron+Dem+Prox:тэ dem ;
 +Pron+Dem+Dist:ту dem ;
@@ -50,7 +50,7 @@ LEXICON dem
 +Pl+Ess:йнэнҍ K ;
 
 
-LEXICON Determiners
+LEXICON Determiner
 +Pron+Det:манҍтэ K "какой / which (kind)" ;
 +Pron+Det:мудта K "иной / different" ;
 +Pron+Det:пугк K "всё / all" ;
@@ -63,7 +63,7 @@ LEXICON Determiners
 ! c = stem мы-, ты-, сы-
 ! d = stem мӣ-, тӣ-, сӣ-
 
-LEXICON Personals
+LEXICON Personal
 +Pron+Pers:му pers_a ;
 +Pron+Pers:то̄ pers_a ;
 +Pron+Pers:со̄ pers_a ;
@@ -112,7 +112,7 @@ LEXICON pers_d
 ! c = stem ма̄-
 ! d = stem коамп-
 
-LEXICON Interrogatives
+LEXICON Interrogative
 +Pron+Interr:ке̄ interr_a ;
 +Pron+Interr:мӣ interr_a ;
 +Pron+Interr:мэ̄ interr_b ;
@@ -170,7 +170,7 @@ LEXICON interr_d
 ! a = stem кӯ-
 ! b = stem ко̄-
 
-LEXICON Relatives
+LEXICON Relative
 +Pron+Rel:кӯ rel_a ;
 +Pron+Rel:ко̄ rel_b ;
 
@@ -196,26 +196,52 @@ LEXICON rel_b
 +Pl+Ess:йнэнҍ K ;
 
 
-! Reflexive pronoun
-! =================
-! stem = ӣджь- / ӣжь- (regular stem gradation)
+LEXICON Reflexive
++Pron+Refl:ӣджь refl_pron ;
 
-!&1			&2			&3		   &1				&2				&3\\
-!
-!&iiʹžanxa	&iiʹžantxa	&iiʹžesxa  &iiʹžedanxa		&iiʹžedantxa	&iiʹžedesxa\\
-!&
-
-LEXICON Reflexives
-+Pron+Refl:ӣджь STRONGREFL ;
-+Pron+Refl:ӣжь WEAKREFL ;
-
-LEXICON STRONGREFL
-+Nom+Sg1: K ;
-+Nom+Sg2: K ;
-+Nom+Sg3: K ;
+LEXICON refl_pron
++Nom+Sg1:%>0 K ;
++Nom+Sg2:%>0 K ;
++Nom+Sg3:%>0 K ;
++Nom+Pl1:%^WG%>а K ;
++Nom+Pl2:%^WG%>а K ;
++Nom+Pl3:%^WG%>а K ;
++Gen+Sg1:%^WG%>aн K ;
++Gen+Sg2:%^WG%>aнт K ;
++Gen+Sg3:%^WG%>есь K ;
++Gen+Pl1:%^WG%>едaн K ;
++Gen+Pl2:%^WG%>едaнт K ;
++Gen+Pl3:%^WG%>едӭсь K ;
++Acc+Sg1:%^WG%>aн K ;
++Acc+Sg2:%^WG%>aнт K ;
++Acc+Sg3:%^WG%>есь K ;
++Acc+Pl1:%^WG%>едан K ;
++Acc+Pl2:%^WG%>едант K ;
++Acc+Pl3:%^WG%>едӭсь K ;
++Loc+Sg1:%^WG%>сaн K ;
++Loc+Sg2:%^WG%>сaнт K ;
++Loc+Sg3:%^WG%>сесь K ;
++Loc+Pl1:%^WG%>eсaн K ;
++Loc+Pl2:%^WG%>eсaнт K ;
++Loc+Pl3:%^WG%>eсесь K ;
 +Ill+Sg1:%>сан K ;
 +Ill+Sg2:%>сант K ;
 +Ill+Sg3:%>сесь K ;
++Ill+Pl1:%^WG%>едaн K ;
++Ill+Pl2:%^WG%>едaнт K ;
++Ill+Pl3:%^WG%>едӭсь K ;
++Com+Sg1:%^WG%>енан K ;
++Com+Sg2:%^WG%>енант K ;
++Com+Sg3:%^WG%>енесь K ;
++Com+Pl1:%^WG%>едангуэйм K ;
++Com+Pl2:%^WG%>едантгуэйм K ;
++Com+Pl3:%^WG%>едӭсьгуэйм K ;
++Abe+Sg1:%^WG%>aнха K ;
++Abe+Sg2:%^WG%>aнтха K ;
++Abe+Sg3:%^WG%>есьха K ;
++Abe+Pl1:%^WG%>едaнха K ;
++Abe+Pl2:%^WG%>едaнтха K ;
++Abe+Pl3:%^WG%>едӭсьха K ;
 +Ess+Sg1:%>нан K ;
 +Ess+Sg2:%>нант K ;
 +Ess+Sg3:%>несь K ;
@@ -223,44 +249,4 @@ LEXICON STRONGREFL
 +Ess+Pl2:%>енант K ;
 +Ess+Pl3:%>енесь K ;
 
-LEXICON WEAKREFL 
-+Nom+Pl1:%>а K ;
-+Nom+Pl2:%>а K ;
-+Nom+Pl3:%>а K ;
-+Gen+Sg1:%>aн K ;
-+Gen+Sg2:%>aнт K ;
-+Gen+Sg3:%>есь K ;
-+Gen+Pl1:%>едaн K ;
-+Gen+Pl2:%>едaнт K ;
-+Gen+Pl3:%>едӭсь K ;
-+Acc+Sg1:%>aн K ;
-+Acc+Sg2:%>aнт K ;
-+Acc+Sg3:%>есь K ;
-+Acc+Pl1:%>едан K ;
-+Acc+Pl2:%>едант K ;
-+Acc+Pl3:%>едӭсь K ;
-+Loc+Sg1:%>сaн K ;
-+Loc+Sg2:%>сaнт K ;
-+Loc+Sg3:%>сесь K ;
-+Loc+Pl1:%>eсaн K ;
-+Loc+Pl2:%>eсaнт K ;
-+Loc+Pl3:%>eсесь K ;
-+Ill+Pl1:%>едaн K ;
-+Ill+Pl2:%>едaнт K ;
-+Ill+Pl3:%>едӭсь K ;
-+Com+Sg1:%>енан K ;
-+Com+Sg2:%>енант K ;
-+Com+Sg3:%>енесь K ;
-+Com+Pl1:%>едангуэйм K ;
-+Com+Pl2:%>едантгуэйм K ;
-+Com+Pl3:%>едӭсьгуэйм K ;
-+Abe+Sg1:%>aнха K ;
-+Abe+Sg2:%>aнтха K ;
-+Abe+Sg3:%>есьха K ;
-+Abe+Pl1:%>едaнха K ;
-+Abe+Pl2:%>едaнтха K ;
-+Abe+Pl3:%>едӭсьха K ;
-
-!Since pronouns can be followed by clitics (like =ше and the like) the rules above do not end with #; for reflexive pronouns, this has to be checked
-
-!More effective rules (less redundency) are needed, e.g. -дж- : -ж- stem gradation in REFL is quite regular and many suffixes re-occur
+!More effective rules (less redundency) are needed, e.g. many suffixes re-occur
