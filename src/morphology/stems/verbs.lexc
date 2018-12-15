@@ -60,7 +60,7 @@ LEXICON NegCop
 ! the simplest verb class (without any paradigmatic stem alternations)
 ! comprises most verbs from Kurutch's classes II, III, and IV
 ! in MR's analysis, this is "class II" (out of three classes)
-! [not important here, but these are derived verbs with three-syllabic stems historically; the vocalism of the second syllable is syncopated; that's why the consonantism looks odd (-бш- -рьйх- …) and doosn' undergo stem gradation]
+! [not important here, but these are derived verbs with three-syllabic stems historically; the vocalism of the second syllable is syncopated; that's why the consonantism looks odd (-бш- -рьйх- …) and doesn't undergo stem gradation]
 
 ! (phonologically) the rules are the following:
 ! 1. replace the infinitive suffix /-e/ with the respective inflectional suffix, except in:
@@ -186,6 +186,7 @@ LEXICON NegCop
 LEXICON Verbstems   !!= * __@CODE@__
 
 пуэдтӭ:пуэдт PUEDTE "come" ;
+тӣдтӭ:тӣдт PUEDTE "знать" ;
 
 луввтъе:луввт LUVTTE ; ! = sme contr, no CG
 
@@ -242,11 +243,11 @@ LEXICON Verbstems   !!= * __@CODE@__
 !! These words are added during testing work with the ELAN-FST script
 !! They should be given correct declension classes later
 лыһкэ:лыһк ELAN_V ;
+кӯссьтэ:кӯссьт ELAN_V ; 
+моайнсэ:моайнс ELAN_V ;
 
 
 !! Just dumping Oahpa verbs in the rest of the file
-
-
 ыбе:ыб OAHPA_V ;
 выйе:вый OAHPA_V ;
 пыйе:пый OAHPA_V ;
@@ -297,7 +298,6 @@ LEXICON Verbstems   !!= * __@CODE@__
 вӣршэ:вӣрш OAHPA_V ;
 оаннӭ:оанн OAHPA_V ;
 ёадтӭ:ёадт OAHPA_V ;
-тӣдтӭ:тӣдт OAHPA_V ;
 кэ̄дже:кэ̄дж OAHPA_V ;
 па̄гке:па̄гк OAHPA_V ;
 ца̄гке:ца̄гк OAHPA_V ;
@@ -420,7 +420,6 @@ LEXICON Verbstems   !!= * __@CODE@__
 рисэвайе:рисэвай OAHPA_V ;
 це̄ӆӆьке:це̄ӆӆьк OAHPA_V ;
 чуэннчле:чуэннчл OAHPA_V ;
-моа̄йнсе:моа̄йнс OAHPA_V ;
 поа̄вчсе:поа̄вчс OAHPA_V ;
 пэ̄ҏҏкъе:пэ̄ҏҏкъ OAHPA_V ;
 тӯлльтъе:тӯлльтъ OAHPA_V ;
@@ -439,7 +438,6 @@ LEXICON Verbstems   !!= * __@CODE@__
 по̄тткнэ:по̄тткн OAHPA_V ;
 ца̄ввьнэ:ца̄ввьн OAHPA_V ;
 ка̄рьксэ:ка̄рькс OAHPA_V ;
-моа̄йнсэ:моа̄йнс OAHPA_V ;
 ся̄ххктэ:ся̄ххкт OAHPA_V ;
 ва̄лльтэ:ва̄лльт OAHPA_V ;
 вуэссьтэ:вуэссьт OAHPA_V ;

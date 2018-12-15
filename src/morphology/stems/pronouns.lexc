@@ -52,7 +52,9 @@ LEXICON dem
 
 LEXICON Determiner
 +Pron+Det:манҍтэ K "какой / which (kind)" ;
++Pron+Det+Use/Dial:манҍтэм K "какой / which (kind)" ;
 +Pron+Det:мудта K "иной / different" ;
++Pron+Det:мугка K "иной / different" ; !plural
 +Pron+Det:пугк K "всё / all" ;
 
 
