@@ -193,6 +193,9 @@ LEXICON Verbstems   !!= * __@CODE@__
 куллэ:кулл KULLE ; !This is Kurutsh 1 = sme even
 уййнэ:уййн KULLE ;
 
+аллькэ:алльк DPAL_V ;
+
+
 ! Kurutsh:
 
 ! Verb classes according to Kuruch p. 551
@@ -208,6 +211,7 @@ LEXICON Verbstems   !!= * __@CODE@__
 аббрэ:аббр 2 "идти - о дожде / to rain" ;
 не̄сськэ:не̄сськ 2 "скоблить/ to scrape" ;
 са̄ррнэ:са̄ррн 2 "говорить/ to speak" ;
+ва̄ннҍцэ:ва̄ннҍц 2 ;
 
 ! 3. class (ending in long + short consonant)
 тӯййшэ:тӯййш 3 "строить / to build" ;
@@ -320,7 +324,6 @@ LEXICON Verbstems   !!= * __@CODE@__
 чӯййкэ:чӯййк OAHPA_V ;
 лыххкэ:лыххк OAHPA_V ;
 сыххкэ:сыххк OAHPA_V ;
-аллькэ:алльк OAHPA_V ;
 подтлэ:подтл OAHPA_V ;
 ышштлэ:ышштл OAHPA_V ;
 паййнэ:паййн OAHPA_V ;
@@ -451,7 +454,6 @@ LEXICON Verbstems   !!= * __@CODE@__
 те̄вьтхэ:те̄вьтх OAHPA_V ;
 тӯлльтхэ:тӯлльтх OAHPA_V ;
 ре̄ммьхэ:ре̄ммьх OAHPA_V ;
-ва̄ннҍцэ:ва̄ннҍц OAHPA_V ;
 ва̄ннҍцле:ва̄ннҍцл OAHPA_V ;
 то̄ӆӆькъе:то̄ӆӆькъ OAHPA_V ;
 ӣӈӈклуввэ:ӣӈӈклувв OAHPA_V ;
