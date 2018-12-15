@@ -118,11 +118,6 @@ Cx:Cy <=> V: Cx: _ (ь:) %^WG:0 ;
 !Cx:0 <=> V: _ Cx: (ь:) %^WG:0 ;
 !      where Cx in ( с ) ;
 
-!"De-Palatalization (clusters)"
-!!! __@RULENAME@__ e.g. лльк : ллк , ннҍц : ннц, etc.
-!  PALMARK:0 <=> [ л ] _ Cx %^CLDPAL:0 ;
-!			where Cx in ( к ) ;
-
 "De-Palatalization (clusters)"
 !! __@RULENAME@__ e.g. лльк : ллк , ннҍц : ннц, etc.
   PALMARK:0 <=> C: _ C %^CLDPAL:0 ;
