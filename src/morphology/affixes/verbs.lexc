@@ -54,6 +54,9 @@ LEXICON 6
 LEXICON 7
 1 ;
 
+LEXICON DPAL_V
++V+Sg3:%^CLDPAL K ;
+
 LEXICON PUEDTE
 +V+INF:%>ӭ # ;
 +V+Pl1:%>ӭпь # ;
