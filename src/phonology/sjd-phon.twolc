@@ -34,18 +34,17 @@ Alphabet
 !  %´:0 
 !  %,:%´
 
-  %-
-
-  %^1VOW:0 
-  %^2VOW:0 
-  %^3VOW:0 
-  %^4VOW:0 
-  %^5VOW:0 
+!! Trigger symbols
+  %^1VOW:0		!!= * @CODE@ Vow trigger for epenthetic -э-
+  %^2VOW:0		!!= * @CODE@ Vow trigger 
+  %^3VOW:0		!!= * @CODE@ Vow trigger 
+  %^4VOW:0		!!= * @CODE@ Vow trigger 
+  %^5VOW:0		!!= * @CODE@ Vow trigger 
   %^VOWSH:0
-  %^WG:0 
+  %^WG:0		!!= * @CODE@ for weak consonant stem gradation 
   %^EPHV:0 
   %^DI:0
-  %^CLDPAL:0 
+  %^CLDPAL:0	!!= * @CODE@ for depalatalizing consonant stems
   %^MON:0
 
 ! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
@@ -61,7 +60,8 @@ Alphabet
  %> ! Inflectional suffix
  #  ! Word boundary for both lexicalised and dynamic compounds
  %^ ! (exceptional) soft hyphenation point
-
+ %- ! Hyphen for question particle
+ 
 ! End of alphabet definitions
 ;
 
@@ -118,9 +118,26 @@ Cx:Cy <=> V: Cx: _ (ь:) %^WG:0 ;
 !Cx:0 <=> V: _ Cx: (ь:) %^WG:0 ;
 !      where Cx in ( с ) ;
 
+"Quantitative CG xxy:xy (npal cluster)"
+!! __@RULENAME@__  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, etc. 
+ Cx:0 <=> Cx _ Cy %^WG:0 ;
+      where Cx in ( б в л й й м р ш н )  
+            Cy in ( р т к в н ч н м ц )
+      matched ;
+
+"Quantitative CG xxy:xy (pal cлuster)"
+!! __@RULENAME@__  e.g. -лльк-:-льк-, -ннҍц-:-нҍц-, etc.
+ C:0 <=> Cx _ (PALMARK:) Cy %^WG:0 ;
+      where Cx in ( н )  
+            Cy in ( ц )
+      matched ;
+
 "De-Palatalization (clusters)"
 !! __@RULENAME@__ e.g. лльк : ллк , ннҍц : ннц, etc.
-  PALMARK:0 <=> C: _ C %^CLDPAL:0 ;
+  PALMARK:0 <=> Cx _ Cy %^CLDPAL:0 ;
+      where Cx in ( н )  
+            Cy in ( ц )
+      matched ;
 
 "Quantitative CG"
 !! __@RULENAME@__  
@@ -134,13 +151,6 @@ Cx:Cy <=> V: Cx: _ (ь:) %^WG:0 ;
  Cy:0 <=> Cx _  (PALMARK:) %^WG:0 ;
       where Cx in ( б г д )  
             Cy in ( п к т )
-      matched ;
-
-"Quantitative CG non-pal 3-Cns Cluster"
-!! __@RULENAME@__  e.g. са̄ррн : са̄рн, ко̄ллм : ко̄лм 
- Cx:0 <=> Cx _ Cy (PALMARK:) %^WG:0 ;
-      where Cx in ( л й м р ш )  
-            Cy in ( к в ч н м )
       matched ;
 
 !!The following two rules should apply as a cascade, in order to first change a V-letter and later remove the trigger letter
@@ -168,10 +178,14 @@ Vx:Vy <=> ҍ: ( Dummy:0 ) %>: _ ;
 !! __@RULENAME@__  
  ҍ:0 <=> C: _ ( Dummy:0 ) %>:0 [ :ӓ | :Ӓ | :ӭ | :Ӭ ] ;
 
-"Epenthetic vowel deletion"
-!! __@RULENAME@__  
+"Epenthetic vowel deletion (npal vowels)"
+!! __@RULENAME@__ e.g. ко̄рэб:ко̄рбэсьт, etc. [шоабаш-:шоабш-]
 Vx:0  <=> C _ C+ %^EPHV:0 %>: V ;
-      where Vx in ( а я ) ; 
+!! ко̄рэб+N+Sg+Loc
+!!€ ко̄р%^EPHVб%>эсьт
+!!€ ко̄р0б%>эсьт
+	where Vx in ( э Э ) ;
+!      where Vx in ( а я ) ; 
 
 "ue Diphtongisation"
 !! __@RULENAME@__  
