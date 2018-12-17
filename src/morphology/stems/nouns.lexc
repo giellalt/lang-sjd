@@ -16,8 +16,17 @@
 !! !!!Kildin Saami nouns
 
 LEXICON Noun !!= * @CODE@
+грӯша KNIIGA ;
+кнӣга KNIIGA ;
+ко̄рэб KOOREB ;
+кабперь KOOREB ;
+пӣрас KOOREB ;
+сӯррмас KOOREB ;
+фа̄ртэк KOOREB ;
 
 !! !!class1
+дрӯгк 1DA ;
+вуэрр 1DA ;
 вӣгкхуввмушш 1DA ; !!DER вигк-хувв-мушш
 вуэллдэгк 1DA ;
 вуэллнэмушш 1DA ;
@@ -52,6 +61,7 @@ LEXICON Noun !!= * @CODE@
 пуадтмушш 1DA "приход / arrival" ;
 пя̄йвнэгк 1DA "солнечная погода / sunny weather" ;
 са̄рнэгк 1DA ;
+сыййт SYJJT ;
 чосснэгк 1DA ;
 чувв 1DA "свет / light" ;
 шӯрр 1DA "?? / master" ;
@@ -92,7 +102,6 @@ LEXICON Noun !!= * @CODE@
 оа̄з 4D "паук / spider" ; ! can mean also clothes, but with different paradigm
 оаккшэ 4D "топор / axe" ;
 ылльтэ 4D "полка / shelf" ;
-кнӣга 4D "книга / book" ; ! also кыррьй (buch, brief, aufzeichnung, zeichnung, gemaltes bild)
 ке̄лл 4D ;
 
 !! !!5. declension (classes 4, 6, 9)
@@ -114,7 +123,6 @@ LEXICON Noun !!= * @CODE@
 !! They should be given correct declension classes later
 рекла̄ма ELAN_N "реклама / advertisement" ;
 кӣннт ELAN_N "кинтище" ;
-пӣрас ELAN_N ;
 
 !! !!Oahpa dump
 !! These words are added from sjdoahpa.
@@ -286,7 +294,6 @@ LEXICON Noun !!= * @CODE@
 ка̄ссв OAHPA_N ;
 ка̄ххцегк OAHPA_N ;
 ка̄ӆӆьч OAHPA_N ;
-кабперь OAHPA_N ;
 кай OAHPA_N ;
 каккш OAHPA_N ;
 калльмушш OAHPA_N ;
@@ -644,7 +651,6 @@ LEXICON Noun !!= * @CODE@
 поппал-сӣрр OAHPA_N ;
 празднэххьк OAHPA_N ;
 пуадтмушш OAHPA_N ;
-пуаз OAHPA_N ;
 пуай OAHPA_N ;
 пуалл OAHPA_N ;
 пуар OAHPA_N ;
@@ -671,7 +677,6 @@ LEXICON Noun !!= * @CODE@
 пӣӈӈк OAHPA_N ;
 пӯввллаввь OAHPA_N ;
 пӯдзъенч OAHPA_N ;
-пӯдзэ OAHPA_N ;
 пӯдзэпынней OAHPA_N ;
 пӯййт OAHPA_N ;
 пӯллв OAHPA_N ;
@@ -768,7 +773,6 @@ LEXICON Noun !!= * @CODE@
 суэӈӈмушш OAHPA_N ;
 суӎӎьк OAHPA_N ;
 сызнӭ OAHPA_N ;
-сыййт OAHPA_N ;
 сыр OAHPA_N ;
 сыська OAHPA_N ;
 сэ̄рввуэза OAHPA_N ;

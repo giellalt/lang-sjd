@@ -21,6 +21,7 @@ LEXICON adv
 LEXICON Adverb
 ! lexical adverbs
 адтҍ adv ;
+беда adv ;
 вя̄л adv ;
 лышэ adv ;
 маӈӈа adv "потом" ;
@@ -30,6 +31,7 @@ LEXICON Adverb
 та̄рьм adv "сегодня" ;
 тамьпэ adv "там" ;
 толькэ adv "только" ;
+тоагэ adv "туда" ;
 четк adv "насмерть / to death" ;
 чофта adv "очень / much" ;
 эффьтэ adv "всё ещё" ; !derived from numeral э̄ххт??
@@ -135,10 +137,7 @@ LEXICON Adverb
 тала OAHPA_ADV ;
 танна OAHPA_ADV ;
 те̄ссклэнне OAHPA_ADV ;
-то̄гэ OAHPA_ADV ;
-тоа̄гэ OAHPA_ADV ;
 тоа̄йва OAHPA_ADV ;
-тоагэ OAHPA_ADV ;
 туаррэм OAHPA_ADV ;
 тула OAHPA_ADV ;
 туммпла OAHPA_ADV ;
