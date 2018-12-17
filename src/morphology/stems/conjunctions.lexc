@@ -21,6 +21,7 @@ LEXICON Cc_orth
 LEXICON Conjunction
 а  CC "a / but" ;
 але CC "или / or" ;
+ама CC "ама" ;
 вай CC "или / or" ;
 да CC "и / and" ;
 и  CC "и / and" ;
@@ -28,6 +29,7 @@ LEXICON Conjunction
 лубэ CC "или / or" ;
 ноа CC "но / but" ;
 нэ  Cc_orth "но / but" ;
+толи CC ;
 э  Cc_orth "и / and" ;
 элэ Cc_orth "или / or" ;
 я  CC "и / and" ;

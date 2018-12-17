@@ -22,12 +22,21 @@ LEXICON PROP_1DA
 +Prop: 1DA ;
 
 LEXICON Propernoun
+!person, given names
 Во̄леньк PROP_1DA "Лена, Елена" ;
 Мышшьк PROP_1DA ;!variant Мышшк
 Мэ̄һкал PROP_1DA ; !2A tourist class
 О̄леньк PROP_1DA ;!variant Оленьк
 Тронд PROP_1DA ; !1А economy class
 Чипрян PROP_1DA ; !1A first class
+
+!toponym
+Коа̄рдэгк PROP_1DA ;
+Коа̄рдэгкёгк PROP_1DA ;
+Коа̄рдэгксыййт PROP_1DA ;
+Ло̄ннь PROP_1DA ;
+Луя̄ввьр OAHPA_PROP ;!place name
+
 
 ! ELAN dump here
 Егор ELAN_PROP ;
@@ -50,7 +59,6 @@ LEXICON Propernoun
 Ёгра OAHPA_PROP ;
 Ларя OAHPA_PROP ;
 Лёлль OAHPA_PROP ;
-Луяввьр OAHPA_PROP ;!place name
 Ма̄рьенч OAHPA_PROP ;
 Ма̄тӓ OAHPA_PROP ;
 Моадрна OAHPA_PROP ;!variant Моа̄дран

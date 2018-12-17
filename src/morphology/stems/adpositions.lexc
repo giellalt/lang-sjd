@@ -17,10 +17,10 @@
 ! ----------- !
 
 LEXICON PP ! These are the indeclinable ones 
-+Po: # ;
++Po: K ;
 
 LEXICON PR ! These are the indeclinable ones 
-+Pr: # ;
++Pr: K ;
 
 LEXICON Postposition
 баяс PP ;
@@ -28,6 +28,8 @@ LEXICON Postposition
 мӣлльтэ PP ;
 
 !!inflected? derived?
+альн PP ;
+э̄л PP ;
 !туэгка PP "за / ??" ;
 !тӯгкенҍ PP "из-за / ??" ;
 !
@@ -48,6 +50,6 @@ LEXICON Postposition
 
 LEXICON Preposition
 чӯл PR "вдоль / ??" ;
-рай PR "мимо / ??" ;
+рай PR "мимо / ??" ;
 мидтҍ PR "попутно / ??" ;
 раст PR "через / through" ;

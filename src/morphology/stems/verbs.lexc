@@ -20,6 +20,7 @@ LEXICON Verb   !!= * __@CODE@__
 NegAux ; ! negative auxilary
 Cop	; ! copula, auxilary
 NegCop ;
+ImpMod ;
 Verbstems ;
 
 
@@ -52,10 +53,20 @@ LEXICON Cop
 
 
 LEXICON NegCop
-+V+Cop+Neg+Prs+Sg3:элля K ;
-+V+Cop+Neg+Prs+Pl3:евла K ;
-+V+Cop+Neg+Prt+Sg3:эллий K ;
-+V+Cop+Neg+Prt+Pl3:евлий K ;
++V+Cop+Pos+Prs:бэдт K ;
++V+Cop+Pos+Prs+Use/Orth:быдт K ;
++V+Cop+Pos+Inf:бэдтӭ K ; !??
++V+Cop+Pos+??+Use/Orth:быдтӭ K ;
++V+Cop+Neg+Prs:ибе K ;
++V+Cop+Pos+Cond:бэдаһч K ;
+
+
+LEXICON ImpMod
++V+Imp+Neg+Prs+Sg3:элля K ;
++V+Imp+Neg+Prs+Pl3:евла K ;
++V+Imp+Neg+Prt+Sg3:эллий K ;
++V+Imp+Neg+Prt+Pl3:евлий K ;
+
 
 ! the simplest verb class (without any paradigmatic stem alternations)
 ! comprises most verbs from Kurutch's classes II, III, and IV
@@ -184,6 +195,19 @@ LEXICON NegCop
 
 
 LEXICON Verbstems   !!= * __@CODE@__
+аллькэ:алльк VAANNJCE ;
+аннҍтэ:аннҍт VAANNJCE ;
+ва̄ннҍцэ:ва̄ннҍц VAANNJCE ;
+не̄сськэ:не̄сськ VAANNJCE "скоблить/ to scrape" ;
+па̄шшьтэ:па̄шшьт VAANNJCE "жарить/ to fry" ;
+са̄ррнэ:са̄ррн TIIVVTE "говорить/ to speak" ;
+се̄ввьтэ:се̄ввьт VAANNJCE "обидеть" ; 
+тӣввтэ:тӣввт TIIVVTE ;
+уййнэ:уййн TIIVVTE ;
+пыйе:пыйй ELAN_V ; !PYJJE
+ко̄ппче:ко̄ппч ELAN_V ; !LOOGGE (со̄нн лоагк)
+чӯзхэ:чӯзх -X- "ушибить" ;!derived stem
+ве̄кьхэ:ве̄кьх -X- "помоч" ;
 
 пуэдтӭ:пуэдт PUEDTE "come" ;
 тӣдтӭ:тӣдт PUEDTE "знать" ;
@@ -191,9 +215,7 @@ LEXICON Verbstems   !!= * __@CODE@__
 луввтъе:луввт LUVTTE ; ! = sme contr, no CG
 
 куллэ:кулл KULLE ; !This is Kurutsh 1 = sme even
-уййнэ:уййн KULLE ;
 
-аллькэ:алльк DPAL_V ;
 
 
 ! Kurutsh:
@@ -207,11 +229,7 @@ LEXICON Verbstems   !!= * __@CODE@__
 выдзэ:выдз 1 "хныкать / ??" ;
 
 ! 2. class (ending in long + short consonant)
-па̄шшьтэ:па̄шшьт 2 "жарить/ to fry" ;
 аббрэ:аббр 2 "идти - о дожде / to rain" ;
-не̄сськэ:не̄сськ 2 "скоблить/ to scrape" ;
-са̄ррнэ:са̄ррн 2 "говорить/ to speak" ;
-ва̄ннҍцэ:ва̄ннҍц 2 ;
 
 ! 3. class (ending in long + short consonant)
 тӯййшэ:тӯййш 3 "строить / to build" ;
@@ -254,9 +272,7 @@ LEXICON Verbstems   !!= * __@CODE@__
 !! Just dumping Oahpa verbs in the rest of the file
 ыбе:ыб OAHPA_V ;
 выйе:вый OAHPA_V ;
-пыйе:пый OAHPA_V ;
 вӯйе:вӯй OAHPA_V ;
-быдт:быд OAHPA_V ;
 угкэ:угк OAHPA_V ;
 югкэ:югк OAHPA_V ;
 уммэ:умм OAHPA_V ;
@@ -354,7 +370,6 @@ LEXICON Verbstems   !!= * __@CODE@__
 шӣххтэ:шӣххт OAHPA_V ;
 ыррштэ:ырршт OAHPA_V ;
 юррьтэ:юррьт OAHPA_V ;
-аннҍтэ:аннҍт OAHPA_V ;
 по̄ҏтэ:по̄ҏт OAHPA_V ;
 тӣрвхэ:тӣрвх OAHPA_V ;
 хабпхэ:хабпх OAHPA_V ;
@@ -375,7 +390,6 @@ LEXICON Verbstems   !!= * __@CODE@__
 харпьсе:харпьс OAHPA_V ;
 вуэпьсе:вуэпьс OAHPA_V ;
 чуэннче:чуэннч OAHPA_V ;
-ко̄ппче:ко̄ппч OAHPA_V ;
 кэ̄ххче:кэ̄ххч OAHPA_V ;
 коадзъе:коадзъ OAHPA_V ;
 луввтъе:луввтъ OAHPA_V ;
