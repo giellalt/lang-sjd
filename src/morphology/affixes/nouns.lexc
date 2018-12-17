@@ -14,6 +14,29 @@
 
 !! !!!Kildin Saami noun inflection
 
+
+LEXICON KOOREB
++N+Sg+Nom:%>0 K ;
++N+Sg+Ill:%^EPHV%>а K ;
++N+Sg+Loc:%^EPHV%>эсьт K ;
+
+LEXICON KNIIGA
++N+Sg+Nom: K ;
++N+Sg+Gen: K ;
++N+Sg+Acc: K ;
++N+Pl+Nom: K ;
++N+Pl+Gen: K ;
++N+Pl+Acc:%>тҍ K ;
+
+LEXICON SYJJT
++N+Sg+Nom: K ;
++N+SG+Gen:%^WG K ;
++N+Sg+Acc:%^WG K ;
++N+Sg+Ill:%>а K ;
++N+Pl+Nom:%^WG K ;
++N+Pl+Loc:%^WG%>энҍ K ;
+
+
 !! "class1" = monosyllabic/non-palatalized inflection foot, str-wk, no ablaut/umlaut, palatalization in Ill.Sg
 LEXICON 1DA !!= @CODE@ is orthographic subclass with xx--> x
 
@@ -25,7 +48,7 @@ LEXICON 1DA !!= @CODE@ is orthographic subclass with xx--> x
   +N:%^WG SgAbeSuf    ;
   +N:%^WG SgComSuf    ;
   +N:     EssSuf      ;
-  +N:     ParSuf      ;
+  +N:     ParSufE      ;
 
   +N:%^WG PlNomSuf    ;
   +N:%^WG PlGenSuf    ;
@@ -46,7 +69,7 @@ LEXICON 1DB !!= @CODE@ is orthographic subclass with xy-->x and "half-palataliza
  +N:%^WG SgAbeSuf      ;
  +N:%^WG SgComSuf      ;
  +N:     EssSuf        ;
- +N:     ParSuf        ;
+ +N:     ParSufE        ;
 
  +N:%^WG PlNomSuf      ;
  +N:%^WG PlGenSuf      ;
@@ -67,7 +90,7 @@ LEXICON 2D !!= @CODE@ like 1D ?  these are just dummy for the moment
  +N:%^WG SgAbeSuf    ; ! Лишит.
  +N:%^WG SgComSuf    ; ! Совм.
  +N:     EssSuf      ; ! Превр.
- +N:     ParSuf      ; ! Парт.
+ +N:     ParSufE      ; ! Парт.
 
  +N:%^WG PlNomSuf    ; ! Им.
  +N:%^WG PlGenSuf    ; ! Вин.
@@ -85,7 +108,7 @@ LEXICON 3D !!= @CODE@
  +N:%^WG SgAbeSuf    ; ! Лишит.
  +N:%^WG SgComSuf    ; ! Совм.
  +N:     EssSuf      ; ! Превр.
- +N:     ParSuf      ; ! Парт.
+ +N:     ParSufE      ; ! Парт.
 
  +N:%^WG PlNomSuf    ; ! Им.
  +N:%^WG PlGenSuf    ; ! Вин.
@@ -97,19 +120,17 @@ LEXICON 3D !!= @CODE@
 
 LEXICON 4D  !!= @CODE@ is contract
      +N:%^WG     SgNomSuf    ; ! Им.
-     +N:%^MON%>э SgGenAccSuf ; ! Род.
-     +N:%^MON%>э EssSuf      ; ! Превр.
-     +N:%^MON%>э SgLocSuf    ; ! Местн.
-     +N:%^MON%>ъ SgIllSufJE  ; ! Дат.-напр
-     +N:%^WG     SgAbeSuf    ; ! Лишит.
-     +N:%^WG     SgComSuf    ; ! Совм.
- +N+Par:%>ко     K           ; ! Not in Kuruch
-
-     +N:%^WG     PlNomSuf    ; ! Им.
-     +N:%^WG     PlAccSuf    ; ! Вин.
-     +N:%^WG     PlLocSuf    ; ! Местн.
-     +N:%^WG     PlAbeSuf    ; ! Лишит.
-     +N:%^WG     PlComSuf    ; ! Совм.
+     +N:%^MON	 SgGenAccPlNomGenSuf ; ! Род.
+     +N:%^MON	 EssSuf      ; ! Превр.
+     +N:%^MON	 SgLocSuf    ; ! Местн.
+     +N:%^MON%>ъ SgIllSufJE  ; !hard sign insertion needs a twolc-rule
+     +N:%^MON     SgAbeSufAHTA    ; ! Лишит.
+     +N:%^MON     SgComSuf    ; ! Совм.
+	 +N:%^MON%>ъ ParSufJEDDJE ; !hard sign insertion needs a twolc-rule
+     +N:%^MON     PlAccSuf    ; ! Вин.
+     +N:%^MON     PlLocSuf    ; ! Местн.
+     +N:%^MON     PlAbeSuf    ; ! Лишит.
+     +N:%^MON     PlComSuf    ; ! Совм.
 
 LEXICON 4DА  !!= @CODE@
  +N+Sg+Nom:%^WG         K ; ! Им.
@@ -141,21 +162,30 @@ LEXICON ELAN_N  !!= @CODE@ is all the words from ELAN_N, we just point them to 1
 !! !!Case affixes
 
 LEXICON SgNomSuf !!= @CODE@
- +Sg+Nom: K ; ! Им.
+ +Sg+Nom:%>0 K ; ! Им.
+ 
+LEXICON SgGenAccPlNomGenSuf
++Pl+Nom:%>э K ;
+ +Sg+Gen:%>э K ; ! Род.
+ +Sg+Acc:%>э K ; ! Вин.
+ +Pl+Gen:%>э K ; 
 
 LEXICON SgGenAccSuf !!= @CODE@
- +Sg+Gen: K ; ! Род.
- +Sg+Acc: K ; ! Вин.
+ +Sg+Gen:%>0 K ; ! Род.
+ +Sg+Acc:%>0 K ; ! Вин.
 
 LEXICON EssSuf !!= @CODE@
  +Ess:%>энҍ K ;
 !! Превр. !check here and elsewhere whether the palatal-mark-deletion-rule is really needed here (it's already included above)
 
-LEXICON ParSuf  !!= @CODE@
+LEXICON ParSufE  !!= @CODE@
  +Par:%>э K ; ! Парт.
 
 LEXICON ParSufHalfE  !!= @CODE@
- +Par:%>ӭ K ;
+ +Par:%>ӭ K ; !they are allomorphs only in orthography
+ 
+LEXICON ParSufJEDDJE
++Par:%>едтӭ K ;
 
 LEXICON SgLocSuf  !!= @CODE@
  +Sg+Loc:%>эсьт K ; ! Местн.
@@ -174,6 +204,9 @@ LEXICON SgIllSufHalfE !!= @CODE@
 
 LEXICON SgAbeSuf !!= @CODE@
  +Sg+Abe:%>ха K ; ! Лишит.
+ 
+LEXICON SgAbeSufAHTA
++Sg+Abe:%>аһта K ;
 
 LEXICON SgComSuf !!= @CODE@
  +Sg+Com:%>энҍ K ; ! Совм.

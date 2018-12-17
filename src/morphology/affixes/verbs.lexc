@@ -25,6 +25,51 @@ LEXICON ELAN_V
 LEXICON OAHPA_V
 1 ; ! just dumping the oahpa verbs here
 
+LEXICON TIIVVTE !class 2: monosyll. nonpal. stem
++V+Inf:%>э  K ; 
++V+Ind+Prs+Sg1:%^WG%>а K ;
++V+Ind+Prs+Sg1+Use/Dial:%^WG%>ам K ;
++V+Ind+Prs+Sg2:%^WG%>ак K ;
++V+Ind+Prs+Sg2+Use/Dial:%^WG%>ах K ;
++V+Ind+Prs+Sg3:%>0 K ;
++V+Ind+Prs+Pl1:%>эпь K ;
++V+Ind+Prs+Pl2:%>бэдтӭ K ;
++V+Ind+Prs+Pl3:%>эв K ;
++V+Ind+Prs+Conneg:%^WG%>0 K ;
++V+Ind+Prt+Sg1:%>э K ; !pal
++V+Ind+Prt+Sg1+Use/Dial:%>эмь K ; !pal
++V+Ind+Prt+Sg2:%>экь K ; !pal
++V+Ind+Prt+Sg2+Use/Dial:%>эхь K ; !pal
++V+Ind+Prt+Sg3:%^WG%>э K ;
++V+Ind+Prt+Pl1:%^WG%>эмь K ;
++V+Ind+Prt+Pl2:%^WG%>этҍ K ;
++V+Ind+Prt+Pl3:%>энҍ K ; !pal
++V+Ind+Prt+Conneg:%>ма K ;
++V+Ind+Prt+Conneg+Use/Dial:%>а K ;
++V+Ind+Prt+Conneg+Use/Dial:%>мэнч K ;
++V+Imprt+Sg:%^WG%>0 K ;
++V+Imprt+Pl:%>э  K ;
++V+Cond: V_COND ;
+
+
+LEXICON VAANNJCE !class 1: monosyll. pal. stem
++V+Inf:%>э  K ; 
++V+Ind+Prs+Sg1:%^CLDPAL%^WG%>а K ;
++V+Ind+Prs+Sg3:%^CLDPAL%>0 K ;
+!+V+Ind+Prs+Sg1:%^WG%^CLDPAL%>а K ;
+!+V+Ind+Prs+Sg2:%^WG%^CLDPAL%>ак K ;
++V+Ind+Prs+Conneg:%^WG%>0 K ;
+!+V+Imprt+Sg:%^WG%>0 K ;
+!+V+Imprt+Pl:%>э  K ;
++V+Cond: V_COND ;
+
+
+LEXICON -X-
++V+Inf:%>э  K ; 
++V+Ind+Prt+Pl3:%>енҍ K ;
++V+Cond: V_COND ;
+
+
 LEXICON 1
 +V+Inf:%>э  # ; 
 +V+Ind:  V_IND_EVEN ;
@@ -53,9 +98,6 @@ LEXICON 6
 1 ;
 LEXICON 7
 1 ;
-
-LEXICON DPAL_V
-+V+Sg3:%^CLDPAL K ;
 
 LEXICON PUEDTE
 +V+INF:%>ӭ # ;
@@ -100,13 +142,13 @@ LEXICON PRTSUF_EVEN
 
 
 LEXICON V_COND
-+Sg1:%>че   # ; !weak
-+Sg2:%>чекь # ; !weak
-+Sg3:%>аһч  # ; ! weak
-+Pl1:%>     # ;
-+Pl2:%>     # ;
-+Pl3:%>     # ;
-
++Sg1:%>че   K ; !weak
++Sg2:%>чекь K ; !weak
++Sg3:%>аһч  K ; !weak
++Pl1:%>чепь     K ;
++Pl2:%>чебпе     K ;
++Pl3:%>ченҍ     K ;
++Conneg:%>че     K ;
 
 LEXICON V_POT 
 +Sg1:%>   # ;
