@@ -119,19 +119,19 @@ Cx:Cy <=> V: Cx: _ (ь:) %^WG:0 ;
 !      where Cx in ( с ) ;
 
 "Quantitative CG xxy:xy (npal cluster)"
-!! __@RULENAME@__  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, etc. 
+!! __@RULENAME@__  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, сыййт:сыйт, etc. 
  Cx:0 <=> Cx _ Cy %^WG:0 ;
-      where Cx in ( б в л й й м р ш н )  
-            Cy in ( р т к в н ч н м ц )
+      where Cx in ( б в л й й й м р ш н )  
+            Cy in ( р т к в н т ч н м ц )
       matched ;
 
-"Quantitative CG xxy:xy (pal cлuster)"
-!! __@RULENAME@__  e.g. -лльк-:-льк-, -ннҍц-:-нҍц-, etc.
- C:0 <=> Cx _ (PALMARK:) Cy %^WG:0 ;
-      where Cx in ( н )  
-            Cy in ( ц )
-      matched ;
-
+!"Quantitative CG xxy:xy (pal cлuster)"
+!!! __@RULENAME@__  e.g. -лльк-:-льк-, -ннҍц-:-нҍц-, etc.
+! C:0 <=> Cx _ (PALMARK:) Cy %^WG:0 ;
+!      where Cx in ( н )  
+!            Cy in ( ц )
+!      matched ;
+!
 "De-Palatalization (clusters)"
 !! __@RULENAME@__ e.g. лльк : ллк , ннҍц : ннц, etc.
   PALMARK:0 <=> Cx _ Cy %^CLDPAL:0 ;
@@ -153,7 +153,7 @@ Cx:Cy <=> V: Cx: _ (ь:) %^WG:0 ;
             Cy in ( п к т )
       matched ;
 
-!!The following two rules should apply as a cascade, in order to first change a V-letter and later remove the trigger letter
+!!The following two rules should apply in combination, in order to first change a V-letter and later remove the trigger letter
 "Palatalised Suffix Vowel (before deletion)"
 !! __@RULENAME@__  e.g. ӣджь : ӣджя, кӯлль : кӯлле
 Vx:Vy <=> ь: ( Dummy:0 ) %>: _ ;
@@ -166,7 +166,7 @@ Vx:Vy <=> ь: ( Dummy:0 ) %>: _ ;
 Cx:0 <=> C: _ ( Dummy:0 ) %>:0 [ :я | :Я | :е | :Е | :и | :И | :ё | :Ё | :ю | :Ю ] ;
     where Cx in ( ь Ь ) ;
 	 
-!!The following two rules should apply as a cascade, in order to first change a V-letter and later remove the trigger letter
+!!The following two rules should apply in combination, in order to first change a V-letter and later remove the trigger letter
 "Half-Palatalised Suffix Vowel (before deletion)"
 !! __@RULENAME@__  e.g. нюннҍ : нюнӓ
 Vx:Vy <=> ҍ: ( Dummy:0 ) %>: _ ;
@@ -181,11 +181,8 @@ Vx:Vy <=> ҍ: ( Dummy:0 ) %>: _ ;
 "Epenthetic vowel deletion (npal vowels)"
 !! __@RULENAME@__ e.g. ко̄рэб:ко̄рбэсьт, etc. [шоабаш-:шоабш-]
 Vx:0  <=> C _ C+ %^EPHV:0 %>: V ;
-!! ко̄рэб+N+Sg+Loc
-!!€ ко̄р%^EPHVб%>эсьт
-!!€ ко̄р0б%>эсьт
+    where Vx in ( а А ) ; 
 	where Vx in ( э Э ) ;
-!      where Vx in ( а я ) ; 
 
 "ue Diphtongisation"
 !! __@RULENAME@__  
@@ -203,7 +200,7 @@ Vx:0  <=> C _ C+ %^EPHV:0 %>: V ;
 !! __@RULENAME@__  
  0:э <=> ӯ: _ C:* %^DI:0  ;
 
-"u from ua in 4D"
+"uu from ua in 4D" !does not work
 !! __@RULENAME@__  
  а:0 <=> у _ C:* %^MON:0 ;
 
