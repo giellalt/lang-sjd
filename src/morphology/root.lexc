@@ -104,18 +104,16 @@ LEXICON Root
 
 Adjective ;
 Adverb ;
+!Clitic ;
 Conjunction ;
 Interjection ;
 Noun ;
 Numeral ;
 Particle ;
 Postposition ;
+Preposition ;
 Pronoun ;
 Propernoun ;
 Punctuation ;
 Subjunction ;
 Verb ;
-
-
-
-

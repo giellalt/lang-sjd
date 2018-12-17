@@ -17,7 +17,12 @@
 ! ------- !
 
 LEXICON K
- # ;
+# ;
+
+!+Clitic # ; !"clitic" is not a gloss
+!
+!LEXICON Clitic
+!-гэсь:-гэсь K ;
 
 !attaches to question words (adverbs and pronouns), deriving indefinite forms
 !ни- 
