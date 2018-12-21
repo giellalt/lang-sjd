@@ -17,11 +17,11 @@
 ! =============== !
 
 !the verb classes
-LEXICON V1 !non-palatalized monosyllabic stems
-+V		: 		V1_Inf	 ;
-+V		: 		V1_Ind	 ;
+LEXICON V1 !V1: non-palatalized monosyllabic stems
++V		: 		V1_INF	 ;
++V		: 		V1_IND	 ;
 +V		: 		V1_IMPRT ;
-+V		:%^WG 	V_COND	 ;!always depal.
++V		:%^WG 	V_COND	 ;!always C-depal. and V-pal-ablaut?
 
 !conditional inflexion is identical for all classes
 LEXICON V_COND
@@ -32,10 +32,10 @@ LEXICON V_COND
 +Cond+Pl1			:%>чепь		K ;
 +Cond+Pl2			:%>чебпе	K ;
 +Cond+Pl3			:%>ченҍ		K ;
-+Cond+Conneg		:%>че		K ;
++Cond+ConNeg		:%>че		K ;
 
-!class 1 non-finite forms
-LEXICON V1_Inf 
+!class V1 non-finite forms
+LEXICON V1_INF 
 +Inf				:%>э 		K ;
 +Ptcp+Prs			:%>эй 		K ;
 +Ptcp+Prt			:%>ма 		K ;
@@ -43,21 +43,29 @@ LEXICON V1_Inf
 +Ptcp+Prog			:%>мэн		K ;
 +Ptcp+Act			:%>эм		K ;
 
-!class 1 indicative forms
-LEXICON V1_Ind 
+!class V1 imperative forms
+LEXICON V1_IMPRT
++Imprt+Sg			:%^WG%>0	K ;
++Imprt+Pl			:%>э		K ;
+
+!class V1 indicative forms
+LEXICON V1_IND 
 +Ind		:%^WG	PrsSg1 ;
 +Ind		:%^WG	PrsSg2 ;
 +Ind		:		PrsSg3 ;
 +Ind		:		PrsPl1 ;
 +Ind		:		PrsPl2 ;
 +Ind		:		PrsPl3 ;
++Ind		:%^WG	PrsImpers ;
++Ind		:%^WG	PrsConNeg ;
 +Ind		:%^PAL	PrtSg1 ;
 +Ind		:%^PAL	PrtSg2 ;
 +Ind		:%^WG	PrtSg3 ;
 +Ind		:%^WG	PrtPl1 ;
 +Ind		:%^WG	PrtPl2 ;
 +Ind		:%^PAL	PrtPl3 ;
-+Ind		:		ConNeg ;
++Ind		:		PrtImpers ;
++Ind		:		PrtConNeg ;
 
 !the actual suffixes
 LEXICON PrsSg1
@@ -80,6 +88,12 @@ LEXICON PrsPl2
 LEXICON PrsPl3
 +Prs+Pl3			:%>эв 		K ;
 
+LEXICON PrsImpers
++Prs+Impers			:%>этҍ		K ;
+
+LEXICON PrsConNeg
++Prs+ConNeg			:%>0		K ;
+
 LEXICON PrtSg1
 +Prt+Sg1			:%>э		K ;
 +Prt+Sg1+Use/Dial	:%>эмь 		K ;
@@ -100,16 +114,14 @@ LEXICON PrtPl2
 LEXICON PrtPl3
 +Prt+Pl3			:%>энҍ 		K ;
 
-LEXICON ConNeg
-+Prs+ConNeg			:%^WG%>0	K ;
+LEXICON PrtImpers
++Prt+Impers			:%>эшь		K ;
+
+LEXICON PrtConNeg
 +Prt+ConNeg			:%>ма		K ;
 +Prt+ConNeg+Use/Dial:%>а	 	K ;
 +Prt+ConNeg+Use/Dial:%>мэнч 	K ;
 +Prt+ConNeg+Use/Dial:%>энч	 	K ;
-
-LEXICON V1_IMPRT
-+Imprt+Sg			:%^WG%>0	K ;
-+Imprt+Pl			:%>э		K ;
 
 
 !provisional classes
