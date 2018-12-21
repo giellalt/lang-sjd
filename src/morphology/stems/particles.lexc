@@ -15,10 +15,15 @@
 LEXICON PCLE
 +Pcle: # ;
 
+LEXICON Neg
++Pcle+Neg: #;
+
 LEXICON Particle
-на    PCLE ;
-ныдтҍ PCLE ;
-тэль  PCLE ;!!bound variant -дель
+на		PCLE ;
+не		PCLE ;
+ни		Neg ;
+ныдтҍ	PCLE ;
+тэль	PCLE ;!!bound variant -дель
 
 !loan discourse particles found in spoken texts
 !phonologoically/orthographically adapted
