@@ -16,26 +16,39 @@ LEXICON OAHPA_ADV
 adv ;
 
 LEXICON adv
-+Adv: # ;
+! lexical adverbs
++Adv: K ;
+
+LEXICON adv-dial
++Adv+Use/Dial: K ;
+
+LEXICON adv-Q
+! pro-adverbs (question words)
++Adv+Indef: K ;
 
 LEXICON Adverb
-! lexical adverbs
 адтҍ adv ;
 беда adv ;
 вя̄л adv ;
 лышэ adv ;
 маӈӈа adv "потом" ;
+маххт adv "как" ;
+маххт:ни-маххт adv-Q ;
 моаст adv ;
 ныдтҍ adv "так" ;
 пэря adv "больше" ; !адйецтиве
 та̄рьм adv "сегодня" ;
 тамьпэ adv "там" ;
+те̄лльнэ adv "так" ; !looks like almost like тэль-не
+тӣгэ adv ;
 толькэ adv "только" ;
 тоагэ adv "туда" ;
 четк adv "насмерть / to death" ;
 чофта adv "очень / much" ;
 эффьтэ adv "всё ещё" ; !derived from numeral э̄ххт??
 ё adv ;
+тэста:тэсса adv-dial ;!pronoun?
+тэста adv ;!pronoun?
 
 
 ! ?derived adverbs from adjectives; suffix /-as/ <-ас>; weak grade, depalatalization (incl. velar umlaut)
@@ -99,7 +112,6 @@ LEXICON Adverb
 кыдта OAHPA_ADV ;
 кӯгкас OAHPA_ADV ;
 ло̄ссэ OAHPA_ADV ;
-ма̄ххт OAHPA_ADV ;
 масьт OAHPA_ADV ;
 маӈӈедҍ OAHPA_ADV ;
 мо̄джьтэнне OAHPA_ADV ;
@@ -141,10 +153,8 @@ LEXICON Adverb
 туаррэм OAHPA_ADV ;
 тула OAHPA_ADV ;
 туммпла OAHPA_ADV ;
-тэсса OAHPA_ADV ;
 тёллэ OAHPA_ADV ;
 тёллэдтӭ OAHPA_ADV ;
-тӣгэ OAHPA_ADV ;
 тӣррвэнҍ OAHPA_ADV ;
 тӯррэ OAHPA_ADV ;
 углэсьт OAHPA_ADV ;
