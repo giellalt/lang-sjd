@@ -23,85 +23,80 @@ LEXICON PROP_1DA
 
 LEXICON Propernoun
 !person, given names
-Во̄леньк PROP_1DA "Лена, Елена" ;
-Мышшьк PROP_1DA ;!variant Мышшк
-Мэ̄һкал PROP_1DA ; !2A tourist class
-О̄леньк PROP_1DA ;!variant Оленьк
-Тронд PROP_1DA ; !1А economy class
-Чипрян PROP_1DA ; !1A first class
-
-!toponym
-Коа̄рдэгк PROP_1DA ;
-Коа̄рдэгкёгк PROP_1DA ;
-Коа̄рдэгксыййт PROP_1DA ;
-Ло̄ннь PROP_1DA ;
-Луя̄ввьр OAHPA_PROP ;!place name
-
-
-! ELAN dump here
-Егор ELAN_PROP ;
-Па̄ла ELAN_PROP ;
-Семёрка ELAN_PROP ;
-
-! Oahpa dump here
-Антон OAHPA_PROP ;
-А̄ннҍ OAHPA_PROP ;
-Ва̄дҍк OAHPA_PROP ;
-Ва̄сськ OAHPA_PROP ;
-Вуаннса OAHPA_PROP ;
-Вуаӈт OAHPA_PROP ;
-Вуаӈтэнч OAHPA_PROP ;
-Вуэннҍтре OAHPA_PROP ;
-Вуэннҍтряя OAHPA_PROP ;
 Ёа̄ввк OAHPA_PROP ;
 Ёак OAHPA_PROP ;
 Ёгор OAHPA_PROP ;
 Ёгра OAHPA_PROP ;
+А̄ннҍ OAHPA_PROP ;
+Антон OAHPA_PROP ;
+Ва̄дҍк OAHPA_PROP ;
+Ва̄сськ OAHPA_PROP ;
+Во̄ленҍк PROP_1DA "Лена, Елена" ;
+Вуанас PROP_1DA ;
+Вуаннса OAHPA_PROP ;!Diminutiv
+Вуаӈт OAHPA_PROP ;
+Вуаӈтэнч OAHPA_PROP ;
+Вуэннҍтре OAHPA_PROP ;
+Вуэннҍтряя OAHPA_PROP ;!Illative?
+Егор ELAN_PROP ;
 Ларя OAHPA_PROP ;
 Лёлль OAHPA_PROP ;
 Ма̄рьенч OAHPA_PROP ;
 Ма̄тӓ OAHPA_PROP ;
-Моадрна OAHPA_PROP ;!variant Моа̄дран
+Маша OAHPA_PROP ;
 Моа̄дрна OAHPA_PROP ;
 Моа̄рьна OAHPA_PROP ;
 Моа̄ҏҏк OAHPA_PROP ;
+Моадрна OAHPA_PROP ;!variant Моа̄дран
 Мыккла OAHPA_PROP ;
-Мыкклэнч OAHPA_PROP ;
-Мышкэнч OAHPA_PROP ;
+Мыкклэнч OAHPA_PROP ;!diminutive
+Мышкэнч OAHPA_PROP ;!diminutive
+Мышшьк PROP_1DA ;!variant Мышшк
+Мэ̄һкал PROP_1DA ; !2A tourist class
 На̄дтла OAHPA_PROP ;
-Нӣна OAHPA_PROP ;
+Нина OAHPA_PROP ;
 Ноасстъенч OAHPA_PROP ;
+О̄ленҍк PROP_1DA ;!variant Оленьк
 О̄ця OAHPA_PROP ;
+Пала ELAN_PROP ;
 Параска OAHPA_PROP ;
 Парэск OAHPA_PROP ;
 Пася OAHPA_PROP ;
 Пе̄др OAHPA_PROP ;
 Пе̄дра OAHPA_PROP ;
 По̄ввла OAHPA_PROP ;
-Полъяввьр OAHPA_PROP ;
 Пӯна OAHPA_PROP ;
 Рыг OAHPA_PROP ;
 Рыгкъенч OAHPA_PROP ;
 Са̄ндра OAHPA_PROP ;
 Са̄ххкрэ OAHPA_PROP ;
+Сымман OAHPA_PROP ;
 Сӣрьке OAHPA_PROP ;
 Сӣрькья OAHPA_PROP ;
-Сымман OAHPA_PROP ;
-Таввь OAHPA_PROP ;
 Та̄дҍна OAHPA_PROP ;
 Та̄дҍян OAHPA_PROP ;
-Таиск OAHPA_PROP ;
 Та̄ррьй OAHPA_PROP ;
 Та̄рьенч OAHPA_PROP ;
-Терибирь OAHPA_PROP ;
+Таввь OAHPA_PROP ;
+Таиск OAHPA_PROP ;
 Тоа̄нал OAHPA_PROP ;
 Тоа̄нла OAHPA_PROP ;
+Тронд PROP_1DA ; !1А economy class
 Тымэшк OAHPA_PROP ;
 Улльна OAHPA_PROP ;
 Улльян OAHPA_PROP ;
+Чипрян PROP_1DA ; !1A first class
+Шашка OAHPA_PROP ;
 Эвван OAHPA_PROP ;
 Эввнэнч OAHPA_PROP ;
 Я̄к OAHPA_PROP ;
-Ша̄шка OAHPA_PROP ;
-Москва OAHPA_PROP ;!place name
 
+!toponym
+Коа̄рдэгк PROP_1DA ;
+Коа̄рдэгксыййт PROP_1DA ;!compound
+Коа̄рдэгкёгк PROP_1DA ;!compound
+Ло̄ннь PROP_1DA ;
+Луя̄ввьр OAHPA_PROP ;!place name
+Полъяввьр OAHPA_PROP ;
+Москва OAHPA_PROP ;!place name
+Терибирь OAHPA_PROP ;
