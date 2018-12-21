@@ -55,6 +55,14 @@ LEXICON Particle
 раз         PCLE "раз" ;
 тоже        PCLE "тоже" ;
 
+!loan adverbs found in spoken texts; particle-adverb-distinction needs to be solved later in these and various other cases
+щас			PCLE "сейчас / now" ;
+уже			PCLE "уже / already" ;
+потом		PCLE "потом / then" ; 
+неправилнэ	PCLE "неправильно / wrong" ;
+сёвремя		PCLE "всё время / constantly" ;
+сразу		PCLE "сразу / instantly" ;
+
 !complex !!preprocessor need here
 !ну вот ;
 !да простэ "да просто" ;
