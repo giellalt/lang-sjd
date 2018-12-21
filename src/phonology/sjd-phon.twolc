@@ -45,7 +45,9 @@ Alphabet
   %^EPHV:0 
   %^DI:0
   %^CLDPAL:0	!!= * @CODE@ for depalatalizing consonant stems
+  %^DPAL:0		!!= * @CODE@ for depalatalizing consonant stems
   %^MON:0
+  %^PAL:0		!!= * @CODE@ for palatalizing consonsant stems
 
 ! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
  »7     ! »
@@ -76,7 +78,7 @@ Sets
  HPLVOW = ӓ Ӓ ӭ Ӭ ; !so-called "half-palatalized V"
  NPLVOW = а А а̄ А̄ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э э̄ Э̄ ; !so-called "non-palatalized V"
  
- Dummy  = %^WG %^DI %> ;
+ Dummy  = %^WG %^DI %^DPAL %^MON %> %^PAL ;
 
 
 !Definitions
@@ -121,9 +123,16 @@ Cx:Cy <=> V: Cx: _ (ь:) %^WG:0 ;
 "Quantitative CG xxy:xy (npal cluster)"
 !! __@RULENAME@__  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, сыййт:сыйт, etc. 
  Cx:0 <=> Cx _ Cy %^WG:0 ;
-      where Cx in ( б в л й й й м р ш н )  
-            Cy in ( р т к в н т ч н м ц )
+      where Cx in ( б в л й й й м р ш ш н )  
+            Cy in ( р т к в н т ч н м т ц )
       matched ;
+
+"Palatalization (clusters)"
+!! __@RULENAME@__ e.g. шт:шьт, etc.
+0:ь <=> Cx _ Cy %^PAL:0 ;
+	where	Cx in ( ш )
+			Cy in ( т )
+			matched ;
 
 !"Quantitative CG xxy:xy (pal cлuster)"
 !!! __@RULENAME@__  e.g. -лльк-:-льк-, -ннҍц-:-нҍц-, etc.
@@ -203,5 +212,3 @@ Vx:0  <=> C _ C+ %^EPHV:0 %>: V ;
 "uu from ua in 4D" !does not work
 !! __@RULENAME@__  
  а:0 <=> у _ C:* %^MON:0 ;
-
-
