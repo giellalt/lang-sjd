@@ -63,9 +63,11 @@ LEXICON NegCop
 
 LEXICON ImpMod
 +V+Imp+Neg+Prs+Sg3:элля K ;
-+V+Imp+Neg+Prs+Pl3:евла K ;
++V+Imp+Neg+Prs+Sg3+Use/Dial:элляк K ;
++V+Imp+Neg+Prs+Pl3:еввла K ;
++V+Imp+Neg+Prs+Pl3+Use/Dial:еввлак K ;
 +V+Imp+Neg+Prt+Sg3:эллий K ;
-+V+Imp+Neg+Prt+Pl3:евлий K ;
++V+Imp+Neg+Prt+Pl3:еввлий K ;
 
 
 ! the simplest verb class (without any paradigmatic stem alternations)
@@ -195,22 +197,24 @@ LEXICON ImpMod
 
 
 LEXICON Verbstems   !!= * __@CODE@__
+мушштэ:мушшт V1 ;
 аллькэ:алльк VAANNJCE ;
 аннҍтэ:аннҍт VAANNJCE ;
 ва̄ннҍцэ:ва̄ннҍц VAANNJCE ;
+вуэйе:вуэйй PYJJE "мочь" ;
 не̄сськэ:не̄сськ VAANNJCE "скоблить/ to scrape" ;
 па̄шшьтэ:па̄шшьт VAANNJCE "жарить/ to fry" ;
 са̄ррнэ:са̄ррн TIIVVTE "говорить/ to speak" ;
 се̄ввьтэ:се̄ввьт VAANNJCE "обидеть" ; 
 тӣввтэ:тӣввт TIIVVTE ;
 уййнэ:уййн TIIVVTE ;
-пыйе:пыйй ELAN_V ; !PYJJE
+пыйе:пыйй PYJJE ;
 ко̄ппче:ко̄ппч ELAN_V ; !LOOGGE (со̄нн лоагк)
 чӯзхэ:чӯзх -X- "ушибить" ;!derived stem
 ве̄кьхэ:ве̄кьх -X- "помоч" ;
 
-пуэдтӭ:пуэдт PUEDTE "come" ;
-тӣдтӭ:тӣдт PUEDTE "знать" ;
+пуэдтӭ:пуэдтҍ PUEDTJE "come" ;
+тӣдтӭ:тӣдтҍ PUEDTJE "знать" ;
 
 луввтъе:луввт LUVTTE ; ! = sme contr, no CG
 
@@ -272,7 +276,6 @@ LEXICON Verbstems   !!= * __@CODE@__
 !! Just dumping Oahpa verbs in the rest of the file
 ыбе:ыб OAHPA_V ;
 выйе:вый OAHPA_V ;
-вӯйе:вӯй OAHPA_V ;
 угкэ:угк OAHPA_V ;
 югкэ:югк OAHPA_V ;
 уммэ:умм OAHPA_V ;

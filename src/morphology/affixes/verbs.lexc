@@ -1,5 +1,5 @@
 ! Divvun & Giellatekno - open source grammars for Sámi and other languages
-! Copyright © 2000-2016 The University of Tromsø & the Norwegian Sámi Parliament
+! Copyright © 2000-2018 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
 ! This program is free software; you can redistribute and/or modify
@@ -16,14 +16,128 @@
 ! Verb inflection !
 ! =============== !
 
-!LEXICON 1_EPH
-!:%^EPHV    1 ;
+!the verb classes
+LEXICON V1 !non-palatalized monosyllabic stems
++V		: 		V1_Inf	 ;
++V		: 		V1_Ind	 ;
++V		: 		V1_IMPRT ;
++V		:%^WG 	V_COND	 ;!always depal.
 
-LEXICON ELAN_V
-1 ; ! just dumping the ELAN verbs here
+!conditional inflexion is identical for all classes
+LEXICON V_COND
++Cond+Sg1			:%>че		K ;
++Cond+Sg2			:%>чекь		K ;
++Cond+Sg2+Use/Dial	:%>чехь		K ;
++Cond+Sg3			:%>аһч		K ;
++Cond+Pl1			:%>чепь		K ;
++Cond+Pl2			:%>чебпе	K ;
++Cond+Pl3			:%>ченҍ		K ;
++Cond+Conneg		:%>че		K ;
 
-LEXICON OAHPA_V
-1 ; ! just dumping the oahpa verbs here
+!class 1 non-finite forms
+LEXICON V1_Inf 
++Inf				:%>э 		K ;
++Ptcp+Prs			:%>эй 		K ;
++Ptcp+Prt			:%>ма 		K ;
++Ptcp+Prt+Use/Dial	:%>мэнч 	K ;
++Ptcp+Prog			:%>мэн		K ;
++Ptcp+Act			:%>эм		K ;
+
+!class 1 indicative forms
+LEXICON V1_Ind 
++Ind		:%^WG	PrsSg1 ;
++Ind		:%^WG	PrsSg2 ;
++Ind		:		PrsSg3 ;
++Ind		:		PrsPl1 ;
++Ind		:		PrsPl2 ;
++Ind		:		PrsPl3 ;
++Ind		:%^PAL	PrtSg1 ;
++Ind		:%^PAL	PrtSg2 ;
++Ind		:%^WG	PrtSg3 ;
++Ind		:%^WG	PrtPl1 ;
++Ind		:%^WG	PrtPl2 ;
++Ind		:%^PAL	PrtPl3 ;
++Ind		:		ConNeg ;
+
+!the actual suffixes
+LEXICON PrsSg1
++Prs+Sg1			:%>а		K ;!always depal.
++Prs+Sg1+Use/Dial	:%>ам		K ;!always depal.
+
+LEXICON PrsSg2
++Prs+Sg2			:%>ак		K ;!always depal.
++Prs+Sg2+Use/Dial	:%>ах		K ;!always depal.
+
+LEXICON PrsSg3
++Prs+Sg3			:%>0		K ;!always depal.
+
+LEXICON PrsPl1
++Prs+Pl1			:%>эпь		K ;
+
+LEXICON PrsPl2
++Prs+Pl2			:%>бэдтӭ	K ;
+
+LEXICON PrsPl3
++Prs+Pl3			:%>эв 		K ;
+
+LEXICON PrtSg1
++Prt+Sg1			:%>э		K ;
++Prt+Sg1+Use/Dial	:%>эмь 		K ;
+
+LEXICON PrtSg2
++Prt+Sg1			:%>экь		K ;
++Prt+Sg1+Use/Dial	:%>эхь 		K ;
+
+LEXICON PrtSg3
++Prt+Sg3			:%>э		K ;
+
+LEXICON PrtPl1
++Prt+Pl1			:%>эмь		K ;
+
+LEXICON PrtPl2
++Prt+Pl2			:%>этҍ 		K ;
+
+LEXICON PrtPl3
++Prt+Pl3			:%>энҍ 		K ;
+
+LEXICON ConNeg
++Prs+ConNeg			:%^WG%>0	K ;
++Prt+ConNeg			:%>ма		K ;
++Prt+ConNeg+Use/Dial:%>а	 	K ;
++Prt+ConNeg+Use/Dial:%>мэнч 	K ;
++Prt+ConNeg+Use/Dial:%>энч	 	K ;
+
+LEXICON V1_IMPRT
++Imprt+Sg			:%^WG%>0	K ;
++Imprt+Pl			:%>э		K ;
+
+
+!provisional classes
+LEXICON PYJJE !provisional class; !twolc: -э --> -е й _ + йе --> е
++V+Inf:%>е  K ; 
++V+Ind+Prs+Sg1:%^WG%>я K ;
++V+Ind+Prs+Sg2:%^WG%>як K ;
++V+Ind+Prs+Sg2+Use/Dial:%^WG%>ях K ;
++V+Ind+Prs+Sg3:%>0 K ;
++V+Ind+Prs+Pl1:%>епь K ;
++V+Ind+Prs+Pl2:%>бэдтӭ K ;
++V+Ind+Prs+Pl3:%>ев K ;
++V+Ind+Prs+Conneg:%^WG%>0 K ;
++V+Ind+Prt+Sg1:%>е K ;
++V+Ind+Prt+Sg1+Use/Dial:%>емь K ;
++V+Ind+Prt+Sg2:%>екь K ; !pal
++V+Ind+Prt+Sg2+Use/Dial:%>ехь K ;
++V+Ind+Prt+Sg2+Use/Dial:%>эхь K ;
++V+Ind+Prt+Sg3:%^WG%>е K ;
++V+Ind+Prt+Pl1:%^WG%>емь K ;
++V+Ind+Prt+Pl2:%^WG%>етҍ K ;
++V+Ind+Prt+Pl3:%>енҍ K ; !pal
++V+Ind+Prt+Conneg:%>ма K ;
++V+Ind+Prt+Conneg+Use/Dial:%>я K ;
++V+Ind+Prt+Conneg+Use/Dial:%>мэнч K ;
++V+Imprt+Sg:%^WG%>0 K ;
++V+Imprt+Pl:%>е  K ;
++V+Cond: V_COND ;
 
 LEXICON TIIVVTE !class 2: monosyll. nonpal. stem
 +V+Inf:%>э  K ; 
@@ -58,6 +172,7 @@ LEXICON VAANNJCE !class 1: monosyll. pal. stem
 +V+Ind+Prs+Sg3:%^CLDPAL%>0 K ;
 !+V+Ind+Prs+Sg1:%^WG%^CLDPAL%>а K ;
 !+V+Ind+Prs+Sg2:%^WG%^CLDPAL%>ак K ;
++V+Ind+Prs+Pl1:%>эпь K ;
 +V+Ind+Prs+Conneg:%^WG%>0 K ;
 !+V+Imprt+Sg:%^WG%>0 K ;
 !+V+Imprt+Pl:%>э  K ;
@@ -99,9 +214,16 @@ LEXICON 6
 LEXICON 7
 1 ;
 
-LEXICON PUEDTE
-+V+INF:%>ӭ # ;
-+V+Pl1:%>ӭпь # ;
+LEXICON ELAN_V
+1 ; ! just dumping the ELAN verbs here
+
+LEXICON OAHPA_V
+1 ; ! just dumping the oahpa verbs here
+
+LEXICON PUEDTJE
++V+INF:%>э # ;
++V+Pl1:%>эпь # ;
++V+Conneg+Prs:%^WG%>0 K ;
 
 LEXICON LUVTTE
 +V+Inf:%>ъе # ;
@@ -138,17 +260,6 @@ LEXICON PRTSUF_EVEN
 +Pl2:%^WG%>этҍ       # ; ! weak grade	шоабш>этҍ
 +Pl3:%>енҍ       # ; ! palatalized	шоабш>энҍ
 
-
-
-
-LEXICON V_COND
-+Sg1:%>че   K ; !weak
-+Sg2:%>чекь K ; !weak
-+Sg3:%>аһч  K ; !weak
-+Pl1:%>чепь     K ;
-+Pl2:%>чебпе     K ;
-+Pl3:%>ченҍ     K ;
-+Conneg:%>че     K ;
 
 LEXICON V_POT 
 +Sg1:%>   # ;
