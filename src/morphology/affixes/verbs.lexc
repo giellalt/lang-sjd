@@ -139,33 +139,6 @@ LEXICON PYJJE !provisional class; !twolc: -э --> -е й _ + йе --> е
 +V+Imprt+Pl:%>е  K ;
 +V+Cond: V_COND ;
 
-LEXICON TIIVVTE !class 2: monosyll. nonpal. stem
-+V+Inf:%>э  K ; 
-+V+Ind+Prs+Sg1:%^WG%>а K ;
-+V+Ind+Prs+Sg1+Use/Dial:%^WG%>ам K ;
-+V+Ind+Prs+Sg2:%^WG%>ак K ;
-+V+Ind+Prs+Sg2+Use/Dial:%^WG%>ах K ;
-+V+Ind+Prs+Sg3:%>0 K ;
-+V+Ind+Prs+Pl1:%>эпь K ;
-+V+Ind+Prs+Pl2:%>бэдтӭ K ;
-+V+Ind+Prs+Pl3:%>эв K ;
-+V+Ind+Prs+Conneg:%^WG%>0 K ;
-+V+Ind+Prt+Sg1:%>э K ; !pal
-+V+Ind+Prt+Sg1+Use/Dial:%>эмь K ; !pal
-+V+Ind+Prt+Sg2:%>экь K ; !pal
-+V+Ind+Prt+Sg2+Use/Dial:%>эхь K ; !pal
-+V+Ind+Prt+Sg3:%^WG%>э K ;
-+V+Ind+Prt+Pl1:%^WG%>эмь K ;
-+V+Ind+Prt+Pl2:%^WG%>этҍ K ;
-+V+Ind+Prt+Pl3:%>энҍ K ; !pal
-+V+Ind+Prt+Conneg:%>ма K ;
-+V+Ind+Prt+Conneg+Use/Dial:%>а K ;
-+V+Ind+Prt+Conneg+Use/Dial:%>мэнч K ;
-+V+Imprt+Sg:%^WG%>0 K ;
-+V+Imprt+Pl:%>э  K ;
-+V+Cond: V_COND ;
-
-
 LEXICON VAANNJCE !class 1: monosyll. pal. stem
 +V+Inf:%>э  K ; 
 +V+Ind+Prs+Sg1:%^CLDPAL%^WG%>а K ;
