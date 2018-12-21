@@ -81,12 +81,37 @@ Sets
  Dummy  = %^WG %^DI %^DPAL %^MON %> %^PAL ;
 
 
-!Definitions
-!,
-
-
 !! !!!Rule section
 Rules
+
+"Palatalization (clusters)"
+!! __@RULENAME@__ e.g. шт:шьт, etc.
+0:ь <=> Cx _ Cy %^PAL:0 ;
+	where	Cx in ( в р ш )
+			Cy in ( т н т )
+			matched ;
+!this is a very explicit rule, where each valid consonant cluster is listed separately
+!valid clusters which do not undergo (orthographic) palatalization (e.g. -йн-) are not listed, hence this rule is partly orthographic rather than morphonological
+!the rule could be made truly morphonological by adding all valid consonant clusters and removing the palatalization mark by means of an additional rule
+
+"Quantitative CG xxy:xy (npal cluster)"
+!! __@RULENAME@__  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, сыййт:сыйт, etc. 
+ Cx:0 <=> Cx _ Cy %^WG:0 ;
+      where Cx in ( б в л й й й м п р ш ш н )  
+            Cy in ( р т к в н т ч ч н м т ц )
+      matched ;
+!this is a very explicit rule, where each valid consonant cluster is listed separately
+!morphonologically, this rule should work for palatalized and non-palatalized clusters alike, see below
+!"Quantitative CG xxy:xy (pal cлuster)"
+!!! __@RULENAME@__  e.g. -лльк-:-льк-, -ннҍц-:-нҍц-, etc.
+! C:0 <=> Cx _ (PALMARK:) Cy %^WG:0 ;
+!      where Cx in ( н )  
+!            Cy in ( ц )
+!      matched ;
+
+
+
+!above rules work for sure, the following rules need to be checked
 
 "Qualitative CG xx:y (sibilant)"
 !! __@RULENAME@__ i.e. сс : з, шш : ж
@@ -120,27 +145,6 @@ Cx:Cy <=> V: Cx: _ (ь:) %^WG:0 ;
 !Cx:0 <=> V: _ Cx: (ь:) %^WG:0 ;
 !      where Cx in ( с ) ;
 
-"Quantitative CG xxy:xy (npal cluster)"
-!! __@RULENAME@__  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, сыййт:сыйт, etc. 
- Cx:0 <=> Cx _ Cy %^WG:0 ;
-      where Cx in ( б в л й й й м р ш ш н )  
-            Cy in ( р т к в н т ч н м т ц )
-      matched ;
-
-"Palatalization (clusters)"
-!! __@RULENAME@__ e.g. шт:шьт, etc.
-0:ь <=> Cx _ Cy %^PAL:0 ;
-	where	Cx in ( ш )
-			Cy in ( т )
-			matched ;
-
-!"Quantitative CG xxy:xy (pal cлuster)"
-!!! __@RULENAME@__  e.g. -лльк-:-льк-, -ннҍц-:-нҍц-, etc.
-! C:0 <=> Cx _ (PALMARK:) Cy %^WG:0 ;
-!      where Cx in ( н )  
-!            Cy in ( ц )
-!      matched ;
-!
 "De-Palatalization (clusters)"
 !! __@RULENAME@__ e.g. лльк : ллк , ннҍц : ннц, etc.
   PALMARK:0 <=> Cx _ Cy %^CLDPAL:0 ;
