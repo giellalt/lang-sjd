@@ -50,16 +50,18 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +RIGHT
 
 ! Other Tags
-+Use/Elid   !!= * @CODE@ = Elided (Иванович~Иваныч, новее~новей, чтобы~чтоб, или~иль, коли~коль)
++Use/Elid   !!= * @CODE@ = Elided substandard (Иванович~Иваныч, новее~новей, чтобы~чтоб, или~иль, коли~коль)
 +Use/Orth	!!= * @CODE@ = Orthographic substandard
 
 !+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
   %^WG	!weak grade
   %>	! Inflectional suffix (incl. palatal mark deletion)
+  %<	! Inflectional prefix
   %^CLDPAL !cluster depalatalization
-
-  %^DI	!?palatalization
-  %^MON
+  %^DPAL !other depalatalization
+  %^PAL !other depalatalization
+  %^DI	!diphthongization
+  %^MON	!monophthongization
   %^1VOW %^2VOW %^3VOW %^4VOW %^5VOW
   %^VOWSH
   %^EPHV
@@ -72,7 +74,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 !! !!Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
-!! flag diacritics to restrict morhpological combinatorics - only allow compounds
+!! flag diacritics to restrict morphological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
  @P.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
  @D.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
@@ -105,6 +107,7 @@ LEXICON Root
 Adjective ;
 Adverb ;
 !Clitic ;
+!Compound ;
 Conjunction ;
 Interjection ;
 Noun ;
