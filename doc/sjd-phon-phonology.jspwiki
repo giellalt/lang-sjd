@@ -4,9 +4,16 @@
 
 
 
-
-
-
+Trigger symbols
+ *   %^1VOW:0		 Vow trigger for epenthetic -э-
+ *   %^2VOW:0		 Vow trigger 
+ *   %^3VOW:0		 Vow trigger 
+ *   %^4VOW:0		 Vow trigger 
+ *   %^5VOW:0		 Vow trigger 
+ *   %^WG:0		 for weak consonant stem gradation 
+ *   %^CLDPAL:0	 for depalatalizing consonant stems
+ *   %^DPAL:0		 for depalatalizing consonant stems
+ *   %^PAL:0		 for palatalizing consonsant stems
 
 
 
@@ -16,27 +23,36 @@
 
 !!!Rule section
 
-__Qualitative CG1a__ this rule doesn't work yet
+__Palatalization (clusters)__ e.g. шт:шьт, etc.
 
-__Qualitative CG1b xx:y__  сс : з
+__Quantitative CG xxy:xy (npal cluster)__  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, сыййт:сыйт, etc. 
 
-__Preaspiration__  һк : гк
 
-__Palatalization: Clusters ллк : лльк, etc.__  
+
+
+__Qualitative CG xx:y (sibilant)__ i.e. сс : з, шш : ж
+
+__Qualitative CG xx:y (voiced affricate)      __ i.e. джь : жь, дзь : зь, дз : з
+
+__Qualitative CG xx:yy (long preaspiration)__ e.g. һк : гк
+
+
+
+__De-Palatalization (clusters)__ e.g. лльк : ллк , ннҍц : ннц, etc.
 
 __Quantitative CG__  
 
 __Quantitative CG 2-Cns Cluster__  e.g. ?ма̄дт : ма̄д, ?ма̄дтҍ : ма̄дҍ
 
-__Quantitative CG non-pal 3-Cns Cluster__  e.g. са̄ррн : са̄рн, ко̄ллм : ко̄лм 
+__Palatalised Suffix Vowel (before deletion)__  e.g. ӣджь : ӣджя, кӯлль : кӯлле
 
-__Epenthetic vowel deletion__  
+__Palatal Mark Deletion__  e.g. ӣджь : ӣджя, кӯлль : кӯлле
 
-__Palatalised Suffix Vowel__  
+__Half-Palatalised Suffix Vowel (before deletion)__  e.g. нюннҍ : нюнӓ
 
 __Half-Palatal Mark Deletion__  
 
-__Palatal Mark Deletion__  
+__Epenthetic vowel deletion (npal vowels)__ e.g. ко̄рэб:ко̄рбэсьт, etc. [шоабаш-:шоабш-]
 
 __ue Diphtongisation__  
 
@@ -46,6 +62,4 @@ __ue from long u 1__
 
 __ue from long u 2__  
 
-__u from ua in 4D__  
-
-
+__uu from ua in 4D __  
