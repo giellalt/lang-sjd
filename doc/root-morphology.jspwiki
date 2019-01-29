@@ -8,15 +8,14 @@
 
 
 
- * +Use/Elid    = Elided (Иванович~Иваныч, новее~новей, чтобы~чтоб, или~иль, коли~коль)
+ * +Use/Elid    = Elided substandard (Иванович~Иваныч, новее~новей, чтобы~чтоб, или~иль, коли~коль)
  * +Use/Orth	 = Orthographic substandard
-
 
 
 
 !!Flag diacritics
 We have manually optimised the structure of our lexicon using following
-flag diacritics to restrict morhpological combinatorics - only allow compounds
+flag diacritics to restrict morphological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
  | @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
  | @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
@@ -41,10 +40,6 @@ these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
  | @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
  | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
-
-
-
-
 
 
 

@@ -1,6 +1,11 @@
 
 !!!Kildin Saami noun inflection
 
+
+
+
+
+
 "class1" = monosyllabic/non-palatalized inflection foot, str-wk, no ablaut/umlaut, palatalization in Ill.Sg
  LEXICON 1DA  is orthographic subclass with xx--> x
 
@@ -22,7 +27,6 @@ It is unclear whether this is the correct classification
 
  LEXICON 4D   is contract
 
-
  LEXICON 4DА  
 
 
@@ -37,14 +41,16 @@ It is unclear whether this is the correct classification
 
  LEXICON SgNomSuf 
 
+
  LEXICON SgGenAccSuf 
 
  LEXICON EssSuf 
 Превр. !check here and elsewhere whether the palatal-mark-deletion-rule is really needed here (it's already included above)
 
- LEXICON ParSuf  
+ LEXICON ParSufE  
 
  LEXICON ParSufHalfE  
+
 
  LEXICON SgLocSuf  
 
@@ -57,6 +63,7 @@ It is unclear whether this is the correct classification
  LEXICON SgIllSufHalfE 
 
  LEXICON SgAbeSuf 
+
 
  LEXICON SgComSuf 
 

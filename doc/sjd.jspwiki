@@ -19,15 +19,14 @@ This is free and open source Kildin Sami morphology.
 
 
 
- * +Use/Elid    = Elided (Иванович~Иваныч, новее~новей, чтобы~чтоб, или~иль, коли~коль)
+ * +Use/Elid    = Elided substandard (Иванович~Иваныч, новее~новей, чтобы~чтоб, или~иль, коли~коль)
  * +Use/Orth	 = Orthographic substandard
-
 
 
 
 !!Flag diacritics
 We have manually optimised the structure of our lexicon using following
-flag diacritics to restrict morhpological combinatorics - only allow compounds
+flag diacritics to restrict morphological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
  | @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
  | @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
@@ -56,11 +55,12 @@ given the proper use of these flags.
 
 
 
-
-
-
-
 !!!Kildin Saami noun inflection
+
+
+
+
+
 
 "class1" = monosyllabic/non-palatalized inflection foot, str-wk, no ablaut/umlaut, palatalization in Ill.Sg
  LEXICON 1DA  is orthographic subclass with xx--> x
@@ -83,7 +83,6 @@ It is unclear whether this is the correct classification
 
  LEXICON 4D   is contract
 
-
  LEXICON 4DА  
 
 
@@ -98,14 +97,16 @@ It is unclear whether this is the correct classification
 
  LEXICON SgNomSuf 
 
+
  LEXICON SgGenAccSuf 
 
  LEXICON EssSuf 
 Превр. !check here and elsewhere whether the palatal-mark-deletion-rule is really needed here (it's already included above)
 
- LEXICON ParSuf  
+ LEXICON ParSufE  
 
  LEXICON ParSufHalfE  
+
 
  LEXICON SgLocSuf  
 
@@ -118,6 +119,7 @@ It is unclear whether this is the correct classification
  LEXICON SgIllSufHalfE 
 
  LEXICON SgAbeSuf 
+
 
  LEXICON SgComSuf 
 
@@ -149,8 +151,6 @@ It is unclear whether this is the correct classification
 
 
 Just dumping the oahpa adjectives here
-
-
 
 
 
@@ -186,14 +186,19 @@ or put in singular.
 Then they should be given correct declension class
 
 
-
 !!!Kildin Saami verbs
+
 
  * __LEXICON Verb   __
 
 
+ * __LEXICON NegAux   __
 
- * __LEXICON Neg   __
+
+
+
+
+
 
 
 
@@ -242,6 +247,8 @@ Then they should be given correct declension class
 
 
 
+
+
 !!ELAN dump
 These words are added during testing work with the ELAN-FST script
 They should be given correct declension classes later
@@ -249,18 +256,21 @@ They should be given correct declension classes later
 
 Just dumping Oahpa verbs in the rest of the file
 
-
-
-
-
 !!!Kildin Sámi TWOLC file
 !!!Alphabet, definitions
 
 
 
-
-
-
+Trigger symbols
+ *   %^1VOW:0		 Vow trigger for epenthetic -э-
+ *   %^2VOW:0		 Vow trigger 
+ *   %^3VOW:0		 Vow trigger 
+ *   %^4VOW:0		 Vow trigger 
+ *   %^5VOW:0		 Vow trigger 
+ *   %^WG:0		 for weak consonant stem gradation 
+ *   %^CLDPAL:0	 for depalatalizing consonant stems
+ *   %^DPAL:0		 for depalatalizing consonant stems
+ *   %^PAL:0		 for palatalizing consonsant stems
 
 
 
@@ -270,27 +280,36 @@ Just dumping Oahpa verbs in the rest of the file
 
 !!!Rule section
 
-__Qualitative CG1a__ this rule doesn't work yet
+__Palatalization (clusters)__ e.g. шт:шьт, etc.
 
-__Qualitative CG1b xx:y__  сс : з
+__Quantitative CG xxy:xy (npal cluster)__  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, сыййт:сыйт, etc. 
 
-__Preaspiration__  һк : гк
 
-__Palatalization: Clusters ллк : лльк, etc.__  
+
+
+__Qualitative CG xx:y (sibilant)__ i.e. сс : з, шш : ж
+
+__Qualitative CG xx:y (voiced affricate)      __ i.e. джь : жь, дзь : зь, дз : з
+
+__Qualitative CG xx:yy (long preaspiration)__ e.g. һк : гк
+
+
+
+__De-Palatalization (clusters)__ e.g. лльк : ллк , ннҍц : ннц, etc.
 
 __Quantitative CG__  
 
 __Quantitative CG 2-Cns Cluster__  e.g. ?ма̄дт : ма̄д, ?ма̄дтҍ : ма̄дҍ
 
-__Quantitative CG non-pal 3-Cns Cluster__  e.g. са̄ррн : са̄рн, ко̄ллм : ко̄лм 
+__Palatalised Suffix Vowel (before deletion)__  e.g. ӣджь : ӣджя, кӯлль : кӯлле
 
-__Epenthetic vowel deletion__  
+__Palatal Mark Deletion__  e.g. ӣджь : ӣджя, кӯлль : кӯлле
 
-__Palatalised Suffix Vowel__  
+__Half-Palatalised Suffix Vowel (before deletion)__  e.g. нюннҍ : нюнӓ
 
 __Half-Palatal Mark Deletion__  
 
-__Palatal Mark Deletion__  
+__Epenthetic vowel deletion (npal vowels)__ e.g. ко̄рэб:ко̄рбэсьт, etc. [шоабаш-:шоабш-]
 
 __ue Diphtongisation__  
 
@@ -300,6 +319,4 @@ __ue from long u 1__
 
 __ue from long u 2__  
 
-__u from ua in 4D__  
-
-
+__uu from ua in 4D __  
