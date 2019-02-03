@@ -192,7 +192,7 @@ Vx:Vy <=> ҍ: ( Dummy:0 ) %>: _ ;
  ҍ:0 <=> C: _ ( Dummy:0 ) %>:0 [ :ӓ | :Ӓ | :ӭ | :Ӭ ] ;
 
 "Epenthetic vowel deletion (npal vowels)"
-!! __@RULENAME@__ e.g. ко̄рэб:ко̄рбэсьт, etc. [шоабаш-:шоабш-]
+!! __@RULENAME@__ e.g. ко̄рэб:ко̄рбэсьт, etc. шоабаш-:шоабш-
 Vx:0  <=> C _ C+ %^EPHV:0 %>: V ;
     where Vx in ( а А ) ; 
 	where Vx in ( э Э ) ;
