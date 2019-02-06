@@ -16,15 +16,22 @@
 !! !!!Kildin Saami nouns
 
 LEXICON Noun !!= * @CODE@
+вуэннч N2-CLU-JE ;
+ча̄дзь N2-AFF ;
+кӯлль N2-GEM "рыба / fish" ; ! lang u->ue
+
 грӯша KNIIGA ;
 кнӣга KNIIGA ;
 ко̄рэб KOOREB ;
 кабперь KOOREB ;
+мама KNIIGA ;
 пӣрас KOOREB ;
 сӯррмас KOOREB ;
 фа̄ртэк KOOREB ;
+пӣӈӈк PIIŊŊK ;
 
 !! !!class1
+пе̄ййв 1DA ;
 дрӯгк 1DA ;
 вуэрр 1DA ;
 вӣгкхуввмушш 1DA ; !!DER вигк-хувв-мушш
@@ -68,7 +75,6 @@ LEXICON Noun !!= * @CODE@
 шэ̄ӈӈ 1DA "шторм / storm" ;
 ылл 1DA "уголь / coal" ;
 эхтнэгк 1DA "союз / union" ;
-кӯлль 1DA "рыба / fish" ; ! lang u->ue
 !аджь 1DA "отец / father" ;
 !на̄һпь 1DA "чашка / cup" ; ! spelling variant на̄ххьп (in Kert 1986 [and the Aнтонова system])
 ка̄ррь 1DA "посуда / dish" ;
@@ -196,7 +202,6 @@ LEXICON Noun !!= * @CODE@
 вуэлльк OAHPA_N ;
 вуэлькеськид OAHPA_N ;
 вуэлькесьюлльк OAHPA_N ;
-вуэннч OAHPA_N ;
 вуэннь OAHPA_N ;
 вуэннҍт OAHPA_N ;
 вуэнҍтэсь OAHPA_N ;
@@ -600,8 +605,6 @@ LEXICON Noun !!= * @CODE@
 пасьтэмь OAHPA_N ;
 пе̄гкей OAHPA_N ;
 пе̄дзь OAHPA_N ;
-пе̄ййв OAHPA_N ;
-пе̄ййва OAHPA_N ;
 пе̄ййвкэсск OAHPA_N ;
 пе̄лльй OAHPA_N ;
 пе̄лльйхэмь OAHPA_N ;
@@ -674,7 +677,6 @@ LEXICON Noun !!= * @CODE@
 пэрре OAHPA_N ;
 пя̄ӆӆьк OAHPA_N ;
 пӣджан OAHPA_N ;
-пӣӈӈк OAHPA_N ;
 пӯввллаввь OAHPA_N ;
 пӯдзъенч OAHPA_N ;
 пӯдзэпынней OAHPA_N ;
@@ -896,7 +898,6 @@ LEXICON Noun !!= * @CODE@
 цызэнч OAHPA_N ;
 цӯххп OAHPA_N ;
 ча̄бар OAHPA_N ;
-ча̄дзь OAHPA_N ;
 ча̄дзьлимм OAHPA_N ;
 ча̄дзьлоаннҍт OAHPA_N ;
 ча̄дзьсайй OAHPA_N ;

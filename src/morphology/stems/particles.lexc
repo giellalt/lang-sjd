@@ -13,28 +13,35 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
 LEXICON PCLE
-+Pcle: # ;
++Pcle: K ;
+
+LEXICON Imprt
++Pcle+Imprt: K ;
 
 LEXICON Neg
-+Pcle+Neg: #;
++Pcle+Neg: K ;
+
+LEXICON PCLE-Rus !this is a dump for Russian forms, some of them are supposedly loanwords, others perhaps ad-hoc loans
++Pcle+Use/Rus: K ;
 
 LEXICON Particle
+анҍ		Imprt "пуст" ;
 на		PCLE ;
-не		PCLE ;
+не		Neg ;
 ни		Neg ;
 ныдтҍ	PCLE ;
+ныдтҍ-и PCLE ;!should be derived by a rule
 тэль	PCLE ;!!bound variant -дель
-
-!loan discourse particles found in spoken texts
-!phonologoically/orthographically adapted
-сёравнэ PCLE "всё равно" ;
-конешнэ PCLE "конечно" ;
-ладнэ   PCLE "ладно" ;
-навернэ PCLE "наверно" ;
-начит   PCLE "значит" ;
-о̄бще    PCLE "вообще" ;
-простэ  PCLE "просто" ;
-яснэ    PCLE "ясно" ;
+па̄ссьпэ	PCLE ;
+пока	PCLE-Rus ;
+сёравнэ PCLE-Rus "всё равно" ;
+конешнэ PCLE-Rus "конечно" ;
+ладнэ   PCLE-Rus "ладно" ;
+навернэ PCLE-Rus "наверно" ;
+начит   PCLE-Rus "значит" ;
+о̄бще    PCLE-Rus "вообще" ;
+простэ  PCLE-Rus "просто" ;
+яснэ    PCLE-Rus "ясно" ;
 
 !loan modal auxiliary verbs found in spoken texts
 должен PCLE ;
