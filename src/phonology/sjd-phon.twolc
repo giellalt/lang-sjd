@@ -44,6 +44,7 @@ Alphabet
   %^WG:0		!!= * @CODE@ for weak consonant stem gradation 
   %^EPHV:0 
   %^DI:0
+  %^CLPAL:0
   %^CLDPAL:0	!!= * @CODE@ for depalatalizing consonant stems
   %^DPAL:0		!!= * @CODE@ for depalatalizing consonant stems
   %^MON:0
@@ -78,118 +79,33 @@ Sets
  HPLVOW = ӓ Ӓ ӭ Ӭ ; !so-called "half-palatalized V"
  NPLVOW = а А а̄ А̄ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э э̄ Э̄ ; !so-called "non-palatalized V"
  
- Dummy  = %^WG %^DI %^DPAL %^MON %> %^PAL ;
+ Dummy  = %^WG %^DI %^DPAL %^MON %> %^PAL %^CLPAL ;
 
 
 !! !!!Rule section
 Rules
 
-"Palatalization (clusters)"
-!! __@RULENAME@__ e.g. шт:шьт, etc.
-0:ь <=> Cx _ Cy %^PAL:0 ;
-	where	Cx in ( в р ш )
-			Cy in ( т н т )
-			matched ;
-!this is a very explicit rule, where each valid consonant cluster is listed separately
-!valid clusters which do not undergo (orthographic) palatalization (e.g. -йн-) are not listed, hence this rule is partly orthographic rather than morphonological
-!the rule could be made truly morphonological by adding all valid consonant clusters and removing the palatalization mark by means of an additional rule
-
-"Quantitative CG xxy:xy (npal cluster)"
+"Quantitative CG xxy:xy (of nonpal cлusters)"
 !! __@RULENAME@__  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, сыййт:сыйт, etc. 
- Cx:0 <=> Cx _ Cy %^WG:0 ;
-      where Cx in ( б в л й й й м п р ш ш н )  
-            Cy in ( р т к в н т ч ч н м т ц )
-      matched ;
-!this is a very explicit rule, where each valid consonant cluster is listed separately
-!morphonologically, this rule should work for palatalized and non-palatalized clusters alike, see below
-!"Quantitative CG xxy:xy (pal cлuster)"
-!!! __@RULENAME@__  e.g. -лльк-:-льк-, -ннҍц-:-нҍц-, etc.
-! C:0 <=> Cx _ (PALMARK:) Cy %^WG:0 ;
-!      where Cx in ( н )  
-!            Cy in ( ц )
-!      matched ;
-
-
-
-!above rules work for sure, the following rules need to be checked
-
-"Qualitative CG xx:y (sibilant)"
-!! __@RULENAME@__ i.e. сс : з, шш : ж
-Cx:Cy <=> V: Cx: _ (ь:) %^WG:0 ;
-      where Cx in ( с ш )
-            Cy in ( з ж ) 
-      matched ;
-
-"Qualitative CG xx:y (voiced affricate)"      
+Cx:0 <=> V: Cx: _ Cy: %^WG: ; !doesn't work where V=а̄ (combining macron)
+ where Cx in ( в л й й й м н н п р ш ш )  
+       Cy in ( т к в н т ч ц ч ч н к т )
+       matched ;
+	      	
+"Qualitative CG xx:y (of voiced affricates)"      
 !! __@RULENAME@__ i.e. джь : жь, дзь : зь, дз : з
-д:0 <=> V: _ Cx: (PALMARK:) %^WG:0 ;
-	where 	Cx in ( з ж ) ;
-    
-"Qualitative CG xx:yy (long preaspiration)"
-!! __@RULENAME@__ e.g. һк : гк
-һ:Cy <=> V: _ Cx: (PALMARK:) %^WG:0 ;
-      where Cx in ( к )
-            Cy in ( г ) 
-      matched ;
-
-!"Qualitative CG xx:y (short preaspiration)"
-!!! __@RULENAME@__ e.g. һк : к
-!һ:Cy <=> V: _ Cx: (PALMARK:) %^WG:0 ;
-!      where Cx in ( к )
-!            Cy in ( г ) 
-!      matched ;
-
-! сс:с vs. сс:з (only last one is already defined as a rule below)
-!"Qualitative CG1a"
-!!! __@RULENAME@__ this rule doesn't work yet
-!Cx:0 <=> V: _ Cx: (ь:) %^WG:0 ;
-!      where Cx in ( с ) ;
-
-"De-Palatalization (clusters)"
-!! __@RULENAME@__ e.g. лльк : ллк , ннҍц : ннц, etc.
-  PALMARK:0 <=> Cx _ Cy %^CLDPAL:0 ;
-      where Cx in ( н )  
-            Cy in ( ц )
-      matched ;
-
-"Quantitative CG"
+д:0 <=> V: _ Cx: (PALMARK:) %^WG: ; !doesn't work where V=а̄ (combining macron)
+ where Cx in ( з ж ) ;
+   
+"Quantitative CG (of continuants)"
 !! __@RULENAME@__  
- Cy:0 <=> Cx _ (PALMARK:) %^WG:0 ;
-      where Cx in ( в ж з й л м н ӈ р ф х ш )
-            Cy in ( в ж з й л м н ӈ р ф х ш ) 
-      matched ; 
+Cx:0 <=> V: _ Cx: (PALMARK:) %^WG: ; !doesn't work where V=а̄ (combining macron)
+ where Cx in ( в ж з й л м н ӈ р ф х ) ; 
       
-"Quantitative CG 2-Cns Cluster"
-!! __@RULENAME@__  e.g. ?ма̄дт : ма̄д, ?ма̄дтҍ : ма̄дҍ
- Cy:0 <=> Cx _  (PALMARK:) %^WG:0 ;
-      where Cx in ( б г д )  
-            Cy in ( п к т )
-      matched ;
-
-!!The following two rules should apply in combination, in order to first change a V-letter and later remove the trigger letter
-"Palatalised Suffix Vowel (before deletion)"
-!! __@RULENAME@__  e.g. ӣджь : ӣджя, кӯлль : кӯлле
-Vx:Vy <=> ь: ( Dummy:0 ) %>: _ ;
-    where Vx in ( а А э Э у У )
-          Vy in ( я Я е Е ю Ю ) 
-	matched ;
-
-"Palatal Mark Deletion"
-!! __@RULENAME@__  e.g. ӣджь : ӣджя, кӯлль : кӯлле
-Cx:0 <=> C: _ ( Dummy:0 ) %>:0 [ :я | :Я | :е | :Е | :и | :И | :ё | :Ё | :ю | :Ю ] ;
-    where Cx in ( ь Ь ) ;
-	 
-!!The following two rules should apply in combination, in order to first change a V-letter and later remove the trigger letter
-"Half-Palatalised Suffix Vowel (before deletion)"
-!! __@RULENAME@__  e.g. нюннҍ : нюнӓ
-Vx:Vy <=> ҍ: ( Dummy:0 ) %>: _ ;
-      where Vx in ( а А э Э )
-            Vy in ( ӓ Ӓ ӭ Ӭ ) 
-      matched ;
-
-"Half-Palatal Mark Deletion"
+"ue>ua Ablaut"
 !! __@RULENAME@__  
- ҍ:0 <=> C: _ ( Dummy:0 ) %>:0 [ :ӓ | :Ӓ | :ӭ | :Ӭ ] ;
+э:а <=> у _ (C*:) (C:) %^CLDPAL:0  ;
+!this ablaut coincides with depalatalization of palatalized stems, e.g. 3sg.prs in verbs, ill.sg in (certain classes of) nouns
 
 "Epenthetic vowel deletion (npal vowels)"
 !! __@RULENAME@__ e.g. ко̄рэб:ко̄рбэсьт, etc. шоабаш-:шоабш-
@@ -197,22 +113,135 @@ Vx:0  <=> C _ C+ %^EPHV:0 %>: V ;
     where Vx in ( а А ) ; 
 	where Vx in ( э Э ) ;
 
-"ue Diphtongisation"
-!! __@RULENAME@__  
- э:а <=> у _ C:* %^DI:0  ;
+!"Palatalization (of nonpal clusters)"
+!!! __@RULENAME@__ e.g. шт:шьт, etc.
+!0:ь <=> Cx _ Cy %^CLPAL:0 ;
+!	where	Cx in ( в л р ш ш )
+!			Cy in ( т к н к т )
+!			matched ;
+!!0:ҍ <=> Cx _ Cy %^CLPAL:0 ;
+!!	where	Cx in ( в л р ш ш )
+!!			Cy in ( т к н к т )
+!!			matched ;
+!!this is a very explicit rule, where each valid consonant cluster is listed separately
+!!valid clusters which do not undergo (orthographic) palatalization (e.g. -йн-, etc.) are simply not listed here to avoid them, hence this rule is partly orthographic rather than truly morphonological
+!!the rule could be made truly morphonological by adding all valid consonant clusters and removing the palatalization mark by means of an additional rule
+!
+!!!this is a very explicit rule, where each valid consonant cluster is listed separately
+!!!morphonologically, this rule should work for palatalized and non-palatalized clusters alike, see below
+!!"Quantitative CG xxy:xy "
 
-"ja to i in 2D Illative"
-!! __@RULENAME@__  
- я:и <=> _ C:* %^DI:0  ;
-
-"ue from long u 1"
-!! __@RULENAME@__  
- ӯ:у <=> _ :э  C:* %^DI:0  ;
-
-"ue from long u 2"
-!! __@RULENAME@__  
- 0:э <=> ӯ: _ C:* %^DI:0  ;
-
-"uu from ua in 4D" !does not work
-!! __@RULENAME@__  
- а:0 <=> у _ C:* %^MON:0 ;
+!"De-Palatalization (of pal clusters)"
+!!! __@RULENAME@__ e.g. лльк : ллк , ннҍц : ннц, etc.
+!ь:0 <=> Cx _ Cy (DUMMY:0) %^CLDPAL:0 ;
+!	where	Cx in ( в л м п р ш ш )  
+!            Cy in ( т к ч ч н к т )
+!	      	matched ;
+!ҍ:0 <=> Cx _ Cy (DUMMY:0) %^CLDPAL:0 ;
+!	where	Cx in ( н )  
+!            Cy in ( ц )
+!	      	matched ;
+!!!!this is a very explicit rule, where each valid consonant cluster is listed separately
+!!!!morphonologically, this rule should work for palatalized and non-palatalized clusters alike, see below
+!!!"Quantitative CG xxy:xy "
+!
+!!
+!!!"Palatalization (geminates)"
+!!!!! __@RULENAME@__ e.g. шт:шьт, etc.
+!!!0:ҍ <=> Cx _ %^PAL:0 ;
+!!!	where	Cx in ( д н ӊ ӈ т ) ;
+!!	
+!!!"Adjusting half-palatalization mark"
+!!!!! __@RULENAME@__ 
+!!!ь:ҍ <=> Cx:0 _ ;
+!!!	where	Cx in ( д н ӊ ӈ т ) ;
+!!!!I try to write an orthographic rule here
+!!
+!!!"Qualitative CG xx:y (sibilant)"
+!!!!! __@RULENAME@__ i.e. сс : з, шш : ж
+!!!Cx:Cy <=> Cx _ %^WG:0 ;
+!!!      where Cx in ( с ш )
+!!!            Cy in ( з ж ) 
+!!!      matched ;
+!!!currently: сс>сз
+!!
+!!"Qualitative CG xx:yy (long preaspiration)"
+!!!! __@RULENAME@__ e.g. һк : гк
+!!һ:Cy <=> V: _ Cx: (PALMARK:) %^WG:0 ;
+!!      where Cx in ( к )
+!!            Cy in ( г ) 
+!!      matched ;
+!!
+!!!"Qualitative CG xx:y (short preaspiration)"
+!!!!! __@RULENAME@__ e.g. һк : к
+!!!һ:Cy <=> V: _ Cx: (PALMARK:) %^WG:0 ;
+!!!      where Cx in ( к )
+!!!            Cy in ( г ) 
+!!!      matched ;
+!!
+!!! сс:с vs. сс:з (only last one is already defined as a rule below)
+!!!"Qualitative CG1a"
+!!!!! __@RULENAME@__ this rule doesn't work yet
+!!!Cx:0 <=> V: _ Cx: (ь:) %^WG:0 ;
+!!!      where Cx in ( с ) ;
+!!
+!!"Quantitative CG 2-Cns Cluster"
+!!!! __@RULENAME@__  e.g. ?ма̄дт : ма̄д, ?ма̄дтҍ : ма̄дҍ
+!! Cy:0 <=> Cx _  (PALMARK:) %^WG:0 ;
+!!      where Cx in ( б г д )  
+!!            Cy in ( п к т )
+!!      matched ;
+!!
+!!!!The following two rules should apply in combination, in order to first change a V-letter and later remove the trigger letter
+!!"Palatalised Suffix Vowel (before deletion)"
+!!!! __@RULENAME@__  e.g. ӣджь : ӣджя, кӯлль : кӯлле
+!!Vx:Vy <=> ь: ( Dummy:0 ) %>: _ ;
+!!    where Vx in ( а А э Э у У )
+!!          Vy in ( я Я е Е ю Ю ) 
+!!	matched ;
+!!
+!!!orthographic rules
+!!
+!!!"Palatal Mark Deletion"
+!!!!! __@RULENAME@__  e.g. ӣджь : ӣджя, кӯлль : кӯлле
+!!!Cx:0 <=> C: _ (Dummy:) %>:0 [ :я | :Я | :е | :Е ] ;
+!!!    where Cx in ( ь Ь ) ;
+!!!    !doesn't work yet
+!!	 
+!!!!The following two rules should apply in combination, in order to first change a V-letter and later remove the trigger letter
+!!"Half-Palatalised Suffix Vowel (before deletion)"
+!!!! __@RULENAME@__  e.g. нюннҍ : нюнӓ
+!!Vx:Vy <=> ҍ: ( Dummy:0 ) %>: _ ;
+!!      where Vx in ( а А э Э )
+!!            Vy in ( ӓ Ӓ ӭ Ӭ ) 
+!!      matched ;
+!!
+!!"Half-Palatal Mark Deletion"
+!!!! __@RULENAME@__  
+!! ҍ:0 <=> C: _ ( Dummy:0 ) %>:0 [ :ӓ | :Ӓ | :ӭ | :Ӭ ] ;
+!!
+!!"Epenthetic vowel deletion (npal vowels)"
+!!!! __@RULENAME@__ e.g. ко̄рэб:ко̄рбэсьт, etc. [шоабаш-:шоабш-]
+!!Vx:0  <=> C _ C+ %^EPHV:0 %>: V ;
+!!    where Vx in ( а А ) ; 
+!!	where Vx in ( э Э ) ;
+!!
+!!"ue Diphtongisation"
+!!!! __@RULENAME@__  
+!! э:а <=> у _ C:* %^DI:0  ;
+!!
+!!"ja to i in 2D Illative"
+!!!! __@RULENAME@__  
+!! я:и <=> _ C:* %^DI:0  ;
+!!
+!!"ue from long u 1"
+!!!! __@RULENAME@__  
+!! ӯ:у <=> _ :э  C:* %^DI:0  ;
+!!
+!!"ue from long u 2"
+!!!! __@RULENAME@__  
+!! 0:э <=> ӯ: _ C:* %^DI:0  ;
+!!
+!!"uu from ua in 4D" !does not work
+!!!! __@RULENAME@__  
+!! а:0 <=> у _ C:* %^MON:0 ;
