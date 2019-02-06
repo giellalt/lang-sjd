@@ -1,5 +1,5 @@
 ! Divvun & Giellatekno - open source grammars for Kildin Sámi.
-! Copyright © 2000-2018 The University of Tromsø & the Norwegian Sámi Parliament
+! Copyright © 2000-2019 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
 ! This program is free software; you can redistribute and/or modify
@@ -17,6 +17,9 @@
 ! ========================================================================== !
 
 Multichar_Symbols  !!≈ !!!Definitions for @CODE@
+
+! Combined letter+diachritics in the alphabet
+	е̄ Е̄ ё̄ Ё̄ о̄ О̄ э̄ Э̄ ю̄ Ю̄ я̄ Я̄ 
 
 ! POS
 +N +V +Adj
@@ -57,6 +60,8 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
   %^WG	!weak grade
   %>	! Inflectional suffix (incl. palatal mark deletion)
   %<	! Inflectional prefix
+  %^CLPAL !cluster palatalization
+  %^EAABL 
   %^CLDPAL !cluster depalatalization
   %^DPAL !other depalatalization
   %^PAL !other depalatalization
