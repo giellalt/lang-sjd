@@ -15,14 +15,16 @@
 LEXICON OAHPA_PROP
 PROP_1DA ;
 
-LEXICON ELAN_PROP
-PROP_1DA ;
-
 LEXICON PROP_1DA
 +Prop: 1DA ;
 
+LEXICON prop-rus
++Prop+Use/Rus: 1DA ;
+
 LEXICON Propernoun
 !person, given names
+Лейф prop-rus ;
+Матрёхин prop-rus ;
 Ёа̄ввк OAHPA_PROP ;
 Ёак OAHPA_PROP ;
 Ёгор OAHPA_PROP ;
@@ -38,7 +40,8 @@ LEXICON Propernoun
 Вуаӈтэнч OAHPA_PROP ;
 Вуэннҍтре OAHPA_PROP ;
 Вуэннҍтряя OAHPA_PROP ;!Illative?
-Егор ELAN_PROP ;
+Зина OAHPA_PROP ;
+Егор OAHPA_PROP ;
 Ларя OAHPA_PROP ;
 Лёлль OAHPA_PROP ;
 Ма̄рьенч OAHPA_PROP ;
@@ -58,7 +61,7 @@ LEXICON Propernoun
 Ноасстъенч OAHPA_PROP ;
 О̄ленҍк PROP_1DA ;!variant Оленьк
 О̄ця OAHPA_PROP ;
-Пала ELAN_PROP ;
+Пала OAHPA_PROP ;
 Параска OAHPA_PROP ;
 Парэск OAHPA_PROP ;
 Пася OAHPA_PROP ;
@@ -83,6 +86,7 @@ LEXICON Propernoun
 Тоа̄нла OAHPA_PROP ;
 Тронд PROP_1DA ; !1А economy class
 Тымэшк OAHPA_PROP ;
+Увван OAHPA_PROP ;
 Улльна OAHPA_PROP ;
 Улльян OAHPA_PROP ;
 Чипрян PROP_1DA ; !1A first class

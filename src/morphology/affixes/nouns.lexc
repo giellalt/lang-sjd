@@ -14,6 +14,21 @@
 
 !! !!!Kildin Saami noun inflection
 
+LEXICON N2-CLU-JE
++N+Sg+Nom:%>0 K ;
++N+Sg+Ill:%^CLDPAL%>а K ;
++N+Pl+Nom:%^WG%>0 K ;
+
+LEXICON N2-AFF
++N+Sg+Nom:%>0 K ;
++N+Sg+Ill:%>а K ;
++N+Pl+Nom:%^WG%>0 K ;
+
+LEXICON N2-GEM
++N+Sg+Nom:%>0 K ;
++N+Sg+Ill:%>а K ;
++N+Pl+Nom:%^WG%>0 K ;
+
 
 LEXICON KOOREB
 +N+Sg+Nom:%>0 K ;
@@ -36,14 +51,30 @@ LEXICON SYJJT
 +N+Pl+Nom:%^WG K ;
 +N+Pl+Loc:%^WG%>энҍ K ;
 
+LEXICON PIIŊŊK !Ill depal, -e
++N:     SgNomSuf    ;
++N:%^WG SgGenAccSuf ;
++N:  	SgIllSufE   ; 
++N:%^WG SgLocSuf    ;
++N:%^WG SgAbeSuf    ;
++N:%^WG SgComSuf    ;
++N:     EssSuf      ;
++N:     ParSufE     ;
++N:%^WG PlNomSuf    ;
++N:%^WG PlGenSuf    ;
++N:%^WG PlAccSuf    ;
++N:%^WG PlIllSuf    ;
++N:%^WG PlLocSuf    ;
++N:%^WG PlAbeSuf    ;
++N:%^WG PlComSuf    ;
+
 
 !! "class1" = monosyllabic/non-palatalized inflection foot, str-wk, no ablaut/umlaut, palatalization in Ill.Sg
 LEXICON 1DA !!= @CODE@ is orthographic subclass with xx--> x
 
   +N:     SgNomSuf    ;
   +N:%^WG SgGenAccSuf ;
-! +N:%^DI SgIllSufJE  ; !MR:here is no gradation, but what was %^DI? I'll check this later
-  +N:     SgIllSufJE  ;
+ +N:  SgIllSufA  ; 
   +N:%^WG SgLocSuf    ;
   +N:%^WG SgAbeSuf    ;
   +N:%^WG SgComSuf    ;
@@ -191,7 +222,7 @@ LEXICON SgLocSuf  !!= @CODE@
  +Sg+Loc:%>эсьт K ; ! Местн.
 
 LEXICON SgIllSufA  !!= @CODE@
- +Sg+Ill:%>а K ;
+ +Sg+Ill:%^DPAL%>а K ;
 
 LEXICON SgIllSufE !!= @CODE@
  +Sg+Ill:%>э K ;

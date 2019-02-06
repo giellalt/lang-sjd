@@ -12,5 +12,21 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
+LEXICON interj
++Interj: # ;
+
 LEXICON Interjection
-тю-ли-тю-ли-тю-ли # ;
+аг-а 				interj ;!writing linear rules?
+аг-а-а 				interj ;
+ах					interj ;
+ах-а				interj ;
+вой					interj ;
+ой					interj ;
+ох					interj ;
+ох-о				interj ;
+тю-ли-тю-ли-тю-ли 	interj ;
+ха 					interj ; 
+ха-ха 				interj ;
+ха-ха-ха			interj ;
+эг-э				interj ;
+хм					interj ;

@@ -26,6 +26,7 @@ Verbstems ;
 
 LEXICON NegAux   !!= * __@CODE@__
 +V+Aux+Neg+Prs+Sg1:эмм K ;
++V+Aux+Neg+Prs+Sg1+Use/Dial:ымм K ;
 +V+Aux+Neg+Prs+Sg2:эгк K ;
 +V+Aux+Neg+Prs+Sg3:эйй K ;
 +V+Aux+Neg+Prs+Pl1:ебпь K ;
@@ -37,19 +38,20 @@ LEXICON NegAux   !!= * __@CODE@__
 
 
 LEXICON Cop
-+V+Cop+Prs+Inf:лӣйе K ;
-+V+Cop+Prs+Sg1:ля̄ K ;
-+V+Cop+Prs+Sg2:ля̄к K ;
-+V+Cop+Prs+Sg3:лӣ K ;
-+V+Cop+Prs+Pl1:ле̄бпь K ;
-+V+Cop+Prs+Pl2:ле̄бпе K ;
-+V+Cop+Prs+Pl3:ле̄в K ;
-+V+Cop+Prt+Sg1:лӣйе K ;
-+V+Cop+Prt+Sg2:лӣйекь K ;
-+V+Cop+Prt+Sg3:ля̄йй K ;
-+V+Cop+Prt+Pl1:лӣйемь K ;
-+V+Cop+Prt+Pl2:лӣйетҍ K ;
-+V+Cop+Prt+Pl3:лӣйенҍ K ;
++V+Cop+Ind+Prs+Inf:лийе K ;
++V+Cop+Ind+Prs+Sg1:ля K ;
++V+Cop+Ind+Prs+Sg2:ляк K ;
++V+Cop+Ind+Prs+Sg3:ли K ;
++V+Cop+Ind+Prs+Pl1:лебпь K ;
++V+Cop+Ind+Prs+Pl2:лебпе K ;
++V+Cop+Ind+Prs+Pl3:лев K ;
++V+Cop+Ind+Prt+Sg1:лийе K ;
++V+Cop+Ind+Prt+Sg2:лийекь K ;
++V+Cop+Ind+Prt+Sg3:ляйй K ;
++V+Cop+Ind+Prt+Pl1:лийемь K ;
++V+Cop+Ind+Prt+Pl2:лийетҍ K ;
++V+Cop+Ind+Prt+Pl3:лийенҍ K ;
++V+Cop+Fut+Sg3:ляннч K ;
 
 
 LEXICON NegCop
@@ -197,43 +199,44 @@ LEXICON ImpMod
 
 
 LEXICON Verbstems   !!= * __@CODE@__
-мушштэ:мушшт V1 ;
-са̄ррнэ:са̄ррн V1 "говорить/ to speak" ;!ablaut doesn't work yet 
-тӣввтэ:тӣввт V1 ;!ablaut doesn't work yet
-уййнэ:уййн V1 ;
-тӯййшэ:тӯййш ELAN_V "строить / to build" ;!looks like V1, but is derivation?
+!векьхэ:векьх VDER1 "помоч" ;
+!киһче:киһч V2-PRE-JE ;
+пӯлле:пӯлл V2-GEM ;
+!чӯзхэ:чӯзх VDER1 "ушибить" ;
+аллькэ:алльк V2-CLU ;
+аннҍтэ:аннҍт V2-CLU ;
+ва̄ннҍцэ:ва̄ннҍц V2-CLU ;
+воаррдэ:воаррд VDER1 ;
+вуэйе:вуэ V2-GEM-J "мочь" ;
+выййтэ:выййт V1-CLU ;!works
+едтэ:едт V1 ;
+ко̄ппче:ко̄ппч V1-CLU-JE ;!ablaut doesn't work yet; е-э doesn't work yet
+ко̄шшкэ:ко̄шшк V1-CLU ;!ablaut doesn't work yet
+куллэ:кулл V1-GEM ;
+луввтъе:луввт LUVTTE ; ! = sme contr, no CG
+мушштэ:мушшт V1-CLU ;!works
+несськэ:несськ V2-CLU "скоблить/ to scrape" ;
+па̄шшьтэ:па̄шшьт V2-CLU "жарить/ to fry" ;
+пуэдтӭ:пуэдтҍ PUEDTJE "come" ;
+пыйе:пы V1-GEM-J ;!or V2?
+пэ̄ссэ:пэ̄сс V1 ;!сс>з doesn't work yet
+са̄ррнэ:са̄ррн V1-CLU "говорить/ to speak" ;!ablaut doesn't work yet 
+севвьтэ:севвьт V2-CLU "обидеть" ; 
 суввдэ:суввд ELAN_V "дымить / to smoke (of a fire)" ;!looks like V1, but is derivation?
 сугклэ:сугкл ELAN_V "начать грести / to begin to row" ;!looks like V1, where first part of cluster is a stop !derivation?
-ко̄ппче:ко̄ппч V1 ;!ablaut doesn't work yet; е-э doesn't work yet
-аллькэ:алльк VAANNJCE ;
-аннҍтэ:аннҍт VAANNJCE ;
-ва̄ннҍцэ:ва̄ннҍц VAANNJCE ;
-вуэйе:вуэйй PYJJE "мочь" ;
-не̄сськэ:не̄сськ VAANNJCE "скоблить/ to scrape" ;
-па̄шшьтэ:па̄шшьт VAANNJCE "жарить/ to fry" ;
-се̄ввьтэ:се̄ввьт VAANNJCE "обидеть" ; 
-пыйе:пыйй PYJJE ;
-чӯзхэ:чӯзх -X- "ушибить" ;!derived stem
-ве̄кьхэ:ве̄кьх -X- "помоч" ;
-
-пуэдтӭ:пуэдтҍ PUEDTJE "come" ;
-тӣдтӭ:тӣдтҍ PUEDTJE "знать" ;
-
-луввтъе:луввт LUVTTE ; ! = sme contr, no CG
-
-куллэ:кулл KULLE ; !This is Kurutsh 1 = sme even
-
-
-
-! Kurutsh:
-
-! Verb classes according to Kuruch p. 551
-! 1. class (ending in long consonant)
-по̄ррэ:по̄рр 1 "есть, кушать / to eat";
-е̄лле:е̄лл 1 "жить/ to live" ;
-о̄дзэ:о̄дэ 1 "искать/ to look for" ; ! Does not generate inf!
-уссэ:усс 1 "собирать / to gather" ;
-выдзэ:выдз 1 "хныкать / ??" ;
+тиввтэ:тиввт V1-CLU ;!ablaut doesn't work yet
+тидтӭ:тидтҍ PUEDTJE "знать" ;
+тӯййшэ:тӯййш V1-CLU "строить / to build" ;!looks like V1, but is derivation?
+уййнэ:уййн V1-CLU ;!works
+уййтэ:уййт V1-CLU ;!works
+чӯмсэ:чӯмс VDER1 ;
+шылле:шылл V2-GEM ;
+по̄ррэ:по̄рр V1-GEM "есть, кушать / to eat";!о̄>оа ablaut doesn't work yet
+елле:елл V2-GEM "жить/ to live" ;
+о̄дзэ:о̄дз V1 "искать/ to look for" ;!о̄>оа ablaut doesn't work yet
+уссэ:усс V1 "собирать / to gather" ;!сс>з doesn't work yet
+выдзэ:выдз V1 "хныкать / ??" ;
+кӯссьтэ:кӯссьт V2-CLU ; 
 
 ! 2. class (ending in long + short consonant)
 аббрэ:аббр 2 "идти - о дожде / to rain" ;
@@ -269,7 +272,6 @@ LEXICON Verbstems   !!= * __@CODE@__
 !! These words are added during testing work with the ELAN-FST script
 !! They should be given correct declension classes later
 лыһкэ:лыһк ELAN_V ;
-кӯссьтэ:кӯссьт ELAN_V ; 
 моайнсэ:моайнс ELAN_V ;
 
 
@@ -310,7 +312,6 @@ LEXICON Verbstems   !!= * __@CODE@__
 вӯккьсе:вӯккьс OAHPA_V ;
 вӯлльке:вӯлльк OAHPA_V ;
 вӯллькэ:вӯлльк OAHPA_V ;
-е̄дтэ:е̄дт OAHPA_V ;
 е̄ллсуввэ:е̄ллсувв OAHPA_V ;
 ка̄дтэ:ка̄дт OAHPA_V ;
 ка̄рьксэ:ка̄рькс OAHPA_V ;
@@ -323,7 +324,6 @@ LEXICON Verbstems   !!= * __@CODE@__
 кашшнэ:кашшн OAHPA_V ;
 ке̄ссе:ке̄сс OAHPA_V ;
 ко̄ррэ:ко̄рр OAHPA_V ;
-ко̄шшкэ:ко̄шшк OAHPA_V ;
 коа̄ввнэ:коа̄ввн OAHPA_V ;
 коадзъе:коадзъ OAHPA_V ;
 копчнэдтэ:копчнэдт OAHPA_V ;
@@ -342,7 +342,6 @@ LEXICON Verbstems   !!= * __@CODE@__
 кэ̄дже:кэ̄дж OAHPA_V ;
 кэ̄ххче:кэ̄ххч OAHPA_V ;
 кя̄ййве:кя̄ййв OAHPA_V ;
-кӣххче:кӣххч OAHPA_V ;
 кӯсстэ:кӯсст OAHPA_V ;
 кӯсьхэ:кӯсьх OAHPA_V ;
 ла̄ввлэ:ла̄ввл OAHPA_V ;
@@ -414,10 +413,8 @@ LEXICON Verbstems   !!= * __@CODE@__
 пэ̄знэдтэ:пэ̄знэдт OAHPA_V ;
 пэ̄ййнэ:пэ̄ййн OAHPA_V ;
 пэ̄рркэ:пэ̄ррк OAHPA_V ;
-пэ̄ссэ:пэ̄сс OAHPA_V ;
 пэ̄ҏҏкъе:пэ̄ҏҏкъ OAHPA_V ;
 пэллэ:пэлл OAHPA_V ;
-пӯлле:пӯлл OAHPA_V ;
 ра̄бпэ:ра̄бп OAHPA_V ;
 ре̄ввклаххьтэ:ре̄ввклаххьт OAHPA_V ;
 ре̄ммьхэ:ре̄ммьх OAHPA_V ;
@@ -495,7 +492,6 @@ LEXICON Verbstems   !!= * __@CODE@__
 чӯдзе:чӯдз OAHPA_V ;
 чӯййкэ:чӯййк OAHPA_V ;
 чӯмсэ:чӯмс OAHPA_V ;
-шылле:шылл OAHPA_V ;
 шэ̄ннтътэ:шэ̄ннтът OAHPA_V ;
 шэ̄ннтэ:шэ̄ннт OAHPA_V ;
 шӣххтэ:шӣххт OAHPA_V ;
