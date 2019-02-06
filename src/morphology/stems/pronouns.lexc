@@ -18,6 +18,7 @@ Demonstrative ;
 Determiner ;
 Personal ;
 Interrogative ;
+Indefinite ;
 Relative ;
 Reflexive ;
 
@@ -53,6 +54,8 @@ LEXICON dem
 LEXICON Determiner
 +Pron+Det:манҍтэ K "какой / which (kind)" ;
 +Pron+Det+Use/Dial:манҍтэм K "какой / which (kind)" ;
++Pron+Det:нанҍтэ K "такой / such (kind)" ;
++Pron+Det+Use/Dial:нанҍтэм K "такой / suchch (kind)" ;
 +Pron+Det:мудта K "иной / different" ;
 +Pron+Det:мугка K "иной / different" ; !plural
 +Pron+Det:пугк K "всё / all" ;
@@ -60,23 +63,23 @@ LEXICON Determiner
 
 ! Personal pronouns
 ! =================
-! a = stem му-, то̄-, со̄-
+! a = stem му-, то-, со-
 ! b = stem      тo-, сo-
 ! c = stem мы-, ты-, сы-
-! d = stem мӣ-, тӣ-, сӣ-
+! d = stem ми-, ти-, си-
 
 LEXICON Personal
 +Pron+Pers:му pers_a ;
-+Pron+Pers:то̄ pers_a ;
-+Pron+Pers:со̄ pers_a ;
++Pron+Pers:то pers_a ;
++Pron+Pers:со pers_a ;
 +Pron+Pers:то pers_b ;
 +Pron+Pers:со pers_b ;
 +Pron+Pers:мы pers_c ;
 +Pron+Pers:ты pers_c ;
 +Pron+Pers:сы pers_c ;
-+Pron+Pers:мӣ pers_d ;
-+Pron+Pers:тӣ pers_d ;
-+Pron+Pers:сӣ pers_d ;
++Pron+Pers:ми pers_d ;
++Pron+Pers:ти pers_d ;
++Pron+Pers:си pers_d ;
 
 LEXICON pers_a
 +Sg+Nom:нн K ;
@@ -84,14 +87,14 @@ LEXICON pers_a
 +Sg+Acc:н K ;
 +Sg+Ill:ннӭ K ;
 +Sg+Loc:нэсьт K ;
-+Sg+Loc:ст K ;
++Sg+Loc+Use/Dial:ст K ;
 +Sg+Com:нэнҍ K ;
 +Sg+Abe:нха K ;
 +Sg+Ess:ннэнҍ K ;
 
 LEXICON pers_b
 +Sg+Ill:ннӭ K ;
-+Sg+Loc:ст K ;
++Sg+Loc+Use/Dial:ст K ;
 
 LEXICON pers_c
 +Sg+Ill+Use/Dial:ннӭ K ;
@@ -102,6 +105,7 @@ LEXICON pers_d
 +Pl+Gen:н K ;
 +Pl+Acc:нэтҍ K ;
 +Pl+Loc:нэнҍ K ;
++Pl+Loc+Use/Dial:ст K ;
 +Pl+Com:нэгуэйм K ;
 +Pl+Abe:нэха K ; 
 +Pl+Ess:ннэнҍ K ;
@@ -109,14 +113,14 @@ LEXICON pers_d
 
 ! Interrogative pronouns
 ! ======================
-! a = stem ке̄-, мӣ-
+! a = stem ке̄-, ми-
 ! b = stem мэ̄-
 ! c = stem ма̄-
 ! d = stem коамп-
 
 LEXICON Interrogative
 +Pron+Interr:ке̄ interr_a ;
-+Pron+Interr:мӣ interr_a ;
++Pron+Interr:ми interr_a ;
 +Pron+Interr:мэ̄ interr_b ;
 +Pron+Interr:ма̄ interr_c ;
 +Pron+Interr:коампэ interr_d ;
@@ -166,15 +170,21 @@ LEXICON interr_d
 ! what about other case forms?
 ! what about коампнессе, коампнезэсьт, коампнезэ?
 
+LEXICON Indefinite
++Pron+Indef:ни-ке̄ interr_a ;
++Pron+Indef:ни-ми interr_a ;
++Pron+Indef:ни-мэ̄ interr_b ;
++Pron+Indef:ни-ма̄ interr_c ;
+
 
 ! Relative pronoun
 ! =================
-! a = stem кӯ-
-! b = stem ко̄-
+! a = stem ку-
+! b = stem ко-
 
 LEXICON Relative
-+Pron+Rel:кӯ rel_a ;
-+Pron+Rel:ко̄ rel_b ;
++Pron+Rel:ку rel_a ;
++Pron+Rel:ко rel_b ;
 
 LEXICON rel_a
 +Sg+Nom: K ;
@@ -199,7 +209,7 @@ LEXICON rel_b
 
 
 LEXICON Reflexive
-+Pron+Refl:ӣджь refl_pron ;
++Pron+Refl:иджь refl_pron ;
 
 LEXICON refl_pron
 +Nom+Sg1:%>0 K ;

@@ -28,57 +28,49 @@ LEXICON adv-Q
 
 LEXICON Adverb
 адтҍ adv ;
+айкалт adv ;
 беда adv ;
+ванас adv "мало / slightly" ; !derived from ваннҍ 'мало / some (adj)'
+вэххтэнне adv "быстро / fast, quickly" ; !derived from вэхтэсь 'быстрый:attr / quick'
 вя̄л adv ;
+лашькэльт adv "лениво / lazily" ; !derived from лашьк 'лень/ lazy'
 лышэ adv ;
-маӈӈа adv "потом" ;
 маххт adv "как" ;
 маххт:ни-маххт adv-Q ;
+маӈас adv "назад / back (direction)" ; !derived from маӈӈь 'задний'
+маӈӈа adv "потом" ;
+медас adv "по направлению ветра / with the wind" ; !derived from мидтҍ 'попутный'
+моазэ adv ;!variant of моаст?
 моаст adv ;
+милкнесьт adv "тихонечко / медленно / slowly" ; !derived from мя̄лк
 ныдтҍ adv "так" ;
+нюэзельт adv "плохо / badly" ; !derived from нюэссь '(что-то) плохое / bad'
+пуэраст adv "хорошо" ; ! ?derived adverbs from adjectives
 пэря adv "больше" ; !адйецтиве
-та̄рьм adv "сегодня" ;
+роаммъенне adv "радостно / gladly" ; !derived from ?роаммъе (< роамм 'радость / joy')
+тарьм adv "сегодня" ;
 тамьпэ adv "там" ;
-те̄лльнэ adv "так" ; !looks like almost like тэль-не
-тӣгэ adv ;
-толькэ adv "только" ;
+телльнэ adv "так" ; !looks like almost like тэль-не
 тоагэ adv "туда" ;
+толькэ adv "только" ;
+тэста adv ;!pronoun?
+тэста:тэсса adv-dial ;!pronoun?
+тигэ adv ;
 четк adv "насмерть / to death" ;
 чофта adv "очень / much" ;
+шигктэнне adv "хорошо / well" ; !derived from шиг 'хороший / good'
+э̄ввтэль adv "раньше" ; ! ?derived adverbs from adjectives
 эффьтэ adv "всё ещё" ; !derived from numeral э̄ххт??
 ё adv ;
-тэста:тэсса adv-dial ;!pronoun?
-тэста adv ;!pronoun?
+иннъенне adv "громко / loud" ; !derived from иннъе 'звучать / to sound, to resonate' (< инн'голос / voice')
+самас adv ;
+читэ adv-dial ;
+томальт adv-dial ;
 
-
-! ?derived adverbs from adjectives; suffix /-as/ <-ас>; weak grade, depalatalization (incl. velar umlaut)
-маӈас adv "назад / back (direction)" ; !derived from маӈӈь 'задний'
-ва̄нас adv "мало / slightly" ; !derived from ва̄ннҍ 'мало / some (adj)'
-ме̄дас adv "по направлению ветра / with the wind" ; !derived from мӣдтҍ 'попутный'
-
-! ?derived adverbs from adjectives
-э̄ввтэль adv "раньше" ;
-пуэраст adv "хорошо" ;
-
-! ?derived adverbs from nouns; suffix /-el't/ <-ельт> <-эльт> <-ӭльт>; weak grade
-нюэзельт adv "плохо / badly" ; !derived from нюэссь '(что-то) плохое / bad'
-ла̄шькэльт adv "лениво / lazily" ; !derived from ла̄шьк 'лень/ lazy'
-
-! ??
-а̄йкалт adv ;
-
-! ?derived adverbs from adjectives; suffix ?/-nes't/ (looks like a poss3sg.loc)
-мӣлкнесьт adv "тихонечко / медленно / slowly" ; !derived from мя̄лк
 
 ! ?derived adverbs from adjectives; suffix /-tenn'e/; strong grade
 ! historically, the /-t-/ must have been a coaffix (probably deriving a verb), that's why the strong grade appears 
-шӣгктэнне adv "хорошо / well" ; !derived from шӣг 'хороший / good'
-вэххтэнне adv "быстро / fast, quickly" ; !derived from вэхтэсь 'быстрый:attr / quick'
-
 ! ?derived adverbs from (derived) verbs; suffix /-enn'e/; no gradation
-ӣннъенне adv "громко / loud" ; !derived from ӣннъе 'звучать / to sound, to resonate' (< ӣнн'голос / voice')
-роаммъенне adv "радостно / gladly" ; !derived from ?роаммъе (< роамм 'радость / joy')
-
 
 а̄йка OAHPA_ADV ;
 а̄йнханна OAHPA_ADV ;
@@ -133,7 +125,6 @@ LEXICON Adverb
 поання OAHPA_ADV ;
 пычь OAHPA_ADV ;
 райя OAHPA_ADV ;
-са̄мас OAHPA_ADV ;
 соа̄йменҍ OAHPA_ADV ;
 сыз OAHPA_ADV ;
 сыссенҍ OAHPA_ADV ;
