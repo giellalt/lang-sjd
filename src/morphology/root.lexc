@@ -51,6 +51,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +PUNCT
 +LEFT
 +RIGHT
++Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 
 ! Other Tags
 +Use/Elid   !!= * @CODE@ = Elided substandard (Иванович~Иваныч, новее~новей, чтобы~чтоб, или~иль, коли~коль)
