@@ -24,9 +24,9 @@ Reflexive ;
 
 
 LEXICON Demonstrative
-+Pron+Dem+Disc:та dem ;
-+Pron+Dem+Prox:тэ dem ;
-+Pron+Dem+Dist:ту dem ;
+тадт+Pron+Dem+Disc:та dem ;
+тэдт+Pron+Dem+Prox:тэ dem ;
+тудт+Pron+Dem+Dist:ту dem ;
 
 LEXICON dem
 +Sg+Nom:дт K ;
@@ -52,13 +52,13 @@ LEXICON dem
 
 
 LEXICON Determiner
-+Pron+Det:манҍтэ K "какой / which (kind)" ;
-+Pron+Det+Use/Dial:манҍтэм K "какой / which (kind)" ;
-+Pron+Det:нанҍтэ K "такой / such (kind)" ;
-+Pron+Det+Use/Dial:нанҍтэм K "такой / suchch (kind)" ;
-+Pron+Det:мудта K "иной / different" ;
-+Pron+Det:мугка K "иной / different" ; !plural
-+Pron+Det:пугк K "всё / all" ;
+манҍтэ+Pron+Det:манҍтэ K "какой / which (kind)" ;
+манҍтэм+Pron+Det+Use/Dial:манҍтэм K "какой / which (kind)" ;
+нанҍтэ+Pron+Det:нанҍтэ K "такой / such (kind)" ;
+нанҍтэм+Pron+Det+Use/Dial:нанҍтэм K "такой / suchch (kind)" ;
+мудта+Pron+Det:мудта K "иной / different" ;
+мугка+Pron+Det:мугка K "иной / different" ; !plural
+пугк+Pron+Det:пугк K "всё / all" ;
 
 
 ! Personal pronouns
@@ -69,32 +69,32 @@ LEXICON Determiner
 ! d = stem ми-, ти-, си-
 
 LEXICON Personal
-+Pron+Pers:му pers_a ;
-+Pron+Pers:то pers_a ;
-+Pron+Pers:со pers_a ;
-+Pron+Pers:то pers_b ;
-+Pron+Pers:со pers_b ;
-+Pron+Pers:мы pers_c ;
-+Pron+Pers:ты pers_c ;
-+Pron+Pers:сы pers_c ;
-+Pron+Pers:ми pers_d ;
-+Pron+Pers:ти pers_d ;
-+Pron+Pers:си pers_d ;
+мунн+Pron+Pers+Sg1:му pers_a ;
+тонн+Pron+Pers+Sg2:то pers_a ;
+сонн+Pron+Pers+Sg3:со pers_a ;
+тонн+Pron+Pers+Sg2:то pers_b ;
+сонн+Pron+Pers+Sg3:со pers_b ;
+мунн+Pron+Pers+Pl1:мы pers_c ;
+тонн+Pron+Pers+Pl2:ты pers_c ;
+сонн+Pron+Pers+Pl3:сы pers_c ;
+мунн+Pron+Pers+Pl1:ми pers_d ;
+тонн+Pron+Pers+Pl2:ти pers_d ;
+сонн+Pron+Pers+Pl3:си pers_d ;
 
 LEXICON pers_a
-+Sg+Nom:нн K ;
-+Sg+Gen:н K ;
-+Sg+Acc:н K ;
-+Sg+Ill:ннӭ K ;
-+Sg+Loc:нэсьт K ;
-+Sg+Loc+Use/Dial:ст K ;
-+Sg+Com:нэнҍ K ;
-+Sg+Abe:нха K ;
-+Sg+Ess:ннэнҍ K ;
++Nom:нн K ;
++Gen:н K ;
++Acc:н K ;
++Ill:ннӭ K ;
++Loc:нэсьт K ;
++Loc+Use/Dial:ст K ;
++Com:нэнҍ K ;
++Abe:нха K ;
++Ess:ннэнҍ K ;
 
 LEXICON pers_b
-+Sg+Ill:ннӭ K ;
-+Sg+Loc+Use/Dial:ст K ;
+!+Ill:ннӭ K ;
++Loc+Use/Dial:ст K ;
 
 LEXICON pers_c
 +Sg+Ill+Use/Dial:ннӭ K ;
@@ -102,13 +102,13 @@ LEXICON pers_c
 +Pl+Ill:йе K ;
 
 LEXICON pers_d
-+Pl+Gen:н K ;
-+Pl+Acc:нэтҍ K ;
-+Pl+Loc:нэнҍ K ;
-+Pl+Loc+Use/Dial:ст K ;
-+Pl+Com:нэгуэйм K ;
-+Pl+Abe:нэха K ; 
-+Pl+Ess:ннэнҍ K ;
++Gen:н K ;
++Acc:нэтҍ K ;
++Loc:нэнҍ K ;
++Loc+Use/Dial:ст K ;
++Com:нэгуэйм K ;
++Abe:нэха K ; 
++Ess:ннэнҍ K ;
 
 
 ! Interrogative pronouns
@@ -119,11 +119,11 @@ LEXICON pers_d
 ! d = stem коамп-
 
 LEXICON Interrogative
-+Pron+Interr:ке̄ interr_a ;
-+Pron+Interr:ми interr_a ;
-+Pron+Interr:мэ̄ interr_b ;
-+Pron+Interr:ма̄ interr_c ;
-+Pron+Interr:коампэ interr_d ;
+ке̄+Pron+Interr:ке̄ interr_a ;
+ми+Pron+Interr:ми interr_a ;
+ми+Pron+Interr:мэ̄ interr_b ;
+ми+Pron+Interr:ма̄ interr_c ;
+коампэ+Pron+Interr:коампэ interr_d ;
 
 LEXICON interr_a
 +Sg+Nom: K ;
@@ -171,10 +171,10 @@ LEXICON interr_d
 ! what about коампнессе, коампнезэсьт, коампнезэ?
 
 LEXICON Indefinite
-+Pron+Indef:ни-ке̄ interr_a ;
-+Pron+Indef:ни-ми interr_a ;
-+Pron+Indef:ни-мэ̄ interr_b ;
-+Pron+Indef:ни-ма̄ interr_c ;
+ни-ке̄+Pron+Indef:ни-ке̄ interr_a ;
+ни-ми+Pron+Indef:ни-ми interr_a ;
+ни-ми+Pron+Indef:ни-мэ̄ interr_b ;
+ни-ми+Pron+Indef:ни-ма̄ interr_c ;
 
 
 ! Relative pronoun
@@ -183,8 +183,8 @@ LEXICON Indefinite
 ! b = stem ко-
 
 LEXICON Relative
-+Pron+Rel:ку rel_a ;
-+Pron+Rel:ко rel_b ;
+ку+Pron+Rel:ку rel_a ;
+ку+Pron+Rel:ко rel_b ;
 
 LEXICON rel_a
 +Sg+Nom: K ;
@@ -209,7 +209,7 @@ LEXICON rel_b
 
 
 LEXICON Reflexive
-+Pron+Refl:иджь refl_pron ;
+иджь+Pron+Refl:иджь refl_pron ;
 
 LEXICON refl_pron
 +Nom+Sg1:%>0 K ;
