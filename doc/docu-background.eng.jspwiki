@@ -3,7 +3,7 @@
 
 The Kildin analyser is still in its infancy.
 
-* [The source files are here|https://victorio.uit.no/langtech/trunk/gt/sjd/src/]
+* [The source files are here|https://gtsvn.uit.no/langtech/trunk/gt/sjd/src/]
 * [The analyser can be tested here|http://giellatekno.uit.no/cgi/index.sjd.eng.html]
 
 The Kildin analyser still has no lexicon, but dictionary resources are being edited.

@@ -1,7 +1,7 @@
 Kildin dictonaries work for Ciprian (deadline 13.09.2010):
 
  - compile sjd<->rus dictionaries for the lightweight dictionary lookup solution
-   (see http://victorio.uit.no/webdict/index.html)
+   (see http://gtsvn.uit.no/webdict/index.html)
  - if it works, this would be THE solution for a very simple 'broadband' dictionary client
    for working offline (using Apertium dictionary tools)
  - Cip is downloading, installing, and testing the lighweight dict on 
