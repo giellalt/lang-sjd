@@ -110,8 +110,7 @@ Cx:0 <=> V: _ Cx: (PALMARK:) %^WG: ; !doesn't work where V=а̄ (combining macro
 "Epenthetic vowel deletion (npal vowels)"
 !! __@RULENAME@__ e.g. ко̄рэб:ко̄рбэсьт, etc. шоабаш-:шоабш-
 Vx:0  <=> C _ C+ %^EPHV:0 %>: V ;
-    where Vx in ( а А ) ; 
-	where Vx in ( э Э ) ;
+    where Vx in ( а А э Э ) ;
 
 !"Palatalization (of nonpal clusters)"
 !!! __@RULENAME@__ e.g. шт:шьт, etc.
