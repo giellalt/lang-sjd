@@ -8,6 +8,8 @@
 
 
 
+ * +Symbol = independent symbols in the text stream, like £, €, ©
+
  * +Use/Elid    = Elided substandard (Иванович~Иваныч, новее~новей, чтобы~чтоб, или~иль, коли~коль)
  * +Use/Orth	 = Orthographic substandard
 

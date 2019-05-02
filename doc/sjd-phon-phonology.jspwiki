@@ -23,43 +23,33 @@ Trigger symbols
 
 !!!Rule section
 
-__Palatalization (clusters)__ e.g. шт:шьт, etc.
+__Quantitative CG xxy:xy (of nonpal cлusters)__  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, сыййт:сыйт, etc. 
 
-__Quantitative CG xxy:xy (npal cluster)__  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, сыййт:сыйт, etc. 
+__Qualitative CG xx:y (of voiced affricates)      __ i.e. джь : жь, дзь : зь, дз : з
 
+__Quantitative CG (of continuants)__  
 
-
-
-__Qualitative CG xx:y (sibilant)__ i.e. сс : з, шш : ж
-
-__Qualitative CG xx:y (voiced affricate)      __ i.e. джь : жь, дзь : зь, дз : з
-
-__Qualitative CG xx:yy (long preaspiration)__ e.g. һк : гк
-
-
-
-__De-Palatalization (clusters)__ e.g. лльк : ллк , ннҍц : ннц, etc.
-
-__Quantitative CG__  
-
-__Quantitative CG 2-Cns Cluster__  e.g. ?ма̄дт : ма̄д, ?ма̄дтҍ : ма̄дҍ
-
-__Palatalised Suffix Vowel (before deletion)__  e.g. ӣджь : ӣджя, кӯлль : кӯлле
-
-__Palatal Mark Deletion__  e.g. ӣджь : ӣджя, кӯлль : кӯлле
-
-__Half-Palatalised Suffix Vowel (before deletion)__  e.g. нюннҍ : нюнӓ
-
-__Half-Palatal Mark Deletion__  
+__ue>ua Ablaut__  
 
 __Epenthetic vowel deletion (npal vowels)__ e.g. ко̄рэб:ко̄рбэсьт, etc. шоабаш-:шоабш-
 
-__ue Diphtongisation__  
 
-__ja to i in 2D Illative__  
-
-__ue from long u 1__  
-
-__ue from long u 2__  
-
-__uu from ua in 4D __  
+     where Cx in ( к )
+           Cy in ( г ) 
+     matched ;
+Cy:0 <=> Cx _  (PALMARK:) %^WG:0 ;
+     where Cx in ( б г д )  
+           Cy in ( п к т )
+     matched ;
+   where Vx in ( а А э Э у У )
+         Vy in ( я Я е Е ю Ю ) 
+     where Vx in ( а А э Э )
+           Vy in ( ӓ Ӓ ӭ Ӭ ) 
+     matched ;
+ҍ:0 <=> C: _ ( Dummy:0 ) %>:0 [ :ӓ | :Ӓ | :ӭ | :Ӭ ] ;
+   where Vx in ( а А ) ; 
+э:а <=> у _ C:* %^DI:0  ;
+я:и <=> _ C:* %^DI:0  ;
+ӯ:у <=> _ :э  C:* %^DI:0  ;
+0:э <=> ӯ: _ C:* %^DI:0  ;
+а:0 <=> у _ C:* %^MON:0 ;
