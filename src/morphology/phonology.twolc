@@ -1,0 +1,251 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2018 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
+
+!! !!!Kildin Sámi TWOLC file
+!
+! $Id$
+
+!! !!Symbol declarations
+!! !Alphabet
+
+Alphabet
+  а А ӓ Ӓ а̄ А̄ б Б в В г Г д Д !!= * @CODE@  
+  е Е ё Ё е̄ Е̄ ё̄ Ё̄ ж Ж з З һ Һ !!= * @CODE@ 
+  и И ӣ Ӣ й Й ҋ Ҋ ј Ј к К л Л !!= * @CODE@ 
+  ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ о О !!= * @CODE@ 
+  о̄ О̄ п П р Р ҏ Ҏ с С т Т у У !!= * @CODE@ 
+  ӯ Ӯ ф Ф х Х ц Ц ч Ч ш Ш щ Щ !!= * @CODE@ 
+  ъ Ъ ы Ы ь Ь ъ Ъ ҍ Ҍ э Э ӭ Ӭ !!= * @CODE@ 
+  э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄         !!= * @CODE@ 
+
+! SNM 13.12.2018: Commented out the following two lines, they caused PUNCT
+! analyses of empty strings. The symbols are not used in any lexc file, which
+! makes the twolc definition useless.
+!  %´:0 
+!  %,:%´
+
+!! !Trigger symbols
+  %^1VOW:0		!!= * @CODE@ Vow trigger for epenthetic -э-
+  %^2VOW:0		!!= * @CODE@ Vow trigger 
+  %^3VOW:0		!!= * @CODE@ Vow trigger 
+  %^4VOW:0		!!= * @CODE@ Vow trigger 
+  %^5VOW:0		!!= * @CODE@ Vow trigger 
+  %^VOWSH:0             !!= * @CODE@ 
+  %^WG:0		!!= * @CODE@ for weak consonant stem gradation 
+  %^EPHV:0         !!= * @CODE@ 
+  %^DI:0             !!= * @CODE@ 
+  %^CLPAL:0    !!= * @CODE@ 
+  %^CLDPAL:0	!!= * @CODE@ for depalatalizing consonant stems
+  %^DPAL:0		!!= * @CODE@ for depalatalizing consonant stems
+  %^MON:0   !!= * @CODE@ 
+  %^PAL:0		!!= * @CODE@ for palatalizing consonsant stems
+
+! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
+ »7     ! »
+ «7     ! «
+ %[%>%] ! >
+ %[%<%] ! <
+
+! Morpheme boundaries:
+ «  ! Derivational prefix
+ »  ! Derivational suffix
+ %< ! Inflectional prefix
+ %> ! Inflectional suffix
+ #  ! Word boundary for both lexicalised and dynamic compounds
+ %^ ! (exceptional) soft hyphenation point
+ %- ! Hyphen for question particle
+ 
+! End of alphabet definitions
+;
+
+!! !!Sets
+Sets
+ C  = б Б в В г Г д Д ж Ж з З һ Һ й Й ҋ Ҋ ј Ј к К л Л ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ п П р Р ҏ Ҏ с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ ; !!= * @CODE@ 
+ V  = а А ӓ Ӓ а̄ А̄ е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э ӭ Ӭ э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ; !!= * @CODE@ 
+ PALMARK = ь Ь ҍ Ҍ ; !!= * @CODE@ 
+ VPLOS = г Г ; !!= * @CODE@ 
+ VLPLOS = к К ; !!= * @CODE@ 
+ PALCON = ж Ж й Й ҋ Ҋ ј Ј ч Ч ; !!= * @CODE@  can only by followed by PALVOW !so-called "palatalized C"
+ PALVOW = е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ; !!= * @CODE@ so-called "palatalized V"
+ HPLVOW = ӓ Ӓ ӭ Ӭ ; !!= * @CODE@  so-called "half-palatalized V"
+ NPLVOW = а А а̄ А̄ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э э̄ Э̄ ; !!= * @CODE@  so-called "non-palatalized V"
+ 
+ Dummy  = %^WG %^DI %^DPAL %^MON %> %^PAL %^CLPAL ; !!= * @CODE@ 
+
+
+!! !!!Rule section
+Rules
+
+"Quantitative CG xxy:xy (of nonpal cлusters)"
+!! __@RULENAME@__  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, сыййт:сыйт, etc. 
+Cx:0 <=> V: Cx: _ Cy: %^WG: ; !doesn't work where V=а̄ (combining macron)
+ where Cx in ( в л й й й м н н п р ш ш )  
+       Cy in ( т к в н т ч ц ч ч н к т )
+       matched ;
+	      	
+"Qualitative CG xx:y (of voiced affricates)"      
+!! __@RULENAME@__ i.e. джь : жь, дзь : зь, дз : з
+д:0 <=> V: _ Cx: (PALMARK:) %^WG: ; !doesn't work where V=а̄ (combining macron)
+ where Cx in ( з ж ) ;
+   
+"Quantitative CG (of continuants)"
+!! __@RULENAME@__  
+Cx:0 <=> V: _ Cx: (PALMARK:) %^WG: ; !doesn't work where V=а̄ (combining macron)
+ where Cx in ( в ж з й л м н ӈ р ф х ) ; 
+      
+"ue>ua Ablaut"
+!! __@RULENAME@__  
+э:а <=> у _ (C*:) (C:) %^CLDPAL:0  ;
+!this ablaut coincides with depalatalization of palatalized stems, e.g. 3sg.prs in verbs, ill.sg in (certain classes of) nouns
+
+"Epenthetic vowel deletion (npal vowels)"
+!! __@RULENAME@__ e.g. ко̄рэб:ко̄рбэсьт, etc. шоабаш-:шоабш-
+Vx:0  <=> C _ C+ %^EPHV:0 %>: V ;
+    where Vx in ( а А э Э ) ;
+
+
+
+!"Palatalization (of nonpal clusters)"
+! __@RULENAME@__ e.g. шт:шьт, etc.
+!0:ь <=> Cx _ Cy %^CLPAL:0 ;
+!	where	Cx in ( в л р ш ш )
+!			Cy in ( т к н к т )
+!			matched ;
+!0:ҍ <=> Cx _ Cy %^CLPAL:0 ;
+!	where	Cx in ( в л р ш ш )
+!			Cy in ( т к н к т )
+!			matched ;
+!this is a very explicit rule, where each valid consonant cluster is listed separately
+!valid clusters which do not undergo (orthographic) palatalization (e.g. -йн-, etc.) are simply not listed here to avoid them, hence this rule is partly orthographic rather than truly morphonological
+!the rule could be made truly morphonological by adding all valid consonant clusters and removing the palatalization mark by means of an additional rule
+!
+!this is a very explicit rule, where each valid consonant cluster is listed separately
+!morphonologically, this rule should work for palatalized and non-palatalized clusters alike, see below
+!"Quantitative CG xxy:xy "
+
+!"De-Palatalization (of pal clusters)"
+! __@RULENAME@__ e.g. лльк : ллк , ннҍц : ннц, etc.
+!ь:0 <=> Cx _ Cy (DUMMY:0) %^CLDPAL:0 ;
+!	where	Cx in ( в л м п р ш ш )  
+!            Cy in ( т к ч ч н к т )
+!	      	matched ;
+!ҍ:0 <=> Cx _ Cy (DUMMY:0) %^CLDPAL:0 ;
+!	where	Cx in ( н )  
+!            Cy in ( ц )
+!	      	matched ;
+!this is a very explicit rule, where each valid consonant cluster is listed separately
+!morphonologically, this rule should work for palatalized and non-palatalized clusters alike, see below
+!"Quantitative CG xxy:xy "
+!
+!
+!"Palatalization (geminates)"
+! __@RULENAME@__ e.g. шт:шьт, etc.
+!0:ҍ <=> Cx _ %^PAL:0 ;
+!	where	Cx in ( д н ӊ ӈ т ) ;
+!	
+!"Adjusting half-palatalization mark"
+! __@RULENAME@__ 
+!ь:ҍ <=> Cx:0 _ ;
+!	where	Cx in ( д н ӊ ӈ т ) ;
+!I try to write an orthographic rule here
+!
+!"Qualitative CG xx:y (sibilant)"
+! __@RULENAME@__ i.e. сс : з, шш : ж
+!Cx:Cy <=> Cx _ %^WG:0 ;
+!      where Cx in ( с ш )
+!            Cy in ( з ж ) 
+!      matched ;
+!currently: сс>сз
+!
+!"Qualitative CG xx:yy (long preaspiration)"
+! __@RULENAME@__ e.g. һк : гк
+!һ:Cy <=> V: _ Cx: (PALMARK:) %^WG:0 ;
+!      where Cx in ( к )
+!            Cy in ( г ) 
+!      matched ;
+!
+!"Qualitative CG xx:y (short preaspiration)"
+! __@RULENAME@__ e.g. һк : к
+!һ:Cy <=> V: _ Cx: (PALMARK:) %^WG:0 ;
+!      where Cx in ( к )
+!            Cy in ( г ) 
+!      matched ;
+!
+! сс:с vs. сс:з (only last one is already defined as a rule below)
+!"Qualitative CG1a"
+! __@RULENAME@__ this rule doesn't work yet
+!Cx:0 <=> V: _ Cx: (ь:) %^WG:0 ;
+!      where Cx in ( с ) ;
+!
+!"Quantitative CG 2-Cns Cluster"
+! __@RULENAME@__  e.g. ?ма̄дт : ма̄д, ?ма̄дтҍ : ма̄дҍ
+! Cy:0 <=> Cx _  (PALMARK:) %^WG:0 ;
+!      where Cx in ( б г д )  
+!            Cy in ( п к т )
+!      matched ;
+!
+!The following two rules should apply in combination, in order to first change a V-letter and later remove the trigger letter
+!"Palatalised Suffix Vowel (before deletion)"
+! __@RULENAME@__  e.g. ӣджь : ӣджя, кӯлль : кӯлле
+!Vx:Vy <=> ь: ( Dummy:0 ) %>: _ ;
+!    where Vx in ( а А э Э у У )
+!          Vy in ( я Я е Е ю Ю ) 
+!	matched ;
+!
+!orthographic rules
+!
+!"Palatal Mark Deletion"
+! __@RULENAME@__  e.g. ӣджь : ӣджя, кӯлль : кӯлле
+!Cx:0 <=> C: _ (Dummy:) %>:0 [ :я | :Я | :е | :Е ] ;
+!    where Cx in ( ь Ь ) ;
+!    !doesn't work yet
+!	 
+!The following two rules should apply in combination, in order to first change a V-letter and later remove the trigger letter
+!"Half-Palatalised Suffix Vowel (before deletion)"
+! __@RULENAME@__  e.g. нюннҍ : нюнӓ
+!Vx:Vy <=> ҍ: ( Dummy:0 ) %>: _ ;
+!      where Vx in ( а А э Э )
+!            Vy in ( ӓ Ӓ ӭ Ӭ ) 
+!      matched ;
+!
+!"Half-Palatal Mark Deletion"
+! __@RULENAME@__  
+! ҍ:0 <=> C: _ ( Dummy:0 ) %>:0 [ :ӓ | :Ӓ | :ӭ | :Ӭ ] ;
+!
+!"Epenthetic vowel deletion (npal vowels)"
+! __@RULENAME@__ e.g. ко̄рэб:ко̄рбэсьт, etc. [шоабаш-:шоабш-]
+!Vx:0  <=> C _ C+ %^EPHV:0 %>: V ;
+!    where Vx in ( а А ) ; 
+!	where Vx in ( э Э ) ;
+!
+!"ue Diphtongisation"
+! __@RULENAME@__  
+! э:а <=> у _ C:* %^DI:0  ;
+!
+!"ja to i in 2D Illative"
+! __@RULENAME@__  
+! я:и <=> _ C:* %^DI:0  ;
+!
+!"ue from long u 1"
+! __@RULENAME@__  
+! ӯ:у <=> _ :э  C:* %^DI:0  ;
+!
+!"ue from long u 2"
+! __@RULENAME@__  
+! 0:э <=> ӯ: _ C:* %^DI:0  ;
+!
+!"uu from ua in 4D" !does not work
+! __@RULENAME@__  
+! а:0 <=> у _ C:* %^MON:0 ;
+
