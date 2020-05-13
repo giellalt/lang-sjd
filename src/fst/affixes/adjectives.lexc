@@ -1,0 +1,49 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
+
+
+! ---------
+! Adjective inflection
+!----------
+
+LEXICON OAHPA_A
+A1 ; ! Just dumping the Oahpa adjectives here
+
+LEXICON A1
++Adj:	#		;
++Adj:	PredPl ;
+
+LEXICON A2
++Adj: Attr ;
++Adj: PredSg ; 
+
+LEXICON A3
++Adj:%^WG Attr ;
++Adj+Pred: # ;
++Adj: PredPl ;
+
+LEXICON A4
++Adj:%^WGас K ;
++Adj+Pred+Pl:ас K ;
+
+LEXICON Attr
++Attr:%>есь K ;
+
+LEXICON PredSg
++Pred:%^CLDPALэ K ; !I have to check if PRED is always depalatalized
+
+LEXICON PredPl
++Pred+Pl:%^WG K ;
+
+

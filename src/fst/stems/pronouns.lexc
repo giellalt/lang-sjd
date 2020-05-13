@@ -1,0 +1,264 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2018 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
+
+
+LEXICON Pronoun
+Demonstrative ;
+Determiner ;
+Personal ;
+Interrogative ;
+Indefinite ;
+Relative ;
+Reflexive ;
+
+
+LEXICON Demonstrative
+тадт+Pron+Dem+Disc:та dem ;
+тэдт+Pron+Dem+Prox:тэ dem ;
+тудт+Pron+Dem+Dist:ту dem ;
+
+LEXICON dem
++Sg+Nom:дт K ;
++Sg+Nom:дта K ; !yet unclear what their distribution and function is
++Sg+Gen:нн K ;
++Sg+Gen:нна K ; !yet unclear what their distribution and function is
++Sg+Acc:нн K ;
++Sg+Acc:нна K ; !yet unclear what their distribution and function is
++Sg+Ill:з K ;
++Sg+Loc:сьт K ;
++Sg+Com:йн K ;
++Sg+Abe:ннха K ;
++Sg+Ess:йн K ;
++Pl+Nom:гк K ;
++Long+Pl+Nom:гка K ; !yet unclear what their distribution and function is
++Pl+Gen:йт K ;
++Pl+Acc:йт K ;
++Pl+Ill:йт K ;
++Pl+Loc:йнэнҍ K ;
++Pl+Com:йтгуэйм K ;
++Pl+Abe:йтха K ;
++Pl+Ess:йнэнҍ K ;
+
+
+LEXICON Determiner
+манҍтэ+Pron+Det:манҍтэ K "какой / which (kind)" ;
+манҍтэм+Pron+Det+Use/Dial:манҍтэм K "какой / which (kind)" ;
+нанҍтэ+Pron+Det:нанҍтэ K "такой / such (kind)" ;
+нанҍтэм+Pron+Det+Use/Dial:нанҍтэм K "такой / suchch (kind)" ;
+мудта+Pron+Det:мудта K "иной / different" ;
+мугка+Pron+Det:мугка K "иной / different" ; !plural
+пугк+Pron+Det:пугк K "всё / all" ;
+
+
+! Personal pronouns
+! =================
+! a = stem му-, то-, со-
+! b = stem      тo-, сo-
+! c = stem мы-, ты-, сы-
+! d = stem ми-, ти-, си-
+
+LEXICON Personal
+мунн+Pron+Pers+Sg1:му pers_a ;
+тонн+Pron+Pers+Sg2:то pers_a ;
+сонн+Pron+Pers+Sg3:со pers_a ;
+тонн+Pron+Pers+Sg2:то pers_b ;
+сонн+Pron+Pers+Sg3:со pers_b ;
+мунн+Pron+Pers+Pl1:мы pers_c ;
+тонн+Pron+Pers+Pl2:ты pers_c ;
+сонн+Pron+Pers+Pl3:сы pers_c ;
+мунн+Pron+Pers+Pl1:ми pers_d ;
+тонн+Pron+Pers+Pl2:ти pers_d ;
+сонн+Pron+Pers+Pl3:си pers_d ;
+
+LEXICON pers_a
++Nom:нн K ;
++Gen:н K ;
++Acc:н K ;
++Ill:ннӭ K ;
++Loc:нэсьт K ;
++Loc+Use/Dial:ст K ;
++Com:нэнҍ K ;
++Abe:нха K ;
++Ess:ннэнҍ K ;
+
+LEXICON pers_b
+!+Ill:ннӭ K ;
++Loc+Use/Dial:ст K ;
+
+LEXICON pers_c
++Sg+Ill+Use/Dial:ннӭ K ;
++Pl+Nom:йй K ;
++Pl+Ill:йе K ;
+
+LEXICON pers_d
++Gen:н K ;
++Acc:нэтҍ K ;
++Loc:нэнҍ K ;
++Loc+Use/Dial:ст K ;
++Com:нэгуэйм K ;
++Abe:нэха K ; 
++Ess:ннэнҍ K ;
+
+
+! Interrogative pronouns
+! ======================
+! a = stem ке̄-, ми-
+! b = stem мэ̄-
+! c = stem ма̄-
+! d = stem коамп-
+
+LEXICON Interrogative
+ке̄+Pron+Interr:ке̄ interr_a ;
+ми+Pron+Interr:ми interr_a ;
+ми+Pron+Interr:мэ̄ interr_b ;
+ми+Pron+Interr:ма̄ interr_c ;
+коампэ+Pron+Interr:коампэ interr_d ;
+
+LEXICON interr_a
++Sg+Nom: K ;
++Sg+Gen:нн K ;
++Sg+Acc:нн K ;
++Sg+Ill:з K ;
++Sg+Loc:сьт K ;
++Sg+Com:йн K ;
++Sg+Abe:ннха K ;
++Sg+Ess:йн K ;
++Pl+Nom:гк K ;
++Pl+Gen:йт K ;
++Pl+Acc:йт K ;
++Pl+Ill:йт K ;
++Pl+Loc:йн K ;
++Pl+Com:йтгуэйм K ;
++Pl+Abe:йтха K ;
++Pl+Ess:йнэнҍ K ;
+
+LEXICON interr_b
++Sg+Gen:нн K ;
++Sg+Acc:нн K ;
++Sg+Ill:з K ;
++Sg+Com:йн K ;
++Sg+Abe:ннха K ;
++Sg+Ess:йн K ;
++Pl+Nom:гк K ;
++Pl+Gen:йт K ;
++Pl+Acc:йт K ;
++Pl+Ill:йт K ;
++Pl+Loc:йн K ;
++Pl+Com:йтгуэйм K ;
++Pl+Abe:йтха K ;
++Pl+Ess:йнэнҍ K ;
+
+LEXICON interr_c
++Sg+Loc:сьт K ;
+
+LEXICON interr_d
++Du+Nom: K ;
++Du+Loc:сьт K ;
++Du+Com:нҍ K ;
++Du+Abe:ха K ;
+! what about other case forms?
+! what about коампнессе, коампнезэсьт, коампнезэ?
+
+LEXICON Indefinite
+ни-ке̄+Pron+Indef:ни-ке̄ interr_a ;
+ни-ми+Pron+Indef:ни-ми interr_a ;
+ни-ми+Pron+Indef:ни-мэ̄ interr_b ;
+ни-ми+Pron+Indef:ни-ма̄ interr_c ;
+
+
+! Relative pronoun
+! =================
+! a = stem ку-
+! b = stem ко-
+
+LEXICON Relative
+ку+Pron+Rel:ку rel_a ;
+ку+Pron+Rel:ко rel_b ;
+
+LEXICON rel_a
++Sg+Nom: K ;
++Pl+Nom:гк K ;
+
+LEXICON rel_b
++Sg+Gen:нн K ;
++Sg+Acc:нн K ;
++Sg+Ill:з K ;
++Sg+Ill:нн K ;
++Sg+Loc:ннэсьт K ;
++Sg+Com:йн K ;
++Sg+Ess:йн K ;
++Sg+Abe:ннха K ;
++Pl+Gen:йт K ;
++Pl+Acc:йт K ;
++Pl+Ill:йт K ;
++Pl+Loc:йн K ;
++Pl+Com:йтгуэйм K ;
++Pl+Abe:йтха K ;
++Pl+Ess:йнэнҍ K ;
+
+
+LEXICON Reflexive
+иджь+Pron+Refl:иджь refl_pron ;
+
+LEXICON refl_pron
++Nom+Sg1:%>0 K ;
++Nom+Sg2:%>0 K ;
++Nom+Sg3:%>0 K ;
++Nom+Pl1:%^WG%>а K ;
++Nom+Pl2:%^WG%>а K ;
++Nom+Pl3:%^WG%>а K ;
++Gen+Sg1:%^WG%>aн K ;
++Gen+Sg2:%^WG%>aнт K ;
++Gen+Sg3:%^WG%>есь K ;
++Gen+Pl1:%^WG%>едaн K ;
++Gen+Pl2:%^WG%>едaнт K ;
++Gen+Pl3:%^WG%>едӭсь K ;
++Acc+Sg1:%^WG%>aн K ;
++Acc+Sg2:%^WG%>aнт K ;
++Acc+Sg3:%^WG%>есь K ;
++Acc+Pl1:%^WG%>едан K ;
++Acc+Pl2:%^WG%>едант K ;
++Acc+Pl3:%^WG%>едӭсь K ;
++Loc+Sg1:%^WG%>сaн K ;
++Loc+Sg2:%^WG%>сaнт K ;
++Loc+Sg3:%^WG%>сесь K ;
++Loc+Pl1:%^WG%>eсaн K ;
++Loc+Pl2:%^WG%>eсaнт K ;
++Loc+Pl3:%^WG%>eсесь K ;
++Ill+Sg1:%>сан K ;
++Ill+Sg2:%>сант K ;
++Ill+Sg3:%>сесь K ;
++Ill+Pl1:%^WG%>едaн K ;
++Ill+Pl2:%^WG%>едaнт K ;
++Ill+Pl3:%^WG%>едӭсь K ;
++Com+Sg1:%^WG%>енан K ;
++Com+Sg2:%^WG%>енант K ;
++Com+Sg3:%^WG%>енесь K ;
++Com+Pl1:%^WG%>едангуэйм K ;
++Com+Pl2:%^WG%>едантгуэйм K ;
++Com+Pl3:%^WG%>едӭсьгуэйм K ;
++Abe+Sg1:%^WG%>aнха K ;
++Abe+Sg2:%^WG%>aнтха K ;
++Abe+Sg3:%^WG%>есьха K ;
++Abe+Pl1:%^WG%>едaнха K ;
++Abe+Pl2:%^WG%>едaнтха K ;
++Abe+Pl3:%^WG%>едӭсьха K ;
++Ess+Sg1:%>нан K ;
++Ess+Sg2:%>нант K ;
++Ess+Sg3:%>несь K ;
++Ess+Pl1:%>енан K ;
++Ess+Pl2:%>енант K ;
++Ess+Pl3:%>енесь K ;
+
+!More effective rules (less redundency) are needed, e.g. many suffixes re-occur

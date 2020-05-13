@@ -1,0 +1,137 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - кӯсс:
+    кӯсс+N+Sg+Nom: кӯсс
+    кӯсс+N+Sg+Acc: кӯз
+    кӯсс+N+Sg+Gen: кӯз
+    кӯсс+N+Sg+Ill: кӯссе
+    кӯсс+N+Sg+Loc: кӯзэсьт
+    кӯсс+N+Sg+Com: кӯзэнҍ
+    кӯсс+N+Sg+Abe: кӯзха
+    кӯсс+N+Pl+Nom: кӯз
+    кӯсс+N+Pl+Acc: кӯзэтҍ
+    кӯсс+N+Pl+Gen: [кӯзэ,кӯзэтҍ]
+    кӯсс+N+Pl+Ill: кӯзэтҍ
+    кӯсс+N+Pl+Loc: кӯзэнҍ
+    кӯсс+N+Pl+Com: кӯзэгуэйм
+    кӯсс+N+Pl+Abe: кӯзэха
+    кӯсс+N+Ess: кӯссэнҍ
+    кӯсс+N+Par: кӯссэ
+
+  Noun - ме̄рр: 
+    ме̄рр+N+Sg+Nom: ме̄рр
+    ме̄рр+N+Sg+Acc: ме̄р
+    ме̄рр+N+Sg+Gen: ме̄р
+    ме̄рр+N+Sg+Ill: ме̄рре
+    ме̄рр+N+Sg+Loc: ме̄рэсьт
+    ме̄рр+N+Sg+Com: ме̄рэнҍ
+    ме̄рр+N+Sg+Abe: ме̄рха
+    ме̄рр+N+Pl+Nom: ме̄р
+    ме̄рр+N+Pl+Acc: ме̄рэтҍ
+    ме̄рр+N+Pl+Gen: [ме̄рэ,ме̄рэтҍ]
+    ме̄рр+N+Pl+Ill: ме̄рэтҍ
+    ме̄рр+N+Pl+Loc: ме̄рэнҍ
+    ме̄рр+N+Pl+Com: ме̄рэгуэйм
+    ме̄рр+N+Pl+Abe: ме̄рэха
+    ме̄рр+N+Ess: ме̄ррэнҍ
+    ме̄рр+N+Par: ме̄ррэ
+
+  Noun - эхтнэгк: #"союз - union" 
+    эхтнэгк+N+Sg+Nom: эхтнэгк
+    эхтнэгк+N+Sg+Gen: эхтнэг
+    эхтнэгк+N+Sg+Acc: эхтнэг
+    эхтнэгк+N+Sg+Ill: эхтнэгке
+    эхтнэгк+N+Sg+Loc: эхтнэгэсьт
+    эхтнэгк+N+Sg+Com: эхтнэгэнҍ
+    эхтнэгк+N+Sg+Abe: эхтнэгха
+    эхтнэгк+N+Pl+Nom: эхтнэг
+    эхтнэгк+N+Pl+Gen: [эхтнэгэ,эхтнэгэтҍ]
+    эхтнэгк+N+Pl+Acc: эхтнэгэтҍ
+    эхтнэгк+N+Pl+Ill: эхтнэгэтҍ
+    эхтнэгк+N+Pl+Loc: эхтнэгэнҍ
+    эхтнэгк+N+Pl+Com: эхтнэгэгуэйм
+    эхтнэгк+N+Pl+Abe: эхтнэгэха
+    эхтнэгк+N+Ess: эхтнэгкэнҍ
+    эхтнэгк+N+Par: эхтнэгкэ
+
+  Noun - кӣдт: #"рука / hand, arm" 
+    кӣдт+N+Sg+Nom: кӣдт
+    кӣдт+N+Sg+Gen: кӣд
+    кӣдт+N+Sg+Acc: кӣд
+    кӣдт+N+Sg+Ill: кӣдтӭ
+    кӣдт+N+Sg+Loc: кӣдэсьт
+    кӣдт+N+Sg+Com: кӣдэнҍ
+    кӣдт+N+Sg+Abe: кӣдха
+    кӣдт+N+Pl+Nom: кӣд
+    кӣдт+N+Pl+Gen: [кӣдэ,кӣдэтҍ]
+    кӣдт+N+Pl+Acc: кӣдэтҍ
+    кӣдт+N+Pl+Ill: кӣдэтҍ
+    кӣдт+N+Pl+Loc: кӣдэнҍ
+    кӣдт+N+Pl+Com: кӣдэгуэйм
+    кӣдт+N+Pl+Abe: кӣдэха
+    кӣдт+N+Ess: кӣдтэнҍ
+    кӣдт+N+Par: кӣдтэ
+
+  Noun - ка̄ннҍцвудт: #"рука / hand, arm" 
+    ка̄ннҍцвудт+N+Sg+Nom: ка̄ннҍцвудт
+    ка̄ннҍцвудт+N+Sg+Gen: ка̄ннҍцвуд
+    ка̄ннҍцвудт+N+Sg+Acc: ка̄ннҍцвуд
+    ка̄ннҍцвудт+N+Sg+Ill: ка̄ннҍцвудтӭ
+    ка̄ннҍцвудт+N+Sg+Loc: ка̄ннҍцвудэсьт
+    ка̄ннҍцвудт+N+Sg+Com: ка̄ннҍцвудэнҍ
+    ка̄ннҍцвудт+N+Sg+Abe: ка̄ннҍцвудха
+    ка̄ннҍцвудт+N+Pl+Nom: ка̄ннҍцвуд
+    ка̄ннҍцвудт+N+Pl+Gen: [ка̄ннҍцвудэ,ка̄ннҍцвудэтҍ]
+    ка̄ннҍцвудт+N+Pl+Acc: ка̄ннҍцвудэтҍ
+    ка̄ннҍцвудт+N+Pl+Ill: ка̄ннҍцвудэтҍ
+    ка̄ннҍцвудт+N+Pl+Loc: ка̄ннҍцвудэнҍ
+    ка̄ннҍцвудт+N+Pl+Com: ка̄ннҍцвудэгуэйм
+    ка̄ннҍцвудт+N+Pl+Abe: ка̄ннҍцвудэха
+    ка̄ннҍцвудт+N+Ess: ка̄ннҍцвудтэнҍ
+    ка̄ннҍцвудт+N+Par: ка̄ннҍцвудтэ
+
+  Noun - ыйй: #"ночь / night" 
+    ыйй+N+Sg+Nom: ыйй
+    ыйй+N+Sg+Gen: ый
+    ыйй+N+Sg+Acc: ый
+#    ыйй+N+Sg+Ill: ыйе
+#    ыйй+N+Sg+Loc: ыйесьт
+
+  Noun - кӯшшк: #"порог в реке / rapids"
+    кӯшшк+N+Sg+Nom: кӯшшк
+    кӯшшк+N+Sg+Gen: кӯшк
+    кӯшшк+N+Sg+Acc: кӯшк
+#    кӯшшк+N+Sg+Ill: кӯшшькэ
+    кӯшшк+N+Sg+Loc: кӯшкэсьт
+    кӯшшк+N+Sg+Com: кӯшкэнҍ
+    кӯшшк+N+Sg+Abe: кӯшкха
+    кӯшшк+N+Pl+Nom: кӯшк
+    кӯшшк+N+Pl+Gen: [кӯшкэ,кӯшкэтҍ]
+    кӯшшк+N+Pl+Acc: кӯшкэтҍ
+    кӯшшк+N+Pl+Ill: кӯшкэтҍ
+    кӯшшк+N+Pl+Loc: кӯшкэнҍ
+    кӯшшк+N+Pl+Com: кӯшкэгуэйм
+    кӯшшк+N+Pl+Abe: кӯшкэха
+    кӯшшк+N+Ess: кӯшшкэнҍ
+    кӯшшк+N+Par: кӯшшкэ
+
+
+#NOTES (to be collected in a separate file later)
+#MR: The inflection foot (=suffix -нэгк) is monosyllabic. Hence multi-syllabic words can also belong to the present class; in a morphophonologically more accurate description we would assign the inflection class (and the consequent fst rules) just to the suffix part. However, in a learner dictionary each lexeme derived by this suffix needs to be tagged for class and paradigms have to be generated for the whole lexeme with its actual translation (rather than abstract glossing: эхт-нэгк [one-SUBSTANTIVIZER:INFLECTION]).
+
+#MR: According to Kert 1971 Sg+Ess and Pl+Ess are syncretic forms. Here I follow the common description of Sámi Essives without a number destinction (like Partitive). Šaršina 2008 presents an obscure synctetism between Pl+Ess and Pl+Com. We will include this form once it is attested in real texts.

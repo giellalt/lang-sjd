@@ -1,0 +1,1460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lexicon xml:lang="sme">
+  <entry>
+    <lemma>е̄лле</lemma>
+    <pos class="V"/>
+    <translations>
+      <tr xml:lang="rus">жить</tr>
+      <tr xml:lang="nob">live</tr>
+      <tr xml:lang="ned">wonen</tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>по̄ррэ</lemma>
+    <pos class="V"/>
+    <translations>
+      <tr xml:lang="rus">есть</tr>
+      <tr xml:lang="rus">кушать</tr>
+      <tr xml:lang="nob">eat</tr>
+      <tr xml:lang="ned">eten</tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD"/>
+      <sem class="FOOD-DRINK"/>
+      <sem class="ACTIVITY"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>ю̄гкэ</lemma>
+    <pos class="V"/>
+    <translations>
+      <tr xml:lang="rus">пить</tr>
+      <tr xml:lang="nob">drink</tr>
+      <tr xml:lang="ned">drinken</tr>
+    </translations>
+    <semantics>
+      <sem class="DRINK"/>
+      <sem class="FOOD-DRINK"/>
+      <sem class="ACTIVITY"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>вӣдже</lemma>
+    <pos class="V"/>
+    <translations>
+      <tr xml:lang="rus">бежать (человек)</tr>
+      <tr xml:lang="nob">run (human)</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="MOVEMENT"/>
+      <sem class="TRAVEL"/>
+      <sem class="ACTIVITY"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>каррэ</lemma>
+    <pos class="V"/>
+    <translations>
+      <tr xml:lang="rus">бежать (животное)</tr>
+      <tr xml:lang="nob">run (animal)</tr>
+      <tr xml:lang="ned">lopen</tr>
+    </translations>
+    <semantics>
+      <sem class="MOVEMENT"/>
+      <sem class="TRAVEL"/>
+      <sem class="ACTIVITY"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>карсэ</lemma>
+    <pos class="V"/>
+    <translations>
+      <tr xml:lang="rus">побегать (животное)</tr>
+      <tr xml:lang="rus">побежать (животное)</tr>
+      <tr xml:lang="nob">to run a bit (animal)</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="MOVEMENT"/>
+      <sem class="TRAVEL"/>
+      <sem class="ACTIVITY"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>кыррьтэ</lemma>
+    <pos class="V"/>
+    <translations>
+      <tr xml:lang="rus">летать</tr>
+      <tr xml:lang="rus">лететь</tr>
+      <tr xml:lang="nob">fly</tr>
+      <tr xml:lang="ned">vliegen</tr>
+    </translations>
+    <semantics>
+      <sem class="MOVEMENT"/>
+      <sem class="TRAVEL"/>
+      <sem class="ACTITVITY"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>пе̄гке</lemma>
+    <pos class="V"/>
+    <translations>
+      <tr xml:lang="rus">ползти</tr>
+      <tr xml:lang="nob">crawl</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="MOVEMENT"/>
+      <sem class="ACTITVITY"/>
+      <sem class="TRAVEL"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>чӯййкэ</lemma>
+    <pos class="V"/>
+    <translations>
+      <tr xml:lang="rus">идти на лыжах</tr>
+      <tr xml:lang="nob">to ski</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="MOVEMENT"/>
+      <sem class="TRAVEL"/>
+      <sem class="ACTIVITY"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>вāннҍцэ</lemma>
+    <pos class="V"/>
+    <translations>
+      <tr xml:lang="rus">идти</tr>
+      <tr xml:lang="nob">to go</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="MOVEMENT"/>
+      <sem class="TRAVEL"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>выйе</lemma>
+    <pos class="V"/>
+    <translations>
+      <tr xml:lang="rus">ехать</tr>
+      <tr xml:lang="nob">to drive</tr>
+      <tr xml:lang="nob">to go</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="MOVEMENT"/>
+      <sem class="TRAVEL"/>
+      <sem class="ACTIVITY"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>ёадтсэллэ</lemma>
+    <pos class="V"/>
+    <translations>
+      <tr xml:lang="rus">намереваться ехать</tr>
+      <tr xml:lang="nob">to intend to drive</tr>
+      <tr xml:lang="nob">to intend to go</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="MOVEMENT"/>
+      <sem class="TRAVEL"/>
+      <sem class="ACTIVITY"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>вӯллькэ</lemma>
+    <pos class="V"/>
+    <translations>
+      <tr xml:lang="rus">пойти</tr>
+      <tr xml:lang="rus">отправиться</tr>
+      <tr xml:lang="rus">направиться</tr>
+      <tr xml:lang="nob">to start to go</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="MOVEMENT"/>
+      <sem class="TRAVEL"/>
+      <sem class="ACTIVITY"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>кархэ</lemma>
+    <pos class="V"/>
+    <translations>
+      <tr xml:lang="rus">ехать быстро</tr>
+      <tr xml:lang="rus">мчаться</tr>
+      <tr xml:lang="nob">to drive fastly</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="MOVEMENT"/>
+      <sem class="TRAVEL"/>
+      <sem class="ACTIVITY"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>ёадтӭ</lemma>
+    <pos class="V"/>
+    <translations>
+      <tr xml:lang="rus">ехать на чем</tr>
+      <tr xml:lang="rus">идти</tr>
+      <tr xml:lang="rus">двигаться</tr>
+      <tr xml:lang="nob">to travel</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="MOVEMENT"/>
+      <sem class="TRAVEL"/>
+      <sem class="ACTIVITY"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>кӯмпар</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">гриб</tr>
+      <tr xml:lang="nob">mushroom</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD"/>
+      <sem class="FOOD-DRINK"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>чāдзь</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">вода</tr>
+      <tr xml:lang="nob">water</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD-DRINK"/>
+      <sem class="DRINK"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+    </entry>
+    <entry>
+      <lemma>сāххьп</lemma>
+      <pos class="N"/>
+      <translations>
+      <tr xml:lang="rus">сок от ягод</tr>
+      <tr xml:lang="rus">желчный пузырь</tr>
+      <tr xml:lang="rus">жёлчь</tr>
+      <tr xml:lang="nob">berry juice</tr>
+      <tr xml:lang="nob">gastric juice</tr>
+      <tr xml:lang="ned"></tr>
+      </translations>
+      <semantics>
+	<sem class="FOOD-DRINK"/>
+	<sem class="DRINK"/>
+      </semantics>
+      <sources>
+	<book name="l2"/>
+      </sources>
+  </entry>
+  <entry>
+    <lemma>ле̄ййп</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">хлеб</tr>
+      <tr xml:lang="nob">bread</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD"/>
+      <sem class="FOOD-DRINK"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>вя̄рр</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">суп</tr>
+      <tr xml:lang="nob">soup</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD"/>
+      <sem class="FOOD-DRINK"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>я̄вв</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">мука</tr>
+      <tr xml:lang="rus">суп из мяса или рыбы заправленный мукой</tr>
+      <tr xml:lang="nob">flour</tr>
+      <tr xml:lang="nob">soup with flour</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD"/>
+      <sem class="FOOD-DRINK"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>саррь</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">черника</tr>
+      <tr xml:lang="nob">blueberry</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD"/>
+      <sem class="FOOD-DRINK"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>вуэннч</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">мясо</tr>
+      <tr xml:lang="nob">meat</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD"/>
+      <sem class="FOOD-DRINK"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>пӯййт</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">жир</tr>
+      <tr xml:lang="rus">сало</tr>
+      <tr xml:lang="nob">fat</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD"/>
+      <sem class="FOOD-DRINK"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>чай</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">чай</tr>
+      <tr xml:lang="nob">tea</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD-DRINK"/>
+      <sem class="DRINK"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>кофе</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">кофе</tr>
+      <tr xml:lang="nob">coffеe</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD-DRINK"/>
+      <sem class="DRINK"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>вӣн</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">вино</tr>
+      <tr xml:lang="nob">wine</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD-DRINK"/>
+      <sem class="DRINK"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>пиво</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">пиво</tr>
+      <tr xml:lang="nob">beer</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD-DRINK"/>
+      <sem class="DRINK"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>ма̄ййт</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">молоко</tr>
+      <tr xml:lang="nob">milk</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD-DRINK"/>
+      <sem class="DRINK"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>вӣллькесь роавас ча̄дзь</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">водка</tr>
+      <tr xml:lang="nob">vodka</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD-DRINK"/>
+      <sem class="DRINK"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>водка</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">водка</tr>
+      <tr xml:lang="nob">vodka</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD-DRINK"/>
+      <sem class="DRINK"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>вӯйй</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">масло</tr>
+      <tr xml:lang="rus">топленый жир</tr>
+      <tr xml:lang="nob">butter</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD-DRINK"/>
+      <sem class="FOOD"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>сӯлль</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">соль</tr>
+      <tr xml:lang="nob">salt</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD-DRINK"/>
+      <sem class="FOOD"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>пэрре</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">пирог</tr>
+      <tr xml:lang="nob">pie</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD-DRINK"/>
+      <sem class="FOOD"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>кӯлль</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">рыба</tr>
+      <tr xml:lang="nob">fish</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD-DRINK"/>
+      <sem class="FOOD"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>шāӈӈьк</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">ватрушка</tr>
+      <tr xml:lang="nob">patty</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD-DRINK"/>
+      <sem class="FOOD"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>чӯххпэ</lemma>
+    <pos class="V"/>
+    <translations>
+      <tr xml:lang="rus">резать</tr>
+      <tr xml:lang="rus">обрезать</tr>
+      <tr xml:lang="rus">нарезать</tr>
+      <tr xml:lang="nob">cut</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD-DRINK"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>е̄дтэ</lemma>
+    <pos class="V"/>
+    <translations>
+      <tr xml:lang="rus">резать</tr>
+      <tr xml:lang="rus">отрезать</tr>
+      <tr xml:lang="rus">разрезать</tr>
+      <tr xml:lang="rus">нарезать</tr>
+      <tr xml:lang="nob">cut</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD-DRINK"/>
+      <sem class="ACTIVITY"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>пāшшьтэ</lemma>
+    <pos class="V"/>
+    <translations>
+      <tr xml:lang="rus">печь</tr>
+      <tr xml:lang="rus">испечь</tr>
+      <tr xml:lang="rus">жарить</tr>
+      <tr xml:lang="rus">изжарить</tr>
+      <tr xml:lang="rus">гореть</tr>
+      <tr xml:lang="rus">светиться</tr>
+      <tr xml:lang="nob">to bake</tr>
+      <tr xml:lang="nob">to fry</tr>
+      <tr xml:lang="nob">to burn</tr>
+      <tr xml:lang="nob">to shine</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="FOOD-DRINK"/>
+      <sem class="ACTIVITY"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+    <entry>
+      <lemma>кыппьте</lemma>
+      <pos class="V"/>
+      <translations>
+      <tr xml:lang="rus">варить</tr>
+	<tr xml:lang="nob">to cook</tr>
+	<tr xml:lang="ned"></tr>
+      </translations>
+      <semantics>
+	<sem class="FOOD-DRINK"/>
+	<sem class="ACTIVITY"/>
+      </semantics>
+      <sources>
+	<book name="l1"/>
+      </sources>
+    </entry>
+    <entry>
+      <lemma>тӯльтхэ</lemma>
+      <pos class="V"/>
+      <translations>
+      <tr xml:lang="rus">вскипятить</tr>
+	<tr xml:lang="nob">to boile</tr>
+	<tr xml:lang="ned"></tr>
+      </translations>
+      <semantics>
+	<sem class="FOOD-DRINK"/>
+      </semantics>
+      <sources>
+	<book name="l2"/>
+      </sources>
+    </entry>
+    <entry>
+      <lemma>вӣршэ</lemma>
+      <pos class="V"/>
+      <translations>
+      <tr xml:lang="rus">мешать</tr>
+      <tr xml:lang="rus">размешивать</tr>
+      <tr xml:lang="rus">перемешив ать</tr>
+	<tr xml:lang="nob">to mix</tr>
+	<tr xml:lang="nob">to stir</tr>
+	<tr xml:lang="ned"></tr>
+      </translations>
+      <semantics>
+	<sem class="FOOD-DRINK"/>
+      </semantics>
+      <sources>
+	<book name="l2"/>
+      </sources>
+    </entry>
+    <entry>
+      <lemma>мешшъе</lemma>
+      <pos class="V"/>
+      <translations>
+      <tr xml:lang="rus">мешать</tr>
+      <tr xml:lang="rus">размешивать</tr>
+	<tr xml:lang="nob">to stir</tr>
+	<tr xml:lang="nob">to mix</tr>
+	<tr xml:lang="ned"></tr>
+      </translations>
+      <semantics>
+	<sem class="FOOD-DRINK"/>
+	<sem class="ACTIVITY"/>
+      </semantics>
+      <sources>
+	<book name="l2"/>
+      </sources>
+    </entry>
+    <entry>
+      <lemma>суэллдэ</lemma>
+      <pos class="V"/>
+      <translations>
+      <tr xml:lang="rus">солить</tr>
+	<tr xml:lang="nob">to salt</tr>
+	<tr xml:lang="ned"></tr>
+      </translations>
+      <semantics>
+	<sem class="FOOD-DRINK"/>
+      </semantics>
+      <sources>
+	<book name="l2"/>
+      </sources>
+    </entry>
+  <entry>
+    <lemma>ме̄рр</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">море</tr>
+      <tr xml:lang="nob">sea</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="PLACE"/>
+      <sem class="TRAVEL"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>уррьт</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">скалистая гора</tr>
+      <tr xml:lang="nob">rocky mountain</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="PLACE"/>
+      <sem class="TRAVEL"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>кāннҍт</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">холм</tr>
+      <tr xml:lang="rus">гора</tr>
+      <tr xml:lang="nob">mountain</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="PLACE"/>
+      <sem class="TRAVEL"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>сыййт</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">село</tr>
+      <tr xml:lang="rus">селение</tr>
+      <tr xml:lang="rus">деревня</tr>
+      <tr xml:lang="nob">village</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="PLACE"/>
+      <sem class="TRAVEL"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>ча̄рр</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">тундра</tr>
+      <tr xml:lang="nob">tundra</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="PLACE"/>
+      <sem class="TRAVEL"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>я̄ввьр</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">озеро</tr>
+      <tr xml:lang="nob">lake</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="PLACE"/>
+      <sem class="TRAVEL"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>вāррь</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">лес</tr>
+      <tr xml:lang="nob">forest</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="PLACE"/>
+      <sem class="TRAVEL"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>па̄ххьк</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">тундровая гора</tr>
+      <tr xml:lang="nob">mountain in the tundra</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="PLACE"/>
+      <sem class="TRAVEL"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>суэл</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">остров</tr>
+      <tr xml:lang="nob">island</tr>
+      <sem class="TRAVEL"/>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="PLACE"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>пэ̄ҏҏт</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">дом</tr>
+      <tr xml:lang="rus">жилище</tr>
+      <tr xml:lang="rus">квартира</tr>
+      <tr xml:lang="rus">комната</tr>
+      <tr xml:lang="nob">house</tr>
+      <tr xml:lang="nob">flat</tr>
+      <tr xml:lang="nob">room</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="PLACE"/>
+      <sem class="TRAVEL"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>ля̄ммт</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">густой лес</tr>
+      <tr xml:lang="rus">тайга</tr>
+      <tr xml:lang="nob">wood</tr>
+      <tr xml:lang="nob">forest</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="PLACE"/>
+      <sem class="TRAVEL"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>ёгк</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">река</tr>
+      <tr xml:lang="nob">river</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="PLACE"/>
+      <sem class="TRAVEL"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>коавас</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">кувакса</tr>
+      <tr xml:lang="nob">saami tent</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="PLACE"/>
+      <sem class="TRAVEL"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>ланнҍ</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">город</tr>
+      <tr xml:lang="nob">city</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="PLACE"/>
+      <sem class="TRAVEL"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>байна</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">баня</tr>
+      <tr xml:lang="nob">sauna</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="PLACE"/>
+      <sem class="TRAVEL"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>па̄ррьн</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">парень</tr>
+      <tr xml:lang="rus">юноша</tr>
+      <tr xml:lang="rus">мальчик</tr>
+      <tr xml:lang="rus">ребенок</tr>
+      <tr xml:lang="nob">boy</tr>
+      <tr xml:lang="nob">child</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>а̄джя</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">папа</tr>
+      <tr xml:lang="nob">dad</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>а̄джь</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">отец</tr>
+      <tr xml:lang="nob">father</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>я̄нна</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">мама</tr>
+      <tr xml:lang="nob">mum</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>е̄ннҍ</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">мать</tr>
+      <tr xml:lang="nob">mother</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>вуэррьпенҍ</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">сестра</tr>
+      <tr xml:lang="nob">sister</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>вӣлльй</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">брат</tr>
+      <tr xml:lang="nob">brother</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>ка̄ннҍц</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">друг</tr>
+      <tr xml:lang="rus">подруга</tr>
+      <tr xml:lang="nob">friend</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>а̄ка</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">бабушка</tr>
+      <tr xml:lang="rus">старая женщина</tr>
+      <tr xml:lang="rus">старуха</tr>
+      <tr xml:lang="rus">старушка</tr>
+      <tr xml:lang="rus">жёнушка</tr>
+      <tr xml:lang="nob">grandmother</tr>
+      <tr xml:lang="nob">old women</tr>
+      <tr xml:lang="nob">my little wife</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>пāррьшя</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">мальчик</tr>
+      <tr xml:lang="rus">малыш</tr>
+      <tr xml:lang="rus">ребёнок</tr>
+      <tr xml:lang="nob">little boy</tr>
+      <tr xml:lang="nob">small child</tr>
+      <tr xml:lang="nob">child</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>вуэзьхемесь</lemma>
+    <pos class="A"/>
+    <translations>
+      <tr xml:lang="rus">несчастный</tr>
+      <tr xml:lang="nob">unhappy</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>коаллэш</lemma>
+    <pos class="A"/>
+    <translations>
+      <tr xml:lang="rus">дорогой</tr>
+      <tr xml:lang="rus">ценный</tr>
+      <tr xml:lang="nob">dear</tr>
+      <tr xml:lang="nob">expensive</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>ра̄кесь</lemma>
+    <pos class="A"/>
+    <translations>
+      <tr xml:lang="rus">ласковый</tr>
+      <tr xml:lang="rus">дружный</tr>
+      <tr xml:lang="nob">nice</tr>
+       <tr xml:lang="nob">tender</tr>
+        <tr xml:lang="nob">friendly</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>мӣллвэсь</lemma>
+    <pos class="A"/>
+    <translations>
+      <tr xml:lang="rus">умный</tr>
+      <tr xml:lang="rus">толковый</tr>
+      <tr xml:lang="nob">clever</tr>
+      <tr xml:lang="nob">smart</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>мӣллшэсь</lemma>
+    <pos class="A"/>
+    <translations>
+      <tr xml:lang="rus">милый</tr>
+      <tr xml:lang="nob">nice</tr>
+      <tr xml:lang="nob">sweet</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>тоӆӆкшэсь</lemma>
+    <pos class="A"/>
+    <translations>
+      <tr xml:lang="rus">умный</tr>
+      <tr xml:lang="nob">smart</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>упрямэ</lemma>
+    <pos class="A"/>
+    <translations>
+      <tr xml:lang="rus">упрямый</tr>
+      <tr xml:lang="nob">stubborn</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>тишшяй</lemma>
+    <pos class="A"/>
+    <translations>
+      <tr xml:lang="rus">смешной</tr>
+      <tr xml:lang="nob">funny</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>скромнэ</lemma>
+    <pos class="A"/>
+    <translations>
+      <tr xml:lang="rus">скромный</tr>
+      <tr xml:lang="nob">modest</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>нӯськесь</lemma>
+    <pos class="A"/>
+    <translations>
+      <tr xml:lang="rus">нерящливый</tr>
+      <tr xml:lang="nob">untidy</tr>
+      <tr xml:lang="nob">negligent</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>вӯнхэм</lemma>
+    <pos class="A"/>
+    <translations>
+      <tr xml:lang="rus">???</tr>
+      <tr xml:lang="nob">poor??</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>руэняс</lemma>
+    <pos class="A"/>
+    <translations>
+      <tr xml:lang="rus">веселый</tr>
+      <tr xml:lang="nob">funny</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>вуазлэш</lemma>
+    <pos class="A"/>
+    <translations>
+      <tr xml:lang="rus">счастливый</tr>
+      <tr xml:lang="nob">happy</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>оалмолма</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">мужчина</tr>
+      <tr xml:lang="nob">man</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>нызан</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">женщина</tr>
+      <tr xml:lang="nob">a woman</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>нӣйта</lemma>
+    <pos class="N"/>
+    <translations>
+      <tr xml:lang="rus">девочка</tr>
+      <tr xml:lang="nob">girl</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>пуэресь</lemma>
+    <pos class="A"/>
+    <translations>
+      <tr xml:lang="rus">старый</tr>
+      <tr xml:lang="nob">old</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>нӯрр</lemma>
+    <pos class="A"/>
+    <translations>
+      <tr xml:lang="rus">молодой</tr>
+      <tr xml:lang="nob">young</tr>
+      <tr xml:lang="ned"></tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l1"/>
+    </sources>
+  </entry>
+  <entry>
+    <lemma>тоавас</lemma>
+    <pos class="A"/>
+    <translations>
+      <tr xml:lang="rus">сильный</tr>
+      <tr xml:lang="rus">мошьный</tr>
+      <tr xml:lang="nob">strong</tr>
+      <tr xml:lang="ned">sterk</tr>
+    </translations>
+    <semantics>
+      <sem class="HUMAN"/>
+    </semantics>
+    <sources>
+      <book name="l2"/>
+    </sources>
+  </entry>
+</lexicon> 

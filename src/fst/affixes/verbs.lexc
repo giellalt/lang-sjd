@@ -1,0 +1,599 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2018 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
+!
+! =============== !
+! Verb inflection !
+! =============== !
+
+LEXICON V1 !V1: non-palatalized monosyllabic stems
++V	#	 ;
+
+LEXICON V1-CLU !V1: non-palatalized monosyllabic stems; C-cluster
++V+Inf						:%>э 				K 			;
++V+Ptcp+Prs					:%>эй 				K 			;
++V+Ptcp+Prt					:%>ма 				K 			;
++V+Ptcp+Prt+Use/Dial		:%>а 				K 			;
++V+Ptcp+Prt+Use/Dial		:%>мэнч 			K 			;
++V+Ptcp+Prog				:%>мэн				K 			;
++V+Ptcp+Act					:%>эм				K 			;
++V+Ind+Prs+Sg1				:%^WG%>а			K 			;
++V+Ind+Prs+Sg1+Use/Dial		:%^WG%>ам			K 			;
++V+Ind+Prs+Sg2				:%^WG%>ак			K 			;
++V+Ind+Prs+Sg2+Use/Dial		:%^WG%>ах			K 			;
++V+Ind+Prs+Sg3				:%>0				K 			;
++V+Ind+Prs+Pl1				:%>эпь				K 			;
++V+Ind+Prs+Pl2				:%>бэдтӭ			K 			;
++V+Ind+Prs+Pl3				:%>эв				K 			;
++V+Ind+Prs+Ips				:%^WG%>этҍ			K 			;
++V+Ind+Prs+ConNeg			:%^WG%>0			K 			;
++V+Ind+Prt+Sg1				:%^CLPAL%>э			K 			;
++V+Ind+Prt+Sg1+Use/Dial		:%^CLPAL%>эмь		K 			;
++V+Ind+Prt+Sg2				:%^CLPAL%>экь		K 			;
++V+Ind+Prt+Sg2+Use/Dial		:%^CLPAL%>эхь		K 			;
++V+Ind+Prt+Sg3				:%^WG%>э			K 			;
++V+Ind+Prt+Pl1				:%^WG%>эмь			K 			;
++V+Ind+Prt+Pl2				:%^WG%>этҍ			K 			;
++V+Ind+Prt+Pl3				:%^CLPAL%>энҍ		K 			;
++V+Ind+Prt+Ips				:%>эшь				K 			;
++V+Ind+Prt+ConNeg			:%>ма 				K 			;
++V+Ind+Prt+ConNeg+Use/Dial	:%>а 				K 			;
++V+Ind+Prt+ConNeg+Use/Dial	:%>мэнч 			K 			;
++V							:%^WG 				V_COND		;!always C-depal. and V-pal-ablaut?
++V+Imprt+Sg					:%^WG%>0			K 			;
++V+Imprt+Pl					:%>э				K 			;
+
+LEXICON V1-CLU-JE !V1: non-palatalized monosyllabic stems; C-cluster; stem ending on -ч-
++V+Inf						:%>е 				K 			;
++V+Ptcp+Prs					:%>ей 				K 			;
++V+Ptcp+Prt					:%>ма 				K 			;
++V+Ptcp+Prt+Use/Dial		:%>я 				K 			;
++V+Ptcp+Prt+Use/Dial		:%>мэнч 			K 			;
++V+Ptcp+Prog				:%>мэн				K 			;
++V+Ptcp+Act					:%>ем				K 			;
++V+Ind+Prs+Sg1				:%^WG%>я			K 			;
++V+Ind+Prs+Sg1+Use/Dial		:%^WG%>ям			K 			;
++V+Ind+Prs+Sg2				:%^WG%>як			K 			;
++V+Ind+Prs+Sg2+Use/Dial		:%^WG%>ях			K 			;
++V+Ind+Prs+Sg3				:%>0				K 			;
++V+Ind+Prs+Pl1				:%>епь				K 			;
++V+Ind+Prs+Pl2				:%>бэдтӭ			K 			;
++V+Ind+Prs+Pl3				:%>ев				K 			;
++V+Ind+Prs+Ips				:%^WG%>етҍ			K 			;
++V+Ind+Prs+ConNeg			:%^WG%>0			K 			;
++V+Ind+Prt+Sg1				:%>е				K 			;
++V+Ind+Prt+Sg1+Use/Dial		:%>емь				K 			;
++V+Ind+Prt+Sg2				:%>екь				K 			;
++V+Ind+Prt+Sg2+Use/Dial		:%>ехь				K 			;
++V+Ind+Prt+Sg3				:%^WG%>е			K 			;
++V+Ind+Prt+Pl1				:%^WG%>емь			K 			;
++V+Ind+Prt+Pl2				:%^WG%>етҍ			K 			;
++V+Ind+Prt+Pl3				:%>енҍ				K 			;
++V+Ind+Prt+Ips				:%>ешь				K 			;
++V+Ind+Prt+ConNeg			:%>ма 				K 			;
++V+Ind+Prt+ConNeg+Use/Dial	:%>я 				K 			;
++V+Ind+Prt+ConNeg+Use/Dial	:%>мэнч 			K 			;
++V							:%^WG 				V_COND		;!always C-depal. and V-pal-ablaut?
++V+Imprt+Sg					:%^WG%>0			K 			;
++V+Imprt+Pl					:%>е				K 			;
+
+LEXICON V1-GEM !V1: non-palatalized monosyllabic stems; geminate (continuant)
++V+Inf						:%>э 				K 			;
++V+Ptcp+Prs					:%>эй 				K 			;
++V+Ptcp+Prt					:%>ма				K 			;
++V+Ptcp+Prt+Use/Dial		:%>а 				K 			;
++V+Ptcp+Prt+Use/Dial		:%>мэнч 			K 			;
++V+Ptcp+Prog				:%>мэн				K 			;
++V+Ptcp+Act					:%>эм				K 			;
++V+Ind+Prs+Sg1				:%^WG%>а			K 			;
++V+Ind+Prs+Sg1+Use/Dial		:%^WG%>ам			K 			;
++V+Ind+Prs+Sg2				:%^WG%>ак			K 			;
++V+Ind+Prs+Sg2+Use/Dial		:%^WG%>ах			K 			;
++V+Ind+Prs+Sg3				:%>0				K 			;
++V+Ind+Prs+Pl1				:%>эпь				K 			;
++V+Ind+Prs+Pl2				:%>бэдтӭ			K 			;
++V+Ind+Prs+Pl3				:%>эв				K 			;
++V+Ind+Prs+Ips				:%^WG%>этҍ			K 			;
++V+Ind+Prs+ConNeg			:%^WG%>0			K 			;
++V+Ind+Prt+Sg1				:%>е				K 			;
++V+Ind+Prt+Sg1+Use/Dial		:%>емь				K 			;
++V+Ind+Prt+Sg2				:%>екь				K 			;
++V+Ind+Prt+Sg2+Use/Dial		:%>ехь				K 			;
++V+Ind+Prt+Sg3				:%^WG%>э			K 			;
++V+Ind+Prt+Pl1				:%^WG%>эмь			K 			;
++V+Ind+Prt+Pl2				:%^WG%>этҍ			K 			;
++V+Ind+Prt+Pl3				:%>енҍ				K 			;
++V+Ind+Prt+Ips				:%>эшь				K 			;
++V+Ind+Prt+ConNeg			:%>ма 				K 			;
++V+Ind+Prt+ConNeg+Use/Dial	:%>а 				K 			;
++V+Ind+Prt+ConNeg+Use/Dial	:%>мэнч 			K 			;
++V							:%^WG 				V_COND		;!always C-depal. and V-pal-ablaut?
++V+Imprt+Sg					:%^WG%>0			K 			;
++V+Imprt+Pl					:%>э				K 			;
+
+LEXICON V1-GEM-J !V1: non-palatalized monosyllabic stems; geminate (continuant /j/)
++V+Inf						:%>йе 			K 			;
++V+Ptcp+Prs					:%>йей 			K 			;
++V+Ptcp+Prt					:%>ййма			K 			;
++V+Ptcp+Prt+Use/Dial		:%>йя 			K 			;
++V+Ptcp+Prt+Use/Dial		:%>йймэнч 		K 			;
++V+Ptcp+Prog				:%>йймэн		K 			;
++V+Ptcp+Act					:%>йем			K 			;
++V+Ind+Prs+Sg1				:%>я			K 			;
++V+Ind+Prs+Sg1+Use/Dial		:%>ям			K 			;
++V+Ind+Prs+Sg2				:%>як			K 			;
++V+Ind+Prs+Sg2+Use/Dial		:%>ях			K 			;
++V+Ind+Prs+Sg3				:%>йй			K 			;
++V+Ind+Prs+Pl1				:%>йепь			K 			;
++V+Ind+Prs+Pl2				:%>ййбэдтӭ		K 			;
++V+Ind+Prs+Pl3				:%>йев			K 			;
++V+Ind+Prs+Ips				:%>етҍ			K 			;
++V+Ind+Prs+ConNeg			:%>й			K 			;
++V+Ind+Prt+Sg1				:%>йе			K 			;
++V+Ind+Prt+Sg1+Use/Dial		:%>йемь			K 			;
++V+Ind+Prt+Sg2				:%>йекь			K 			;
++V+Ind+Prt+Sg2+Use/Dial		:%>йехь			K 			;
++V+Ind+Prt+Sg3				:%>е			K 			;
++V+Ind+Prt+Pl1				:%>емь			K 			;
++V+Ind+Prt+Pl2				:%>етҍ			K 			;
++V+Ind+Prt+Pl3				:%>йенҍ			K 			;
++V+Ind+Prt+Ips				:%>йешь			K 			;
++V+Ind+Prt+ConNeg			:%>ййма 		K 			;
++V+Ind+Prt+ConNeg+Use/Dial	:%>йя 			K 			;
++V+Ind+Prt+ConNeg+Use/Dial	:%>йймэнч 		K 			;
++V							:%>й 			V_COND		;!always C-depal. and V-pal-ablaut?
++V+Imprt+Sg					:%>й			K 			;
++V+Imprt+Pl					:%>йе			K 			;
+
+LEXICON V2-CLU !V2: palatalized monosyllabic stems; C-cluster
++V+Inf						:%>э 				K 			;
+!+V+Ptcp+Prs					:%>эй 				K 			;
++V+Ptcp+Prt					:%^CLDPAL%>ма		K 			;
++V+Ptcp+Prt+Use/Dial		:%^CLDPAL%>а 				K 			;
++V+Ptcp+Prt+Use/Dial		:%^CLDPAL%>мэнч 			K 			;
+!+V+Ptcp+Prog				:%>мэн				K 			;
+!+V+Ptcp+Act					:%>эм				K 			;
++V+Ind+Prs+Sg1				:%^CLDPAL%^WG%>а			K 			;
++V+Ind+Prs+Sg1+Use/Dial		:%^CLDPAL%^WG%>ам			K 			;
++V+Ind+Prs+Sg2				:%^CLDPAL%^WG%>ак			K 			;
++V+Ind+Prs+Sg2+Use/Dial		:%^CLDPAL%^WG%>ах			K 			;
++V+Ind+Prs+Sg3				:%^CLDPAL%>0				K 			;
++V+Ind+Prs+Pl1				:%>эпь				K 			;
++V+Ind+Prs+Pl2				:%>бэдтӭ			K 			;
++V+Ind+Prs+Pl3				:%>эв				K 			;
++V+Ind+Prs+Ips				:%^WG%>этҍ			K 			;
++V+Ind+Prs+ConNeg			:%^WG%>0			K 			;
++V+Ind+Prt+Sg1				:%>э			K 			;
++V+Ind+Prt+Sg1+Use/Dial		:%>эмь		K 			;
++V+Ind+Prt+Sg2				:%>экь		K 			;
++V+Ind+Prt+Sg2+Use/Dial		:%>эхь		K 			;
++V+Ind+Prt+Sg3				:%^WG%>э			K 			;
++V+Ind+Prt+Pl1				:%^WG%>эмь			K 			;
++V+Ind+Prt+Pl2				:%^WG%>этҍ			K 			;
++V+Ind+Prt+Pl3				:%>энҍ		K 			;
++V+Ind+Prt+Ips				:%>эшь				K 			;
++V+Ind+Prt+ConNeg			:%^CLDPAL%>ма 				K 			;
++V+Ind+Prt+ConNeg+Use/Dial	:%^CLDPAL%>а 				K 			;
++V+Ind+Prt+ConNeg+Use/Dial	:%^CLDPAL%>мэнч 			K 			;
++V							:%^CLDPAL%^WG 				V_COND		;!always C-depal. and V-pal-ablaut?
++V+Imprt+Sg					:%^WG%>0			K 			;
++V+Imprt+Pl					:%>э				K 			;
+
+LEXICON V2-GEM !V2: palatalized monosyllabic stems; geminate (continuant)
++V+Inf						:%>е 				K 			;
++V+Ptcp+Prs					:%>ей 				K 			;
++V+Ptcp+Prt					:%>ма				K 			;
++V+Ptcp+Prt+Use/Dial		:%>а 				K 			;
++V+Ptcp+Prt+Use/Dial		:%>мэнч 			K 			;
++V+Ptcp+Prog				:%>мэн				K 			;
++V+Ptcp+Act					:%>ем				K 			;
++V+Ind+Prs+Sg1				:%^WG%>а			K 			;
++V+Ind+Prs+Sg1+Use/Dial		:%^WG%>ам			K 			;
++V+Ind+Prs+Sg2				:%^WG%>ак			K 			;
++V+Ind+Prs+Sg2+Use/Dial		:%^WG%>ах			K 			;
++V+Ind+Prs+Sg3				:%>0				K 			;
++V+Ind+Prs+Pl1				:%>епь				K 			;
++V+Ind+Prs+Pl2				:%>ьбэдтӭ			K 			;
++V+Ind+Prs+Pl3				:%>ев				K 			;
++V+Ind+Prs+Ips				:%^WG%>етҍ			K 			;
++V+Ind+Prs+ConNeg			:%^WG%>0			K 			;
++V+Ind+Prt+Sg1				:%>е				K 			;
++V+Ind+Prt+Sg1+Use/Dial		:%>емь				K 			;
++V+Ind+Prt+Sg2				:%>екь				K 			;
++V+Ind+Prt+Sg2+Use/Dial		:%>ехь				K 			;
++V+Ind+Prt+Sg3				:%^WG%>е			K 			;
++V+Ind+Prt+Pl1				:%^WG%>емь			K 			;
++V+Ind+Prt+Pl2				:%^WG%>етҍ			K 			;
++V+Ind+Prt+Pl3				:%>енҍ				K 			;
++V+Ind+Prt+Ips				:%>ешь				K 			;
++V+Ind+Prt+ConNeg			:%>ма 				K 			;
++V+Ind+Prt+ConNeg+Use/Dial	:%>а 				K 			;
++V+Ind+Prt+ConNeg+Use/Dial	:%>мэнч 			K 			;
++V							:%^WG%>0			V_COND		;!always C-depal. and V-pal-ablaut?
++V+Imprt+Sg					:%^WG%>0			K 			;
++V+Imprt+Pl					:%>е				K 			;
+
+LEXICON V2-GEM-J !V1: non-palatalized monosyllabic stems; geminate (continuant /j/)
++V+Inf						:%>йе 			K 			;
++V+Ptcp+Prs					:%>йей 			K 			;
++V+Ptcp+Prt					:%^EAABL%>ййма			K 			;
++V+Ptcp+Prt+Use/Dial		:%^EAABL%>йя 			K 			;
++V+Ptcp+Prt+Use/Dial		:%^EAABL%>йймэнч 		K 			;
++V+Ptcp+Prog				:%^EAABL%>йймэн		K 			;
++V+Ptcp+Act					:%>йем			K 			;
++V+Ind+Prs+Sg1				:%^EAABL%>я			K 			;
++V+Ind+Prs+Sg1+Use/Dial		:%^EAABL%>ям			K 			;
++V+Ind+Prs+Sg2				:%^EAABL%>як			K 			;
++V+Ind+Prs+Sg2+Use/Dial		:%^EAABL%>ях			K 			;
++V+Ind+Prs+Sg3				:%^EAABL%>йй			K 			;
++V+Ind+Prs+Pl1				:%>йепь			K 			;
++V+Ind+Prs+Pl2				:%>ййбэдтӭ		K 			;
++V+Ind+Prs+Pl3				:%>йев			K 			;
++V+Ind+Prs+Ips				:%>етҍ			K 			;
++V+Ind+Prs+ConNeg			:%>й			K 			;
++V+Ind+Prt+Sg1				:%>йе			K 			;
++V+Ind+Prt+Sg1+Use/Dial		:%>йемь			K 			;
++V+Ind+Prt+Sg2				:%>йекь			K 			;
++V+Ind+Prt+Sg2+Use/Dial		:%>йехь			K 			;
++V+Ind+Prt+Sg3				:%>е			K 			;
++V+Ind+Prt+Pl1				:%>емь			K 			;
++V+Ind+Prt+Pl2				:%>етҍ			K 			;
++V+Ind+Prt+Pl3				:%>йенҍ			K 			;
++V+Ind+Prt+Ips				:%>йешь			K 			;
++V+Ind+Prt+ConNeg			:%>ййма 		K 			;
++V+Ind+Prt+ConNeg+Use/Dial	:%>йя 			K 			;
++V+Ind+Prt+ConNeg+Use/Dial	:%>йймэнч 		K 			;
++V							:%>й 			V_COND		;!always C-depal. and V-pal-ablaut?
++V+Imprt+Sg					:%>й			K 			;
++V+Imprt+Pl					:%>йе			K 			;
+
+LEXICON V2 !V2: palatalized monosyllabic stems
++V		:		V2_INF	;
++V		: 		V2_IND	 ;
++V		:		V1|2_IMPRT	;
++V		:%^WG 	V_COND	;!always C-depal. and V-pal-ablaut?
+
+LEXICON VDER1 !label is preliminary, the class comprises all monosyllabic stems derived by a suffix -C- (e.g. -x-, -d-, etc.)
++V		:		VDER1_INF ;
++V		:		VDER1_IND ;
++V		:		VDER1_IMPRT ;
++V		:		V_COND ;
+
+!conditional inflexion is identical for all classes
+LEXICON V_COND
++Cond+Sg1			:%>че		K ;
++Cond+Sg2			:%>чекь		K ;
++Cond+Sg2+Use/Dial	:%>чехь		K ;
++Cond+Sg3			:%>аһч		K ;
++Cond+Pl1			:%>чепь		K ;
++Cond+Pl2			:%>чебпе	K ;
++Cond+Pl3			:%>ченҍ		K ;
++Cond+ConNeg		:%>че		K ;
+
+!class V1 non-finite forms
+LEXICON V1_INF 
++Inf				:%>э 		K ;
++Ptcp+Prs			:%>эй 		K ;
++Ptcp+Prt			:%>ма 		K ;
++Ptcp+Prt+Use/Dial	:%>а 		K ;
++Ptcp+Prt+Use/Dial	:%>мэнч 	K ;
++Ptcp+Prog			:%>мэн		K ;
++Ptcp+Act			:%>эм		K ;
+
+!class V2 non-finite forms
+LEXICON V2_INF 
++Inf				:э	K ;
+!+Ptcp+Prs			:%>эй 		K ;??
++Ptcp+Prt			:%^CLDPAL%>ма 		K ;
++Ptcp+Prt+Use/Dial	:%^CLDPAL%>а 		K ;
++Ptcp+Prt+Use/Dial	:%^CLDPAL%>мэнч 	K ;
+!+Ptcp+Prog			:%>мэн		K ;
+!+Ptcp+Act			:%>эм		K ;??
+
+!class VDER1 non-finite forms
+LEXICON VDER1_INF 
++Inf				:%>э 		K ;
++Ptcp+Prs			:%>эй 		K ;
++Ptcp+Prt			:%>ма 		K ;!??
++Ptcp+Prt+Use/Dial	:%>а 		K ;!??
++Ptcp+Prt+Use/Dial	:%>мэнч		K ;!??
++Ptcp+Prog			:%>мэн		K ;!??
++Ptcp+Act			:%>эм		K ;
+
+!class V1 imperative forms
+LEXICON V1|2_IMPRT
++Imprt+Sg			:%^WG%>0	K ;
++Imprt+Pl			:%>э		K ;
+
+!class VDER1 imperative forms
+LEXICON VDER1_IMPRT
++Imprt+Sg			:%>0		K ;!??
++Imprt+Pl			:%>эгке		K ;
+
+!class V1 indicative forms
+LEXICON V1_IND 
++Ind		:%^WG	PrsSg1 ;
++Ind		:%^WG	PrsSg2 ;
++Ind		:		PrsSg3 ;
++Ind		:		PrsPl1 ;
++Ind		:		PrsPl2 ;
++Ind		:		PrsPl3 ;
++Ind		:%^WG	PrsImpers ;
++Ind		:%^WG	PrsConNeg ;
++Ind		:%^PAL	PrtSg1 ;
++Ind		:%^PAL	PrtSg2 ;
++Ind		:%^WG	PrtSg3 ;
++Ind		:%^WG	PrtPl1 ;
++Ind		:%^WG	PrtPl2 ;
++Ind		:%^PAL	PrtPl3 ;
++Ind		:		PrtImpers ;
++Ind		:		PrtConNeg ;
+
+!class V2 indicative forms
+LEXICON V2_IND 
++Ind		:%^WG%^CLDPAL	PrsSg1 ;
++Ind		:%^WG	PrsSg2 ;
++Ind		:%^CLDPAL	PrsSg3 ;
++Ind		:		PrsPl1 ;
++Ind		:		PrsPl2 ;
++Ind		:		PrsPl3 ;
++Ind		:%^WG	PrsImpers ;
++Ind		:%^WG	PrsConNeg ;
++Ind		:		PrtSg1 ;
++Ind		:		PrtSg2 ;
++Ind		:%^WG	PrtSg3 ;
++Ind		:%^WG	PrtPl1 ;
++Ind		:%^WG	PrtPl2 ;
++Ind		:		PrtPl3 ;
++Ind		:		PrtImpers ;
++Ind		:%^CLDPAL		PrtConNeg ;
+
+!class VDER1 indicative forms; they don't have stem gradation, palatalization, ablaut
+LEXICON VDER1_IND 
++Ind		: PrsSg1 ;
++Ind		: PrsSg2 ;
++Ind		: PrsSg3 ;
++Ind		: PrsPl1 ;
++Ind		: PrsPl2 ;
++Ind		: PrsPl3 ;
++Ind		: PrsImpers ;
++Ind		: PrsConNeg ;
++Ind		: PrtSg1 ;
++Ind		: PrtSg2 ;
++Ind		: PrtSg3 ;
++Ind		: PrtPl1 ;
++Ind		: PrtPl2 ;
++Ind		: PrtPl3 ;
++Ind		: PrtImpers ;
++Ind		: PrtConNeg ;
+
+!the actual suffixes
+LEXICON PrsSg1
++Prs+Sg1			:%>а		K ;!always depal.
++Prs+Sg1+Use/Dial	:%>ам		K ;!always depal.
+
+LEXICON PrsSg2
++Prs+Sg2			:%>ак		K ;!always depal.
++Prs+Sg2+Use/Dial	:%>ах		K ;!always depal.
+
+LEXICON PrsSg3
++Prs+Sg3			:%>0		K ;!always depal.
+
+LEXICON PrsPl1
++Prs+Pl1			:%>эпь		K ;
+
+LEXICON PrsPl2
++Prs+Pl2			:%>бэдтӭ	K ;
+
+LEXICON PrsPl3
++Prs+Pl3			:%>эв 		K ;
+
+LEXICON PrsImpers
++Prs+Impers			:%>этҍ		K ;
+
+LEXICON PrsConNeg
++Prs+ConNeg			:%>0		K ;
+
+LEXICON PrtSg1
++Prt+Sg1			:%>э		K ;
++Prt+Sg1+Use/Dial	:%>эмь 		K ;
+
+LEXICON PrtSg2
++Prt+Sg2			:%>экь		K ;
++Prt+Sg2+Use/Dial	:%>эхь 		K ;
+
+LEXICON PrtSg3
++Prt+Sg3			:%>э		K ;
+
+LEXICON PrtPl1
++Prt+Pl1			:%>эмь		K ;
+
+LEXICON PrtPl2
++Prt+Pl2			:%>этҍ 		K ;
+
+LEXICON PrtPl3
++Prt+Pl3			:%>энҍ 		K ;
+
+LEXICON PrtImpers
++Prt+Impers			:%>эшь		K ;
+
+LEXICON PrtConNeg
++Prt+ConNeg			:%>ма		K ;
++Prt+ConNeg+Use/Dial:%>а	 	K ;
++Prt+ConNeg+Use/Dial:%>мэнч 	K ;
++Prt+ConNeg+Use/Dial:%>энч	 	K ;
+
+
+!provisional classes
+LEXICON PYJJE !provisional class; !twolc: -э --> -е й _ + йе --> е
++V+Inf:%>е  K ; 
++V+Ind+Prs+Sg1:%^WG%>я K ;
++V+Ind+Prs+Sg2:%^WG%>як K ;
++V+Ind+Prs+Sg2+Use/Dial:%^WG%>ях K ;
++V+Ind+Prs+Sg3:%>0 K ;
++V+Ind+Prs+Pl1:%>епь K ;
++V+Ind+Prs+Pl2:%>бэдтӭ K ;
++V+Ind+Prs+Pl3:%>ев K ;
++V+Ind+Prs+Conneg:%^WG%>0 K ;
++V+Ind+Prt+Sg1:%>е K ;
++V+Ind+Prt+Sg1+Use/Dial:%>емь K ;
++V+Ind+Prt+Sg2:%>екь K ; !pal
++V+Ind+Prt+Sg2+Use/Dial:%>ехь K ;
++V+Ind+Prt+Sg2+Use/Dial:%>эхь K ;
++V+Ind+Prt+Sg3:%^WG%>е K ;
++V+Ind+Prt+Pl1:%^WG%>емь K ;
++V+Ind+Prt+Pl2:%^WG%>етҍ K ;
++V+Ind+Prt+Pl3:%>енҍ K ; !pal
++V+Ind+Prt+Conneg:%>ма K ;
++V+Ind+Prt+Conneg+Use/Dial:%>я K ;
++V+Ind+Prt+Conneg+Use/Dial:%>мэнч K ;
++V+Imprt+Sg:%^WG%>0 K ;
++V+Imprt+Pl:%>е  K ;
++V+Cond: V_COND ;
+
+LEXICON VAANNJCE !class 1: monosyll. pal. stem
++V+Inf:%>э  K ; 
++V+Ind+Prs+Sg1:%^CLDPAL%^WG%>а K ;
++V+Ind+Prs+Sg3:%^CLDPAL%>0 K ;
+!+V+Ind+Prs+Sg1:%^WG%^CLDPAL%>а K ;
+!+V+Ind+Prs+Sg2:%^WG%^CLDPAL%>ак K ;
++V+Ind+Prs+Pl1:%>эпь K ;
++V+Ind+Prs+Conneg:%^WG%>0 K ;
+!+V+Imprt+Sg:%^WG%>0 K ;
+!+V+Imprt+Pl:%>э  K ;
++V+Cond: V_COND ;
+
+LEXICON 1
++V+Inf:%>э  # ; 
++V+Ind:  V_IND_EVEN ;
++V+Cond: V_COND ;
++V+Pot:  V_POT ; 
++V+Imprt: V_IMP ;
++V+Ind+Prs+Impers:%>этҍ   # ; !weak grade
++V+Ind+Prt+Impers:%>эшь   # ; 
++V+ConNeg+Prs:%^WG   # ; !Ø-suffix, weak grade
++V+ConNeg+Prt:%>ма   # ;
++V+PrfPrc:%>ма   # ;
++V+PrfPrc+Attr:%>ма%>сь   # ; !?
++V+Ger:%>мэнҍ   # ;
++V+VAbess:%>ханна   # ; !weak grade
++V+VAbess+Attr:%>ханна%>сь   # ; !?
+
+LEXICON 2 
+1 ;
+LEXICON 3 
+1 ;
+LEXICON 4 
+1 ;
+LEXICON 5 
+1 ;
+LEXICON 6
+1 ;
+LEXICON 7
+1 ;
+
+LEXICON ELAN_V
+1 ; ! just dumping the ELAN verbs here
+
+LEXICON OAHPA_V
+1 ; ! just dumping the oahpa verbs here
+
+LEXICON PUEDTJE
++V+INF:%>э # ;
++V+Pl1:%>эпь # ;
++V+Conneg+Prs:%^WG%>0 K ;
+
+LEXICON LUVTTE
++V+Inf:%>ъе # ;
++V+Ind: V_IND_CONTR_PAL ;
+
+LEXICON KULLE
++V+Inf:%>э # ;
++V+Ind: V_IND_EVEN ;
+
+LEXICON V_IMP
++Sg:  # ; !Ø-suffix, weak grade
++Pl:%>э  # ;
+
+
+LEXICON V_IND_EVEN
++Prs: PRSSUF_EVEN ;
++Prt: PRTSUF_EVEN ;
+
+LEXICON PRSSUF_EVEN
++Sg1:%^WG%>а              # ;   ! шоабш>а
++Sg2:%^WG%>ак              # ;   ! шоабш>акь
++Sg2:%^WG%>ах              # ;   ! шоабш>акь
++Sg3:              # ;   !Ø-suffix Umlautvariant -оа- шoabаш>т
++Pl1:%>эпь              # ;   ! шоабш>эпь
++Pl2:%>бэдтӭ              # ;   ! шоабш>эбпе
++Pl3:%>эв              # ;   ! шоабш>эв
+
+LEXICON PRTSUF_EVEN
++Sg1:%>е       # ; ! palatalized		шоабш>э
++Sg2:%>екь       # ; ! palatalized		шоабш>экь
++Sg2:%>ехь       # ; ! palatalized		шоабш>экь
++Sg3:%^WG%>э       # ; ! weak grade		шoab>эшт
++Pl1:%^WG%>эмь       # ; ! weak grade		шоабш>эмь
++Pl2:%^WG%>этҍ       # ; ! weak grade	шоабш>этҍ
++Pl3:%>енҍ       # ; ! palatalized	шоабш>энҍ
+
+
+LEXICON V_POT 
++Sg1:%>   # ;
++Sg2:%>   # ;
++Sg3:%>   # ;
++Pl1:%>   # ;
++Pl2:%>   # ;
++Pl3:%>   # ;
+
+
+
+LEXICON V_IND_CONTR_PAL
++Prs: PRSSUF_CONTR_PAL ;
++Prt: PRTSUF_CONTR_PAL ;
+
+LEXICON PRSSUF_CONTR_PAL
++Sg1:%>ъя    # ;   
++Sg2:%>ъях   # ;  
++Sg2:%>ъяк   # ;  
++Sg3:%>ай    # ;   
++Pl1:%>ъeпь  # ; 
++Pl2:%>ъепе  # ; 
++Pl3:%>ъэв   # ;  
+
+LEXICON PRTSUF_CONTR_PAL
++Sg1:%>ъе    # ; 
++Sg2:%>ъекь  # ; 
++Sg2:%>ъехь  # ; 
++Sg3:%>ӭй    # ;  
++Pl1:%>ъемь  # ; 
++Pl2:%>ъетҍ  # ; 
++Pl3:%>ъенҍ  # ; 
+
+
+
+
+! conneg.prs	шоабэшт
+! conneg.pst	шоабш>а
+
+! imp			шоабш-э
+
+! verbessive	шоабш-эмэнҍ
+
+!  verbabessive		шоабш-эханна
+
+
+
+
+

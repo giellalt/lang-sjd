@@ -1,0 +1,22 @@
+!!!Documentation on Kildin Saami ~ Документация файлов кильдин-саамского языка
+
+[What is this?|WhatIsThis.html]
+
+
+!! Dynamic documentation
+
+* [Links to generated source file documentation|Links.html]
+* Source files: [stems|https://gtsvn.uit.no/langtech/trunk/langs/sjd/src/fst/stems/]   
+  / [affixes|https://gtsvn.uit.no/langtech/trunk/langs/sjd/src/fst/affixes/] 
+  / [twolc|https://gtsvn.uit.no/langtech/trunk/langs/sjd/src/phonology/sjd-phon.twolc]   
+  / [yaml|https://gtsvn.uit.no/langtech/trunk/langs/sjd/test/src/fst/]
+* Generation of: [paradigms|http://giellatekno.uit.no/cgi/p-sjd.rus.html]
+  / [text|http://giellatekno.uit.no/cgi/d-sjd.rus.html]
+
+!!Old documentation
+
+* [Background|docu-background.eng.html]  ~ [Фон|docu-background.rus.html]
+* [Flowchart|docu-flowchart.eng.html]  ~ [Блок-схема|docu-flowchart.rus.html]
+* [Grammar tags|docu-grammartags.eng.html]  ~ [Грамматические теги|docu-grammartags.rus.html]
+* [Morphophonology|docu-twol.eng.html]  ~ [Морфофонология|docu-twol.rus.html]
+

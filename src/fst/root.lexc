@@ -1,0 +1,129 @@
+! Divvun & Giellatekno - open source grammars for Kildin Sámi.
+! Copyright © 2000-2019 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@uit.no or feedback@divvun.no
+
+! ========================================================================== !
+!!               !!!Kildin Sámi morphological analyser                     !
+! ========================================================================== !
+
+Multichar_Symbols  !!≈ !!!Definitions for @CODE@
+
+! Combined letter+diachritics in the alphabet
+	е̄ Е̄ ё̄ Ё̄ о̄ О̄ э̄ Э̄ ю̄ Ю̄ я̄ Я̄ 
+
+! POS
++N +V +Adj
++Adv +CC +CS +Interj +Pcle +Pron +Num
++Pers +Rel +Refl +Det +Interr
++Pr +Po
+
+! Adjectival MSP
++Attr +Pred
+
+! Verbal MSP
++Prs +Prt +Prf
++Ind +Imprt +Cond +Pot
++Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3 +Impers
++Inf
++VAbess
++PrfPrc
++Ger
++Pos +Neg +ConNeg
+
+! Nominal MSP
++Sg +Pl
++Nom +Acc +Gen +Ill +Loc +Com +Ess +Par +Abe
++Card +Ord
++Prop +Sem/Ani +Sem/Mal +Sem/Fem +Sem/Sur +Sem/Plc +Sem/Org +Sem/Obj ! Semantic properties of names
+
+! Punctuation
++CLB
++PUNCT
++LEFT
++RIGHT
++Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
+
+! Other Tags
++Use/Elid   !!= * @CODE@ = Elided substandard (Иванович~Иваныч, новее~новей, чтобы~чтоб, или~иль, коли~коль)
++Use/Orth	!!= * @CODE@ = Orthographic substandard
+
+!+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
+  %^WG	!weak grade
+  %>	! Inflectional suffix (incl. palatal mark deletion)
+  %<	! Inflectional prefix
+  %^CLPAL !cluster palatalization
+  %^EAABL 
+  %^CLDPAL !cluster depalatalization
+  %^DPAL !other depalatalization
+  %^PAL !other depalatalization
+  %^DI	!diphthongization
+  %^MON	!monophthongization
+  %^1VOW %^2VOW %^3VOW %^4VOW %^5VOW
+  %^VOWSH
+  %^EPHV
+
+! Symbols that need to be escaped on the lower side (towards twolc):
+ »7     ! »
+ «7     ! «
+ %[%>%] ! >
+ %[%<%] ! <
+
+!! !!Flag diacritics
+!! We have manually optimised the structure of our lexicon using following
+!! flag diacritics to restrict morphological combinatorics - only allow compounds
+!! with verbs if the verb is further derived into a noun again:
+ @P.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @D.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @C.NeedNoun@       !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
+!! 
+!! For languages that allow compounding, the following flag diacritics are needed
+!! to control position-based compounding restrictions for nominals. Their use is
+!! handled automatically if combined with +CmpN/xxx tags. If not used, they will
+!! do no harm.
+ @P.CmpFrst.FALSE@ !!≈ | @CODE@ | Require that words tagged as such only appear first
+ @D.CmpPref.TRUE@  !!≈ | @CODE@ | Block such words from entering ENDLEX
+ @P.CmpPref.FALSE@ !!≈ | @CODE@ | Block these words from making further compounds
+ @D.CmpLast.TRUE@  !!≈ | @CODE@ | Block such words from entering R
+ @D.CmpNone.TRUE@  !!≈ | @CODE@ | Combines with the next tag to prohibit compounding
+ @U.CmpNone.FALSE@ !!≈ | @CODE@ | Combines with the prev tag to prohibit compounding
+ @P.CmpOnly.TRUE@  !!≈ | @CODE@ | Sets a flag to indicate that the word has passed R
+ @D.CmpOnly.FALSE@ !!≈ | @CODE@ | Disallow words coming directly from root.
+!! 
+!! Use the following flag diacritics to control downcasing of derived proper
+!! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
+!! these flags. There exists a ready-made regex that will do the actual down-casing
+!! given the proper use of these flags.
+ @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
+
+
+! Key lexicon
+LEXICON Root
+
+Adjective ;
+Adverb ;
+!Clitic ;
+!Compound ;
+Conjunction ;
+Interjection ;
+Noun ;
+Numeral ;
+Particle ;
+Postposition ;
+Preposition ;
+Pronoun ;
+Propernoun ;
+Punctuation ;
+Symbols     ;
+Subjunction ;
+Verb ;

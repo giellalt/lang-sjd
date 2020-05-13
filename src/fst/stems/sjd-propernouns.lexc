@@ -1,0 +1,106 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2018 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
+
+LEXICON OAHPA_PROP
+PROP_1DA ;
+
+LEXICON PROP_1DA
++Prop: 1DA ;
+
+LEXICON prop-rus
++Prop+Use/Rus: 1DA ;
+
+LEXICON Propernoun
+!person, given names
+Лейф prop-rus ;
+Матрёхин prop-rus ;
+Ёа̄ввк OAHPA_PROP ;
+Ёак OAHPA_PROP ;
+Ёгор OAHPA_PROP ;
+Ёгра OAHPA_PROP ;
+А̄ннҍ OAHPA_PROP ;
+Антон OAHPA_PROP ;
+Ва̄дҍк OAHPA_PROP ;
+Ва̄сськ OAHPA_PROP ;
+Во̄ленҍк PROP_1DA "Лена, Елена" ;
+Вуанас PROP_1DA ;
+Вуаннса OAHPA_PROP ;!Diminutiv
+Вуаӈт OAHPA_PROP ;
+Вуаӈтэнч OAHPA_PROP ;
+Вуэннҍтре OAHPA_PROP ;
+Вуэннҍтряя OAHPA_PROP ;!Illative?
+Зина OAHPA_PROP ;
+Егор OAHPA_PROP ;
+Ларя OAHPA_PROP ;
+Лёлль OAHPA_PROP ;
+Ма̄рьенч OAHPA_PROP ;
+Ма̄тӓ OAHPA_PROP ;
+Маша OAHPA_PROP ;
+Моа̄дрна OAHPA_PROP ;
+Моа̄рьна OAHPA_PROP ;
+Моа̄ҏҏк OAHPA_PROP ;
+Моадрна OAHPA_PROP ;!variant Моа̄дран
+Мыккла OAHPA_PROP ;
+Мыкклэнч OAHPA_PROP ;!diminutive
+Мышкэнч OAHPA_PROP ;!diminutive
+Мышшьк PROP_1DA ;!variant Мышшк
+Мэ̄һкал PROP_1DA ; !2A tourist class
+На̄дтла OAHPA_PROP ;
+Нина OAHPA_PROP ;
+Ноасстъенч OAHPA_PROP ;
+О̄ленҍк PROP_1DA ;!variant Оленьк
+О̄ця OAHPA_PROP ;
+Пала OAHPA_PROP ;
+Параска OAHPA_PROP ;
+Парэск OAHPA_PROP ;
+Пася OAHPA_PROP ;
+Пе̄др OAHPA_PROP ;
+Пе̄дра OAHPA_PROP ;
+По̄ввла OAHPA_PROP ;
+Пӯна OAHPA_PROP ;
+Рыг OAHPA_PROP ;
+Рыгкъенч OAHPA_PROP ;
+Са̄ндра OAHPA_PROP ;
+Са̄ххкрэ OAHPA_PROP ;
+Сымман OAHPA_PROP ;
+Сӣрьке OAHPA_PROP ;
+Сӣрькья OAHPA_PROP ;
+Та̄дҍна OAHPA_PROP ;
+Та̄дҍян OAHPA_PROP ;
+Та̄ррьй OAHPA_PROP ;
+Та̄рьенч OAHPA_PROP ;
+Таввь OAHPA_PROP ;
+Таиск OAHPA_PROP ;
+Тоа̄нал OAHPA_PROP ;
+Тоа̄нла OAHPA_PROP ;
+Тронд PROP_1DA ; !1А economy class
+Тымэшк OAHPA_PROP ;
+Увван OAHPA_PROP ;
+Улльна OAHPA_PROP ;
+Улльян OAHPA_PROP ;
+Чипрян PROP_1DA ; !1A first class
+Шашка OAHPA_PROP ;
+Эвван OAHPA_PROP ;
+Эввнэнч OAHPA_PROP ;
+Я̄к OAHPA_PROP ;
+
+!toponym
+Коа̄рдэгк PROP_1DA ;
+Коа̄рдэгксыййт PROP_1DA ;!compound
+Коа̄рдэгкёгк PROP_1DA ;!compound
+Ло̄ннь PROP_1DA ;
+Луя̄ввьр OAHPA_PROP ;!place name
+Полъяввьр OAHPA_PROP ;
+Москва OAHPA_PROP ;!place name
+Терибирь OAHPA_PROP ;

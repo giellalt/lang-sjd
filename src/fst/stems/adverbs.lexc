@@ -1,0 +1,169 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2018 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
+
+LEXICON OAHPA_ADV
+adv ;
+
+LEXICON adv
+! lexical adverbs
++Adv: K ;
+
+LEXICON adv-dial
++Adv+Use/Dial: K ;
+
+LEXICON adv-Q
+! pro-adverbs (question words)
++Adv+Indef: K ;
+
+LEXICON Adverb
+адтҍ adv ;
+айкалт adv ;
+беда adv ;
+ванас adv "мало / slightly" ; !derived from ваннҍ 'мало / some (adj)'
+вэххтэнне adv "быстро / fast, quickly" ; !derived from вэхтэсь 'быстрый:attr / quick'
+вя̄л adv ;
+лашькэльт adv "лениво / lazily" ; !derived from лашьк 'лень/ lazy'
+лышэ adv ;
+маххт adv "как" ;
+маххт:ни-маххт adv-Q ;
+маӈас adv "назад / back (direction)" ; !derived from маӈӈь 'задний'
+маӈӈа adv "потом" ;
+медас adv "по направлению ветра / with the wind" ; !derived from мидтҍ 'попутный'
+моазэ adv ;!variant of моаст?
+моаст adv ;
+милкнесьт adv "тихонечко / медленно / slowly" ; !derived from мя̄лк
+ныдтҍ adv "так" ;
+нюэзельт adv "плохо / badly" ; !derived from нюэссь '(что-то) плохое / bad'
+пуэраст adv "хорошо" ; ! ?derived adverbs from adjectives
+пэря adv "больше" ; !адйецтиве
+роаммъенне adv "радостно / gladly" ; !derived from ?роаммъе (< роамм 'радость / joy')
+тарьм adv "сегодня" ;
+тамьпэ adv "там" ;
+телльнэ adv "так" ; !looks like almost like тэль-не
+тоагэ adv "туда" ;
+толькэ adv "только" ;
+тэста adv ;!pronoun?
+тэста:тэсса adv-dial ;!pronoun?
+тигэ adv ;
+четк adv "насмерть / to death" ;
+чофта adv "очень / much" ;
+шигктэнне adv "хорошо / well" ; !derived from шиг 'хороший / good'
+э̄ввтэль adv "раньше" ; ! ?derived adverbs from adjectives
+эффьтэ adv "всё ещё" ; !derived from numeral э̄ххт??
+ё adv ;
+иннъенне adv "громко / loud" ; !derived from иннъе 'звучать / to sound, to resonate' (< инн'голос / voice')
+самас adv ;
+читэ adv-dial ;
+томальт adv-dial ;
+
+
+! ?derived adverbs from adjectives; suffix /-tenn'e/; strong grade
+! historically, the /-t-/ must have been a coaffix (probably deriving a verb), that's why the strong grade appears 
+! ?derived adverbs from (derived) verbs; suffix /-enn'e/; no gradation
+
+а̄йка OAHPA_ADV ;
+а̄йнханна OAHPA_ADV ;
+аввта OAHPA_ADV ;
+агас OAHPA_ADV ;
+алльт OAHPA_ADV ;
+ва̄ннҍцлэнне OAHPA_ADV ;
+ва̄нҍцнелле OAHPA_ADV ;
+валас OAHPA_ADV ;
+вуйнэлле OAHPA_ADV ;
+вуэллгэнне OAHPA_ADV ;
+вуэлькесьбельт OAHPA_ADV ;
+вуэлькесьпялла OAHPA_ADV ;
+выххтэнне OAHPA_ADV ;
+гӯлл OAHPA_ADV ;
+е̄кьна OAHPA_ADV ;
+е̄ннэ OAHPA_ADV ;
+ента OAHPA_ADV ;
+еххта OAHPA_ADV ;
+касьт OAHPA_ADV ;
+ке̄ннҍц OAHPA_ADV ;
+ке̄сся OAHPA_ADV ;
+ко̄ххт OAHPA_ADV ;
+кукас OAHPA_ADV ;
+куллтлэнне OAHPA_ADV ;
+кутӓс OAHPA_ADV ;
+куххькенҍ OAHPA_ADV ;
+куэссь-ляннч OAHPA_ADV ;
+куэссь-не OAHPA_ADV ;
+куэӈ OAHPA_ADV ;
+кыдта OAHPA_ADV ;
+кӯгкас OAHPA_ADV ;
+ло̄ссэ OAHPA_ADV ;
+масьт OAHPA_ADV ;
+маӈӈедҍ OAHPA_ADV ;
+мо̄джьтэнне OAHPA_ADV ;
+моа̄з OAHPA_ADV ;
+мэ̄ннварэст OAHPA_ADV ;
+мэ̄ннгуэйке OAHPA_ADV ;
+мӣдтҍ OAHPA_ADV ;
+нюэзесь OAHPA_ADV ;
+о̄лкэс OAHPA_ADV ;
+о̄ххтэ OAHPA_ADV ;
+оалкэнь OAHPA_ADV ;
+пай OAHPA_ADV ;
+паййгэнне OAHPA_ADV ;
+паййлэнне OAHPA_ADV ;
+пайяс OAHPA_ADV ;
+паялт OAHPA_ADV ;
+паяс OAHPA_ADV ;
+поа̄лльтэ OAHPA_ADV ;
+поання OAHPA_ADV ;
+пычь OAHPA_ADV ;
+райя OAHPA_ADV ;
+соа̄йменҍ OAHPA_ADV ;
+сыз OAHPA_ADV ;
+сыссенҍ OAHPA_ADV ;
+та̄вас OAHPA_ADV ;
+та̄ввьла OAHPA_ADV ;
+та̄лльва OAHPA_ADV ;
+та̄ннӓ OAHPA_ADV ;
+тавас OAHPA_ADV ;
+тала OAHPA_ADV ;
+танна OAHPA_ADV ;
+те̄ссклэнне OAHPA_ADV ;
+тоа̄йва OAHPA_ADV ;
+туаррэм OAHPA_ADV ;
+тула OAHPA_ADV ;
+туммпла OAHPA_ADV ;
+тёллэ OAHPA_ADV ;
+тёллэдтӭ OAHPA_ADV ;
+тӣррвэнҍ OAHPA_ADV ;
+тӯррэ OAHPA_ADV ;
+углэсьт OAHPA_ADV ;
+углясьт OAHPA_ADV ;
+чамсэнне OAHPA_ADV ;
+че̄ххча OAHPA_ADV ;
+чепельт OAHPA_ADV ;
+чинчас OAHPA_ADV ;
+чинчбельт OAHPA_ADV ;
+чинчпялла OAHPA_ADV ;
+чӣӈӈла OAHPA_ADV ;
+чӣӈӈэль OAHPA_ADV ;
+шӣгтэнне OAHPA_ADV ;
+ыгка OAHPA_ADV ;
+э̄ввтэль OAHPA_ADV ;
+э̄ллгэнне OAHPA_ADV ;
+э̄ллъенне OAHPA_ADV ;
+эвтэс OAHPA_ADV ;
+эфтэсьт OAHPA_ADV ;
+янта OAHPA_ADV ;
+яххта OAHPA_ADV ;
+ӣннҍенне OAHPA_ADV ;
+ӣнца OAHPA_ADV ;
+ӣнцэ OAHPA_ADV ;
+ӣӈӈҍкъенне OAHPA_ADV ;
