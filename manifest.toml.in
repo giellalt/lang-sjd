@@ -1,0 +1,9 @@
+name = "Kildin Sami"
+version = "@SPELLERVERSION@"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.sjd"
+
+[windows]
+system_product_code = "8438EAA8-D729-4B11-A794-8CAC68346802"
+msoffice_product_code = "B620EA1F-7E32-48E0-99FF-350041A2E989"
