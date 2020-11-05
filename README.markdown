@@ -21,7 +21,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/sjddoc/index.html>
+-   <https://giellalt.uit.no/lang/sjd/index.html>
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
