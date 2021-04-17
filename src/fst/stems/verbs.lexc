@@ -13,10 +13,10 @@
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
 
-!! !!!Kildin Saami verbs
+!! # Kildin Saami verbs
 
 
-LEXICON Verb   !!= * __@CODE@__
+LEXICON Verb   !!= * **@CODE@**
 NegAux ; ! negative auxilary
 Cop	; ! copula, auxilary
 NegCop ;
@@ -24,7 +24,7 @@ ImpMod ;
 Verbstems ;
 
 
-LEXICON NegAux   !!= * __@CODE@__
+LEXICON NegAux   !!= * **@CODE@**
 +V+Aux+Neg+Prs+Sg1:эмм K ;
 +V+Aux+Neg+Prs+Sg1+Use/Dial:ымм K ;
 +V+Aux+Neg+Prs+Sg2:эгк K ;
@@ -198,7 +198,7 @@ LEXICON ImpMod
 
 
 
-LEXICON Verbstems   !!= * __@CODE@__
+LEXICON Verbstems   !!= * **@CODE@**
 !векьхэ:векьх VDER1 "помоч" ;
 !киһче:киһч V2-PRE-JE ;
 пӯлле:пӯлл V2-GEM ;
@@ -268,7 +268,7 @@ LEXICON Verbstems   !!= * __@CODE@__
 оаввнэннтэ:оаввнэннт 7 "открываться / to open up (vi)" ;
 
 
-!! !!ELAN dump
+!! ## ELAN dump
 !! These words are added during testing work with the ELAN-FST script
 !! They should be given correct declension classes later
 лыһкэ:лыһк ELAN_V ;

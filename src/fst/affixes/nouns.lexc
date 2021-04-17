@@ -12,7 +12,7 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
-!! !!!Kildin Saami noun inflection
+!! # Kildin Saami noun inflection
 
 LEXICON N2-CLU-JE
 +N+Sg+Nom:%>0 K ;
@@ -190,7 +190,7 @@ LEXICON ELAN_N  !!= @CODE@ is all the words from ELAN_N, we just point them to 1
   1DA ; ! Just pointing it on to the first and best
 
 
-!! !!Case affixes
+!! ## Case affixes
 
 LEXICON SgNomSuf !!= @CODE@
  +Sg+Nom:%>0 K ; ! Им.

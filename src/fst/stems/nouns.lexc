@@ -13,7 +13,7 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
-!! !!!Kildin Saami nouns
+!! # Kildin Saami nouns
 
 LEXICON Noun !!= * @CODE@
 вуэннч N2-CLU-JE ;
@@ -30,7 +30,7 @@ LEXICON Noun !!= * @CODE@
 фа̄ртэк KOOREB ;
 пӣӈӈк PIIŊŊK ;
 
-!! !!class1
+!! ## class1
 пе̄ййв 1DA ;
 дрӯгк 1DA ;
 вуэрр 1DA ;
@@ -84,7 +84,7 @@ LEXICON Noun !!= * @CODE@
 кӣдт 1DB "рука / hand, arm" ;!xx-->x
 ка̄ннҍцвудт 1DB "дружба / friendship" ;
 
-!! !!2. declension (class 2) ! like 1. decl., but with C-clusters
+!! ## 2. declension (class 2) ! like 1. decl., but with C-clusters
 ля̄ммт 2D "лес / forrest, wood(s)" ;!! * Ablaut
 кӯшшк 2D "порог на реке / rapids" ;!Ablaut
 ма̄ййт 2D "молоко / milk" ;!Ablaut
@@ -95,13 +95,13 @@ LEXICON Noun !!= * @CODE@
 а̄ввьл 2D "крючок на перекладине в куваксе / hook for hanging things in a" ; 
 на̄ввьт 2D "зверь / wild animal, (wild) beast" ;
 
-!! !!3. declension (class 7) no stem gradation
+!! ## 3. declension (class 7) no stem gradation
 кӯссь 3D "гость / guest" ;
 пысс 3D "ружьё / gun" ;
 па̄лл 3D "мяч / ball" ;
 а̄шшь 3D "просьба / request | application" ;
 
-!! !!4. declension (classes 3, 5) !these are two different declesions: the "puaz-class" and the "cyza-class"
+!! ## 4. declension (classes 3, 5) !these are two different declesions: the "puaz-class" and the "cyza-class"
 пуаз:пуадз 4D "олень / reindeer" ; ! no Nom generated!
 цыза 4DА "птичка / little bird" ; 
 оаб 4D "усы / moustache" ;
@@ -110,7 +110,7 @@ LEXICON Noun !!= * @CODE@
 ылльтэ 4D "полка / shelf" ;
 ке̄лл 4D ;
 
-!! !!5. declension (classes 4, 6, 9)
+!! ## 5. declension (classes 4, 6, 9)
 чӣгар:чӣгкар 5D "стадо / herd | flock" ; ! no Nom generated!
 коавас:ко̄ввас 5D "кувакса / Saami tent" ; ! no Nom generated!
 ва̄нҍтэсь:ва̄ннтас 5D "обруг / (barrel) hoop" ;! no Nom generated!
@@ -122,15 +122,15 @@ LEXICON Noun !!= * @CODE@
 куаррэй 5D "швея / seamstress" ;
 кэ̄рхаллей 5D "гонщик / racer | rafter" ;
 
-!! !!6. declension (classes )
+!! ## 6. declension (classes )
 
-!! !!ELAN dump
+!! ## ELAN dump
 !! These words are added during testing work with the ELAN-FST script
 !! They should be given correct declension classes later
 рекла̄ма ELAN_N "реклама / advertisement" ;
 кӣннт ELAN_N "кинтище" ;
 
-!! !!Oahpa dump
+!! ## Oahpa dump
 !! These words are added from sjdoahpa.
 !! Some of them are unfortunaely plural forms, and should be removed 
 !! or put in singular.
