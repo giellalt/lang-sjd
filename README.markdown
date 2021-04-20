@@ -10,8 +10,8 @@ authors named in the AUTHORS file are available to grant other licencing
 choices.
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-sjd)](https://github.com/giellalt/lang-sjd/issues)
-[![Build Status](https://github.com/giellalt/lang-sjd/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-sjd/actions)
-[![License](https://img.shields.io/github/license/giellalt/template-lang-sjd)](https://raw.githubusercontent.com/giellalt/lang-sjd/develop/LICENSE)
+[![Build Status](https://github.com/giellalt/lang-sjd/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-sjd/actions)
+[![License](https://img.shields.io/github/license/giellalt/lang-sjd)](https://raw.githubusercontent.com/giellalt/lang-sjd/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-sjd)
 for the Kildin Sami language by using the [Divvun Installer](http://divvun.no)
