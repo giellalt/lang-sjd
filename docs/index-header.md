@@ -1,7 +1,7 @@
 # Kildin Sami documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/template-lang-sjd)](https://raw.githubusercontent.com/giellalt/lang-sjd/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-sjd)](https://raw.githubusercontent.com/giellalt/lang-sjd/develop/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-sjd)](https://github.com/giellalt/lang-sjd/issues)
 [![Build status](https://github.com/giellalt/lang-sjd/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-sjd/actions)
 
