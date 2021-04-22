@@ -1,0 +1,65 @@
+
+# Kildin Sámi TWOLC file
+
+## Symbol declarations
+### Alphabet
+
+ *   а А ӓ Ӓ а̄ А̄ б Б в В г Г д Д   
+ *   е Е ё Ё е̄ Е̄ ё̄ Ё̄ ж Ж з З һ Һ  
+ *   и И ӣ Ӣ й Й ҋ Ҋ ј Ј к К л Л  
+ *   ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ о О  
+ *   о̄ О̄ п П р Р ҏ Ҏ с С т Т у У  
+ *   ӯ Ӯ ф Ф х Х ц Ц ч Ч ш Ш щ Щ  
+ *   ъ Ъ ы Ы ь Ь ъ Ъ ҍ Ҍ э Э ӭ Ӭ  
+ *   э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄          
+
+
+### Trigger symbols
+ *   %^1VOW:0		 Vow trigger for epenthetic -э-
+ *   %^2VOW:0		 Vow trigger 
+ *   %^3VOW:0		 Vow trigger 
+ *   %^4VOW:0		 Vow trigger 
+ *   %^5VOW:0		 Vow trigger 
+ *   %^VOWSH:0              
+ *   %^WG:0		 for weak consonant stem gradation 
+ *   %^EPHV:0          
+ *   %^DI:0              
+ *   %^CLPAL:0     
+ *   %^CLDPAL:0	 for depalatalizing consonant stems
+ *   %^DPAL:0		 for depalatalizing consonant stems
+ *   %^MON:0    
+ *   %^PAL:0		 for palatalizing consonsant stems
+
+
+
+
+## Sets
+ *  C  = б Б в В г Г д Д ж Ж з З һ Һ й Й ҋ Ҋ ј Ј к К л Л ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ п П р Р ҏ Ҏ с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ ;  
+ *  V  = а А ӓ Ӓ а̄ А̄ е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э ӭ Ӭ э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;  
+ *  PALMARK = ь Ь ҍ Ҍ ;  
+ *  VPLOS = г Г ;  
+ *  VLPLOS = к К ;  
+ *  PALCON = ж Ж й Й ҋ Ҋ ј Ј ч Ч ;   can only by followed by PALVOW !so-called "palatalized C"
+ *  PALVOW = е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;  so-called "palatalized V"
+ *  HPLVOW = ӓ Ӓ ӭ Ӭ ;   so-called "half-palatalized V"
+ *  NPLVOW = а А а̄ А̄ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э э̄ Э̄ ;   so-called "non-palatalized V"
+
+ *  Dummy  = %^WG %^DI %^DPAL %^MON %> %^PAL %^CLPAL ;  
+
+
+# Rule section
+
+**Quantitative CG xxy:xy (of nonpal cлusters)**  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, сыййт:сыйт, etc. 
+
+**Qualitative CG xx:y (of voiced affricates)      ** i.e. джь : жь, дзь : зь, дз : з
+
+**Quantitative CG (of continuants)**  
+
+**ue>ua Ablaut**  
+
+**Epenthetic vowel deletion (npal vowels)** e.g. ко̄рэб:ко̄рбэсьт, etc. шоабаш-:шоабш-
+
+
+
+
+
