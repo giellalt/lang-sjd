@@ -5,11 +5,19 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-sjd)](https://github.com/giellalt/lang-sjd/issues)
 [![Build status](https://github.com/giellalt/lang-sjd/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-sjd/actions)
 
-This page documents the work on the **Kildin Sami language model**. 
+This page documents the work on the [Kildin Sami language model](https://github.com/giellalt/lang-sjd). 
 
 # Project documentation
 
-* Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
+## FST
+
+* [Morphophonology for the Kildin analyser](docu-twol.eng.html)
+
+## Resources
+
+* [Tools based on the present language model](https://giellatekno.uit.no/cgi/index.sjd.eng.html)
+* [Corpus sources](docu-corpus-sources.txt)
+* [RuSa convertion table](RuSaDicConvertingTableB_meeting_20.04.2009.txt)
 
 # In-source documentation
 
