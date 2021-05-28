@@ -606,204 +606,6 @@ These were the set types.
 
 
 
-no +CC: K ; because complex CC's go into the lexicon
-
-
-
-no +CS: K ; because complex CS's go into the lexicon
-
-
-Check this 
-Check this, adverb?
-Check this, adverb?
-
-
-
-
-# Kildin Saami nouns
-
- * LEXICON Noun 
-
-
-## class1
-кӯсс 1DA "ель / fir" ;   кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
-
-class1 orth. дт/ill. ӭ
-
-## 2. declension (class 2) ! like 1. decl., but with C-clusters
-* Ablaut
- * куэсськ 2D "тётя / aunt" ; 
-
-## 3. declension (class 7) no stem gradation
-
-## 4. declension (classes 3, 5) !these are two different declesions: the "puaz-class" and the "cyza-class"
-
-## 5. declension (classes 4, 6, 9)
-
-## 6. declension (classes )
-
-## ELAN dump
-These words are added during testing work with the ELAN-FST script
-They should be given correct declension classes later
-
-## Oahpa dump
-These words are added from sjdoahpa.
-Some of them are unfortunaely plural forms, and should be removed 
-or put in singular.
-Then they should be given correct declension class
-
-
-# Kildin Saami verbs
-
-
- * **LEXICON Verb   **
-
-
- * **LEXICON NegAux   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON Verbstems   **
-
-
-
-
-
-
-
-
-## ELAN dump
-These words are added during testing work with the ELAN-FST script
-They should be given correct declension classes later
-
-
-Just dumping Oahpa verbs in the rest of the file
-
-
- * **LEXICON Adjective   **
-
-
-
-
-
-
-
-
-
-
-
-Just dumping the oahpa adjectives here
-
-
-# Kildin Sámi TWOLC file
-
-## Symbol declarations
-### Alphabet
-
- *   а А ӓ Ӓ а̄ А̄ б Б в В г Г д Д   
- *   е Е ё Ё е̄ Е̄ ё̄ Ё̄ ж Ж з З һ Һ  
- *   и И ӣ Ӣ й Й ҋ Ҋ ј Ј к К л Л  
- *   ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ о О  
- *   о̄ О̄ п П р Р ҏ Ҏ с С т Т у У  
- *   ӯ Ӯ ф Ф х Х ц Ц ч Ч ш Ш щ Щ  
- *   ъ Ъ ы Ы ь Ь ъ Ъ ҍ Ҍ э Э ӭ Ӭ  
- *   э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄          
-
-
-### Trigger symbols
- *   %^1VOW:0		 Vow trigger for epenthetic -э-
- *   %^2VOW:0		 Vow trigger 
- *   %^3VOW:0		 Vow trigger 
- *   %^4VOW:0		 Vow trigger 
- *   %^5VOW:0		 Vow trigger 
- *   %^VOWSH:0              
- *   %^WG:0		 for weak consonant stem gradation 
- *   %^EPHV:0          
- *   %^DI:0              
- *   %^CLPAL:0     
- *   %^CLDPAL:0	 for depalatalizing consonant stems
- *   %^DPAL:0		 for depalatalizing consonant stems
- *   %^MON:0    
- *   %^PAL:0		 for palatalizing consonsant stems
-
-
-
-
-## Sets
- *  C  = б Б в В г Г д Д ж Ж з З һ Һ й Й ҋ Ҋ ј Ј к К л Л ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ п П р Р ҏ Ҏ с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ ;  
- *  V  = а А ӓ Ӓ а̄ А̄ е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э ӭ Ӭ э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;  
- *  PALMARK = ь Ь ҍ Ҍ ;  
- *  VPLOS = г Г ;  
- *  VLPLOS = к К ;  
- *  PALCON = ж Ж й Й ҋ Ҋ ј Ј ч Ч ;   can only by followed by PALVOW !so-called "palatalized C"
- *  PALVOW = е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;  so-called "palatalized V"
- *  HPLVOW = ӓ Ӓ ӭ Ӭ ;   so-called "half-palatalized V"
- *  NPLVOW = а А а̄ А̄ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э э̄ Э̄ ;   so-called "non-palatalized V"
-
- *  Dummy  = %^WG %^DI %^DPAL %^MON %> %^PAL %^CLPAL ;  
-
-
-# Rule section
-
-**Quantitative CG xxy:xy (of nonpal cлusters)**  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, сыййт:сыйт, etc. 
-
-**Qualitative CG xx:y (of voiced affricates)      ** i.e. джь : жь, дзь : зь, дз : з
-
-**Quantitative CG (of continuants)**  
-
-**ue>ua Ablaut**  
-
-**Epenthetic vowel deletion (npal vowels)** e.g. ко̄рэб:ко̄рбэсьт, etc. шоабаш-:шоабш-
-
-
-
-
-
-
-# Symbol affixes
-
-
-
-
-
-
 # Kildin Saami noun inflection
 
 
@@ -890,6 +692,204 @@ It is unclear whether this is the correct classification
 
  LEXICON PlComSuf 
 
+# Symbol affixes
+
+
+
+
+
+
+# Kildin Sámi TWOLC file
+
+## Symbol declarations
+### Alphabet
+
+ *   а А ӓ Ӓ а̄ А̄ б Б в В г Г д Д   
+ *   е Е ё Ё е̄ Е̄ ё̄ Ё̄ ж Ж з З һ Һ  
+ *   и И ӣ Ӣ й Й ҋ Ҋ ј Ј к К л Л  
+ *   ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ о О  
+ *   о̄ О̄ п П р Р ҏ Ҏ с С т Т у У  
+ *   ӯ Ӯ ф Ф х Х ц Ц ч Ч ш Ш щ Щ  
+ *   ъ Ъ ы Ы ь Ь ъ Ъ ҍ Ҍ э Э ӭ Ӭ  
+ *   э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄          
+
+
+### Trigger symbols
+ *   %^1VOW:0		 Vow trigger for epenthetic -э-
+ *   %^2VOW:0		 Vow trigger 
+ *   %^3VOW:0		 Vow trigger 
+ *   %^4VOW:0		 Vow trigger 
+ *   %^5VOW:0		 Vow trigger 
+ *   %^VOWSH:0              
+ *   %^WG:0		 for weak consonant stem gradation 
+ *   %^EPHV:0          
+ *   %^DI:0              
+ *   %^CLPAL:0     
+ *   %^CLDPAL:0	 for depalatalizing consonant stems
+ *   %^DPAL:0		 for depalatalizing consonant stems
+ *   %^MON:0    
+ *   %^PAL:0		 for palatalizing consonsant stems
+
+
+
+
+## Sets
+ *  C  = б Б в В г Г д Д ж Ж з З һ Һ й Й ҋ Ҋ ј Ј к К л Л ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ п П р Р ҏ Ҏ с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ ;  
+ *  V  = а А ӓ Ӓ а̄ А̄ е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э ӭ Ӭ э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;  
+ *  PALMARK = ь Ь ҍ Ҍ ;  
+ *  VPLOS = г Г ;  
+ *  VLPLOS = к К ;  
+ *  PALCON = ж Ж й Й ҋ Ҋ ј Ј ч Ч ;   can only by followed by PALVOW !so-called "palatalized C"
+ *  PALVOW = е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;  so-called "palatalized V"
+ *  HPLVOW = ӓ Ӓ ӭ Ӭ ;   so-called "half-palatalized V"
+ *  NPLVOW = а А а̄ А̄ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э э̄ Э̄ ;   so-called "non-palatalized V"
+
+ *  Dummy  = %^WG %^DI %^DPAL %^MON %> %^PAL %^CLPAL ;  
+
+
+# Rule section
+
+**Quantitative CG xxy:xy (of nonpal cлusters)**  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, сыййт:сыйт, etc. 
+
+**Qualitative CG xx:y (of voiced affricates)      ** i.e. джь : жь, дзь : зь, дз : з
+
+**Quantitative CG (of continuants)**  
+
+**ue>ua Ablaut**  
+
+**Epenthetic vowel deletion (npal vowels)** e.g. ко̄рэб:ко̄рбэсьт, etc. шоабаш-:шоабш-
+
+
+
+
+
+
+
+# Kildin Saami verbs
+
+
+ * **LEXICON Verb   **
+
+
+ * **LEXICON NegAux   **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON Verbstems   **
+
+
+
+
+
+
+
+
+## ELAN dump
+These words are added during testing work with the ELAN-FST script
+They should be given correct declension classes later
+
+
+Just dumping Oahpa verbs in the rest of the file
+
+no +CC: K ; because complex CC's go into the lexicon
+
+
+
+
+ * **LEXICON Adjective   **
+
+
+
+
+
+
+
+
+
+
+
+Just dumping the oahpa adjectives here
+
+
+
+# Kildin Saami nouns
+
+ * LEXICON Noun 
+
+
+## class1
+кӯсс 1DA "ель / fir" ;   кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
+
+class1 orth. дт/ill. ӭ
+
+## 2. declension (class 2) ! like 1. decl., but with C-clusters
+* Ablaut
+ * куэсськ 2D "тётя / aunt" ; 
+
+## 3. declension (class 7) no stem gradation
+
+## 4. declension (classes 3, 5) !these are two different declesions: the "puaz-class" and the "cyza-class"
+
+## 5. declension (classes 4, 6, 9)
+
+## 6. declension (classes )
+
+## ELAN dump
+These words are added during testing work with the ELAN-FST script
+They should be given correct declension classes later
+
+## Oahpa dump
+These words are added from sjdoahpa.
+Some of them are unfortunaely plural forms, and should be removed 
+or put in singular.
+Then they should be given correct declension class
+
+no +CS: K ; because complex CS's go into the lexicon
+
+
+Check this 
+Check this, adverb?
+Check this, adverb?
+
+
+
 # Kildin Sámi morphological analyser                     !
 
  # Definitions for Multichar_Symbols
@@ -937,26 +937,44 @@ given the proper use of these flags.
 
 
 
-
-
-We describe here how abbreviations are in Kildin Sami are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-
 Vowel shortening in compounds in Kildin Saami
 
 Linguistics behind this file: 
 In compounding non-initial long vowels shorten.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1034,35 +1052,17 @@ Divvun & Giellatekno - open source grammars for Sámi and other languages
 
 
 
+We describe here how abbreviations are in Kildin Sami are read out, e.g.
+for text-to-speech systems.
 
+For example:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 
