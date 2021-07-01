@@ -84,3 +84,5 @@ It is unclear whether this is the correct classification
  LEXICON PlAbeSuf 
 
  LEXICON PlComSuf 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/affixes/nouns.lexc)</small>

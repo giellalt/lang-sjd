@@ -45,3 +45,5 @@ given the proper use of these flags.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/root.lexc)</small>

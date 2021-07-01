@@ -31,3 +31,5 @@ These words are added from sjdoahpa.
 Some of them are unfortunaely plural forms, and should be removed 
 or put in singular.
 Then they should be given correct declension class
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/stems/nouns.lexc)</small>

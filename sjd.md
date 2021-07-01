@@ -199,7 +199,7 @@
 * Sets for verbs
 
 
-    - V is all readings with a V tag in them, REAL-V should
+- V is all readings with a V tag in them, REAL-V should
 be the ones without an N tag following the V.  
 The REAL-V set thus awaits a fix to the preprocess V ... N bug.
 
@@ -605,7 +605,56 @@ These were the set types.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-sjd/blob/main/../src/cg3/functions.cg3)</small>
+# Kildin Sámi morphological analyser                     !
 
+ # Definitions for Multichar_Symbols
+
+
+
+
+
+
+ * +Symbol = independent symbols in the text stream, like £, €, ©
+
+ * +Use/Elid    = Elided substandard (Иванович~Иваныч, новее~новей, чтобы~чтоб, или~иль, коли~коль)
+ * +Use/Orth	 = Orthographic substandard
+
+
+
+## Flag diacritics
+We have manually optimised the structure of our lexicon using following
+flag diacritics to restrict morphological combinatorics - only allow compounds
+with verbs if the verb is further derived into a noun again:
+ |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+ |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+ |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+
+For languages that allow compounding, the following flag diacritics are needed
+to control position-based compounding restrictions for nominals. Their use is
+handled automatically if combined with +CmpN/xxx tags. If not used, they will
+do no harm.
+ |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
+ |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
+ |  @P.CmpPref.FALSE@ | Block these words from making further compounds
+ |  @D.CmpLast.TRUE@ | Block such words from entering R
+ |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
+ |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
+ |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
+ |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+
+Use the following flag diacritics to control downcasing of derived proper
+nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
+these flags. There exists a ready-made regex that will do the actual down-casing
+given the proper use of these flags.
+ |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
+ |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/root.lexc)</small>
 # Kildin Saami noun inflection
 
 
@@ -691,14 +740,147 @@ It is unclear whether this is the correct classification
  LEXICON PlAbeSuf 
 
  LEXICON PlComSuf 
-
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/affixes/nouns.lexc)</small>
 # Symbol affixes
 
 
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/affixes/symbols.lexc)</small>
 
+# Kildin Saami nouns
+
+ * LEXICON Noun 
+
+
+## class1
+кӯсс 1DA "ель / fir" ;   кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
+
+class1 orth. дт/ill. ӭ
+
+## 2. declension (class 2) ! like 1. decl., but with C-clusters
+* Ablaut
+ * куэсськ 2D "тётя / aunt" ; 
+
+## 3. declension (class 7) no stem gradation
+
+## 4. declension (classes 3, 5) !these are two different declesions: the "puaz-class" and the "cyza-class"
+
+## 5. declension (classes 4, 6, 9)
+
+## 6. declension (classes )
+
+## ELAN dump
+These words are added during testing work with the ELAN-FST script
+They should be given correct declension classes later
+
+## Oahpa dump
+These words are added from sjdoahpa.
+Some of them are unfortunaely plural forms, and should be removed 
+or put in singular.
+Then they should be given correct declension class
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/stems/nouns.lexc)</small>
+no +CC: K ; because complex CC's go into the lexicon
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/stems/conjunctions.lexc)</small>
+
+ * **LEXICON Adjective   **
+
+
+
+
+
+
+
+
+
+
+
+Just dumping the oahpa adjectives here
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/stems/adjectives.lexc)</small>
+no +CS: K ; because complex CS's go into the lexicon
+
+
+Check this 
+Check this, adverb?
+Check this, adverb?
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/subjunctions.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/stems/subjunctions.lexc)</small>
+
+# Kildin Saami verbs
+
+
+ * **LEXICON Verb   **
+
+
+ * **LEXICON NegAux   **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON Verbstems   **
+
+
+
+
+
+
+
+
+## ELAN dump
+These words are added during testing work with the ELAN-FST script
+They should be given correct declension classes later
+
+
+Just dumping Oahpa verbs in the rest of the file
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/stems/verbs.lexc)</small>
 # Kildin Sámi TWOLC file
 
 ## Symbol declarations
@@ -763,180 +945,8 @@ It is unclear whether this is the correct classification
 
 
 
-
-
-# Kildin Saami verbs
-
-
- * **LEXICON Verb   **
-
-
- * **LEXICON NegAux   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON Verbstems   **
-
-
-
-
-
-
-
-
-## ELAN dump
-These words are added during testing work with the ELAN-FST script
-They should be given correct declension classes later
-
-
-Just dumping Oahpa verbs in the rest of the file
-
-no +CC: K ; because complex CC's go into the lexicon
-
-
-
-
- * **LEXICON Adjective   **
-
-
-
-
-
-
-
-
-
-
-
-Just dumping the oahpa adjectives here
-
-
-
-# Kildin Saami nouns
-
- * LEXICON Noun 
-
-
-## class1
-кӯсс 1DA "ель / fir" ;   кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
-
-class1 orth. дт/ill. ӭ
-
-## 2. declension (class 2) ! like 1. decl., but with C-clusters
-* Ablaut
- * куэсськ 2D "тётя / aunt" ; 
-
-## 3. declension (class 7) no stem gradation
-
-## 4. declension (classes 3, 5) !these are two different declesions: the "puaz-class" and the "cyza-class"
-
-## 5. declension (classes 4, 6, 9)
-
-## 6. declension (classes )
-
-## ELAN dump
-These words are added during testing work with the ELAN-FST script
-They should be given correct declension classes later
-
-## Oahpa dump
-These words are added from sjdoahpa.
-Some of them are unfortunaely plural forms, and should be removed 
-or put in singular.
-Then they should be given correct declension class
-
-no +CS: K ; because complex CS's go into the lexicon
-
-
-Check this 
-Check this, adverb?
-Check this, adverb?
-
-
-
-# Kildin Sámi morphological analyser                     !
-
- # Definitions for Multichar_Symbols
-
-
-
-
-
-
- * +Symbol = independent symbols in the text stream, like £, €, ©
-
- * +Use/Elid    = Elided substandard (Иванович~Иваныч, новее~новей, чтобы~чтоб, или~иль, коли~коль)
- * +Use/Orth	 = Orthographic substandard
-
-
-
-## Flag diacritics
-We have manually optimised the structure of our lexicon using following
-flag diacritics to restrict morphological combinatorics - only allow compounds
-with verbs if the verb is further derived into a noun again:
- |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
-
-For languages that allow compounding, the following flag diacritics are needed
-to control position-based compounding restrictions for nominals. Their use is
-handled automatically if combined with +CmpN/xxx tags. If not used, they will
-do no harm.
- |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
- |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
- |  @P.CmpPref.FALSE@ | Block these words from making further compounds
- |  @D.CmpLast.TRUE@ | Block such words from entering R
- |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
- |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
- |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
- |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
-
-Use the following flag diacritics to control downcasing of derived proper
-nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
-these flags. There exists a ready-made regex that will do the actual down-casing
-given the proper use of these flags.
- |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
- |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
-
-
-
-
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/phonology.twolc)</small>
 Vowel shortening in compounds in Kildin Saami
 
 Linguistics behind this file: 
@@ -950,6 +960,8 @@ In compounding non-initial long vowels shorten.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/vowelshortening.twolc](http://github.com/giellalt/lang-sjd/blob/main/../src/transcriptions/vowelshortening.twolc)</small>
 
 
 
@@ -983,8 +995,9 @@ In compounding non-initial long vowels shorten.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-clock-digit2text.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/transcriptions/transcriptor-clock-digit2text.lexc)</small>Divvun & Giellatekno - open source grammars for Sámi and other languages
 
-Divvun & Giellatekno - open source grammars for Sámi and other languages
 
 
 
@@ -1048,8 +1061,8 @@ Divvun & Giellatekno - open source grammars for Sámi and other languages
 
 
 
-
-
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 
 We describe here how abbreviations are in Kildin Sami are read out, e.g.
@@ -1065,8 +1078,9 @@ For example:
  * esim.:esimerkiksi # ; 
 
 
-
-      [ L A N G U A G E ]  G R A M M A R   C H E C K E R
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+[ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
 
 
@@ -1476,3 +1490,5 @@ expression **WORD - premodifiers**.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-sjd/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>
