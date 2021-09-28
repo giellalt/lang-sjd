@@ -607,6 +607,137 @@ These were the set types.
 
 * * *
 <small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-sjd/blob/main/../src/cg3/functions.cg3)</small>
+
+# Kildin Saami nouns
+
+ * LEXICON Noun 
+
+
+## class1
+кӯсс 1DA "ель / fir" ;   кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
+
+class1 orth. дт/ill. ӭ
+
+## 2. declension (class 2) ! like 1. decl., but with C-clusters
+* Ablaut
+ * куэсськ 2D "тётя / aunt" ; 
+
+## 3. declension (class 7) no stem gradation
+
+## 4. declension (classes 3, 5) !these are two different declesions: the "puaz-class" and the "cyza-class"
+
+## 5. declension (classes 4, 6, 9)
+
+## 6. declension (classes )
+
+## ELAN dump
+These words are added during testing work with the ELAN-FST script
+They should be given correct declension classes later
+
+## Oahpa dump
+These words are added from sjdoahpa.
+Some of them are unfortunaely plural forms, and should be removed 
+or put in singular.
+Then they should be given correct declension class
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/stems/nouns.lexc)</small>
+no +CC: K ; because complex CC's go into the lexicon
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/stems/conjunctions.lexc)</small>
+
+ * **LEXICON Adjective   **
+
+
+
+
+
+
+
+
+
+
+
+Just dumping the oahpa adjectives here
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/stems/adjectives.lexc)</small>
+
+# Kildin Saami verbs
+
+
+ * **LEXICON Verb   **
+
+
+ * **LEXICON NegAux   **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON Verbstems   **
+
+
+
+
+
+
+
+
+## ELAN dump
+These words are added during testing work with the ELAN-FST script
+They should be given correct declension classes later
+
+
+Just dumping Oahpa verbs in the rest of the file
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/stems/verbs.lexc)</small>
+no +CS: K ; because complex CS's go into the lexicon
+
+
+Check this 
+Check this, adverb?
+Check this, adverb?
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/subjunctions.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/stems/subjunctions.lexc)</small>
 # Kildin Sámi TWOLC file
 
 ## Symbol declarations
@@ -816,137 +947,6 @@ given the proper use of these flags.
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/root.lexc)</small>
-
-# Kildin Saami nouns
-
- * LEXICON Noun 
-
-
-## class1
-кӯсс 1DA "ель / fir" ;   кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
-
-class1 orth. дт/ill. ӭ
-
-## 2. declension (class 2) ! like 1. decl., but with C-clusters
-* Ablaut
- * куэсськ 2D "тётя / aunt" ; 
-
-## 3. declension (class 7) no stem gradation
-
-## 4. declension (classes 3, 5) !these are two different declesions: the "puaz-class" and the "cyza-class"
-
-## 5. declension (classes 4, 6, 9)
-
-## 6. declension (classes )
-
-## ELAN dump
-These words are added during testing work with the ELAN-FST script
-They should be given correct declension classes later
-
-## Oahpa dump
-These words are added from sjdoahpa.
-Some of them are unfortunaely plural forms, and should be removed 
-or put in singular.
-Then they should be given correct declension class
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/stems/nouns.lexc)</small>
-no +CS: K ; because complex CS's go into the lexicon
-
-
-Check this 
-Check this, adverb?
-Check this, adverb?
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/subjunctions.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/stems/subjunctions.lexc)</small>
-
-# Kildin Saami verbs
-
-
- * **LEXICON Verb   **
-
-
- * **LEXICON NegAux   **
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON Verbstems   **
-
-
-
-
-
-
-
-
-## ELAN dump
-These words are added during testing work with the ELAN-FST script
-They should be given correct declension classes later
-
-
-Just dumping Oahpa verbs in the rest of the file
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/stems/verbs.lexc)</small>
-
- * **LEXICON Adjective   **
-
-
-
-
-
-
-
-
-
-
-
-Just dumping the oahpa adjectives here
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/stems/adjectives.lexc)</small>
-no +CC: K ; because complex CC's go into the lexicon
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/stems/conjunctions.lexc)</small>
 Vowel shortening in compounds in Kildin Saami
 
 Linguistics behind this file: 
@@ -961,7 +961,59 @@ In compounding non-initial long vowels shorten.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/transcriptions/vowelshortening.twolc](http://github.com/giellalt/lang-sjd/blob/main/../src/transcriptions/vowelshortening.twolc)</small>Divvun & Giellatekno - open source grammars for Sámi and other languages
+<small>This (part of) documentation was generated from [../src/transcriptions/vowelshortening.twolc](http://github.com/giellalt/lang-sjd/blob/main/../src/transcriptions/vowelshortening.twolc)</small>
+
+
+We describe here how abbreviations are in Kildin Sami are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-clock-digit2text.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/transcriptions/transcriptor-clock-digit2text.lexc)</small>Divvun & Giellatekno - open source grammars for Sámi and other languages
 
 
 
@@ -1028,58 +1080,6 @@ In compounding non-initial long vowels shorten.
 
 * * *
 <small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-clock-digit2text.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/transcriptions/transcriptor-clock-digit2text.lexc)</small>
-
-
-We describe here how abbreviations are in Kildin Sami are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
 
