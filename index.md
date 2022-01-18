@@ -27,7 +27,7 @@ and is still in an experimental stage.
 
 ## Old documentation
 
-* [Background](docu-background.eng.m,d)   ~ [Фон](docu-background.rus.md)
+* [Background](docu-background.eng.md)    ~ [Фон](docu-background.rus.md)
 * [Flowchart](docu-flowchart.eng.md)      ~ [Блок-схема](docu-flowchart.rus.md)
 * [Grammar tags](docu-grammartags.eng.md) ~ [Грамматические теги](docu-grammartags.rus.md)
 * [Morphophonology](docu-twol.eng.md)     ~ [Морфофонология](docu-twol.rus.md)
