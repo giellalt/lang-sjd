@@ -1,6 +1,6 @@
-!!!Kildin Saami grammar tags
+# Kildin Saami grammar tags
 
-This is a list over grammatical tags used in [the Kildin analyser|http://giellatekno.uit.no/cgi/index.sjd.eng.html].
+This is a list over grammatical tags used in [the Kildin analyser](http://giellatekno.uit.no/cgi/index.sjd.eng.html).
 
 Each word form is analysed with the dictionary form + grammatical tag(s).         Each tag is introduced with a "+" sign, e.g.:
 
@@ -10,34 +10,34 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 
 ӯйна ӯййнэ+V+Ind+Prs+Sg1
 
-[Здесь вы можете увидеть, что грамматические метки означают на русском языке|docu-grammartags.rus.html]
+[Здесь вы можете увидеть, что грамматические метки означают на русском языке](docu-grammartags.rus.html)
 
-!!Tags for parts-of-speech (POS and sub-POS)
+## Tags for parts-of-speech (POS and sub-POS)
 * +N (=noun)
-** +Prop (=proper)
+    - +Prop (=proper)
 * +Pron (=pronoun)
-** +Pers (=personal)
-** +Dem (=demonstrative)
-** +Interr (=interrogative)
-** +Refl (=reflexive)
-** +Rel (=relative)
+    - +Pers (=personal)
+    - +Dem (=demonstrative)
+    - +Interr (=interrogative)
+    - +Refl (=reflexive)
+    - +Rel (=relative)
 * +A (=adjective)
 * +Num (=numeral)
-** +Card (=cardinal numeral)
+    - +Card (=cardinal numeral)
 * +V (=verb)
-** +Neg (=negation verb)
+    - +Neg (=negation verb)
 * +Adv (=adverb)
 * +PP (=Adposition)
-** +Po (=postposition)
-** +Pr (=preposition)
+    - +Po (=postposition)
+    - +Pr (=preposition)
 * +Interj (=interjection)
 * +Pcle (=particle)
 * +Cs (=subordinator) 
 * +Cc (=coordinator)
 * +Det (=determiner=
 
-!!Tags for values of nominal inflectional categories
-!!!Case
+## Tags for values of nominal inflectional categories
+# Case
 * +Nom (=nominative)
 * +Gen (=genitive)
 * +Acc (=accusative)
@@ -48,11 +48,11 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 * +Ess (=essive)
 * +Par (=partitive)
 
-!!!Number
+# Number
 * +Sg (=singular)
 * +Pl (=plural)
 
-!!!Possession
+# Possession
 * +PxSg1 (=possessive 1st singular)
 * +PxSg2 (=possessive 2nd singular)
 * +PxSg3 (=possessive 3rd singular)
@@ -60,22 +60,22 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 * +PxPl2 (=possessive 2nd plural)
 * +PxPl3 (=possessive 3rd plural)
 
-!!!Adjectival state
-** +Attr (=attributive)
-** +Pred (=predicative)
+# Adjectival state
+    - +Attr (=attributive)
+    - +Pred (=predicative)
 
-!!Tags for values of verbal inflectional categories
-!!!Mood
+## Tags for values of verbal inflectional categories
+# Mood
 * +Ind (=Indicative)
 * +Imprt (=Imperative)
 * +Cond (=Coditional)
 * +Pot (=Potential)
 
-!!!Tense
+# Tense
 * +Prs (=non-past)
 * +Prt (=past)
 
-!!!Person/Number
+# Person/Number
 * +Sg1 (=1st singular)
 * +Sg2 (=2nd singular)
 * +Sg3 (=3rd singular)
@@ -84,7 +84,7 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 * +Pl3 (=3rd plural)
 * +Imprs (=impersonal)
 
-!!!Infinitives (verbs)
+# Infinitives (verbs)
 * +Inf (=infinitive)
 * +ConNeg (=connegative)
 * +PrsPrc (=present perfect)
@@ -92,8 +92,8 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 * +VGen (=verb genitive)
 * +VAbess (=verb abessive)
 
-!!Tags for values of derivational processes
-!!!Compounds
+## Tags for values of derivational processes
+# Compounds
 * +Cmp/Sg
 * +Cmp/SgNom
 * +Cmp/SgGen
@@ -101,21 +101,21 @@ Each word form is analysed with the dictionary form + grammatical tag(s).       
 * +Cmpnd
 * +Cmpnd+ 
 
-!!!Comparation (of adjectives and adverbs)
+# Comparation (of adjectives and adverbs)
 * +Comp (=comparative)
 * +Superl (=superlative)
 
-!!!Numeral derivation
-** +Ord (=ordinal)
-** +Coll (=collective)
+# Numeral derivation
+    - +Ord (=ordinal)
+    - +Coll (=collective)
 
-!!!Derivation of pronouns
-** +Indef (=indefinite)
+# Derivation of pronouns
+    - +Indef (=indefinite)
 
-!!!Derivation of adverbs
+# Derivation of adverbs
 * +Adv (=adverb)
 
-!!Other
+## Other
 * +ABBR (=abbreviation)
 * +ACR (=acronym)
 * +CLB (=clause boundary)

@@ -3,13 +3,10 @@
 # Kildin Saami verbs
 
 
- * **LEXICON Verb   **
+* **LEXICON Verb   **
 
 
- * **LEXICON NegAux   **
-
-
-
+* **LEXICON NegAux   **
 
 
 
@@ -47,7 +44,10 @@
 
 
 
- * **LEXICON Verbstems   **
+
+
+
+* **LEXICON Verbstems   **
 
 
 

@@ -1,6 +1,6 @@
 
 
- * **LEXICON Adjective   **
+* **LEXICON Adjective   **
 
 
 

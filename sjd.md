@@ -609,17 +609,17 @@ These were the set types.
 <small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-sjd/blob/main/../src/cg3/functions.cg3)</small>
 # Kildin Sámi morphological analyser                     !
 
-# Definitions for Multichar_Symbols@CODE@
+# Definitions for Multichar_Symbols
 
 
 
 
 
 
-* +Symbol© = independent symbols in the text stream, like £, €, ©
+* +Symbol = independent symbols in the text stream, like £, €, ©
 
- * +Use/Elid    = Elided substandard (Иванович~Иваныч, новее~новей, чтобы~чтоб, или~иль, коли~коль)
- * +Use/Orth	 = Orthographic substandard
+* +Use/Elid    = Elided substandard (Иванович~Иваныч, новее~новей, чтобы~чтоб, или~иль, коли~коль)
+* +Use/Orth	 = Orthographic substandard
 
 
 
@@ -627,29 +627,29 @@ These were the set types.
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morphological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
-|  @P.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
-|  @D.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
-|  @C.NeedNoun@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+|  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+|  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
 do no harm.
-|  @P.CmpFrst.FALSE@first | Require that words tagged as such only appear first
-|  @D.CmpPref.TRUE@ENDLEX | Block such words from entering ENDLEX
-|  @P.CmpPref.FALSE@compounds | Block these words from making further compounds
-|  @D.CmpLast.TRUE@R | Block such words from entering R
-|  @D.CmpNone.TRUE@compounding | Combines with the next tag to prohibit compounding
-|  @U.CmpNone.FALSE@compounding | Combines with the prev tag to prohibit compounding
-|  @P.CmpOnly.TRUE@R | Sets a flag to indicate that the word has passed R
-|  @D.CmpOnly.FALSE@root. | Disallow words coming directly from root.
+|  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
+|  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
+|  @P.CmpPref.FALSE@ | Block these words from making further compounds
+|  @D.CmpLast.TRUE@ | Block such words from entering R
+|  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
+|  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
+|  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
+|  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
-|  @U.Cap.Obl@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
-|  @U.Cap.Opt@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
 
 
@@ -675,11 +675,11 @@ given the proper use of these flags.
 
 
 "class1" = monosyllabic/non-palatalized inflection foot, str-wk, no ablaut/umlaut, palatalization in Ill.Sg
- LEXICON 1DA  is orthographic subclass with xx--> x
+LEXICON 1DA  is orthographic subclass with xx--> x
 
 
 
- LEXICON 1DB  is orthographic subclass with xy-->x and "half-palatalization" in Ill.Sg;
+LEXICON 1DB  is orthographic subclass with xy-->x and "half-palatalization" in Ill.Sg;
 OBS! SgIllSufJE vs. SgIllSufHalfE does not mark a true morphological subclass, but is due to orthographic conventions
 
 
@@ -687,67 +687,67 @@ OBS! SgIllSufJE vs. SgIllSufHalfE does not mark a true morphological subclass, b
 Lexica 2D etc are classes from Kuruch dictionary.
 It is unclear whether this is the correct classification
 
- LEXICON 2D  like 1D ?  these are just dummy for the moment
+LEXICON 2D  like 1D ?  these are just dummy for the moment
 
 
- LEXICON 3D 
+LEXICON 3D 
 
 
- LEXICON 4D   is contract
+LEXICON 4D   is contract
 
- LEXICON 4DА  
+LEXICON 4DА  
 
 
- LEXICON 5D   goes to 1DA
+LEXICON 5D   goes to 1DA
 
- LEXICON OAHPA_N   is all the words from OAHPA_N, we just point them to 1DA.
+LEXICON OAHPA_N   is all the words from OAHPA_N, we just point them to 1DA.
 
- LEXICON ELAN_N   is all the words from ELAN_N, we just point them to 1DA.
+LEXICON ELAN_N   is all the words from ELAN_N, we just point them to 1DA.
 
 
 ## Case affixes
 
- LEXICON SgNomSuf 
+LEXICON SgNomSuf 
 
 
- LEXICON SgGenAccSuf 
+LEXICON SgGenAccSuf 
 
- LEXICON EssSuf 
+LEXICON EssSuf 
 Превр. !check here and elsewhere whether the palatal-mark-deletion-rule is really needed here (it's already included above)
 
- LEXICON ParSufE  
+LEXICON ParSufE  
 
- LEXICON ParSufHalfE  
-
-
- LEXICON SgLocSuf  
-
- LEXICON SgIllSufA  
-
- LEXICON SgIllSufE 
-
- LEXICON SgIllSufJE 
-
- LEXICON SgIllSufHalfE 
-
- LEXICON SgAbeSuf 
+LEXICON ParSufHalfE  
 
 
- LEXICON SgComSuf 
+LEXICON SgLocSuf  
 
- LEXICON PlNomSuf 
+LEXICON SgIllSufA  
 
- LEXICON PlGenSuf 
+LEXICON SgIllSufE 
 
- LEXICON PlAccSuf 
+LEXICON SgIllSufJE 
 
- LEXICON PlIllSuf 
+LEXICON SgIllSufHalfE 
 
- LEXICON PlLocSuf 
+LEXICON SgAbeSuf 
 
- LEXICON PlAbeSuf 
 
- LEXICON PlComSuf 
+LEXICON SgComSuf 
+
+LEXICON PlNomSuf 
+
+LEXICON PlGenSuf 
+
+LEXICON PlAccSuf 
+
+LEXICON PlIllSuf 
+
+LEXICON PlLocSuf 
+
+LEXICON PlAbeSuf 
+
+LEXICON PlComSuf 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/affixes/nouns.lexc)</small>
 # Kildin Sámi TWOLC file
@@ -755,47 +755,47 @@ It is unclear whether this is the correct classification
 ## Symbol declarations
 ### Alphabet
 
- *   а А ӓ Ӓ а̄ А̄ б Б в В г Г д Д   
- *   е Е ё Ё е̄ Е̄ ё̄ Ё̄ ж Ж з З һ Һ  
- *   и И ӣ Ӣ й Й ҋ Ҋ ј Ј к К л Л  
- *   ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ о О  
- *   о̄ О̄ п П р Р ҏ Ҏ с С т Т у У  
- *   ӯ Ӯ ф Ф х Х ц Ц ч Ч ш Ш щ Щ  
- *   ъ Ъ ы Ы ь Ь ъ Ъ ҍ Ҍ э Э ӭ Ӭ  
- *   э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄          
+*   а А ӓ Ӓ а̄ А̄ б Б в В г Г д Д   
+*   е Е ё Ё е̄ Е̄ ё̄ Ё̄ ж Ж з З һ Һ  
+*   и И ӣ Ӣ й Й ҋ Ҋ ј Ј к К л Л  
+*   ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ о О  
+*   о̄ О̄ п П р Р ҏ Ҏ с С т Т у У  
+*   ӯ Ӯ ф Ф х Х ц Ц ч Ч ш Ш щ Щ  
+*   ъ Ъ ы Ы ь Ь ъ Ъ ҍ Ҍ э Э ӭ Ӭ  
+*   э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄          
 
 
 ### Trigger symbols
- *   %^1VOW:0		 Vow trigger for epenthetic -э-
- *   %^2VOW:0		 Vow trigger 
- *   %^3VOW:0		 Vow trigger 
- *   %^4VOW:0		 Vow trigger 
- *   %^5VOW:0		 Vow trigger 
- *   %^VOWSH:0              
- *   %^WG:0		 for weak consonant stem gradation 
- *   %^EPHV:0          
- *   %^DI:0              
- *   %^CLPAL:0     
- *   %^CLDPAL:0	 for depalatalizing consonant stems
- *   %^DPAL:0		 for depalatalizing consonant stems
- *   %^MON:0    
- *   %^PAL:0		 for palatalizing consonsant stems
+*   %^1VOW:0		 Vow trigger for epenthetic -э-
+*   %^2VOW:0		 Vow trigger 
+*   %^3VOW:0		 Vow trigger 
+*   %^4VOW:0		 Vow trigger 
+*   %^5VOW:0		 Vow trigger 
+*   %^VOWSH:0              
+*   %^WG:0		 for weak consonant stem gradation 
+*   %^EPHV:0          
+*   %^DI:0              
+*   %^CLPAL:0     
+*   %^CLDPAL:0	 for depalatalizing consonant stems
+*   %^DPAL:0		 for depalatalizing consonant stems
+*   %^MON:0    
+*   %^PAL:0		 for palatalizing consonsant stems
 
 
 
 
 ## Sets
- *  C  = б Б в В г Г д Д ж Ж з З һ Һ й Й ҋ Ҋ ј Ј к К л Л ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ п П р Р ҏ Ҏ с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ ;  
- *  V  = а А ӓ Ӓ а̄ А̄ е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э ӭ Ӭ э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;  
- *  PALMARK = ь Ь ҍ Ҍ ;  
- *  VPLOS = г Г ;  
- *  VLPLOS = к К ;  
- *  PALCON = ж Ж й Й ҋ Ҋ ј Ј ч Ч ;   can only by followed by PALVOW !so-called "palatalized C"
- *  PALVOW = е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;  so-called "palatalized V"
- *  HPLVOW = ӓ Ӓ ӭ Ӭ ;   so-called "half-palatalized V"
- *  NPLVOW = а А а̄ А̄ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э э̄ Э̄ ;   so-called "non-palatalized V"
+*  C  = б Б в В г Г д Д ж Ж з З һ Һ й Й ҋ Ҋ ј Ј к К л Л ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ п П р Р ҏ Ҏ с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ ;  
+*  V  = а А ӓ Ӓ а̄ А̄ е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э ӭ Ӭ э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;  
+*  PALMARK = ь Ь ҍ Ҍ ;  
+*  VPLOS = г Г ;  
+*  VLPLOS = к К ;  
+*  PALCON = ж Ж й Й ҋ Ҋ ј Ј ч Ч ;   can only by followed by PALVOW !so-called "palatalized C"
+*  PALVOW = е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;  so-called "palatalized V"
+*  HPLVOW = ӓ Ӓ ӭ Ӭ ;   so-called "half-palatalized V"
+*  NPLVOW = а А а̄ А̄ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э э̄ Э̄ ;   so-called "non-palatalized V"
 
- *  Dummy  = %^WG %^DI %^DPAL %^MON %> %^PAL %^CLPAL ;  
+*  Dummy  = %^WG %^DI %^DPAL %^MON %> %^PAL %^CLPAL ;  
 
 
 # Rule section
@@ -824,17 +824,17 @@ no +CC: K ; because complex CC's go into the lexicon
 
 # Kildin Saami nouns
 
- * LEXICON Noun 
+* LEXICON Noun 
 
 
 ## class1
-кӯсс 1DA "ель / fir" ;   кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
+кӯсс 1DA "ель / fir" ;  кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
 
 class1 orth. дт/ill. ӭ
 
 ## 2. declension (class 2) ! like 1. decl., but with C-clusters
 * Ablaut
- * куэсськ 2D "тётя / aunt" ; 
+* куэсськ 2D "тётя / aunt" ; 
 
 ## 3. declension (class 7) no stem gradation
 
@@ -856,7 +856,7 @@ Then they should be given correct declension class
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/stems/nouns.lexc)</small>
 
- * **LEXICON Adjective   **
+* **LEXICON Adjective   **
 
 
 
@@ -886,13 +886,10 @@ Check this, adverb?
 # Kildin Saami verbs
 
 
- * **LEXICON Verb   **
+* **LEXICON Verb   **
 
 
- * **LEXICON NegAux   **
-
-
-
+* **LEXICON NegAux   **
 
 
 
@@ -930,7 +927,10 @@ Check this, adverb?
 
 
 
- * **LEXICON Verbstems   **
+
+
+
+* **LEXICON Verbstems   **
 
 
 
@@ -969,12 +969,12 @@ for text-to-speech systems.
 
 For example:
 
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
+* s.:syntynyt # ;  
+* os.:omaa% sukua # ;  
+* v.:vuosi # ;  
+* v.:vuonna # ;  
+* esim.:esimerkki # ; 
+* esim.:esimerkiksi # ; 
 
 
 * * *

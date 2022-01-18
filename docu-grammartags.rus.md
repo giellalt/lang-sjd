@@ -1,9 +1,9 @@
-!!!грамматических тэги проекта килдинского языка
+# грамматических тэги проекта килдинского языка
 
 (Полный перевод готовится к публикации.)
 
 Это алфавитный список морфологических тегов
-в [анализатора кильдинсаамского языка |http://giellatekno.uit.no/cgi/index.sjd.rus.html].
+в [анализатора кильдинсаамского языка ](http://giellatekno.uit.no/cgi/index.sjd.rus.html).
 
 Каждая словоформа анализируется с помощью: словарная форма плюс грамматический тэг(и). Каждый тэг начинается с знака "+", напр.:
 
@@ -13,35 +13,35 @@
 
 ӯйна ӯййнэ+V+Ind+Prs+Sg1
 
-[The tags are explained in English as well|docu-grammartags.eng.html]
+[The tags are explained in English as well](docu-grammartags.eng.html)
 
-!!Tеги для частей речи (POS и sub-POS)
+## Tеги для частей речи (POS и sub-POS)
 * +N (=имя существительное)
-** +Prop (= имя собственное)
+    - +Prop (= имя собственное)
 * +Pron (=местоимение)
-** +Pers (=личное местоимение)
-** +Dem (=указательное местоимение)
-** +Interr (=вопросительное местоимение)
-** +Refl (=рефлексивное (возвратное) местоимение)
-** +Rel (=относительные местоимение)
+    - +Pers (=личное местоимение)
+    - +Dem (=указательное местоимение)
+    - +Interr (=вопросительное местоимение)
+    - +Refl (=рефлексивное (возвратное) местоимение)
+    - +Rel (=относительные местоимение)
 * +A (=имя прилагательное)
 * +Num (=имя числительное)
-** +Card (=количественное числительное)
+    - +Card (=количественное числительное)
 * +V (=глагол)
-** +Neg (=отрицательный глагол)
+    - +Neg (=отрицательный глагол)
 * +Adv (=наречие)
 * +PP (=Adposition "предлог и послелог")
-** +Po (=послелог)
-** +Pr (=предлог)
+    - +Po (=послелог)
+    - +Pr (=предлог)
 * +Interj (=междометие)
 * +Pcle (=частица)
 * +C (=союз)
-** +Cs (=подчинительный союз) 
-** +Cs (=сочинительный союз)
+    - +Cs (=подчинительный союз) 
+    - +Cs (=сочинительный союз)
 * +Det (=Determiner)
 
-!!Tags for values of nominal inflectional categories
-!!!Падеж
+## Tags for values of nominal inflectional categories
+# Падеж
 * +Nom (=номинатив / именительный)
 * +Gen (=генитив / родительный)
 * +Acc (=акузатив / винительный)
@@ -52,11 +52,11 @@
 * +Ess (=эсив / преватительный)
 * +Par (=партитив)
 
-!!!Число
+# Число
 * +Sg (=единственное)
 * +Pl (=множественное) 
 
-!!!Possession
+# Possession
 * +PxSg1 (=первый притяжательный суффикс единственного)
 * +PxSg2 (=второй притяжательный суффикс единственного)
 * +PxSg3 (=третий притяжательный суффикс единственного)
@@ -64,22 +64,22 @@
 * +PxPl2 (=второй притяжательный суффикс множественного)
 * +PxPl3 (=третий притяжательный суффикс множественного)
 
-!!!Adjectival state
-** +Attr (=атрибутивная форма)
-** +Pred (=предикативная форма)
+# Adjectival state
+    - +Attr (=атрибутивная форма)
+    - +Pred (=предикативная форма)
 
-!!Tags for values of verbal inflectional categories
-!!!Наклонение
+## Tags for values of verbal inflectional categories
+# Наклонение
 * +Ind (=указывающее)
 * +Imprt (=повелительное)
 * +Cond (=условное)
 * +Pot (=Potential)
 
-!!!Время
+# Время
 * +Prs (=настоящее, non-past)
 * +Prt (=past)
 
-!!!Person/Number
+# Person/Number
 * +Sg1 (=первый единственном)
 * +Sg2 (=второй единственном)
 * +Sg3 (=третий единственном)
@@ -88,7 +88,7 @@
 * +Pl3 (=третий множественном)
 * +Imprs (=impersonal)
 
-!!!Infinitives (verbs)
+# Infinitives (verbs)
 * +Inf (=инфинитив)
 * +ConNeg (=отрицательная форма глагола)
 * +PrsPrc (=present perfect)
@@ -96,8 +96,8 @@
 * +VGen (=verb genitive)
 * +VAbess (=verb abessive)
 
-!!Tags for values of derivational processes
-!!!Compounds
+## Tags for values of derivational processes
+# Compounds
 * +Cmp/Sg
 * +Cmp/SgNom
 * +Cmp/SgGen
@@ -105,23 +105,22 @@
 * +Cmpnd
 * +Cmpnd+ 
 
-!!!Comparation (of adjectives and adverbs)
+# Comparation (of adjectives and adverbs)
 * +Comp (=сравнительная)
 * +Superl (=превосходная)
 
-!!!Numeral derivation
-** +Ord (=порядковое числительное)
-** +Coll (=собирательное числительное)
+# Numeral derivation
+    - +Ord (=порядковое числительное)
+    - +Coll (=собирательное числительное)
 
-!!!Derivation of pronouns
-** +Indef (=неопределённое местоимение)
+# Derivation of pronouns
+    - +Indef (=неопределённое местоимение)
 
-!!!Derivation of adverbs
+# Derivation of adverbs
 * +Adv (=наречие)
 
-!!Другие
+## Другие
 * +ABBR (=сокращение)
 * +ACR (=акроним)
 * +CLB (=положение границы)
 * +PUNCT (=пунктуация)
-

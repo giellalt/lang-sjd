@@ -5,19 +5,33 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-sjd)](https://github.com/giellalt/lang-sjd/issues)
 [![Build status](https://github.com/giellalt/lang-sjd/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-sjd/actions)
 
-This page documents the work on the [Kildin Sami language model](https://github.com/giellalt/lang-sjd). 
+This page documents the work on the [Kildin Sami language model](https://github.com/giellalt/lang-sjd).
+It is a test version of a grammatical analyser for Kildin Saami.
+It contains appr 2000 stems and the basic nominal and verbal morphology,
+and is still in an experimental stage.
 
-# Project documentation
+
+# Documentation on Kildin Saami ~ Документация файлов кильдин-саамского языка
 
 ## FST
 
-* [Morphophonology for the Kildin analyser](docu-twol.eng.html)
+* [Morphophonology for the Kildin analyser](docu-twol.eng.md)
 
 ## Resources
 
 * [Tools based on the present language model](https://giellatekno.uit.no/cgi/index.sjd.eng.html)
 * [Corpus sources](docu-corpus-sources.txt)
 * [RuSa convertion table](RuSaDicConvertingTableB_meeting_20.04.2009.txt)
+* Generation of: [paradigms](http://giellatekno.uit.no/cgi/p-sjd.rus.html)
+  / [text](http://giellatekno.uit.no/cgi/d-sjd.rus.html)
+
+## Old documentation
+
+* [Background](docu-background.eng.m,d)   ~ [Фон](docu-background.rus.md)
+* [Flowchart](docu-flowchart.eng.md)      ~ [Блок-схема](docu-flowchart.rus.md)
+* [Grammar tags](docu-grammartags.eng.md) ~ [Грамматические теги](docu-grammartags.rus.md)
+* [Morphophonology](docu-twol.eng.md)     ~ [Морфофонология](docu-twol.rus.md)
+
 
 # In-source documentation
 

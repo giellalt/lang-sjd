@@ -2,17 +2,17 @@
 
 # Kildin Saami nouns
 
- * LEXICON Noun 
+* LEXICON Noun 
 
 
 ## class1
-кӯсс 1DA "ель / fir" ;   кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
+кӯсс 1DA "ель / fir" ;  кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
 
 class1 orth. дт/ill. ӭ
 
 ## 2. declension (class 2) ! like 1. decl., but with C-clusters
 * Ablaut
- * куэсськ 2D "тётя / aunt" ; 
+* куэсськ 2D "тётя / aunt" ; 
 
 ## 3. declension (class 7) no stem gradation
 
