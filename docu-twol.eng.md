@@ -1,6 +1,6 @@
 # Morphophonology for the Kildin analyser
 
-For the (paradigmatic and regular) morphophonological processes we use [the twol technology|http://www.cis.upenn.edu/~cis639/docs/twolc.html]. Here is [the Kildin twol file](https://gtsvn.uit.no/langtech/trunk/gt/sjd/src/twol-sjd.txt).
+For the (paradigmatic and regular) morphophonological processes we use [the twol technology](http://www.cis.upenn.edu/~cis639/docs/twolc.html). Here is [the Kildin twol file](https://gtsvn.uit.no/langtech/trunk/gt/sjd/src/twol-sjd.txt).
 
 Paradigmatic morphophonological processes concern:
 * stem consonants
