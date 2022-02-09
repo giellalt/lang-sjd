@@ -13,7 +13,6 @@
 *   ъ Ъ ы Ы ь Ь ъ Ъ ҍ Ҍ э Э ӭ Ӭ  
 *   э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄          
 
-
 ### Trigger symbols
 *   %^1VOW:0		 Vow trigger for epenthetic -э-
 *   %^2VOW:0		 Vow trigger 
@@ -30,9 +29,6 @@
 *   %^MON:0    
 *   %^PAL:0		 for palatalizing consonsant stems
 
-
-
-
 ## Sets
 *  C  = б Б в В г Г д Д ж Ж з З һ Һ й Й ҋ Ҋ ј Ј к К л Л ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ п П р Р ҏ Ҏ с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ ;  
 *  V  = а А ӓ Ӓ а̄ А̄ е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э ӭ Ӭ э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;  
@@ -46,7 +42,6 @@
 
 *  Dummy  = %^WG %^DI %^DPAL %^MON %> %^PAL %^CLPAL ;  
 
-
 # Rule section
 
 **Quantitative CG xxy:xy (of nonpal cлusters)**  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, сыййт:сыйт, etc. 
@@ -59,9 +54,9 @@
 
 **Epenthetic vowel deletion (npal vowels)** e.g. ко̄рэб:ко̄рбэсьт, etc. шоабаш-:шоабш-
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/phonology.twolc)</small>
+
+---
+

@@ -3,17 +3,10 @@
 
 # Definitions for Multichar_Symbols
 
-
-
-
-
-
 * +Symbol = independent symbols in the text stream, like £, €, ©
 
 * +Use/Elid    = Elided substandard (Иванович~Иваныч, новее~новей, чтобы~чтоб, или~иль, коли~коль)
 * +Use/Orth	 = Orthographic substandard
-
-
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
@@ -43,7 +36,9 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/root.lexc)</small>
+
+---
+

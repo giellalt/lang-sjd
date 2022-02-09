@@ -4,7 +4,6 @@
 
 * LEXICON Noun 
 
-
 ## class1
 кӯсс 1DA "ель / fir" ;  кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
 
@@ -31,5 +30,10 @@ These words are added from sjdoahpa.
 Some of them are unfortunaely plural forms, and should be removed 
 or put in singular.
 Then they should be given correct declension class
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-sjd/blob/main/../src/fst/stems/nouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/stems/nouns.lexc)</small>
+
+---
+
