@@ -170,169 +170,7 @@ These were the set types.
 ## HNOUN MAPPING
 
 * * *
-
 <small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-sjd/blob/main/src/cg3/functions.cg3)</small>
-
----
-
-
-# Kildin Sámi TWOLC file
-
-## Symbol declarations
-### Alphabet
-
-*   а А ӓ Ӓ а̄ А̄ б Б в В г Г д Д   
-*   е Е ё Ё е̄ Е̄ ё̄ Ё̄ ж Ж з З һ Һ  
-*   и И ӣ Ӣ й Й ҋ Ҋ ј Ј к К л Л  
-*   ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ о О  
-*   о̄ О̄ п П р Р ҏ Ҏ с С т Т у У  
-*   ӯ Ӯ ф Ф х Х ц Ц ч Ч ш Ш щ Щ  
-*   ъ Ъ ы Ы ь Ь ъ Ъ ҍ Ҍ э Э ӭ Ӭ  
-*   э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄          
-
-### Trigger symbols
-*   %^1VOW:0		 Vow trigger for epenthetic -э-
-*   %^2VOW:0		 Vow trigger 
-*   %^3VOW:0		 Vow trigger 
-*   %^4VOW:0		 Vow trigger 
-*   %^5VOW:0		 Vow trigger 
-*   %^VOWSH:0              
-*   %^WG:0		 for weak consonant stem gradation 
-*   %^EPHV:0          
-*   %^DI:0              
-*   %^CLPAL:0     
-*   %^CLDPAL:0	 for depalatalizing consonant stems
-*   %^DPAL:0		 for depalatalizing consonant stems
-*   %^MON:0    
-*   %^PAL:0		 for palatalizing consonsant stems
-
-## Sets
-*  C  = б Б в В г Г д Д ж Ж з З һ Һ й Й ҋ Ҋ ј Ј к К л Л ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ п П р Р ҏ Ҏ с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ ;  
-*  V  = а А ӓ Ӓ а̄ А̄ е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э ӭ Ӭ э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;  
-*  PALMARK = ь Ь ҍ Ҍ ;  
-*  VPLOS = г Г ;  
-*  VLPLOS = к К ;  
-*  PALCON = ж Ж й Й ҋ Ҋ ј Ј ч Ч ;   can only by followed by PALVOW !so-called "palatalized C"
-*  PALVOW = е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;  so-called "palatalized V"
-*  HPLVOW = ӓ Ӓ ӭ Ӭ ;   so-called "half-palatalized V"
-*  NPLVOW = а А а̄ А̄ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э э̄ Э̄ ;   so-called "non-palatalized V"
-
-*  Dummy  = %^WG %^DI %^DPAL %^MON %> %^PAL %^CLPAL ;  
-
-# Rule section
-
-**Quantitative CG xxy:xy (of nonpal cлusters)**  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, сыййт:сыйт, etc. 
-
-**Qualitative CG xx:y (of voiced affricates)      ** i.e. джь : жь, дзь : зь, дз : з
-
-**Quantitative CG (of continuants)**  
-
-**ue>ua Ablaut**  
-
-**Epenthetic vowel deletion (npal vowels)** e.g. ко̄рэб:ко̄рбэсьт, etc. шоабаш-:шоабш-
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/phonology.twolc)</small>
-
----
-
-
-
-# Kildin Saami nouns
-
-* LEXICON Noun 
-
-## class1
-кӯсс 1DA "ель / fir" ;  кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
-
-class1 orth. дт/ill. ӭ
-
-## 2. declension (class 2) ! like 1. decl., but with C-clusters
-* Ablaut
-* куэсськ 2D "тётя / aunt" ; 
-
-## 3. declension (class 7) no stem gradation
-
-## 4. declension (classes 3, 5) !these are two different declesions: the "puaz-class" and the "cyza-class"
-
-## 5. declension (classes 4, 6, 9)
-
-## 6. declension (classes )
-
-## ELAN dump
-These words are added during testing work with the ELAN-FST script
-They should be given correct declension classes later
-
-## Oahpa dump
-These words are added from sjdoahpa.
-Some of them are unfortunaely plural forms, and should be removed 
-or put in singular.
-Then they should be given correct declension class
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/stems/nouns.lexc)</small>
-
----
-
-
-no +CS: K ; because complex CS's go into the lexicon
-
-Check this 
-Check this, adverb?
-Check this, adverb?
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/subjunctions.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/stems/subjunctions.lexc)</small>
-
----
-
-
-
-* **LEXICON Adjective   **
-
-Just dumping the oahpa adjectives here
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/stems/adjectives.lexc)</small>
-
----
-
-
-
-# Kildin Saami verbs
-
-* **LEXICON Verb   **
-
-* **LEXICON NegAux   **
-
-* **LEXICON Verbstems   **
-
-## ELAN dump
-These words are added during testing work with the ELAN-FST script
-They should be given correct declension classes later
-
-Just dumping Oahpa verbs in the rest of the file
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/stems/verbs.lexc)</small>
-
----
-
-
-no +CC: K ; because complex CC's go into the lexicon
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/conjunctions.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/stems/conjunctions.lexc)</small>
-
----
-
-
 # Kildin Saami noun inflection
 
 "class1" = monosyllabic/non-palatalized inflection foot, str-wk, no ablaut/umlaut, palatalization in Ill.Sg
@@ -415,6 +253,68 @@ LEXICON PlComSuf
 ---
 
 
+# Kildin Sámi TWOLC file
+
+## Symbol declarations
+### Alphabet
+
+*   а А ӓ Ӓ а̄ А̄ б Б в В г Г д Д   
+*   е Е ё Ё е̄ Е̄ ё̄ Ё̄ ж Ж з З һ Һ  
+*   и И ӣ Ӣ й Й ҋ Ҋ ј Ј к К л Л  
+*   ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ о О  
+*   о̄ О̄ п П р Р ҏ Ҏ с С т Т у У  
+*   ӯ Ӯ ф Ф х Х ц Ц ч Ч ш Ш щ Щ  
+*   ъ Ъ ы Ы ь Ь ъ Ъ ҍ Ҍ э Э ӭ Ӭ  
+*   э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄          
+
+### Trigger symbols
+*   %^1VOW:0		 Vow trigger for epenthetic -э-
+*   %^2VOW:0		 Vow trigger 
+*   %^3VOW:0		 Vow trigger 
+*   %^4VOW:0		 Vow trigger 
+*   %^5VOW:0		 Vow trigger 
+*   %^VOWSH:0              
+*   %^WG:0		 for weak consonant stem gradation 
+*   %^EPHV:0          
+*   %^DI:0              
+*   %^CLPAL:0     
+*   %^CLDPAL:0	 for depalatalizing consonant stems
+*   %^DPAL:0		 for depalatalizing consonant stems
+*   %^MON:0    
+*   %^PAL:0		 for palatalizing consonsant stems
+
+## Sets
+*  C  = б Б в В г Г д Д ж Ж з З һ Һ й Й ҋ Ҋ ј Ј к К л Л ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ п П р Р ҏ Ҏ с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ ;  
+*  V  = а А ӓ Ӓ а̄ А̄ е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э ӭ Ӭ э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;  
+*  PALMARK = ь Ь ҍ Ҍ ;  
+*  VPLOS = г Г ;  
+*  VLPLOS = к К ;  
+*  PALCON = ж Ж й Й ҋ Ҋ ј Ј ч Ч ;   can only by followed by PALVOW !so-called "palatalized C"
+*  PALVOW = е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;  so-called "palatalized V"
+*  HPLVOW = ӓ Ӓ ӭ Ӭ ;   so-called "half-palatalized V"
+*  NPLVOW = а А а̄ А̄ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э э̄ Э̄ ;   so-called "non-palatalized V"
+
+*  Dummy  = %^WG %^DI %^DPAL %^MON %> %^PAL %^CLPAL ;  
+
+# Rule section
+
+**Quantitative CG xxy:xy (of nonpal cлusters)**  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, сыййт:сыйт, etc. 
+
+**Qualitative CG xx:y (of voiced affricates)      ** i.e. джь : жь, дзь : зь, дз : з
+
+**Quantitative CG (of continuants)**  
+
+**ue>ua Ablaut**  
+
+**Epenthetic vowel deletion (npal vowels)** e.g. ко̄рэб:ко̄рбэсьт, etc. шоабаш-:шоабш-
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/phonology.twolc)</small>
+
+---
+
+
 # Kildin Sámi morphological analyser                     !
 
 # Definitions for Multichar_Symbols
@@ -455,6 +355,101 @@ given the proper use of these flags.
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/root.lexc)</small>
+
+---
+
+
+
+* **LEXICON Adjective   **
+
+Just dumping the oahpa adjectives here
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/stems/adjectives.lexc)</small>
+
+---
+
+
+no +CC: K ; because complex CC's go into the lexicon
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/conjunctions.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/stems/conjunctions.lexc)</small>
+
+---
+
+
+
+# Kildin Saami nouns
+
+* LEXICON Noun 
+
+## class1
+кӯсс 1DA "ель / fir" ;  кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
+
+class1 orth. дт/ill. ӭ
+
+## 2. declension (class 2) ! like 1. decl., but with C-clusters
+* Ablaut
+* куэсськ 2D "тётя / aunt" ; 
+
+## 3. declension (class 7) no stem gradation
+
+## 4. declension (classes 3, 5) !these are two different declesions: the "puaz-class" and the "cyza-class"
+
+## 5. declension (classes 4, 6, 9)
+
+## 6. declension (classes )
+
+## ELAN dump
+These words are added during testing work with the ELAN-FST script
+They should be given correct declension classes later
+
+## Oahpa dump
+These words are added from sjdoahpa.
+Some of them are unfortunaely plural forms, and should be removed 
+or put in singular.
+Then they should be given correct declension class
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/stems/nouns.lexc)</small>
+
+---
+
+
+no +CS: K ; because complex CS's go into the lexicon
+
+Check this 
+Check this, adverb?
+Check this, adverb?
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/subjunctions.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/stems/subjunctions.lexc)</small>
+
+---
+
+
+
+# Kildin Saami verbs
+
+* **LEXICON Verb   **
+
+* **LEXICON NegAux   **
+
+* **LEXICON Verbstems   **
+
+## ELAN dump
+These words are added during testing work with the ELAN-FST script
+They should be given correct declension classes later
+
+Just dumping Oahpa verbs in the rest of the file
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/stems/verbs.lexc)</small>
 
 ---
 
@@ -626,26 +621,6 @@ retracted tongue root			_q
 ---
 
 
-Vowel shortening in compounds in Kildin Saami
-
-Linguistics behind this file: 
-In compounding non-initial long vowels shorten.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/transcriptions/vowelshortening.twolc](https://github.com/giellalt/lang-sjd/blob/main/src/transcriptions/vowelshortening.twolc)</small>
-
----
-
-Divvun & Giellatekno - open source grammars for Sámi and other languages
-
-* * *
-
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
-
----
-
-
 
 We describe here how abbreviations are in Kildin Sami are read out, e.g.
 for text-to-speech systems.
@@ -670,6 +645,26 @@ For example:
 * * *
 
 <small>This (part of) documentation was generated from [src/transcriptions/transcriptor-clock-digit2text.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/transcriptions/transcriptor-clock-digit2text.lexc)</small>
+
+---
+
+Divvun & Giellatekno - open source grammars for Sámi and other languages
+
+* * *
+
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+
+---
+
+
+Vowel shortening in compounds in Kildin Saami
+
+Linguistics behind this file: 
+In compounding non-initial long vowels shorten.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/transcriptions/vowelshortening.twolc](https://github.com/giellalt/lang-sjd/blob/main/src/transcriptions/vowelshortening.twolc)</small>
 
 ---
 
@@ -711,7 +706,6 @@ CLB
 LEFT
 RIGHT
 WEB
-QMARK
 PPUNCT
 PUNCT
 
@@ -825,9 +819,6 @@ Sem/Txt
 
 HUMAN
 
-HAB-ACTOR
-HAB-ACTOR-NOT-HUMAN
-
 PROP-ATTR
 PROP-SUR
 
@@ -916,8 +907,6 @@ INITIAL
 ### Sets for word or not
 
 WORD
-REAL-WORD
-REAL-WORD-NOT-ABBR
 NOT-COMMA
 
 ### Case sets
@@ -976,80 +965,7 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-sjd/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
-
----
-
-# Grammar checker tokenisation for sjd
-
-Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
-Then just:
-```
-$ make
-$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-```
-
-More usage examples:
-```
-$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-```
-
-Pmatch documentation:
-<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
-
-Characters which have analyses in the lexicon, but can appear without spaces
-before/after, that is, with no context conditions, and adjacent to words:
-* Punct contains ASCII punctuation marks
-* The symbol after m-dash is soft-hyphen `U+00AD`
-* The symbol following {•} is byte-order-mark / zero-width no-break space
-`U+FEFF`.
-
-Whitespace contains ASCII white space and
-the List contains some unicode white space characters
-* En Quad U+2000 to Zero-Width Joiner U+200d'
-* Narrow No-Break Space U+202F
-* Medium Mathematical Space U+205F
-* Word joiner U+2060
-
-Apart from what's in our morphology, there are
-1) unknown word-like forms, and
-2) unmatched strings
-We want to give 1) a match, but let 2) be treated specially by hfst-tokenise -a
-* lower-case ASCII
-* upper-case ASCII
-* select extended latin symbols
-* cyrillics
-ASCII digits
-* select symbols
-* Combining diacritics as individual symbols,
-* various symbols from Private area (probably Microsoft),
-so far:
-* U+F0B7 for "x in box"
-
-TODO: Could use something like this, but built-in's don't include šžđčŋ:
-
-Simply give an empty reading when something is unknown:
-hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
-remove empty analyses from other readings. Empty readings are also
-legal in CG, they get a default baseform equal to the wordform, but
-no tag to check, so it's safer to let hfst-tokenise handle them.
-
-Finally we mark as a token any sequence making up a:
-* known word in context
-* unknown (OOV) token in context
-* sequence of word and punctuation
-* URL in context
-
-* * *
-
-<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-sjd/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
-
----
-
-# Tokeniser for sjd
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-sjd/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for sjd
 
 Usage:
 ```
@@ -1061,7 +977,7 @@ $ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-des
 ```
 
 Pmatch documentation:
-<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
+<https://github.com/hfst/hfst/wiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -1110,6 +1026,74 @@ Finally we mark as a token any sequence making up a:
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-sjd/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+
+---
+
+# Grammar checker tokenisation for sjd
+
+Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
+Then just:
+```
+$ make
+$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
+
+More usage examples:
+```
+$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
+
+Pmatch documentation:
+<https://github.com/hfst/hfst/wiki/HfstPmatch>
+
+Characters which have analyses in the lexicon, but can appear without spaces
+before/after, that is, with no context conditions, and adjacent to words:
+* Punct contains ASCII punctuation marks
+* The symbol after m-dash is soft-hyphen `U+00AD`
+* The symbol following {•} is byte-order-mark / zero-width no-break space
+`U+FEFF`.
+
+Whitespace contains ASCII white space and
+the List contains some unicode white space characters
+* En Quad U+2000 to Zero-Width Joiner U+200d'
+* Narrow No-Break Space U+202F
+* Medium Mathematical Space U+205F
+* Word joiner U+2060
+
+Apart from what's in our morphology, there are
+1) unknown word-like forms, and
+2) unmatched strings
+We want to give 1) a match, but let 2) be treated specially by hfst-tokenise -a
+* lower-case ASCII
+* upper-case ASCII
+* select extended latin symbols
+* cyrillics
+ASCII digits
+* select symbols
+* Combining diacritics as individual symbols,
+* various symbols from Private area (probably Microsoft),
+so far:
+* U+F0B7 for "x in box"
+
+TODO: Could use something like this, but built-in's don't include šžđčŋ:
+
+Simply give an empty reading when something is unknown:
+hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
+remove empty analyses from other readings. Empty readings are also
+legal in CG, they get a default baseform equal to the wordform, but
+no tag to check, so it's safer to let hfst-tokenise handle them.
+
+Finally we mark as a token any sequence making up a:
+* known word in context
+* unknown (OOV) token in context
+* sequence of word and punctuation
+* URL in context
+
+* * *
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-sjd/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
 
 ---
 
