@@ -5,7 +5,7 @@
 * LEXICON Noun 
 
 ## class1
-кӯсс 1DA "ель / fir" ;  кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
+кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
 
 class1 orth. дт/ill. ӭ
 
