@@ -5,18 +5,20 @@
 ӧ (->) ö, # Komi
 ӧ (->) ö, # Komi
 
-ӯ (->) ӯ, # CYRILLIC CAPITAL U + U+0304 (->) precomposed U+04EF
-ӣ (->) ӣ, # CYRILLIC SMALL I + U+0304 (->) precomposed U+04E3
-
-Ӯ (->) Ӯ, # CYRILLIC CAPITAL У + U+0304 (->) precomposed U+04E2
-Ӣ (->) Ӣ, # CYRILLIC SMALL I + U+0304 (->) precomposed U+04E2
 
 ˊ (->) ´, # 00B4 ACUTE ACCENT for Skolt 02CA MIDIFIER LETTER ACUTE ACCENT
 #' (->) 0, # Inari optional ' mark
 Ï (->) I 
+
+ӯ (->) {ӯ}, # Cyrillic precomposed ӯ U+04EF (->) у + U+0304
+ӣ (->) {ӣ}, # Cyrillic precomposed ӣ U+04E3 (->) и + U+0304
+
+Ӯ (->) Ӯ, # precomposed U+04E2 (->) CYRILLIC CAPITAL У + U+0304 
+Ӣ (->) Ӣ, # precomposed U+04E2 (->) CYRILLIC CAPITAL I + U+0304 
+
 ;
 
 # Explanation:
-# lexical side (->) input 
+# automaton (->) possible text input to automaton 
 
 

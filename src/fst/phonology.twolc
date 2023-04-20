@@ -237,15 +237,25 @@ Vx:0  <=> C _ C+ %^EPHV:0 %>: V ;
 ! __@RULENAME@__  
 ! я:и <=> _ C:* %^DI:0  ;
 !
-!"ue from long u 1"
+"ue from long u 1"
 ! __@RULENAME@__  
-! ӯ:у <=> _ :э  C:* %^DI:0  ;
-!
-!"ue from long u 2"
+ ӯ:у <=> _ :э  C:* %^DI:  ;
+
+"ue from long u 2"
 ! __@RULENAME@__  
-! 0:э <=> ӯ: _ C:* %^DI:0  ;
-!
-!"uu from ua in 4D" !does not work
+ 0:э <=> ӯ: _ C:* %^DI:0  ;
+
+"uu from ua in 4D" !does not work
 ! __@RULENAME@__  
-! а:0 <=> у _ C:* %^MON:0 ;
+ а:0 <=> у _ C:* %^MON:0 ;
+
+
+! FOR TESTING ONLY, THESE SHOULD NOT BE USED since src/orthography.regex handles this conversion
+! "ue from composed u 1"
+! ! __@RULENAME@__  
+!  ӯ:у <=> _ :э  C:* %^DI:  ;
+! 
+! "ue from composed u 2"
+! ! __@RULENAME@__  
+!  0:э <=> ӯ: _ C:* %^DI:0  ;
 
