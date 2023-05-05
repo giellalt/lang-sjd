@@ -6,9 +6,13 @@
 ӧ (->) ö, # Komi
 
 
-ˊ (->) ´, # 00B4 ACUTE ACCENT for Skolt 02CA MIDIFIER LETTER ACUTE ACCENT
-#' (->) 0, # Inari optional ' mark
-Ï (->) I 
+# Cyrillic vowels (->)Latin long vowel lookalikes
+{А̄} (->) Ā, # U+0100
+{а̄} (->) ā, # But accepting LATIN SMALL LETTER A WITH MACRON U+0101
+{Е̄} (->) Ē, # U+0112
+{е̄} (->) ē, # U+0113
+{О̄} (->) Ō, # U+014С
+{о̄} (->) ō, # U+014В
 
 ӯ (->) {ӯ}, # Cyrillic precomposed ӯ U+04EF (->) у + U+0304
 ӣ (->) {ӣ}, # Cyrillic precomposed ӣ U+04E3 (->) и + U+0304
