@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-sjd)](https://github.com/giellalt/lang-sjd/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-sjd)](https://github.com/giellalt/lang-sjd/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-sjd/main/badge.svg)](https://github.com/giellalt/lang-sjd/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-sjd/main/badge.svg)](https://github.com/giellalt/lang-sjd/actions)
 
 This page documents the work on the [Kildin Sami language model](https://github.com/giellalt/lang-sjd).
 It is a test version of a grammatical analyser for Kildin Saami.
