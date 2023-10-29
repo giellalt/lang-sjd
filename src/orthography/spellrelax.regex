@@ -18,7 +18,7 @@
 ӣ (->) {ӣ}, # Cyrillic precomposed ӣ U+04E3 (->) и + U+0304
 
 Ӯ (->) Ӯ, # precomposed U+04E2 (->) CYRILLIC CAPITAL У + U+0304 
-Ӣ (->) Ӣ, # precomposed U+04E2 (->) CYRILLIC CAPITAL I + U+0304 
+Ӣ (->) Ӣ # precomposed U+04E2 (->) CYRILLIC CAPITAL I + U+0304 
 
 ;
 
