@@ -38,20 +38,20 @@ LEXICON NegAux   !!= * **@CODE@**
 
 
 LEXICON Cop
-+V+Cop+Ind+Prs+Inf:лийе K ;
-+V+Cop+Ind+Prs+Sg1:ля K ;
-+V+Cop+Ind+Prs+Sg2:ляк K ;
-+V+Cop+Ind+Prs+Sg3:ли K ;
-+V+Cop+Ind+Prs+Pl1:лебпь K ;
-+V+Cop+Ind+Prs+Pl2:лебпе K ;
-+V+Cop+Ind+Prs+Pl3:лев K ;
-+V+Cop+Ind+Prt+Sg1:лийе K ;
-+V+Cop+Ind+Prt+Sg2:лийекь K ;
-+V+Cop+Ind+Prt+Sg3:ляйй K ;
-+V+Cop+Ind+Prt+Pl1:лийемь K ;
-+V+Cop+Ind+Prt+Pl2:лийетҍ K ;
-+V+Cop+Ind+Prt+Pl3:лийенҍ K ;
-+V+Cop+Fut+Sg3:ляннч K ;
++V+Cop+Ind+Prs+Inf:лӣйе K ;
++V+Cop+Ind+Prs+Sg1:ля̄ K ;
++V+Cop+Ind+Prs+Sg2:ля̄к K ;
++V+Cop+Ind+Prs+Sg3:лӣ K ;
++V+Cop+Ind+Prs+Pl1:ле̄бпь K ;
++V+Cop+Ind+Prs+Pl2:ле̄бпе K ;
++V+Cop+Ind+Prs+Pl3:ле̄в K ;
++V+Cop+Ind+Prt+Sg1:лӣйе K ;
++V+Cop+Ind+Prt+Sg2:лӣйекь K ;
++V+Cop+Ind+Prt+Sg3:ля̄йй K ;
++V+Cop+Ind+Prt+Pl1:лӣйемь K ;
++V+Cop+Ind+Prt+Pl2:лӣйетҍ K ;
++V+Cop+Ind+Prt+Pl3:лӣйенҍ K ;
++V+Cop+Fut+Sg3:ля̄ннч K ;
 
 
 LEXICON NegCop
