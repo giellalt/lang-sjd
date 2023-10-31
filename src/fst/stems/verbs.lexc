@@ -17,25 +17,15 @@
 
 
 LEXICON Verb   !!= * **@CODE@**
+Aux	; ! auxilary
+Cop	; ! copula
 NegAux ; ! negative auxilary
-Cop	; ! copula, auxilary
-NegCop ;
+NegCop ; ! negative copula
 ImpMod ;
 Verbstems ;
 
-
-LEXICON NegAux   !!= * **@CODE@**
-+V+Aux+Neg+Prs+Sg1:эмм K ;
-+V+Aux+Neg+Prs+Sg1+Use/Dial:ымм K ;
-+V+Aux+Neg+Prs+Sg2:эгк K ;
-+V+Aux+Neg+Prs+Sg3:эйй K ;
-+V+Aux+Neg+Prs+Pl1:ебпь K ;
-+V+Aux+Neg+Prs+Pl2:ебпе K ;
-+V+Aux+Neg+Prs+Pl3:ев K ;
-+V+Aux+Neg+Prs+Impers:едтҍ K ;
-+V+Aux+Neg+Imprt+Sg:ель K ;
-+V+Aux+Neg+Imprt+Pl:елле K ;
-
+LEXICON Aux
++V+Cop+Ind+Prs+Sg3:лӣ K ;
 
 LEXICON Cop
 +V+Cop+Ind+Prs+Inf:лӣйе K ;
@@ -53,15 +43,27 @@ LEXICON Cop
 +V+Cop+Ind+Prt+Pl3:лӣйенҍ K ;
 +V+Cop+Fut+Sg3:ля̄ннч K ;
 
+LEXICON NegAux   !!= * **@CODE@**
++V+Aux+Neg+Prs+Sg1:эмм K ;
++V+Aux+Neg+Prs+Sg1+Use/Orth:ымм K ;
++V+Aux+Neg+Prs+Sg2:эгк K ;
++V+Aux+Neg+Prs+Sg3:эйй K ;
++V+Aux+Neg+Prs+Pl1:ебпь K ;
++V+Aux+Neg+Prs+Pl2:ебпе K ;
++V+Aux+Neg+Prs+Pl3:ев K ;
++V+Aux+Neg+Prs+Impers:едтҍ K ;
++V+Aux+Neg+Imprt+Sg:ель K ;
++V+Aux+Neg+Imprt+Pl:елле K ;
 
 LEXICON NegCop
 +V+Cop+Pos+Prs:бэдт K ;
 +V+Cop+Pos+Prs+Use/Orth:быдт K ;
-+V+Cop+Pos+Inf:бэдтӭ K ; !??
++V+Cop+Pos+??:бэдтӭ K ; 
 +V+Cop+Pos+??+Use/Orth:быдтӭ K ;
-+V+Cop+Neg+Prs:ибе K ;
 +V+Cop+Pos+Cond:бэдаһч K ;
-
++V+Cop+Neg+Prs:ибе K ;
++V+Cop+Neg+??:ебэдтӭ K ;
++V+Cop+Neg+Cond:ебэдтче K ;
 
 LEXICON ImpMod
 +V+Imp+Neg+Prs+Sg3:элля K ;
