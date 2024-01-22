@@ -239,7 +239,7 @@ LEXICON PlComSuf
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
@@ -248,7 +248,7 @@ LEXICON PlComSuf
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
 
@@ -310,7 +310,7 @@ LEXICON PlComSuf
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
 
@@ -354,7 +354,7 @@ given the proper use of these flags.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
@@ -366,7 +366,7 @@ Just dumping the oahpa adjectives here
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/stems/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
 
 ---
 
@@ -375,7 +375,7 @@ no +CC: K ; because complex CC's go into the lexicon
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/conjunctions.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/stems/conjunctions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/conjunctions.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/stems/conjunctions.lexc)</small>
 
 ---
 
@@ -414,7 +414,7 @@ Then they should be given correct declension class
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/stems/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
 
@@ -427,7 +427,7 @@ Check this, adverb?
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/subjunctions.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/stems/subjunctions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/subjunctions.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/stems/subjunctions.lexc)</small>
 
 ---
 
@@ -449,7 +449,7 @@ Just dumping Oahpa verbs in the rest of the file
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/stems/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
 
@@ -616,7 +616,7 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-sjd/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-sjd/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
@@ -636,7 +636,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
@@ -644,7 +644,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-clock-digit2text.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/transcriptions/transcriptor-clock-digit2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-clock-digit2text.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/transcriptions/transcriptor-clock-digit2text.lexc)</small>
 
 ---
 
@@ -652,7 +652,7 @@ Divvun & Giellatekno - open source grammars for Sámi and other languages
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 
@@ -664,7 +664,7 @@ In compounding non-initial long vowels shorten.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/vowelshortening.twolc](https://github.com/giellalt/lang-sjd/blob/main/src/transcriptions/vowelshortening.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/vowelshortening.twolc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/transcriptions/vowelshortening.twolc)</small>
 
 ---
 
