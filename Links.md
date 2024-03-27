@@ -4,9 +4,16 @@
     * `fst/`
         * `morphology/`
             * `affixes/`
+                * [nouns.lexc](src-fst-morphology-affixes-nouns.lexc.html) ([src](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/affixes/nouns.lexc))
+                * [symbols.lexc](src-fst-morphology-affixes-symbols.lexc.html) ([src](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/affixes/symbols.lexc))
             * [phonology.twolc](src-fst-morphology-phonology.twolc.html) ([src](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/phonology.twolc))
             * [root.lexc](src-fst-morphology-root.lexc.html) ([src](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/root.lexc))
             * `stems/`
+                * [adjectives.lexc](src-fst-morphology-stems-adjectives.lexc.html) ([src](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/stems/adjectives.lexc))
+                * [conjunctions.lexc](src-fst-morphology-stems-conjunctions.lexc.html) ([src](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/stems/conjunctions.lexc))
+                * [nouns.lexc](src-fst-morphology-stems-nouns.lexc.html) ([src](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/stems/nouns.lexc))
+                * [subjunctions.lexc](src-fst-morphology-stems-subjunctions.lexc.html) ([src](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/stems/subjunctions.lexc))
+                * [verbs.lexc](src-fst-morphology-stems-verbs.lexc.html) ([src](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/stems/verbs.lexc))
         * `phonetics/`
             * [txt2ipa.xfscript](src-fst-phonetics-txt2ipa.xfscript.html) ([src](https://github.com/giellalt/lang-sjd/blob/main/src/fst/phonetics/txt2ipa.xfscript))
         * `transcriptions/`
