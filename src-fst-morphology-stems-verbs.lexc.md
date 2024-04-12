@@ -17,6 +17,3 @@ Just dumping Oahpa verbs in the rest of the file
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-sjd/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
-
----
-
