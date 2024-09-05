@@ -22,3 +22,4 @@ legacy_product_codes = [
     { value = "8438EAA8-D729-4B11-A794-8CAC68346802", kind = "nsis" },
     { value = "B620EA1F-7E32-48E0-99FF-350041A2E989", kind = "nsis" }
 ]
+extra_locales = { sjd-RU = "sjd" }
