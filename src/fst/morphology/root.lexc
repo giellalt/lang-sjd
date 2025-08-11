@@ -50,7 +50,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 +CLB
 +PUNCT
 +LEFT
-+RIGHT
++RIGHT +MIDDLE
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 
 ! Other Tags
