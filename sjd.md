@@ -4,7 +4,7 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-cg3-functions.cg3.md 
+## src-cg3-functions.cg3.md 
 
 
 
@@ -43,7 +43,7 @@ part of the noun phrase of that noun (i.e., "scan to the next NP head")
 
 These were the set types.
 
-## HABITIVE MAPPING
+### HABITIVE MAPPING
 
 * **hab1** 
 
@@ -162,16 +162,16 @@ These were the set types.
 
 * **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
 
-### sma object
+#### sma object
 
 * **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
 * **<spredEss** (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
 
-## SUBJ MAPPING - leftovers
+### SUBJ MAPPING - leftovers
 
-## OBJ MAPPING - leftovers
+### OBJ MAPPING - leftovers
 
-## HNOUN MAPPING
+### HNOUN MAPPING
 
 * * *
 
@@ -179,10 +179,10 @@ These were the set types.
 
 ---
 
-# src-fst-morphology-affixes-nouns.lexc.md 
+## src-fst-morphology-affixes-nouns.lexc.md 
 
 
-# Kildin Saami noun inflection
+## Kildin Saami noun inflection
 
 "class1" = monosyllabic/non-palatalized inflection foot, str-wk, no ablaut/umlaut, palatalization in Ill.Sg
 LEXICON 1DA  is orthographic subclass with xx--> x
@@ -207,7 +207,7 @@ LEXICON OAHPA_N   is all the words from OAHPA_N, we just point them to 1DA.
 
 LEXICON ELAN_N   is all the words from ELAN_N, we just point them to 1DA.
 
-## Case affixes
+### Case affixes
 
 LEXICON SgNomSuf 
 
@@ -254,10 +254,10 @@ LEXICON PlComSuf
 
 ---
 
-# src-fst-morphology-affixes-symbols.lexc.md 
+## src-fst-morphology-affixes-symbols.lexc.md 
 
 
-# Symbol affixes
+## Symbol affixes
 
 * * *
 
@@ -265,13 +265,13 @@ LEXICON PlComSuf
 
 ---
 
-# src-fst-morphology-phonology.twolc.md 
+## src-fst-morphology-phonology.twolc.md 
 
 
-# Kildin Sámi TWOLC file
+## Kildin Sámi TWOLC file
 
-## Symbol declarations
-### Alphabet
+### Symbol declarations
+#### Alphabet
 
 *   а А ӓ Ӓ а̄ А̄ б Б в В г Г д Д   
 *   е Е ё Ё е̄ Е̄ ё̄ Ё̄ ж Ж з З һ Һ  
@@ -282,7 +282,7 @@ LEXICON PlComSuf
 *   ъ Ъ ы Ы ь Ь ъ Ъ ҍ Ҍ э Э ӭ Ӭ  
 *   э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄          
 
-### Trigger symbols
+#### Trigger symbols
 *   %^1VOW:0		 Vow trigger for epenthetic -э-
 *   %^2VOW:0		 Vow trigger 
 *   %^3VOW:0		 Vow trigger 
@@ -298,7 +298,7 @@ LEXICON PlComSuf
 *   %^MON:0    
 *   %^PAL:0		 for palatalizing consonsant stems
 
-## Sets
+### Sets
 *  C  = б Б в В г Г д Д ж Ж з З һ Һ й Й ҋ Ҋ ј Ј к К л Л ӆ Ӆ м М ӎ Ӎ н Н ӊ Ӊ ӈ Ӈ п П р Р ҏ Ҏ с С т Т ф Ф х Х ц Ц ч Ч ш Ш щ Щ ;  
 *  V  = а А ӓ Ӓ а̄ А̄ е Е е̄ Е̄ ё Ё ё̄ Ё̄ и И ӣ Ӣ о О о̄ О̄ у У ӯ Ӯ ы Ы э Э ӭ Ӭ э̄ Э̄ ю Ю ю̄ Ю̄ я Я я̄ Я̄ ;  
 *  PALMARK = ь Ь ҍ Ҍ ;  
@@ -311,7 +311,7 @@ LEXICON PlComSuf
 
 *  Dummy  = %^WG %^DI %^DPAL %^MON %> %^PAL %^CLPAL ;  
 
-# Rule section
+## Rule section
 
 **Quantitative CG xxy:xy (of nonpal cлusters)**  e.g. са̄ррн:са̄рн, ко̄ллм:ко̄лм, сыййт:сыйт, etc. 
 
@@ -329,19 +329,19 @@ LEXICON PlComSuf
 
 ---
 
-# src-fst-morphology-root.lexc.md 
+## src-fst-morphology-root.lexc.md 
 
 
-# Kildin Sámi morphological analyser                     !
+## Kildin Sámi morphological analyser                     !
 
-# Definitions for Multichar_Symbols
+## Definitions for Multichar_Symbols
 
 * +Symbol = independent symbols in the text stream, like £, €, ©
 
 * +Use/Elid    = Elided substandard (Иванович~Иваныч, новее~новей, чтобы~чтоб, или~иль, коли~коль)
 * +Use/Orth	 = Orthographic substandard
 
-## Flag diacritics
+### Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morphological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
@@ -375,7 +375,7 @@ given the proper use of these flags.
 
 ---
 
-# src-fst-morphology-stems-adjectives.lexc.md 
+## src-fst-morphology-stems-adjectives.lexc.md 
 
 
 
@@ -389,7 +389,7 @@ Just dumping the oahpa adjectives here
 
 ---
 
-# src-fst-morphology-stems-conjunctions.lexc.md 
+## src-fst-morphology-stems-conjunctions.lexc.md 
 
 
 no +CC: K ; because complex CC's go into the lexicon
@@ -400,36 +400,36 @@ no +CC: K ; because complex CC's go into the lexicon
 
 ---
 
-# src-fst-morphology-stems-nouns.lexc.md 
+## src-fst-morphology-stems-nouns.lexc.md 
 
 
 
-# Kildin Saami nouns
+## Kildin Saami nouns
 
 * LEXICON Noun 
 
-## class1
+### class1
 кӯсс xx-->y NEEDS a new subclass later, cf. сс-->с
 
 class1 orth. дт/ill. ӭ
 
-## 2. declension (class 2) ! like 1. decl., but with C-clusters
+### 2. declension (class 2) ! like 1. decl., but with C-clusters
 * Ablaut
 * куэсськ 2D "тётя / aunt" ; 
 
-## 3. declension (class 7) no stem gradation
+### 3. declension (class 7) no stem gradation
 
-## 4. declension (classes 3, 5) !these are two different declesions: the "puaz-class" and the "cyza-class"
+### 4. declension (classes 3, 5) !these are two different declesions: the "puaz-class" and the "cyza-class"
 
-## 5. declension (classes 4, 6, 9)
+### 5. declension (classes 4, 6, 9)
 
-## 6. declension (classes )
+### 6. declension (classes )
 
-## ELAN dump
+### ELAN dump
 These words are added during testing work with the ELAN-FST script
 They should be given correct declension classes later
 
-## Oahpa dump
+### Oahpa dump
 These words are added from sjdoahpa.
 Some of them are unfortunaely plural forms, and should be removed 
 or put in singular.
@@ -441,7 +441,7 @@ Then they should be given correct declension class
 
 ---
 
-# src-fst-morphology-stems-subjunctions.lexc.md 
+## src-fst-morphology-stems-subjunctions.lexc.md 
 
 
 no +CS: K ; because complex CS's go into the lexicon
@@ -456,11 +456,11 @@ Check this, adverb?
 
 ---
 
-# src-fst-morphology-stems-verbs.lexc.md 
+## src-fst-morphology-stems-verbs.lexc.md 
 
 
 
-# Kildin Saami verbs
+## Kildin Saami verbs
 
 * **LEXICON Verb   **
 
@@ -468,7 +468,7 @@ Check this, adverb?
 
 * **LEXICON Verbstems   **
 
-## ELAN dump
+### ELAN dump
 These words are added during testing work with the ELAN-FST script
 They should be given correct declension classes later
 
@@ -480,7 +480,7 @@ Just dumping Oahpa verbs in the rest of the file
 
 ---
 
-# src-fst-phonetics-txt2ipa.xfscript.md 
+## src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -649,7 +649,7 @@ retracted tongue root			_q
 
 ---
 
-# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+## src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
 
 
 
@@ -671,7 +671,7 @@ For example:
 
 ---
 
-# src-fst-transcriptions-transcriptor-clock-digit2text.lexc.md 
+## src-fst-transcriptions-transcriptor-clock-digit2text.lexc.md 
 
 
 
@@ -681,7 +681,7 @@ For example:
 
 ---
 
-# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+## src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
 
 Divvun & Giellatekno - open source grammars for Sámi and other languages
 
@@ -691,7 +691,7 @@ Divvun & Giellatekno - open source grammars for Sámi and other languages
 
 ---
 
-# src-fst-transcriptions-vowelshortening.twolc.md 
+## src-fst-transcriptions-vowelshortening.twolc.md 
 
 
 Vowel shortening in compounds in Kildin Saami
@@ -705,26 +705,26 @@ In compounding non-initial long vowels shorten.
 
 ---
 
-# tools-grammarcheckers-grammarchecker.cg3.md 
+## tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
-# DELIMITERS
+## DELIMITERS
 
-# TAGS AND SETS
+## TAGS AND SETS
 
-## Tags
+### Tags
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-### Beginning and end of sentence
+#### Beginning and end of sentence
 BOS
 EOS
 
-### Parts of speech tags
+#### Parts of speech tags
 
 N
 A
@@ -751,7 +751,7 @@ PUNCT
 COMMA
 ¶
 
-### Tags for POS sub-categories
+#### Tags for POS sub-categories
 
 Pers
 Dem
@@ -767,7 +767,7 @@ Allegro
 Arab
 Romertall
 
-### Tags for morphosyntactic properties
+#### Tags for morphosyntactic properties
 
 Nom
 Acc
@@ -830,7 +830,7 @@ VAbess
 
 Err/Orth
 
-### Semantic tags
+#### Semantic tags
 
 Sem/Act
 Sem/Ani
@@ -863,7 +863,7 @@ PROP-SUR
 
 TIME-N-SET
 
-###  Syntactic tags
+####  Syntactic tags
 
 @+FAUXV
 @+FMAINV
@@ -933,22 +933,22 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-## Sets containing sets of lists and tags
+### Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-### Sets for Single-word sets
+#### Sets for Single-word sets
 
 INITIAL
 
-### Sets for word or not
+#### Sets for word or not
 
 WORD
 NOT-COMMA
 
-### Case sets
+#### Case sets
 
 ADLVCASE
 
@@ -959,11 +959,11 @@ NOT-NOM
 NOT-GEN
 NOT-ACC
 
-### Verb sets
+#### Verb sets
 
 NOT-V
 
-### Sets for finiteness and mood
+#### Sets for finiteness and mood
 
 REAL-NEG
 
@@ -971,7 +971,7 @@ MOOD-V
 
 NOT-PRFPRC
 
-### Sets for person
+#### Sets for person
 
 SG1-V
 SG2-V
@@ -983,25 +983,25 @@ PL1-V
 PL2-V
 PL3-V
 
-### Pronoun sets
+#### Pronoun sets
 
-### Adjectival sets and their complements
+#### Adjectival sets and their complements
 
-### Adverbial sets and their complements
+#### Adverbial sets and their complements
 
-### Sets of elements with common syntactic behaviour
+#### Sets of elements with common syntactic behaviour
 
-### NP sets defined according to their morphosyntactic features
+#### NP sets defined according to their morphosyntactic features
 
-### The PRE-NP-HEAD family of sets
+#### The PRE-NP-HEAD family of sets
 
 These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-### Border sets and their complements
+#### Border sets and their complements
 
-### Grammarchecker sets
+#### Grammarchecker sets
 
 * * *
 
@@ -1009,9 +1009,9 @@ expression **WORD - premodifiers**.
 
 ---
 
-# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
-# Tokeniser for sjd
+## Tokeniser for sjd
 
 Usage:
 ```
@@ -1056,7 +1056,7 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-## Unknown handling
+### Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
@@ -1075,9 +1075,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
-# Grammar checker tokenisation for sjd
+## Grammar checker tokenisation for sjd
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
@@ -1145,9 +1145,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
 
-# TTS tokenisation for smj
+## TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
