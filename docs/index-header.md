@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-sjd)](https://github.com/giellalt/lang-sjd/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-sjd)](https://github.com/giellalt/lang-sjd/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-sjd?label=CI)](https://builds.giellalt.org/pipelines/lang-sjd/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/kild1236)
 
 This page documents the work on the [Kildin Sami language model](https://github.com/giellalt/lang-sjd).
 It is a test version of a grammatical analyser for Kildin Saami.
