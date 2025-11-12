@@ -20,6 +20,7 @@
             * [transcriptor-abbrevs2text.lexc](src-fst-transcriptions-transcriptor-abbrevs2text.lexc.html) ([src](https://github.com/giellalt/lang-sjd/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc))
             * [transcriptor-clock-digit2text.lexc](src-fst-transcriptions-transcriptor-clock-digit2text.lexc.html) ([src](https://github.com/giellalt/lang-sjd/blob/main/src/fst/transcriptions/transcriptor-clock-digit2text.lexc))
             * [transcriptor-numbers-digit2text.lexc](src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.html) ([src](https://github.com/giellalt/lang-sjd/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc))
+            * [transcriptor-symbols2text.lexc](src-fst-transcriptions-transcriptor-symbols2text.lexc.html) ([src](https://github.com/giellalt/lang-sjd/blob/main/src/fst/transcriptions/transcriptor-symbols2text.lexc))
             * [vowelshortening.twolc](src-fst-transcriptions-vowelshortening.twolc.html) ([src](https://github.com/giellalt/lang-sjd/blob/main/src/fst/transcriptions/vowelshortening.twolc))
 * `tools/`
     * `grammarcheckers/`
