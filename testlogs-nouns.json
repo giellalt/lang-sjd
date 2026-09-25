@@ -1,0 +1,1 @@
+{"id":"nouns","kind":"lemma","failures":[{"lemma":"ке̄лл","no_generation":[],"wrong_generation":[{"expected":"ке̄лл+N+Sg+Nom","got":"ке̄л"},{"expected":"ке̄лл+N+Pl+Nom","got":"ке̄ллэ"}],"analyses":[]},{"lemma":"ва̄нҍтэсь","no_generation":[],"wrong_generation":[{"expected":"ва̄нҍтэсь+N+Sg+Nom","got":"ва̄ннтас"},{"expected":"ва̄нҍтэсь+N+Pl+Nom","got":"ва̄ннтас"}],"analyses":[]}]}
