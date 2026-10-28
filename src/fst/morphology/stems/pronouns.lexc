@@ -209,7 +209,7 @@ LEXICON rel_b
 
 
 LEXICON Reflexive
-иджь+Pron+Refl:иджь refl_pron ;
+ӣджь+Pron+Refl:ӣджь refl_pron ;
 
 LEXICON refl_pron
 +Nom+Sg1:%>0 K ;
@@ -218,29 +218,29 @@ LEXICON refl_pron
 +Nom+Pl1:%^WG%>а K ;
 +Nom+Pl2:%^WG%>а K ;
 +Nom+Pl3:%^WG%>а K ;
-+Gen+Sg1:%^WG%>aн K ;
-+Gen+Sg2:%^WG%>aнт K ;
++Gen+Sg1:%^WG%>ан K ;
++Gen+Sg2:%^WG%>ант K ;
 +Gen+Sg3:%^WG%>есь K ;
-+Gen+Pl1:%^WG%>едaн K ;
-+Gen+Pl2:%^WG%>едaнт K ;
++Gen+Pl1:%^WG%>едан K ;
++Gen+Pl2:%^WG%>едант K ;
 +Gen+Pl3:%^WG%>едӭсь K ;
-+Acc+Sg1:%^WG%>aн K ;
-+Acc+Sg2:%^WG%>aнт K ;
++Acc+Sg1:%^WG%>ан K ;
++Acc+Sg2:%^WG%>ант K ;
 +Acc+Sg3:%^WG%>есь K ;
 +Acc+Pl1:%^WG%>едан K ;
 +Acc+Pl2:%^WG%>едант K ;
 +Acc+Pl3:%^WG%>едӭсь K ;
-+Loc+Sg1:%^WG%>сaн K ;
-+Loc+Sg2:%^WG%>сaнт K ;
++Loc+Sg1:%^WG%>сан K ;
++Loc+Sg2:%^WG%>сант K ;
 +Loc+Sg3:%^WG%>сесь K ;
-+Loc+Pl1:%^WG%>eсaн K ;
-+Loc+Pl2:%^WG%>eсaнт K ;
-+Loc+Pl3:%^WG%>eсесь K ;
++Loc+Pl1:%^WG%>есан K ;
++Loc+Pl2:%^WG%>есант K ;
++Loc+Pl3:%^WG%>есесь K ;
 +Ill+Sg1:%>сан K ;
 +Ill+Sg2:%>сант K ;
 +Ill+Sg3:%>сесь K ;
-+Ill+Pl1:%^WG%>едaн K ;
-+Ill+Pl2:%^WG%>едaнт K ;
++Ill+Pl1:%^WG%>едан K ;
++Ill+Pl2:%^WG%>едант K ;
 +Ill+Pl3:%^WG%>едӭсь K ;
 +Com+Sg1:%^WG%>енан K ;
 +Com+Sg2:%^WG%>енант K ;
@@ -248,11 +248,11 @@ LEXICON refl_pron
 +Com+Pl1:%^WG%>едангуэйм K ;
 +Com+Pl2:%^WG%>едантгуэйм K ;
 +Com+Pl3:%^WG%>едӭсьгуэйм K ;
-+Abe+Sg1:%^WG%>aнха K ;
-+Abe+Sg2:%^WG%>aнтха K ;
++Abe+Sg1:%^WG%>анха K ;
++Abe+Sg2:%^WG%>антха K ;
 +Abe+Sg3:%^WG%>есьха K ;
-+Abe+Pl1:%^WG%>едaнха K ;
-+Abe+Pl2:%^WG%>едaнтха K ;
++Abe+Pl1:%^WG%>еданха K ;
++Abe+Pl2:%^WG%>едантха K ;
 +Abe+Pl3:%^WG%>едӭсьха K ;
 +Ess+Sg1:%>нан K ;
 +Ess+Sg2:%>нант K ;
