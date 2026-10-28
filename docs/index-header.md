@@ -10,13 +10,24 @@ Center location data taken from [Glottolog](https://glottolog.org/). Area extent
 
 </div>
 
-This page documents the work on the [Kildin Sami language model](https://github.com/giellalt/lang-sjd).
-It is a test version of a grammatical analyser for Kildin Saami.
-It contains appr 2000 stems and the basic nominal and verbal morphology,
-and is still in an experimental stage.
-
-
 # Documentation on Kildin Saami ~ Документация файлов кильдин-саамского языка
+
+This page documents the work on the [Kildin Sami language model](https://github.com/giellalt/lang-sjd). It is a test version of a grammatical analyser for Kildin Saami. It contains appr 2000 stems but only basic rules for nominal and verbal morphology. The work is still in an experimental stage.
+
+## Background
+
+Contributors to the Kildin Sami language model have been Trond Trosterud, Ciprian Gerstenberger, Michael Rießler, and other.
+
+## Project documentation
+
+### Publications
+
+- Gerstenberger, C., Partanen, N., Rießler, M., & Wilbur, J. (2017). [Instant annotations: Applying NLP methods to the annotation of spoken language documentation corpora](https://aclanthology.org/W17-0604/). 25–36.
+- Gerstenberger, C., Partanen, N., & Rießler, M. (2017). [Instant annotations in ELAN corpora of spoken and written Komi, an endangered language of the Barents Sea region](https://aclanthology.org/W17-0109/). In A. Arppe, J. Good, M. Hulden, J. Lachler, A. Palmer, & L. Schwartz (eds.), *Workshop on the Use of Computational Methods in the Study of Endangered Languages (ComputEL-2)*, 57–66. Honolulu: Association for Computational Linguistics.
+- Gerstenberger, C., Partanen, N., Rießler, M., & Wilbur, J. (2016). [Utilizing language technology in the documentation of endangered Uralic languages](https://doi.org/10.3384/nejlt.2000-1533.1643). *Northern European Journal of Language Technology*, 4, 29–47.
+- Blokland, R., Fedina, M., Gerstenberger, C., Partanen, N., Rießler, M., & Wilbur, J. (2015). [Language documentation meets language technology](https://doi.org/10.7557/5.3457). In T. Pirinen et al. (eds.), pp. 8–18.
+- Rießler, M. (2013). [Towards a digital infrastructure for Kildin Saami](http://www.siberian-studies.org/publications/PDF/sikriessler.pdf). In E. Kasten et al. (eds.), *Sustaining indigenous knowledge: Learning tools and community initiatives on preserving endangered languages and local cultural heritage*. Fürstenberg: Foundation for Siberian Cultures.
+
 
 ## FST
 
