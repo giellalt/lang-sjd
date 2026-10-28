@@ -26,9 +26,16 @@ LEXICON N2-AFF
 
 LEXICON N2-GEM
 +N+Sg+Nom:%>0 K ;
-+N+Sg+Ill:%>а K ;
++N+Sg+Gen:%^WG%>0 K ;
++N+Sg+Gen:%^WG%>0 K ;
+!+N+Sg+Ill:%>а K ;
++N+Sg+Loc:%^WG%>есьт K ;
++N+Sg+Com:%^WG%>енҍ K ;
++N+Sg+Abe:%^WG%>ха K ;
++N+Sg+Ess:%>енҍ K ;
++N+Sg+Par:%>е K ;
 +N+Pl+Nom:%^WG%>0 K ;
-
++N+Pl+Gen:%^WG%>е K ;
 
 LEXICON KOOREB
 +N+Sg+Nom:%>0 K ;
