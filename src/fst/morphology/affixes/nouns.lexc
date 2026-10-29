@@ -184,7 +184,7 @@ LEXICON 4DА  !!= @CODE@
  +N+Sg+Ill:%^DI%>а      K ; ! Дат.-напр
  +N+Sg+Ela:%^WG%>ха     K ; ! Лишит.
  +N+Sg+Com:%^WG%>энҍ    K ; ! Совм.
-    +N+Par:%>ко         K ; ! Not in Kuruch
+    +N+Sg+Par:%>ко         K ; ! Not in Kuruch
 
  +N+Pl+Nom:%^WG         K ; ! Им.
  +N+Pl+Acc:%^WG%>этҍ    K ; ! Вин.
@@ -222,13 +222,13 @@ LEXICON EssSuf !!= @CODE@
 !! Превр. !check here and elsewhere whether the palatal-mark-deletion-rule is really needed here (it's already included above)
 
 LEXICON ParSufE  !!= @CODE@
- +Par:%>э K ; ! Парт.
+ +Sg+Par:%>э K ; ! Парт.
 
 LEXICON ParSufHalfE  !!= @CODE@
- +Par:%>ӭ K ; !they are allomorphs only in orthography
+ +Sg+Par:%>ӭ K ; !they are allomorphs only in orthography
  
 LEXICON ParSufJEDDJE
-+Par:%>едтӭ K ;
++Sg+Par:%>едтӭ K ;
 
 LEXICON SgLocSuf  !!= @CODE@
  +Sg+Loc:%>эсьт K ; ! Местн.

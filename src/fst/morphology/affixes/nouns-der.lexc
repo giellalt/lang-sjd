@@ -35,7 +35,7 @@ LEXICON DER/MUŠŠ
 +N+Der/mušš+Pl+Abe:%>мужэха    # ;
 
 +N+Der/mušš+Ess:%>мушшэнҍ      # ;
-+N+Der/mušš+Par:%>мушшэ        # ;
++N+Der/mušš+Sg+Par:%>мушшэ        # ;
 
 LEXICON DER/EJ
 
@@ -56,7 +56,7 @@ LEXICON DER/EJ
 +N+Der/mušš+Pl+Abe:%>еха    # ; !-(ъ|ь|ҍ)еха
 
 +N+Der/mušš+Ess:%>енҍ       # ; !-(ъ|ь|ҍ)енҍ
-+N+Der/mušš+Par:%>едтӭ      # ; !-(ъ|ь|ҍ)едтӭ
++N+Der/mušš+Sg+Par:%>едтӭ      # ; !-(ъ|ь|ҍ)едтӭ
 
 LEXICON DER/ENČ
 
@@ -77,4 +77,4 @@ LEXICON DER/ENČ
 +N+Der/mušš+Pl+Abe:%>ха    # ; !-(а|ӓ|я)ха
 
 +N+Der/mušš+Ess:%>нҍ       # ; !-(а|ӓ|я)нҍ
-+N+Der/mušš+Par:%>недтӭ    # ;
++N+Der/mušš+Sg+Par:%>недтӭ    # ;
