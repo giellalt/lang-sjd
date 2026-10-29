@@ -12,6 +12,14 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
+! --------- !
+! Particles !
+! --------- !
+
+!! Particles are uninflected words with various syntactic and discourse
+!! functions. They include both independent words and clitics.
+!! Phonologically bound clitics are implemented separately in clitics.lexc.
+
 LEXICON PCLE
 +Pcle: K ;
 
@@ -26,11 +34,10 @@ LEXICON PCLE-Rus !this is a dump for Russian forms, some of them are supposedly 
 
 LEXICON Particle
 анҍ		Imprt "пуст" ;
-на		PCLE ;
-не		Neg ;
-ни		Neg ;
+ноа		PCLE ;
+ноэ		PCLE ;
+ни		Neg ; !proclitic
 ныдтҍ	PCLE ;
-ныдтҍ-и PCLE ;!should be derived by a rule
 тэль	PCLE ;!!bound variant -дель
 па̄ссьпэ	PCLE ;
 пока	PCLE-Rus ;
@@ -55,7 +62,6 @@ LEXICON Particle
 дак         PCLE "дак" ;
 так			PCLE "так" ;
 господин    PCLE "господин" ;
-ли          PCLE "ли" ; !!might also be the verb лӣ
 ну          PCLE "ну" ; !!might also be an inherited Saami particle
 оказывается PCLE "оказывается" ;
 правда      PCLE "правда" ;
@@ -75,4 +81,3 @@ LEXICON Particle
 !да простэ "да просто" ;
 !ну раз ;
 !ну яснэ "ну ясно" ;
-!ну-и "ну и" ;
