@@ -27,10 +27,10 @@ LEXICON K
 +Clt+Гэсь:-гэсь # ;   ! Function to be determined
 +Clt+Дэ:-дэ # ;       ! Attaches to various hosts; < Russian -то
 +Clt+Жэ:-жэ # ;       ! 'also'; < Russian же
++Clt+И:-и # ;         ! Attaches to various hosts; < Russian и
++Clt+Ле:-ле # ;       ! Attaches to various hosts; < Russian ли
 +Clt+Ляньч:-ляньч # ; ! Attaches to interrogatives, deriving indefinite forms
 +Clt+Не:-не # ;       ! Attaches to interrogatives, deriving indefinite forms
-
-!ни- !attaches to question words (adverbs and pronouns), deriving negative forms
 
 !attaches to nouns, clitic form of DEM, inflects in all cases and numbers in agreement with the noun, meaning similar to Russian '=то'
 !SG

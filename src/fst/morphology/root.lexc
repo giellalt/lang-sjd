@@ -21,7 +21,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 ! Vowel letters with combining macron lacking precomposed Unicode equivalents
 а̄ А̄ е̄ Е̄ ё̄ Ё̄ о̄ О̄ ы̄ Ы̄ э̄ Э̄ ю̄ Ю̄ я̄ Я̄
 
-! POS
+! Parts of speech
 +N +V +Adj
 +Adv +CC +CS +Interj +Pcle +Pron +Num
 +Pers +Rel +Refl +Det +Interr
@@ -48,7 +48,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 ! Clitics
 +Clt 
-+Жэ 
++Ле +Жэ +Гэсь +Дэ +И +Ляньч +Не +Бэ
 
 ! Punctuation
 +CLB
