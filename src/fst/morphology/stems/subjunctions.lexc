@@ -12,24 +12,52 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
+! Kildin Saami finite-state morphology
+! Originally developed within Divvun & Giellatekno
+! Copyright © 2000–2018 The University of Tromsø
+!                       & the Norwegian Sámi Parliament
+!
+! SPDX-License-Identifier: GPL-3.0-or-later
+!
+! Original project websites:
+! https://giellatekno.uit.no/
+! https://divvun.no/
+
+! ------------ !
+! Subjunctions
+! ------------ !
+
+!! Subjunctions are assigned the morphological tag +CS.
+!! The continuation lexicon CS terminates the wordform.
+!! Complex subjunctions are entered as separate lexical items.
+
 LEXICON CS
-+CS: # ; !! no +CS: K ; because complex CS's go into the lexicon
++CS: # ;
+
+
+!! Forms marked for exclusion from normative use.
 
 LEXICON Cs_elid
 +CS+Use/Elid: # ;
 
+
+!! Lexical entries
+
 LEXICON Subjunction
-го     CS "что / that   " ; !! Check this 
-гу     CS "как / like   " ; !! Check this, adverb?
-еслэ      CS "если / if            " ;
-коале CS ;
-коаль Cs_elid ; 
-куэссь CS "когда / when " ; !! Check this, adverb?
-потомуштэ CS "потому что / because " ;
-штоб Cs_elid ;
-штобэ CS ;
-штэ       CS "что / that           " ;
 
-!да !!check да as subjunction
-!если … так и … !!check complex subjunction 
+го          CS       "that" ;
+гу          CS       "like" ; !! to disambiguate from "like Adv"?
+еслэ        CS       "if" ;
+коале       CS       "if" ;
+коаль       Cs_elid ;
+куэссь      CS       "when" ;
+потомуштэ   CS       "because" ;
+штобэ       CS ;
+штоб        Cs_elid ;
+штэ         CS       "that" ;
 
+
+!! TODO
+!!
+!! Check whether да also functions as a subjunction.
+!! Check complex subjunctions, e.g. если … так и …
