@@ -18,8 +18,8 @@
 
 Multichar_Symbols  !!≈ # Definitions for @CODE@
 
-! Combined letter+diachritics in the alphabet
-	е̄ Е̄ ё̄ Ё̄ о̄ О̄ э̄ Э̄ ю̄ Ю̄ я̄ Я̄ 
+! Vowel letters with combining macron lacking precomposed Unicode equivalents
+а̄ А̄ е̄ Е̄ ё̄ Ё̄ о̄ О̄ ы̄ Ы̄ э̄ Э̄ ю̄ Ю̄ я̄ Я̄
 
 ! POS
 +N +V +Adj
