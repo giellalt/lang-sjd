@@ -16,27 +16,22 @@
 ! Clitics !
 ! ------- !
 
+!! Clitics are treated as a subclass of particles distinguished by their
+!! syntactic distribution. This lexicon contains only clitics that are
+!! phonologically dependent on their host. Other particles with clitic-like
+!! syntactic properties are listed in particles.lexc.
+
 LEXICON K
 : # ;
-+Clt+Жэ:-жэ # ;
++Clt+Бэ:-бэ # ;       ! Attaches to conditional verb forms; possibly a suffix
++Clt+Гэсь:-гэсь # ;   ! Function to be determined
++Clt+Дэ:-дэ # ;       ! Attaches to various hosts; < Russian -то
++Clt+Жэ:-жэ # ;       ! 'also'; < Russian же
++Clt+Ляньч:-ляньч # ; ! Attaches to interrogatives, deriving indefinite forms
++Clt+Не:-не # ;       ! Attaches to interrogatives, deriving indefinite forms
 
-!+Clitic # ; !"clitic" is not a gloss
-!
-!LEXICON Clitic
-!-гэсь:-гэсь K ;
-!+Cl:%>-гэсь 
+!ни- !attaches to question words (adverbs and pronouns), deriving negative forms
 
-!attaches to question words (adverbs and pronouns), deriving indefinite forms
-!ни- 
-!-не
-!-ля̄ннч
-!
-!attaches to everything, meaning 'also'
-!-шэ
-!
-!attaches to verbs inflected in conditional mood and should perhaps be analyzed as a suffix
-!-пэ
-!
 !attaches to nouns, clitic form of DEM, inflects in all cases and numbers in agreement with the noun, meaning similar to Russian '=то'
 !SG
 !дэдт
@@ -57,9 +52,3 @@ LEXICON K
 !
 !??Ess
 !??Part
-!
-!Russian clitic occurring in Kildin spoken texts, attaches to everything, meaning similar to Russian '=то'
-!-то
-!
-!Russian clitic occurring in Kildin spoken texts, attaches to everything, meaning similar to Russian '=же'
-!-же
