@@ -14,54 +14,91 @@
 
 !! # Kildin Saami noun inflection
 
+LEXICON 4DА  !!= @CODE@
++N: 4DA_INFLECTION ;
+
+LEXICON 4DA_INFLECTION
++Sg+Nom:%^WG         K_SG_NOM ; 
++Sg+Gen:%^DI%>э      K_SG_GEN ;
++Sg+Acc:%^WG         K_SG_ACC ;
++Sg+Ess:%>энҍ        K_SG_ESS ;
++Sg+Loc:%^WG%>эсьт   K_SG_LOC ;
++Sg+Ill:%^DI%>а      K_SG_ILL ; 
++Sg+Abe:%^WG%>ха     K_SG_ABE ;
++Sg+Com:%^WG%>энҍ    K_SG_COM ;
+
++Pl+Nom:%^WG         K_PL_NOM ;
++Pl+Acc:%^WG%>этҍ    K_PL_ACC ;
++Pl+Loc:%^WG%>энҍ    K_PL_LOC ;
++Pl+Abe:%^WG%>эха    K_PL_ABE ;
++Pl+Com:%^WG%>эгуэйм K_PL_COM ;
+
 LEXICON N2-CLU-JE
-+N+Sg+Nom:%>0 K ;
-+N+Sg+Ill:%^CLDPAL%>а K ;
-+N+Pl+Nom:%^WG%>0 K ;
++N: N2-CLU-JE_INFLECTION ;
+
+LEXICON N2-CLU-JE_INFLECTION
++Sg+Nom:%>0 K_SG_NOM ;
++Sg+Ill:%^CLDPAL%>а K_SG_ILL ;
++Pl+Nom:%^WG%>0 K_PL_NOM ;
 
 LEXICON N2-AFF
-+N+Sg+Nom:%>0 K ;
-+N+Sg+Ill:%>а K ;
-+N+Pl+Nom:%^WG%>0 K ;
++N: N2-AFF_INFLECTION ;
+
+LEXICON N2-AFF_INFLECTION
++Sg+Nom:%>0 K_SG_NOM ;
++Sg+Ill:%>а K_SG_ILL ;
++Pl+Nom:%^WG%>0 K_PL_NOM ;
 
 LEXICON N2-GEM !кӯлль - куэлла - кӯле
-+N+Sg+Nom:%>0 K ;
-+N+Sg+Gen:%^WG%>0 K ;
-+N+Sg+Acc:%^WG%>0 K ;
-!+N+Sg+Ill:%>а K ;
-+N+Sg+Loc:%^WG%>есьт K ;
-+N+Sg+Com:%^WG%>енҍ K ;
-+N+Sg+Abe:%^WG%>ха K ;
-+N+Sg+Ess:%>енҍ K ;
-+N+Sg+Par:%>е K ;
-+N+Pl+Nom:%^WG%>0 K ;
-+N+Pl+Gen:%^WG%>е K ;
-+N+Pl+Acc:%^WG%>етҍ K ;
-+N+Pl+Ill:%^WG%>етҍ K ;
-+N+Pl+Loc:%^WG%>енҍ K ;
-+N+Pl+Com:%^WG%>егуэйм K ;
-+N+Pl+Abe:%^WG%>еха K ;
++N: N2_GEM_INFLECTION ;
+
+LEXICON N2_GEM_INFLECTION
++Sg+Nom:%>0 K_SG_NOM ;
++Sg+Gen:%^WG%>0 K_SG_GEN ;
++Sg+Acc:%^WG%>0 K_SG_ACC ;
+!+Sg+Ill:%>а K_SG_ILL ;
++Sg+Loc:%^WG%>есьт K_SG_LOC ;
++Sg+Com:%^WG%>енҍ K_SG_COM ;
++Sg+Abe:%^WG%>ха K_SG_ABE ;
++Sg+Ess:%>енҍ K_SG_ESS ;
++Sg+Par:%>е K_SG_PAR ;
++Pl+Nom:%^WG%>0 K_PL_NOM ;
++Pl+Gen:%^WG%>е K_PL_GEN ;
++Pl+Acc:%^WG%>етҍ K_PL_ACC ;
++Pl+Ill:%^WG%>етҍ K_PL_ILL ;
++Pl+Loc:%^WG%>енҍ K_PL_LOC ;
++Pl+Com:%^WG%>егуэйм K_PL_COM ;
++Pl+Abe:%^WG%>еха K_PL_ABE ;
 
 LEXICON KOOREB
-+N+Sg+Nom:%>0 K ;
-+N+Sg+Ill:%^EPHV%>а K ;
-+N+Sg+Loc:%^EPHV%>эсьт K ;
++N: KOOREB_INFLECTION ;
+
+LEXICON KOOREB_INFLECTION
++Sg+Nom:%>0 K_SG_NOM ;
++Sg+Ill:%^EPHV%>а K_SG_ILL ;
++Sg+Loc:%^EPHV%>эсьт K_SG_LOC ;
 
 LEXICON KNIIGA
-+N+Sg+Nom: K ;
-+N+Sg+Gen: K ;
-+N+Sg+Acc: K ;
-+N+Pl+Nom: K ;
-+N+Pl+Gen: K ;
-+N+Pl+Acc:%>тҍ K ;
++N: KNIIGA_INFLECTION ;
+
+LEXICON KNIIGA_INFLECTION
++Sg+Nom: K_SG_NOM ;
++Sg+Gen: K_SG_GEN ;
++Sg+Acc: K_SG_ACC ;
++Pl+Nom: K_PL_NOM ;
++Pl+Gen: K_PL_GEN ;
++Pl+Acc:%>тҍ K_PL_ACC ;
 
 LEXICON SYJJT
-+N+Sg+Nom: K ;
-+N+SG+Gen:%^WG K ;
-+N+Sg+Acc:%^WG K ;
-+N+Sg+Ill:%>а K ;
-+N+Pl+Nom:%^WG K ;
-+N+Pl+Loc:%^WG%>энҍ K ;
++N: SYJJT_INFLECTION ;
+
+LEXICON SYJJT_INFLECTION
++Sg+Nom: K_SG_NOM ;
++Sg+Gen:%^WG K_SG_GEN ;
++Sg+Acc:%^WG K_SG_ACC ;
++Sg+Ill:%>а K_SG_ILL ;
++Pl+Nom:%^WG K_PL_NOM ;
++Pl+Loc:%^WG%>энҍ K_PL_LOC ;
 
 LEXICON PIIŊŊK !Ill depal, -e
 +N:     SgNomSuf    ;
@@ -175,23 +212,6 @@ LEXICON 4D  !!= @CODE@ is contract
      +N:%^MON     PlAbeSuf    ; ! Лишит.
      +N:%^MON     PlComSuf    ; ! Совм.
 
-LEXICON 4DА  !!= @CODE@
- +N+Sg+Nom:%^WG         K ; ! Им.
- +N+Sg+Gen:%^DI%>э      K ; ! Род.
- +N+Sg+Acc:%^WG         K ; ! Вин.
-    +N+Ess:%>энҍ        K ; ! Превр.
- +N+Sg+Loc:%^WG%>эсьт   K ; ! Местн.
- +N+Sg+Ill:%^DI%>а      K ; ! Дат.-напр
- +N+Sg+Ela:%^WG%>ха     K ; ! Лишит.
- +N+Sg+Com:%^WG%>энҍ    K ; ! Совм.
-    +N+Sg+Par:%>ко         K ; ! Not in Kuruch
-
- +N+Pl+Nom:%^WG         K ; ! Им.
- +N+Pl+Acc:%^WG%>этҍ    K ; ! Вин.
- +N+Pl+Loc:%^WG%>энҍ    K ; ! Местн.
- +N+Pl+Ela:%^WG%>эха    K ; ! Лишит.
- +N+Pl+Com:%^WG%>эгуэйм K ; ! Совм.
-
 LEXICON 5D  !!= @CODE@ goes to 1DA
   1DA ;
 
@@ -205,73 +225,72 @@ LEXICON ELAN_N  !!= @CODE@ is all the words from ELAN_N, we just point them to 1
 !! ## Case affixes
 
 LEXICON SgNomSuf !!= @CODE@
- +Sg+Nom:%>0 K ; ! Им.
+ +Sg+Nom:%>0 K_SG_NOM ;
  
 LEXICON SgGenAccPlNomGenSuf
-+Pl+Nom:%>э K ;
- +Sg+Gen:%>э K ; ! Род.
- +Sg+Acc:%>э K ; ! Вин.
- +Pl+Gen:%>э K ; 
++Pl+Nom:%>э K_PL_NOM ;
+ +Sg+Gen:%>э K_SG_GEN ;
+ +Sg+Acc:%>э K_SG_ACC ;
+ +Pl+Gen:%>э K_PL_GEN ; 
 
 LEXICON SgGenAccSuf !!= @CODE@
- +Sg+Gen:%>0 K ; ! Род.
- +Sg+Acc:%>0 K ; ! Вин.
+ +Sg+Gen:%>0 K_SG_GEN ;
+ +Sg+Acc:%>0 K_SG_ACC ;
 
 LEXICON EssSuf !!= @CODE@
- +Ess:%>энҍ K ;
++Sg+Ess:%>энҍ K_SG_ESS ;
 !! Превр. !check here and elsewhere whether the palatal-mark-deletion-rule is really needed here (it's already included above)
 
 LEXICON ParSufE  !!= @CODE@
- +Sg+Par:%>э K ; ! Парт.
+ +Sg+Par:%>э K_SG_PAR ;
 
 LEXICON ParSufHalfE  !!= @CODE@
- +Sg+Par:%>ӭ K ; !they are allomorphs only in orthography
+ +Sg+Par:%>ӭ K_SG_PAR ; !they are allomorphs only in orthography and should be modelled in TWOLC instead
  
 LEXICON ParSufJEDDJE
-+Sg+Par:%>едтӭ K ;
++Sg+Par:%>едтӭ K_SG_PAR ;
 
 LEXICON SgLocSuf  !!= @CODE@
- +Sg+Loc:%>эсьт K ; ! Местн.
+ +Sg+Loc:%>эсьт K_SG_LOC ;
 
 LEXICON SgIllSufA  !!= @CODE@
- +Sg+Ill:%^DPAL%>а K ;
+ +Sg+Ill:%^DPAL%>а K_SG_ILL ;
 
 LEXICON SgIllSufE !!= @CODE@
- +Sg+Ill:%>э K ;
+ +Sg+Ill:%>э K_SG_ILL ;
 
 LEXICON SgIllSufJE !!= @CODE@
- +Sg+Ill:%>е K ;
+ +Sg+Ill:%>е K_SG_ILL ;
 
 LEXICON SgIllSufHalfE !!= @CODE@
- +Sg+Ill:%>ӭ K ; ! Дат.-напр
+ +Sg+Ill:%>ӭ K_SG_ILL ;
 
 LEXICON SgAbeSuf !!= @CODE@
- +Sg+Abe:%>ха K ; ! Лишит.
+ +Sg+Abe:%>ха K_SG_ABE ;
  
 LEXICON SgAbeSufAHTA
-+Sg+Abe:%>аһта K ;
++Sg+Abe:%>аһта K_SG_ABE ;
 
 LEXICON SgComSuf !!= @CODE@
- +Sg+Com:%>энҍ K ; ! Совм.
+ +Sg+Com:%>энҍ K_SG_COM ;
 
 LEXICON PlNomSuf !!= @CODE@
- +Pl+Nom: K ; ! Им.
+ +Pl+Nom: K_PL_NOM ;
 
 LEXICON PlGenSuf !!= @CODE@
- +Pl+Gen:%>э   K ;
- +Pl+Gen:%>этҍ K ; !innovative variant identical to PlAccSuf
+ +Pl+Gen:%>э   K_PL_GEN ;
 
 LEXICON PlAccSuf !!= @CODE@
- +Pl+Acc:%>этҍ K ; ! Вин.
+ +Pl+Acc:%>этҍ K_PL_ACC ;
 
 LEXICON PlIllSuf !!= @CODE@
- +Pl+Ill:%>этҍ K ; ! Местн.
+ +Pl+Ill:%>этҍ K_PL_ILL ;
 
 LEXICON PlLocSuf !!= @CODE@
- +Pl+Loc:%>энҍ K ; ! Местн.
+ +Pl+Loc:%>энҍ K_PL_LOC ;
 
 LEXICON PlAbeSuf !!= @CODE@
- +Pl+Abe:%>эха K ; ! Лишит.
+ +Pl+Abe:%>эха K_PL_ABE ;
 
 LEXICON PlComSuf !!= @CODE@
- +Pl+Com:%>эгуэйм K ; ! Совм.
+ +Pl+Com:%>эгуэйм K_PL_COM ;

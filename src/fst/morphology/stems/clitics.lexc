@@ -23,32 +23,81 @@
 
 LEXICON K
 : # ;
-+Clt+Бэ:-бэ # ;       ! Attaches to conditional verb forms; possibly a suffix
++Clt+Бэ:-бэ # ;       ! Attaches to conditional verb forms; possibly a suffix; < Russian бы
 +Clt+Гэсь:-гэсь # ;   ! Function to be determined
 +Clt+Дэ:-дэ # ;       ! Attaches to various hosts; < Russian -то
-+Clt+Жэ:-жэ # ;       ! 'also'; < Russian же
++Clt+Жэ:-жэ # "also" ;! Attaches to various hosts; < Russian же
 +Clt+И:-и # ;         ! Attaches to various hosts; < Russian и
 +Clt+Ле:-ле # ;       ! Attaches to various hosts; < Russian ли
 +Clt+Ляньч:-ляньч # ; ! Attaches to interrogatives, deriving indefinite forms
 +Clt+Не:-не # ;       ! Attaches to interrogatives, deriving indefinite forms
 
-!attaches to nouns, clitic form of DEM, inflects in all cases and numbers in agreement with the noun, meaning similar to Russian '=то'
-!SG
-!дэдт
-!дэнн
-!дэнн
-!дэз
-!дэсьт
-!дэйн
-!дэннха
-!
-!PL
-!дэгк
-!дэйт
-!дэйт
-!дэйнэнҍ
-!дэйтгуэйм
-!дэйтха
-!
-!??Ess
-!??Part
+!! Inflecting demonstrative enclitics attach to nouns and agree with
+!! their hosts in case and number. The continuation lexica enforce
+!! this agreement by restricting each enclitic form to the corresponding
+!! case-number combination of its host.
+
+LEXICON K_SG_NOM
+K ;
++Clt+Dem+Sg+Nom:-дэдт K ;
+
+LEXICON K_SG_GEN
+K ;
++Clt+Dem+Sg+Gen:-дэнн K ;
+
+LEXICON K_SG_ACC
+K ;
++Clt+Dem+Sg+Acc:-дэнн K ;
+
+LEXICON K_SG_ILL
+K ;
++Clt+Dem+Sg+Ill:-дэз K ;
+
+LEXICON K_SG_LOC
+K ;
++Clt+Dem+Sg+Loc:-дэсьт K ;
+
+LEXICON K_SG_COM
+K ;
++Clt+Dem+Sg+Com:-дэйн K ;
+
+LEXICON K_SG_ABE
+K ;
++Clt+Dem+Sg+Abe:-дэннха K ;
+
+LEXICON K_SG_ESS
+K ;
++Clt+Dem+Sg+Ess:-дэйн K ;
+
+LEXICON K_SG_PAR
+K ;
++Clt+Dem+Sg+Par:-дэдҍ K ;
+
+LEXICON K_PL_NOM
+K ;
++Clt+Dem+Pl+Nom:-дэгк K ;
+
+LEXICON K_PL_GEN
+K ;
++Clt+Dem+Pl+Gen:-дэйт K ;
++Clt+Dem+Pl+Gen:-дэе K ; !?
+
+LEXICON K_PL_ACC
+K ;
++Clt+Dem+Pl+Acc:-дэйт K ;
+
+LEXICON K_PL_ILL
+K ;
++Clt+Dem+Pl+Ill:-дэйт K ;
+
+LEXICON K_PL_LOC
+K ;
++Clt+Dem+Pl+Loc:-дэйн K ;
+
+LEXICON K_PL_COM
+K ;
++Clt+Dem+Pl+Com:-дэегуэйм K ;
+
+LEXICON K_PL_ABE
+K ;
++Clt+Dem+Pl+Abe:-дэеха K ;
