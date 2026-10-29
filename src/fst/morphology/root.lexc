@@ -46,6 +46,10 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 +Card +Ord
 +Prop +Sem/Ani +Sem/Mal +Sem/Fem +Sem/Sur +Sem/Plc +Sem/Org +Sem/Obj ! Semantic properties of names
 
+! Clitics
++Clt 
++Жэ 
+
 ! Punctuation
 +CLB
 +PUNCT

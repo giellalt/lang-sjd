@@ -36,6 +36,7 @@ GT_LEXC_SRCS_L1_L2=\
 				stems/adjectives.lexc \
 				stems/adpositions.lexc \
 				stems/adverbs.lexc \
+				stems/clitics.lexc \
 				stems/conjunctions.lexc \
 				stems/interjections.lexc \
 				stems/nouns.lexc \
@@ -48,8 +49,7 @@ GT_LEXC_SRCS_L1_L2=\
 				affixes/adjectives.lexc \
 				affixes/nouns.lexc \
 				affixes/symbols.lexc     \
-				affixes/verbs.lexc \
-				clitics.lexc 
+				affixes/verbs.lexc  
 
 # If you are building an error-detecting L2 analyser, specify the lexc files
 # that differ between the regular L1 and the L2 analysers below, in L1 and
