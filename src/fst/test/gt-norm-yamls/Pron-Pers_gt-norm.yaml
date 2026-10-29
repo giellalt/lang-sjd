@@ -1,10 +1,10 @@
 Config:
   hfst:
-    Gen: ../../../src/generator-gt-norm.hfst
-    Morph: ../../../src/analyser-gt-norm.hfst
+    Gen: ../../generator-gt-norm.hfst
+    Morph: ../../analyser-gt-norm.hfst
   xerox:
-    Gen: ../../../src/generator-gt-norm.xfst
-    Morph: ../../../src/analyser-gt-norm.xfst
+    Gen: ../../src/generator-gt-norm.xfst
+    Morph: ../../src/analyser-gt-norm.xfst
     App: lookup
 
 Tests:
@@ -68,3 +68,6 @@ Tests:
     со̄нн+Pron+Pers+Pl+Com: сӣнэгуэйм
     со̄нн+Pron+Pers+Pl+Abe: сӣнэха
     со̄нн+Pron+Pers+Pl+Ess: сӣннэнҍ
+
+  Personal pronoun with clitic - мунн-жэ:
+    мунн+Pron+Pers+Sg1+Nom+Clt+Жэ: мунн-жэ
